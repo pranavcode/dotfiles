@@ -1,0 +1,262 @@
+;; Object container/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "container/"
+  :tables
+  (list
+    (semanticdb-table "container_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_CONTAINER_CONTAINER_FWD_HPP" variable (:constant-flag t) nil [476 509])
+            ("boost/container/detail/std_fwd.hpp" include (:system-flag t) nil [1526 1574])
+            ("boost" type
+               (:members 
+                  ( ("intrusive" type (:type "namespace") (reparse-symbol namespacesubparts) [1600 1672]))                  
+                :type "namespace")
+                nil [1583 1673])
+            ("boost" type
+               (:members 
+                  ( ("container" type
+                       (:members 
+                          ( ("container_detail" type
+                               (:members 
+                                  ( ("bi" type
+                                       (:kind alias
+                                        :members 
+                                          ( ("boost::intrusive" type (:type "namespace") nil nil))                                          
+                                        :type "namespace")
+                                        (reparse-symbol namespacesubparts) [1744 1776]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1713 1778]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1692 1779]))                  
+                :type "namespace")
+                nil [1675 1780])
+            ("cstddef" include (:system-flag t) nil [1782 1800])
+            ("boost" type
+               (:members 
+                  ( ("container" type
+                       (:members 
+                          ( ("tree_type_enum" type
+                               (:members 
+                                  ( ("red_black_tree" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [2227 2242])
+                                    ("avl_tree" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [2246 2255])
+                                    ("scapegoat_tree" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [2259 2274])
+                                    ("splay_tree" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [2278 2290]))                                  
+                                :type "enum")
+                                (reparse-symbol namespacesubparts) [2202 2291])
+                            ("vector" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [2400 2413])
+                            ("stable_vector" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [2481 2501])
+                            ("static_vector" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("std::size_t" type nil nil nil))                                  
+                                :type "class"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [2503 2564])
+                            ("deque" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [2632 2644])
+                            ("list" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [2712 2723])
+                            ("slist" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [2791 2803])
+                            ("tree_opt" type
+                               (:template 
+                                  ( ("tree_type_enum" type nil nil nil)
+                                    ("bool" type nil nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [2805 2874])
+                            ("tree_assoc_defaults" type
+                               (:typedef ("tree_opt" type
+                                     (:template-specifier 
+                                        ( ("red_black_tree" type nil nil nil)
+                                          ("true" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [2876 2935])
+                            ("set" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [3095 3105])
+                            ("multiset" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [3265 3280])
+                            ("map" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [3479 3489])
+                            ("multimap" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [3688 3703])
+                            ("flat_set" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [3817 3832])
+                            ("flat_multiset" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [3946 3966])
+                            ("flat_map" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [4113 4128])
+                            ("flat_multimap" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [4275 4295])
+                            ("basic_string" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [4421 4440])
+                            ("string" type
+                               (:typedef ("basic_string" type
+                                     (:template-specifier 
+                                        ( ("char" type nil nil nil)
+                                          ("std::char_traits" type nil nil nil)
+                                          ("std::allocator" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [4442 4533])
+                            ("wstring" type
+                               (:typedef ("basic_string" type
+                                     (:template-specifier 
+                                        ( ("wchar_t" type nil nil nil)
+                                          ("std::char_traits" type nil nil nil)
+                                          ("std::allocator" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [4535 4636])
+                            ("ADP_nodes_per_block" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "256u"
+                                :type ("std::size_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4638 4693])
+                            ("ADP_max_free_blocks" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "2u"
+                                :type ("std::size_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4694 4747])
+                            ("ADP_overhead_percent" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "1u"
+                                :type ("std::size_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4748 4801])
+                            ("ADP_only_alignment" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "0u"
+                                :type ("std::size_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4802 4855])
+                            ("adaptive_pool" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [5103 5123])
+                            ("allocator" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [5227 5243])
+                            ("NodeAlloc_nodes_per_block" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "256u"
+                                :type ("std::size_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [5245 5303])
+                            ("node_allocator" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [5416 5437])
+                            ("ordered_range_t" type (:type "struct") (reparse-symbol namespacesubparts) [5745 5771])
+                            ("ordered_range" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "ordered_range_t()"
+                                :type ("ordered_range_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [5848 5911])
+                            ("ordered_unique_range_t" type
+                               (:superclasses 
+                                  ( ("ordered_range_t" type
+                                       (:protection "public"
+                                        :type "class")
+                                        nil nil))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [5998 6059])
+                            ("ordered_unique_range" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "ordered_unique_range_t()"
+                                :type ("ordered_unique_range_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [6147 6231])
+                            ("default_init_t" type (:type "struct") (reparse-symbol namespacesubparts) [6313 6338])
+                            ("default_init" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "default_init_t()"
+                                :type ("default_init_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [6421 6481])
+                            ("value_init_t" type (:type "struct") (reparse-symbol namespacesubparts) [6601 6624])
+                            ("value_init" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "value_init_t()"
+                                :type ("value_init_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [6705 6759])
+                            ("container_detail_really_deep_namespace" type
+                               (:members 
+                                  ( ("dummy" type
+                                       (:members 
+                                          ( ("dummy" function
+                                               (:constructor-flag t
+                                                :type ("dummy" type (:type "struct") nil nil))
+                                                (reparse-symbol classsubparts) [6928 7032]))                                          
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [6910 7035]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [6761 7038]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2073 7128]))                  
+                :type "namespace")
+                nil [2055 7129]))          
+      :file "container_fwd.hpp"
+      :pointmax 7225
+      :fsize 7224
+      :lastmodtime '(21727 6064 0 0)
+      :unmatched-syntax '((punctuation 5414 . 5415) (number 5413 . 5414) (punctuation 5411 . 5412) (symbol 5403 . 5410) (symbol 5396 . 5402) (punctuation 5395 . 5396) (punctuation 5394 . 5395) (symbol 5391 . 5394) (punctuation 5389 . 5390) (symbol 5360 . 5385) (punctuation 5358 . 5359) (symbol 5344 . 5357) (symbol 5337 . 5343) (punctuation 5336 . 5337) (punctuation 5335 . 5336) (symbol 5332 . 5335) (punctuation 5330 . 5331) (symbol 5325 . 5326) (CLASS 5319 . 5324) (punctuation 5317 . 5318) (TEMPLATE 5305 . 5313) (punctuation 5225 . 5226) (number 5224 . 5225) (punctuation 5222 . 5223) (symbol 5200 . 5221) (INT 5196 . 5199) (UNSIGNED 5187 . 5195) (punctuation 5185 . 5186) (number 5174 . 5175) (punctuation 5172 . 5173) (symbol 5164 . 5171) (UNSIGNED 5155 . 5163) (punctuation 5153 . 5154) (symbol 5142 . 5143) (CLASS 5136 . 5141) (punctuation 5134 . 5135) (TEMPLATE 5125 . 5133) (punctuation 5101 . 5102) (number 5090 . 5091) (punctuation 5088 . 5089) (symbol 5080 . 5087) (UNSIGNED 5071 . 5079) (punctuation 5069 . 5070) (symbol 5039 . 5059) (punctuation 5037 . 5038) (symbol 5021 . 5036) (symbol 5014 . 5020) (punctuation 5013 . 5014) (punctuation 5012 . 5013) (symbol 5009 . 5012) (punctuation 5007 . 5008) (symbol 4978 . 4997) (punctuation 4976 . 4977) (symbol 4960 . 4973) (symbol 4953 . 4959) (punctuation 4952 . 4953) (punctuation 4951 . 4952) (symbol 4948 . 4951) (punctuation 4946 . 4947) (symbol 4917 . 4936) (punctuation 4915 . 4916) (symbol 4899 . 4912) (symbol 4892 . 4898) (punctuation 4891 . 4892) (punctuation 4890 . 4891) (symbol 4887 . 4890) (punctuation 4885 . 4886) (symbol 4874 . 4875) (CLASS 4868 . 4873) (punctuation 4866 . 4867) (TEMPLATE 4857 . 4865) (punctuation 4419 . 4420) (punctuation 4417 . 4418) (symbol 4412 . 4417) (punctuation 4411 . 4412) (symbol 4402 . 4411) (punctuation 4401 . 4402) (punctuation 4400 . 4401) (symbol 4397 . 4400) (punctuation 4395 . 4396) (symbol 4384 . 4393) (CLASS 4378 . 4383) (punctuation 4377 . 4378) (punctuation 4366 . 4367) (symbol 4361 . 4366) (punctuation 4360 . 4361) (symbol 4349 . 4360) (punctuation 4348 . 4349) (punctuation 4347 . 4348) (symbol 4344 . 4347) (punctuation 4342 . 4343) (symbol 4335 . 4341) (CLASS 4329 . 4334) (punctuation 4328 . 4329) (symbol 4313 . 4318) (CLASS 4307 . 4312) (punctuation 4306 . 4307) (TEMPLATE 4297 . 4305) (punctuation 4273 . 4274) (punctuation 4271 . 4272) (punctuation 4269 . 4270) (symbol 4268 . 4269) (punctuation 4266 . 4267) (symbol 4263 . 4266) (punctuation 4262 . 4263) (symbol 4258 . 4262) (punctuation 4257 . 4258) (punctuation 4256 . 4257) (symbol 4253 . 4256) (punctuation 4252 . 4253) (symbol 4243 . 4252) (punctuation 4242 . 4243) (punctuation 4241 . 4242) (symbol 4238 . 4241) (punctuation 4236 . 4237) (symbol 4226 . 4235) (CLASS 4220 . 4225) (punctuation 4219 . 4220) (punctuation 4208 . 4209) (symbol 4205 . 4208) (punctuation 4204 . 4205) (symbol 4200 . 4204) (punctuation 4199 . 4200) (punctuation 4198 . 4199) (symbol 4195 . 4198) (punctuation 4193 . 4194) (symbol 4184 . 4191) (CLASS 4178 . 4183) (punctuation 4177 . 4178) (symbol 4166 . 4167) (CLASS 4160 . 4165) (punctuation 4159 . 4160) (symbol 4146 . 4149) (CLASS 4140 . 4145) (punctuation 4139 . 4140) (TEMPLATE 4130 . 4138) (punctuation 4111 . 4112) (punctuation 4109 . 4110) (punctuation 4107 . 4108) (symbol 4106 . 4107) (punctuation 4104 . 4105) (symbol 4101 . 4104) (punctuation 4100 . 4101) (symbol 4096 . 4100) (punctuation 4095 . 4096) (punctuation 4094 . 4095) (symbol 4091 . 4094) (punctuation 4090 . 4091) (symbol 4081 . 4090) (punctuation 4080 . 4081) (punctuation 4079 . 4080) (symbol 4076 . 4079) (punctuation 4074 . 4075) (symbol 4064 . 4073) (CLASS 4058 . 4063) (punctuation 4057 . 4058) (punctuation 4046 . 4047) (symbol 4043 . 4046) (punctuation 4042 . 4043) (symbol 4038 . 4042) (punctuation 4037 . 4038) (punctuation 4036 . 4037) (symbol 4033 . 4036) (punctuation 4031 . 4032) (symbol 4022 . 4029) (CLASS 4016 . 4021) (punctuation 4015 . 4016) (symbol 4004 . 4005) (CLASS 3998 . 4003) (punctuation 3997 . 3998) (symbol 3984 . 3987) (CLASS 3978 . 3983) (punctuation 3977 . 3978) (TEMPLATE 3968 . 3976) (punctuation 3944 . 3945) (punctuation 3942 . 3943) (symbol 3939 . 3942) (punctuation 3938 . 3939) (symbol 3929 . 3938) (punctuation 3928 . 3929) (punctuation 3927 . 3928) (symbol 3924 . 3927) (punctuation 3922 . 3923) (symbol 3912 . 3921) (CLASS 3906 . 3911) (punctuation 3905 . 3906) (punctuation 3894 . 3895) (symbol 3891 . 3894) (punctuation 3890 . 3891) (symbol 3886 . 3890) (punctuation 3885 . 3886) (punctuation 3884 . 3885) (symbol 3881 . 3884) (punctuation 3879 . 3880) (symbol 3870 . 3877) (CLASS 3864 . 3869) (punctuation 3863 . 3864) (symbol 3850 . 3853) (CLASS 3844 . 3849) (punctuation 3843 . 3844) (TEMPLATE 3834 . 3842) (punctuation 3815 . 3816) (punctuation 3813 . 3814) (symbol 3810 . 3813) (punctuation 3809 . 3810) (symbol 3800 . 3809) (punctuation 3799 . 3800) (punctuation 3798 . 3799) (symbol 3795 . 3798) (punctuation 3793 . 3794) (symbol 3783 . 3792) (CLASS 3777 . 3782) (punctuation 3776 . 3777) (punctuation 3765 . 3766) (symbol 3762 . 3765) (punctuation 3761 . 3762) (symbol 3757 . 3761) (punctuation 3756 . 3757) (punctuation 3755 . 3756) (symbol 3752 . 3755) (punctuation 3750 . 3751) (symbol 3741 . 3748) (CLASS 3735 . 3740) (punctuation 3734 . 3735) (symbol 3721 . 3724) (CLASS 3715 . 3720) (punctuation 3714 . 3715) (TEMPLATE 3705 . 3713) (punctuation 3686 . 3687) (symbol 3666 . 3685) (punctuation 3664 . 3665) (symbol 3656 . 3663) (CLASS 3650 . 3655) (punctuation 3649 . 3650) (punctuation 3638 . 3639) (punctuation 3636 . 3637) (symbol 3635 . 3636) (punctuation 3633 . 3634) (symbol 3630 . 3633) (CONST 3624 . 3629) (punctuation 3623 . 3624) (symbol 3619 . 3623) (punctuation 3618 . 3619) (punctuation 3617 . 3618) (symbol 3614 . 3617) (punctuation 3613 . 3614) (symbol 3604 . 3613) (punctuation 3603 . 3604) (punctuation 3602 . 3603) (symbol 3599 . 3602) (punctuation 3597 . 3598) (symbol 3587 . 3596) (CLASS 3581 . 3586) (punctuation 3580 . 3581) (punctuation 3569 . 3570) (symbol 3566 . 3569) (punctuation 3565 . 3566) (symbol 3561 . 3565) (punctuation 3560 . 3561) (punctuation 3559 . 3560) (symbol 3556 . 3559) (punctuation 3554 . 3555) (symbol 3545 . 3552) (CLASS 3539 . 3544) (punctuation 3538 . 3539) (symbol 3527 . 3528) (CLASS 3521 . 3526) (punctuation 3520 . 3521) (symbol 3507 . 3510) (CLASS 3501 . 3506) (punctuation 3500 . 3501) (TEMPLATE 3491 . 3499) (punctuation 3477 . 3478) (symbol 3457 . 3476) (punctuation 3455 . 3456) (symbol 3447 . 3454) (CLASS 3441 . 3446) (punctuation 3440 . 3441) (punctuation 3429 . 3430) (punctuation 3427 . 3428) (symbol 3426 . 3427) (punctuation 3424 . 3425) (symbol 3421 . 3424) (CONST 3415 . 3420) (punctuation 3414 . 3415) (symbol 3410 . 3414) (punctuation 3409 . 3410) (punctuation 3408 . 3409) (symbol 3405 . 3408) (punctuation 3404 . 3405) (symbol 3395 . 3404) (punctuation 3394 . 3395) (punctuation 3393 . 3394) (symbol 3390 . 3393) (punctuation 3388 . 3389) (symbol 3378 . 3387) (CLASS 3372 . 3377) (punctuation 3371 . 3372) (punctuation 3360 . 3361) (symbol 3357 . 3360) (punctuation 3356 . 3357) (symbol 3352 . 3356) (punctuation 3351 . 3352) (punctuation 3350 . 3351) (symbol 3347 . 3350) (punctuation 3345 . 3346) (symbol 3336 . 3343) (CLASS 3330 . 3335) (punctuation 3329 . 3330) (symbol 3318 . 3319) (CLASS 3312 . 3317) (punctuation 3311 . 3312) (symbol 3298 . 3301) (CLASS 3292 . 3297) (punctuation 3291 . 3292) (TEMPLATE 3282 . 3290) (punctuation 3263 . 3264) (symbol 3243 . 3262) (punctuation 3241 . 3242) (symbol 3233 . 3240) (CLASS 3227 . 3232) (punctuation 3226 . 3227) (punctuation 3215 . 3216) (symbol 3212 . 3215) (punctuation 3211 . 3212) (symbol 3202 . 3211) (punctuation 3201 . 3202) (punctuation 3200 . 3201) (symbol 3197 . 3200) (punctuation 3195 . 3196) (symbol 3185 . 3194) (CLASS 3179 . 3184) (punctuation 3178 . 3179) (punctuation 3167 . 3168) (symbol 3164 . 3167) (punctuation 3163 . 3164) (symbol 3159 . 3163) (punctuation 3158 . 3159) (punctuation 3157 . 3158) (symbol 3154 . 3157) (punctuation 3152 . 3153) (symbol 3143 . 3150) (CLASS 3137 . 3142) (punctuation 3136 . 3137) (symbol 3123 . 3126) (CLASS 3117 . 3122) (punctuation 3116 . 3117) (TEMPLATE 3107 . 3115) (punctuation 3093 . 3094) (symbol 3073 . 3092) (punctuation 3071 . 3072) (symbol 3063 . 3070) (CLASS 3057 . 3062) (punctuation 3056 . 3057) (punctuation 3045 . 3046) (symbol 3042 . 3045) (punctuation 3041 . 3042) (symbol 3032 . 3041) (punctuation 3031 . 3032) (punctuation 3030 . 3031) (symbol 3027 . 3030) (punctuation 3025 . 3026) (symbol 3015 . 3024) (CLASS 3009 . 3014) (punctuation 3008 . 3009) (punctuation 2997 . 2998) (symbol 2994 . 2997) (punctuation 2993 . 2994) (symbol 2989 . 2993) (punctuation 2988 . 2989) (punctuation 2987 . 2988) (symbol 2984 . 2987) (punctuation 2982 . 2983) (symbol 2973 . 2980) (CLASS 2967 . 2972) (punctuation 2966 . 2967) (symbol 2953 . 2956) (CLASS 2947 . 2952) (punctuation 2946 . 2947) (TEMPLATE 2937 . 2945) (punctuation 2789 . 2790) (punctuation 2787 . 2788) (symbol 2786 . 2787) (punctuation 2785 . 2786) (symbol 2776 . 2785) (punctuation 2775 . 2776) (punctuation 2774 . 2775) (symbol 2771 . 2774) (punctuation 2769 . 2770) (symbol 2759 . 2768) (CLASS 2753 . 2758) (punctuation 2752 . 2753) (symbol 2741 . 2742) (CLASS 2735 . 2740) (punctuation 2734 . 2735) (TEMPLATE 2725 . 2733) (punctuation 2710 . 2711) (punctuation 2708 . 2709) (symbol 2707 . 2708) (punctuation 2706 . 2707) (symbol 2697 . 2706) (punctuation 2696 . 2697) (punctuation 2695 . 2696) (symbol 2692 . 2695) (punctuation 2690 . 2691) (symbol 2680 . 2689) (CLASS 2674 . 2679) (punctuation 2673 . 2674) (symbol 2662 . 2663) (CLASS 2656 . 2661) (punctuation 2655 . 2656) (TEMPLATE 2646 . 2654) (punctuation 2630 . 2631) (punctuation 2628 . 2629) (symbol 2627 . 2628) (punctuation 2626 . 2627) (symbol 2617 . 2626) (punctuation 2616 . 2617) (punctuation 2615 . 2616) (symbol 2612 . 2615) (punctuation 2610 . 2611) (symbol 2600 . 2609) (CLASS 2594 . 2599) (punctuation 2593 . 2594) (symbol 2582 . 2583) (CLASS 2576 . 2581) (punctuation 2575 . 2576) (TEMPLATE 2566 . 2574) (punctuation 2479 . 2480) (punctuation 2477 . 2478) (symbol 2476 . 2477) (punctuation 2475 . 2476) (symbol 2466 . 2475) (punctuation 2465 . 2466) (punctuation 2464 . 2465) (symbol 2461 . 2464) (punctuation 2459 . 2460) (symbol 2449 . 2458) (CLASS 2443 . 2448) (punctuation 2442 . 2443) (symbol 2431 . 2432) (CLASS 2425 . 2430) (punctuation 2424 . 2425) (TEMPLATE 2415 . 2423) (punctuation 2398 . 2399) (punctuation 2396 . 2397) (symbol 2395 . 2396) (punctuation 2394 . 2395) (symbol 2385 . 2394) (punctuation 2384 . 2385) (punctuation 2383 . 2384) (symbol 2380 . 2383) (punctuation 2378 . 2379) (symbol 2368 . 2377) (CLASS 2362 . 2367) (punctuation 2361 . 2362) (symbol 2350 . 2351) (CLASS 2344 . 2349) (punctuation 2343 . 2344) (TEMPLATE 2334 . 2342))
+      :lexical-table 
+        '(("BOOST_CONTAINER_CONTAINER_FWD_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!container!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,76 @@
+;; Object os/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "os/"
+  :tables
+  (list
+    (semanticdb-table "macos.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_MACOS_H" variable (:constant-flag t) nil [254 277])
+            ("boost/predef/os/ios.h" include (:system-flag t) nil [551 583])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [585 625])
+            ("boost/predef/make.h" include (:system-flag t) nil [626 656])
+            ("BOOST_OS_MACOS" variable (:constant-flag t) nil [1072 1086])
+            ("BOOST_OS_MACOS" variable (:constant-flag t) nil [1395 1409])
+            ("BOOST_OS_MACOS_NAME" variable (:constant-flag t) nil [1676 1695])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1706 1743]))          
+      :file "macos.h"
+      :pointmax 1815
+      :fsize 1814
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((close-paren 1804 . 1805) (string "\"Mac OS\"" 1785 . 1804) (punctuation 1784 . 1785) (semantic-list "(10,0,0)" 1770 . 1784) (symbol "BOOST_VERSION_NUMBER" 1770 . 1784) (open-paren 1769 . 1770) (symbol 1744 . 1769) (close-paren 1278 . 1279) (semantic-list 1230 . 1271) (punctuation 1222 . 1223) (punctuation 1221 . 1222) (semantic-list 1209 . 1220) (symbol 1202 . 1209) (punctuation 1200 . 1201) (punctuation 1199 . 1200) (semantic-list 1187 . 1198) (symbol 1180 . 1187))
+      :lexical-table 
+        '(("BOOST_OS_MACOS_NAME" . ((string "\"Mac OS\"" 1696 . 1704)))
+          ("BOOST_PREDEF_OS_MACOS_H")
+          ("BOOST_OS_MACOS" . ((symbol "BOOST_VERSION_NUMBER" 1410 . 1430) (semantic-list "(10,0,0)" 1430 . 1438)))
+          )
+)
+    (semanticdb-table "bsd.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_BSD_H" variable (:constant-flag t) nil [225 246])
+            ("boost/predef/os/macos.h" include (:system-flag t) nil [479 513])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [515 555])
+            ("boost/predef/make.h" include (:system-flag t) nil [556 586])
+            ("boost/predef/os/bsd/bsdi.h" include (:system-flag t) nil [1647 1684])
+            ("boost/predef/os/bsd/dragonfly.h" include (:system-flag t) nil [1685 1727])
+            ("boost/predef/os/bsd/free.h" include (:system-flag t) nil [1728 1765])
+            ("boost/predef/os/bsd/open.h" include (:system-flag t) nil [1766 1803])
+            ("boost/predef/os/bsd/net.h" include (:system-flag t) nil [1804 1840])
+            ("BOOST_OS_BSD" variable (:constant-flag t) nil [1871 1883])
+            ("BOOST_OS_BSD_NAME" variable (:constant-flag t) nil [2767 2784])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [2792 2829]))          
+      :file "bsd.h"
+      :pointmax 2896
+      :fsize 2895
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 2855 . 2887) (symbol 2830 . 2855) (string "\"BSD\"" 2869 . 2886))
+      :lexical-table 
+        '(("BOOST_PREDEF_OS_BSD_H")
+          ("BOOST_OS_BSD" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 1884 . 1918)))
+          ("BOOST_OS_BSD_NAME" . ((string "\"BSD\"" 2785 . 2790)))
+          )
+)
+    (semanticdb-table "ios.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_IOS_H" variable (:constant-flag t) nil [220 241])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [243 283])
+            ("boost/predef/make.h" include (:system-flag t) nil [284 314])
+            ("BOOST_OS_IOS" variable (:constant-flag t) nil [756 768])
+            ("BOOST_OS_IOS_NAME" variable (:constant-flag t) nil [1199 1216])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1224 1261]))          
+      :file "ios.h"
+      :pointmax 1329
+      :fsize 1328
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1287 . 1319) (symbol 1262 . 1287) (string "\"iOS\"" 1301 . 1318))
+      :lexical-table 
+        '(("BOOST_PREDEF_OS_IOS_H")
+          ("BOOST_OS_IOS_NAME" . ((string "\"iOS\"" 1217 . 1222)))
+          ("BOOST_OS_IOS" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 769 . 803)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!predef!os!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

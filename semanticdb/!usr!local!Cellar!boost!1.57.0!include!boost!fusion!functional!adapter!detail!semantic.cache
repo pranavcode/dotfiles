@@ -1,0 +1,167 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "access.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_FUSION_FUNCTIONAL_ADAPTER_DETAIL_ACCESS_HPP_INCLUDED" variable (:constant-flag t) nil [484 542])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("cref" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [740 754]))                                          )
+                                        (reparse-symbol namespacesubparts) [682 757])
+                                    ("cref" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [820 834]))                                          
+                                        :template-specifier 
+                                          ( ("T" type (:reference 1) nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [762 837])
+                                    ("cref" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [900 914]))                                          
+                                        :template-specifier 
+                                          ( ("T" type (:constant-flag t) nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [842 917])
+                                    ("mref" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1055 1069]))                                          )
+                                        (reparse-symbol namespacesubparts) [997 1072])
+                                    ("mref" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1135 1149]))                                          
+                                        :template-specifier 
+                                          ( ("T" type (:reference 1) nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1077 1152])
+                                    ("gref" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1334 1348]))                                          )
+                                        (reparse-symbol namespacesubparts) [1276 1351])
+                                    ("gref" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1414 1428]))                                          
+                                        :template-specifier 
+                                          ( ("T" type (:reference 1) nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1356 1431])
+                                    ("gref" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1494 1508]))                                          
+                                        :template-specifier 
+                                          ( ("T" type (:constant-flag t) nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1436 1511])
+                                    ("qf_c" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("T" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1626 1648]))                                          )
+                                        (reparse-symbol namespacesubparts) [1581 1651])
+                                    ("qf_c" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("T" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1701 1723]))                                          
+                                        :template-specifier 
+                                          ( ("T" type (:constant-flag t) nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1656 1726])
+                                    ("qf_c" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("T" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1776 1798]))                                          
+                                        :template-specifier 
+                                          ( ("T" type (:reference 1) nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1731 1801])
+                                    ("qf" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("T" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1920 1942]))                                          )
+                                        (reparse-symbol namespacesubparts) [1875 1945])
+                                    ("qf" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("T" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1995 2017]))                                          
+                                        :template-specifier 
+                                          ( ("T" type (:constant-flag t) nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1950 2020])
+                                    ("qf" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("T" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2070 2092]))                                          
+                                        :template-specifier 
+                                          ( ("T" type (:reference 1) nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [2025 2095]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [581 2097]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [562 2098]))                  
+                :type "namespace")
+                nil [544 2099]))          
+      :file "access.hpp"
+      :pointmax 2109
+      :fsize 2108
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((TYPEDEF 1486 . 1493) (TYPEDEF 1406 . 1413) (TYPEDEF 1326 . 1333) (TYPEDEF 1127 . 1134) (TYPEDEF 1047 . 1054) (TYPEDEF 892 . 899) (TYPEDEF 812 . 819) (TYPEDEF 732 . 739))
+      :lexical-table 
+        '(("BOOST_FUSION_FUNCTIONAL_ADAPTER_DETAIL_ACCESS_HPP_INCLUDED")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!functional!adapter!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

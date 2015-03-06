@@ -1,0 +1,278 @@
+;; Object zip_view/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "zip_view/"
+  :tables
+  (list
+    (semanticdb-table "zip_view.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_ZIP_VIEW_23012006_0813" variable (:constant-flag t) nil [449 478])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [480 522])
+            ("boost/fusion/support/sequence_base.hpp" include (:system-flag t) nil [523 572])
+            ("boost/fusion/support/unused.hpp" include (:system-flag t) nil [573 615])
+            ("boost/fusion/iterator/equal_to.hpp" include (:system-flag t) nil [616 661])
+            ("boost/fusion/view/detail/strictest_traversal.hpp" include (:system-flag t) nil [662 721])
+            ("boost/fusion/view/zip_view/detail/begin_impl.hpp" include (:system-flag t) nil [722 781])
+            ("boost/fusion/view/zip_view/detail/end_impl.hpp" include (:system-flag t) nil [782 839])
+            ("boost/fusion/view/zip_view/detail/size_impl.hpp" include (:system-flag t) nil [840 898])
+            ("boost/fusion/view/zip_view/detail/at_impl.hpp" include (:system-flag t) nil [899 955])
+            ("boost/fusion/view/zip_view/detail/value_at_impl.hpp" include (:system-flag t) nil [956 1018])
+            ("boost/fusion/container/vector/convert.hpp" include (:system-flag t) nil [1019 1071])
+            ("boost/fusion/algorithm/query/find_if.hpp" include (:system-flag t) nil [1072 1123])
+            ("boost/fusion/sequence/intrinsic/end.hpp" include (:system-flag t) nil [1124 1174])
+            ("boost/fusion/sequence/intrinsic/size.hpp" include (:system-flag t) nil [1175 1226])
+            ("boost/fusion/mpl.hpp" include (:system-flag t) nil [1227 1258])
+            ("boost/fusion/algorithm/transformation/remove.hpp" include (:system-flag t) nil [1259 1318])
+            ("boost/mpl/assert.hpp" include (:system-flag t) nil [1320 1351])
+            ("boost/mpl/not.hpp" include (:system-flag t) nil [1352 1380])
+            ("boost/mpl/placeholders.hpp" include (:system-flag t) nil [1381 1418])
+            ("boost/mpl/transform_view.hpp" include (:system-flag t) nil [1419 1458])
+            ("boost/mpl/at.hpp" include (:system-flag t) nil [1459 1486])
+            ("boost/mpl/find_if.hpp" include (:system-flag t) nil [1487 1519])
+            ("boost/mpl/equal_to.hpp" include (:system-flag t) nil [1520 1553])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [1554 1583])
+            ("boost/mpl/eval_if.hpp" include (:system-flag t) nil [1584 1616])
+            ("boost/type_traits/remove_reference.hpp" include (:system-flag t) nil [1618 1667])
+            ("boost/type_traits/is_reference.hpp" include (:system-flag t) nil [1668 1713])
+            ("boost/config.hpp" include (:system-flag t) nil [1715 1742])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("seq_ref_size" type
+                                       (:members 
+                                          ( ("result" type
+                                               (:template 
+                                                  ( ("Params" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :prototype t)
+                                                (reparse-symbol classsubparts) [2120 2172])
+                                            ("()" function
+                                               (:prototype-flag t
+                                                :operator-flag t
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :type ("Seq" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2942 2947]))                                                  
+                                                :type ("type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2914 2955]))                                          
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [2078 2973])
+                                    ("poly_min" type
+                                       (:members 
+                                          ( ("result" type
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :prototype t)
+                                                (reparse-symbol classsubparts) [3021 3068])
+                                            ("()" function
+                                               (:prototype-flag t
+                                                :operator-flag t
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :type ("Lhs" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3672 3677])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :type ("Rhs" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3679 3684]))                                                  
+                                                :type ("type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3644 3692]))                                          
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [2983 3710])
+                                    ("min_size" type
+                                       (:template 
+                                          ( ("Sequences" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("sizes" type
+                                               (:typedef ("result_of::transform::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [3795 3878])
+                                            ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3990 4000]))                                          )
+                                        (reparse-symbol namespacesubparts) [3720 4011]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1786 4017])
+                            ("zip_view_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [4023 4043])
+                            ("fusion_sequence_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [4048 4075])
+                            ("zip_view" type
+                               (:template 
+                                  ( ("Sequences" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("real_sequences" type
+                                       (:typedef ("result_of::remove::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [4183 4270])
+                                    ("BOOST_MPL_ASSERT" function
+                                       (:prototype-flag t
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [4279 4333])
+                                    ("category" type
+                                       (:typedef ("detail::strictest_traversal::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [4342 4418])
+                                    ("fusion_tag" type
+                                       (:typedef ("zip_view_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [4427 4459])
+                                    ("tag" type
+                                       (:typedef ("fusion_sequence_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [4468 4500])
+                                    ("is_view" type
+                                       (:typedef ("mpl::true_" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [4539 4566])
+                                    ("sequences" type
+                                       (:typedef ("fusion::result_of::as_vector::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [4575 4648])
+                                    ("size" type
+                                       (:typedef ("detail::min_size::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [4657 4718])
+                                    ("zip_view" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("seqs" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Sequences" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4783 4805]))                                          
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4728 4847])
+                                    ("sequences_" variable (:type ("sequences" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4858 4879]))                                  
+                                :superclasses 
+                                  ( ("sequence_base" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [4081 4886]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1762 4888]))                  
+                :type "namespace")
+                nil [1744 4889]))          
+      :file "zip_view.hpp"
+      :pointmax 4898
+      :fsize 4897
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((punctuation 4847 . 4848) (semantic-list 4296 . 4331) (punctuation 3989 . 3990) (punctuation 3988 . 3989) (punctuation 3987 . 3988) (symbol 3979 . 3987) (punctuation 3978 . 3979) (punctuation 3977 . 3978) (symbol 3971 . 3977) (punctuation 3969 . 3970) (symbol 3965 . 3969) (punctuation 3964 . 3965) (punctuation 3963 . 3964) (punctuation 3962 . 3963) (symbol 3957 . 3962) (punctuation 3956 . 3957) (symbol 3951 . 3956) (punctuation 3950 . 3951) (punctuation 3949 . 3950) (symbol 3940 . 3949) (TYPENAME 3931 . 3939) (punctuation 3929 . 3930) (symbol 3924 . 3929) (punctuation 3923 . 3924) (symbol 3919 . 3923) (punctuation 3918 . 3919) (punctuation 3917 . 3918) (symbol 3908 . 3917) (TYPENAME 3899 . 3907) (TYPEDEF 3891 . 3898) (punctuation 3683 . 3684) (punctuation 3676 . 3677) (punctuation 3643 . 3644) (punctuation 3642 . 3643) (punctuation 3641 . 3642) (semantic-list 3631 . 3641) (symbol 3623 . 3631) (punctuation 3622 . 3623) (symbol 3616 . 3622) (TYPENAME 3607 . 3615) (symbol 3570 . 3594) (punctuation 3556 . 3557) (symbol 3553 . 3556) (TYPENAME 3544 . 3552) (punctuation 3542 . 3543) (symbol 3539 . 3542) (TYPENAME 3530 . 3538) (punctuation 3529 . 3530) (TEMPLATE 3521 . 3529) (punctuation 3388 . 3389) (semantic-list 3177 . 3388) (punctuation 3163 . 3164) (semantic-list 3153 . 3163) (symbol 3145 . 3153) (punctuation 3144 . 3145) (symbol 3138 . 3144) (STRUCT 3131 . 3137) (punctuation 3117 . 3118) (symbol 3114 . 3117) (TYPENAME 3105 . 3113) (punctuation 3103 . 3104) (symbol 3100 . 3103) (TYPENAME 3091 . 3099) (punctuation 3090 . 3091) (TEMPLATE 3082 . 3090) (punctuation 2946 . 2947) (punctuation 2913 . 2914) (punctuation 2912 . 2913) (punctuation 2911 . 2912) (semantic-list 2906 . 2911) (symbol 2894 . 2906) (punctuation 2893 . 2894) (symbol 2887 . 2893) (TYPENAME 2878 . 2886) (symbol 2841 . 2865) (punctuation 2827 . 2828) (symbol 2824 . 2827) (TYPENAME 2815 . 2823) (punctuation 2814 . 2815) (TEMPLATE 2806 . 2814) (punctuation 2673 . 2674) (semantic-list 2266 . 2673) (punctuation 2252 . 2253) (semantic-list 2247 . 2252) (symbol 2235 . 2247) (punctuation 2234 . 2235) (symbol 2228 . 2234) (STRUCT 2221 . 2227) (punctuation 2207 . 2208) (symbol 2204 . 2207) (TYPENAME 2195 . 2203) (punctuation 2194 . 2195) (TEMPLATE 2186 . 2194) (punctuation 2067 . 2068) (semantic-list 2065 . 2067) (punctuation 2055 . 2056) (symbol 2051 . 2055) (punctuation 2050 . 2051) (punctuation 2049 . 2050) (punctuation 2048 . 2049) (symbol 2039 . 2048) (punctuation 2038 . 2039) (symbol 2035 . 2038) (punctuation 2034 . 2035) (punctuation 2033 . 2034) (symbol 2024 . 2033) (punctuation 2023 . 2024) (punctuation 2022 . 2023) (symbol 2016 . 2022) (TYPENAME 2007 . 2015) (punctuation 2005 . 2006) (symbol 2001 . 2005) (punctuation 2000 . 2001) (punctuation 1999 . 2000) (punctuation 1998 . 1999) (punctuation 1996 . 1997) (punctuation 1994 . 1995) (symbol 1993 . 1994) (punctuation 1992 . 1993) (punctuation 1991 . 1992) (symbol 1988 . 1991) (punctuation 1987 . 1988) (symbol 1975 . 1987) (punctuation 1974 . 1975) (symbol 1970 . 1974) (punctuation 1969 . 1970) (punctuation 1968 . 1969) (symbol 1965 . 1968) (punctuation 1963 . 1964) (symbol 1954 . 1963) (punctuation 1953 . 1954) (symbol 1946 . 1953) (punctuation 1945 . 1946) (punctuation 1944 . 1945) (symbol 1935 . 1944) (punctuation 1934 . 1935) (punctuation 1933 . 1934) (symbol 1927 . 1933) (TYPENAME 1918 . 1926) (punctuation 1917 . 1918) (symbol 1909 . 1917) (punctuation 1908 . 1909) (punctuation 1907 . 1908) (symbol 1898 . 1907) (punctuation 1897 . 1898) (punctuation 1896 . 1897) (symbol 1890 . 1896) (punctuation 1888 . 1889) (symbol 1861 . 1875) (STRUCT 1854 . 1860) (punctuation 1844 . 1845) (symbol 1835 . 1844) (TYPENAME 1826 . 1834) (punctuation 1825 . 1826) (TEMPLATE 1817 . 1825))
+      :lexical-table 
+        '(("FUSION_ZIP_VIEW_23012006_0813")
+          )
+)
+    (semanticdb-table "zip_view_iterator.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_ZIP_VIEW_ITERATOR_23012006_0814" variable (:constant-flag t) nil [458 496])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [498 540])
+            ("boost/fusion/view/zip_view/zip_view_iterator_fwd.hpp" include (:system-flag t) nil [541 604])
+            ("boost/fusion/support/iterator_base.hpp" include (:system-flag t) nil [605 654])
+            ("boost/fusion/view/zip_view/detail/deref_impl.hpp" include (:system-flag t) nil [655 714])
+            ("boost/fusion/view/zip_view/detail/next_impl.hpp" include (:system-flag t) nil [715 773])
+            ("boost/fusion/view/zip_view/detail/prior_impl.hpp" include (:system-flag t) nil [774 833])
+            ("boost/fusion/view/zip_view/detail/advance_impl.hpp" include (:system-flag t) nil [834 895])
+            ("boost/fusion/view/zip_view/detail/distance_impl.hpp" include (:system-flag t) nil [896 958])
+            ("boost/fusion/view/zip_view/detail/value_of_impl.hpp" include (:system-flag t) nil [959 1021])
+            ("boost/fusion/view/zip_view/detail/equal_to_impl.hpp" include (:system-flag t) nil [1022 1084])
+            ("boost/fusion/container/vector/convert.hpp" include (:system-flag t) nil [1086 1138])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("zip_view_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1186 1215])
+                            ("zip_view_iterator" type
+                               (:template 
+                                  ( ("IteratorSequence" type (:type "class") nil nil)
+                                    ("Traversal" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("fusion_tag" type
+                                       (:typedef ("zip_view_iterator_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1411 1452])
+                                    ("category" type
+                                       (:typedef ("Traversal" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1461 1488])
+                                    ("zip_view_iterator" function
+                                       (:template 
+                                          ( ("InitSeq" type (:type "class") nil nil))                                          
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("iterator_seq" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("InitSeq" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1597 1625]))                                          
+                                        :constructor-flag t)
+                                        (reparse-symbol classsubparts) [1498 1675])
+                                    ("iterators" type
+                                       (:typedef ("result_of::as_vector::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1685 1757])
+                                    ("iterators_" variable (:type ("iterators" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1766 1787]))                                  
+                                :superclasses 
+                                  ( ("iterator_base" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1221 1794]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1158 1796]))                  
+                :type "namespace")
+                nil [1140 1797]))          
+      :file "zip_view_iterator.hpp"
+      :pointmax 1806
+      :fsize 1805
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_ZIP_VIEW_ITERATOR_23012006_0814")
+          )
+)
+    (semanticdb-table "zip_view_iterator_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_ZIP_VIEW_ITERATOR_FWD" variable (:constant-flag t) nil [448 476])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [478 520])
+            ("boost/fusion/view/detail/strictest_traversal.hpp" include (:system-flag t) nil [521 580])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("zip_view_iterator" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [765 790]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [600 793]))                  
+                :type "namespace")
+                nil [582 794]))          
+      :file "zip_view_iterator_fwd.hpp"
+      :pointmax 803
+      :fsize 802
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((punctuation 759 . 760) (symbol 755 . 759) (punctuation 754 . 755) (punctuation 753 . 754) (punctuation 752 . 753) (symbol 736 . 752) (punctuation 735 . 736) (symbol 716 . 735) (punctuation 715 . 716) (punctuation 714 . 715) (symbol 708 . 714) (TYPENAME 699 . 707) (punctuation 697 . 698) (symbol 687 . 696) (TYPENAME 678 . 686) (punctuation 667 . 668) (symbol 651 . 667) (TYPENAME 642 . 650) (punctuation 632 . 633) (TEMPLATE 624 . 632))
+      :lexical-table 
+        '(("FUSION_ZIP_VIEW_ITERATOR_FWD")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!view!zip_view!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

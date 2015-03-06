@@ -1,0 +1,221 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "equal_to.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_EQUAL_TO_05052005_1142" variable (:constant-flag t) nil [455 484])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [486 528])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [529 558])
+            ("boost/fusion/iterator/deref.hpp" include (:system-flag t) nil [559 601])
+            ("boost/fusion/iterator/next.hpp" include (:system-flag t) nil [602 643])
+            ("boost/fusion/iterator/equal_to.hpp" include (:system-flag t) nil [644 689])
+            ("boost/fusion/support/as_const.hpp" include (:system-flag t) nil [690 734])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("sequence_equal_to" type
+                                       (:template 
+                                          ( ("Seq1" type (:type "class") nil nil)
+                                            ("Seq2" type (:type "class") nil nil)
+                                            ("bool" type nil nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("end1_type" type
+                                               (:typedef ("result_of::end::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [895 949])
+                                            ("end2_type" type
+                                               (:typedef ("result_of::end::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [958 1012])
+                                            ("call" function
+                                               (:typemodifiers ("static")
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I1" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1124 1134])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I2" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1135 1145])
+                                                    ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1146 1157]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [1099 1202])
+                                            ("call" function
+                                               (:typemodifiers ("static")
+                                                :arguments 
+                                                  ( ("a" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I1" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1314 1326])
+                                                    ("b" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I2" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1327 1339])
+                                                    ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1340 1352]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [1289 1501])
+                                            ("call" function
+                                               (:typemodifiers ("static")
+                                                :arguments 
+                                                  ( ("a" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I1" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1613 1625])
+                                                    ("b" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I2" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1626 1638]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [1588 1759]))                                          )
+                                        (reparse-symbol namespacesubparts) [796 1766])
+                                    ("sequence_equal_to" type
+                                       (:template 
+                                          ( ("Seq1" type (:type "class") nil nil)
+                                            ("Seq2" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("call" function
+                                               (:typemodifiers ("static")
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I1" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1976 1992])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I2" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1993 2009]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [1951 2055]))                                          
+                                        :template-specifier 
+                                          ( ("Seq1" type nil nil nil)
+                                            ("Seq2" type nil nil nil)
+                                            ("false" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1772 2062]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [773 2064]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [754 2065]))                  
+                :type "namespace")
+                nil [736 2066]))          
+      :file "equal_to.hpp"
+      :pointmax 2075
+      :fsize 2074
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((symbol 1918 . 1942) (punctuation 1908 . 1909) (symbol 1906 . 1908) (TYPENAME 1897 . 1905) (punctuation 1895 . 1896) (symbol 1893 . 1895) (TYPENAME 1884 . 1892) (punctuation 1883 . 1884) (TEMPLATE 1874 . 1882) (symbol 1555 . 1579) (punctuation 1545 . 1546) (symbol 1543 . 1545) (TYPENAME 1534 . 1542) (punctuation 1532 . 1533) (symbol 1530 . 1532) (TYPENAME 1521 . 1529) (punctuation 1520 . 1521) (TEMPLATE 1511 . 1519) (symbol 1256 . 1280) (punctuation 1246 . 1247) (symbol 1244 . 1246) (TYPENAME 1235 . 1243) (punctuation 1233 . 1234) (symbol 1231 . 1233) (TYPENAME 1222 . 1230) (punctuation 1221 . 1222) (TEMPLATE 1212 . 1220) (symbol 1066 . 1090) (punctuation 1056 . 1057) (symbol 1054 . 1056) (TYPENAME 1045 . 1053) (punctuation 1043 . 1044) (symbol 1041 . 1043) (TYPENAME 1032 . 1040) (punctuation 1031 . 1032) (TEMPLATE 1022 . 1030))
+      :lexical-table 
+        '(("FUSION_EQUAL_TO_05052005_1142")
+          )
+)
+    (semanticdb-table "less.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_LESS_05052005_1141" variable (:constant-flag t) nil [451 476])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [478 520])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [521 550])
+            ("boost/fusion/iterator/deref.hpp" include (:system-flag t) nil [551 593])
+            ("boost/fusion/iterator/next.hpp" include (:system-flag t) nil [594 635])
+            ("boost/fusion/iterator/equal_to.hpp" include (:system-flag t) nil [636 681])
+            ("boost/fusion/support/as_const.hpp" include (:system-flag t) nil [682 726])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("sequence_less" type
+                                       (:template 
+                                          ( ("Seq1" type (:type "class") nil nil)
+                                            ("Seq2" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("end1_type" type
+                                               (:typedef ("result_of::end::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [867 921])
+                                            ("end2_type" type
+                                               (:typedef ("result_of::end::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [930 984])
+                                            ("call" function
+                                               (:typemodifiers ("static")
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I1" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1096 1106])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I2" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1107 1117])
+                                                    ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1118 1129]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [1071 1175])
+                                            ("call" function
+                                               (:typemodifiers ("static")
+                                                :arguments 
+                                                  ( ("a" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I1" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1287 1299])
+                                                    ("b" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I2" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1300 1312])
+                                                    ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1313 1325]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [1262 1549])
+                                            ("call" function
+                                               (:typemodifiers ("static")
+                                                :arguments 
+                                                  ( ("a" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I1" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1661 1673])
+                                                    ("b" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("I2" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1674 1686]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [1636 1807]))                                          )
+                                        (reparse-symbol namespacesubparts) [788 1814]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [765 1816]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [746 1817]))                  
+                :type "namespace")
+                nil [728 1818]))          
+      :file "less.hpp"
+      :pointmax 1827
+      :fsize 1826
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((symbol 1603 . 1627) (punctuation 1593 . 1594) (symbol 1591 . 1593) (TYPENAME 1582 . 1590) (punctuation 1580 . 1581) (symbol 1578 . 1580) (TYPENAME 1569 . 1577) (punctuation 1568 . 1569) (TEMPLATE 1559 . 1567) (symbol 1229 . 1253) (punctuation 1219 . 1220) (symbol 1217 . 1219) (TYPENAME 1208 . 1216) (punctuation 1206 . 1207) (symbol 1204 . 1206) (TYPENAME 1195 . 1203) (punctuation 1194 . 1195) (TEMPLATE 1185 . 1193) (symbol 1038 . 1062) (punctuation 1028 . 1029) (symbol 1026 . 1028) (TYPENAME 1017 . 1025) (punctuation 1015 . 1016) (symbol 1013 . 1015) (TYPENAME 1004 . 1012) (punctuation 1003 . 1004) (TEMPLATE 994 . 1002))
+      :lexical-table 
+        '(("FUSION_LESS_05052005_1141")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!sequence!comparison!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

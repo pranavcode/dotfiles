@@ -1,0 +1,38 @@
+;; Object variadic/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "variadic/"
+  :tables
+  (list
+    (semanticdb-table "elem.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_VARIADIC_ELEM_HPP" variable (:constant-flag t) nil [839 875])
+            ("boost/preprocessor/cat.hpp" include (:system-flag t) nil [878 916])
+            ("boost/preprocessor/config/config.hpp" include (:system-flag t) nil [917 965]))          
+      :file "elem.hpp"
+      :pointmax 14197
+      :fsize 14196
+      :lastmodtime '(21727 6079 0 0)
+      :unmatched-syntax '((punctuation 14187 . 14188) (punctuation 999 . 1000) (punctuation 968 . 969) (punctuation 966 . 967) (punctuation 876 . 877) (punctuation 782 . 783) (punctuation 724 . 725) (punctuation 722 . 723) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PREPROCESSOR_VARIADIC_ELEM_HPP")
+          )
+)
+    (semanticdb-table "size.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_VARIADIC_SIZE_HPP" variable (:constant-flag t) nil [839 875])
+            ("boost/preprocessor/cat.hpp" include (:system-flag t) nil [878 916])
+            ("boost/preprocessor/config/config.hpp" include (:system-flag t) nil [917 965]))          
+      :file "size.hpp"
+      :pointmax 2134
+      :fsize 2133
+      :lastmodtime '(21727 6079 0 0)
+      :unmatched-syntax '((punctuation 2124 . 2125) (punctuation 999 . 1000) (punctuation 968 . 969) (punctuation 966 . 967) (punctuation 876 . 877) (punctuation 782 . 783) (punctuation 724 . 725) (punctuation 722 . 723) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PREPROCESSOR_VARIADIC_SIZE_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!preprocessor!variadic!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

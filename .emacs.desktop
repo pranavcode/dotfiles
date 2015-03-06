@@ -1,0 +1,74 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Feb 24 22:41:02 2015
+;; Desktop file format version 206
+;; Emacs version 24.4.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (21740 45222 311514 0) (desktop . "206") "pranav@pranav.local" nil nil ((((tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "#eeeeec") (menu-bar-lines . 0) (background-color . "#222") (font . "tty") (height . 47) (width . 178) (modeline . t) (unsplittable) (fullscreen . maximized) (frameset--id . "7B13-B4A1-83EF-CF1E") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 178) (pixel-height . 46) (total-width . 178) (total-height . 46) (normal-height . 1.0) (normal-width . 1.0) (buffer ".emacs" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 5) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 828) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("brew install " "brew insa"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs" "~/app/bio/insilico/include/core/configuration_parallel.hpp" "~/app/bio/insilico/examples/SquidAxon_HH1952/main.cpp" "~/app/bio/insilico/include/core/configuration.hpp" "~/app/bio/insilico/examples/SquidAxon_HH1952/main.cpp" "~/app/experiments/phase_chain.cpp" "~/app/bio/insilico/neuron.conf" "~/app/bio/insilico/scripts/gnuplot_script.sh" "~/app/bio/insilico/examples/SquidAxon_HH1952/nsets.conf" "~/app/bio/insilico/demo_code_extcurr.cpp" "~/app/bio/insilico/neuron.conf" "~/app/bio/insilico/include/core/engine.hpp" "~/app/bio/insilico/include/core/configuration.hpp" "~/app/bio/insilico/demo_code.cpp" "~/app/bio/insilico/neuron.conf" "~/app/bio/insilico/demo_code.cpp" "~/app/bio/insilico/neuron.conf" "~/app/bio/insilico/include/current/I_Na_SquidAxon_HH_HH1952.hpp" "~/app/bio/insilico/examples/SquidAxon_HH1952/ssets.conf" "~/app/bio/insilico/include/core/engine.hpp" "~/app/bio/insilico/include/core/configuration.hpp" "~/app/bio/insilico/demo_code.cpp" "~/app/bio/insilico/web/menu.php" "~/app/bio/insilico/web/pre_wrapper.php" "~/app/bio/insilico/web/index.php" "~/app/bio/insilico/scripts/gnuplot_script.sh" "~/app/bio/insilico/demo_code_extcurr.cpp" "~/app/bio/insilico/web/download.php" "~/app/bio/insilico/include/core/engine.hpp" "~/app/bio/insilico/neuron.conf" "~/app/bio/insilico/demo_code_extcurr.cpp" "~/app/bio/insilico/ExternalCurrent.hpp" "~/app/bio/insilico/neuron.conf" "~/app/bio/insilico/include/core/configuration.hpp" "~/app/bio/insilico/neuron.conf" "~/app/bio/insilico/examples/SquidAxon_HH1952/main.cpp" "~/app/bio/insilico/include/current/I_Leak_SquidAxon_HH_HH1952.hpp" "~/app/bio/insilico/include/current/I_K_SquidAxon_HH_HH1952.hpp" "~/app/bio/insilico/include/current/I_Na_SquidAxon_HH_HH1952.hpp" "~/app/bio/insilico/include/neuron/N_SquidAxon_HH1952.hpp" "~/dots/.bash_aliases" "~/dots/.emacs" "~/app/experiments/phase_chain.cpp" "~/.emacs" "~/dots/.gitconfig" "~/.emacs"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/pranav/dots/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(linum-mode auto-complete-mode yas-minor-mode)
+  828
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/pranav/app/bio/insilico/examples/SquidAxon_HH1952/main.cpp"
+  "main.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode auto-complete-mode yas-minor-mode)
+  2454
+  '(1758 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/pranav/app/bio/insilico/include/core/configuration_parallel.hpp"
+  "configuration_parallel.hpp"
+  'c++-mode
+  '(abbrev-mode linum-mode auto-complete-mode yas-minor-mode)
+  3022
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/pranav/app/bio/insilico/include/core/configuration.hpp"
+  "configuration.hpp"
+  'c++-mode
+  '(abbrev-mode linum-mode auto-complete-mode yas-minor-mode)
+  3562
+  '(2211 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/pranav/app/experiments/phase_chain.cpp"
+  "phase_chain.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode auto-complete-mode yas-minor-mode)
+  3235
+  '(3235 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+

@@ -1,0 +1,71 @@
+;; Object array/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "array/"
+  :tables
+  (list
+    (semanticdb-table "elem.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_ARRAY_ELEM_HPP" variable (:constant-flag t) nil [655 688])
+            ("boost/preprocessor/array/data.hpp" include (:system-flag t) nil [691 736])
+            ("boost/preprocessor/array/size.hpp" include (:system-flag t) nil [737 782])
+            ("boost/preprocessor/config/config.hpp" include (:system-flag t) nil [783 831])
+            ("boost/preprocessor/tuple/elem.hpp" include (:system-flag t) nil [832 877])
+            ("BOOST_PP_ARRAY_ELEM" variable (:constant-flag t) nil [1104 1123])
+            ("BOOST_PP_ARRAY_ELEM_I" variable (:constant-flag t) nil [1178 1199]))          
+      :file "elem.hpp"
+      :pointmax 1307
+      :fsize 1306
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((punctuation 1297 . 1298) (punctuation 908 . 909) (punctuation 880 . 881) (punctuation 878 . 879) (punctuation 689 . 690) (punctuation 601 . 602) (punctuation 543 . 544) (punctuation 541 . 542) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PREPROCESSOR_ARRAY_ELEM_HPP")
+          ("BOOST_PP_ARRAY_ELEM" (spp-arg-list ("i" "array") 1123 . 1133) . ((symbol "BOOST_PP_ARRAY_ELEM_I" 1134 . 1155) (semantic-list "(i, array)" 1155 . 1165)))
+          ("BOOST_PP_ARRAY_ELEM_I" (spp-arg-list ("i" "array") 1199 . 1209) . ((symbol "BOOST_PP_TUPLE_ELEM" 1210 . 1229) (semantic-list "(BOOST_PP_ARRAY_SIZE(array), i, BOOST_PP_ARRAY_DATA(array))" 1229 . 1288)))
+          )
+)
+    (semanticdb-table "size.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_ARRAY_SIZE_HPP" variable (:constant-flag t) nil [655 688])
+            ("boost/preprocessor/config/config.hpp" include (:system-flag t) nil [691 739])
+            ("boost/preprocessor/tuple/elem.hpp" include (:system-flag t) nil [740 785])
+            ("BOOST_PP_ARRAY_SIZE" variable (:constant-flag t) nil [963 982])
+            ("BOOST_PP_ARRAY_SIZE_I" variable (:constant-flag t) nil [1031 1052])
+            ("BOOST_PP_ARRAY_SIZE_II" variable (:constant-flag t) nil [1101 1123]))          
+      :file "size.hpp"
+      :pointmax 1159
+      :fsize 1158
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((punctuation 1149 . 1150) (punctuation 816 . 817) (punctuation 788 . 789) (punctuation 786 . 787) (punctuation 689 . 690) (punctuation 601 . 602) (punctuation 543 . 544) (punctuation 541 . 542) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PP_ARRAY_SIZE_II" (spp-arg-list ("size" "data") 1123 . 1135) . ((symbol "size" 1136 . 1140)))
+          ("BOOST_PP_ARRAY_SIZE" (spp-arg-list ("array") 982 . 989) . ((symbol "BOOST_PP_ARRAY_SIZE_I" 990 . 1011) (semantic-list "(array)" 1011 . 1018)))
+          ("BOOST_PREPROCESSOR_ARRAY_SIZE_HPP")
+          ("BOOST_PP_ARRAY_SIZE_I" (spp-arg-list ("array") 1052 . 1059) . ((symbol "BOOST_PP_ARRAY_SIZE_II" 1060 . 1082) (symbol "array" 1083 . 1088)))
+          )
+)
+    (semanticdb-table "data.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_ARRAY_DATA_HPP" variable (:constant-flag t) nil [655 688])
+            ("boost/preprocessor/config/config.hpp" include (:system-flag t) nil [691 739])
+            ("boost/preprocessor/tuple/elem.hpp" include (:system-flag t) nil [740 785])
+            ("BOOST_PP_ARRAY_DATA" variable (:constant-flag t) nil [963 982])
+            ("BOOST_PP_ARRAY_DATA_I" variable (:constant-flag t) nil [1031 1052])
+            ("BOOST_PP_ARRAY_DATA_II" variable (:constant-flag t) nil [1101 1123]))          
+      :file "data.hpp"
+      :pointmax 1159
+      :fsize 1158
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((punctuation 1149 . 1150) (punctuation 816 . 817) (punctuation 788 . 789) (punctuation 786 . 787) (punctuation 689 . 690) (punctuation 601 . 602) (punctuation 543 . 544) (punctuation 541 . 542) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PP_ARRAY_DATA" (spp-arg-list ("array") 982 . 989) . ((symbol "BOOST_PP_ARRAY_DATA_I" 990 . 1011) (semantic-list "(array)" 1011 . 1018)))
+          ("BOOST_PP_ARRAY_DATA_I" (spp-arg-list ("array") 1052 . 1059) . ((symbol "BOOST_PP_ARRAY_DATA_II" 1060 . 1082) (symbol "array" 1083 . 1088)))
+          ("BOOST_PREPROCESSOR_ARRAY_DATA_HPP")
+          ("BOOST_PP_ARRAY_DATA_II" (spp-arg-list ("size" "data") 1123 . 1135) . ((symbol "data" 1136 . 1140)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!preprocessor!array!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

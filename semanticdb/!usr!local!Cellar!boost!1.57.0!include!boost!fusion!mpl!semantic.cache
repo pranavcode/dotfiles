@@ -1,0 +1,810 @@
+;; Object mpl/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "mpl/"
+  :tables
+  (list
+    (semanticdb-table "at.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_AT_10022005_1616" variable (:constant-flag t) nil [408 431])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [433 475])
+            ("boost/mpl/at.hpp" include (:system-flag t) nil [476 503])
+            ("boost/fusion/sequence/intrinsic/value_at.hpp" include (:system-flag t) nil [504 559])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("fusion_sequence_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [603 630]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [580 632])
+                    ("mpl" type
+                       (:members 
+                          ( ("at_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [654 697])
+                            ("at_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("N" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("fusion::result_of::value_at" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol classsubparts) [777 885]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [703 892]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [634 894]))                  
+                :type "namespace")
+                nil [561 895]))          
+      :file "at.hpp"
+      :pointmax 905
+      :fsize 904
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_AT_10022005_1616")
+          )
+)
+    (semanticdb-table "back.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_BACK_10022005_1620" variable (:constant-flag t) nil [410 435])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [437 479])
+            ("boost/mpl/back.hpp" include (:system-flag t) nil [480 509])
+            ("boost/fusion/sequence/intrinsic/end.hpp" include (:system-flag t) nil [510 560])
+            ("boost/fusion/iterator/prior.hpp" include (:system-flag t) nil [561 603])
+            ("boost/fusion/iterator/value_of.hpp" include (:system-flag t) nil [604 649])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("back_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [689 734])
+                            ("back_impl" type
+                               (:type "struct"
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [740 1064]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [669 1066]))                  
+                :type "namespace")
+                nil [651 1067]))          
+      :file "back.hpp"
+      :pointmax 1076
+      :fsize 1075
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((punctuation 1056 . 1057) (semantic-list 1054 . 1056) (punctuation 1052 . 1053) (symbol 1048 . 1052) (punctuation 1047 . 1048) (punctuation 1046 . 1047) (punctuation 1045 . 1046) (symbol 1024 . 1028) (punctuation 1023 . 1024) (punctuation 1022 . 1023) (punctuation 1021 . 1022) (symbol 1013 . 1021) (punctuation 1012 . 1013) (symbol 1009 . 1012) (punctuation 1008 . 1009) (punctuation 1007 . 1008) (symbol 998 . 1007) (punctuation 997 . 998) (punctuation 996 . 997) (symbol 990 . 996) (TYPENAME 981 . 989) (punctuation 959 . 960) (symbol 954 . 959) (punctuation 953 . 954) (punctuation 952 . 953) (symbol 943 . 952) (punctuation 942 . 943) (punctuation 941 . 942) (symbol 935 . 941) (TYPENAME 926 . 934) (punctuation 908 . 909) (symbol 900 . 908) (punctuation 899 . 900) (punctuation 898 . 899) (symbol 889 . 898) (punctuation 888 . 889) (punctuation 887 . 888) (symbol 881 . 887) (punctuation 866 . 867) (symbol 860 . 865) (STRUCT 853 . 859) (punctuation 843 . 844) (symbol 835 . 843) (TYPENAME 826 . 834) (punctuation 825 . 826) (TEMPLATE 816 . 824))
+      :lexical-table 
+        '(("FUSION_BACK_10022005_1620")
+          )
+)
+    (semanticdb-table "begin.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_BEGIN_10022005_1620" variable (:constant-flag t) nil [411 437])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [439 481])
+            ("boost/mpl/begin_end.hpp" include (:system-flag t) nil [482 516])
+            ("boost/fusion/sequence/intrinsic/begin.hpp" include (:system-flag t) nil [517 569])
+            ("boost/fusion/adapted/mpl/detail/begin_impl.hpp" include (:system-flag t) nil [570 627])
+            ("boost/fusion/iterator/mpl/fusion_iterator.hpp" include (:system-flag t) nil [628 684])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("begin_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [724 770])
+                            ("begin_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type "int") (reparse-symbol classsubparts) [1000 1005]))                                          )
+                                        (reparse-symbol classsubparts) [853 1016]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [776 1023]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [704 1025]))                  
+                :type "namespace")
+                nil [686 1026]))          
+      :file "begin.hpp"
+      :pointmax 1035
+      :fsize 1034
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((punctuation 998 . 999) (symbol 994 . 998) (punctuation 993 . 994) (punctuation 992 . 993) (punctuation 991 . 992) (symbol 983 . 991) (punctuation 982 . 983) (symbol 977 . 982) (punctuation 976 . 977) (punctuation 975 . 976) (symbol 966 . 975) (punctuation 965 . 966) (punctuation 964 . 965) (symbol 958 . 964) (TYPENAME 949 . 957) (punctuation 948 . 949) (symbol 933 . 948) (TYPEDEF 925 . 932))
+      :lexical-table 
+        '(("FUSION_BEGIN_10022005_1620")
+          )
+)
+    (semanticdb-table "clear.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_CLEAR_10022005_1817" variable (:constant-flag t) nil [411 437])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [439 481])
+            ("boost/mpl/clear.hpp" include (:system-flag t) nil [482 512])
+            ("boost/fusion/support/tag_of.hpp" include (:system-flag t) nil [513 555])
+            ("boost/fusion/mpl/detail/clear.hpp" include (:system-flag t) nil [556 600])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("clear_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [640 686])
+                            ("clear_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [959 982]))                                          )
+                                        (reparse-symbol classsubparts) [769 993]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [692 1000]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [620 1002]))                  
+                :type "namespace")
+                nil [602 1003]))          
+      :file "clear.hpp"
+      :pointmax 1013
+      :fsize 1012
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((punctuation 958 . 959) (punctuation 957 . 958) (punctuation 956 . 957) (symbol 952 . 956) (punctuation 951 . 952) (punctuation 950 . 951) (punctuation 949 . 950) (symbol 941 . 949) (punctuation 940 . 941) (symbol 934 . 940) (punctuation 933 . 934) (punctuation 932 . 933) (symbol 926 . 932) (punctuation 925 . 926) (punctuation 924 . 925) (symbol 918 . 924) (TYPENAME 909 . 917) (punctuation 908 . 909) (symbol 903 . 908) (punctuation 902 . 903) (punctuation 901 . 902) (symbol 895 . 901) (punctuation 894 . 895) (punctuation 893 . 894) (symbol 887 . 893) (TYPENAME 861 . 869) (TYPEDEF 853 . 860))
+      :lexical-table 
+        '(("FUSION_CLEAR_10022005_1817")
+          )
+)
+    (semanticdb-table "empty.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_EMPTY_10022005_1619" variable (:constant-flag t) nil [411 437])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [439 481])
+            ("boost/mpl/empty.hpp" include (:system-flag t) nil [482 512])
+            ("boost/fusion/sequence/intrinsic/empty.hpp" include (:system-flag t) nil [513 565])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("empty_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [605 651])
+                            ("empty_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("fusion::result_of::empty" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol classsubparts) [734 824]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [657 831]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [585 833]))                  
+                :type "namespace")
+                nil [567 834]))          
+      :file "empty.hpp"
+      :pointmax 843
+      :fsize 842
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_EMPTY_10022005_1619")
+          )
+)
+    (semanticdb-table "end.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_END_10022005_1619" variable (:constant-flag t) nil [409 433])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [435 477])
+            ("boost/mpl/begin_end.hpp" include (:system-flag t) nil [478 512])
+            ("boost/fusion/sequence/intrinsic/end.hpp" include (:system-flag t) nil [513 563])
+            ("boost/fusion/adapted/mpl/detail/end_impl.hpp" include (:system-flag t) nil [564 619])
+            ("boost/fusion/iterator/mpl/fusion_iterator.hpp" include (:system-flag t) nil [620 676])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("end_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [716 760])
+                            ("end_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type "int") (reparse-symbol classsubparts) [986 991]))                                          )
+                                        (reparse-symbol classsubparts) [841 1002]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [766 1009]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [696 1011]))                  
+                :type "namespace")
+                nil [678 1012]))          
+      :file "end.hpp"
+      :pointmax 1021
+      :fsize 1020
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((punctuation 984 . 985) (symbol 980 . 984) (punctuation 979 . 980) (punctuation 978 . 979) (punctuation 977 . 978) (symbol 969 . 977) (punctuation 968 . 969) (symbol 965 . 968) (punctuation 964 . 965) (punctuation 963 . 964) (symbol 954 . 963) (punctuation 953 . 954) (punctuation 952 . 953) (symbol 946 . 952) (TYPENAME 937 . 945) (punctuation 936 . 937) (symbol 921 . 936) (TYPEDEF 913 . 920))
+      :lexical-table 
+        '(("FUSION_END_10022005_1619")
+          )
+)
+    (semanticdb-table "erase.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_ERASE_10022005_1835" variable (:constant-flag t) nil [410 436])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [438 480])
+            ("boost/mpl/erase.hpp" include (:system-flag t) nil [481 511])
+            ("boost/fusion/support/tag_of.hpp" include (:system-flag t) nil [512 554])
+            ("boost/fusion/algorithm/transformation/erase.hpp" include (:system-flag t) nil [555 613])
+            ("boost/fusion/sequence/convert.hpp" include (:system-flag t) nil [614 658])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("erase_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [698 744])
+                            ("erase_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("First" type (:type "class") nil nil)
+                                            ("Last" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("result" type
+                                               (:typedef ("fusion::result_of::erase::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [930 1036])
+                                            ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1189 1211]))                                          )
+                                        (reparse-symbol classsubparts) [827 1222]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [750 1229]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [678 1231]))                  
+                :type "namespace")
+                nil [660 1232]))          
+      :file "erase.hpp"
+      :pointmax 1242
+      :fsize 1241
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((punctuation 1188 . 1189) (punctuation 1187 . 1188) (punctuation 1186 . 1187) (symbol 1180 . 1186) (punctuation 1178 . 1179) (symbol 1174 . 1178) (punctuation 1173 . 1174) (punctuation 1172 . 1173) (punctuation 1171 . 1172) (symbol 1163 . 1171) (punctuation 1162 . 1163) (symbol 1156 . 1162) (punctuation 1155 . 1156) (punctuation 1154 . 1155) (symbol 1148 . 1154) (punctuation 1147 . 1148) (punctuation 1146 . 1147) (symbol 1140 . 1146) (TYPENAME 1131 . 1139) (punctuation 1109 . 1110) (symbol 1102 . 1109) (punctuation 1101 . 1102) (punctuation 1100 . 1101) (symbol 1091 . 1100) (punctuation 1090 . 1091) (punctuation 1089 . 1090) (symbol 1083 . 1089) (TYPENAME 1058 . 1066) (TYPEDEF 1050 . 1057))
+      :lexical-table 
+        '(("FUSION_ERASE_10022005_1835")
+          )
+)
+    (semanticdb-table "erase_key.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_ERASE_KEY_10022005_1907" variable (:constant-flag t) nil [414 444])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [446 488])
+            ("boost/mpl/erase_key.hpp" include (:system-flag t) nil [489 523])
+            ("boost/fusion/support/tag_of.hpp" include (:system-flag t) nil [524 566])
+            ("boost/fusion/algorithm/transformation/erase_key.hpp" include (:system-flag t) nil [567 629])
+            ("boost/fusion/sequence/convert.hpp" include (:system-flag t) nil [630 674])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("erase_key_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [714 764])
+                            ("erase_key_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("Key" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("result" type
+                                               (:typedef ("fusion::result_of::erase_key::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [937 1039])
+                                            ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1192 1214]))                                          )
+                                        (reparse-symbol classsubparts) [851 1225]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [770 1232]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [694 1234]))                  
+                :type "namespace")
+                nil [676 1235]))          
+      :file "erase_key.hpp"
+      :pointmax 1245
+      :fsize 1244
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((punctuation 1191 . 1192) (punctuation 1190 . 1191) (punctuation 1189 . 1190) (symbol 1183 . 1189) (punctuation 1181 . 1182) (symbol 1177 . 1181) (punctuation 1176 . 1177) (punctuation 1175 . 1176) (punctuation 1174 . 1175) (symbol 1166 . 1174) (punctuation 1165 . 1166) (symbol 1159 . 1165) (punctuation 1158 . 1159) (punctuation 1157 . 1158) (symbol 1151 . 1157) (punctuation 1150 . 1151) (punctuation 1149 . 1150) (symbol 1143 . 1149) (TYPENAME 1134 . 1142) (punctuation 1112 . 1113) (symbol 1105 . 1112) (punctuation 1104 . 1105) (punctuation 1103 . 1104) (symbol 1094 . 1103) (punctuation 1093 . 1094) (punctuation 1092 . 1093) (symbol 1086 . 1092) (TYPENAME 1061 . 1069) (TYPEDEF 1053 . 1060))
+      :lexical-table 
+        '(("FUSION_ERASE_KEY_10022005_1907")
+          )
+)
+    (semanticdb-table "front.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_FRONT_10022005_1618" variable (:constant-flag t) nil [411 437])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [439 481])
+            ("boost/mpl/front.hpp" include (:system-flag t) nil [482 512])
+            ("boost/fusion/sequence/intrinsic/begin.hpp" include (:system-flag t) nil [513 565])
+            ("boost/fusion/iterator/value_of.hpp" include (:system-flag t) nil [566 611])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("front_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [651 697])
+                            ("front_impl" type
+                               (:type "struct"
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [703 934]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [631 936]))                  
+                :type "namespace")
+                nil [613 937]))          
+      :file "front.hpp"
+      :pointmax 946
+      :fsize 945
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((punctuation 926 . 927) (semantic-list 924 . 926) (punctuation 922 . 923) (symbol 918 . 922) (punctuation 917 . 918) (punctuation 916 . 917) (punctuation 915 . 916) (symbol 907 . 915) (punctuation 906 . 907) (symbol 901 . 906) (punctuation 900 . 901) (punctuation 899 . 900) (symbol 890 . 899) (punctuation 889 . 890) (punctuation 888 . 889) (symbol 882 . 888) (TYPENAME 873 . 881) (punctuation 872 . 873) (symbol 864 . 872) (punctuation 863 . 864) (punctuation 862 . 863) (symbol 853 . 862) (punctuation 852 . 853) (punctuation 851 . 852) (symbol 845 . 851) (punctuation 830 . 831) (symbol 824 . 829) (STRUCT 817 . 823) (punctuation 807 . 808) (symbol 799 . 807) (TYPENAME 790 . 798) (punctuation 789 . 790) (TEMPLATE 780 . 788))
+      :lexical-table 
+        '(("FUSION_FRONT_10022005_1618")
+          )
+)
+    (semanticdb-table "has_key.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_HAS_KEY_10022005_1617" variable (:constant-flag t) nil [413 441])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [443 485])
+            ("boost/mpl/has_key.hpp" include (:system-flag t) nil [486 518])
+            ("boost/fusion/sequence/intrinsic/has_key.hpp" include (:system-flag t) nil [519 573])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("has_key_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [613 661])
+                            ("has_key_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("Key" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("fusion::result_of::has_key" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol classsubparts) [746 857]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [667 864]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [593 866]))                  
+                :type "namespace")
+                nil [575 867]))          
+      :file "has_key.hpp"
+      :pointmax 877
+      :fsize 876
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_HAS_KEY_10022005_1617")
+          )
+)
+    (semanticdb-table "insert.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_INSERT_10022005_1837" variable (:constant-flag t) nil [411 438])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [440 482])
+            ("boost/mpl/insert.hpp" include (:system-flag t) nil [483 514])
+            ("boost/fusion/support/tag_of.hpp" include (:system-flag t) nil [515 557])
+            ("boost/fusion/algorithm/transformation/insert.hpp" include (:system-flag t) nil [558 617])
+            ("boost/fusion/sequence/convert.hpp" include (:system-flag t) nil [618 662])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("insert_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [702 749])
+                            ("insert_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("Pos" type (:type "class") nil nil)
+                                            ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("result" type
+                                               (:typedef ("fusion::result_of::insert::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [931 1033])
+                                            ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1186 1208]))                                          )
+                                        (reparse-symbol classsubparts) [833 1219]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [755 1226]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [682 1228]))                  
+                :type "namespace")
+                nil [664 1229]))          
+      :file "insert.hpp"
+      :pointmax 1239
+      :fsize 1238
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((punctuation 1185 . 1186) (punctuation 1184 . 1185) (punctuation 1183 . 1184) (symbol 1177 . 1183) (punctuation 1175 . 1176) (symbol 1171 . 1175) (punctuation 1170 . 1171) (punctuation 1169 . 1170) (punctuation 1168 . 1169) (symbol 1160 . 1168) (punctuation 1159 . 1160) (symbol 1153 . 1159) (punctuation 1152 . 1153) (punctuation 1151 . 1152) (symbol 1145 . 1151) (punctuation 1144 . 1145) (punctuation 1143 . 1144) (symbol 1137 . 1143) (TYPENAME 1128 . 1136) (punctuation 1106 . 1107) (symbol 1099 . 1106) (punctuation 1098 . 1099) (punctuation 1097 . 1098) (symbol 1088 . 1097) (punctuation 1087 . 1088) (punctuation 1086 . 1087) (symbol 1080 . 1086) (TYPENAME 1055 . 1063) (TYPEDEF 1047 . 1054))
+      :lexical-table 
+        '(("FUSION_INSERT_10022005_1837")
+          )
+)
+    (semanticdb-table "insert_range.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_INSERT_RANGE_10022005_1838" variable (:constant-flag t) nil [417 450])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [452 494])
+            ("boost/mpl/insert_range.hpp" include (:system-flag t) nil [495 532])
+            ("boost/fusion/support/tag_of.hpp" include (:system-flag t) nil [533 575])
+            ("boost/fusion/algorithm/transformation/insert_range.hpp" include (:system-flag t) nil [576 641])
+            ("boost/fusion/sequence/convert.hpp" include (:system-flag t) nil [642 686])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("insert_range_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [726 779])
+                            ("insert_range_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("Pos" type (:type "class") nil nil)
+                                            ("Range" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("result" type
+                                               (:typedef ("fusion::result_of::insert_range::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [971 1083])
+                                            ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1236 1258]))                                          )
+                                        (reparse-symbol classsubparts) [869 1269]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [785 1276]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [706 1278]))                  
+                :type "namespace")
+                nil [688 1279]))          
+      :file "insert_range.hpp"
+      :pointmax 1289
+      :fsize 1288
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((punctuation 1235 . 1236) (punctuation 1234 . 1235) (punctuation 1233 . 1234) (symbol 1227 . 1233) (punctuation 1225 . 1226) (symbol 1221 . 1225) (punctuation 1220 . 1221) (punctuation 1219 . 1220) (punctuation 1218 . 1219) (symbol 1210 . 1218) (punctuation 1209 . 1210) (symbol 1203 . 1209) (punctuation 1202 . 1203) (punctuation 1201 . 1202) (symbol 1195 . 1201) (punctuation 1194 . 1195) (punctuation 1193 . 1194) (symbol 1187 . 1193) (TYPENAME 1178 . 1186) (punctuation 1156 . 1157) (symbol 1149 . 1156) (punctuation 1148 . 1149) (punctuation 1147 . 1148) (symbol 1138 . 1147) (punctuation 1137 . 1138) (punctuation 1136 . 1137) (symbol 1130 . 1136) (TYPENAME 1105 . 1113) (TYPEDEF 1097 . 1104))
+      :lexical-table 
+        '(("FUSION_INSERT_RANGE_10022005_1838")
+          )
+)
+    (semanticdb-table "pop_back.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_POP_BACK_10022005_1801" variable (:constant-flag t) nil [413 442])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [444 486])
+            ("boost/mpl/pop_back.hpp" include (:system-flag t) nil [487 520])
+            ("boost/fusion/support/tag_of.hpp" include (:system-flag t) nil [521 563])
+            ("boost/fusion/algorithm/transformation/pop_back.hpp" include (:system-flag t) nil [564 625])
+            ("boost/fusion/sequence/convert.hpp" include (:system-flag t) nil [626 670])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("pop_back_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [710 759])
+                            ("pop_back_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("result" type
+                                               (:typedef ("fusion::result_of::pop_back::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [917 1013])
+                                            ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1166 1188]))                                          )
+                                        (reparse-symbol classsubparts) [845 1199]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [765 1206]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [690 1208]))                  
+                :type "namespace")
+                nil [672 1209]))          
+      :file "pop_back.hpp"
+      :pointmax 1219
+      :fsize 1218
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((punctuation 1165 . 1166) (punctuation 1164 . 1165) (punctuation 1163 . 1164) (symbol 1157 . 1163) (punctuation 1155 . 1156) (symbol 1151 . 1155) (punctuation 1150 . 1151) (punctuation 1149 . 1150) (punctuation 1148 . 1149) (symbol 1140 . 1148) (punctuation 1139 . 1140) (symbol 1133 . 1139) (punctuation 1132 . 1133) (punctuation 1131 . 1132) (symbol 1125 . 1131) (punctuation 1124 . 1125) (punctuation 1123 . 1124) (symbol 1117 . 1123) (TYPENAME 1108 . 1116) (punctuation 1086 . 1087) (symbol 1079 . 1086) (punctuation 1078 . 1079) (punctuation 1077 . 1078) (symbol 1068 . 1077) (punctuation 1067 . 1068) (punctuation 1066 . 1067) (symbol 1060 . 1066) (TYPENAME 1035 . 1043) (TYPEDEF 1027 . 1034))
+      :lexical-table 
+        '(("FUSION_POP_BACK_10022005_1801")
+          )
+)
+    (semanticdb-table "pop_front.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_POP_FRONT_10022005_1800" variable (:constant-flag t) nil [414 444])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [446 488])
+            ("boost/mpl/pop_front.hpp" include (:system-flag t) nil [489 523])
+            ("boost/fusion/support/tag_of.hpp" include (:system-flag t) nil [524 566])
+            ("boost/fusion/algorithm/transformation/pop_front.hpp" include (:system-flag t) nil [567 629])
+            ("boost/fusion/sequence/convert.hpp" include (:system-flag t) nil [630 674])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("pop_front_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [714 764])
+                            ("pop_front_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("result" type
+                                               (:typedef ("fusion::result_of::pop_front::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [923 1020])
+                                            ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1173 1195]))                                          )
+                                        (reparse-symbol classsubparts) [851 1206]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [770 1213]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [694 1215]))                  
+                :type "namespace")
+                nil [676 1216]))          
+      :file "pop_front.hpp"
+      :pointmax 1226
+      :fsize 1225
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((punctuation 1172 . 1173) (punctuation 1171 . 1172) (punctuation 1170 . 1171) (symbol 1164 . 1170) (punctuation 1162 . 1163) (symbol 1158 . 1162) (punctuation 1157 . 1158) (punctuation 1156 . 1157) (punctuation 1155 . 1156) (symbol 1147 . 1155) (punctuation 1146 . 1147) (symbol 1140 . 1146) (punctuation 1139 . 1140) (punctuation 1138 . 1139) (symbol 1132 . 1138) (punctuation 1131 . 1132) (punctuation 1130 . 1131) (symbol 1124 . 1130) (TYPENAME 1115 . 1123) (punctuation 1093 . 1094) (symbol 1086 . 1093) (punctuation 1085 . 1086) (punctuation 1084 . 1085) (symbol 1075 . 1084) (punctuation 1074 . 1075) (punctuation 1073 . 1074) (symbol 1067 . 1073) (TYPENAME 1042 . 1050) (TYPEDEF 1034 . 1041))
+      :lexical-table 
+        '(("FUSION_POP_FRONT_10022005_1800")
+          )
+)
+    (semanticdb-table "push_back.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_PUSH_BACK_10022005_1647" variable (:constant-flag t) nil [414 444])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [446 488])
+            ("boost/mpl/push_back.hpp" include (:system-flag t) nil [489 523])
+            ("boost/fusion/support/tag_of.hpp" include (:system-flag t) nil [524 566])
+            ("boost/fusion/algorithm/transformation/push_back.hpp" include (:system-flag t) nil [567 629])
+            ("boost/fusion/sequence/convert.hpp" include (:system-flag t) nil [630 674])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("push_back_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [714 764])
+                            ("push_back_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("result" type
+                                               (:typedef ("fusion::result_of::push_back::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [935 1035])
+                                            ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1188 1210]))                                          )
+                                        (reparse-symbol classsubparts) [851 1221]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [770 1228]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [694 1230]))                  
+                :type "namespace")
+                nil [676 1231]))          
+      :file "push_back.hpp"
+      :pointmax 1241
+      :fsize 1240
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((punctuation 1187 . 1188) (punctuation 1186 . 1187) (punctuation 1185 . 1186) (symbol 1179 . 1185) (punctuation 1177 . 1178) (symbol 1173 . 1177) (punctuation 1172 . 1173) (punctuation 1171 . 1172) (punctuation 1170 . 1171) (symbol 1162 . 1170) (punctuation 1161 . 1162) (symbol 1155 . 1161) (punctuation 1154 . 1155) (punctuation 1153 . 1154) (symbol 1147 . 1153) (punctuation 1146 . 1147) (punctuation 1145 . 1146) (symbol 1139 . 1145) (TYPENAME 1130 . 1138) (punctuation 1108 . 1109) (symbol 1101 . 1108) (punctuation 1100 . 1101) (punctuation 1099 . 1100) (symbol 1090 . 1099) (punctuation 1089 . 1090) (punctuation 1088 . 1089) (symbol 1082 . 1088) (TYPENAME 1057 . 1065) (TYPEDEF 1049 . 1056))
+      :lexical-table 
+        '(("FUSION_PUSH_BACK_10022005_1647")
+          )
+)
+    (semanticdb-table "push_front.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_PUSH_FRONT_10022005_1720" variable (:constant-flag t) nil [415 446])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [448 490])
+            ("boost/mpl/push_front.hpp" include (:system-flag t) nil [491 526])
+            ("boost/fusion/support/tag_of.hpp" include (:system-flag t) nil [527 569])
+            ("boost/fusion/algorithm/transformation/push_front.hpp" include (:system-flag t) nil [570 633])
+            ("boost/fusion/sequence/convert.hpp" include (:system-flag t) nil [634 678])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("push_front_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [718 769])
+                            ("push_front_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("result" type
+                                               (:typedef ("fusion::result_of::push_front::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [941 1042])
+                                            ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1195 1217]))                                          )
+                                        (reparse-symbol classsubparts) [857 1228]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [775 1235]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [698 1237]))                  
+                :type "namespace")
+                nil [680 1238]))          
+      :file "push_front.hpp"
+      :pointmax 1248
+      :fsize 1247
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((punctuation 1194 . 1195) (punctuation 1193 . 1194) (punctuation 1192 . 1193) (symbol 1186 . 1192) (punctuation 1184 . 1185) (symbol 1180 . 1184) (punctuation 1179 . 1180) (punctuation 1178 . 1179) (punctuation 1177 . 1178) (symbol 1169 . 1177) (punctuation 1168 . 1169) (symbol 1162 . 1168) (punctuation 1161 . 1162) (punctuation 1160 . 1161) (symbol 1154 . 1160) (punctuation 1153 . 1154) (punctuation 1152 . 1153) (symbol 1146 . 1152) (TYPENAME 1137 . 1145) (punctuation 1115 . 1116) (symbol 1108 . 1115) (punctuation 1107 . 1108) (punctuation 1106 . 1107) (symbol 1097 . 1106) (punctuation 1096 . 1097) (punctuation 1095 . 1096) (symbol 1089 . 1095) (TYPENAME 1064 . 1072) (TYPEDEF 1056 . 1063))
+      :lexical-table 
+        '(("FUSION_PUSH_FRONT_10022005_1720")
+          )
+)
+    (semanticdb-table "size.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_SIZE_10022005_1617" variable (:constant-flag t) nil [410 435])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [437 479])
+            ("boost/mpl/size.hpp" include (:system-flag t) nil [480 509])
+            ("boost/fusion/sequence/intrinsic/size.hpp" include (:system-flag t) nil [510 561])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("size_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [601 646])
+                            ("size_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("fusion::result_of::size" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol classsubparts) [728 817]))                                  
+                                :template-specifier 
+                                  ( ("fusion::fusion_sequence_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [652 824]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [581 826]))                  
+                :type "namespace")
+                nil [563 827]))          
+      :file "size.hpp"
+      :pointmax 836
+      :fsize 835
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_SIZE_10022005_1617")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!mpl!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

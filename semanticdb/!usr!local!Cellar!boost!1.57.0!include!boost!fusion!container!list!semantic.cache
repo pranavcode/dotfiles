@@ -1,0 +1,639 @@
+;; Object list/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "list/"
+  :tables
+  (list
+    (semanticdb-table "cons.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_CONS_07172005_0843" variable (:constant-flag t) nil [446 471])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [473 515])
+            ("boost/fusion/container/list/cons_fwd.hpp" include (:system-flag t) nil [516 567])
+            ("boost/fusion/support/detail/access.hpp" include (:system-flag t) nil [568 617])
+            ("boost/fusion/sequence/intrinsic/begin.hpp" include (:system-flag t) nil [618 670])
+            ("boost/fusion/sequence/intrinsic/end.hpp" include (:system-flag t) nil [671 721])
+            ("boost/fusion/iterator/next.hpp" include (:system-flag t) nil [722 763])
+            ("boost/fusion/iterator/deref.hpp" include (:system-flag t) nil [764 806])
+            ("boost/fusion/container/list/nil.hpp" include (:system-flag t) nil [807 853])
+            ("boost/fusion/container/list/cons_iterator.hpp" include (:system-flag t) nil [854 910])
+            ("boost/fusion/container/list/detail/begin_impl.hpp" include (:system-flag t) nil [911 971])
+            ("boost/fusion/container/list/detail/end_impl.hpp" include (:system-flag t) nil [972 1030])
+            ("boost/fusion/container/list/detail/at_impl.hpp" include (:system-flag t) nil [1031 1088])
+            ("boost/fusion/container/list/detail/value_at_impl.hpp" include (:system-flag t) nil [1089 1152])
+            ("boost/fusion/container/list/detail/empty_impl.hpp" include (:system-flag t) nil [1153 1213])
+            ("boost/type_traits/is_convertible.hpp" include (:system-flag t) nil [1214 1261])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [1262 1300])
+            ("boost/fusion/support/sequence_base.hpp" include (:system-flag t) nil [1301 1350])
+            ("boost/mpl/int.hpp" include (:system-flag t) nil [1351 1379])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [1380 1409])
+            ("boost/mpl/or.hpp" include (:system-flag t) nil [1410 1437])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("void_" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1480 1493])
+                            ("cons_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1498 1514])
+                            ("forward_traversal_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1519 1548])
+                            ("fusion_sequence_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1553 1580])
+                            ("cons" type
+                               (:template 
+                                  ( ("Car" type (:type "class") nil nil)
+                                    ("Cdr" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("size" variable (:type "int") (reparse-symbol classsubparts) [1736 1741])
+                                    ("fusion_tag" type
+                                       (:typedef ("cons_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1750 1778])
+                                    ("tag" type
+                                       (:typedef ("fusion_sequence_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1787 1819])
+                                    ("is_view" type
+                                       (:typedef ("mpl::false_" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1858 1886])
+                                    ("category" type
+                                       (:typedef ("forward_traversal_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1895 1934])
+                                    ("car_type" type
+                                       (:typedef ("Car" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1943 1964])
+                                    ("cdr_type" type
+                                       (:typedef ("Cdr" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1973 1994])
+                                    ("cons" function
+                                       (:constructor-flag t
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2004 2073])
+                                    ("cons" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("in_car" variable
+                                               (:typemodifiers ("typename")
+                                                :type ("detail::call_param::type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2130 2176]))                                          
+                                        :type ("cons" type (:type "struct") nil nil))
+                                        (reparse-symbol classsubparts) [2125 2212])
+                                    ("cons" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("in_car" variable
+                                               (:typemodifiers ("typename")
+                                                :type ("detail::call_param::type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2273 2330])
+                                            ("in_cdr" variable
+                                               (:typemodifiers ("typename")
+                                                :type ("detail::call_param::type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2331 2377]))                                          
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2222 2419])
+                                    ("cons" function
+                                       (:template 
+                                          ( ("Car2" type (:type "class") nil nil)
+                                            ("Cdr2" type (:type "class") nil nil))                                          
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("rhs" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("cons" type
+                                                     (:template-specifier 
+                                                        ( ("Car2" type nil nil nil)
+                                                          ("Cdr2" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) [2523 2551]))                                          
+                                        :constructor-flag t)
+                                        (reparse-symbol classsubparts) [2437 2595])
+                                    ("cons" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("rhs" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("cons" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2643 2659]))                                          
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2605 2703])
+                                    ("cons" function
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil))                                          
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("seq" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Sequence" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2801 2832])
+                                            ("" variable
+                                               (:pointer 1
+                                                :typemodifiers ("typename")
+                                                :type ("boost::disable_if::type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2833 3094]))                                          
+                                        :constructor-flag t)
+                                        (reparse-symbol classsubparts) [2713 3212])
+                                    ("cons" function
+                                       (:template 
+                                          ( ("Iterator" type (:type "class") nil nil))                                          
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("iter" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Iterator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3297 3318])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3319 3354]))                                          
+                                        :constructor-flag t)
+                                        (reparse-symbol classsubparts) [3222 3434])
+                                    ("=" function
+                                       (:operator-flag t
+                                        :arguments 
+                                          ( ("rhs" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("cons" type
+                                                     (:template-specifier 
+                                                        ( ("Car2" type nil nil nil)
+                                                          ("Cdr2" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) [3541 3569]))                                          
+                                        :type ("cons" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3525 3669])
+                                    ("=" function
+                                       (:operator-flag t
+                                        :arguments 
+                                          ( ("rhs" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("cons" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3728 3744]))                                          
+                                        :type ("cons" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3712 3844])
+                                    ("=" function
+                                       (:operator-flag t
+                                        :typemodifiers ("typename")
+                                        :arguments 
+                                          ( ("seq" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Sequence" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4013 4033]))                                          
+                                        :type ("boost::disable_if::type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3924 4247])
+                                    ("assign_from_iter" function
+                                       (:arguments 
+                                          ( ("iter" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Iterator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4349 4370]))                                          
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [4327 4469])
+                                    ("car" variable (:type ("car_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4479 4492])
+                                    ("cdr" variable (:type ("cdr_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4501 4514]))                                  
+                                :superclasses 
+                                  ( ("sequence_base" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1586 4521]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1457 4523]))                  
+                :type "namespace")
+                nil [1439 4524]))          
+      :file "cons.hpp"
+      :pointmax 4534
+      :fsize 4533
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((symbol 4294 . 4318) (punctuation 4284 . 4285) (symbol 4276 . 4284) (TYPENAME 4267 . 4275) (punctuation 4266 . 4267) (TEMPLATE 4257 . 4265) (symbol 3891 . 3915) (punctuation 3881 . 3882) (symbol 3873 . 3881) (TYPENAME 3864 . 3872) (punctuation 3863 . 3864) (TEMPLATE 3854 . 3862) (symbol 3679 . 3703) (symbol 3492 . 3516) (punctuation 3482 . 3483) (symbol 3478 . 3482) (TYPENAME 3469 . 3477) (punctuation 3467 . 3468) (symbol 3463 . 3467) (TYPENAME 3454 . 3462) (punctuation 3453 . 3454) (TEMPLATE 3444 . 3452) (EXPLICIT 2116 . 2124) (symbol 2083 . 2107) (punctuation 1734 . 1735) (number 1733 . 1734) (punctuation 1732 . 1733) (symbol 1727 . 1732) (punctuation 1726 . 1727) (punctuation 1725 . 1726) (symbol 1721 . 1725) (punctuation 1720 . 1721) (punctuation 1719 . 1720) (symbol 1716 . 1719) (punctuation 1715 . 1716) (symbol 1711 . 1715) (punctuation 1710 . 1711) (punctuation 1709 . 1710) (symbol 1706 . 1709) (TYPEDEF 1698 . 1705))
+      :lexical-table 
+        '(("FUSION_CONS_07172005_0843")
+          )
+)
+    (semanticdb-table "cons_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_FUSION_CONS_FWD_HPP_INCLUDED" variable (:constant-flag t) nil [454 488])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("nil_" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [531 543])
+                            ("nil" type
+                               (:typedef ("nil_" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [564 581])
+                            ("cons" type
+                               (:template 
+                                  ( ("Car" type (:type "class") nil nil)
+                                    ("Cdr" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [598 659]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [508 661]))                  
+                :type "namespace")
+                nil [490 662]))          
+      :file "cons_fwd.hpp"
+      :pointmax 672
+      :fsize 671
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_FUSION_CONS_FWD_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "nil.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_NIL_04232014_0843" variable (:constant-flag t) nil [451 475])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [477 519])
+            ("boost/fusion/container/list/cons_fwd.hpp" include (:system-flag t) nil [520 571])
+            ("boost/fusion/support/sequence_base.hpp" include (:system-flag t) nil [572 621])
+            ("boost/mpl/int.hpp" include (:system-flag t) nil [622 650])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [651 680])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("void_" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [723 736])
+                            ("cons_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [741 757])
+                            ("forward_traversal_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [762 791])
+                            ("fusion_sequence_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [796 823])
+                            ("nil_" type
+                               (:superclasses 
+                                  ( ("sequence_base" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  
+                                :members 
+                                  ( ("size" type
+                                       (:typedef ("mpl::int_" type
+                                             (:template-specifier (("0"))
+                                              :type "class")
+                                              nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [877 903])
+                                    ("fusion_tag" type
+                                       (:typedef ("cons_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [912 940])
+                                    ("tag" type
+                                       (:typedef ("fusion_sequence_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [949 981])
+                                    ("is_view" type
+                                       (:typedef ("mpl::false_" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1020 1048])
+                                    ("category" type
+                                       (:typedef ("forward_traversal_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1057 1096])
+                                    ("car_type" type
+                                       (:typedef ("void_" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1105 1128])
+                                    ("cdr_type" type
+                                       (:typedef ("void_" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1137 1160])
+                                    ("nil_" function
+                                       (:constructor-flag t
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [1186 1228])
+                                    ("nil_" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Iterator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1329 1354])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1355 1390]))                                          
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [1291 1401])
+                                    ("assign_from_iter" function
+                                       (:arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Iterator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1503 1528]))                                          
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [1481 1548]))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [829 1555]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [700 1557]))                  
+                :type "namespace")
+                nil [682 1558]))          
+      :file "nil.hpp"
+      :pointmax 1568
+      :fsize 1567
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((symbol 1448 . 1472) (punctuation 1438 . 1439) (symbol 1430 . 1438) (TYPENAME 1421 . 1429) (punctuation 1420 . 1421) (TEMPLATE 1411 . 1419) (symbol 1275 . 1290) (punctuation 1265 . 1266) (symbol 1257 . 1265) (TYPENAME 1248 . 1256) (punctuation 1247 . 1248) (TEMPLATE 1238 . 1246) (symbol 1170 . 1185))
+      :lexical-table 
+        '(("FUSION_NIL_04232014_0843")
+          )
+)
+    (semanticdb-table "cons_iterator.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_CONS_ITERATOR_07172005_0849" variable (:constant-flag t) nil [455 489])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [491 533])
+            ("boost/type_traits/add_const.hpp" include (:system-flag t) nil [534 576])
+            ("boost/fusion/support/iterator_base.hpp" include (:system-flag t) nil [577 626])
+            ("boost/fusion/container/list/detail/deref_impl.hpp" include (:system-flag t) nil [627 687])
+            ("boost/fusion/container/list/detail/next_impl.hpp" include (:system-flag t) nil [688 747])
+            ("boost/fusion/container/list/detail/value_of_impl.hpp" include (:system-flag t) nil [748 811])
+            ("boost/fusion/container/list/detail/equal_to_impl.hpp" include (:system-flag t) nil [812 875])
+            ("boost/fusion/container/list/list_fwd.hpp" include (:system-flag t) nil [876 927])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("nil_" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [970 982])
+                            ("cons_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [987 1012])
+                            ("forward_traversal_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1017 1046])
+                            ("cons_iterator_identity" type
+                               (:template 
+                                  ( ("Cons" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [1052 1111])
+                            ("cons_iterator" type
+                               (:template 
+                                  ( ("Cons" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("fusion_tag" type
+                                       (:typedef ("cons_iterator_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1226 1263])
+                                    ("category" type
+                                       (:typedef ("forward_traversal_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1272 1311])
+                                    ("cons_type" type
+                                       (:typedef ("Cons" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1320 1343])
+                                    ("identity" variable (:type "int") (reparse-symbol classsubparts) [1437 1446])
+                                    ("cons_iterator" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("in_cons" variable
+                                               (:reference 1
+                                                :type ("cons_type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1512 1531]))                                          
+                                        :type ("cons_iterator" type (:type "struct") nil nil))
+                                        (reparse-symbol classsubparts) [1498 1562])
+                                    ("cons" variable (:type ("cons_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1572 1588])
+                                    ("private" label nil (reparse-symbol classsubparts) [1594 1602])
+                                    ("=" function
+                                       (:prototype-flag t
+                                        :operator-flag t
+                                        :arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("cons_iterator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1719 1740]))                                          
+                                        :type ("cons_iterator" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [1693 1741]))                                  
+                                :superclasses 
+                                  ( ("iterator_base" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1117 1748])
+                            ("nil_iterator" type
+                               (:superclasses 
+                                  ( ("iterator_base" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  
+                                :members 
+                                  ( ("category" type
+                                       (:typedef ("forward_traversal_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1818 1857])
+                                    ("fusion_tag" type
+                                       (:typedef ("cons_iterator_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1866 1903])
+                                    ("cons_type" type
+                                       (:typedef ("nil_" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1912 1935])
+                                    ("identity" variable (:type "int") (reparse-symbol classsubparts) [2020 2029])
+                                    ("nil_iterator" function
+                                       (:constructor-flag t
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2054 2104])
+                                    ("nil_iterator" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("nil_" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2184 2196]))                                          
+                                        :type ("nil_iterator" type (:type "struct") nil nil))
+                                        (reparse-symbol classsubparts) [2171 2199]))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1754 2206])
+                            ("cons_iterator" type
+                               (:type "struct"
+                                :members 
+                                  ( ("cons_iterator" function
+                                       (:constructor-flag t
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2301 2352])
+                                    ("cons_iterator" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("nil_" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2433 2445]))                                          
+                                        :type ("cons_iterator" type (:type "struct") nil nil))
+                                        (reparse-symbol classsubparts) [2419 2448]))                                  
+                                :superclasses 
+                                  ( ("nil_iterator" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  
+                                :template-specifier 
+                                  ( ("nil_" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2212 2455])
+                            ("cons_iterator" type
+                               (:type "struct"
+                                :members 
+                                  ( ("cons_iterator" function
+                                       (:constructor-flag t
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2556 2607])
+                                    ("cons_iterator" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("nil_" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2688 2700]))                                          
+                                        :type ("cons_iterator" type (:type "struct") nil nil))
+                                        (reparse-symbol classsubparts) [2674 2703]))                                  
+                                :superclasses 
+                                  ( ("nil_iterator" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  
+                                :template-specifier 
+                                  ( ("nil_" type (:constant-flag t) nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2461 2710])
+                            ("cons_iterator" type
+                               (:type "struct"
+                                :members 
+                                  ( ("cons_iterator" function
+                                       (:constructor-flag t
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2808 2859])
+                                    ("cons_iterator" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("nil_" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2940 2952]))                                          
+                                        :type ("cons_iterator" type (:type "struct") nil nil))
+                                        (reparse-symbol classsubparts) [2926 2955]))                                  
+                                :superclasses 
+                                  ( ("nil_iterator" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  
+                                :template-specifier 
+                                  ( ("list" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2716 2962])
+                            ("cons_iterator" type
+                               (:type "struct"
+                                :members 
+                                  ( ("cons_iterator" function
+                                       (:constructor-flag t
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3065 3116])
+                                    ("cons_iterator" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("nil_" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3197 3209]))                                          
+                                        :type ("cons_iterator" type (:type "struct") nil nil))
+                                        (reparse-symbol classsubparts) [3183 3212]))                                  
+                                :superclasses 
+                                  ( ("nil_iterator" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  
+                                :template-specifier 
+                                  ( ("list" type (:constant-flag t) nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2968 3219]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [947 3221]))                  
+                :type "namespace")
+                nil [929 3222]))          
+      :file "cons_iterator.hpp"
+      :pointmax 3231
+      :fsize 3230
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((EXPLICIT 3174 . 3182) (symbol 3141 . 3165) (symbol 3125 . 3140) (symbol 3049 . 3064) (EXPLICIT 2917 . 2925) (symbol 2884 . 2908) (symbol 2868 . 2883) (symbol 2792 . 2807) (EXPLICIT 2665 . 2673) (symbol 2632 . 2656) (symbol 2616 . 2631) (symbol 2540 . 2555) (EXPLICIT 2410 . 2418) (symbol 2377 . 2401) (symbol 2361 . 2376) (symbol 2285 . 2300) (EXPLICIT 2162 . 2170) (symbol 2129 . 2153) (symbol 2113 . 2128) (symbol 2038 . 2053) (punctuation 2009 . 2010) (symbol 2005 . 2009) (punctuation 2004 . 2005) (punctuation 2003 . 2004) (punctuation 2002 . 2003) (symbol 1998 . 2002) (punctuation 1997 . 1998) (symbol 1988 . 1997) (punctuation 1974 . 1975) (symbol 1952 . 1974) (TYPEDEF 1944 . 1951) (EXPLICIT 1489 . 1497) (symbol 1456 . 1480) (punctuation 1426 . 1427) (symbol 1422 . 1426) (punctuation 1421 . 1422) (punctuation 1420 . 1421) (punctuation 1419 . 1420) (symbol 1415 . 1419) (punctuation 1414 . 1415) (symbol 1405 . 1414) (TYPENAME 1396 . 1404) (punctuation 1382 . 1383) (symbol 1360 . 1382) (TYPEDEF 1352 . 1359))
+      :lexical-table 
+        '(("FUSION_CONS_ITERATOR_07172005_0849")
+          )
+)
+    (semanticdb-table "list_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_LIST_FORWARD_07172005_0224" variable (:constant-flag t) nil [417 450])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [452 494])
+            ("boost/fusion/container/list/limits.hpp" include (:system-flag t) nil [495 544])
+            ("boost/preprocessor/repetition/enum_params_with_a_default.hpp" include (:system-flag t) nil [545 616])
+            ("boost/fusion/container/list/detail/preprocessed/list_fwd.hpp" include (:system-flag t) nil [673 744]))          
+      :file "list_fwd.hpp"
+      :pointmax 1841
+      :fsize 1840
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_LIST_FORWARD_07172005_0224")
+          )
+)
+    (semanticdb-table "limits.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_LIST_LIMITS_07172005_0112" variable (:constant-flag t) nil [416 448])
+            ("boost/fusion/support/detail/pp_round.hpp" include (:system-flag t) nil [450 501])
+            ("FUSION_MAX_LIST_SIZE" variable (:constant-flag t) nil [547 567])
+            ("FUSION_MAX_LIST_SIZE_STR" variable (:constant-flag t) nil [697 721]))          
+      :file "limits.hpp"
+      :pointmax 797
+      :fsize 796
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_LIST_LIMITS_07172005_0112")
+          ("FUSION_MAX_LIST_SIZE_STR" . ((symbol "BOOST_PP_STRINGIZE" 722 . 740) (semantic-list "(BOOST_FUSION_PP_ROUND_UP(FUSION_MAX_LIST_SIZE))" 740 . 788)))
+          ("FUSION_MAX_LIST_SIZE" . ((number "10" 568 . 570)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!container!list!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

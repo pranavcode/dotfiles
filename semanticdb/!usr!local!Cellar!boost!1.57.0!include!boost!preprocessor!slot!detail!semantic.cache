@@ -1,0 +1,84 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "def.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_SLOT_DETAIL_DEF_HPP" variable (:constant-flag t) nil [660 698])
+            ("BOOST_PP_SLOT_OFFSET_10" variable (:constant-flag t) nil [743 766])
+            ("BOOST_PP_SLOT_OFFSET_9" variable (:constant-flag t) nil [798 820])
+            ("BOOST_PP_SLOT_OFFSET_8" variable (:constant-flag t) nil [874 896])
+            ("BOOST_PP_SLOT_OFFSET_7" variable (:constant-flag t) nil [948 970])
+            ("BOOST_PP_SLOT_OFFSET_6" variable (:constant-flag t) nil [1021 1043])
+            ("BOOST_PP_SLOT_OFFSET_5" variable (:constant-flag t) nil [1093 1115])
+            ("BOOST_PP_SLOT_OFFSET_4" variable (:constant-flag t) nil [1164 1186])
+            ("BOOST_PP_SLOT_OFFSET_3" variable (:constant-flag t) nil [1234 1256])
+            ("BOOST_PP_SLOT_OFFSET_2" variable (:constant-flag t) nil [1303 1325])
+            ("BOOST_PP_SLOT_CC_2" variable (:constant-flag t) nil [1402 1420])
+            ("BOOST_PP_SLOT_CC_3" variable (:constant-flag t) nil [1463 1481])
+            ("BOOST_PP_SLOT_CC_4" variable (:constant-flag t) nil [1530 1548])
+            ("BOOST_PP_SLOT_CC_5" variable (:constant-flag t) nil [1603 1621])
+            ("BOOST_PP_SLOT_CC_6" variable (:constant-flag t) nil [1682 1700])
+            ("BOOST_PP_SLOT_CC_7" variable (:constant-flag t) nil [1767 1785])
+            ("BOOST_PP_SLOT_CC_8" variable (:constant-flag t) nil [1858 1876])
+            ("BOOST_PP_SLOT_CC_9" variable (:constant-flag t) nil [1955 1973])
+            ("BOOST_PP_SLOT_CC_10" variable (:constant-flag t) nil [2058 2077])
+            ("BOOST_PP_SLOT_CC_2_D" variable (:constant-flag t) nil [2171 2191])
+            ("BOOST_PP_SLOT_CC_3_D" variable (:constant-flag t) nil [2214 2234])
+            ("BOOST_PP_SLOT_CC_4_D" variable (:constant-flag t) nil [2265 2285])
+            ("BOOST_PP_SLOT_CC_5_D" variable (:constant-flag t) nil [2324 2344])
+            ("BOOST_PP_SLOT_CC_6_D" variable (:constant-flag t) nil [2391 2411])
+            ("BOOST_PP_SLOT_CC_7_D" variable (:constant-flag t) nil [2466 2486])
+            ("BOOST_PP_SLOT_CC_8_D" variable (:constant-flag t) nil [2549 2569])
+            ("BOOST_PP_SLOT_CC_9_D" variable (:constant-flag t) nil [2640 2660])
+            ("BOOST_PP_SLOT_CC_10_D" variable (:constant-flag t) nil [2739 2760]))          
+      :file "def.hpp"
+      :pointmax 2848
+      :fsize 2847
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((punctuation 2838 . 2839) (punctuation 2160 . 2161) (punctuation 1391 . 1392) (punctuation 1364 . 1365) (punctuation 1362 . 1363) (punctuation 732 . 733) (punctuation 701 . 702) (punctuation 699 . 700) (punctuation 601 . 602) (punctuation 543 . 544) (punctuation 541 . 542) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PP_SLOT_OFFSET_10" (spp-arg-list ("x") 766 . 769) . 
+              ((semantic-list "(x)" 770 . 773) (punctuation "%" 774 . 775) (symbol "1000000000UL" 776 . 788)))
+          ("BOOST_PP_SLOT_OFFSET_5" (spp-arg-list ("x") 1115 . 1118) . 
+              ((symbol "BOOST_PP_SLOT_OFFSET_6" 1119 . 1141) (semantic-list "(x)" 1141 . 1144) (punctuation "%" 1145 . 1146) (symbol "10000UL" 1147 . 1154)))
+          ("BOOST_PP_SLOT_CC_10" (spp-arg-list ("a" "b" "c" "d" "e" "f" "g" "h" "i" "j") 2077 . 2107) . ((symbol "BOOST_PP_SLOT_CC_10_D" 2108 . 2129) (semantic-list "(a, b, c, d, e, f, g, h, i, j)" 2129 . 2159)))
+          ("BOOST_PP_SLOT_CC_7_D" (spp-arg-list ("a" "b" "c" "d" "e" "f" "g") 2486 . 2507) . ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "a" 2508 . 2509) (symbol "b" 2513 . 2514)) 2508 . 2514) (symbol "c" 2518 . 2519)) 2508 . 2519) (symbol "d" 2523 . 2524)) 2508 . 2524) (symbol "e" 2528 . 2529)) 2508 . 2529) (symbol "f" 2533 . 2534)) 2508 . 2534) (symbol "g" 2538 . 2539)) 2508 . 2539)))
+          ("BOOST_PP_SLOT_OFFSET_6" (spp-arg-list ("x") 1043 . 1046) . 
+              ((symbol "BOOST_PP_SLOT_OFFSET_7" 1047 . 1069) (semantic-list "(x)" 1069 . 1072) (punctuation "%" 1073 . 1074) (symbol "100000UL" 1075 . 1083)))
+          ("BOOST_PP_SLOT_OFFSET_7" (spp-arg-list ("x") 970 . 973) . 
+              ((symbol "BOOST_PP_SLOT_OFFSET_8" 974 . 996) (semantic-list "(x)" 996 . 999) (punctuation "%" 1000 . 1001) (symbol "1000000UL" 1002 . 1011)))
+          ("BOOST_PP_SLOT_OFFSET_8" (spp-arg-list ("x") 896 . 899) . 
+              ((symbol "BOOST_PP_SLOT_OFFSET_9" 900 . 922) (semantic-list "(x)" 922 . 925) (punctuation "%" 926 . 927) (symbol "10000000UL" 928 . 938)))
+          ("BOOST_PP_SLOT_CC_3_D" (spp-arg-list ("a" "b" "c") 2234 . 2243) . ((spp-symbol-merge ((spp-symbol-merge ((symbol "a" 2244 . 2245) (symbol "b" 2249 . 2250)) 2244 . 2250) (symbol "c" 2254 . 2255)) 2244 . 2255)))
+          ("BOOST_PP_SLOT_OFFSET_9" (spp-arg-list ("x") 820 . 823) . 
+              ((symbol "BOOST_PP_SLOT_OFFSET_10" 824 . 847) (semantic-list "(x)" 847 . 850) (punctuation "%" 851 . 852) (symbol "100000000UL" 853 . 864)))
+          ("BOOST_PP_SLOT_CC_6_D" (spp-arg-list ("a" "b" "c" "d" "e" "f") 2411 . 2429) . ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "a" 2430 . 2431) (symbol "b" 2435 . 2436)) 2430 . 2436) (symbol "c" 2440 . 2441)) 2430 . 2441) (symbol "d" 2445 . 2446)) 2430 . 2446) (symbol "e" 2450 . 2451)) 2430 . 2451) (symbol "f" 2455 . 2456)) 2430 . 2456)))
+          ("BOOST_PP_SLOT_CC_2" (spp-arg-list ("a" "b") 1420 . 1426) . ((symbol "BOOST_PP_SLOT_CC_2_D" 1427 . 1447) (semantic-list "(a, b)" 1447 . 1453)))
+          ("BOOST_PP_SLOT_CC_9_D" (spp-arg-list ("a" "b" "c" "d" "e" "f" "g" "h" "i") 2660 . 2687) . ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "a" 2688 . 2689) (symbol "b" 2693 . 2694)) 2688 . 2694) (symbol "c" 2698 . 2699)) 2688 . 2699) (symbol "d" 2703 . 2704)) 2688 . 2704) (symbol "e" 2708 . 2709)) 2688 . 2709) (symbol "f" 2713 . 2714)) 2688 . 2714) (symbol "g" 2718 . 2719)) 2688 . 2719) (symbol "h" 2723 . 2724)) 2688 . 2724) (symbol "i" 2728 . 2729)) 2688 . 2729)))
+          ("BOOST_PP_SLOT_CC_3" (spp-arg-list ("a" "b" "c") 1481 . 1490) . ((symbol "BOOST_PP_SLOT_CC_3_D" 1491 . 1511) (semantic-list "(a, b, c)" 1511 . 1520)))
+          ("BOOST_PREPROCESSOR_SLOT_DETAIL_DEF_HPP")
+          ("BOOST_PP_SLOT_CC_4" (spp-arg-list ("a" "b" "c" "d") 1548 . 1560) . ((symbol "BOOST_PP_SLOT_CC_4_D" 1561 . 1581) (semantic-list "(a, b, c, d)" 1581 . 1593)))
+          ("BOOST_PP_SLOT_CC_2_D" (spp-arg-list ("a" "b") 2191 . 2197) . ((spp-symbol-merge ((symbol "a" 2198 . 2199) (symbol "b" 2203 . 2204)) 2198 . 2204)))
+          ("BOOST_PP_SLOT_CC_5" (spp-arg-list ("a" "b" "c" "d" "e") 1621 . 1636) . ((symbol "BOOST_PP_SLOT_CC_5_D" 1637 . 1657) (semantic-list "(a, b, c, d, e)" 1657 . 1672)))
+          ("BOOST_PP_SLOT_CC_5_D" (spp-arg-list ("a" "b" "c" "d" "e") 2344 . 2359) . ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "a" 2360 . 2361) (symbol "b" 2365 . 2366)) 2360 . 2366) (symbol "c" 2370 . 2371)) 2360 . 2371) (symbol "d" 2375 . 2376)) 2360 . 2376) (symbol "e" 2380 . 2381)) 2360 . 2381)))
+          ("BOOST_PP_SLOT_CC_6" (spp-arg-list ("a" "b" "c" "d" "e" "f") 1700 . 1718) . ((symbol "BOOST_PP_SLOT_CC_6_D" 1719 . 1739) (semantic-list "(a, b, c, d, e, f)" 1739 . 1757)))
+          ("BOOST_PP_SLOT_CC_8_D" (spp-arg-list ("a" "b" "c" "d" "e" "f" "g" "h") 2569 . 2593) . ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "a" 2594 . 2595) (symbol "b" 2599 . 2600)) 2594 . 2600) (symbol "c" 2604 . 2605)) 2594 . 2605) (symbol "d" 2609 . 2610)) 2594 . 2610) (symbol "e" 2614 . 2615)) 2594 . 2615) (symbol "f" 2619 . 2620)) 2594 . 2620) (symbol "g" 2624 . 2625)) 2594 . 2625) (symbol "h" 2629 . 2630)) 2594 . 2630)))
+          ("BOOST_PP_SLOT_OFFSET_2" (spp-arg-list ("x") 1325 . 1328) . 
+              ((symbol "BOOST_PP_SLOT_OFFSET_3" 1329 . 1351) (semantic-list "(x)" 1351 . 1354) (punctuation "%" 1355 . 1356) (symbol "10UL" 1357 . 1361)))
+          ("BOOST_PP_SLOT_CC_7" (spp-arg-list ("a" "b" "c" "d" "e" "f" "g") 1785 . 1806) . ((symbol "BOOST_PP_SLOT_CC_7_D" 1807 . 1827) (semantic-list "(a, b, c, d, e, f, g)" 1827 . 1848)))
+          ("BOOST_PP_SLOT_OFFSET_3" (spp-arg-list ("x") 1256 . 1259) . 
+              ((symbol "BOOST_PP_SLOT_OFFSET_4" 1260 . 1282) (semantic-list "(x)" 1282 . 1285) (punctuation "%" 1286 . 1287) (symbol "100UL" 1288 . 1293)))
+          ("BOOST_PP_SLOT_CC_8" (spp-arg-list ("a" "b" "c" "d" "e" "f" "g" "h") 1876 . 1900) . ((symbol "BOOST_PP_SLOT_CC_8_D" 1901 . 1921) (semantic-list "(a, b, c, d, e, f, g, h)" 1921 . 1945)))
+          ("BOOST_PP_SLOT_OFFSET_4" (spp-arg-list ("x") 1186 . 1189) . 
+              ((symbol "BOOST_PP_SLOT_OFFSET_5" 1190 . 1212) (semantic-list "(x)" 1212 . 1215) (punctuation "%" 1216 . 1217) (symbol "1000UL" 1218 . 1224)))
+          ("BOOST_PP_SLOT_CC_9" (spp-arg-list ("a" "b" "c" "d" "e" "f" "g" "h" "i") 1973 . 2000) . ((symbol "BOOST_PP_SLOT_CC_9_D" 2001 . 2021) (semantic-list "(a, b, c, d, e, f, g, h, i)" 2021 . 2048)))
+          ("BOOST_PP_SLOT_CC_4_D" (spp-arg-list ("a" "b" "c" "d") 2285 . 2297) . ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "a" 2298 . 2299) (symbol "b" 2303 . 2304)) 2298 . 2304) (symbol "c" 2308 . 2309)) 2298 . 2309) (symbol "d" 2313 . 2314)) 2298 . 2314)))
+          ("BOOST_PP_SLOT_CC_10_D" (spp-arg-list ("a" "b" "c" "d" "e" "f" "g" "h" "i" "j") 2760 . 2790) . ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "a" 2791 . 2792) (symbol "b" 2796 . 2797)) 2791 . 2797) (symbol "c" 2801 . 2802)) 2791 . 2802) (symbol "d" 2806 . 2807)) 2791 . 2807) (symbol "e" 2811 . 2812)) 2791 . 2812) (symbol "f" 2816 . 2817)) 2791 . 2817) (symbol "g" 2821 . 2822)) 2791 . 2822) (symbol "h" 2826 . 2827)) 2791 . 2827) (symbol "i" 2831 . 2832)) 2791 . 2832) (symbol "j" 2836 . 2837)) 2791 . 2837)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!preprocessor!slot!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

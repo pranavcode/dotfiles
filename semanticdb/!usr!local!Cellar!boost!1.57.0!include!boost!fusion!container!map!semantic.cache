@@ -1,0 +1,38 @@
+;; Object map/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "map/"
+  :tables
+  (list
+    (semanticdb-table "map_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_MAP_FORWARD_MAIN_07212005_1105" variable (:constant-flag t) nil [421 458])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [460 502])
+            ("boost/config.hpp" include (:system-flag t) nil [503 530])
+            ("BOOST_FUSION_HAS_VARIADIC_MAP" variable (:constant-flag t) nil [918 947])
+            ("boost/fusion/container/map/detail/map_impl.hpp" include (:system-flag t) nil [1304 1361])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("map" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1612 1623]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1560 1625]))                  
+                :type "namespace")
+                nil [1542 1626]))          
+      :file "map_fwd.hpp"
+      :pointmax 1642
+      :fsize 1641
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((punctuation 1606 . 1607) (symbol 1605 . 1606) (punctuation 1604 . 1605) (punctuation 1603 . 1604) (punctuation 1602 . 1603) (TYPENAME 1593 . 1601) (punctuation 1592 . 1593) (TEMPLATE 1583 . 1591))
+      :lexical-table 
+        '(("FUSION_MAP_FORWARD_MAIN_07212005_1105")
+          ("BOOST_FUSION_HAS_VARIADIC_MAP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!container!map!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

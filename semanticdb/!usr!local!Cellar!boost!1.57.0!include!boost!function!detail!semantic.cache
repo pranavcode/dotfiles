@@ -1,0 +1,35 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "prologue.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_FUNCTION_PROLOGUE_HPP" variable (:constant-flag t) nil [354 381])
+            ("cassert" include (:system-flag t) nil [382 402])
+            ("algorithm" include (:system-flag t) nil [403 425])
+            ("boost/config/no_tr1/functional.hpp" include (:system-flag t) nil [426 473])
+            ("boost/throw_exception.hpp" include (:system-flag t) nil [509 547])
+            ("boost/config.hpp" include (:system-flag t) nil [548 577])
+            ("boost/function/function_base.hpp" include (:system-flag t) nil [578 623])
+            ("boost/mem_fn.hpp" include (:system-flag t) nil [624 653])
+            ("boost/type_traits/is_integral.hpp" include (:system-flag t) nil [654 700])
+            ("boost/preprocessor/enum.hpp" include (:system-flag t) nil [701 741])
+            ("boost/preprocessor/enum_params.hpp" include (:system-flag t) nil [742 789])
+            ("boost/preprocessor/cat.hpp" include (:system-flag t) nil [790 829])
+            ("boost/preprocessor/repeat.hpp" include (:system-flag t) nil [830 872])
+            ("boost/preprocessor/inc.hpp" include (:system-flag t) nil [873 912])
+            ("boost/type_traits/is_void.hpp" include (:system-flag t) nil [913 955]))          
+      :file "prologue.hpp"
+      :pointmax 994
+      :fsize 993
+      :lastmodtime '(21727 6073 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_FUNCTION_PROLOGUE_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!function!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

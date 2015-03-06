@@ -1,0 +1,493 @@
+;; Object impl/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "impl/"
+  :tables
+  (list
+    (semanticdb-table "adaptive_iterator_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_ITERATOR_DETAIL_ADAPTIVE_ITERATOR_IMPL_HPP_DEFINED" variable (:constant-flag t) nil [460 531])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [533 571])
+            ("boost/type_traits/is_same.hpp" include (:system-flag t) nil [572 612])
+            ("boost/throw_exception.hpp" include (:system-flag t) nil [613 649])
+            ("boost/numeric/odeint/util/unit_helper.hpp" include (:system-flag t) nil [651 703])
+            ("boost/numeric/odeint/util/copy.hpp" include (:system-flag t) nil [704 749])
+            ("boost/numeric/odeint/stepper/controlled_step_result.hpp" include (:system-flag t) nil [750 816])
+            ("boost/numeric/odeint/iterator/detail/ode_iterator_base.hpp" include (:system-flag t) nil [817 886])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("adaptive_iterator_impl" type
+                                       (:template 
+                                          ( ("Iterator" type (:type "class") nil nil)
+                                            ("Stepper" type (:type "class") nil nil)
+                                            ("System" type (:type "class") nil nil)
+                                            ("State" type (:type "class") nil nil)
+                                            ("Tag" type (:type "class") nil nil)
+                                            ("StepperTag" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [952 1094])
+                                    ("adaptive_iterator_impl" type
+                                       (:template 
+                                          ( ("Iterator" type (:type "class") nil nil)
+                                            ("Stepper" type (:type "class") nil nil)
+                                            ("System" type (:type "class") nil nil)
+                                            ("State" type (:type "class") nil nil)
+                                            ("Tag" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("private" label nil (reparse-symbol classsubparts) [2067 2075])
+                                            ("stepper_type" type
+                                               (:typedef ("Stepper" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2086 2115])
+                                            ("system_type" type
+                                               (:typedef ("System" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2124 2151])
+                                            ("unwrapped_stepper_type" type
+                                               (:typedef ("boost::numeric::odeint::unwrap_reference::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2160 2263])
+                                            ("state_type" type
+                                               (:typedef ("State" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2272 2297])
+                                            ("time_type" type
+                                               (:typedef ("traits::time_type::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2306 2373])
+                                            ("ode_value_type" type
+                                               (:typedef ("traits::value_type::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2382 2455])
+                                            ("base_type" type
+                                               (:typedef ("detail::ode_iterator_base" type
+                                                     (:template-specifier 
+                                                        ( ("Iterator" type nil nil nil)
+                                                          ("Stepper" type nil nil nil)
+                                                          ("System" type nil nil nil)
+                                                          ("State" type nil nil nil)
+                                                          ("Tag" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2493 2582])
+                                            ("public" label nil (reparse-symbol classsubparts) [2603 2610])
+                                            ("adaptive_iterator_impl" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("stepper" variable (:type ("stepper_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3201 3223])
+                                                    ("sys" variable (:type ("system_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3224 3241])
+                                                    ("s" variable
+                                                       (:reference 1
+                                                        :type ("state_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3242 3257])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3258 3271])
+                                                    ("t_end" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3272 3289])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3290 3304]))                                                  
+                                                :type ("adaptive_iterator_impl" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3177 3531])
+                                            ("adaptive_iterator_impl" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("stepper" variable (:type ("stepper_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3963 3985])
+                                                    ("sys" variable (:type ("system_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3986 4003])
+                                                    ("s" variable
+                                                       (:reference 1
+                                                        :type ("state_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4004 4019]))                                                  
+                                                :type ("adaptive_iterator_impl" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3939 4080])
+                                            ("protected" label nil (reparse-symbol classsubparts) [4086 4096])
+                                            ("boost" friend nil (reparse-symbol classsubparts) [4106 4124])
+                                            ("iterator_core_access" variable (:type "int") (reparse-symbol classsubparts) [4126 4147])
+                                            ("increment" function (:type "void") (reparse-symbol classsubparts) [4157 5382])
+                                            ("public" label nil (reparse-symbol classsubparts) [5387 5394])
+                                            ("get_state" function
+                                               (:constant-flag t
+                                                :type ("state_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [5403 5493])
+                                            ("private" label nil (reparse-symbol classsubparts) [5499 5507])
+                                            ("m_t_end" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5516 5534])
+                                            ("m_state" variable
+                                               (:pointer 1
+                                                :type ("state_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [5543 5563]))                                          
+                                        :superclasses 
+                                          ( ("detail::ode_iterator_base" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("Iterator" type nil nil nil)
+                                            ("Stepper" type nil nil nil)
+                                            ("System" type nil nil nil)
+                                            ("State" type nil nil nil)
+                                            ("Tag" type nil nil nil)
+                                            ("controlled_stepper_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1779 5570])
+                                    ("adaptive_iterator_impl" type
+                                       (:template 
+                                          ( ("Iterator" type (:type "class") nil nil)
+                                            ("Stepper" type (:type "class") nil nil)
+                                            ("System" type (:type "class") nil nil)
+                                            ("State" type (:type "class") nil nil)
+                                            ("Tag" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("private" label nil (reparse-symbol classsubparts) [6553 6561])
+                                            ("stepper_type" type
+                                               (:typedef ("Stepper" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [6572 6601])
+                                            ("system_type" type
+                                               (:typedef ("System" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [6610 6637])
+                                            ("unwrapped_stepper_type" type
+                                               (:typedef ("boost::numeric::odeint::unwrap_reference::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [6646 6749])
+                                            ("state_type" type
+                                               (:typedef ("State" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [6758 6783])
+                                            ("time_type" type
+                                               (:typedef ("traits::time_type::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [6792 6859])
+                                            ("ode_value_type" type
+                                               (:typedef ("traits::value_type::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [6868 6941])
+                                            ("base_type" type
+                                               (:typedef ("detail::ode_iterator_base" type
+                                                     (:template-specifier 
+                                                        ( ("Iterator" type nil nil nil)
+                                                          ("Stepper" type nil nil nil)
+                                                          ("System" type nil nil nil)
+                                                          ("State" type nil nil nil)
+                                                          ("Tag" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [6979 7068])
+                                            ("public" label nil (reparse-symbol classsubparts) [7089 7096])
+                                            ("adaptive_iterator_impl" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("stepper" variable (:type ("stepper_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7602 7624])
+                                                    ("sys" variable (:type ("system_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7625 7642])
+                                                    ("s" variable
+                                                       (:reference 1
+                                                        :type ("state_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7643 7658])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7659 7672])
+                                                    ("t_end" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7673 7690])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7691 7705]))                                                  
+                                                :type ("adaptive_iterator_impl" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [7578 8091])
+                                            ("adaptive_iterator_impl" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("stepper" variable (:type ("stepper_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8438 8460])
+                                                    ("sys" variable (:type ("system_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8461 8478])
+                                                    ("s" variable
+                                                       (:reference 1
+                                                        :type ("state_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8479 8494]))                                                  
+                                                :type ("adaptive_iterator_impl" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [8414 8539])
+                                            ("protected" label nil (reparse-symbol classsubparts) [8545 8555])
+                                            ("boost" friend nil (reparse-symbol classsubparts) [8565 8583])
+                                            ("iterator_core_access" variable (:type "int") (reparse-symbol classsubparts) [8585 8606])
+                                            ("increment" function (:type "void") (reparse-symbol classsubparts) [8616 9634])
+                                            ("public" label nil (reparse-symbol classsubparts) [9640 9647])
+                                            ("get_state" function
+                                               (:constant-flag t
+                                                :type ("state_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [9656 9824])
+                                            ("private" label nil (reparse-symbol classsubparts) [9830 9838])
+                                            ("m_t_end" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9847 9865]))                                          
+                                        :superclasses 
+                                          ( ("detail::ode_iterator_base" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("Iterator" type nil nil nil)
+                                            ("Stepper" type nil nil nil)
+                                            ("System" type nil nil nil)
+                                            ("State" type nil nil nil)
+                                            ("Tag" type nil nil nil)
+                                            ("dense_output_stepper_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [6263 9872]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [927 9875]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [907 9897]))                  
+                :type "namespace")
+                nil [889 9920]))          
+      :file "adaptive_iterator_impl.hpp"
+      :pointmax 10024
+      :fsize 10023
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax '((punctuation 8584 . 8585) (punctuation 8583 . 8584) (punctuation 4125 . 4126) (punctuation 4124 . 4125))
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_ITERATOR_DETAIL_ADAPTIVE_ITERATOR_IMPL_HPP_DEFINED")
+          )
+)
+    (semanticdb-table "const_step_iterator_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_ITERATOR_DETAIL_CONST_STEP_ITERATOR_IMPL_HPP_DEFINED" variable (:constant-flag t) nil [455 528])
+            ("boost/numeric/odeint/iterator/detail/ode_iterator_base.hpp" include (:system-flag t) nil [530 599])
+            ("boost/numeric/odeint/util/unit_helper.hpp" include (:system-flag t) nil [600 652])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("const_step_iterator_impl" type
+                                       (:template 
+                                          ( ("Iterator" type (:type "class") nil nil)
+                                            ("Stepper" type (:type "class") nil nil)
+                                            ("System" type (:type "class") nil nil)
+                                            ("State" type (:type "class") nil nil)
+                                            ("Tag" type (:type "class") nil nil)
+                                            ("StepperTag" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [719 860])
+                                    ("const_step_iterator_impl" type
+                                       (:template 
+                                          ( ("Iterator" type (:type "class") nil nil)
+                                            ("Stepper" type (:type "class") nil nil)
+                                            ("System" type (:type "class") nil nil)
+                                            ("State" type (:type "class") nil nil)
+                                            ("Tag" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("private" label nil (reparse-symbol classsubparts) [1214 1222])
+                                            ("stepper_type" type
+                                               (:typedef ("Stepper" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1232 1261])
+                                            ("system_type" type
+                                               (:typedef ("System" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1270 1297])
+                                            ("unwrapped_stepper_type" type
+                                               (:typedef ("boost::numeric::odeint::unwrap_reference::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1306 1409])
+                                            ("state_type" type
+                                               (:typedef ("State" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1418 1443])
+                                            ("time_type" type
+                                               (:typedef ("traits::time_type::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1452 1519])
+                                            ("ode_value_type" type
+                                               (:typedef ("traits::value_type::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1528 1601])
+                                            ("base_type" type
+                                               (:typedef ("detail::ode_iterator_base" type
+                                                     (:template-specifier 
+                                                        ( ("Iterator" type nil nil nil)
+                                                          ("Stepper" type nil nil nil)
+                                                          ("System" type nil nil nil)
+                                                          ("State" type nil nil nil)
+                                                          ("Tag" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1639 1728])
+                                            ("public" label nil (reparse-symbol classsubparts) [1749 1756])
+                                            ("const_step_iterator_impl" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("stepper" variable (:type ("stepper_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2355 2377])
+                                                    ("sys" variable (:type ("system_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2378 2395])
+                                                    ("s" variable
+                                                       (:reference 1
+                                                        :type ("state_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2396 2411])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2412 2425])
+                                                    ("t_end" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2426 2443])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2444 2458]))                                                  
+                                                :type ("const_step_iterator_impl" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2329 2716])
+                                            ("const_step_iterator_impl" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("stepper" variable (:type ("stepper_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3154 3176])
+                                                    ("sys" variable (:type ("system_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3177 3194])
+                                                    ("s" variable
+                                                       (:reference 1
+                                                        :type ("state_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3195 3210]))                                                  
+                                                :type ("const_step_iterator_impl" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3128 3255])
+                                            ("protected" label nil (reparse-symbol classsubparts) [3261 3271])
+                                            ("boost" friend nil (reparse-symbol classsubparts) [3281 3299])
+                                            ("iterator_core_access" variable (:type "int") (reparse-symbol classsubparts) [3301 3322])
+                                            ("increment" function (:type "void") (reparse-symbol classsubparts) [3332 4022])
+                                            ("public" label nil (reparse-symbol classsubparts) [4028 4035])
+                                            ("get_state" function
+                                               (:constant-flag t
+                                                :type ("state_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [4044 4128])
+                                            ("private" label nil (reparse-symbol classsubparts) [4134 4142])
+                                            ("m_t_start" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4151 4171])
+                                            ("m_t_end" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4180 4198])
+                                            ("m_state" variable
+                                               (:pointer 1
+                                                :type ("state_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [4207 4227])
+                                            ("m_step" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4236 4250]))                                          
+                                        :superclasses 
+                                          ( ("detail::ode_iterator_base" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("Iterator" type nil nil nil)
+                                            ("Stepper" type nil nil nil)
+                                            ("System" type nil nil nil)
+                                            ("State" type nil nil nil)
+                                            ("Tag" type nil nil nil)
+                                            ("stepper_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [935 4258])
+                                    ("const_step_iterator_impl" type
+                                       (:template 
+                                          ( ("Iterator" type (:type "class") nil nil)
+                                            ("Stepper" type (:type "class") nil nil)
+                                            ("System" type (:type "class") nil nil)
+                                            ("State" type (:type "class") nil nil)
+                                            ("Tag" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("private" label nil (reparse-symbol classsubparts) [5238 5246])
+                                            ("stepper_type" type
+                                               (:typedef ("Stepper" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [5256 5285])
+                                            ("system_type" type
+                                               (:typedef ("System" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [5294 5321])
+                                            ("unwrapped_stepper_type" type
+                                               (:typedef ("boost::numeric::odeint::unwrap_reference::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [5330 5433])
+                                            ("state_type" type
+                                               (:typedef ("State" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [5442 5467])
+                                            ("time_type" type
+                                               (:typedef ("traits::time_type::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [5476 5543])
+                                            ("ode_value_type" type
+                                               (:typedef ("traits::value_type::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [5552 5625])
+                                            ("base_type" type
+                                               (:typedef ("detail::ode_iterator_base" type
+                                                     (:template-specifier 
+                                                        ( ("Iterator" type nil nil nil)
+                                                          ("Stepper" type nil nil nil)
+                                                          ("System" type nil nil nil)
+                                                          ("State" type nil nil nil)
+                                                          ("Tag" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [5663 5752])
+                                            ("public" label nil (reparse-symbol classsubparts) [5773 5780])
+                                            ("const_step_iterator_impl" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("stepper" variable (:type ("stepper_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6376 6398])
+                                                    ("sys" variable (:type ("system_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6399 6416])
+                                                    ("s" variable
+                                                       (:reference 1
+                                                        :type ("state_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6417 6432])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6433 6446])
+                                                    ("t_end" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6447 6464])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6465 6479]))                                                  
+                                                :type ("const_step_iterator_impl" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [6350 6930])
+                                            ("const_step_iterator_impl" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("stepper" variable (:type ("stepper_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7368 7390])
+                                                    ("sys" variable (:type ("system_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7391 7408])
+                                                    ("s" variable
+                                                       (:reference 1
+                                                        :type ("state_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7409 7424]))                                                  
+                                                :type ("const_step_iterator_impl" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [7342 7501])
+                                            ("protected" label nil (reparse-symbol classsubparts) [7509 7519])
+                                            ("boost" friend nil (reparse-symbol classsubparts) [7529 7547])
+                                            ("iterator_core_access" variable (:type "int") (reparse-symbol classsubparts) [7549 7570])
+                                            ("increment" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7596 7602]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [7580 8483])
+                                            ("public" label nil (reparse-symbol classsubparts) [8489 8496])
+                                            ("get_state" function
+                                               (:constant-flag t
+                                                :type ("state_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [8505 8589])
+                                            ("private" label nil (reparse-symbol classsubparts) [8595 8603])
+                                            ("m_t_start" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8612 8632])
+                                            ("m_t_end" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8641 8659])
+                                            ("m_state" variable
+                                               (:pointer 1
+                                                :type ("state_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [8668 8688])
+                                            ("m_step" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8697 8711]))                                          
+                                        :superclasses 
+                                          ( ("detail::ode_iterator_base" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("Iterator" type nil nil nil)
+                                            ("Stepper" type nil nil nil)
+                                            ("System" type nil nil nil)
+                                            ("State" type nil nil nil)
+                                            ("Tag" type nil nil nil)
+                                            ("dense_output_stepper_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [4946 8718]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [694 8721]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [674 8743]))                  
+                :type "namespace")
+                nil [656 8766]))          
+      :file "const_step_iterator_impl.hpp"
+      :pointmax 8872
+      :fsize 8871
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax '((punctuation 7548 . 7549) (punctuation 7547 . 7548) (punctuation 3300 . 3301) (punctuation 3299 . 3300))
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_ITERATOR_DETAIL_CONST_STEP_ITERATOR_IMPL_HPP_DEFINED")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!numeric!odeint!iterator!impl!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

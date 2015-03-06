@@ -1,0 +1,45 @@
+;; Object c/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "c/"
+  :tables
+  (list
+    (semanticdb-table "gnu.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_LIBRARY_C_GNU_H" variable (:constant-flag t) nil [232 260])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [262 302])
+            ("boost/predef/make.h" include (:system-flag t) nil [303 333])
+            ("boost/predef/library/c/_prefix.h" include (:system-flag t) nil [335 378])
+            ("stddef.h" include (:system-flag t) nil [402 421])
+            ("cstddef" include (:system-flag t) nil [449 467])
+            ("BOOST_LIB_C_GNU" variable (:constant-flag t) nil [897 912])
+            ("BOOST_LIB_C_GNU_NAME" variable (:constant-flag t) nil [1354 1374])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1382 1419]))          
+      :file "gnu.h"
+      :pointmax 1493
+      :fsize 1492
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((semantic-list 1445 . 1483) (symbol 1420 . 1445) (string "\"GNU\"" 1462 . 1482))
+      :lexical-table 
+        '(("BOOST_PREDEF_LIBRARY_C_GNU_H")
+          ("BOOST_LIB_C_GNU_NAME" . ((string "\"GNU\"" 1375 . 1380)))
+          ("BOOST_LIB_C_GNU" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 913 . 947)))
+          )
+)
+    (semanticdb-table "_prefix.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_LIBRARY_C__PREFIX_H" variable (:constant-flag t) nil [236 268])
+            ("boost/predef/detail/_cassert.h" include (:system-flag t) nil [270 311]))          
+      :file "_prefix.h"
+      :pointmax 320
+      :fsize 319
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_PREDEF_LIBRARY_C__PREFIX_H")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!predef!library!c!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

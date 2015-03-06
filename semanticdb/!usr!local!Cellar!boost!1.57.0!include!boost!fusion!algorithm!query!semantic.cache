@@ -1,0 +1,486 @@
+;; Object query/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "query/"
+  :tables
+  (list
+    (semanticdb-table "all.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_FUSION_ALL_05052005_1238" variable (:constant-flag t) nil [450 480])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [482 524])
+            ("boost/fusion/support/category_of.hpp" include (:system-flag t) nil [525 572])
+            ("boost/fusion/algorithm/query/detail/all.hpp" include (:system-flag t) nil [573 627])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("result_of" type
+                               (:members 
+                                  ( ("all" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("F" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("bool")
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [786 804]))                                          )
+                                        (reparse-symbol namespacesubparts) [704 815]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [670 821])
+                            ("all" function
+                               (:typemodifiers ("inline")
+                                :arguments 
+                                  ( ("seq" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [921 941])
+                                    ("f" variable (:type ("F" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [942 946]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [901 1042]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [647 1044]))                  
+                :type "namespace")
+                nil [629 1045]))          
+      :file "all.hpp"
+      :pointmax 1055
+      :fsize 1054
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((symbol 872 . 896) (punctuation 866 . 867) (symbol 865 . 866) (TYPENAME 856 . 864) (punctuation 854 . 855) (symbol 846 . 854) (TYPENAME 837 . 845) (punctuation 836 . 837) (TEMPLATE 827 . 835))
+      :lexical-table 
+        '(("BOOST_FUSION_ALL_05052005_1238")
+          )
+)
+    (semanticdb-table "any.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_ANY_05052005_1230" variable (:constant-flag t) nil [480 504])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [506 548])
+            ("boost/fusion/support/category_of.hpp" include (:system-flag t) nil [549 596])
+            ("boost/fusion/algorithm/query/detail/any.hpp" include (:system-flag t) nil [597 651])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("result_of" type
+                               (:members 
+                                  ( ("any" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("F" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("bool")
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [810 828]))                                          )
+                                        (reparse-symbol namespacesubparts) [728 839]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [694 845])
+                            ("any" function
+                               (:typemodifiers ("inline")
+                                :arguments 
+                                  ( ("seq" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [945 965])
+                                    ("f" variable (:type ("F" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [966 970]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [925 1066]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [671 1068]))                  
+                :type "namespace")
+                nil [653 1069]))          
+      :file "any.hpp"
+      :pointmax 1079
+      :fsize 1078
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((symbol 896 . 920) (punctuation 890 . 891) (symbol 889 . 890) (TYPENAME 880 . 888) (punctuation 878 . 879) (symbol 870 . 878) (TYPENAME 861 . 869) (punctuation 860 . 861) (TEMPLATE 851 . 859))
+      :lexical-table 
+        '(("FUSION_ANY_05052005_1230")
+          )
+)
+    (semanticdb-table "count.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_FUSION_COUNT_09162005_0150" variable (:constant-flag t) nil [440 472])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [474 516])
+            ("boost/fusion/algorithm/query/count_if.hpp" include (:system-flag t) nil [517 569])
+            ("boost/fusion/algorithm/query/detail/count.hpp" include (:system-flag t) nil [570 626])
+            ("boost/fusion/support/is_sequence.hpp" include (:system-flag t) nil [627 674])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [675 713])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("result_of" type
+                               (:members 
+                                  ( ("count" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("F" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("int")
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [874 891]))                                          )
+                                        (reparse-symbol namespacesubparts) [790 902]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [756 908])
+                            ("count" function
+                               (:arguments 
+                                  ( ("seq" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1111 1131])
+                                    ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1132 1143]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1096 1235]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [733 1237]))                  
+                :type "namespace")
+                nil [715 1238]))          
+      :file "count.hpp"
+      :pointmax 1248
+      :fsize 1247
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((punctuation 1095 . 1096) (punctuation 1094 . 1095) (punctuation 1093 . 1094) (INT 1081 . 1084) (punctuation 1079 . 1080) (punctuation 1067 . 1068) (symbol 1059 . 1067) (punctuation 1058 . 1059) (symbol 1047 . 1058) (punctuation 1046 . 1047) (punctuation 1045 . 1046) (symbol 1039 . 1045) (punctuation 1025 . 1026) (symbol 1016 . 1025) (TYPENAME 999 . 1007) (INLINE 988 . 994) (symbol 959 . 983) (punctuation 953 . 954) (symbol 952 . 953) (TYPENAME 943 . 951) (punctuation 941 . 942) (symbol 933 . 941) (TYPENAME 924 . 932) (punctuation 923 . 924) (TEMPLATE 914 . 922))
+      :lexical-table 
+        '(("BOOST_FUSION_COUNT_09162005_0150")
+          )
+)
+    (semanticdb-table "count_if.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_FUSION_COUNT_IF_09162005_0137" variable (:constant-flag t) nil [455 490])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [492 534])
+            ("boost/fusion/algorithm/query/detail/count_if.hpp" include (:system-flag t) nil [535 594])
+            ("boost/fusion/support/category_of.hpp" include (:system-flag t) nil [595 642])
+            ("boost/fusion/support/is_sequence.hpp" include (:system-flag t) nil [643 690])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [691 729])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("result_of" type
+                               (:members 
+                                  ( ("count_if" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("F" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("int")
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [893 910]))                                          )
+                                        (reparse-symbol namespacesubparts) [806 921]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [772 927])
+                            ("count_if" function
+                               (:arguments 
+                                  ( ("seq" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1134 1154])
+                                    ("f" variable (:type ("F" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1155 1159]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1116 1273]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [749 1275]))                  
+                :type "namespace")
+                nil [731 1276]))          
+      :file "count_if.hpp"
+      :pointmax 1286
+      :fsize 1285
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((punctuation 1115 . 1116) (punctuation 1114 . 1115) (punctuation 1113 . 1114) (INT 1101 . 1104) (punctuation 1099 . 1100) (punctuation 1087 . 1088) (symbol 1079 . 1087) (punctuation 1078 . 1079) (symbol 1067 . 1078) (punctuation 1066 . 1067) (punctuation 1065 . 1066) (symbol 1059 . 1065) (punctuation 1045 . 1046) (symbol 1036 . 1045) (TYPENAME 1019 . 1027) (INLINE 1007 . 1013) (symbol 978 . 1002) (punctuation 972 . 973) (symbol 971 . 972) (TYPENAME 962 . 970) (punctuation 960 . 961) (symbol 952 . 960) (TYPENAME 943 . 951) (punctuation 942 . 943) (TEMPLATE 933 . 941))
+      :lexical-table 
+        '(("BOOST_FUSION_COUNT_IF_09162005_0137")
+          )
+)
+    (semanticdb-table "find.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_FIND_05052005_1107" variable (:constant-flag t) nil [446 471])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [473 515])
+            ("boost/fusion/algorithm/query/find_if_fwd.hpp" include (:system-flag t) nil [516 571])
+            ("boost/fusion/algorithm/query/detail/find_if.hpp" include (:system-flag t) nil [572 630])
+            ("boost/fusion/algorithm/query/detail/segmented_find.hpp" include (:system-flag t) nil [631 696])
+            ("boost/fusion/iterator/key_of.hpp" include (:system-flag t) nil [697 740])
+            ("boost/fusion/iterator/value_of.hpp" include (:system-flag t) nil [741 786])
+            ("boost/fusion/support/category_of.hpp" include (:system-flag t) nil [787 834])
+            ("boost/fusion/support/is_segmented.hpp" include (:system-flag t) nil [835 883])
+            ("boost/mpl/if.hpp" include (:system-flag t) nil [884 911])
+            ("boost/mpl/placeholders.hpp" include (:system-flag t) nil [912 949])
+            ("boost/type_traits/is_same.hpp" include (:system-flag t) nil [950 990])
+            ("boost/type_traits/is_const.hpp" include (:system-flag t) nil [991 1032])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [1033 1071])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("result_of" type
+                               (:members 
+                                  ( ("type" variable (:type "int") (reparse-symbol namespacesubparts) [1749 1765]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1114 1771])
+                            ("find" function
+                               (:arguments 
+                                  ( ("seq" variable
+                                       (:reference 1
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1996 2010]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1976 2126])
+                            ("find" function
+                               (:typemodifiers ("inline" "typename")
+                                :arguments 
+                                  ( ("seq" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2278 2298]))                                  
+                                :type ("result_of::find::type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [2206 2420]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1091 2422]))                  
+                :type "namespace")
+                nil [1073 2423]))          
+      :file "find.hpp"
+      :pointmax 2432
+      :fsize 2431
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((symbol 2177 . 2201) (punctuation 2171 . 2172) (symbol 2163 . 2171) (TYPENAME 2154 . 2162) (punctuation 2152 . 2153) (symbol 2151 . 2152) (TYPENAME 2142 . 2150) (punctuation 2141 . 2142) (TEMPLATE 2132 . 2140) (punctuation 1975 . 1976) (punctuation 1974 . 1975) (punctuation 1973 . 1974) (punctuation 1963 . 1964) (symbol 1962 . 1963) (punctuation 1960 . 1961) (symbol 1952 . 1960) (punctuation 1951 . 1952) (symbol 1947 . 1951) (punctuation 1946 . 1947) (punctuation 1945 . 1946) (symbol 1936 . 1945) (punctuation 1934 . 1935) (punctuation 1922 . 1923) (symbol 1914 . 1922) (punctuation 1913 . 1914) (symbol 1905 . 1913) (punctuation 1891 . 1892) (symbol 1876 . 1891) (TYPENAME 1858 . 1866) (INLINE 1851 . 1857) (symbol 1822 . 1846) (punctuation 1816 . 1817) (symbol 1808 . 1816) (TYPENAME 1799 . 1807) (punctuation 1797 . 1798) (symbol 1796 . 1797) (TYPENAME 1787 . 1795) (punctuation 1786 . 1787) (TEMPLATE 1777 . 1785) (punctuation 1748 . 1749) (punctuation 1747 . 1748) (punctuation 1746 . 1747) (punctuation 1732 . 1733) (punctuation 1714 . 1715) (symbol 1692 . 1693) (punctuation 1690 . 1691) (symbol 1663 . 1667) (punctuation 1662 . 1663) (punctuation 1661 . 1662) (punctuation 1660 . 1661) (punctuation 1634 . 1635) (symbol 1632 . 1634) (punctuation 1631 . 1632) (punctuation 1630 . 1631) (symbol 1627 . 1630) (punctuation 1626 . 1627) (symbol 1618 . 1626) (punctuation 1616 . 1617) (punctuation 1588 . 1589) (symbol 1586 . 1588) (punctuation 1585 . 1586) (punctuation 1584 . 1585) (symbol 1581 . 1584) (punctuation 1580 . 1581) (symbol 1574 . 1580) (punctuation 1572 . 1573) (punctuation 1544 . 1545) (symbol 1536 . 1544) (punctuation 1535 . 1536) (symbol 1521 . 1535) (punctuation 1520 . 1521) (punctuation 1519 . 1520) (symbol 1513 . 1519) (punctuation 1483 . 1484) (symbol 1480 . 1483) (punctuation 1479 . 1480) (punctuation 1478 . 1479) (symbol 1475 . 1478) (TYPENAME 1466 . 1474) (punctuation 1440 . 1441) (symbol 1433 . 1440) (punctuation 1411 . 1412) (symbol 1403 . 1411) (punctuation 1381 . 1382) (symbol 1364 . 1381) (punctuation 1363 . 1364) (punctuation 1362 . 1363) (symbol 1356 . 1362) (punctuation 1354 . 1355) (punctuation 1338 . 1339) (symbol 1337 . 1338) (punctuation 1335 . 1336) (symbol 1327 . 1335) (punctuation 1326 . 1327) (symbol 1302 . 1326) (punctuation 1301 . 1302) (punctuation 1300 . 1301) (symbol 1294 . 1300) (punctuation 1292 . 1293) (punctuation 1276 . 1277) (symbol 1268 . 1276) (punctuation 1267 . 1268) (symbol 1255 . 1267) (punctuation 1254 . 1255) (punctuation 1253 . 1254) (symbol 1247 . 1253) (punctuation 1229 . 1230) (symbol 1226 . 1229) (punctuation 1225 . 1226) (punctuation 1224 . 1225) (symbol 1221 . 1224) (punctuation 1219 . 1220) (symbol 1204 . 1208) (STRUCT 1197 . 1203) (punctuation 1187 . 1188) (symbol 1186 . 1187) (TYPENAME 1177 . 1185) (punctuation 1175 . 1176) (symbol 1167 . 1175) (TYPENAME 1158 . 1166) (punctuation 1157 . 1158) (TEMPLATE 1148 . 1156))
+      :lexical-table 
+        '(("FUSION_FIND_05052005_1107")
+          )
+)
+    (semanticdb-table "find_if.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_FIND_IF_05052005_1108" variable (:constant-flag t) nil [449 477])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [479 521])
+            ("boost/fusion/algorithm/query/find_if_fwd.hpp" include (:system-flag t) nil [522 577])
+            ("boost/fusion/algorithm/query/detail/find_if.hpp" include (:system-flag t) nil [578 636])
+            ("boost/fusion/algorithm/query/detail/segmented_find_if.hpp" include (:system-flag t) nil [637 705])
+            ("boost/fusion/iterator/value_of.hpp" include (:system-flag t) nil [706 751])
+            ("boost/fusion/support/is_segmented.hpp" include (:system-flag t) nil [752 800])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [801 839])
+            ("boost/type_traits/is_const.hpp" include (:system-flag t) nil [840 881])
+            ("boost/mpl/bind.hpp" include (:system-flag t) nil [882 911])
+            ("boost/mpl/lambda.hpp" include (:system-flag t) nil [912 943])
+            ("boost/mpl/placeholders.hpp" include (:system-flag t) nil [944 981])
+            ("boost/mpl/quote.hpp" include (:system-flag t) nil [982 1012])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("result_of" type
+                               (:members 
+                                  ( ("type" variable (:type "int") (reparse-symbol namespacesubparts) [1577 1593]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1055 1599])
+                            ("find_if" function
+                               (:arguments 
+                                  ( ("seq" variable
+                                       (:reference 1
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1830 1844]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1813 1966])
+                            ("find_if" function
+                               (:typemodifiers ("inline" "typename")
+                                :arguments 
+                                  ( ("seq" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2130 2150]))                                  
+                                :type ("result_of::find_if::type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [2049 2278]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1032 2280]))                  
+                :type "namespace")
+                nil [1014 2281]))          
+      :file "find_if.hpp"
+      :pointmax 2290
+      :fsize 2289
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((symbol 2020 . 2044) (punctuation 2014 . 2015) (symbol 2006 . 2014) (TYPENAME 1997 . 2005) (punctuation 1995 . 1996) (symbol 1991 . 1995) (TYPENAME 1982 . 1990) (punctuation 1981 . 1982) (TEMPLATE 1972 . 1980) (punctuation 1812 . 1813) (punctuation 1811 . 1812) (punctuation 1810 . 1811) (punctuation 1800 . 1801) (symbol 1796 . 1800) (punctuation 1794 . 1795) (symbol 1786 . 1794) (punctuation 1785 . 1786) (symbol 1778 . 1785) (punctuation 1777 . 1778) (punctuation 1776 . 1777) (symbol 1767 . 1776) (punctuation 1765 . 1766) (punctuation 1753 . 1754) (symbol 1745 . 1753) (punctuation 1744 . 1745) (symbol 1736 . 1744) (punctuation 1722 . 1723) (symbol 1707 . 1722) (TYPENAME 1689 . 1697) (INLINE 1682 . 1688) (symbol 1653 . 1677) (punctuation 1647 . 1648) (symbol 1639 . 1647) (TYPENAME 1630 . 1638) (punctuation 1628 . 1629) (symbol 1624 . 1628) (TYPENAME 1615 . 1623) (punctuation 1614 . 1615) (TEMPLATE 1605 . 1613) (punctuation 1576 . 1577) (punctuation 1575 . 1576) (punctuation 1574 . 1575) (punctuation 1560 . 1561) (punctuation 1542 . 1543) (punctuation 1520 . 1521) (symbol 1518 . 1520) (punctuation 1517 . 1518) (punctuation 1516 . 1517) (symbol 1513 . 1516) (punctuation 1511 . 1512) (punctuation 1510 . 1511) (symbol 1502 . 1510) (punctuation 1501 . 1502) (symbol 1495 . 1501) (punctuation 1494 . 1495) (punctuation 1493 . 1494) (symbol 1490 . 1493) (punctuation 1489 . 1490) (symbol 1484 . 1489) (punctuation 1483 . 1484) (punctuation 1482 . 1483) (symbol 1479 . 1482) (punctuation 1477 . 1478) (symbol 1450 . 1454) (punctuation 1449 . 1450) (punctuation 1448 . 1449) (punctuation 1447 . 1448) (symbol 1443 . 1447) (punctuation 1442 . 1443) (symbol 1436 . 1442) (punctuation 1435 . 1436) (punctuation 1434 . 1435) (symbol 1431 . 1434) (TYPENAME 1422 . 1430) (punctuation 1396 . 1397) (symbol 1391 . 1396) (punctuation 1390 . 1391) (punctuation 1389 . 1390) (symbol 1386 . 1389) (punctuation 1364 . 1365) (symbol 1356 . 1364) (punctuation 1334 . 1335) (symbol 1317 . 1334) (punctuation 1316 . 1317) (punctuation 1315 . 1316) (symbol 1309 . 1315) (punctuation 1307 . 1308) (punctuation 1291 . 1292) (symbol 1287 . 1291) (punctuation 1285 . 1286) (symbol 1277 . 1285) (punctuation 1276 . 1277) (symbol 1249 . 1276) (punctuation 1248 . 1249) (punctuation 1247 . 1248) (symbol 1241 . 1247) (punctuation 1239 . 1240) (punctuation 1223 . 1224) (symbol 1215 . 1223) (punctuation 1214 . 1215) (symbol 1202 . 1214) (punctuation 1201 . 1202) (punctuation 1200 . 1201) (symbol 1194 . 1200) (punctuation 1176 . 1177) (symbol 1173 . 1176) (punctuation 1172 . 1173) (punctuation 1171 . 1172) (symbol 1168 . 1171) (punctuation 1166 . 1167) (symbol 1148 . 1155) (STRUCT 1141 . 1147) (punctuation 1131 . 1132) (symbol 1127 . 1131) (TYPENAME 1118 . 1126) (punctuation 1116 . 1117) (symbol 1108 . 1116) (TYPENAME 1099 . 1107) (punctuation 1098 . 1099) (TEMPLATE 1089 . 1097))
+      :lexical-table 
+        '(("FUSION_FIND_IF_05052005_1108")
+          )
+)
+    (semanticdb-table "none.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_FUSION_NONE_07062005_1128" variable (:constant-flag t) nil [451 482])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [484 526])
+            ("boost/fusion/algorithm/query/any.hpp" include (:system-flag t) nil [527 574])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("result_of" type
+                               (:members 
+                                  ( ("none" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("F" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("bool")
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [734 752]))                                          )
+                                        (reparse-symbol namespacesubparts) [651 763]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [617 769])
+                            ("none" function
+                               (:typemodifiers ("inline")
+                                :arguments 
+                                  ( ("seq" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [870 890])
+                                    ("f" variable (:type ("F" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [891 895]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [849 944]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [594 946]))                  
+                :type "namespace")
+                nil [576 947]))          
+      :file "none.hpp"
+      :pointmax 957
+      :fsize 956
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((symbol 820 . 844) (punctuation 814 . 815) (symbol 813 . 814) (TYPENAME 804 . 812) (punctuation 802 . 803) (symbol 794 . 802) (TYPENAME 785 . 793) (punctuation 784 . 785) (TEMPLATE 775 . 783))
+      :lexical-table 
+        '(("BOOST_FUSION_NONE_07062005_1128")
+          )
+)
+    (semanticdb-table "find_if_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_FUSION_FIND_IF_FWD_HPP_INCLUDED" variable (:constant-flag t) nil [415 452])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [454 496])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [497 535])
+            ("boost/type_traits/is_const.hpp" include (:system-flag t) nil [536 577])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("result_of" type
+                               (:members 
+                                  ( ("find_if" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("Pred" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [698 765]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [664 771])
+                            ("find_if" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("seq" variable
+                                       (:reference 1
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [995 1009]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [978 1010])
+                            ("find_if" function
+                               (:prototype-flag t
+                                :typemodifiers ("typename")
+                                :arguments 
+                                  ( ("seq" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1167 1187]))                                  
+                                :type ("result_of::find_if::type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1093 1188]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [641 1190]))                  
+                :type "namespace")
+                nil [623 1191]))          
+      :file "find_if_fwd.hpp"
+      :pointmax 1200
+      :fsize 1199
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((symbol 1064 . 1088) (punctuation 1058 . 1059) (symbol 1050 . 1058) (TYPENAME 1041 . 1049) (punctuation 1039 . 1040) (symbol 1035 . 1039) (TYPENAME 1026 . 1034) (punctuation 1025 . 1026) (TEMPLATE 1016 . 1024) (punctuation 977 . 978) (punctuation 976 . 977) (punctuation 975 . 976) (punctuation 965 . 966) (symbol 961 . 965) (punctuation 959 . 960) (symbol 951 . 959) (punctuation 950 . 951) (symbol 943 . 950) (punctuation 942 . 943) (punctuation 941 . 942) (symbol 932 . 941) (punctuation 930 . 931) (punctuation 918 . 919) (symbol 910 . 918) (punctuation 909 . 910) (symbol 901 . 909) (punctuation 887 . 888) (symbol 872 . 887) (TYPENAME 854 . 862) (symbol 825 . 849) (punctuation 819 . 820) (symbol 811 . 819) (TYPENAME 802 . 810) (punctuation 800 . 801) (symbol 796 . 800) (TYPENAME 787 . 795) (punctuation 786 . 787) (TEMPLATE 777 . 785))
+      :lexical-table 
+        '(("BOOST_FUSION_FIND_IF_FWD_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "find_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_FUSION_FIND_FWD_HPP_INCLUDED" variable (:constant-flag t) nil [412 446])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [448 490])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [491 529])
+            ("boost/type_traits/is_const.hpp" include (:system-flag t) nil [530 571])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("result_of" type
+                               (:members 
+                                  ( ("find" type
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil)
+                                            ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [648 709]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [614 715])
+                            ("find" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("seq" variable
+                                       (:reference 1
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [940 954]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [920 955])
+                            ("find" function
+                               (:prototype-flag t
+                                :typemodifiers ("inline" "typename")
+                                :arguments 
+                                  ( ("seq" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1107 1127]))                                  
+                                :type ("result_of::find::type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1035 1128]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [591 1130]))                  
+                :type "namespace")
+                nil [573 1131]))          
+      :file "find_fwd.hpp"
+      :pointmax 1140
+      :fsize 1139
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((symbol 1006 . 1030) (punctuation 1000 . 1001) (symbol 992 . 1000) (TYPENAME 983 . 991) (punctuation 981 . 982) (symbol 980 . 981) (TYPENAME 971 . 979) (punctuation 970 . 971) (TEMPLATE 961 . 969) (punctuation 919 . 920) (punctuation 918 . 919) (punctuation 917 . 918) (punctuation 907 . 908) (symbol 906 . 907) (punctuation 904 . 905) (symbol 896 . 904) (punctuation 895 . 896) (symbol 891 . 895) (punctuation 890 . 891) (punctuation 889 . 890) (symbol 880 . 889) (punctuation 878 . 879) (punctuation 866 . 867) (symbol 858 . 866) (punctuation 857 . 858) (symbol 849 . 857) (punctuation 835 . 836) (symbol 820 . 835) (TYPENAME 802 . 810) (INLINE 795 . 801) (symbol 766 . 790) (punctuation 760 . 761) (symbol 752 . 760) (TYPENAME 743 . 751) (punctuation 741 . 742) (symbol 740 . 741) (TYPENAME 731 . 739) (punctuation 730 . 731) (TEMPLATE 721 . 729))
+      :lexical-table 
+        '(("BOOST_FUSION_FIND_FWD_HPP_INCLUDED")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!algorithm!query!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

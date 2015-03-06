@@ -1,0 +1,141 @@
+;; Object helper/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "helper/"
+  :tables
+  (list
+    (semanticdb-table "file.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_INCLUDE_CORE_FILE_HPP" variable (:constant-flag t) nil [849 888])
+            ("iostream" include (:system-flag t) nil [890 909])
+            ("fstream" include (:system-flag t) nil [910 928])
+            ("string" include (:system-flag t) nil [929 946])
+            ("insilico" type
+               (:members 
+                  ( ("file_check" function
+                       (:arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::ifstream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1043 1071])
+                            ("filename" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1072 1100]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [1027 1331]))                  
+                :type "namespace")
+                nil [948 1334]))          
+      :file "file.hpp"
+      :pointmax 1365
+      :fsize 1364
+      :lastmodtime '(21750 23812 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_INCLUDE_CORE_FILE_HPP")
+          )
+)
+    (semanticdb-table "string.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_INCLUDE_CORE_HELPER_STRING_HPP" variable (:constant-flag t) nil [860 908])
+            ("sstream" include (:system-flag t) nil [910 928])
+            ("string" include (:system-flag t) nil [929 946])
+            ("vector" include (:system-flag t) nil [947 964])
+            ("insilico" type
+               (:members 
+                  ( ("ltrim" function
+                       (:typemodifiers ("static" "inline")
+                        :arguments 
+                          ( ("s" variable
+                               (:reference 1
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1058 1073]))                          
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [1025 1194])
+                    ("rtrim" function
+                       (:typemodifiers ("static" "inline")
+                        :arguments 
+                          ( ("s" variable
+                               (:reference 1
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1264 1279]))                          
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [1231 1407])
+                    ("trim" function
+                       (:typemodifiers ("static" "inline")
+                        :arguments 
+                          ( ("s" variable
+                               (:reference 1
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1475 1490]))                          
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [1443 1520])
+                    ("string_to_double" function
+                       (:typemodifiers ("static" "inline")
+                        :arguments 
+                          ( ("strnum" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1628 1647]))                          
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [1590 1920])
+                    ("starts_with" function
+                       (:arguments 
+                          ( ("subject" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2015 2042])
+                            ("test" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2043 2067]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [1991 2178])
+                    ("split" function
+                       (:arguments 
+                          ( ("s" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2216 2237])
+                            ("delim" variable (:type "char") (reparse-symbol arg-sub-list) [2238 2249])
+                            ("elems" variable
+                               (:reference 1
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("std::string" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [2250 2282]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [2205 2406])
+                    ("split" function
+                       (:arguments 
+                          ( ("s" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2473 2494])
+                            ("delim" variable (:type "char") (reparse-symbol arg-sub-list) [2495 2506]))                          
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("std::string" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [2442 2586]))                  
+                :type "namespace")
+                nil [966 2589]))          
+      :file "string.hpp"
+      :pointmax 2620
+      :fsize 2619
+      :lastmodtime '(21750 23329 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_INCLUDE_CORE_HELPER_STRING_HPP")
+          )
+))
+  :file "!Users!pranav!app!bio!insilico!include!core!helper!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

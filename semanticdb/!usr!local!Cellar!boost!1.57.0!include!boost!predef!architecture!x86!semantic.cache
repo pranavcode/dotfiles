@@ -1,0 +1,52 @@
+;; Object x86/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "x86/"
+  :tables
+  (list
+    (semanticdb-table "32.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_ARCHITECTURE_X86_32_H" variable (:constant-flag t) nil [238 272])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [274 314])
+            ("boost/predef/make.h" include (:system-flag t) nil [315 345])
+            ("BOOST_ARCH_X86_32" variable (:constant-flag t) nil [1192 1209])
+            ("BOOST_ARCH_X86_32" variable (:constant-flag t) nil [2248 2265])
+            ("BOOST_ARCH_X86_32_NAME" variable (:constant-flag t) nil [2498 2520])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [2537 2574])
+            ("boost/predef/architecture/x86.h" include (:system-flag t) nil [2644 2686]))          
+      :file "32.h"
+      :pointmax 2695
+      :fsize 2694
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((semantic-list 2600 . 2642) (symbol 2575 . 2600) (string "\"Intel x86-32\"" 2619 . 2641) (semantic-list "(3,0,0)" 2601 . 2618) (semantic-list 1491 . 1502) (symbol 1484 . 1491) (punctuation 1476 . 1477) (punctuation 1475 . 1476) (semantic-list 1465 . 1474) (symbol 1458 . 1465) (punctuation 1456 . 1457) (punctuation 1455 . 1456) (semantic-list 1439 . 1454) (symbol 1432 . 1439) (punctuation 1424 . 1425) (punctuation 1423 . 1424) (semantic-list 1415 . 1422) (symbol 1408 . 1415) (punctuation 1406 . 1407) (punctuation 1405 . 1406) (semantic-list 1395 . 1404) (symbol 1388 . 1395) (punctuation 1380 . 1381) (punctuation 1379 . 1380) (semantic-list 1370 . 1378) (symbol 1363 . 1370) (punctuation 1361 . 1362) (punctuation 1360 . 1361) (semantic-list 1349 . 1359) (symbol 1342 . 1349) (punctuation 1334 . 1335) (punctuation 1333 . 1334) (semantic-list 1322 . 1332) (symbol 1315 . 1322) (punctuation 1313 . 1314) (punctuation 1312 . 1313) (semantic-list 1301 . 1311) (symbol 1294 . 1301))
+      :lexical-table 
+        '(("BOOST_ARCH_X86_32" . ((symbol "BOOST_VERSION_NUMBER" 2266 . 2286) (semantic-list "(3,0,0)" 2286 . 2293)))
+          ("BOOST_ARCH_X86_32_NAME" . ((string "\"Intel x86-32\"" 2521 . 2535)))
+          ("BOOST_PREDEF_ARCHITECTURE_X86_32_H")
+          )
+)
+    (semanticdb-table "64.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_ARCHITECTURE_X86_64_H" variable (:constant-flag t) nil [238 272])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [274 314])
+            ("boost/predef/make.h" include (:system-flag t) nil [315 345])
+            ("BOOST_ARCH_X86_64" variable (:constant-flag t) nil [730 747])
+            ("BOOST_ARCH_X86_64" variable (:constant-flag t) nil [941 958])
+            ("BOOST_ARCH_X86_64_NAME" variable (:constant-flag t) nil [1075 1097])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1114 1151])
+            ("boost/predef/architecture/x86.h" include (:system-flag t) nil [1221 1263]))          
+      :file "64.h"
+      :pointmax 1272
+      :fsize 1271
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((semantic-list 1177 . 1219) (symbol 1152 . 1177) (string "\"Intel x86-64\"" 1196 . 1218) (semantic-list 893 . 901) (symbol 886 . 893) (punctuation 878 . 879) (punctuation 877 . 878) (semantic-list 867 . 876) (symbol 860 . 867) (punctuation 858 . 859) (punctuation 857 . 858) (semantic-list 845 . 856) (symbol 838 . 845))
+      :lexical-table 
+        '(("BOOST_ARCH_X86_64_NAME" . ((string "\"Intel x86-64\"" 1098 . 1112)))
+          ("BOOST_PREDEF_ARCHITECTURE_X86_64_H")
+          ("BOOST_ARCH_X86_64" . ((symbol "BOOST_VERSION_NUMBER_AVAILABLE" 959 . 989)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!predef!architecture!x86!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

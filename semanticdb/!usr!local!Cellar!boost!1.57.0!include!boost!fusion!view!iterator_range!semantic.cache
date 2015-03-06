@@ -1,0 +1,99 @@
+;; Object iterator_range/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "iterator_range/"
+  :tables
+  (list
+    (semanticdb-table "iterator_range.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_ITERATOR_RANGE_05062005_1224" variable (:constant-flag t) nil [419 454])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [456 498])
+            ("boost/fusion/support/detail/access.hpp" include (:system-flag t) nil [499 548])
+            ("boost/fusion/support/sequence_base.hpp" include (:system-flag t) nil [549 598])
+            ("boost/fusion/support/category_of.hpp" include (:system-flag t) nil [599 646])
+            ("boost/fusion/iterator/distance.hpp" include (:system-flag t) nil [647 692])
+            ("boost/fusion/iterator/mpl/convert_iterator.hpp" include (:system-flag t) nil [693 750])
+            ("boost/fusion/view/iterator_range/detail/begin_impl.hpp" include (:system-flag t) nil [751 816])
+            ("boost/fusion/view/iterator_range/detail/end_impl.hpp" include (:system-flag t) nil [817 880])
+            ("boost/fusion/view/iterator_range/detail/at_impl.hpp" include (:system-flag t) nil [881 943])
+            ("boost/fusion/view/iterator_range/detail/size_impl.hpp" include (:system-flag t) nil [944 1008])
+            ("boost/fusion/view/iterator_range/detail/value_at_impl.hpp" include (:system-flag t) nil [1009 1077])
+            ("boost/fusion/view/iterator_range/detail/is_segmented_impl.hpp" include (:system-flag t) nil [1078 1150])
+            ("boost/fusion/view/iterator_range/detail/segments_impl.hpp" include (:system-flag t) nil [1151 1219])
+            ("boost/fusion/adapted/mpl/mpl_iterator.hpp" include (:system-flag t) nil [1220 1272])
+            ("boost/config.hpp" include (:system-flag t) nil [1273 1300])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("iterator_range_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1481 1507])
+                            ("fusion_sequence_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1512 1539])
+                            ("iterator_range" type
+                               (:template 
+                                  ( ("First" type (:type "class") nil nil)
+                                    ("Last" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("begin_type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1714 1730])
+                                    ("end_type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1780 1794])
+                                    ("fusion_tag" type
+                                       (:typedef ("iterator_range_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1803 1841])
+                                    ("tag" type
+                                       (:typedef ("fusion_sequence_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1850 1882])
+                                    ("is_view" type
+                                       (:typedef ("mpl::true_" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1921 1948])
+                                    ("category" type
+                                       (:typedef ("traits::category_of::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1958 2022])
+                                    ("iterator_range" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("in_first" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("First" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2080 2102])
+                                            ("in_last" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Last" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2103 2123]))                                          
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2032 2245])
+                                    ("first" variable (:type ("begin_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2255 2272])
+                                    ("last" variable (:type ("end_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2281 2295]))                                  
+                                :superclasses 
+                                  ( ("sequence_base" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1545 2302]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1458 2304]))                  
+                :type "namespace")
+                nil [1440 2305]))          
+      :file "iterator_range.hpp"
+      :pointmax 2372
+      :fsize 2371
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((punctuation 1779 . 1780) (punctuation 1778 . 1779) (punctuation 1777 . 1778) (symbol 1773 . 1777) (punctuation 1772 . 1773) (symbol 1756 . 1772) (TYPENAME 1747 . 1755) (TYPEDEF 1739 . 1746) (punctuation 1713 . 1714) (punctuation 1712 . 1713) (punctuation 1711 . 1712) (symbol 1706 . 1711) (punctuation 1705 . 1706) (symbol 1689 . 1705) (TYPENAME 1680 . 1688) (TYPEDEF 1672 . 1679))
+      :lexical-table 
+        '(("FUSION_ITERATOR_RANGE_05062005_1224")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!view!iterator_range!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

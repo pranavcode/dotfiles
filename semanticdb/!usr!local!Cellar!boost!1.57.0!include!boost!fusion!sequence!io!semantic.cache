@@ -1,0 +1,131 @@
+;; Object io/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "io/"
+  :tables
+  (list
+    (semanticdb-table "in.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_IN_05042005_0120" variable (:constant-flag t) nil [493 515])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [517 559])
+            ("istream" include (:system-flag t) nil [560 578])
+            ("boost/fusion/sequence/io/detail/in.hpp" include (:system-flag t) nil [579 628])
+            ("boost/fusion/support/is_sequence.hpp" include (:system-flag t) nil [629 676])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("in" function
+                               (:template 
+                                  ( ("Sequence" type (:type "class") nil nil))                                  
+                                :type ("std::istream" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("is" variable
+                                       (:reference 1
+                                        :type ("std::istream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [780 797])
+                                    ("seq" variable
+                                       (:reference 1
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [798 812]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [719 883])
+                            ("operators" type
+                               (:members 
+                                  ( (">>" function
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil))                                          
+                                        :type ("boost::enable_if::type" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("is" variable
+                                               (:reference 1
+                                                :type ("std::istream" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1128 1145])
+                                            ("seq" variable
+                                               (:reference 1
+                                                :type ("Sequence" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1146 1160]))                                          
+                                        :typemodifiers ("inline" "typename")
+                                        :operator-flag t)
+                                        (reparse-symbol namespacesubparts) [923 1220]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [889 1226]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [696 1261]))                  
+                :type "namespace")
+                nil [678 1262]))          
+      :file "in.hpp"
+      :pointmax 1271
+      :fsize 1270
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((punctuation 1258 . 1259) (punctuation 1257 . 1258) (punctuation 1256 . 1257) (OPERATOR 1248 . 1256) (punctuation 1247 . 1248) (punctuation 1246 . 1247) (symbol 1237 . 1246) (USING 1231 . 1236))
+      :lexical-table 
+        '(("BOOST_IN_05042005_0120")
+          )
+)
+    (semanticdb-table "out.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_OUT_05042005_0120" variable (:constant-flag t) nil [495 518])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [520 562])
+            ("ostream" include (:system-flag t) nil [563 581])
+            ("boost/fusion/sequence/io/detail/out.hpp" include (:system-flag t) nil [582 632])
+            ("boost/fusion/support/is_sequence.hpp" include (:system-flag t) nil [633 680])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [681 719])
+            ("boost/mpl/or.hpp" include (:system-flag t) nil [720 747])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("out" function
+                               (:template 
+                                  ( ("Sequence" type (:type "class") nil nil))                                  
+                                :type ("std::ostream" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("os" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [852 869])
+                                    ("seq" variable
+                                       (:reference 1
+                                        :type ("Sequence" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [870 884]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [790 956])
+                            ("operators" type
+                               (:members 
+                                  ( ("<<" function
+                                       (:template 
+                                          ( ("Sequence" type (:type "class") nil nil))                                          
+                                        :type ("boost::enable_if::type" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("os" variable
+                                               (:reference 1
+                                                :type ("std::ostream" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1205 1222])
+                                            ("seq" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Sequence" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1223 1243]))                                          
+                                        :typemodifiers ("inline" "typename")
+                                        :operator-flag t)
+                                        (reparse-symbol namespacesubparts) [1000 1304]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [966 1310]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [767 1345]))                  
+                :type "namespace")
+                nil [749 1346]))          
+      :file "out.hpp"
+      :pointmax 1355
+      :fsize 1354
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((punctuation 1342 . 1343) (punctuation 1341 . 1342) (punctuation 1340 . 1341) (OPERATOR 1332 . 1340) (punctuation 1331 . 1332) (punctuation 1330 . 1331) (symbol 1321 . 1330) (USING 1315 . 1320))
+      :lexical-table 
+        '(("BOOST_OUT_05042005_0120")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!sequence!io!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

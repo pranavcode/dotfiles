@@ -1,0 +1,1748 @@
+;; Object base/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "base/"
+  :tables
+  (list
+    (semanticdb-table "explicit_stepper_base.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_BASE_EXPLICIT_STEPPER_BASE_HPP_INCLUDED" variable (:constant-flag t) nil [521 589])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [592 630])
+            ("boost/type_traits/is_same.hpp" include (:system-flag t) nil [631 671])
+            ("boost/numeric/odeint/util/bind.hpp" include (:system-flag t) nil [673 718])
+            ("boost/numeric/odeint/util/unwrap_reference.hpp" include (:system-flag t) nil [719 776])
+            ("boost/numeric/odeint/util/state_wrapper.hpp" include (:system-flag t) nil [778 832])
+            ("boost/numeric/odeint/util/resizer.hpp" include (:system-flag t) nil [833 881])
+            ("boost/numeric/odeint/util/is_resizeable.hpp" include (:system-flag t) nil [882 936])
+            ("boost/numeric/odeint/stepper/stepper_categories.hpp" include (:system-flag t) nil [938 1000])
+            ("boost/numeric/odeint/stepper/base/algebra_stepper_base.hpp" include (:system-flag t) nil [1002 1071])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("explicit_stepper_base" type
+                                       (:template 
+                                          ( ("Stepper" type (:type "class") nil nil)
+                                            ("unsigned short" type nil nil nil)
+                                            ("State" type (:type "class") nil nil)
+                                            ("Value" type (:type "class") nil nil)
+                                            ("Deriv" type (:type "class") nil nil)
+                                            ("Time" type (:type "class") nil nil)
+                                            ("Algebra" type (:type "class") nil nil)
+                                            ("Operations" type (:type "class") nil nil)
+                                            ("Resizer" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [1664 1671])
+                                            ("internal_stepper_base_type" type
+                                               (:typedef ("explicit_stepper_base" type
+                                                     (:template-specifier 
+                                                        ( ("Stepper" type nil nil nil)
+                                                          ("Order" type nil nil nil)
+                                                          ("State" type nil nil nil)
+                                                          ("Value" type nil nil nil)
+                                                          ("Deriv" type nil nil nil)
+                                                          ("Time" type nil nil nil)
+                                                          ("Algebra" type nil nil nil)
+                                                          ("Operations" type nil nil nil)
+                                                          ("Resizer" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1702 1842])
+                                            ("state_type" type
+                                               (:typedef ("State" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1876 1901])
+                                            ("value_type" type
+                                               (:typedef ("Value" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1906 1931])
+                                            ("deriv_type" type
+                                               (:typedef ("Deriv" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1936 1961])
+                                            ("time_type" type
+                                               (:typedef ("Time" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1966 1989])
+                                            ("resizer_type" type
+                                               (:typedef ("Resizer" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1994 2023])
+                                            ("stepper_type" type
+                                               (:typedef ("Stepper" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2028 2057])
+                                            ("stepper_category" type
+                                               (:typedef ("stepper_tag" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2062 2099])
+                                            ("algebra_stepper_base_type" type
+                                               (:typedef ("algebra_stepper_base" type
+                                                     (:template-specifier 
+                                                        ( ("Algebra" type nil nil nil)
+                                                          ("Operations" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2104 2183])
+                                            ("algebra_type" type
+                                               (:typedef ("algebra_stepper_base_type::algebra_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2188 2258])
+                                            ("operations_type" type
+                                               (:typedef ("algebra_stepper_base_type::operations_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2263 2339])
+                                            ("order_type" type
+                                               (:typedef ("unsigned short")
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2344 2378])
+                                            ("wrapped_state_type" type
+                                               (:typedef ("state_wrapper" type
+                                                     (:template-specifier 
+                                                        ( ("state_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2409 2464])
+                                            ("wrapped_deriv_type" type
+                                               (:typedef ("state_wrapper" type
+                                                     (:template-specifier 
+                                                        ( ("deriv_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2469 2524])
+                                            ("order_value" variable
+                                               (:typemodifiers ("static")
+                                                :constant-flag t
+                                                :default-value "Order"
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2558 2602])
+                                            ("explicit_stepper_base" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("algebra" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :default-value "algebra_type()"
+                                                        :type ("algebra_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2632 2676]))                                                  
+                                                :type ("explicit_stepper_base" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2609 2729])
+                                            ("order" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2818 2824]))                                                  
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2800 2870])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3085 3100])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3101 3116])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3117 3130])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3131 3145]))                                                  )
+                                                (reparse-symbol classsubparts) [3023 3200])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3392 3407])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3408 3429])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3430 3443])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3444 3458]))                                                  )
+                                                (reparse-symbol classsubparts) [3330 3513])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil)
+                                                    ("DerivIn" type (:type "class") nil nil))                                                  
+                                                :type ("boost::disable_if::type" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3932 3947])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3948 3963])
+                                                    ("dxdt" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("DerivIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3964 3985])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3986 3999])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4000 4014]))                                                  
+                                                :typemodifiers ("typename"))
+                                                (reparse-symbol classsubparts) [3774 4098])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil)
+                                                    ("StateOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4344 4359])
+                                                    ("in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4360 4379])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4380 4393])
+                                                    ("out" variable
+                                                       (:reference 1
+                                                        :type ("StateOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4394 4409])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4410 4424]))                                                  )
+                                                (reparse-symbol classsubparts) [4268 4775])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil)
+                                                    ("DerivIn" type (:type "class") nil nil)
+                                                    ("StateOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5044 5059])
+                                                    ("in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5060 5079])
+                                                    ("dxdt" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("DerivIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5080 5101])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5102 5115])
+                                                    ("out" variable
+                                                       (:reference 1
+                                                        :type ("StateOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5116 5131])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5132 5146]))                                                  )
+                                                (reparse-symbol classsubparts) [4952 5233])
+                                            ("adjust_size" function
+                                               (:template 
+                                                  ( ("StateIn" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5287 5305]))                                                  )
+                                                (reparse-symbol classsubparts) [5239 5343])
+                                            ("private" label nil (reparse-symbol classsubparts) [5345 5353])
+                                            ("stepper" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5382 5388]))                                                  
+                                                :type ("stepper_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [5359 5454])
+                                            ("stepper" function
+                                               (:constant-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5489 5495]))                                                  
+                                                :type ("stepper_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [5460 5573])
+                                            ("resize_impl" function
+                                               (:template 
+                                                  ( ("StateIn" type (:type "class") nil nil))                                                  
+                                                :type "bool"
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5628 5646]))                                                  )
+                                                (reparse-symbol classsubparts) [5580 5762])
+                                            ("do_step_v1" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5834 5849])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5850 5865])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5866 5879])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5880 5894]))                                                  )
+                                                (reparse-symbol classsubparts) [5769 6245])
+                                            ("m_resizer" variable (:type ("resizer_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [6252 6275])
+                                            ("protected" label nil (reparse-symbol classsubparts) [6277 6287])
+                                            ("m_dxdt" variable (:type ("wrapped_deriv_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [6293 6319]))                                          
+                                        :superclasses 
+                                          ( ("algebra_stepper_base" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1425 6322]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1111 15062]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1091 15074]))                  
+                :type "namespace")
+                nil [1073 15087]))          
+      :file "explicit_stepper_base.hpp"
+      :pointmax 15177
+      :fsize 15176
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_BASE_EXPLICIT_STEPPER_BASE_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "explicit_error_stepper_base.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_BASE_EXPLICIT_ERROR_STEPPER_BASE_HPP_INCLUDED" variable (:constant-flag t) nil [562 636])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [638 676])
+            ("boost/type_traits/is_same.hpp" include (:system-flag t) nil [677 717])
+            ("boost/numeric/odeint/util/bind.hpp" include (:system-flag t) nil [720 765])
+            ("boost/numeric/odeint/util/unwrap_reference.hpp" include (:system-flag t) nil [766 823])
+            ("boost/numeric/odeint/util/state_wrapper.hpp" include (:system-flag t) nil [824 878])
+            ("boost/numeric/odeint/util/is_resizeable.hpp" include (:system-flag t) nil [879 933])
+            ("boost/numeric/odeint/util/resizer.hpp" include (:system-flag t) nil [934 982])
+            ("boost/numeric/odeint/stepper/stepper_categories.hpp" include (:system-flag t) nil [984 1046])
+            ("boost/numeric/odeint/stepper/base/algebra_stepper_base.hpp" include (:system-flag t) nil [1048 1117])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("explicit_error_stepper_base" type
+                                       (:template 
+                                          ( ("Stepper" type (:type "class") nil nil)
+                                            ("unsigned short" type nil nil nil)
+                                            ("unsigned short" type nil nil nil)
+                                            ("unsigned short" type nil nil nil)
+                                            ("State" type (:type "class") nil nil)
+                                            ("Value" type (:type "class") nil nil)
+                                            ("Deriv" type (:type "class") nil nil)
+                                            ("Time" type (:type "class") nil nil)
+                                            ("Algebra" type (:type "class") nil nil)
+                                            ("Operations" type (:type "class") nil nil)
+                                            ("Resizer" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [2008 2015])
+                                            ("algebra_stepper_base_type" type
+                                               (:typedef ("algebra_stepper_base" type
+                                                     (:template-specifier 
+                                                        ( ("Algebra" type nil nil nil)
+                                                          ("Operations" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2021 2100])
+                                            ("algebra_type" type
+                                               (:typedef ("algebra_stepper_base_type::algebra_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2105 2175])
+                                            ("state_type" type
+                                               (:typedef ("State" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2182 2207])
+                                            ("value_type" type
+                                               (:typedef ("Value" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2212 2237])
+                                            ("deriv_type" type
+                                               (:typedef ("Deriv" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2242 2267])
+                                            ("time_type" type
+                                               (:typedef ("Time" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2272 2295])
+                                            ("resizer_type" type
+                                               (:typedef ("Resizer" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2300 2329])
+                                            ("stepper_type" type
+                                               (:typedef ("Stepper" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2334 2363])
+                                            ("stepper_category" type
+                                               (:typedef ("explicit_error_stepper_tag" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2368 2420])
+                                            ("wrapped_state_type" type
+                                               (:typedef ("state_wrapper" type
+                                                     (:template-specifier 
+                                                        ( ("state_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2450 2505])
+                                            ("wrapped_deriv_type" type
+                                               (:typedef ("state_wrapper" type
+                                                     (:template-specifier 
+                                                        ( ("deriv_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2510 2565])
+                                            ("internal_stepper_base_type" type
+                                               (:typedef ("explicit_error_stepper_base" type
+                                                     (:template-specifier 
+                                                        ( ("Stepper" type nil nil nil)
+                                                          ("Order" type nil nil nil)
+                                                          ("StepperOrder" type nil nil nil)
+                                                          ("ErrorOrder" type nil nil nil)
+                                                          ("State" type nil nil nil)
+                                                          ("Value" type nil nil nil)
+                                                          ("Deriv" type nil nil nil)
+                                                          ("Time" type nil nil nil)
+                                                          ("Algebra" type nil nil nil)
+                                                          ("Operations" type nil nil nil)
+                                                          ("Resizer" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2570 2756])
+                                            ("order_type" type
+                                               (:typedef ("unsigned short")
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2773 2807])
+                                            ("order_value" variable
+                                               (:typemodifiers ("static")
+                                                :constant-flag t
+                                                :default-value "Order"
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2812 2856])
+                                            ("stepper_order_value" variable
+                                               (:typemodifiers ("static")
+                                                :constant-flag t
+                                                :default-value "StepperOrder"
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2861 2920])
+                                            ("error_order_value" variable
+                                               (:typemodifiers ("static")
+                                                :constant-flag t
+                                                :default-value "ErrorOrder"
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2925 2980])
+                                            ("explicit_error_stepper_base" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("algebra" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :default-value "algebra_type()"
+                                                        :type ("algebra_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3016 3060]))                                                  
+                                                :type ("explicit_error_stepper_base" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2987 3113])
+                                            ("order" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3137 3143]))                                                  
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3119 3189])
+                                            ("stepper_order" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3221 3227]))                                                  
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3195 3281])
+                                            ("error_order" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3311 3317]))                                                  
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3287 3369])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3585 3600])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3601 3616])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3617 3630])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3631 3645]))                                                  )
+                                                (reparse-symbol classsubparts) [3523 3700])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3892 3907])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3908 3929])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3930 3943])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3944 3958]))                                                  )
+                                                (reparse-symbol classsubparts) [3830 4013])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil)
+                                                    ("DerivIn" type (:type "class") nil nil))                                                  
+                                                :type ("boost::disable_if::type" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4433 4448])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4449 4464])
+                                                    ("dxdt" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("DerivIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4465 4486])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4487 4500])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4501 4515]))                                                  
+                                                :typemodifiers ("typename"))
+                                                (reparse-symbol classsubparts) [4275 4599])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil)
+                                                    ("StateOut" type (:type "class") nil nil))                                                  
+                                                :type ("boost::disable_if::type" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5016 5031])
+                                                    ("in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5032 5051])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5052 5065])
+                                                    ("out" variable
+                                                       (:reference 1
+                                                        :type ("StateOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5066 5081])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5082 5096]))                                                  
+                                                :typemodifiers ("typename"))
+                                                (reparse-symbol classsubparts) [4860 5447])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil)
+                                                    ("DerivIn" type (:type "class") nil nil)
+                                                    ("StateOut" type (:type "class") nil nil))                                                  
+                                                :type ("boost::disable_if::type" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5885 5900])
+                                                    ("in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5901 5920])
+                                                    ("dxdt" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("DerivIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5921 5942])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5943 5956])
+                                                    ("out" variable
+                                                       (:reference 1
+                                                        :type ("StateOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5957 5972])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5973 5987]))                                                  
+                                                :typemodifiers ("typename"))
+                                                (reparse-symbol classsubparts) [5713 6074])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil)
+                                                    ("Err" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6311 6326])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6327 6342])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6343 6356])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6357 6371])
+                                                    ("xerr" variable
+                                                       (:reference 1
+                                                        :type ("Err" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6372 6383]))                                                  )
+                                                (reparse-symbol classsubparts) [6237 6445])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil)
+                                                    ("Err" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6649 6664])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6665 6686])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6687 6700])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6701 6715])
+                                                    ("xerr" variable
+                                                       (:reference 1
+                                                        :type ("Err" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6716 6727]))                                                  )
+                                                (reparse-symbol classsubparts) [6575 6789])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil)
+                                                    ("DerivIn" type (:type "class") nil nil)
+                                                    ("Err" type (:type "class") nil nil))                                                  
+                                                :type ("boost::disable_if::type" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7226 7241])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7242 7257])
+                                                    ("dxdt" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("DerivIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7258 7279])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7280 7293])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7294 7308])
+                                                    ("xerr" variable
+                                                       (:reference 1
+                                                        :type ("Err" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7309 7320]))                                                  
+                                                :typemodifiers ("typename"))
+                                                (reparse-symbol classsubparts) [7056 7411])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil)
+                                                    ("StateOut" type (:type "class") nil nil)
+                                                    ("Err" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7676 7691])
+                                                    ("in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7692 7711])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7712 7725])
+                                                    ("out" variable
+                                                       (:reference 1
+                                                        :type ("StateOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7726 7741])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7742 7756])
+                                                    ("xerr" variable
+                                                       (:reference 1
+                                                        :type ("Err" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7757 7768]))                                                  )
+                                                (reparse-symbol classsubparts) [7588 8126])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil)
+                                                    ("DerivIn" type (:type "class") nil nil)
+                                                    ("StateOut" type (:type "class") nil nil)
+                                                    ("Err" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8414 8429])
+                                                    ("in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8430 8449])
+                                                    ("dxdt" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("DerivIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8450 8471])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8472 8485])
+                                                    ("out" variable
+                                                       (:reference 1
+                                                        :type ("StateOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8486 8501])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8502 8516])
+                                                    ("xerr" variable
+                                                       (:reference 1
+                                                        :type ("Err" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8517 8528]))                                                  )
+                                                (reparse-symbol classsubparts) [8310 8622])
+                                            ("adjust_size" function
+                                               (:template 
+                                                  ( ("StateIn" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8676 8694]))                                                  )
+                                                (reparse-symbol classsubparts) [8628 8732])
+                                            ("private" label nil (reparse-symbol classsubparts) [8736 8744])
+                                            ("do_step_v1" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8815 8830])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8831 8846])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8847 8860])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8861 8875]))                                                  )
+                                                (reparse-symbol classsubparts) [8750 9225])
+                                            ("do_step_v5" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil)
+                                                    ("Err" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9308 9323])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [9324 9339])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9340 9353])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9354 9368])
+                                                    ("xerr" variable
+                                                       (:reference 1
+                                                        :type ("Err" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [9369 9380]))                                                  )
+                                                (reparse-symbol classsubparts) [9231 9736])
+                                            ("resize_impl" function
+                                               (:template 
+                                                  ( ("StateIn" type (:type "class") nil nil))                                                  
+                                                :type "bool"
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [9790 9808]))                                                  )
+                                                (reparse-symbol classsubparts) [9742 9924])
+                                            ("stepper" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9953 9959]))                                                  
+                                                :type ("stepper_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [9930 10025])
+                                            ("stepper" function
+                                               (:constant-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10060 10066]))                                                  
+                                                :type ("stepper_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [10031 10144])
+                                            ("m_resizer" variable (:type ("resizer_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10151 10174])
+                                            ("protected" label nil (reparse-symbol classsubparts) [10176 10186])
+                                            ("m_dxdt" variable (:type ("wrapped_deriv_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10192 10218]))                                          
+                                        :superclasses 
+                                          ( ("algebra_stepper_base" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1705 10221]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1157 24030]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1137 24042]))                  
+                :type "namespace")
+                nil [1119 24055]))          
+      :file "explicit_error_stepper_base.hpp"
+      :pointmax 24151
+      :fsize 24150
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_BASE_EXPLICIT_ERROR_STEPPER_BASE_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "explicit_error_stepper_fsal_base.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_BASE_EXPLICIT_ERROR_STEPPER_FSAL_BASE_HPP_INCLUDED" variable (:constant-flag t) nil [562 641])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [643 681])
+            ("boost/type_traits/is_same.hpp" include (:system-flag t) nil [682 722])
+            ("boost/numeric/odeint/util/bind.hpp" include (:system-flag t) nil [725 770])
+            ("boost/numeric/odeint/util/unwrap_reference.hpp" include (:system-flag t) nil [771 828])
+            ("boost/numeric/odeint/util/state_wrapper.hpp" include (:system-flag t) nil [829 883])
+            ("boost/numeric/odeint/util/is_resizeable.hpp" include (:system-flag t) nil [884 938])
+            ("boost/numeric/odeint/util/resizer.hpp" include (:system-flag t) nil [939 987])
+            ("boost/numeric/odeint/util/copy.hpp" include (:system-flag t) nil [988 1033])
+            ("boost/numeric/odeint/stepper/stepper_categories.hpp" include (:system-flag t) nil [1035 1097])
+            ("boost/numeric/odeint/stepper/base/algebra_stepper_base.hpp" include (:system-flag t) nil [1099 1168])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("explicit_error_stepper_fsal_base" type
+                                       (:template 
+                                          ( ("Stepper" type (:type "class") nil nil)
+                                            ("unsigned short" type nil nil nil)
+                                            ("unsigned short" type nil nil nil)
+                                            ("unsigned short" type nil nil nil)
+                                            ("State" type (:type "class") nil nil)
+                                            ("Value" type (:type "class") nil nil)
+                                            ("Deriv" type (:type "class") nil nil)
+                                            ("Time" type (:type "class") nil nil)
+                                            ("Algebra" type (:type "class") nil nil)
+                                            ("Operations" type (:type "class") nil nil)
+                                            ("Resizer" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [2120 2127])
+                                            ("algebra_stepper_base_type" type
+                                               (:typedef ("algebra_stepper_base" type
+                                                     (:template-specifier 
+                                                        ( ("Algebra" type nil nil nil)
+                                                          ("Operations" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2133 2212])
+                                            ("algebra_type" type
+                                               (:typedef ("algebra_stepper_base_type::algebra_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2217 2287])
+                                            ("state_type" type
+                                               (:typedef ("State" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2293 2318])
+                                            ("value_type" type
+                                               (:typedef ("Value" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2323 2348])
+                                            ("deriv_type" type
+                                               (:typedef ("Deriv" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2353 2378])
+                                            ("time_type" type
+                                               (:typedef ("Time" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2383 2406])
+                                            ("resizer_type" type
+                                               (:typedef ("Resizer" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2411 2440])
+                                            ("stepper_type" type
+                                               (:typedef ("Stepper" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2445 2474])
+                                            ("stepper_category" type
+                                               (:typedef ("explicit_error_stepper_fsal_tag" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2479 2536])
+                                            ("wrapped_state_type" type
+                                               (:typedef ("state_wrapper" type
+                                                     (:template-specifier 
+                                                        ( ("state_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2567 2622])
+                                            ("wrapped_deriv_type" type
+                                               (:typedef ("state_wrapper" type
+                                                     (:template-specifier 
+                                                        ( ("deriv_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2627 2682])
+                                            ("internal_stepper_base_type" type
+                                               (:typedef ("explicit_error_stepper_fsal_base" type
+                                                     (:template-specifier 
+                                                        ( ("Stepper" type nil nil nil)
+                                                          ("Order" type nil nil nil)
+                                                          ("StepperOrder" type nil nil nil)
+                                                          ("ErrorOrder" type nil nil nil)
+                                                          ("State" type nil nil nil)
+                                                          ("Value" type nil nil nil)
+                                                          ("Deriv" type nil nil nil)
+                                                          ("Time" type nil nil nil)
+                                                          ("Algebra" type nil nil nil)
+                                                          ("Operations" type nil nil nil)
+                                                          ("Resizer" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2687 2878])
+                                            ("order_type" type
+                                               (:typedef ("unsigned short")
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2897 2931])
+                                            ("order_value" variable
+                                               (:typemodifiers ("static")
+                                                :constant-flag t
+                                                :default-value "Order"
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2936 2980])
+                                            ("stepper_order_value" variable
+                                               (:typemodifiers ("static")
+                                                :constant-flag t
+                                                :default-value "StepperOrder"
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2985 3044])
+                                            ("error_order_value" variable
+                                               (:typemodifiers ("static")
+                                                :constant-flag t
+                                                :default-value "ErrorOrder"
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3049 3104])
+                                            ("explicit_error_stepper_fsal_base" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("algebra" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :default-value "algebra_type()"
+                                                        :type ("algebra_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3144 3188]))                                                  
+                                                :type ("explicit_error_stepper_fsal_base" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3110 3264])
+                                            ("order" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3288 3294]))                                                  
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3270 3340])
+                                            ("stepper_order" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3372 3378]))                                                  
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3346 3432])
+                                            ("error_order" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3462 3468]))                                                  
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3438 3520])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3735 3750])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3751 3766])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3767 3780])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3781 3795]))                                                  )
+                                                (reparse-symbol classsubparts) [3673 3850])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4042 4057])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4058 4079])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4080 4093])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4094 4108]))                                                  )
+                                                (reparse-symbol classsubparts) [3980 4163])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil)
+                                                    ("DerivInOut" type (:type "class") nil nil))                                                  
+                                                :type ("boost::disable_if::type" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4588 4603])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4604 4619])
+                                                    ("dxdt" variable
+                                                       (:reference 1
+                                                        :type ("DerivInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4620 4638])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4639 4652])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4653 4667]))                                                  
+                                                :typemodifiers ("typename"))
+                                                (reparse-symbol classsubparts) [4424 4787])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil)
+                                                    ("StateOut" type (:type "class") nil nil))                                                  
+                                                :type ("boost::disable_if::type" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5204 5219])
+                                                    ("in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5220 5239])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5240 5253])
+                                                    ("out" variable
+                                                       (:reference 1
+                                                        :type ("StateOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5254 5269])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5270 5284]))                                                  
+                                                :typemodifiers ("typename"))
+                                                (reparse-symbol classsubparts) [5048 5626])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil)
+                                                    ("DerivIn" type (:type "class") nil nil)
+                                                    ("StateOut" type (:type "class") nil nil)
+                                                    ("DerivOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5926 5941])
+                                                    ("in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5942 5961])
+                                                    ("dxdt_in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("DerivIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5962 5986])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5987 6000])
+                                                    ("out" variable
+                                                       (:reference 1
+                                                        :type ("StateOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6013 6028])
+                                                    ("dxdt_out" variable
+                                                       (:reference 1
+                                                        :type ("DerivOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6029 6049])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6050 6064]))                                                  )
+                                                (reparse-symbol classsubparts) [5817 6194])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil)
+                                                    ("Err" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6431 6446])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6447 6462])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6463 6476])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6477 6491])
+                                                    ("xerr" variable
+                                                       (:reference 1
+                                                        :type ("Err" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6492 6503]))                                                  )
+                                                (reparse-symbol classsubparts) [6357 6565])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil)
+                                                    ("Err" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6769 6784])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6785 6806])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6807 6820])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6821 6835])
+                                                    ("xerr" variable
+                                                       (:reference 1
+                                                        :type ("Err" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6836 6847]))                                                  )
+                                                (reparse-symbol classsubparts) [6695 6909])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil)
+                                                    ("DerivInOut" type (:type "class") nil nil)
+                                                    ("Err" type (:type "class") nil nil))                                                  
+                                                :type ("boost::disable_if::type" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7353 7368])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7369 7384])
+                                                    ("dxdt" variable
+                                                       (:reference 1
+                                                        :type ("DerivInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7385 7403])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7404 7417])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7418 7432])
+                                                    ("xerr" variable
+                                                       (:reference 1
+                                                        :type ("Err" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7433 7444]))                                                  
+                                                :typemodifiers ("typename"))
+                                                (reparse-symbol classsubparts) [7177 7571])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil)
+                                                    ("StateOut" type (:type "class") nil nil)
+                                                    ("Err" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7838 7853])
+                                                    ("in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7854 7873])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7874 7887])
+                                                    ("out" variable
+                                                       (:reference 1
+                                                        :type ("StateOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7888 7903])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7904 7918])
+                                                    ("xerr" variable
+                                                       (:reference 1
+                                                        :type ("Err" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7919 7930]))                                                  )
+                                                (reparse-symbol classsubparts) [7750 8279])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil)
+                                                    ("DerivIn" type (:type "class") nil nil)
+                                                    ("StateOut" type (:type "class") nil nil)
+                                                    ("DerivOut" type (:type "class") nil nil)
+                                                    ("Err" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8598 8613])
+                                                    ("in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8614 8633])
+                                                    ("dxdt_in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("DerivIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8634 8658])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8659 8672])
+                                                    ("out" variable
+                                                       (:reference 1
+                                                        :type ("StateOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8685 8700])
+                                                    ("dxdt_out" variable
+                                                       (:reference 1
+                                                        :type ("DerivOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8701 8721])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8722 8736])
+                                                    ("xerr" variable
+                                                       (:reference 1
+                                                        :type ("Err" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8737 8748]))                                                  )
+                                                (reparse-symbol classsubparts) [8477 8885])
+                                            ("adjust_size" function
+                                               (:template 
+                                                  ( ("StateIn" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8939 8957]))                                                  )
+                                                (reparse-symbol classsubparts) [8891 8995])
+                                            ("reset" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9013 9019]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [9001 9060])
+                                            ("initialize" function
+                                               (:template 
+                                                  ( ("DerivIn" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("deriv" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("DerivIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [9113 9135]))                                                  )
+                                                (reparse-symbol classsubparts) [9066 9237])
+                                            ("initialize" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9305 9320])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [9321 9339])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9340 9353]))                                                  )
+                                                (reparse-symbol classsubparts) [9243 9503])
+                                            ("is_initialized" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9530 9536]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [9509 9585])
+                                            ("private" label nil (reparse-symbol classsubparts) [9589 9597])
+                                            ("do_step_v1" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9668 9683])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [9684 9699])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9700 9713])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9714 9728]))                                                  )
+                                                (reparse-symbol classsubparts) [9603 10068])
+                                            ("do_step_v5" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil)
+                                                    ("Err" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10151 10166])
+                                                    ("x" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [10167 10182])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10183 10196])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10197 10211])
+                                                    ("xerr" variable
+                                                       (:reference 1
+                                                        :type ("Err" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [10212 10223]))                                                  )
+                                                (reparse-symbol classsubparts) [10074 10570])
+                                            ("resize_impl" function
+                                               (:template 
+                                                  ( ("StateIn" type (:type "class") nil nil))                                                  
+                                                :type "bool"
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [10624 10642]))                                                  )
+                                                (reparse-symbol classsubparts) [10576 10758])
+                                            ("stepper" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10788 10794]))                                                  
+                                                :type ("stepper_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [10765 10860])
+                                            ("stepper" function
+                                               (:constant-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10895 10901]))                                                  
+                                                :type ("stepper_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [10866 10979])
+                                            ("m_resizer" variable (:type ("resizer_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10986 11009])
+                                            ("m_first_call" variable (:type "bool") (reparse-symbol classsubparts) [11014 11032])
+                                            ("protected" label nil (reparse-symbol classsubparts) [11034 11044])
+                                            ("m_dxdt" variable (:type ("wrapped_deriv_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [11051 11077]))                                          
+                                        :superclasses 
+                                          ( ("algebra_stepper_base" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1812 11080]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1208 28427]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1188 28439]))                  
+                :type "namespace")
+                nil [1170 28452]))          
+      :file "explicit_error_stepper_fsal_base.hpp"
+      :pointmax 28553
+      :fsize 28552
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_BASE_EXPLICIT_ERROR_STEPPER_FSAL_BASE_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "symplectic_rkn_stepper_base.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_BASE_SYMPLECTIC_RKN_STEPPER_BASE_HPP_INCLUDED" variable (:constant-flag t) nil [539 613])
+            ("boost/array.hpp" include (:system-flag t) nil [615 641])
+            ("boost/numeric/odeint/util/bind.hpp" include (:system-flag t) nil [643 688])
+            ("boost/numeric/odeint/util/unwrap_reference.hpp" include (:system-flag t) nil [689 746])
+            ("boost/numeric/odeint/util/copy.hpp" include (:system-flag t) nil [748 793])
+            ("boost/numeric/odeint/util/is_pair.hpp" include (:system-flag t) nil [794 842])
+            ("boost/numeric/odeint/util/state_wrapper.hpp" include (:system-flag t) nil [844 898])
+            ("boost/numeric/odeint/util/resizer.hpp" include (:system-flag t) nil [899 947])
+            ("boost/numeric/odeint/stepper/stepper_categories.hpp" include (:system-flag t) nil [949 1011])
+            ("boost/numeric/odeint/stepper/base/algebra_stepper_base.hpp" include (:system-flag t) nil [1013 1082])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("symplectic_nystroem_stepper_base" type
+                                       (:template 
+                                          ( ("size_t" type nil nil nil)
+                                            ("unsigned short" type nil nil nil)
+                                            ("Coor" type (:type "class") nil nil)
+                                            ("Momentum" type (:type "class") nil nil)
+                                            ("Value" type (:type "class") nil nil)
+                                            ("CoorDeriv" type (:type "class") nil nil)
+                                            ("MomentumDeriv" type (:type "class") nil nil)
+                                            ("Time" type (:type "class") nil nil)
+                                            ("Algebra" type (:type "class") nil nil)
+                                            ("Operations" type (:type "class") nil nil)
+                                            ("Resizer" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [1444 1451])
+                                            ("algebra_stepper_base_type" type
+                                               (:typedef ("algebra_stepper_base" type
+                                                     (:template-specifier 
+                                                        ( ("Algebra" type nil nil nil)
+                                                          ("Operations" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1457 1536])
+                                            ("algebra_type" type
+                                               (:typedef ("algebra_stepper_base_type::algebra_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1541 1611])
+                                            ("operations_type" type
+                                               (:typedef ("algebra_stepper_base_type::operations_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1616 1692])
+                                            ("num_of_stages" variable
+                                               (:typemodifiers ("static")
+                                                :constant-flag t
+                                                :default-value "NumOfStages"
+                                                :type ("size_t" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [1698 1746])
+                                            ("coor_type" type
+                                               (:typedef ("Coor" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1751 1774])
+                                            ("momentum_type" type
+                                               (:typedef ("Momentum" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1779 1810])
+                                            ("state_type" type
+                                               (:typedef ("std::pair" type
+                                                     (:template-specifier 
+                                                        ( ("coor_type" type nil nil nil)
+                                                          ("momentum_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1815 1873])
+                                            ("coor_deriv_type" type
+                                               (:typedef ("CoorDeriv" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1878 1912])
+                                            ("wrapped_coor_deriv_type" type
+                                               (:typedef ("state_wrapper" type
+                                                     (:template-specifier 
+                                                        ( ("coor_deriv_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1917 1981])
+                                            ("momentum_deriv_type" type
+                                               (:typedef ("MomentumDeriv" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1986 2028])
+                                            ("wrapped_momentum_deriv_type" type
+                                               (:typedef ("state_wrapper" type
+                                                     (:template-specifier 
+                                                        ( ("momentum_deriv_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2033 2106])
+                                            ("deriv_type" type
+                                               (:typedef ("std::pair" type
+                                                     (:template-specifier 
+                                                        ( ("coor_deriv_type" type nil nil nil)
+                                                          ("momentum_deriv_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2111 2181])
+                                            ("value_type" type
+                                               (:typedef ("Value" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2186 2211])
+                                            ("time_type" type
+                                               (:typedef ("Time" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2216 2239])
+                                            ("resizer_type" type
+                                               (:typedef ("Resizer" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2244 2273])
+                                            ("stepper_category" type
+                                               (:typedef ("stepper_tag" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2278 2315])
+                                            ("internal_stepper_base_type" type
+                                               (:typedef ("symplectic_nystroem_stepper_base" type
+                                                     (:template-specifier 
+                                                        ( ("NumOfStages" type nil nil nil)
+                                                          ("Order" type nil nil nil)
+                                                          ("Coor" type nil nil nil)
+                                                          ("Momentum" type nil nil nil)
+                                                          ("Value" type nil nil nil)
+                                                          ("CoorDeriv" type nil nil nil)
+                                                          ("MomentumDeriv" type nil nil nil)
+                                                          ("Time" type nil nil nil)
+                                                          ("Algebra" type nil nil nil)
+                                                          ("Operations" type nil nil nil)
+                                                          ("Resizer" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2350 2547])
+                                            ("order_type" type
+                                               (:typedef ("unsigned short")
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2564 2598])
+                                            ("order_value" variable
+                                               (:typemodifiers ("static")
+                                                :constant-flag t
+                                                :default-value "Order"
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2604 2648])
+                                            ("coef_type" type
+                                               (:typedef ("boost::array" type
+                                                     (:template-specifier 
+                                                        ( ("value_type" type nil nil nil)
+                                                          ("num_of_stages" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2654 2715])
+                                            ("symplectic_nystroem_stepper_base" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("coef_a" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("coef_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2755 2780])
+                                                    ("coef_b" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("coef_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2781 2806])
+                                                    ("algebra" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :default-value "algebra_type()"
+                                                        :type ("algebra_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2807 2851]))                                                  
+                                                :type ("symplectic_nystroem_stepper_base" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2721 3021])
+                                            ("order" function
+                                               (:arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3046 3052]))                                                  
+                                                :type ("order_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3028 3098])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3326 3341])
+                                                    ("state" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3342 3367])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3368 3381])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3382 3396]))                                                  )
+                                                (reparse-symbol classsubparts) [3264 3586])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateInOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3834 3849])
+                                                    ("state" variable
+                                                       (:reference 1
+                                                        :type ("StateInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3850 3869])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3870 3883])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3884 3898]))                                                  )
+                                                (reparse-symbol classsubparts) [3772 4088])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("CoorInOut" type (:type "class") nil nil)
+                                                    ("MomentumInOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4365 4380])
+                                                    ("q" variable
+                                                       (:reference 1
+                                                        :type ("CoorInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4381 4395])
+                                                    ("p" variable
+                                                       (:reference 1
+                                                        :type ("MomentumInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4396 4414])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4415 4428])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4429 4443]))                                                  )
+                                                (reparse-symbol classsubparts) [4282 4547])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("CoorInOut" type (:type "class") nil nil)
+                                                    ("MomentumInOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4847 4862])
+                                                    ("q" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("CoorInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4863 4883])
+                                                    ("p" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("MomentumInOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4884 4908])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4909 4922])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4923 4937]))                                                  )
+                                                (reparse-symbol classsubparts) [4764 5041])
+                                            ("do_step" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil)
+                                                    ("StateOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5266 5281])
+                                                    ("in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5282 5301])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5302 5315])
+                                                    ("out" variable
+                                                       (:reference 1
+                                                        :type ("StateOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5316 5331])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5332 5346]))                                                  )
+                                                (reparse-symbol classsubparts) [5190 5531])
+                                            ("adjust_size" function
+                                               (:template 
+                                                  ( ("StateType" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateType" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5588 5608]))                                                  )
+                                                (reparse-symbol classsubparts) [5538 5672])
+                                            ("coef_a" function
+                                               (:constant-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5749 5755]))                                                  
+                                                :type ("coef_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [5724 5782])
+                                            ("coef_b" function
+                                               (:constant-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5859 5865]))                                                  
+                                                :type ("coef_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [5834 5892])
+                                            ("private" label nil (reparse-symbol classsubparts) [5894 5902])
+                                            ("do_step_impl" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil)
+                                                    ("StateOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6065 6080])
+                                                    ("in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6081 6100])
+                                                    ("t" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6101 6114])
+                                                    ("out" variable
+                                                       (:reference 1
+                                                        :type ("StateOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6115 6130])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6131 6145])
+                                                    ("" variable (:type ("boost::mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6146 6165]))                                                  )
+                                                (reparse-symbol classsubparts) [5984 9158])
+                                            ("do_step_impl" function
+                                               (:template 
+                                                  ( ("System" type (:type "class") nil nil)
+                                                    ("StateIn" type (:type "class") nil nil)
+                                                    ("StateOut" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("system" variable (:type ("System" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9382 9397])
+                                                    ("in" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [9398 9417])
+                                                    ("" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9418 9438])
+                                                    ("out" variable
+                                                       (:reference 1
+                                                        :type ("StateOut" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [9439 9454])
+                                                    ("dt" variable (:type ("time_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9455 9469])
+                                                    ("" variable (:type ("boost::mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9470 9490]))                                                  )
+                                                (reparse-symbol classsubparts) [9301 12070])
+                                            ("resize_dqdt" function
+                                               (:template 
+                                                  ( ("StateIn" type (:type "class") nil nil))                                                  
+                                                :type "bool"
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [12124 12142]))                                                  )
+                                                (reparse-symbol classsubparts) [12076 12263])
+                                            ("resize_dpdt" function
+                                               (:template 
+                                                  ( ("StateIn" type (:type "class") nil nil))                                                  
+                                                :type "bool"
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("StateIn" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [12317 12335]))                                                  )
+                                                (reparse-symbol classsubparts) [12269 12460])
+                                            ("m_coef_a" variable
+                                               (:constant-flag t
+                                                :type ("coef_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [12467 12492])
+                                            ("m_coef_b" variable
+                                               (:constant-flag t
+                                                :type ("coef_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [12497 12522])
+                                            ("m_dqdt_resizer" variable (:type ("resizer_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [12528 12556])
+                                            ("m_dpdt_resizer" variable (:type ("resizer_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [12561 12589])
+                                            ("m_dqdt" variable (:type ("wrapped_coor_deriv_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [12594 12625])
+                                            ("m_dpdt" variable (:type ("wrapped_momentum_deriv_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [12630 12665]))                                          
+                                        :superclasses 
+                                          ( ("algebra_stepper_base" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1146 12669]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1125 19621]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1105 19643]))                  
+                :type "namespace")
+                nil [1087 19666]))          
+      :file "symplectic_rkn_stepper_base.hpp"
+      :pointmax 19773
+      :fsize 19772
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_BASE_SYMPLECTIC_RKN_STEPPER_BASE_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "algebra_stepper_base.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_BASE_ALGEBRA_STEPPER_BASE_HPP_INCLUDED" variable (:constant-flag t) nil [493 560])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("algebra_stepper_base" type
+                                       (:template 
+                                          ( ("Algebra" type (:type "class") nil nil)
+                                            ("Operations" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [695 702])
+                                            ("algebra_type" type
+                                               (:typedef ("Algebra" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [708 737])
+                                            ("operations_type" type
+                                               (:typedef ("Operations" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [742 777])
+                                            ("algebra_stepper_base" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("algebra" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :default-value "algebra_type()"
+                                                        :type ("algebra_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [805 849]))                                                  
+                                                :type ("algebra_stepper_base" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [783 882])
+                                            ("algebra" function (:type ("algebra_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [888 949])
+                                            ("algebra" function
+                                               (:constant-flag t
+                                                :type ("algebra_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [955 1028])
+                                            ("protected" label nil (reparse-symbol classsubparts) [1030 1040])
+                                            ("m_algebra" variable (:type ("algebra_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1046 1069]))                                          )
+                                        (reparse-symbol namespacesubparts) [621 1072]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [601 2404]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [581 2416]))                  
+                :type "namespace")
+                nil [563 2429]))          
+      :file "algebra_stepper_base.hpp"
+      :pointmax 2519
+      :fsize 2518
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_BASE_ALGEBRA_STEPPER_BASE_HPP_INCLUDED")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!numeric!odeint!stepper!base!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

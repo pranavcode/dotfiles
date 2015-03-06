@@ -1,0 +1,336 @@
+;; Object preprocessed/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "preprocessed/"
+  :tables
+  (list
+    (semanticdb-table "set_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("boost/fusion/container/set/detail/preprocessed/set10_fwd.hpp" include (:system-flag t) nil [442 513])
+            ("boost/fusion/container/set/detail/preprocessed/set20_fwd.hpp" include (:system-flag t) nil [546 617])
+            ("boost/fusion/container/set/detail/preprocessed/set30_fwd.hpp" include (:system-flag t) nil [650 721])
+            ("boost/fusion/container/set/detail/preprocessed/set40_fwd.hpp" include (:system-flag t) nil [754 825])
+            ("boost/fusion/container/set/detail/preprocessed/set50_fwd.hpp" include (:system-flag t) nil [858 929]))          
+      :file "set_fwd.hpp"
+      :pointmax 1011
+      :fsize 1010
+      :lastmodtime '(21727 6095 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "set10_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("void_" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [452 465])
+                            ("set_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [470 485])
+                            ("set_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [490 514])
+                            ("set" type
+                               (:template 
+                                  ( ("T0" type (:type "class") nil nil)
+                                    ("T1" type (:type "class") nil nil)
+                                    ("T2" type (:type "class") nil nil)
+                                    ("T3" type (:type "class") nil nil)
+                                    ("T4" type (:type "class") nil nil)
+                                    ("T5" type (:type "class") nil nil)
+                                    ("T6" type (:type "class") nil nil)
+                                    ("T7" type (:type "class") nil nil)
+                                    ("T8" type (:type "class") nil nil)
+                                    ("T9" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [519 777]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [429 779]))                  
+                :type "namespace")
+                nil [411 780]))          
+      :file "set10_fwd.hpp"
+      :pointmax 781
+      :fsize 780
+      :lastmodtime '(21727 6095 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "set20_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("void_" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [452 465])
+                            ("set_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [470 485])
+                            ("set_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [490 514])
+                            ("set" type
+                               (:template 
+                                  ( ("T0" type (:type "class") nil nil)
+                                    ("T1" type (:type "class") nil nil)
+                                    ("T2" type (:type "class") nil nil)
+                                    ("T3" type (:type "class") nil nil)
+                                    ("T4" type (:type "class") nil nil)
+                                    ("T5" type (:type "class") nil nil)
+                                    ("T6" type (:type "class") nil nil)
+                                    ("T7" type (:type "class") nil nil)
+                                    ("T8" type (:type "class") nil nil)
+                                    ("T9" type (:type "class") nil nil)
+                                    ("T10" type (:type "class") nil nil)
+                                    ("T11" type (:type "class") nil nil)
+                                    ("T12" type (:type "class") nil nil)
+                                    ("T13" type (:type "class") nil nil)
+                                    ("T14" type (:type "class") nil nil)
+                                    ("T15" type (:type "class") nil nil)
+                                    ("T16" type (:type "class") nil nil)
+                                    ("T17" type (:type "class") nil nil)
+                                    ("T18" type (:type "class") nil nil)
+                                    ("T19" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [519 1007]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [429 1009]))                  
+                :type "namespace")
+                nil [411 1010]))          
+      :file "set20_fwd.hpp"
+      :pointmax 1011
+      :fsize 1010
+      :lastmodtime '(21727 6095 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "set30_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("void_" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [452 465])
+                            ("set_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [470 485])
+                            ("set_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [490 514])
+                            ("set" type
+                               (:template 
+                                  ( ("T0" type (:type "class") nil nil)
+                                    ("T1" type (:type "class") nil nil)
+                                    ("T2" type (:type "class") nil nil)
+                                    ("T3" type (:type "class") nil nil)
+                                    ("T4" type (:type "class") nil nil)
+                                    ("T5" type (:type "class") nil nil)
+                                    ("T6" type (:type "class") nil nil)
+                                    ("T7" type (:type "class") nil nil)
+                                    ("T8" type (:type "class") nil nil)
+                                    ("T9" type (:type "class") nil nil)
+                                    ("T10" type (:type "class") nil nil)
+                                    ("T11" type (:type "class") nil nil)
+                                    ("T12" type (:type "class") nil nil)
+                                    ("T13" type (:type "class") nil nil)
+                                    ("T14" type (:type "class") nil nil)
+                                    ("T15" type (:type "class") nil nil)
+                                    ("T16" type (:type "class") nil nil)
+                                    ("T17" type (:type "class") nil nil)
+                                    ("T18" type (:type "class") nil nil)
+                                    ("T19" type (:type "class") nil nil)
+                                    ("T20" type (:type "class") nil nil)
+                                    ("T21" type (:type "class") nil nil)
+                                    ("T22" type (:type "class") nil nil)
+                                    ("T23" type (:type "class") nil nil)
+                                    ("T24" type (:type "class") nil nil)
+                                    ("T25" type (:type "class") nil nil)
+                                    ("T26" type (:type "class") nil nil)
+                                    ("T27" type (:type "class") nil nil)
+                                    ("T28" type (:type "class") nil nil)
+                                    ("T29" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [519 1237]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [429 1239]))                  
+                :type "namespace")
+                nil [411 1240]))          
+      :file "set30_fwd.hpp"
+      :pointmax 1241
+      :fsize 1240
+      :lastmodtime '(21727 6095 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "set40_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("void_" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [452 465])
+                            ("set_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [470 485])
+                            ("set_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [490 514])
+                            ("set" type
+                               (:template 
+                                  ( ("T0" type (:type "class") nil nil)
+                                    ("T1" type (:type "class") nil nil)
+                                    ("T2" type (:type "class") nil nil)
+                                    ("T3" type (:type "class") nil nil)
+                                    ("T4" type (:type "class") nil nil)
+                                    ("T5" type (:type "class") nil nil)
+                                    ("T6" type (:type "class") nil nil)
+                                    ("T7" type (:type "class") nil nil)
+                                    ("T8" type (:type "class") nil nil)
+                                    ("T9" type (:type "class") nil nil)
+                                    ("T10" type (:type "class") nil nil)
+                                    ("T11" type (:type "class") nil nil)
+                                    ("T12" type (:type "class") nil nil)
+                                    ("T13" type (:type "class") nil nil)
+                                    ("T14" type (:type "class") nil nil)
+                                    ("T15" type (:type "class") nil nil)
+                                    ("T16" type (:type "class") nil nil)
+                                    ("T17" type (:type "class") nil nil)
+                                    ("T18" type (:type "class") nil nil)
+                                    ("T19" type (:type "class") nil nil)
+                                    ("T20" type (:type "class") nil nil)
+                                    ("T21" type (:type "class") nil nil)
+                                    ("T22" type (:type "class") nil nil)
+                                    ("T23" type (:type "class") nil nil)
+                                    ("T24" type (:type "class") nil nil)
+                                    ("T25" type (:type "class") nil nil)
+                                    ("T26" type (:type "class") nil nil)
+                                    ("T27" type (:type "class") nil nil)
+                                    ("T28" type (:type "class") nil nil)
+                                    ("T29" type (:type "class") nil nil)
+                                    ("T30" type (:type "class") nil nil)
+                                    ("T31" type (:type "class") nil nil)
+                                    ("T32" type (:type "class") nil nil)
+                                    ("T33" type (:type "class") nil nil)
+                                    ("T34" type (:type "class") nil nil)
+                                    ("T35" type (:type "class") nil nil)
+                                    ("T36" type (:type "class") nil nil)
+                                    ("T37" type (:type "class") nil nil)
+                                    ("T38" type (:type "class") nil nil)
+                                    ("T39" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [519 1467]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [429 1469]))                  
+                :type "namespace")
+                nil [411 1470]))          
+      :file "set40_fwd.hpp"
+      :pointmax 1471
+      :fsize 1470
+      :lastmodtime '(21727 6095 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "set50_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("void_" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [452 465])
+                            ("set_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [470 485])
+                            ("set_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [490 514])
+                            ("set" type
+                               (:template 
+                                  ( ("T0" type (:type "class") nil nil)
+                                    ("T1" type (:type "class") nil nil)
+                                    ("T2" type (:type "class") nil nil)
+                                    ("T3" type (:type "class") nil nil)
+                                    ("T4" type (:type "class") nil nil)
+                                    ("T5" type (:type "class") nil nil)
+                                    ("T6" type (:type "class") nil nil)
+                                    ("T7" type (:type "class") nil nil)
+                                    ("T8" type (:type "class") nil nil)
+                                    ("T9" type (:type "class") nil nil)
+                                    ("T10" type (:type "class") nil nil)
+                                    ("T11" type (:type "class") nil nil)
+                                    ("T12" type (:type "class") nil nil)
+                                    ("T13" type (:type "class") nil nil)
+                                    ("T14" type (:type "class") nil nil)
+                                    ("T15" type (:type "class") nil nil)
+                                    ("T16" type (:type "class") nil nil)
+                                    ("T17" type (:type "class") nil nil)
+                                    ("T18" type (:type "class") nil nil)
+                                    ("T19" type (:type "class") nil nil)
+                                    ("T20" type (:type "class") nil nil)
+                                    ("T21" type (:type "class") nil nil)
+                                    ("T22" type (:type "class") nil nil)
+                                    ("T23" type (:type "class") nil nil)
+                                    ("T24" type (:type "class") nil nil)
+                                    ("T25" type (:type "class") nil nil)
+                                    ("T26" type (:type "class") nil nil)
+                                    ("T27" type (:type "class") nil nil)
+                                    ("T28" type (:type "class") nil nil)
+                                    ("T29" type (:type "class") nil nil)
+                                    ("T30" type (:type "class") nil nil)
+                                    ("T31" type (:type "class") nil nil)
+                                    ("T32" type (:type "class") nil nil)
+                                    ("T33" type (:type "class") nil nil)
+                                    ("T34" type (:type "class") nil nil)
+                                    ("T35" type (:type "class") nil nil)
+                                    ("T36" type (:type "class") nil nil)
+                                    ("T37" type (:type "class") nil nil)
+                                    ("T38" type (:type "class") nil nil)
+                                    ("T39" type (:type "class") nil nil)
+                                    ("T40" type (:type "class") nil nil)
+                                    ("T41" type (:type "class") nil nil)
+                                    ("T42" type (:type "class") nil nil)
+                                    ("T43" type (:type "class") nil nil)
+                                    ("T44" type (:type "class") nil nil)
+                                    ("T45" type (:type "class") nil nil)
+                                    ("T46" type (:type "class") nil nil)
+                                    ("T47" type (:type "class") nil nil)
+                                    ("T48" type (:type "class") nil nil)
+                                    ("T49" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [519 1697]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [429 1699]))                  
+                :type "namespace")
+                nil [411 1700]))          
+      :file "set50_fwd.hpp"
+      :pointmax 1701
+      :fsize 1700
+      :lastmodtime '(21727 6095 0 0)
+      :unmatched-syntax nil))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!container!set!detail!preprocessed!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

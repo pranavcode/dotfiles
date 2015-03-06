@@ -1,0 +1,28 @@
+;; Object container/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "container/"
+  :tables
+  (list
+    (semanticdb-table "vector.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_SEQUENCE_CLASS_VECTOR_10022005_0602" variable (:constant-flag t) nil [426 468])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [470 512])
+            ("boost/fusion/container/vector/limits.hpp" include (:system-flag t) nil [513 564])
+            ("boost/fusion/container/vector/vector10.hpp" include (:system-flag t) nil [566 619])
+            ("boost/fusion/container/vector/vector.hpp" include (:system-flag t) nil [1001 1052])
+            ("boost/fusion/container/vector/vector_fwd.hpp" include (:system-flag t) nil [1053 1108])
+            ("boost/fusion/container/vector/vector_iterator.hpp" include (:system-flag t) nil [1109 1169])
+            ("boost/fusion/container/vector/convert.hpp" include (:system-flag t) nil [1170 1222]))          
+      :file "vector.hpp"
+      :pointmax 1231
+      :fsize 1230
+      :lastmodtime '(21727 6073 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_SEQUENCE_CLASS_VECTOR_10022005_0602")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!container!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

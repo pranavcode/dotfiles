@@ -1,0 +1,877 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "in.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_IN_05052005_0121" variable (:constant-flag t) nil [495 518])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [520 562])
+            ("istream" include (:system-flag t) nil [563 581])
+            ("boost/fusion/sequence/io/detail/manip.hpp" include (:system-flag t) nil [582 634])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [636 665])
+            ("boost/fusion/sequence/intrinsic/begin.hpp" include (:system-flag t) nil [666 718])
+            ("boost/fusion/sequence/intrinsic/end.hpp" include (:system-flag t) nil [719 769])
+            ("boost/fusion/iterator/deref.hpp" include (:system-flag t) nil [770 812])
+            ("boost/fusion/iterator/next.hpp" include (:system-flag t) nil [813 854])
+            ("boost/fusion/iterator/equal_to.hpp" include (:system-flag t) nil [855 900])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("delimiter_in" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("read" function
+                                               (:template 
+                                                  ( ("IS" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("is" variable
+                                                       (:reference 1
+                                                        :type ("IS" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1108 1115])
+                                                    ("delim" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "char")
+                                                        (reparse-symbol arg-sub-list) [1116 1134])
+                                                    ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1135 1162]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [1052 1271])
+                                            ("read" function
+                                               (:template 
+                                                  ( ("IS" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :type ("IS" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1337 1341])
+                                                    ("" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "char")
+                                                        (reparse-symbol arg-sub-list) [1342 1354])
+                                                    ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1355 1366]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [1281 1386]))                                          )
+                                        (reparse-symbol namespacesubparts) [962 1393])
+                                    ("read_sequence_loop" type
+                                       (:members 
+                                          ( ("call" function
+                                               (:template 
+                                                  ( ("IS" type (:type "class") nil nil)
+                                                    ("First" type (:type "class") nil nil)
+                                                    ("Last" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :type ("IS" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1526 1530])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("First" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1531 1544])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("Last" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1545 1557])
+                                                    ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1558 1569]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [1439 1589])
+                                            ("call" function
+                                               (:template 
+                                                  ( ("IS" type (:type "class") nil nil)
+                                                    ("First" type (:type "class") nil nil)
+                                                    ("Last" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("is" variable
+                                                       (:reference 1
+                                                        :type ("IS" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1686 1693])
+                                                    ("first" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("First" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1694 1713])
+                                                    ("last" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("Last" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1714 1731])
+                                                    ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1732 1744]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [1599 2063])
+                                            ("call" function
+                                               (:template 
+                                                  ( ("IS" type (:type "class") nil nil)
+                                                    ("First" type (:type "class") nil nil)
+                                                    ("Last" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("is" variable
+                                                       (:reference 1
+                                                        :type ("IS" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2160 2167])
+                                                    ("first" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("First" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2168 2187])
+                                                    ("last" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("Last" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2188 2205]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [2073 2313]))                                          
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [1399 2320])
+                                    ("read_sequence" function
+                                       (:template 
+                                          ( ("IS" type (:type "class") nil nil)
+                                            ("Sequence" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("is" variable
+                                               (:reference 1
+                                                :type ("IS" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2402 2409])
+                                            ("seq" variable
+                                               (:reference 1
+                                                :type ("Sequence" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2410 2424]))                                          
+                                        :typemodifiers ("inline"))
+                                        (reparse-symbol namespacesubparts) [2326 2619]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [939 2621]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [920 2622]))                  
+                :type "namespace")
+                nil [902 2623]))          
+      :file "in.hpp"
+      :pointmax 2632
+      :fsize 2631
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_IN_05052005_0121")
+          )
+)
+    (semanticdb-table "out.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_OUT_05052005_0121" variable (:constant-flag t) nil [496 520])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [522 564])
+            ("ostream" include (:system-flag t) nil [565 583])
+            ("boost/fusion/sequence/io/detail/manip.hpp" include (:system-flag t) nil [584 636])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [638 667])
+            ("boost/fusion/sequence/intrinsic/begin.hpp" include (:system-flag t) nil [668 720])
+            ("boost/fusion/sequence/intrinsic/end.hpp" include (:system-flag t) nil [721 771])
+            ("boost/fusion/iterator/deref.hpp" include (:system-flag t) nil [772 814])
+            ("boost/fusion/iterator/next.hpp" include (:system-flag t) nil [815 856])
+            ("boost/fusion/iterator/equal_to.hpp" include (:system-flag t) nil [857 902])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("delimiter_out" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("print" function
+                                               (:template 
+                                                  ( ("OS" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("os" variable
+                                                       (:reference 1
+                                                        :type ("OS" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1113 1120])
+                                                    ("delim" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "char")
+                                                        (reparse-symbol arg-sub-list) [1121 1139])
+                                                    ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1140 1167]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [1056 1277])
+                                            ("print" function
+                                               (:template 
+                                                  ( ("OS" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :type ("OS" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1344 1348])
+                                                    ("" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "char")
+                                                        (reparse-symbol arg-sub-list) [1349 1361])
+                                                    ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1362 1373]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [1287 1393]))                                          )
+                                        (reparse-symbol namespacesubparts) [964 1400])
+                                    ("print_sequence_loop" type
+                                       (:members 
+                                          ( ("call" function
+                                               (:template 
+                                                  ( ("OS" type (:type "class") nil nil)
+                                                    ("First" type (:type "class") nil nil)
+                                                    ("Last" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :type ("OS" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1534 1538])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("First" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1539 1552])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("Last" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1553 1565])
+                                                    ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1566 1577]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [1447 1597])
+                                            ("call" function
+                                               (:template 
+                                                  ( ("OS" type (:type "class") nil nil)
+                                                    ("First" type (:type "class") nil nil)
+                                                    ("Last" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("os" variable
+                                                       (:reference 1
+                                                        :type ("OS" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1694 1701])
+                                                    ("first" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("First" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1702 1721])
+                                                    ("last" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("Last" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1722 1739])
+                                                    ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1740 1752]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [1607 2073])
+                                            ("call" function
+                                               (:template 
+                                                  ( ("OS" type (:type "class") nil nil)
+                                                    ("First" type (:type "class") nil nil)
+                                                    ("Last" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("os" variable
+                                                       (:reference 1
+                                                        :type ("OS" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2170 2177])
+                                                    ("first" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("First" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2178 2197])
+                                                    ("last" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("Last" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2198 2215]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [2083 2323]))                                          
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [1406 2330])
+                                    ("print_sequence" function
+                                       (:template 
+                                          ( ("OS" type (:type "class") nil nil)
+                                            ("Sequence" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("os" variable
+                                               (:reference 1
+                                                :type ("OS" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2413 2420])
+                                            ("seq" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Sequence" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2421 2441]))                                          
+                                        :typemodifiers ("inline"))
+                                        (reparse-symbol namespacesubparts) [2336 2641]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [941 2643]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [922 2644]))                  
+                :type "namespace")
+                nil [904 2645]))          
+      :file "out.hpp"
+      :pointmax 2654
+      :fsize 2653
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_OUT_05052005_0121")
+          )
+)
+    (semanticdb-table "manip.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_MANIP_05052005_1200" variable (:constant-flag t) nil [498 524])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [526 568])
+            ("boost/config.hpp" include (:system-flag t) nil [569 596])
+            ("string" include (:system-flag t) nil [597 614])
+            ("vector" include (:system-flag t) nil [615 632])
+            ("cctype" include (:system-flag t) nil [633 650])
+            ("FUSION_GET_CHAR_TYPE" variable (:constant-flag t) nil [687 707])
+            ("FUSION_GET_TRAITS_TYPE" variable (:constant-flag t) nil [741 763])
+            ("FUSION_STRING_OF_STREAM" variable (:constant-flag t) nil [800 823])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("get_xalloc_index" function
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "int"
+                                        :arguments 
+                                          ( ("" variable
+                                               (:pointer 1
+                                                :type ("Tag" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1448 1456]))                                          )
+                                        (reparse-symbol namespacesubparts) [1395 1603])
+                                    ("stream_data" type
+                                       (:template 
+                                          ( ("Stream" type (:type "class") nil nil)
+                                            ("Tag" type (:type "class") nil nil)
+                                            ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("arena" type
+                                               (:members 
+                                                  ( ("arena" function
+                                                       (:destructor-flag t
+                                                        :type "void")
+                                                        (reparse-symbol classsubparts) [1758 2052])
+                                                    ("data" variable (:type ("std::vector" type
+                                                         (:template-specifier 
+                                                            ( ("T" type (:pointer 1) nil nil))                                                            
+                                                          :type "class")
+                                                          nil nil)) (reparse-symbol classsubparts) [2070 2091]))                                                  
+                                                :type "struct")
+                                                (reparse-symbol classsubparts) [1715 2106])
+                                            ("attach" function
+                                               (:typemodifiers ("static")
+                                                :arguments 
+                                                  ( ("stream" variable
+                                                       (:reference 1
+                                                        :type ("Stream" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2139 2154])
+                                                    ("data" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2155 2169]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2120 2363])
+                                            ("get" function
+                                               (:pointer 1
+                                                :typemodifiers ("static")
+                                                :arguments 
+                                                  ( ("stream" variable
+                                                       (:reference 1
+                                                        :type ("Stream" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2397 2412]))                                                  
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2377 2512]))                                          )
+                                        (reparse-symbol namespacesubparts) [1613 2523])
+                                    ("string_ios_manip" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil)
+                                            ("Stream" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [2623 2630])
+                                            ("string_type" variable (:type "int") (reparse-symbol classsubparts) [2684 2696])
+                                            ("stream_data_t" type
+                                               (:typedef ("stream_data" type
+                                                     (:template-specifier 
+                                                        ( ("Stream" type nil nil nil)
+                                                          ("Tag" type nil nil nil)
+                                                          ("string_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2710 2770])
+                                            ("string_ios_manip" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("str_" variable
+                                                       (:reference 1
+                                                        :type ("Stream" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2801 2814]))                                                  
+                                                :type ("string_ios_manip" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2784 2860])
+                                            ("set" function
+                                               (:arguments 
+                                                  ( ("s" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("string_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2895 2916]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2874 2994])
+                                            ("print" function
+                                               (:arguments 
+                                                  ( ("default_" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "char")
+                                                        (reparse-symbol arg-sub-list) [3031 3052]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [3008 3308])
+                                            ("read" function
+                                               (:arguments 
+                                                  ( ("default_" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "char")
+                                                        (reparse-symbol arg-sub-list) [3344 3365]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [3322 3958])
+                                            ("private" label nil (reparse-symbol classsubparts) [3968 3976])
+                                            ("check_delim" function
+                                               (:template 
+                                                  ( ("Char" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("c" variable (:type ("Char" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4056 4063]))                                                  )
+                                                (reparse-symbol classsubparts) [3990 4353])
+                                            ("stream" variable (:type ("Stream" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4367 4382])
+                                            ("private" label nil (reparse-symbol classsubparts) [4392 4400])
+                                            ("=" function
+                                               (:prototype-flag t
+                                                :operator-flag t
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("string_ios_manip" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4528 4552]))                                                  
+                                                :type ("string_ios_manip" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [4499 4553]))                                          )
+                                        (reparse-symbol namespacesubparts) [2533 4564]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1364 4571])
+                            ("STD_TUPLE_DEFINE_MANIPULATOR_FUNCTIONS" variable (:constant-flag t) (reparse-symbol namespacesubparts) [7164 7202])
+                            ("STD_TUPLE_DEFINE_MANIPULATOR" variable (:constant-flag t) (reparse-symbol namespacesubparts) [9393 9421])
+                            ("detail" type
+                               (:members 
+                                  ( ("_tag" variable (:type "int") (reparse-symbol namespacesubparts) nil)
+                                    ("_type" variable (:type "int") (reparse-symbol namespacesubparts) nil)
+                                    (">>" function
+                                       (:template 
+                                          ( ("Stream" type (:type "class") nil nil)
+                                            ("Char" type (:type "class") nil nil)
+                                            ("Traits" type (:type "class") nil nil))                                          
+                                        :type ("Stream" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("s" variable
+                                               (:reference 1
+                                                :type ("Stream" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) nil)
+                                            ("" variable
+                                               (:constant-flag t
+                                                :type ("tuple_open" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) nil)
+                                            ("m" variable
+                                               (:reference 1
+                                                :type ("_type" type
+                                                     (:template-specifier 
+                                                        ( ("Char" type nil nil nil)
+                                                          ("Traits" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) nil))                                          
+                                        :operator-flag t)
+                                        (reparse-symbol namespacesubparts) nil)
+                                    ("<<" function
+                                       (:template 
+                                          ( ("Stream" type (:type "class") nil nil)
+                                            ("Char" type (:type "class") nil nil)
+                                            ("Traits" type (:type "class") nil nil))                                          
+                                        :type ("Stream" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("s" variable
+                                               (:reference 1
+                                                :type ("Stream" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) nil)
+                                            ("" variable
+                                               (:constant-flag t
+                                                :type ("tuple_open" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) nil)
+                                            ("m" variable
+                                               (:reference 1
+                                                :type ("_type" type
+                                                     (:template-specifier 
+                                                        ( ("Char" type nil nil nil)
+                                                          ("Traits" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) nil))                                          
+                                        :operator-flag t)
+                                        (reparse-symbol namespacesubparts) nil))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [11605 11645])
+                            ("detail" type
+                               (:members 
+                                  ( ("_tag" variable (:type "int") (reparse-symbol namespacesubparts) nil)
+                                    ("_type" variable (:type "int") (reparse-symbol namespacesubparts) nil)
+                                    (">>" function
+                                       (:template 
+                                          ( ("Stream" type (:type "class") nil nil)
+                                            ("Char" type (:type "class") nil nil)
+                                            ("Traits" type (:type "class") nil nil))                                          
+                                        :type ("Stream" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("s" variable
+                                               (:reference 1
+                                                :type ("Stream" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) nil)
+                                            ("" variable
+                                               (:constant-flag t
+                                                :type ("tuple_close" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) nil)
+                                            ("m" variable
+                                               (:reference 1
+                                                :type ("_type" type
+                                                     (:template-specifier 
+                                                        ( ("Char" type nil nil nil)
+                                                          ("Traits" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) nil))                                          
+                                        :operator-flag t)
+                                        (reparse-symbol namespacesubparts) nil)
+                                    ("<<" function
+                                       (:template 
+                                          ( ("Stream" type (:type "class") nil nil)
+                                            ("Char" type (:type "class") nil nil)
+                                            ("Traits" type (:type "class") nil nil))                                          
+                                        :type ("Stream" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("s" variable
+                                               (:reference 1
+                                                :type ("Stream" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) nil)
+                                            ("" variable
+                                               (:constant-flag t
+                                                :type ("tuple_close" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) nil)
+                                            ("m" variable
+                                               (:reference 1
+                                                :type ("_type" type
+                                                     (:template-specifier 
+                                                        ( ("Char" type nil nil nil)
+                                                          ("Traits" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) nil))                                          
+                                        :operator-flag t)
+                                        (reparse-symbol namespacesubparts) nil))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [11650 11691])
+                            ("detail" type
+                               (:members 
+                                  ( ("_tag" variable (:type "int") (reparse-symbol namespacesubparts) nil)
+                                    ("_type" variable (:type "int") (reparse-symbol namespacesubparts) nil)
+                                    (">>" function
+                                       (:template 
+                                          ( ("Stream" type (:type "class") nil nil)
+                                            ("Char" type (:type "class") nil nil)
+                                            ("Traits" type (:type "class") nil nil))                                          
+                                        :type ("Stream" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("s" variable
+                                               (:reference 1
+                                                :type ("Stream" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) nil)
+                                            ("" variable
+                                               (:constant-flag t
+                                                :type ("tuple_delimiter" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) nil)
+                                            ("m" variable
+                                               (:reference 1
+                                                :type ("_type" type
+                                                     (:template-specifier 
+                                                        ( ("Char" type nil nil nil)
+                                                          ("Traits" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) nil))                                          
+                                        :operator-flag t)
+                                        (reparse-symbol namespacesubparts) nil)
+                                    ("<<" function
+                                       (:template 
+                                          ( ("Stream" type (:type "class") nil nil)
+                                            ("Char" type (:type "class") nil nil)
+                                            ("Traits" type (:type "class") nil nil))                                          
+                                        :type ("Stream" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("s" variable
+                                               (:reference 1
+                                                :type ("Stream" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) nil)
+                                            ("" variable
+                                               (:constant-flag t
+                                                :type ("tuple_delimiter" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) nil)
+                                            ("m" variable
+                                               (:reference 1
+                                                :type ("_type" type
+                                                     (:template-specifier 
+                                                        ( ("Char" type nil nil nil)
+                                                          ("Traits" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) nil))                                          
+                                        :operator-flag t)
+                                        (reparse-symbol namespacesubparts) nil))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [11696 11741])
+                            ("tuple_open" function
+                               (:template 
+                                  ( ("Char" type (:type "class") nil nil)
+                                    ("Traits" type (:type "class") nil nil))                                  
+                                :type ("detail::tuple_open_type" type
+                                     (:template-specifier 
+                                        ( ("Char" type nil nil nil)
+                                          ("Traits" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :arguments 
+                                  ( ("s" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::basic_string" type
+                                             (:template-specifier 
+                                                ( ("Char" type nil nil nil)
+                                                  ("Traits" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) nil))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [11747 11797])
+                            ("tuple_open" function
+                               (:template 
+                                  ( ("Char" type (:type "class") nil nil))                                  
+                                :type ("detail::tuple_open_type" type
+                                     (:template-specifier 
+                                        ( ("Char" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :arguments 
+                                  ( ("s" variable
+                                       (:dereference 1
+                                        :type ("Char" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [11747 11797])
+                            ("tuple_open" function
+                               (:template 
+                                  ( ("Char" type (:type "class") nil nil))                                  
+                                :type ("detail::tuple_open_type" type
+                                     (:template-specifier 
+                                        ( ("Char" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :arguments 
+                                  ( ("s" variable
+                                       (:dereference 1
+                                        :constant-flag t
+                                        :type ("Char" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [11747 11797])
+                            ("tuple_open" function
+                               (:template 
+                                  ( ("Char" type (:type "class") nil nil))                                  
+                                :type ("detail::tuple_open_type" type
+                                     (:template-specifier 
+                                        ( ("Char" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :arguments 
+                                  ( ("c" variable (:type ("Char" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [11747 11797])
+                            ("tuple_close" function
+                               (:template 
+                                  ( ("Char" type (:type "class") nil nil)
+                                    ("Traits" type (:type "class") nil nil))                                  
+                                :type ("detail::tuple_close_type" type
+                                     (:template-specifier 
+                                        ( ("Char" type nil nil nil)
+                                          ("Traits" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :arguments 
+                                  ( ("s" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::basic_string" type
+                                             (:template-specifier 
+                                                ( ("Char" type nil nil nil)
+                                                  ("Traits" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) nil))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [11802 11853])
+                            ("tuple_close" function
+                               (:template 
+                                  ( ("Char" type (:type "class") nil nil))                                  
+                                :type ("detail::tuple_close_type" type
+                                     (:template-specifier 
+                                        ( ("Char" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :arguments 
+                                  ( ("s" variable
+                                       (:dereference 1
+                                        :type ("Char" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [11802 11853])
+                            ("tuple_close" function
+                               (:template 
+                                  ( ("Char" type (:type "class") nil nil))                                  
+                                :type ("detail::tuple_close_type" type
+                                     (:template-specifier 
+                                        ( ("Char" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :arguments 
+                                  ( ("s" variable
+                                       (:dereference 1
+                                        :constant-flag t
+                                        :type ("Char" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [11802 11853])
+                            ("tuple_close" function
+                               (:template 
+                                  ( ("Char" type (:type "class") nil nil))                                  
+                                :type ("detail::tuple_close_type" type
+                                     (:template-specifier 
+                                        ( ("Char" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :arguments 
+                                  ( ("c" variable (:type ("Char" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [11802 11853])
+                            ("tuple_delimiter" function
+                               (:template 
+                                  ( ("Char" type (:type "class") nil nil)
+                                    ("Traits" type (:type "class") nil nil))                                  
+                                :type ("detail::tuple_delimiter_type" type
+                                     (:template-specifier 
+                                        ( ("Char" type nil nil nil)
+                                          ("Traits" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :arguments 
+                                  ( ("s" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::basic_string" type
+                                             (:template-specifier 
+                                                ( ("Char" type nil nil nil)
+                                                  ("Traits" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) nil))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [11858 11913])
+                            ("tuple_delimiter" function
+                               (:template 
+                                  ( ("Char" type (:type "class") nil nil))                                  
+                                :type ("detail::tuple_delimiter_type" type
+                                     (:template-specifier 
+                                        ( ("Char" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :arguments 
+                                  ( ("s" variable
+                                       (:dereference 1
+                                        :type ("Char" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [11858 11913])
+                            ("tuple_delimiter" function
+                               (:template 
+                                  ( ("Char" type (:type "class") nil nil))                                  
+                                :type ("detail::tuple_delimiter_type" type
+                                     (:template-specifier 
+                                        ( ("Char" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :arguments 
+                                  ( ("s" variable
+                                       (:dereference 1
+                                        :constant-flag t
+                                        :type ("Char" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [11858 11913])
+                            ("tuple_delimiter" function
+                               (:template 
+                                  ( ("Char" type (:type "class") nil nil))                                  
+                                :type ("detail::tuple_delimiter_type" type
+                                     (:template-specifier 
+                                        ( ("Char" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :arguments 
+                                  ( ("c" variable (:type ("Char" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [11858 11913]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1341 12088]))                  
+                :type "namespace")
+                nil [1323 12089]))          
+      :file "manip.hpp"
+      :pointmax 12098
+      :fsize 12097
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((semantic-list 2675 . 2683) (symbol 2652 . 2675) (TYPEDEF 2644 . 2651))
+      :lexical-table 
+        '(("FUSION_MANIP_05052005_1200")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!sequence!io!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

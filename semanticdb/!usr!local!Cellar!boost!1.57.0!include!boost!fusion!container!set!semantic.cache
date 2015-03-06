@@ -1,0 +1,44 @@
+;; Object set/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "set/"
+  :tables
+  (list
+    (semanticdb-table "set_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_SET_FORWARD_09162005_1102" variable (:constant-flag t) nil [416 448])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [450 492])
+            ("boost/fusion/container/set/limits.hpp" include (:system-flag t) nil [493 541])
+            ("boost/preprocessor/repetition/enum_params_with_a_default.hpp" include (:system-flag t) nil [542 613])
+            ("boost/fusion/container/set/detail/preprocessed/set_fwd.hpp" include (:system-flag t) nil [670 739]))          
+      :file "set_fwd.hpp"
+      :pointmax 1881
+      :fsize 1880
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_SET_FORWARD_09162005_1102")
+          )
+)
+    (semanticdb-table "limits.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_SET_LIMITS_09162005_1103" variable (:constant-flag t) nil [415 446])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [448 490])
+            ("boost/fusion/container/vector/limits.hpp" include (:system-flag t) nil [491 542])
+            ("FUSION_MAX_SET_SIZE" variable (:constant-flag t) nil [587 606])
+            ("FUSION_MAX_SET_SIZE_STR" variable (:constant-flag t) nil [871 894]))          
+      :file "limits.hpp"
+      :pointmax 969
+      :fsize 968
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_SET_LIMITS_09162005_1103")
+          ("FUSION_MAX_SET_SIZE" . ((symbol "FUSION_MAX_VECTOR_SIZE" 607 . 629)))
+          ("FUSION_MAX_SET_SIZE_STR" . ((symbol "BOOST_PP_STRINGIZE" 895 . 913) (semantic-list "(BOOST_FUSION_PP_ROUND_UP(FUSION_MAX_SET_SIZE))" 913 . 960)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!container!set!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

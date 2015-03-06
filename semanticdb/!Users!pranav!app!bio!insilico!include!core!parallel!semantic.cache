@@ -1,0 +1,72 @@
+;; Object parallel/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "parallel/"
+  :tables
+  (list
+    (semanticdb-table "mpi.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_PARALLEL_MPI_HPP" variable (:constant-flag t) nil [829 863])
+            ("INSILICO_MPI_ENABLE" variable (:constant-flag t) nil [873 892])
+            ("mpi.h" include nil nil [894 910])
+            ("core/engine.hpp" include nil nil [912 938])
+            ("parallel/synchronization.hpp" include nil nil [939 978])
+            ("insilico" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("master" variable
+                               (:default-value "0"
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [1028 1043])
+                            ("rank" variable (:type "int") (reparse-symbol namespacesubparts) [1045 1060])
+                            ("size" variable (:type "int") (reparse-symbol namespacesubparts) [1045 1060])
+                            ("configuration" type
+                               (:members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [1085 1092])
+                                    ("initialize" function
+                                       (:typemodifiers ("static")
+                                        :arguments 
+                                          ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1118 1127])
+                                            ("argv" variable
+                                               (:pointer 2
+                                                :type "char")
+                                                (reparse-symbol arg-sub-list) [1128 1140]))                                          
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [1095 1268])
+                                    ("finalize" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [1272 1324]))                                  
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [1062 1327])
+                            ("abort" function (:type "void") (reparse-symbol namespacesubparts) [1352 1408])
+                            ("synchronize" function
+                               (:arguments 
+                                  ( ("shared_state" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1427 1452]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1410 2177]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1001 2180]))                  
+                :type "namespace")
+                nil [980 2182]))          
+      :file "mpi.hpp"
+      :pointmax 2218
+      :fsize 2217
+      :lastmodtime '(21750 39340 0 0)
+      :unmatched-syntax '((symbol 1018 . 1027) (symbol 1018 . 1027))
+      :lexical-table 
+        '(("INCLUDED_INSILICO_PARALLEL_MPI_HPP")
+          ("INSILICO_MPI_ENABLE")
+          )
+)
+    (semanticdb-table "synchronization.hpp"
+      :file "synchronization.hpp"
+      :fsize 2302
+      :lastmodtime '(21740 43299 0 0)))
+  :file "!Users!pranav!app!bio!insilico!include!core!parallel!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

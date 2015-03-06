@@ -1,0 +1,119 @@
+;; Object fusion/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "fusion/"
+  :tables
+  (list
+    (semanticdb-table "algorithm.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_ALGORITHM_10022005_0549" variable (:constant-flag t) nil [415 445])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [447 489])
+            ("boost/fusion/algorithm/iteration.hpp" include (:system-flag t) nil [490 537])
+            ("boost/fusion/algorithm/query.hpp" include (:system-flag t) nil [538 581])
+            ("boost/fusion/algorithm/transformation.hpp" include (:system-flag t) nil [582 634]))          
+      :file "algorithm.hpp"
+      :pointmax 643
+      :fsize 642
+      :lastmodtime '(21727 6065 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_ALGORITHM_10022005_0549")
+          )
+)
+    (semanticdb-table "iterator.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_ITERATOR_10022005_0559" variable (:constant-flag t) nil [413 442])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [444 486])
+            ("boost/fusion/iterator/iterator_facade.hpp" include (:system-flag t) nil [487 539])
+            ("boost/fusion/iterator/iterator_adapter.hpp" include (:system-flag t) nil [540 593])
+            ("boost/fusion/iterator/segmented_iterator.hpp" include (:system-flag t) nil [594 649])
+            ("boost/fusion/iterator/advance.hpp" include (:system-flag t) nil [650 694])
+            ("boost/fusion/iterator/deref.hpp" include (:system-flag t) nil [695 737])
+            ("boost/fusion/iterator/distance.hpp" include (:system-flag t) nil [738 783])
+            ("boost/fusion/iterator/equal_to.hpp" include (:system-flag t) nil [784 829])
+            ("boost/fusion/iterator/mpl.hpp" include (:system-flag t) nil [830 870])
+            ("boost/fusion/iterator/next.hpp" include (:system-flag t) nil [871 912])
+            ("boost/fusion/iterator/prior.hpp" include (:system-flag t) nil [913 955])
+            ("boost/fusion/iterator/value_of.hpp" include (:system-flag t) nil [956 1001]))          
+      :file "iterator.hpp"
+      :pointmax 1010
+      :fsize 1009
+      :lastmodtime '(21727 6065 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_ITERATOR_10022005_0559")
+          )
+)
+    (semanticdb-table "mpl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_MPL_09172006_2049" variable (:constant-flag t) nil [408 432])
+            ("boost/fusion/iterator/mpl.hpp" include (:system-flag t) nil [470 510])
+            ("boost/fusion/adapted/mpl.hpp" include (:system-flag t) nil [511 550])
+            ("boost/fusion/mpl/at.hpp" include (:system-flag t) nil [552 586])
+            ("boost/fusion/mpl/back.hpp" include (:system-flag t) nil [587 623])
+            ("boost/fusion/mpl/begin.hpp" include (:system-flag t) nil [624 661])
+            ("boost/fusion/mpl/clear.hpp" include (:system-flag t) nil [662 699])
+            ("boost/fusion/mpl/empty.hpp" include (:system-flag t) nil [700 737])
+            ("boost/fusion/mpl/end.hpp" include (:system-flag t) nil [738 773])
+            ("boost/fusion/mpl/erase.hpp" include (:system-flag t) nil [774 811])
+            ("boost/fusion/mpl/erase_key.hpp" include (:system-flag t) nil [812 853])
+            ("boost/fusion/mpl/front.hpp" include (:system-flag t) nil [854 891])
+            ("boost/fusion/mpl/has_key.hpp" include (:system-flag t) nil [892 931])
+            ("boost/fusion/mpl/insert.hpp" include (:system-flag t) nil [932 970])
+            ("boost/fusion/mpl/insert_range.hpp" include (:system-flag t) nil [971 1015])
+            ("boost/fusion/mpl/pop_back.hpp" include (:system-flag t) nil [1016 1056])
+            ("boost/fusion/mpl/pop_front.hpp" include (:system-flag t) nil [1057 1098])
+            ("boost/fusion/mpl/push_back.hpp" include (:system-flag t) nil [1099 1140])
+            ("boost/fusion/mpl/push_front.hpp" include (:system-flag t) nil [1141 1183])
+            ("boost/fusion/mpl/size.hpp" include (:system-flag t) nil [1184 1220]))          
+      :file "mpl.hpp"
+      :pointmax 1229
+      :fsize 1228
+      :lastmodtime '(21727 6065 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_MPL_09172006_2049")
+          )
+)
+    (semanticdb-table "sequence.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_SEQUENCE_10022005_0559" variable (:constant-flag t) nil [413 442])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [444 486])
+            ("boost/fusion/sequence/sequence_facade.hpp" include (:system-flag t) nil [487 539])
+            ("boost/fusion/sequence/comparison.hpp" include (:system-flag t) nil [540 587])
+            ("boost/fusion/sequence/intrinsic.hpp" include (:system-flag t) nil [588 634])
+            ("boost/fusion/sequence/io.hpp" include (:system-flag t) nil [635 674])
+            ("boost/fusion/sequence/convert.hpp" include (:system-flag t) nil [675 719]))          
+      :file "sequence.hpp"
+      :pointmax 728
+      :fsize 727
+      :lastmodtime '(21727 6065 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_SEQUENCE_10022005_0559")
+          )
+)
+    (semanticdb-table "tuple.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_TUPLE_10032005_0806" variable (:constant-flag t) nil [411 437])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [439 481])
+            ("boost/fusion/tuple/tuple.hpp" include (:system-flag t) nil [482 521])
+            ("boost/fusion/tuple/make_tuple.hpp" include (:system-flag t) nil [522 566])
+            ("boost/fusion/tuple/tuple_tie.hpp" include (:system-flag t) nil [567 610])
+            ("boost/fusion/container/generation/ignore.hpp" include (:system-flag t) nil [611 666]))          
+      :file "tuple.hpp"
+      :pointmax 676
+      :fsize 675
+      :lastmodtime '(21727 6065 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_TUPLE_10032005_0806")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

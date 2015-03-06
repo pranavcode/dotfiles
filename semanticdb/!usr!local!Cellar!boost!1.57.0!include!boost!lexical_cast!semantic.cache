@@ -1,0 +1,291 @@
+;; Object lexical_cast/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "lexical_cast/"
+  :tables
+  (list
+    (semanticdb-table "bad_lexical_cast.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_LEXICAL_CAST_BAD_LEXICAL_CAST_HPP" variable (:constant-flag t) nil [864 903])
+            ("boost/config.hpp" include (:system-flag t) nil [905 932])
+            ("typeinfo" include (:system-flag t) nil [986 1005])
+            ("exception" include (:system-flag t) nil [1006 1026])
+            ("boost/throw_exception.hpp" include (:system-flag t) nil [1027 1063])
+            ("boost" type
+               (:members 
+                  ( ("std::bad_cast" variable (:type "int") (reparse-symbol namespacesubparts) [1395 2594])
+                    ("conversion" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("throw_bad_cast" function
+                                       (:template 
+                                          ( ("S" type (:type "class") nil nil)
+                                            ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :typemodifiers ("inline"))
+                                        (reparse-symbol namespacesubparts) [2820 2972]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [2623 2985]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2600 2986]))                  
+                :type "namespace")
+                nil [1065 3022]))          
+      :file "bad_lexical_cast.hpp"
+      :pointmax 3094
+      :fsize 3093
+      :lastmodtime '(21727 6066 0 0)
+      :unmatched-syntax '((PUBLIC 1388 . 1394) (punctuation 1194 . 1195) (symbol 1177 . 1193) (symbol 1156 . 1176) (CLASS 1150 . 1155))
+      :lexical-table 
+        '(("BOOST_LEXICAL_CAST_BAD_LEXICAL_CAST_HPP")
+          )
+)
+    (semanticdb-table "try_lexical_convert.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_LEXICAL_CAST_TRY_LEXICAL_CONVERT_HPP" variable (:constant-flag t) nil [867 909])
+            ("boost/config.hpp" include (:system-flag t) nil [911 938])
+            ("string" include (:system-flag t) nil [992 1009])
+            ("boost/mpl/if.hpp" include (:system-flag t) nil [1010 1037])
+            ("boost/type_traits/ice.hpp" include (:system-flag t) nil [1038 1074])
+            ("boost/type_traits/is_same.hpp" include (:system-flag t) nil [1075 1115])
+            ("boost/type_traits/is_arithmetic.hpp" include (:system-flag t) nil [1116 1162])
+            ("boost/lexical_cast/detail/is_character.hpp" include (:system-flag t) nil [1164 1217])
+            ("boost/lexical_cast/detail/converter_numeric.hpp" include (:system-flag t) nil [1218 1276])
+            ("boost/lexical_cast/detail/converter_lexical.hpp" include (:system-flag t) nil [1277 1335])
+            ("boost/range/iterator_range_core.hpp" include (:system-flag t) nil [1337 1383])
+            ("boost/container/container_fwd.hpp" include (:system-flag t) nil [1384 1428])
+            ("boost" type
+               (:members 
+                  ( ("detail" type
+                       (:members 
+                          ( ("is_stdstring" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("boost::false_type" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1483 1575])
+                            ("is_stdstring" type
+                               (:template 
+                                  ( ("CharT" type (:type "class") nil nil)
+                                    ("Traits" type (:type "class") nil nil)
+                                    ("Alloc" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("boost::true_type" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  
+                                :template-specifier 
+                                  ( ("std::basic_string" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1585 1756])
+                            ("is_stdstring" type
+                               (:template 
+                                  ( ("CharT" type (:type "class") nil nil)
+                                    ("Traits" type (:type "class") nil nil)
+                                    ("Alloc" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("boost::true_type" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  
+                                :template-specifier 
+                                  ( ("boost::container::basic_string" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1766 1950])
+                            ("is_arithmetic_and_not_xchars" type
+                               (:template 
+                                  ( ("Target" type (:type "class") nil nil)
+                                    ("Source" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("BOOST_STATIC_CONSTANT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type "bool") (reparse-symbol arg-sub-list) [2091 2096])
+                                            ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2097 2602]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [2069 2604]))                                  )
+                                (reparse-symbol namespacesubparts) [1960 2615])
+                            ("is_xchar_to_xchar" type
+                               (:template 
+                                  ( ("Target" type (:type "class") nil nil)
+                                    ("Source" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("BOOST_STATIC_CONSTANT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type "bool") (reparse-symbol arg-sub-list) [2929 2934])
+                                            ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2935 3331]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [2907 3333]))                                  )
+                                (reparse-symbol namespacesubparts) [2808 3344])
+                            ("is_char_array_to_stdstring" type
+                               (:template 
+                                  ( ("Target" type (:type "class") nil nil)
+                                    ("Source" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("boost::false_type" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [3354 3482])
+                            ("is_char_array_to_stdstring" type
+                               (:template 
+                                  ( ("CharT" type (:type "class") nil nil)
+                                    ("Traits" type (:type "class") nil nil)
+                                    ("Alloc" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("boost::true_type" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  
+                                :template-specifier 
+                                  ( ("std::basic_string" type nil nil nil)
+                                    ("CharT" type (:pointer 1) nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [3492 3685])
+                            ("is_char_array_to_stdstring" type
+                               (:template 
+                                  ( ("CharT" type (:type "class") nil nil)
+                                    ("Traits" type (:type "class") nil nil)
+                                    ("Alloc" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("boost::true_type" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  
+                                :template-specifier 
+                                  ( ("std::basic_string" type nil nil nil)
+                                    ("CharT" type
+                                       (:pointer 1
+                                        :constant-flag t)
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [3695 3894])
+                            ("is_char_array_to_stdstring" type
+                               (:template 
+                                  ( ("CharT" type (:type "class") nil nil)
+                                    ("Traits" type (:type "class") nil nil)
+                                    ("Alloc" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("boost::true_type" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  
+                                :template-specifier 
+                                  ( ("boost::container::basic_string" type nil nil nil)
+                                    ("CharT" type (:pointer 1) nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [3904 4110])
+                            ("is_char_array_to_stdstring" type
+                               (:template 
+                                  ( ("CharT" type (:type "class") nil nil)
+                                    ("Traits" type (:type "class") nil nil)
+                                    ("Alloc" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("boost::true_type" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  
+                                :template-specifier 
+                                  ( ("boost::container::basic_string" type nil nil nil)
+                                    ("CharT" type
+                                       (:pointer 1
+                                        :constant-flag t)
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [4120 4332])
+                            ("copy_converter_impl" type
+                               (:template 
+                                  ( ("Target" type (:type "class") nil nil)
+                                    ("Source" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("try_convert" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "bool"
+                                        :arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4725 4728])
+                                            ("" variable (:type ("arg" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4729 4733])
+                                            ("result" variable
+                                               (:reference 1
+                                                :type ("Target" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4734 4749]))                                          
+                                        :typemodifiers ("static" "inline"))
+                                        (reparse-symbol classsubparts) [4663 4887]))                                  )
+                                (reparse-symbol namespacesubparts) [4342 5064]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1452 5070])
+                    ("conversion" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("try_lexical_convert" function
+                                       (:template 
+                                          ( ("Target" type (:type "class") nil nil)
+                                            ("Source" type (:type "class") nil nil))                                          
+                                        :type "bool"
+                                        :arguments 
+                                          ( ("arg" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Source" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [5211 5229])
+                                            ("result" variable
+                                               (:reference 1
+                                                :type ("Target" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [5230 5245]))                                          
+                                        :typemodifiers ("inline"))
+                                        (reparse-symbol namespacesubparts) [5127 6936])
+                                    ("try_lexical_convert" function
+                                       (:template 
+                                          ( ("Target" type (:type "class") nil nil)
+                                            ("CharacterT" type (:type "class") nil nil))                                          
+                                        :type "bool"
+                                        :arguments 
+                                          ( ("chars" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("CharacterT" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [7034 7058])
+                                            ("count" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7059 7077])
+                                            ("result" variable
+                                               (:reference 1
+                                                :type ("Target" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [7078 7093]))                                          
+                                        :typemodifiers ("inline"))
+                                        (reparse-symbol namespacesubparts) [6946 7509]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [5099 7516]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [5076 7517])
+                    ("conversion" type
+                       (:members 
+                          ( ("boost::conversion::detail::try_lexical_convert" variable (:type "int") (reparse-symbol namespacesubparts) [7617 7664]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [7555 7670]))                  
+                :type "namespace")
+                nil [1430 7673]))          
+      :file "try_lexical_convert.hpp"
+      :pointmax 7748
+      :fsize 7747
+      :lastmodtime '(21727 6066 0 0)
+      :unmatched-syntax '((punctuation 7616 . 7617) (punctuation 7615 . 7616) (USING 7609 . 7614) (punctuation 4727 . 4728))
+      :lexical-table 
+        '(("BOOST_LEXICAL_CAST_TRY_LEXICAL_CONVERT_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!lexical_cast!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

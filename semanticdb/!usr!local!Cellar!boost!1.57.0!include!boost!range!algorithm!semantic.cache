@@ -1,0 +1,210 @@
+;; Object algorithm/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "algorithm/"
+  :tables
+  (list
+    (semanticdb-table "copy.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_RANGE_ALGORITHM_COPY_HPP_INCLUDED" variable (:constant-flag t) nil [350 389])
+            ("boost/concept_check.hpp" include (:system-flag t) nil [391 425])
+            ("boost/range/begin.hpp" include (:system-flag t) nil [426 458])
+            ("boost/range/end.hpp" include (:system-flag t) nil [459 489])
+            ("boost/range/concepts.hpp" include (:system-flag t) nil [490 525])
+            ("boost/range/iterator_range.hpp" include (:system-flag t) nil [526 567])
+            ("algorithm" include (:system-flag t) nil [568 588])
+            ("boost" type
+               (:members 
+                  ( ("range" type
+                       (:members 
+                          ( ("copy" function
+                               (:template 
+                                  ( ("SinglePassRange" type (:type "class") nil nil)
+                                    ("OutputIterator" type (:type "class") nil nil))                                  
+                                :type ("OutputIterator" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("rng" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SinglePassRange" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [940 967])
+                                    ("out" variable (:type ("OutputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [968 987]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [857 1135]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [612 1142])
+                    ("range::copy" using (:type ("range::copy" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1166 1184]))                  
+                :type "namespace")
+                nil [590 1186]))          
+      :file "copy.hpp"
+      :pointmax 1231
+      :fsize 1230
+      :lastmodtime '(21727 6080 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_RANGE_ALGORITHM_COPY_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "equal.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_RANGE_ALGORITHM_EQUAL_HPP_INCLUDED" variable (:constant-flag t) nil [374 414])
+            ("boost/config.hpp" include (:system-flag t) nil [416 443])
+            ("boost/range/concepts.hpp" include (:system-flag t) nil [444 479])
+            ("iterator" include (:system-flag t) nil [480 499])
+            ("boost" type
+               (:members 
+                  ( ("range_detail" type
+                       (:members 
+                          ( ("equal_impl" function
+                               (:template 
+                                  ( ("SinglePassTraversalReadableIterator1" type (:type "class") nil nil)
+                                    ("SinglePassTraversalReadableIterator2" type (:type "class") nil nil)
+                                    ("IteratorCategoryTag1" type (:type "class") nil nil)
+                                    ("IteratorCategoryTag2" type (:type "class") nil nil))                                  
+                                :type "bool"
+                                :arguments 
+                                  ( ("first1" variable (:type ("SinglePassTraversalReadableIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [949 993])
+                                    ("last1" variable (:type ("SinglePassTraversalReadableIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1026 1069])
+                                    ("first2" variable (:type ("SinglePassTraversalReadableIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1102 1146])
+                                    ("last2" variable (:type ("SinglePassTraversalReadableIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1179 1222])
+                                    ("" variable (:type ("IteratorCategoryTag1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1255 1276])
+                                    ("" variable (:type ("IteratorCategoryTag2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1309 1331]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [708 2323])
+                            ("equal_impl" function
+                               (:template 
+                                  ( ("SinglePassTraversalReadableIterator1" type (:type "class") nil nil)
+                                    ("SinglePassTraversalReadableIterator2" type (:type "class") nil nil)
+                                    ("IteratorCategoryTag1" type (:type "class") nil nil)
+                                    ("IteratorCategoryTag2" type (:type "class") nil nil)
+                                    ("BinaryPredicate" type (:type "class") nil nil))                                  
+                                :type "bool"
+                                :arguments 
+                                  ( ("first1" variable (:type ("SinglePassTraversalReadableIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2615 2659])
+                                    ("last1" variable (:type ("SinglePassTraversalReadableIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2692 2735])
+                                    ("first2" variable (:type ("SinglePassTraversalReadableIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2768 2812])
+                                    ("last2" variable (:type ("SinglePassTraversalReadableIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2845 2888])
+                                    ("pred" variable (:type ("BinaryPredicate" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2921 2963])
+                                    ("" variable (:type ("IteratorCategoryTag1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2996 3017])
+                                    ("" variable (:type ("IteratorCategoryTag2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3050 3072]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [2333 4069])
+                            ("equal_impl" function
+                               (:template 
+                                  ( ("RandomAccessTraversalReadableIterator1" type (:type "class") nil nil)
+                                    ("RandomAccessTraversalReadableIterator2" type (:type "class") nil nil))                                  
+                                :type "bool"
+                                :arguments 
+                                  ( ("first1" variable (:type ("RandomAccessTraversalReadableIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4342 4388])
+                                    ("last1" variable (:type ("RandomAccessTraversalReadableIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4421 4466])
+                                    ("first2" variable (:type ("RandomAccessTraversalReadableIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4499 4545])
+                                    ("last2" variable (:type ("RandomAccessTraversalReadableIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4578 4623])
+                                    ("" variable (:type ("std::random_access_iterator_tag" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4656 4688])
+                                    ("" variable (:type ("std::random_access_iterator_tag" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4721 4754]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [4189 4886])
+                            ("equal_impl" function
+                               (:template 
+                                  ( ("RandomAccessTraversalReadableIterator1" type (:type "class") nil nil)
+                                    ("RandomAccessTraversalReadableIterator2" type (:type "class") nil nil)
+                                    ("BinaryPredicate" type (:type "class") nil nil))                                  
+                                :type "bool"
+                                :arguments 
+                                  ( ("first1" variable (:type ("RandomAccessTraversalReadableIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5090 5136])
+                                    ("last1" variable (:type ("RandomAccessTraversalReadableIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5169 5214])
+                                    ("first2" variable (:type ("RandomAccessTraversalReadableIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5247 5293])
+                                    ("last2" variable (:type ("RandomAccessTraversalReadableIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5326 5371])
+                                    ("pred" variable (:type ("BinaryPredicate" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5404 5448])
+                                    ("" variable (:type ("std::random_access_iterator_tag" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5481 5513])
+                                    ("" variable (:type ("std::random_access_iterator_tag" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5546 5579]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [4896 5717])
+                            ("equal" function
+                               (:template 
+                                  ( ("SinglePassTraversalReadableIterator1" type (:type "class") nil nil)
+                                    ("SinglePassTraversalReadableIterator2" type (:type "class") nil nil))                                  
+                                :type "bool"
+                                :arguments 
+                                  ( ("first1" variable (:type ("SinglePassTraversalReadableIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5871 5915])
+                                    ("last1" variable (:type ("SinglePassTraversalReadableIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5943 5986])
+                                    ("first2" variable (:type ("SinglePassTraversalReadableIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6014 6058])
+                                    ("last2" variable (:type ("SinglePassTraversalReadableIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6086 6130]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [5727 6466])
+                            ("equal" function
+                               (:template 
+                                  ( ("SinglePassTraversalReadableIterator1" type (:type "class") nil nil)
+                                    ("SinglePassTraversalReadableIterator2" type (:type "class") nil nil)
+                                    ("BinaryPredicate" type (:type "class") nil nil))                                  
+                                :type "bool"
+                                :arguments 
+                                  ( ("first1" variable (:type ("SinglePassTraversalReadableIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6661 6705])
+                                    ("last1" variable (:type ("SinglePassTraversalReadableIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6733 6776])
+                                    ("first2" variable (:type ("SinglePassTraversalReadableIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6804 6848])
+                                    ("last2" variable (:type ("SinglePassTraversalReadableIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6876 6919])
+                                    ("pred" variable (:type ("BinaryPredicate" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6947 6990]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [6476 7332]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [523 7339])
+                    ("range" type
+                       (:members 
+                          ( ("equal" function
+                               (:template 
+                                  ( ("SinglePassRange1" type (:type "class") nil nil)
+                                    ("SinglePassRange2" type (:type "class") nil nil))                                  
+                                :type "bool"
+                                :arguments 
+                                  ( ("rng1" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SinglePassRange1" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7838 7867])
+                                    ("rng2" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SinglePassRange2" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7868 7898]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [7752 8270])
+                            ("equal" function
+                               (:template 
+                                  ( ("SinglePassRange1" type (:type "class") nil nil)
+                                    ("SinglePassRange2" type (:type "class") nil nil)
+                                    ("BinaryPredicate" type (:type "class") nil nil))                                  
+                                :type "bool"
+                                :arguments 
+                                  ( ("rng1" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SinglePassRange1" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [8411 8440])
+                                    ("rng2" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SinglePassRange2" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [8441 8470])
+                                    ("pred" variable (:type ("BinaryPredicate" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8498 8520]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [8302 8913]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [7371 8920])
+                    ("boost::range::equal" variable (:type "int") (reparse-symbol namespacesubparts) [8952 8972]))                  
+                :type "namespace")
+                nil [501 8974]))          
+      :file "equal.hpp"
+      :pointmax 9019
+      :fsize 9018
+      :lastmodtime '(21727 6080 0 0)
+      :unmatched-syntax '((punctuation 8951 . 8952) (punctuation 8950 . 8951) (USING 8944 . 8949))
+      :lexical-table 
+        '(("BOOST_RANGE_ALGORITHM_EQUAL_HPP_INCLUDED")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!range!algorithm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

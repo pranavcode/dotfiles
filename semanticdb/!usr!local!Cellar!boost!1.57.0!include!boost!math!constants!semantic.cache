@@ -1,0 +1,1011 @@
+;; Object constants/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "constants/"
+  :tables
+  (list
+    (semanticdb-table "constants.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MATH_CONSTANTS_CONSTANTS_INCLUDED" variable (:constant-flag t) nil [334 373])
+            ("boost/math/tools/config.hpp" include (:system-flag t) nil [375 413])
+            ("boost/math/policies/policy.hpp" include (:system-flag t) nil [414 455])
+            ("boost/math/tools/precision.hpp" include (:system-flag t) nil [456 497])
+            ("boost/lexical_cast.hpp" include (:system-flag t) nil [616 649])
+            ("boost/mpl/if.hpp" include (:system-flag t) nil [703 730])
+            ("boost/mpl/and.hpp" include (:system-flag t) nil [731 759])
+            ("boost/mpl/int.hpp" include (:system-flag t) nil [760 788])
+            ("boost/type_traits/is_convertible.hpp" include (:system-flag t) nil [789 836])
+            ("boost/utility/declval.hpp" include (:system-flag t) nil [837 873])
+            ("boost" type
+               (:members 
+                  ( ("math" type
+                       (:members 
+                          ( ("constants" type
+                               (:members 
+                                  ( ("construction_method" type
+                                       (:members 
+                                          ( ("construct_from_float" variable
+                                               (:constant-flag t
+                                                :default-value (1920 1921)
+                                                :type "int")
+                                                (reparse-symbol enumsubparts) [1897 1921])
+                                            ("construct_from_double" variable
+                                               (:constant-flag t
+                                                :default-value (1953 1954)
+                                                :type "int")
+                                                (reparse-symbol enumsubparts) [1929 1954])
+                                            ("construct_from_long_double" variable
+                                               (:constant-flag t
+                                                :default-value (1991 1992)
+                                                :type "int")
+                                                (reparse-symbol enumsubparts) [1962 1992])
+                                            ("construct_from_string" variable
+                                               (:constant-flag t
+                                                :default-value (2024 2025)
+                                                :type "int")
+                                                (reparse-symbol enumsubparts) [2000 2025])
+                                            ("construct_from_float128" variable
+                                               (:constant-flag t
+                                                :default-value (2059 2060)
+                                                :type "int")
+                                                (reparse-symbol enumsubparts) [2033 2060])
+                                            ("construct_max" variable
+                                               (:constant-flag t
+                                                :default-value (2126 2149)
+                                                :type "int")
+                                                (reparse-symbol enumsubparts) [2110 2149]))                                          
+                                        :type "enum")
+                                        (reparse-symbol namespacesubparts) [1861 2155])
+                                    ("dummy_size" type
+                                       (:template 
+                                          ( ("int" type nil nil nil))                                          
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [2297 2337])
+                                    ("is_explicitly_convertible_from_string" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("selector" function
+                                               (:template 
+                                                  ( ("S1" type (:type "class") nil nil)
+                                                    ("T1" type (:type "class") nil nil))                                                  
+                                                :type ("type_traits::yes_type" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:pointer 1
+                                                        :type ("dummy_size" type
+                                                             (:template-specifier (((2545 . 2577)))
+                                                              :type "class")
+                                                              nil nil))
+                                                        (reparse-symbol arg-sub-list) [2528 2580]))                                                  
+                                                :typemodifiers ("static")
+                                                :prototype-flag t)
+                                                (reparse-symbol classsubparts) [2449 2581])
+                                            ("selector" function
+                                               (:template 
+                                                  ( ("S1" type (:type "class") nil nil)
+                                                    ("T1" type (:type "class") nil nil))                                                  
+                                                :type ("type_traits::no_type" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [2667 2671]))                                                  
+                                                :typemodifiers ("static")
+                                                :prototype-flag t)
+                                                (reparse-symbol classsubparts) [2589 2672]))                                          )
+                                        (reparse-symbol namespacesubparts) [2342 2833])
+                                    ("BOOST_STATIC_CONSTANT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [2960 2964])
+                                            ("" variable (:type ("max_string_digits" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2965 3005]))                                          
+                                        :type "int")
+                                        (reparse-symbol namespacesubparts) [2938 3007])
+                                    ("construction_traits" type
+                                       (:template 
+                                          ( ("Real" type (:type "class") nil nil)
+                                            ("Policy" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("private" label nil (reparse-symbol classsubparts) [3086 3094])
+                                            ("t1" type
+                                               (:typedef ("policies::precision::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [3101 3161])
+                                            ("t2" type
+                                               (:typedef ("policies::precision::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [3168 3229])
+                                            ("t3" type
+                                               (:typedef ("policies::precision::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [3236 3298])
+                                            ("t4" type
+                                               (:typedef ("policies::precision::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [3305 3372])
+                                            ("public" label nil (reparse-symbol classsubparts) [3447 3454])
+                                            ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4936 4946]))                                          )
+                                        (reparse-symbol namespacesubparts) [3012 4952])
+                                    ("BOOST_MATH_CONSTANT_THREAD_HELPER" variable (:constant-flag t) (reparse-symbol namespacesubparts) [5172 5205])
+                                    ("detail" type
+                                       (:members 
+                                          ( ("constant_return" type
+                                               (:members 
+                                                  ( ("construct_type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5425 5445])
+                                                    ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5620 5630]))                                                  
+                                                :type "struct")
+                                                (reparse-symbol namespacesubparts) [5333 5639])
+                                            ("convert_from_string" function
+                                               (:template 
+                                                  ( ("Real" type (:type "class") nil nil))                                                  
+                                                :type ("Real" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("p" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "char")
+                                                        (reparse-symbol arg-sub-list) [5700 5714])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("mpl::false_" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5715 5734]))                                                  )
+                                                (reparse-symbol namespacesubparts) [5647 5994])
+                                            ("convert_from_string" function
+                                               (:template 
+                                                  ( ("Real" type (:type "class") nil nil))                                                  
+                                                :type "char"
+                                                :arguments 
+                                                  ( ("p" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "char")
+                                                        (reparse-symbol arg-sub-list) [6061 6075])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("mpl::true_" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6076 6094]))                                                  
+                                                :constant-flag t
+                                                :pointer 1)
+                                                (reparse-symbol namespacesubparts) [6001 6129])
+                                            ("constant_initializer" type
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil)
+                                                    ("T" type
+                                                       (:reference 1
+                                                        :constant-flag t)
+                                                        nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("force_instantiate" function
+                                                       (:typemodifiers ("static")
+                                                        :type "void")
+                                                        (reparse-symbol classsubparts) [6224 6315])
+                                                    ("private" label nil (reparse-symbol classsubparts) [6322 6330])
+                                                    ("initializer" type
+                                                       (:members 
+                                                          ( ("initializer" function
+                                                               (:constructor-flag t
+                                                                :type ("initializer" type (:type "struct") nil nil))
+                                                                (reparse-symbol classsubparts) [6382 6443])
+                                                            ("force_instantiate" function (:type "void") (reparse-symbol classsubparts) [6456 6487]))                                                          
+                                                        :type "struct")
+                                                        (reparse-symbol classsubparts) [6340 6499])
+                                                    ("init" variable
+                                                       (:typemodifiers ("static")
+                                                        :constant-flag t
+                                                        :type ("initializer" type (:type "class") nil nil))
+                                                        (reparse-symbol classsubparts) [6509 6539]))                                                  )
+                                                (reparse-symbol namespacesubparts) [6137 6548])
+                                            ("constant_initializer::init" variable (:type ("initializer" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [6635 6686])
+                                            ("constant_initializer2" type
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil)
+                                                    ("int" type nil nil nil)
+                                                    ("T" type
+                                                       (:reference 1
+                                                        :constant-flag t)
+                                                        nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("force_instantiate" function
+                                                       (:typemodifiers ("static")
+                                                        :type "void")
+                                                        (reparse-symbol classsubparts) [6890 6981])
+                                                    ("private" label nil (reparse-symbol classsubparts) [6988 6996])
+                                                    ("initializer" type
+                                                       (:members 
+                                                          ( ("initializer" function
+                                                               (:constructor-flag t
+                                                                :type ("initializer" type (:type "struct") nil nil))
+                                                                (reparse-symbol classsubparts) [7048 7109])
+                                                            ("force_instantiate" function (:type "void") (reparse-symbol classsubparts) [7122 7153]))                                                          
+                                                        :type "struct")
+                                                        (reparse-symbol classsubparts) [7006 7165])
+                                                    ("init" variable
+                                                       (:typemodifiers ("static")
+                                                        :constant-flag t
+                                                        :type ("initializer" type (:type "class") nil nil))
+                                                        (reparse-symbol classsubparts) [7175 7205]))                                                  )
+                                                (reparse-symbol namespacesubparts) [6694 7214])
+                                            ("constant_initializer2::init" variable (:type ("initializer" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [7413 7468]))                                          
+                                        :type "namespace")
+                                        (reparse-symbol namespacesubparts) [5231 7474])
+                                    ("BOOST_MATH_FLOAT128_CONSTANT_OVERLOAD" variable (:constant-flag t) (reparse-symbol namespacesubparts) [7691 7728])
+                                    ("BOOST_DEFINE_MATH_CONSTANT" variable (:constant-flag t) (reparse-symbol namespacesubparts) [7748 7774]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [912 10433])
+                            ("float_constants" type
+                               (:members 
+                                  ( ("name" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "BOOST_JOIN(x, F)"
+                                        :type "float")
+                                        (reparse-symbol namespacesubparts) [10461 10504]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [10434 10506])
+                            ("double_constants" type
+                               (:members 
+                                  ( ("name" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "x"
+                                        :type "double")
+                                        (reparse-symbol namespacesubparts) [10539 10568]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [10511 10570])
+                            ("long_double_constants" type
+                               (:members 
+                                  ( ("name" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "BOOST_JOIN(x, L)"
+                                        :type "long double")
+                                        (reparse-symbol namespacesubparts) [10609 10658]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [10576 10660]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [893 24483]))                  
+                :type "namespace")
+                nil [876 24503])
+            ("boost/math/constants/calculate_constants.hpp" include (:system-flag t) nil [24670 24725]))          
+      :file "constants.hpp"
+      :pointmax 24779
+      :fsize 24778
+      :lastmodtime '(21727 6076 0 0)
+      :unmatched-syntax '((semantic-list 10684 . 24458) (symbol 10675 . 10684) (NAMESPACE 10665 . 10674) (punctuation 7412 . 7413) (punctuation 7411 . 7412) (punctuation 7410 . 7411) (symbol 7409 . 7410) (punctuation 7407 . 7408) (symbol 7406 . 7407) (punctuation 7404 . 7405) (symbol 7403 . 7404) (punctuation 7402 . 7403) (symbol 7381 . 7402) (TYPENAME 7372 . 7380) (punctuation 7364 . 7365) (semantic-list 7261 . 7364) (semantic-list 7257 . 7261) (semantic-list 7360 . 7363) (semantic-list 7300 . 7314) (punctuation 7255 . 7256) (symbol 7254 . 7255) (semantic-list 7360 . 7363) (semantic-list 7300 . 7314) (CONST 7248 . 7253) (semantic-list 7360 . 7363) (semantic-list 7300 . 7314) (punctuation 7246 . 7247) (symbol 7245 . 7246) (INT 7241 . 7244) (punctuation 7239 . 7240) (symbol 7238 . 7239) (CLASS 7232 . 7237) (punctuation 7231 . 7232) (TEMPLATE 7222 . 7230) (semantic-list 7360 . 7363) (semantic-list 7300 . 7314) (semantic-list 6832 . 6835) (semantic-list 6772 . 6786) (punctuation 6634 . 6635) (punctuation 6633 . 6634) (punctuation 6632 . 6633) (symbol 6631 . 6632) (punctuation 6629 . 6630) (symbol 6628 . 6629) (punctuation 6627 . 6628) (symbol 6607 . 6627) (TYPENAME 6598 . 6606) (punctuation 6590 . 6591) (semantic-list 6588 . 6590) (semantic-list 6584 . 6588) (punctuation 6582 . 6583) (symbol 6581 . 6582) (CONST 6575 . 6580) (punctuation 6573 . 6574) (symbol 6572 . 6573) (CLASS 6566 . 6571) (punctuation 6565 . 6566) (TEMPLATE 6556 . 6564) (punctuation 5619 . 5620) (punctuation 5618 . 5619) (punctuation 5617 . 5618) (symbol 5613 . 5617) (punctuation 5611 . 5612) (punctuation 5610 . 5611) (symbol 5606 . 5610) (CONST 5600 . 5605) (punctuation 5586 . 5587) (semantic-list 5547 . 5586) (punctuation 5545 . 5546) (punctuation 5544 . 5545) (semantic-list 5495 . 5543) (punctuation 5481 . 5482) (symbol 5477 . 5481) (punctuation 5476 . 5477) (punctuation 5475 . 5476) (symbol 5472 . 5475) (TYPENAME 5463 . 5471) (TYPEDEF 5455 . 5462) (punctuation 5424 . 5425) (punctuation 5423 . 5424) (punctuation 5422 . 5423) (symbol 5416 . 5422) (punctuation 5414 . 5415) (symbol 5410 . 5414) (punctuation 5409 . 5410) (symbol 5390 . 5409) (TYPENAME 5381 . 5389) (TYPEDEF 5373 . 5380) (punctuation 5325 . 5326) (punctuation 5323 . 5324) (punctuation 5322 . 5323) (symbol 5316 . 5322) (punctuation 5315 . 5316) (punctuation 5314 . 5315) (symbol 5306 . 5314) (punctuation 5305 . 5306) (punctuation 5304 . 5305) (symbol 5300 . 5304) (punctuation 5299 . 5300) (punctuation 5298 . 5299) (symbol 5293 . 5298) (punctuation 5291 . 5292) (symbol 5284 . 5290) (CLASS 5278 . 5283) (punctuation 5276 . 5277) (symbol 5272 . 5276) (CLASS 5266 . 5271) (punctuation 5265 . 5266) (TEMPLATE 5256 . 5264) (punctuation 4935 . 4936) (punctuation 4934 . 4935) (punctuation 4933 . 4934) (symbol 4922 . 4926) (punctuation 4921 . 4922) (punctuation 4920 . 4921) (punctuation 4919 . 4920) (symbol 4905 . 4909) (punctuation 4904 . 4905) (punctuation 4903 . 4904) (punctuation 4902 . 4903) (symbol 4878 . 4882) (punctuation 4877 . 4878) (punctuation 4876 . 4877) (punctuation 4875 . 4876) (punctuation 4858 . 4859) (symbol 4853 . 4858) (punctuation 4852 . 4853) (punctuation 4851 . 4852) (symbol 4849 . 4851) (punctuation 4848 . 4849) (symbol 4844 . 4848) (punctuation 4843 . 4844) (punctuation 4842 . 4843) (symbol 4839 . 4842) (punctuation 4819 . 4820) (punctuation 4818 . 4819) (symbol 4797 . 4818) (punctuation 4796 . 4797) (symbol 4792 . 4796) (punctuation 4791 . 4792) (punctuation 4790 . 4791) (symbol 4787 . 4790) (punctuation 4767 . 4768) (punctuation 4766 . 4767) (punctuation 4764 . 4765) (symbol 4759 . 4764) (punctuation 4758 . 4759) (punctuation 4757 . 4758) (symbol 4755 . 4757) (punctuation 4753 . 4754) (punctuation 4752 . 4753) (number 4750 . 4751) (punctuation 4749 . 4750) (symbol 4744 . 4749) (punctuation 4743 . 4744) (punctuation 4742 . 4743) (symbol 4739 . 4742) (punctuation 4737 . 4738) (punctuation 4736 . 4737) (symbol 4719 . 4736) (punctuation 4717 . 4718) (punctuation 4716 . 4717) (symbol 4710 . 4715) (punctuation 4709 . 4710) (punctuation 4708 . 4709) (symbol 4706 . 4708) (punctuation 4704 . 4705) (symbol 4699 . 4704) (punctuation 4698 . 4699) (punctuation 4697 . 4698) (symbol 4694 . 4697) (punctuation 4693 . 4694) (symbol 4689 . 4693) (punctuation 4688 . 4689) (punctuation 4687 . 4688) (symbol 4684 . 4687) (punctuation 4664 . 4665) (symbol 4661 . 4664) (punctuation 4660 . 4661) (punctuation 4659 . 4660) (symbol 4656 . 4659) (TYPENAME 4647 . 4655) (punctuation 4069 . 4070) (punctuation 4068 . 4069) (symbol 4042 . 4068) (punctuation 4041 . 4042) (symbol 4037 . 4041) (punctuation 4036 . 4037) (punctuation 4035 . 4036) (symbol 4032 . 4035) (punctuation 4015 . 4016) (punctuation 4014 . 4015) (punctuation 4012 . 4013) (symbol 4007 . 4012) (punctuation 4006 . 4007) (punctuation 4005 . 4006) (symbol 4003 . 4005) (punctuation 4001 . 4002) (punctuation 4000 . 4001) (number 3998 . 3999) (punctuation 3997 . 3998) (symbol 3992 . 3997) (punctuation 3991 . 3992) (punctuation 3990 . 3991) (symbol 3987 . 3990) (punctuation 3985 . 3986) (punctuation 3984 . 3985) (symbol 3979 . 3984) (punctuation 3978 . 3979) (punctuation 3977 . 3978) (symbol 3975 . 3977) (punctuation 3973 . 3974) (punctuation 3972 . 3973) (symbol 3966 . 3971) (punctuation 3965 . 3966) (punctuation 3964 . 3965) (symbol 3962 . 3964) (punctuation 3960 . 3961) (symbol 3955 . 3960) (punctuation 3954 . 3955) (punctuation 3953 . 3954) (symbol 3950 . 3953) (punctuation 3948 . 3949) (punctuation 3947 . 3948) (symbol 3943 . 3947) (punctuation 3941 . 3942) (DOUBLE 3935 . 3941) (LONG 3930 . 3934) (punctuation 3929 . 3930) (symbol 3915 . 3929) (punctuation 3914 . 3915) (punctuation 3913 . 3914) (symbol 3908 . 3913) (punctuation 3907 . 3908) (symbol 3903 . 3907) (punctuation 3902 . 3903) (punctuation 3901 . 3902) (symbol 3898 . 3901) (punctuation 3881 . 3882) (symbol 3878 . 3881) (punctuation 3877 . 3878) (punctuation 3876 . 3877) (symbol 3873 . 3876) (TYPENAME 3864 . 3872) (punctuation 3850 . 3851) (punctuation 3849 . 3850) (symbol 3828 . 3849) (punctuation 3827 . 3828) (symbol 3823 . 3827) (punctuation 3822 . 3823) (punctuation 3821 . 3822) (symbol 3818 . 3821) (punctuation 3804 . 3805) (punctuation 3803 . 3804) (punctuation 3801 . 3802) (symbol 3796 . 3801) (punctuation 3795 . 3796) (punctuation 3794 . 3795) (symbol 3792 . 3794) (punctuation 3790 . 3791) (punctuation 3789 . 3790) (number 3787 . 3788) (punctuation 3786 . 3787) (symbol 3781 . 3786) (punctuation 3780 . 3781) (punctuation 3779 . 3780) (symbol 3776 . 3779) (punctuation 3774 . 3775) (punctuation 3773 . 3774) (symbol 3768 . 3773) (punctuation 3767 . 3768) (punctuation 3766 . 3767) (symbol 3764 . 3766) (punctuation 3762 . 3763) (punctuation 3761 . 3762) (symbol 3755 . 3760) (punctuation 3754 . 3755) (punctuation 3753 . 3754) (symbol 3751 . 3753) (punctuation 3749 . 3750) (symbol 3744 . 3749) (punctuation 3743 . 3744) (punctuation 3742 . 3743) (symbol 3739 . 3742) (punctuation 3737 . 3738) (punctuation 3736 . 3737) (symbol 3732 . 3736) (punctuation 3730 . 3731) (DOUBLE 3724 . 3730) (punctuation 3723 . 3724) (symbol 3709 . 3723) (punctuation 3708 . 3709) (punctuation 3707 . 3708) (symbol 3702 . 3707) (punctuation 3701 . 3702) (symbol 3697 . 3701) (punctuation 3696 . 3697) (punctuation 3695 . 3696) (symbol 3692 . 3695) (punctuation 3678 . 3679) (symbol 3675 . 3678) (punctuation 3674 . 3675) (punctuation 3673 . 3674) (symbol 3670 . 3673) (TYPENAME 3661 . 3669) (punctuation 3650 . 3651) (punctuation 3649 . 3650) (symbol 3629 . 3649) (punctuation 3628 . 3629) (symbol 3624 . 3628) (punctuation 3623 . 3624) (punctuation 3622 . 3623) (symbol 3619 . 3622) (punctuation 3608 . 3609) (punctuation 3607 . 3608) (punctuation 3605 . 3606) (symbol 3600 . 3605) (punctuation 3599 . 3600) (punctuation 3598 . 3599) (symbol 3596 . 3598) (punctuation 3594 . 3595) (punctuation 3593 . 3594) (number 3591 . 3592) (punctuation 3590 . 3591) (symbol 3585 . 3590) (punctuation 3584 . 3585) (punctuation 3583 . 3584) (symbol 3580 . 3583) (punctuation 3578 . 3579) (punctuation 3577 . 3578) (symbol 3572 . 3577) (punctuation 3571 . 3572) (punctuation 3570 . 3571) (symbol 3568 . 3570) (punctuation 3566 . 3567) (punctuation 3565 . 3566) (symbol 3559 . 3564) (punctuation 3558 . 3559) (punctuation 3557 . 3558) (symbol 3555 . 3557) (punctuation 3553 . 3554) (symbol 3548 . 3553) (punctuation 3547 . 3548) (punctuation 3546 . 3547) (symbol 3543 . 3546) (punctuation 3541 . 3542) (punctuation 3540 . 3541) (symbol 3536 . 3540) (punctuation 3534 . 3535) (FLOAT 3529 . 3534) (punctuation 3528 . 3529) (symbol 3514 . 3528) (punctuation 3513 . 3514) (punctuation 3512 . 3513) (symbol 3507 . 3512) (punctuation 3506 . 3507) (symbol 3502 . 3506) (punctuation 3501 . 3502) (punctuation 3500 . 3501) (symbol 3497 . 3500) (punctuation 3486 . 3487) (symbol 3483 . 3486) (punctuation 3482 . 3483) (punctuation 3481 . 3482) (symbol 3478 . 3481) (TYPENAME 3469 . 3477) (TYPEDEF 3461 . 3468) (punctuation 2774 . 2775) (semantic-list 2751 . 2774) (SIZEOF 2745 . 2751) (punctuation 2743 . 2744) (punctuation 2742 . 2743) (semantic-list 2712 . 2741) (SIZEOF 2706 . 2712) (punctuation 2704 . 2705) (symbol 2698 . 2703) (BOOL 2693 . 2697) (CONST 2687 . 2692) (STATIC 2680 . 2686))
+      :lexical-table 
+        '(("BOOST_MATH_FLOAT128_CONSTANT_OVERLOAD" (spp-arg-list ("x") 7728 . 7731))
+          ("BOOST_DEFINE_MATH_CONSTANT" (spp-arg-list ("name" "x" "y") 7774 . 7786) . 
+              ((NAMESPACE "namespace" 7791 . 7800) (symbol "detail" 7801 . 7807) (semantic-list "{\\
+   template <class T> struct BOOST_JOIN(constant_, name){\\
+   private:\\
+   /* The default implementations come next: */ \\
+   static inline const T& get_from_string()\\
+   {\\
+      typedef mpl::bool_<boost::is_convertible<const char*, T>::value || boost::math::constants::is_explicitly_convertible_from_string<T>::value> tag_type;\\
+      static const T result(convert_from_string<T>(y, tag_type()));\\
+      return result;\\
+   }\\
+   /* This one is for very high precision that is none the less known at compile time: */ \\
+   template <int N> static T compute(BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC(mpl::int_<N>));\\
+   template <int N> static inline const T& get_from_compute(BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC(mpl::int_<N>))\\
+   {\\
+      static const T result = compute<N>();\\
+      return result;\\
+   }\\
+   /* public getters come next */\\
+   public:\\
+   static inline const T& get(const mpl::int_<construct_from_string>&)\\
+   {\\
+      constant_initializer<T, & BOOST_JOIN(constant_, name)<T>::get_from_string >::force_instantiate();\\
+      return get_from_string();\\
+   }\\
+   static inline BOOST_CONSTEXPR T get(const mpl::int_<construct_from_float>)\\
+   { return BOOST_JOIN(x, F); }\\
+   static inline BOOST_CONSTEXPR T get(const mpl::int_<construct_from_double>&)\\
+   { return x; }\\
+   static inline BOOST_CONSTEXPR T get(const mpl::int_<construct_from_long_double>&)\\
+   { return BOOST_JOIN(x, L); }\\
+   BOOST_MATH_FLOAT128_CONSTANT_OVERLOAD(x) \\
+   template <int N> static inline const T& get(const mpl::int_<N>&)\\
+   {\\
+      constant_initializer2<T, N, & BOOST_JOIN(constant_, name)<T>::template get_from_compute<N> >::force_instantiate();\\
+      return get_from_compute<N>(); \\
+   }\\
+   /* This one is for true arbitary precision, which may well vary at runtime: */ \\
+   static inline T get(const mpl::int_<0>&)\\
+   { return tools::digits<T>() > max_string_digits ? compute<0>() : get(mpl::int_<construct_from_string>()); }\\
+   }; /* end of struct */\\
+   }" 7807 . 9774) (TEMPLATE "template" 9856 . 9864) (punctuation "<" 9865 . 9866) (CLASS "class" 9866 . 9871) (symbol "T" 9872 . 9873) (punctuation "," 9873 . 9874) (CLASS "class" 9875 . 9880) (symbol "Policy" 9881 . 9887) (punctuation ">" 9887 . 9888) (INLINE "inline" 9889 . 9895) (symbol "BOOST_CONSTEXPR" 9896 . 9911) (TYPENAME "typename" 9912 . 9920) (symbol "detail" 9921 . 9927) (punctuation ":" 9927 . 9928) (punctuation ":" 9928 . 9929) (symbol "constant_return" 9929 . 9944) (punctuation "<" 9944 . 9945) (symbol "T" 9945 . 9946) (punctuation "," 9946 . 9947) (symbol "Policy" 9948 . 9954) (punctuation ">" 9954 . 9955) (punctuation ":" 9955 . 9956) (punctuation ":" 9956 . 9957) (symbol "type" 9957 . 9961) (symbol "name" 9962 . 9966) (semantic-list "(BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC(T) BOOST_MATH_APPEND_EXPLICIT_TEMPLATE_TYPE_SPEC(Policy))" 9966 . 10063) (semantic-list "{ return detail:: BOOST_JOIN(constant_, name)<T>::get(typename construction_traits<T, Policy>::type()); }" 10068 . 10173) (TEMPLATE "template" 10178 . 10186) (punctuation "<" 10187 . 10188) (CLASS "class" 10188 . 10193) (symbol "T" 10194 . 10195) (punctuation ">" 10195 . 10196) (INLINE "inline" 10197 . 10203) (symbol "BOOST_CONSTEXPR" 10204 . 10219) (TYPENAME "typename" 10220 . 10228) (symbol "detail" 10229 . 10235) (punctuation ":" 10235 . 10236) (punctuation ":" 10236 . 10237) (symbol "constant_return" 10237 . 10252) (punctuation "<" 10252 . 10253) (symbol "T" 10253 . 10254) (punctuation ">" 10254 . 10255) (punctuation ":" 10255 . 10256) (punctuation ":" 10256 . 10257) (symbol "type" 10257 . 10261) (symbol "name" 10262 . 10266) (semantic-list "(BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC(T))" 10266 . 10309) (semantic-list "{ return name<T, boost::math::policies::policy<> >(); }" 10314 . 10369) (close-paren "}" 10432 . 10433) (NAMESPACE "namespace" 10434 . 10443) (symbol "float_constants" 10444 . 10459) (semantic-list "{ static const float name = BOOST_JOIN(x, F); }" 10459 . 10506) (NAMESPACE "namespace" 10511 . 10520) (symbol "double_constants" 10521 . 10537) (semantic-list "{ static const double name = x; }" 10537 . 10570) (NAMESPACE "namespace" 10576 . 10585) (symbol "long_double_constants" 10586 . 10607) (semantic-list "{ static const long double name = BOOST_JOIN(x, L); }" 10607 . 10660) (NAMESPACE "namespace" 10665 . 10674) (symbol "constants" 10675 . 10684) (open-paren "{" 10684 . 10685)))
+          ("BOOST_MATH_CONSTANTS_CONSTANTS_INCLUDED")
+          ("BOOST_MATH_CONSTANT_THREAD_HELPER" (spp-arg-list ("name" "prefix") 5205 . 5219))
+          )
+)
+    (semanticdb-table "calculate_constants.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MATH_CALCULATE_CONSTANTS_CONSTANTS_INCLUDED" variable (:constant-flag t) nil [341 390])
+            ("boost/math/special_functions/trunc.hpp" include (:system-flag t) nil [392 441])
+            ("boost" type
+               (:members 
+                  ( ("math" type
+                       (:members 
+                          ( ("constants" type
+                               (:members 
+                                  ( ("detail" type
+                                       (:members 
+                                          ( ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [584 636]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_pi")
+                                                (reparse-symbol namespacesubparts) [535 1600])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1674 1726]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_two_pi")
+                                                (reparse-symbol namespacesubparts) [1621 1796])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1884 1936]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_two_div_pi")
+                                                (reparse-symbol namespacesubparts) [1827 2006])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2105 2157]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_root_two_div_pi")
+                                                (reparse-symbol namespacesubparts) [2042 2259])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2341 2393]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_one_div_two_pi")
+                                                (reparse-symbol namespacesubparts) [2280 2467])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2542 2594]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_root_pi")
+                                                (reparse-symbol namespacesubparts) [2488 2690])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2770 2822]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_root_half_pi")
+                                                (reparse-symbol namespacesubparts) [2711 2922])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3001 3053]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_root_two_pi")
+                                                (reparse-symbol namespacesubparts) [2943 3153])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3236 3288]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_log_root_two_pi")
+                                                (reparse-symbol namespacesubparts) [3174 3392])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3472 3524]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_root_ln_four")
+                                                (reparse-symbol namespacesubparts) [3413 3593])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3662 3714]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_e")
+                                                (reparse-symbol namespacesubparts) [3614 3979])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4051 4103]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_half")
+                                                (reparse-symbol namespacesubparts) [4000 4157])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4230 4282]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_euler")
+                                                (reparse-symbol namespacesubparts) [4178 5066])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5143 5195]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_euler_sqr")
+                                                (reparse-symbol namespacesubparts) [5087 5346])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5427 5479]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_one_div_euler")
+                                                (reparse-symbol namespacesubparts) [5367 5595])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5672 5724]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_root_two")
+                                                (reparse-symbol namespacesubparts) [5617 5788])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5867 5919]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_root_three")
+                                                (reparse-symbol namespacesubparts) [5810 5983])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6064 6116]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_half_root_two")
+                                                (reparse-symbol namespacesubparts) [6004 6184])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6258 6310]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_ln_two")
+                                                (reparse-symbol namespacesubparts) [6205 6566])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6640 6692]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_ln_ten")
+                                                (reparse-symbol namespacesubparts) [6587 6756])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6833 6885]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_ln_ln_two")
+                                                (reparse-symbol namespacesubparts) [6777 6953])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7026 7078]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_third")
+                                                (reparse-symbol namespacesubparts) [6974 7156])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7233 7285]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_twothirds")
+                                                (reparse-symbol namespacesubparts) [7177 7363])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7441 7493]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_two_thirds")
+                                                (reparse-symbol namespacesubparts) [7384 7571])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7653 7705]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_three_quarters")
+                                                (reparse-symbol namespacesubparts) [7592 7783])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7865 7917]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_pi_minus_three")
+                                                (reparse-symbol namespacesubparts) [7804 8003])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8084 8136]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_four_minus_pi")
+                                                (reparse-symbol namespacesubparts) [8024 8222])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8584 8636]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_exp_minus_half")
+                                                (reparse-symbol namespacesubparts) [8523 8702])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8792 8844]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_one_div_root_two")
+                                                (reparse-symbol namespacesubparts) [8729 8936])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9019 9071]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_one_div_root_pi")
+                                                (reparse-symbol namespacesubparts) [8957 9162])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9249 9301]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_one_div_root_two_pi")
+                                                (reparse-symbol namespacesubparts) [9183 9396])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9479 9531]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_root_one_div_pi")
+                                                (reparse-symbol namespacesubparts) [9417 9647])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9730 9782]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_four_thirds_pi")
+                                                (reparse-symbol namespacesubparts) [9669 9912])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9987 10039]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_half_pi")
+                                                (reparse-symbol namespacesubparts) [9933 10150])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10227 10279]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_third_pi")
+                                                (reparse-symbol namespacesubparts) [10172 10390])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10466 10518]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_sixth_pi")
+                                                (reparse-symbol namespacesubparts) [10411 10629])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10710 10762]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_two_thirds_pi")
+                                                (reparse-symbol namespacesubparts) [10650 10892])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10977 11029]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_three_quarters_pi")
+                                                (reparse-symbol namespacesubparts) [10913 11159])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11235 11287]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_pi_pow_e")
+                                                (reparse-symbol namespacesubparts) [11180 11435])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11509 11561]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_pi_sqr")
+                                                (reparse-symbol namespacesubparts) [11456 11715])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11797 11849]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_pi_sqr_div_six")
+                                                (reparse-symbol namespacesubparts) [11736 12025])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12102 12154]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_pi_cubed")
+                                                (reparse-symbol namespacesubparts) [12047 12371])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12446 12498]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_cbrt_pi")
+                                                (reparse-symbol namespacesubparts) [12392 12631])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12714 12766]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_one_div_cbrt_pi")
+                                                (reparse-symbol namespacesubparts) [12652 12922])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13012 13064]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_e_pow_pi")
+                                                (reparse-symbol namespacesubparts) [12957 13212])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13286 13338]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_root_e")
+                                                (reparse-symbol namespacesubparts) [13233 13433])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13508 13560]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_log10_e")
+                                                (reparse-symbol namespacesubparts) [13454 13656])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13739 13791]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_one_div_log10_e")
+                                                (reparse-symbol namespacesubparts) [13677 13913])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14005 14057]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_degree")
+                                                (reparse-symbol namespacesubparts) [13952 14179])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14253 14305]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_radian")
+                                                (reparse-symbol namespacesubparts) [14200 14427])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14502 14554]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_sin_one")
+                                                (reparse-symbol namespacesubparts) [14448 14621])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14696 14748]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_cos_one")
+                                                (reparse-symbol namespacesubparts) [14642 14815])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14891 14943]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_sinh_one")
+                                                (reparse-symbol namespacesubparts) [14836 15011])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15087 15139]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_cosh_one")
+                                                (reparse-symbol namespacesubparts) [15032 15207])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15278 15330]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_phi")
+                                                (reparse-symbol namespacesubparts) [15228 15439])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15513 15565]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_ln_phi")
+                                                (reparse-symbol namespacesubparts) [15460 15753])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15834 15886]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_one_div_ln_phi")
+                                                (reparse-symbol namespacesubparts) [15773 16022])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16107 16159]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_zeta_two")
+                                                (reparse-symbol namespacesubparts) [16052 16334])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16412 16464]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_zeta_three")
+                                                (reparse-symbol namespacesubparts) [16355 18648])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18723 18775]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_catalan")
+                                                (reparse-symbol namespacesubparts) [18669 19842])
+                                            ("khinchin_detail" type
+                                               (:members 
+                                                  ( ("zeta_polynomial_series" function
+                                                       (:template 
+                                                          ( ("T" type (:type "class") nil nil))                                                          
+                                                        :type ("T" type (:type "class") nil nil)
+                                                        :arguments 
+                                                          ( ("s" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19916 19920])
+                                                            ("sc" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19921 19926])
+                                                            ("digits" variable (:type "int") (reparse-symbol arg-sub-list) [19927 19938]))                                                          )
+                                                        (reparse-symbol namespacesubparts) [19872 20758])
+                                                    ("khinchin" function
+                                                       (:template 
+                                                          ( ("T" type (:type "class") nil nil))                                                          
+                                                        :type ("T" type (:type "class") nil nil)
+                                                        :arguments 
+                                                          ( ("digits" variable (:type "int") (reparse-symbol arg-sub-list) [20790 20801]))                                                          )
+                                                        (reparse-symbol namespacesubparts) [20760 21360]))                                                  
+                                                :type "namespace")
+                                                (reparse-symbol namespacesubparts) [19844 21363])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21439 21491]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_khinchin")
+                                                (reparse-symbol namespacesubparts) [21384 21610])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21700 21752]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_extreme_value_skewness")
+                                                (reparse-symbol namespacesubparts) [21631 23207])
+                                            ("detail" type
+                                               (:members 
+                                                  ( ("zeta_series_derivative_2" function
+                                                       (:template 
+                                                          ( ("T" type (:type "class") nil nil))                                                          
+                                                        :type ("T" type (:type "class") nil nil)
+                                                        :arguments 
+                                                          ( ("digits" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [24060 24076]))                                                          )
+                                                        (reparse-symbol namespacesubparts) [24014 24560])
+                                                    ("zeta_series_2" function
+                                                       (:template 
+                                                          ( ("T" type (:type "class") nil nil))                                                          
+                                                        :type ("T" type (:type "class") nil nil)
+                                                        :arguments 
+                                                          ( ("digits" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [24597 24613]))                                                          )
+                                                        (reparse-symbol namespacesubparts) [24562 25002])
+                                                    ("zeta_series_lead_2" function
+                                                       (:template 
+                                                          ( ("T" type (:type "class") nil nil))                                                          
+                                                        :type ("T" type (:type "class") nil nil)
+                                                        :typemodifiers ("inline"))
+                                                        (reparse-symbol namespacesubparts) [25004 25091])
+                                                    ("zeta_series_derivative_lead_2" function
+                                                       (:template 
+                                                          ( ("T" type (:type "class") nil nil))                                                          
+                                                        :type ("T" type (:type "class") nil nil)
+                                                        :typemodifiers ("inline"))
+                                                        (reparse-symbol namespacesubparts) [25093 25244])
+                                                    ("zeta_derivative_2" function
+                                                       (:template 
+                                                          ( ("T" type (:type "class") nil nil))                                                          
+                                                        :type ("T" type (:type "class") nil nil)
+                                                        :arguments 
+                                                          ( ("n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [25292 25303]))                                                          
+                                                        :typemodifiers ("inline"))
+                                                        (reparse-symbol namespacesubparts) [25246 25468]))                                                  
+                                                :type "namespace")
+                                                (reparse-symbol namespacesubparts) [23209 25471])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25568 25620]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_glaisher")
+                                                (reparse-symbol namespacesubparts) [25513 27525])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [27610 27662]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_rayleigh_skewness")
+                                                (reparse-symbol namespacesubparts) [27546 29388])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [29480 29532]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_rayleigh_kurtosis_excess")
+                                                (reparse-symbol namespacesubparts) [29409 30074])
+                                            ("compute" function
+                                               (:template 
+                                                  ( ("int" type nil nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("" variable (:type ("BOOST_MATH_EXPLICIT_TEMPLATE_TYPE_SPEC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [30159 30211]))                                                  
+                                                :typemodifiers ("inline")
+                                                :parent "constant_rayleigh_kurtosis")
+                                                (reparse-symbol namespacesubparts) [30095 30771]))                                          
+                                        :type "namespace")
+                                        (reparse-symbol namespacesubparts) [497 30774]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [476 30775]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [460 30776]))                  
+                :type "namespace")
+                nil [443 30777]))          
+      :file "calculate_constants.hpp"
+      :pointmax 30853
+      :fsize 30852
+      :lastmodtime '(21727 6076 0 0)
+      :unmatched-syntax '((semantic-list 30197 . 30211) (punctuation 30093 . 30094) (symbol 30092 . 30093) (CLASS 30086 . 30091) (punctuation 30085 . 30086) (TEMPLATE 30076 . 30084) (semantic-list 29518 . 29532) (punctuation 29407 . 29408) (symbol 29406 . 29407) (CLASS 29400 . 29405) (punctuation 29399 . 29400) (TEMPLATE 29390 . 29398) (semantic-list 27648 . 27662) (punctuation 27544 . 27545) (symbol 27543 . 27544) (CLASS 27537 . 27542) (punctuation 27536 . 27537) (TEMPLATE 27527 . 27535) (semantic-list 25606 . 25620) (punctuation 25511 . 25512) (symbol 25510 . 25511) (CLASS 25504 . 25509) (punctuation 25503 . 25504) (TEMPLATE 25494 . 25502) (semantic-list 21738 . 21752) (punctuation 21629 . 21630) (symbol 21628 . 21629) (CLASS 21622 . 21627) (punctuation 21621 . 21622) (TEMPLATE 21612 . 21620) (semantic-list 21477 . 21491) (punctuation 21382 . 21383) (symbol 21381 . 21382) (CLASS 21375 . 21380) (punctuation 21374 . 21375) (TEMPLATE 21365 . 21373) (semantic-list 18761 . 18775) (punctuation 18667 . 18668) (symbol 18666 . 18667) (CLASS 18660 . 18665) (punctuation 18659 . 18660) (TEMPLATE 18650 . 18658) (semantic-list 16450 . 16464) (punctuation 16353 . 16354) (symbol 16352 . 16353) (CLASS 16346 . 16351) (punctuation 16345 . 16346) (TEMPLATE 16336 . 16344) (semantic-list 16145 . 16159) (punctuation 16050 . 16051) (symbol 16049 . 16050) (CLASS 16043 . 16048) (punctuation 16042 . 16043) (TEMPLATE 16033 . 16041) (semantic-list 15872 . 15886) (punctuation 15771 . 15772) (symbol 15770 . 15771) (CLASS 15764 . 15769) (punctuation 15763 . 15764) (TEMPLATE 15754 . 15762) (semantic-list 15551 . 15565) (punctuation 15458 . 15459) (symbol 15457 . 15458) (CLASS 15451 . 15456) (punctuation 15450 . 15451) (TEMPLATE 15441 . 15449) (semantic-list 15316 . 15330) (punctuation 15226 . 15227) (symbol 15225 . 15226) (CLASS 15219 . 15224) (punctuation 15218 . 15219) (TEMPLATE 15209 . 15217) (semantic-list 15125 . 15139) (punctuation 15030 . 15031) (symbol 15029 . 15030) (CLASS 15023 . 15028) (punctuation 15022 . 15023) (TEMPLATE 15013 . 15021) (semantic-list 14929 . 14943) (punctuation 14834 . 14835) (symbol 14833 . 14834) (CLASS 14827 . 14832) (punctuation 14826 . 14827) (TEMPLATE 14817 . 14825) (semantic-list 14734 . 14748) (punctuation 14640 . 14641) (symbol 14639 . 14640) (CLASS 14633 . 14638) (punctuation 14632 . 14633) (TEMPLATE 14623 . 14631) (semantic-list 14540 . 14554) (punctuation 14446 . 14447) (symbol 14445 . 14446) (CLASS 14439 . 14444) (punctuation 14438 . 14439) (TEMPLATE 14429 . 14437) (semantic-list 14291 . 14305) (punctuation 14198 . 14199) (symbol 14197 . 14198) (CLASS 14191 . 14196) (punctuation 14190 . 14191) (TEMPLATE 14181 . 14189) (semantic-list 14043 . 14057) (punctuation 13950 . 13951) (symbol 13949 . 13950) (CLASS 13943 . 13948) (punctuation 13942 . 13943) (TEMPLATE 13933 . 13941) (semantic-list 13777 . 13791) (punctuation 13675 . 13676) (symbol 13674 . 13675) (CLASS 13668 . 13673) (punctuation 13667 . 13668) (TEMPLATE 13658 . 13666) (semantic-list 13546 . 13560) (punctuation 13452 . 13453) (symbol 13451 . 13452) (CLASS 13445 . 13450) (punctuation 13444 . 13445) (TEMPLATE 13435 . 13443) (semantic-list 13324 . 13338) (punctuation 13231 . 13232) (symbol 13230 . 13231) (CLASS 13224 . 13229) (punctuation 13223 . 13224) (TEMPLATE 13214 . 13222) (semantic-list 13050 . 13064) (punctuation 12955 . 12956) (symbol 12954 . 12955) (CLASS 12948 . 12953) (punctuation 12947 . 12948) (TEMPLATE 12938 . 12946) (semantic-list 12752 . 12766) (punctuation 12650 . 12651) (symbol 12649 . 12650) (CLASS 12643 . 12648) (punctuation 12642 . 12643) (TEMPLATE 12633 . 12641) (semantic-list 12484 . 12498) (punctuation 12390 . 12391) (symbol 12389 . 12390) (CLASS 12383 . 12388) (punctuation 12382 . 12383) (TEMPLATE 12373 . 12381) (semantic-list 12140 . 12154) (punctuation 12045 . 12046) (symbol 12044 . 12045) (CLASS 12038 . 12043) (punctuation 12037 . 12038) (TEMPLATE 12028 . 12036) (semantic-list 11835 . 11849) (punctuation 11734 . 11735) (symbol 11733 . 11734) (CLASS 11727 . 11732) (punctuation 11726 . 11727) (TEMPLATE 11717 . 11725) (semantic-list 11547 . 11561) (punctuation 11454 . 11455) (symbol 11453 . 11454) (CLASS 11447 . 11452) (punctuation 11446 . 11447) (TEMPLATE 11437 . 11445) (semantic-list 11273 . 11287) (punctuation 11178 . 11179) (symbol 11177 . 11178) (CLASS 11171 . 11176) (punctuation 11170 . 11171) (TEMPLATE 11161 . 11169) (semantic-list 11015 . 11029) (punctuation 10911 . 10912) (symbol 10910 . 10911) (CLASS 10904 . 10909) (punctuation 10903 . 10904) (TEMPLATE 10894 . 10902) (semantic-list 10748 . 10762) (punctuation 10648 . 10649) (symbol 10647 . 10648) (CLASS 10641 . 10646) (punctuation 10640 . 10641) (TEMPLATE 10631 . 10639) (semantic-list 10504 . 10518) (punctuation 10409 . 10410) (symbol 10408 . 10409) (CLASS 10402 . 10407) (punctuation 10401 . 10402) (TEMPLATE 10392 . 10400) (semantic-list 10265 . 10279) (punctuation 10170 . 10171) (symbol 10169 . 10170) (CLASS 10163 . 10168) (punctuation 10162 . 10163) (TEMPLATE 10153 . 10161) (semantic-list 10025 . 10039) (punctuation 9931 . 9932) (symbol 9930 . 9931) (CLASS 9924 . 9929) (punctuation 9923 . 9924) (TEMPLATE 9914 . 9922) (semantic-list 9768 . 9782) (punctuation 9667 . 9668) (symbol 9666 . 9667) (CLASS 9660 . 9665) (punctuation 9659 . 9660) (TEMPLATE 9650 . 9658) (semantic-list 9517 . 9531) (punctuation 9415 . 9416) (symbol 9414 . 9415) (CLASS 9408 . 9413) (punctuation 9407 . 9408) (TEMPLATE 9398 . 9406) (semantic-list 9287 . 9301) (punctuation 9181 . 9182) (symbol 9180 . 9181) (CLASS 9174 . 9179) (punctuation 9173 . 9174) (TEMPLATE 9164 . 9172) (semantic-list 9057 . 9071) (punctuation 8955 . 8956) (symbol 8954 . 8955) (CLASS 8948 . 8953) (punctuation 8947 . 8948) (TEMPLATE 8938 . 8946) (semantic-list 8830 . 8844) (punctuation 8727 . 8728) (symbol 8726 . 8727) (CLASS 8720 . 8725) (punctuation 8719 . 8720) (TEMPLATE 8710 . 8718) (semantic-list 8622 . 8636) (punctuation 8521 . 8522) (symbol 8520 . 8521) (CLASS 8514 . 8519) (punctuation 8513 . 8514) (TEMPLATE 8504 . 8512) (semantic-list 8122 . 8136) (punctuation 8022 . 8023) (symbol 8021 . 8022) (CLASS 8015 . 8020) (punctuation 8014 . 8015) (TEMPLATE 8005 . 8013) (semantic-list 7903 . 7917) (punctuation 7802 . 7803) (symbol 7801 . 7802) (CLASS 7795 . 7800) (punctuation 7794 . 7795) (TEMPLATE 7785 . 7793) (semantic-list 7691 . 7705) (punctuation 7590 . 7591) (symbol 7589 . 7590) (CLASS 7583 . 7588) (punctuation 7582 . 7583) (TEMPLATE 7573 . 7581) (semantic-list 7479 . 7493) (punctuation 7382 . 7383) (symbol 7381 . 7382) (CLASS 7375 . 7380) (punctuation 7374 . 7375) (TEMPLATE 7365 . 7373) (semantic-list 7271 . 7285) (punctuation 7175 . 7176) (symbol 7174 . 7175) (CLASS 7168 . 7173) (punctuation 7167 . 7168) (TEMPLATE 7158 . 7166) (semantic-list 7064 . 7078) (punctuation 6972 . 6973) (symbol 6971 . 6972) (CLASS 6965 . 6970) (punctuation 6964 . 6965) (TEMPLATE 6955 . 6963) (semantic-list 6871 . 6885) (punctuation 6775 . 6776) (symbol 6774 . 6775) (CLASS 6768 . 6773) (punctuation 6767 . 6768) (TEMPLATE 6758 . 6766) (semantic-list 6678 . 6692) (punctuation 6585 . 6586) (symbol 6584 . 6585) (CLASS 6578 . 6583) (punctuation 6577 . 6578) (TEMPLATE 6568 . 6576) (semantic-list 6296 . 6310) (punctuation 6203 . 6204) (symbol 6202 . 6203) (CLASS 6196 . 6201) (punctuation 6195 . 6196) (TEMPLATE 6186 . 6194) (semantic-list 6102 . 6116) (punctuation 6002 . 6003) (symbol 6001 . 6002) (CLASS 5995 . 6000) (punctuation 5994 . 5995) (TEMPLATE 5985 . 5993) (semantic-list 5905 . 5919) (punctuation 5808 . 5809) (symbol 5807 . 5808) (CLASS 5801 . 5806) (punctuation 5800 . 5801) (TEMPLATE 5791 . 5799) (semantic-list 5710 . 5724) (punctuation 5615 . 5616) (symbol 5614 . 5615) (CLASS 5608 . 5613) (punctuation 5607 . 5608) (TEMPLATE 5598 . 5606) (semantic-list 5465 . 5479) (punctuation 5365 . 5366) (symbol 5364 . 5365) (CLASS 5358 . 5363) (punctuation 5357 . 5358) (TEMPLATE 5348 . 5356) (semantic-list 5181 . 5195) (punctuation 5085 . 5086) (symbol 5084 . 5085) (CLASS 5078 . 5083) (punctuation 5077 . 5078) (TEMPLATE 5068 . 5076) (semantic-list 4268 . 4282) (punctuation 4176 . 4177) (symbol 4175 . 4176) (CLASS 4169 . 4174) (punctuation 4168 . 4169) (TEMPLATE 4159 . 4167) (semantic-list 4089 . 4103) (punctuation 3998 . 3999) (symbol 3997 . 3998) (CLASS 3991 . 3996) (punctuation 3990 . 3991) (TEMPLATE 3981 . 3989) (semantic-list 3700 . 3714) (punctuation 3612 . 3613) (symbol 3611 . 3612) (CLASS 3605 . 3610) (punctuation 3604 . 3605) (TEMPLATE 3595 . 3603) (semantic-list 3510 . 3524) (punctuation 3411 . 3412) (symbol 3410 . 3411) (CLASS 3404 . 3409) (punctuation 3403 . 3404) (TEMPLATE 3394 . 3402) (semantic-list 3274 . 3288) (punctuation 3172 . 3173) (symbol 3171 . 3172) (CLASS 3165 . 3170) (punctuation 3164 . 3165) (TEMPLATE 3155 . 3163) (semantic-list 3039 . 3053) (punctuation 2941 . 2942) (symbol 2940 . 2941) (CLASS 2934 . 2939) (punctuation 2933 . 2934) (TEMPLATE 2924 . 2932) (semantic-list 2808 . 2822) (punctuation 2709 . 2710) (symbol 2708 . 2709) (CLASS 2702 . 2707) (punctuation 2701 . 2702) (TEMPLATE 2692 . 2700) (semantic-list 2580 . 2594) (punctuation 2486 . 2487) (symbol 2485 . 2486) (CLASS 2479 . 2484) (punctuation 2478 . 2479) (TEMPLATE 2469 . 2477) (semantic-list 2379 . 2393) (punctuation 2278 . 2279) (symbol 2277 . 2278) (CLASS 2271 . 2276) (punctuation 2270 . 2271) (TEMPLATE 2261 . 2269) (semantic-list 2143 . 2157) (punctuation 2025 . 2026) (symbol 2024 . 2025) (CLASS 2018 . 2023) (punctuation 2017 . 2018) (TEMPLATE 2008 . 2016) (semantic-list 1922 . 1936) (punctuation 1815 . 1816) (symbol 1814 . 1815) (CLASS 1808 . 1813) (punctuation 1807 . 1808) (TEMPLATE 1798 . 1806) (semantic-list 1712 . 1726) (punctuation 1619 . 1620) (symbol 1618 . 1619) (CLASS 1612 . 1617) (punctuation 1611 . 1612) (TEMPLATE 1602 . 1610) (semantic-list 622 . 636) (punctuation 533 . 534) (symbol 532 . 533) (CLASS 526 . 531) (punctuation 525 . 526) (TEMPLATE 516 . 524))
+      :lexical-table 
+        '(("BOOST_MATH_CALCULATE_CONSTANTS_CONSTANTS_INCLUDED")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!math!constants!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

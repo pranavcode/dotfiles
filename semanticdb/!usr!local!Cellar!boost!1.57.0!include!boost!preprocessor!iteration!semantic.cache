@@ -1,0 +1,84 @@
+;; Object iteration/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "iteration/"
+  :tables
+  (list
+    (semanticdb-table "iterate.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_ITERATION_ITERATE_HPP" variable (:constant-flag t) nil [662 702])
+            ("boost/preprocessor/arithmetic/dec.hpp" include (:system-flag t) nil [705 754])
+            ("boost/preprocessor/arithmetic/inc.hpp" include (:system-flag t) nil [755 804])
+            ("boost/preprocessor/array/elem.hpp" include (:system-flag t) nil [805 850])
+            ("boost/preprocessor/array/size.hpp" include (:system-flag t) nil [851 896])
+            ("boost/preprocessor/cat.hpp" include (:system-flag t) nil [897 935])
+            ("boost/preprocessor/slot/slot.hpp" include (:system-flag t) nil [936 980])
+            ("boost/preprocessor/tuple/elem.hpp" include (:system-flag t) nil [981 1026])
+            ("BOOST_PP_ITERATION_DEPTH" variable (:constant-flag t) nil [1073 1097])
+            ("BOOST_PP_ITERATION" variable (:constant-flag t) nil [1142 1160])
+            ("BOOST_PP_ITERATION_START" variable (:constant-flag t) nil [1300 1324])
+            ("BOOST_PP_ITERATION_FINISH" variable (:constant-flag t) nil [1404 1429])
+            ("BOOST_PP_ITERATION_FLAGS" variable (:constant-flag t) nil [1547 1571])
+            ("BOOST_PP_FRAME_ITERATION" variable (:constant-flag t) nil [1692 1716])
+            ("BOOST_PP_FRAME_START" variable (:constant-flag t) nil [1824 1844])
+            ("BOOST_PP_FRAME_FINISH" variable (:constant-flag t) nil [1900 1921])
+            ("BOOST_PP_FRAME_FLAGS" variable (:constant-flag t) nil [2011 2031])
+            ("BOOST_PP_RELATIVE_ITERATION" variable (:constant-flag t) nil [2131 2158])
+            ("BOOST_PP_RELATIVE_0" variable (:constant-flag t) nil [2230 2249])
+            ("BOOST_PP_RELATIVE_1" variable (:constant-flag t) nil [2306 2325])
+            ("BOOST_PP_RELATIVE_2" variable (:constant-flag t) nil [2396 2415])
+            ("BOOST_PP_RELATIVE_3" variable (:constant-flag t) nil [2500 2519])
+            ("BOOST_PP_RELATIVE_4" variable (:constant-flag t) nil [2618 2637])
+            ("BOOST_PP_RELATIVE_START" variable (:constant-flag t) nil [2814 2837])
+            ("BOOST_PP_RELATIVE_FINISH" variable (:constant-flag t) nil [2913 2937])
+            ("BOOST_PP_RELATIVE_FLAGS" variable (:constant-flag t) nil [3050 3073])
+            ("BOOST_PP_ITERATE" variable (:constant-flag t) nil [3182 3198])
+            ("BOOST_PP_ITERATE_1" variable (:constant-flag t) nil [3286 3304])
+            ("BOOST_PP_ITERATE_2" variable (:constant-flag t) nil [3370 3388])
+            ("BOOST_PP_ITERATE_3" variable (:constant-flag t) nil [3454 3472])
+            ("BOOST_PP_ITERATE_4" variable (:constant-flag t) nil [3538 3556])
+            ("BOOST_PP_ITERATE_5" variable (:constant-flag t) nil [3622 3640]))          
+      :file "iterate.hpp"
+      :pointmax 3707
+      :fsize 3706
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((punctuation 3697 . 3698) (punctuation 3275 . 3276) (punctuation 3171 . 3172) (punctuation 3146 . 3147) (punctuation 3144 . 3145) (punctuation 3039 . 3040) (punctuation 3007 . 3008) (punctuation 3005 . 3006) (punctuation 2803 . 2804) (punctuation 2743 . 2744) (punctuation 2741 . 2742) (punctuation 2219 . 2220) (punctuation 2120 . 2121) (punctuation 2084 . 2085) (punctuation 2082 . 2083) (punctuation 2000 . 2001) (punctuation 1971 . 1972) (punctuation 1969 . 1970) (punctuation 1813 . 1814) (punctuation 1759 . 1760) (punctuation 1757 . 1758) (punctuation 1681 . 1682) (punctuation 1648 . 1649) (punctuation 1646 . 1647) (punctuation 1536 . 1537) (punctuation 1503 . 1504) (punctuation 1501 . 1502) (punctuation 1289 . 1290) (punctuation 1227 . 1228) (punctuation 1225 . 1226) (punctuation 1131 . 1132) (punctuation 1104 . 1105) (punctuation 1102 . 1103) (punctuation 1062 . 1063) (punctuation 1029 . 1030) (punctuation 1027 . 1028) (punctuation 703 . 704) (punctuation 601 . 602) (punctuation 543 . 544) (punctuation 541 . 542) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PP_RELATIVE_3" (spp-arg-list ("m") 2519 . 2522) . ((symbol "BOOST_PP_CAT" 2523 . 2535) (semantic-list "(m, BOOST_PP_DEC(BOOST_PP_DEC(BOOST_PP_DEC(BOOST_PP_ITERATION_DEPTH()))))" 2535 . 2608)))
+          ("BOOST_PP_ITERATE" (spp-arg-list nil 3198 . 3200) . ((symbol "BOOST_PP_CAT" 3201 . 3213) (semantic-list "(BOOST_PP_ITERATE_, BOOST_PP_INC(BOOST_PP_ITERATION_DEPTH()))" 3213 . 3274)))
+          ("BOOST_PP_ITERATE_3" . 
+              ((punctuation "<" 3473 . 3474) (symbol "boost" 3474 . 3479) (punctuation "/" 3479 . 3480) (symbol "preprocessor" 3480 . 3492) (punctuation "/" 3492 . 3493) (symbol "iteration" 3493 . 3502) (punctuation "/" 3502 . 3503) (symbol "detail" 3503 . 3509) (punctuation "/" 3509 . 3510) (symbol "iter" 3510 . 3514) (punctuation "/" 3514 . 3515) (symbol "forward3" 3515 . 3523) (punctuation "." 3523 . 3524) (symbol "hpp" 3524 . 3527) (punctuation ">" 3527 . 3528)))
+          ("BOOST_PP_RELATIVE_ITERATION" (spp-arg-list ("i") 2158 . 2161) . 
+              ((symbol "BOOST_PP_CAT" 2162 . 2174) (semantic-list "(BOOST_PP_RELATIVE_, i)" 2174 . 2197) (semantic-list "(BOOST_PP_ITERATION_)" 2197 . 2218)))
+          ("BOOST_PP_RELATIVE_4" (spp-arg-list ("m") 2637 . 2640) . ((symbol "BOOST_PP_CAT" 2641 . 2653) (semantic-list "(m, BOOST_PP_DEC(BOOST_PP_DEC(BOOST_PP_DEC(BOOST_PP_DEC(BOOST_PP_ITERATION_DEPTH())))))" 2653 . 2740)))
+          ("BOOST_PP_ITERATE_4" . 
+              ((punctuation "<" 3557 . 3558) (symbol "boost" 3558 . 3563) (punctuation "/" 3563 . 3564) (symbol "preprocessor" 3564 . 3576) (punctuation "/" 3576 . 3577) (symbol "iteration" 3577 . 3586) (punctuation "/" 3586 . 3587) (symbol "detail" 3587 . 3593) (punctuation "/" 3593 . 3594) (symbol "iter" 3594 . 3598) (punctuation "/" 3598 . 3599) (symbol "forward4" 3599 . 3607) (punctuation "." 3607 . 3608) (symbol "hpp" 3608 . 3611) (punctuation ">" 3611 . 3612)))
+          ("BOOST_PP_ITERATION" (spp-arg-list nil 1160 . 1162) . ((symbol "BOOST_PP_CAT" 1163 . 1175) (semantic-list "(BOOST_PP_ITERATION_, BOOST_PP_ITERATION_DEPTH())" 1175 . 1224)))
+          ("BOOST_PP_ITERATION_FLAGS" (spp-arg-list nil 1571 . 1573) . ((semantic-list "(BOOST_PP_CAT(BOOST_PP_ITERATION_FLAGS_, BOOST_PP_ITERATION_DEPTH())())" 1574 . 1645)))
+          ("BOOST_PP_ITERATE_5" . 
+              ((punctuation "<" 3641 . 3642) (symbol "boost" 3642 . 3647) (punctuation "/" 3647 . 3648) (symbol "preprocessor" 3648 . 3660) (punctuation "/" 3660 . 3661) (symbol "iteration" 3661 . 3670) (punctuation "/" 3670 . 3671) (symbol "detail" 3671 . 3677) (punctuation "/" 3677 . 3678) (symbol "iter" 3678 . 3682) (punctuation "/" 3682 . 3683) (symbol "forward5" 3683 . 3691) (punctuation "." 3691 . 3692) (symbol "hpp" 3692 . 3695) (punctuation ">" 3695 . 3696)))
+          ("BOOST_PP_ITERATION_FINISH" (spp-arg-list nil 1429 . 1431) . ((symbol "BOOST_PP_CAT" 1432 . 1444) (semantic-list "(BOOST_PP_ITERATION_FINISH_, BOOST_PP_ITERATION_DEPTH())" 1444 . 1500)))
+          ("BOOST_PP_RELATIVE_FINISH" (spp-arg-list ("i") 2937 . 2940) . 
+              ((symbol "BOOST_PP_CAT" 2941 . 2953) (semantic-list "(BOOST_PP_RELATIVE_, i)" 2953 . 2976) (semantic-list "(BOOST_PP_ITERATION_FINISH_)" 2976 . 3004)))
+          ("BOOST_PP_FRAME_FLAGS" (spp-arg-list ("i") 2031 . 2034) . ((semantic-list "(BOOST_PP_CAT(BOOST_PP_ITERATION_FLAGS_, i)())" 2035 . 2081)))
+          ("BOOST_PP_RELATIVE_FLAGS" (spp-arg-list ("i") 3073 . 3076) . ((semantic-list "(BOOST_PP_CAT(BOOST_PP_RELATIVE_, i)(BOOST_PP_ITERATION_FLAGS_)())" 3077 . 3143)))
+          ("BOOST_PP_ITERATION_START" (spp-arg-list nil 1324 . 1326) . ((symbol "BOOST_PP_CAT" 1327 . 1339) (semantic-list "(BOOST_PP_ITERATION_START_, BOOST_PP_ITERATION_DEPTH())" 1339 . 1394)))
+          ("BOOST_PP_FRAME_ITERATION" (spp-arg-list ("i") 1716 . 1719) . ((symbol "BOOST_PP_CAT" 1720 . 1732) (semantic-list "(BOOST_PP_ITERATION_, i)" 1732 . 1756)))
+          ("BOOST_PP_FRAME_START" (spp-arg-list ("i") 1844 . 1847) . ((symbol "BOOST_PP_CAT" 1848 . 1860) (semantic-list "(BOOST_PP_ITERATION_START_, i)" 1860 . 1890)))
+          ("BOOST_PP_RELATIVE_START" (spp-arg-list ("i") 2837 . 2840) . 
+              ((symbol "BOOST_PP_CAT" 2841 . 2853) (semantic-list "(BOOST_PP_RELATIVE_, i)" 2853 . 2876) (semantic-list "(BOOST_PP_ITERATION_START_)" 2876 . 2903)))
+          ("BOOST_PREPROCESSOR_ITERATION_ITERATE_HPP")
+          ("BOOST_PP_FRAME_FINISH" (spp-arg-list ("i") 1921 . 1924) . ((symbol "BOOST_PP_CAT" 1925 . 1937) (semantic-list "(BOOST_PP_ITERATION_FINISH_, i)" 1937 . 1968)))
+          ("BOOST_PP_ITERATION_DEPTH" (spp-arg-list nil 1097 . 1099) . ((number "0" 1100 . 1101)))
+          ("BOOST_PP_RELATIVE_0" (spp-arg-list ("m") 2249 . 2252) . ((symbol "BOOST_PP_CAT" 2253 . 2265) (semantic-list "(m, BOOST_PP_ITERATION_DEPTH())" 2265 . 2296)))
+          ("BOOST_PP_RELATIVE_1" (spp-arg-list ("m") 2325 . 2328) . ((symbol "BOOST_PP_CAT" 2329 . 2341) (semantic-list "(m, BOOST_PP_DEC(BOOST_PP_ITERATION_DEPTH()))" 2341 . 2386)))
+          ("BOOST_PP_ITERATE_1" . 
+              ((punctuation "<" 3305 . 3306) (symbol "boost" 3306 . 3311) (punctuation "/" 3311 . 3312) (symbol "preprocessor" 3312 . 3324) (punctuation "/" 3324 . 3325) (symbol "iteration" 3325 . 3334) (punctuation "/" 3334 . 3335) (symbol "detail" 3335 . 3341) (punctuation "/" 3341 . 3342) (symbol "iter" 3342 . 3346) (punctuation "/" 3346 . 3347) (symbol "forward1" 3347 . 3355) (punctuation "." 3355 . 3356) (symbol "hpp" 3356 . 3359) (punctuation ">" 3359 . 3360)))
+          ("BOOST_PP_RELATIVE_2" (spp-arg-list ("m") 2415 . 2418) . ((symbol "BOOST_PP_CAT" 2419 . 2431) (semantic-list "(m, BOOST_PP_DEC(BOOST_PP_DEC(BOOST_PP_ITERATION_DEPTH())))" 2431 . 2490)))
+          ("BOOST_PP_ITERATE_2" . 
+              ((punctuation "<" 3389 . 3390) (symbol "boost" 3390 . 3395) (punctuation "/" 3395 . 3396) (symbol "preprocessor" 3396 . 3408) (punctuation "/" 3408 . 3409) (symbol "iteration" 3409 . 3418) (punctuation "/" 3418 . 3419) (symbol "detail" 3419 . 3425) (punctuation "/" 3425 . 3426) (symbol "iter" 3426 . 3430) (punctuation "/" 3430 . 3431) (symbol "forward2" 3431 . 3439) (punctuation "." 3439 . 3440) (symbol "hpp" 3440 . 3443) (punctuation ">" 3443 . 3444)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!preprocessor!iteration!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

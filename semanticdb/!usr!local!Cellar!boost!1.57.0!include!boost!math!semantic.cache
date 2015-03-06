@@ -1,0 +1,148 @@
+;; Object math/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "math/"
+  :tables
+  (list
+    (semanticdb-table "common_factor_ct.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MATH_COMMON_FACTOR_CT_HPP" variable (:constant-flag t) nil [434 465])
+            ("boost/math_fwd.hpp" include (:system-flag t) nil [467 496])
+            ("boost/config.hpp" include (:system-flag t) nil [514 541])
+            ("boost/mpl/integral_c.hpp" include (:system-flag t) nil [578 613])
+            ("boost" type
+               (:members 
+                  ( ("math" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("static_gcd_helper_t" type
+                                       (:template 
+                                          ( ("static_gcd_type" type nil nil nil)
+                                            ("static_gcd_type" type nil nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("private" label nil (reparse-symbol classsubparts) [908 916])
+                                            ("BOOST_STATIC_CONSTANT" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type ("static_gcd_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [948 964])
+                                                    ("" variable (:type ("new_value1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [965 984]))                                                  
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [925 987])
+                                            ("BOOST_STATIC_CONSTANT" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type ("static_gcd_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1019 1035])
+                                                    ("" variable (:type ("new_value2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1036 1064]))                                                  
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [996 1067])
+                                            ("BOOST_DETAIL_GCD_HELPER_VAL" variable (:constant-flag t) (reparse-symbol classsubparts) [1114 1141])
+                                            ("next_step_type" variable (:type "int") (reparse-symbol classsubparts) [1466 1481])
+                                            ("public" label nil (reparse-symbol classsubparts) [1531 1538])
+                                            ("BOOST_STATIC_CONSTANT" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type ("static_gcd_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1570 1586])
+                                                    ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1587 1609])
+                                                    ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1611 1618]))                                                  
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [1547 1619]))                                          )
+                                        (reparse-symbol namespacesubparts) [807 1626])
+                                    ("static_gcd_helper_t" type
+                                       (:template 
+                                          ( ("static_gcd_type" type nil nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("BOOST_STATIC_CONSTANT" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type ("static_gcd_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1777 1793])
+                                                    ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1794 1808]))                                                  
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [1754 1811]))                                          
+                                        :template-specifier 
+                                          ( ("Value1" type nil nil nil)
+                                            ("0UL" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1658 1818])
+                                    ("static_lcm_helper_t" type
+                                       (:template 
+                                          ( ("static_gcd_type" type nil nil nil)
+                                            ("static_gcd_type" type nil nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("gcd_type" type
+                                               (:typedef ("static_gcd_helper_t" type
+                                                     (:template-specifier 
+                                                        ( ("Value1" type nil nil nil)
+                                                          ("Value2" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1963 2017])
+                                            ("BOOST_STATIC_CONSTANT" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type ("static_gcd_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2050 2066])
+                                                    ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2067 2092])
+                                                    ("Value2" variable
+                                                       (:pointer 1
+                                                        :type ("value" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2094 2119]))                                                  
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [2027 2120]))                                          )
+                                        (reparse-symbol namespacesubparts) [1858 2127])
+                                    ("static_lcm_helper_t" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("BOOST_STATIC_CONSTANT" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type ("static_gcd_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2266 2282])
+                                                    ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2283 2294]))                                                  
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [2243 2297]))                                          
+                                        :template-specifier 
+                                          ( ("0UL" type nil nil nil)
+                                            ("0UL" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [2173 2304]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [733 2307])
+                            ("static_gcd" type
+                               (:template 
+                                  ( ("static_gcd_type" type nil nil nil)
+                                    ("static_gcd_type" type nil nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("mpl::integral_c" type
+                                       (:protection "public"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2413 2592])
+                            ("static_lcm" type
+                               (:template 
+                                  ( ("static_gcd_type" type nil nil nil)
+                                    ("static_gcd_type" type nil nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("mpl::integral_c" type
+                                       (:protection "public"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2705 2884]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [633 2916]))                  
+                :type "namespace")
+                nil [615 2937]))          
+      :file "common_factor_ct.hpp"
+      :pointmax 3003
+      :fsize 3002
+      :lastmodtime '(21727 6066 0 0)
+      :unmatched-syntax '((punctuation 2093 . 2094) (punctuation 2092 . 2093) (punctuation 1610 . 1611) (punctuation 1609 . 1610) (punctuation 1463 . 1464) (semantic-list #("(Value)" 0 1 (macros (("Value" symbol "new_value2" 1451 . 1461)))) 1423 . 1462) (punctuation ">" 1423 . 1462) (symbol "static_gcd_type" 1423 . 1462) (punctuation "<" 1423 . 1462) (symbol "static_cast" 1423 . 1462) (punctuation 1412 . 1413) (semantic-list #("(Value)" 0 1 (macros (("Value" symbol "new_value1" 1401 . 1411)))) 1373 . 1412) (punctuation ">" 1373 . 1412) (symbol "static_gcd_type" 1373 . 1412) (punctuation "<" 1373 . 1412) (symbol "static_cast" 1373 . 1412) (punctuation 1371 . 1372) (symbol 1352 . 1371) (TYPEDEF 1344 . 1351))
+      :lexical-table 
+        '(("BOOST_MATH_COMMON_FACTOR_CT_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!math!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

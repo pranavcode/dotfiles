@@ -1,0 +1,19 @@
+{
+	"name" : "ph",
+	"version" : "0.1.0",
+	"docstring" : "A global minor mode for managing multiple projects.",
+	"reqs" : {
+		"emacs" : "24.3"
+	},
+	"repo" : {
+		"type": "git",
+		"url" : "git://github.com/gromnitsky/ph.git"
+	},
+	"homepage" : "https://github.com/gromnitsky/ph",
+	"files" : [
+		"*.el",
+		"README",
+		"meta.json",
+		"bin/ph-project-new"
+	]
+}

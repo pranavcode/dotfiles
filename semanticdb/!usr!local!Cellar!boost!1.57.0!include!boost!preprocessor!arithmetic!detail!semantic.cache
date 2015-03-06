@@ -1,0 +1,44 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "div_base.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_ARITHMETIC_DETAIL_DIV_BASE_HPP" variable (:constant-flag t) nil [424 473])
+            ("boost/preprocessor/arithmetic/inc.hpp" include (:system-flag t) nil [476 525])
+            ("boost/preprocessor/arithmetic/sub.hpp" include (:system-flag t) nil [526 575])
+            ("boost/preprocessor/comparison/less_equal.hpp" include (:system-flag t) nil [576 632])
+            ("boost/preprocessor/config/config.hpp" include (:system-flag t) nil [633 681])
+            ("boost/preprocessor/control/while.hpp" include (:system-flag t) nil [682 730])
+            ("boost/preprocessor/tuple/elem.hpp" include (:system-flag t) nil [731 776])
+            ("boost/preprocessor/tuple/rem.hpp" include (:system-flag t) nil [777 821])
+            ("BOOST_PP_DIV_BASE" variable (:constant-flag t) nil [1029 1046])
+            ("BOOST_PP_DIV_BASE_I" variable (:constant-flag t) nil [1091 1110])
+            ("BOOST_PP_DIV_BASE_P" variable (:constant-flag t) nil [1433 1452])
+            ("BOOST_PP_DIV_BASE_P_I" variable (:constant-flag t) nil [1601 1622])
+            ("BOOST_PP_DIV_BASE_O" variable (:constant-flag t) nil [1906 1925])
+            ("BOOST_PP_DIV_BASE_O_I" variable (:constant-flag t) nil [2074 2095])
+            ("BOOST_PP_DIV_BASE_D" variable (:constant-flag t) nil [2374 2393])
+            ("BOOST_PP_DIV_BASE_D_I" variable (:constant-flag t) nil [2446 2467]))          
+      :file "div_base.hpp"
+      :pointmax 2569
+      :fsize 2568
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((punctuation 2559 . 2560) (punctuation 2184 . 2185) (punctuation 2156 . 2157) (punctuation 2154 . 2155) (punctuation 2063 . 2064) (punctuation 1666 . 1667) (punctuation 1590 . 1591) (punctuation 1193 . 1194) (punctuation 850 . 851) (punctuation 824 . 825) (punctuation 822 . 823) (punctuation 474 . 475) (punctuation 354 . 355) (punctuation 296 . 297) (punctuation 294 . 295) (punctuation 252 . 253) (punctuation 250 . 251) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PP_DIV_BASE_P" (spp-arg-list ("d" "rxy") 1452 . 1460) . ((symbol "BOOST_PP_DIV_BASE_P_I" 1461 . 1482) (semantic-list "(d, BOOST_PP_TUPLE_ELEM(3, 0, rxy), BOOST_PP_TUPLE_ELEM(3, 1, rxy), BOOST_PP_TUPLE_ELEM(3, 2, rxy))" 1482 . 1581)))
+          ("BOOST_PP_DIV_BASE_D_I" (spp-arg-list ("d" "x" "y") 2467 . 2476) . ((spp-symbol-merge ((symbol "BOOST_PP_WHILE_" 2477 . 2492) (symbol "d" 2496 . 2497)) 2477 . 2497) (semantic-list "(BOOST_PP_DIV_BASE_P, BOOST_PP_DIV_BASE_O, (0, x, y))" 2497 . 2550)))
+          ("BOOST_PP_DIV_BASE_D" (spp-arg-list ("d" "x" "y") 2393 . 2402) . ((symbol "BOOST_PP_DIV_BASE_D_I" 2403 . 2424) (semantic-list "(d, x, y)" 2424 . 2433)))
+          ("BOOST_PP_DIV_BASE" (spp-arg-list ("x" "y") 1046 . 1052) . ((symbol "BOOST_PP_DIV_BASE_I" 1053 . 1072) (semantic-list "(x, y)" 1072 . 1078)))
+          ("BOOST_PP_DIV_BASE_P_I" (spp-arg-list ("d" "r" "x" "y") 1622 . 1634) . ((symbol "BOOST_PP_LESS_EQUAL_D" 1635 . 1656) (semantic-list "(d, y, x)" 1656 . 1665)))
+          ("BOOST_PP_DIV_BASE_I" (spp-arg-list ("x" "y") 1110 . 1116) . ((symbol "BOOST_PP_WHILE" 1117 . 1131) (semantic-list "(BOOST_PP_DIV_BASE_P, BOOST_PP_DIV_BASE_O, (0, x, y))" 1131 . 1184)))
+          ("BOOST_PP_DIV_BASE_O_I" (spp-arg-list ("d" "r" "x" "y") 2095 . 2107) . ((semantic-list "(BOOST_PP_INC(r), BOOST_PP_SUB_D(d, x, y), y)" 2108 . 2153)))
+          ("BOOST_PREPROCESSOR_ARITHMETIC_DETAIL_DIV_BASE_HPP")
+          ("BOOST_PP_DIV_BASE_O" (spp-arg-list ("d" "rxy") 1925 . 1933) . ((symbol "BOOST_PP_DIV_BASE_O_I" 1934 . 1955) (semantic-list "(d, BOOST_PP_TUPLE_ELEM(3, 0, rxy), BOOST_PP_TUPLE_ELEM(3, 1, rxy), BOOST_PP_TUPLE_ELEM(3, 2, rxy))" 1955 . 2054)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!preprocessor!arithmetic!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

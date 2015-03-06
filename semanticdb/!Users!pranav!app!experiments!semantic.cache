@@ -1,0 +1,144 @@
+;; Object experiments/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "experiments/"
+  :tables
+  (list
+    (semanticdb-table "split.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("algorithm" include (:system-flag t) nil [1 21])
+            ("fstream" include (:system-flag t) nil [22 40])
+            ("iostream" include (:system-flag t) nil [41 60])
+            ("cmath" include (:system-flag t) nil [61 77])
+            ("sstream" include (:system-flag t) nil [78 96])
+            ("string" include (:system-flag t) nil [97 114])
+            ("vector" include (:system-flag t) nil [115 132])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [134 154])
+            ("split" function
+               (:arguments 
+                  ( ("s" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [191 212])
+                    ("delim" variable (:type "char") (reparse-symbol arg-sub-list) [213 224])
+                    ("elems" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("std::string" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [225 257]))                  
+                :type "void")
+                nil [180 381])
+            ("split" function
+               (:arguments 
+                  ( ("s" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [448 469])
+                    ("delim" variable (:type "char") (reparse-symbol arg-sub-list) [470 481]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [417 561])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [572 581])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [582 594]))                  
+                :type "int")
+                nil [563 815]))          
+      :file "split.cpp"
+      :pointmax 816
+      :fsize 815
+      :lastmodtime '(21750 18394 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "gentest.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("random" include (:system-flag t) nil [40 57])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [59 79])
+            ("neurons" variable
+               (:default-value "{0,0,1}"
+                :type ("vector" type
+                     (:template-specifier 
+                        ( ("int" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [81 114])
+            ("STARTTIME" variable
+               (:constant-flag t
+                :default-value "0.0"
+                :type "double")
+                nil [115 144])
+            ("ENDTIME" variable
+               (:constant-flag t
+                :default-value "100.0"
+                :type "double")
+                nil [145 176])
+            ("STEPSIZE" variable
+               (:constant-flag t
+                :default-value "0.05"
+                :type "double")
+                nil [177 207])
+            ("rand" function
+               (:arguments 
+                  ( ("min" variable (:type "double") (reparse-symbol arg-sub-list) [221 232])
+                    ("max" variable (:type "double") (reparse-symbol arg-sub-list) [233 244]))                  
+                :type "double")
+                nil [209 360])
+            ("rand" function
+               (:arguments 
+                  ( ("max" variable (:type "double") (reparse-symbol arg-sub-list) [374 385]))                  
+                :type "double")
+                nil [362 412])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [423 432])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [433 446]))                  
+                :type "int")
+                nil [414 803]))          
+      :file "gentest.cpp"
+      :pointmax 804
+      :fsize 803
+      :lastmodtime '(21750 28150 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "test_newline.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("cmath" include (:system-flag t) nil [93 109])
+            ("iostream" include (:system-flag t) nil [110 129])
+            ("fstream" include (:system-flag t) nil [130 148])
+            ("time.h" include (:system-flag t) nil [150 167])
+            ("MAX" variable
+               (:default-value "19999999"
+                :type "long")
+                nil [179 199])
+            ("main" function (:type "int") nil [201 646]))          
+      :file "test_newline.cpp"
+      :pointmax 862
+      :fsize 861
+      :lastmodtime '(21727 13216 0 0)
+      :unmatched-syntax '((symbol 169 . 178))))
+  :file "!Users!pranav!app!experiments!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

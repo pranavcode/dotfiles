@@ -1,0 +1,304 @@
+;; Object range_c/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "range_c/"
+  :tables
+  (list
+    (semanticdb-table "front.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPL_AUX_RANGE_C_FRONT_HPP_INCLUDED" variable (:constant-flag t) nil [59 99])
+            ("boost/mpl/front_fwd.hpp" include (:system-flag t) nil [395 429])
+            ("boost/mpl/aux_/range_c/tag.hpp" include (:system-flag t) nil [430 471])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("front_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Range" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("Range::start" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [625 660]))                                          )
+                                        (reparse-symbol classsubparts) [571 667]))                                  
+                                :template-specifier 
+                                  ( ("aux::half_open_range_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [508 670]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [491 673]))                  
+                :type "namespace")
+                nil [473 674]))          
+      :file "front.hpp"
+      :pointmax 727
+      :fsize 726
+      :lastmodtime '(21727 6086 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPL_AUX_RANGE_C_FRONT_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "back.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPL_AUX_RANGE_C_BACK_HPP_INCLUDED" variable (:constant-flag t) nil [58 97])
+            ("boost/mpl/back_fwd.hpp" include (:system-flag t) nil [393 426])
+            ("boost/mpl/prior.hpp" include (:system-flag t) nil [427 457])
+            ("boost/mpl/aux_/range_c/tag.hpp" include (:system-flag t) nil [458 499])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("back_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Range" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [702 712]))                                          )
+                                        (reparse-symbol classsubparts) [598 719]))                                  
+                                :template-specifier 
+                                  ( ("aux::half_open_range_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [536 722]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [519 725]))                  
+                :type "namespace")
+                nil [501 726]))          
+      :file "back.hpp"
+      :pointmax 778
+      :fsize 777
+      :lastmodtime '(21727 6086 0 0)
+      :unmatched-syntax '((punctuation 701 . 702) (punctuation 700 . 701) (punctuation 699 . 700) (symbol 692 . 698) (punctuation 691 . 692) (punctuation 690 . 691) (symbol 685 . 690) (TYPENAME 676 . 684) (punctuation 674 . 675) (symbol 669 . 674) (TYPENAME 660 . 668) (TYPEDEF 652 . 659))
+      :lexical-table 
+        '(("BOOST_MPL_AUX_RANGE_C_BACK_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "size.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPL_AUX_RANGE_C_SIZE_HPP_INCLUDED" variable (:constant-flag t) nil [58 97])
+            ("boost/mpl/size_fwd.hpp" include (:system-flag t) nil [393 426])
+            ("boost/mpl/minus.hpp" include (:system-flag t) nil [427 457])
+            ("boost/mpl/aux_/range_c/tag.hpp" include (:system-flag t) nil [458 499])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("size_impl" type
+                               (:type "struct"
+                                :template-specifier 
+                                  ( ("aux::half_open_range_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [536 757]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [519 760]))                  
+                :type "namespace")
+                nil [501 761]))          
+      :file "size.hpp"
+      :pointmax 813
+      :fsize 812
+      :lastmodtime '(21727 6086 0 0)
+      :unmatched-syntax '((punctuation 753 . 754) (semantic-list 746 . 753) (punctuation 740 . 741) (symbol 722 . 727) (punctuation 721 . 722) (punctuation 720 . 721) (symbol 715 . 720) (TYPENAME 706 . 714) (punctuation 704 . 705) (symbol 685 . 691) (punctuation 684 . 685) (punctuation 683 . 684) (symbol 678 . 683) (TYPENAME 669 . 677) (punctuation 653 . 654) (symbol 648 . 653) (punctuation 646 . 647) (symbol 632 . 637) (STRUCT 625 . 631) (punctuation 623 . 624) (symbol 617 . 622) (TYPENAME 608 . 616) (punctuation 606 . 607) (TEMPLATE 598 . 606))
+      :lexical-table 
+        '(("BOOST_MPL_AUX_RANGE_C_SIZE_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "O1_size.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPL_AUX_RANGE_C_O1_SIZE_HPP_INCLUDED" variable (:constant-flag t) nil [61 103])
+            ("boost/mpl/O1_size_fwd.hpp" include (:system-flag t) nil [399 435])
+            ("boost/mpl/aux_/range_c/size.hpp" include (:system-flag t) nil [436 478])
+            ("boost/mpl/aux_/range_c/tag.hpp" include (:system-flag t) nil [479 520])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("O1_size_impl" type
+                               (:type "struct"
+                                :superclasses 
+                                  ( ("size_impl" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  
+                                :template-specifier 
+                                  ( ("aux::half_open_range_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [557 664]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [540 667]))                  
+                :type "namespace")
+                nil [522 668]))          
+      :file "O1_size.hpp"
+      :pointmax 723
+      :fsize 722
+      :lastmodtime '(21727 6086 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPL_AUX_RANGE_C_O1_SIZE_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "empty.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPL_AUX_RANGE_C_EMPTY_HPP_INCLUDED" variable (:constant-flag t) nil [59 99])
+            ("boost/mpl/empty_fwd.hpp" include (:system-flag t) nil [395 429])
+            ("boost/mpl/equal_to.hpp" include (:system-flag t) nil [430 463])
+            ("boost/mpl/aux_/range_c/tag.hpp" include (:system-flag t) nil [464 505])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("empty_impl" type
+                               (:type "struct"
+                                :template-specifier 
+                                  ( ("aux::half_open_range_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [542 767]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [525 770]))                  
+                :type "namespace")
+                nil [507 771]))          
+      :file "empty.hpp"
+      :pointmax 824
+      :fsize 823
+      :lastmodtime '(21727 6086 0 0)
+      :unmatched-syntax '((punctuation 763 . 764) (semantic-list 756 . 763) (punctuation 750 . 751) (symbol 731 . 737) (punctuation 730 . 731) (punctuation 729 . 730) (symbol 724 . 729) (TYPENAME 715 . 723) (punctuation 713 . 714) (symbol 695 . 700) (punctuation 694 . 695) (punctuation 693 . 694) (symbol 688 . 693) (TYPENAME 679 . 687) (punctuation 663 . 664) (symbol 655 . 663) (punctuation 653 . 654) (symbol 639 . 644) (STRUCT 632 . 638) (punctuation 630 . 631) (symbol 624 . 629) (TYPENAME 615 . 623) (punctuation 613 . 614) (TEMPLATE 605 . 613))
+      :lexical-table 
+        '(("BOOST_MPL_AUX_RANGE_C_EMPTY_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "iterator.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPL_AUX_RANGE_C_ITERATOR_HPP_INCLUDED" variable (:constant-flag t) nil [62 105])
+            ("boost/mpl/iterator_tags.hpp" include (:system-flag t) nil [401 439])
+            ("boost/mpl/advance_fwd.hpp" include (:system-flag t) nil [440 476])
+            ("boost/mpl/distance_fwd.hpp" include (:system-flag t) nil [477 514])
+            ("boost/mpl/next_prior.hpp" include (:system-flag t) nil [515 550])
+            ("boost/mpl/deref.hpp" include (:system-flag t) nil [551 581])
+            ("boost/mpl/plus.hpp" include (:system-flag t) nil [582 611])
+            ("boost/mpl/minus.hpp" include (:system-flag t) nil [612 642])
+            ("boost/mpl/aux_/value_wknd.hpp" include (:system-flag t) nil [643 683])
+            ("boost/mpl/aux_/config/ctps.hpp" include (:system-flag t) nil [684 725])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("r_iter" type
+                               (:template 
+                                  ( ("N" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("tag" type
+                                       (:typedef ("aux::r_iter_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [861 889])
+                                    ("category" type
+                                       (:typedef ("random_access_iterator_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [894 938])
+                                    ("type" type
+                                       (:typedef ("N" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [943 958]))                                  )
+                                (reparse-symbol namespacesubparts) [818 1137])
+                            ("next" type
+                               (:template 
+                                  ( ("N" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" variable (:type "int") (reparse-symbol classsubparts) [1305 1310]))                                  
+                                :template-specifier 
+                                  ( ("r_iter" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1195 1313])
+                            ("prior" type
+                               (:template 
+                                  ( ("N" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" variable (:type "int") (reparse-symbol classsubparts) [1427 1432]))                                  
+                                :template-specifier 
+                                  ( ("r_iter" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1315 1435])
+                            ("advance_impl" type
+                               (:type "struct"
+                                :members 
+                                  ( ("apply" type
+                                       (:template 
+                                          ( ("Iter" type (:type "class") nil nil)
+                                            ("Dist" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("n_" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1598 1606])
+                                            ("m_" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1809 1817])
+                                            ("result_" variable (:type "int") (reparse-symbol classsubparts) [2301 2309])
+                                            ("type" type
+                                               (:typedef ("r_iter" type
+                                                     (:template-specifier 
+                                                        ( ("result_" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2327 2356]))                                          )
+                                        (reparse-symbol classsubparts) [1500 2363]))                                  
+                                :template-specifier 
+                                  ( ("aux::r_iter_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1446 2366])
+                            ("distance_impl" type
+                               (:type "struct"
+                                :template-specifier 
+                                  ( ("aux::r_iter_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2368 2595]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [745 2598]))                  
+                :type "namespace")
+                nil [727 2599]))          
+      :file "iterator.hpp"
+      :pointmax 2655
+      :fsize 2654
+      :lastmodtime '(21727 6086 0 0)
+      :unmatched-syntax '((punctuation 2591 . 2592) (semantic-list 2584 . 2591) (punctuation 2578 . 2579) (symbol 2561 . 2565) (punctuation 2560 . 2561) (punctuation 2559 . 2560) (symbol 2554 . 2559) (TYPENAME 2545 . 2553) (punctuation 2543 . 2544) (symbol 2526 . 2530) (punctuation 2525 . 2526) (punctuation 2524 . 2525) (symbol 2519 . 2524) (TYPENAME 2510 . 2518) (punctuation 2494 . 2495) (symbol 2489 . 2494) (punctuation 2487 . 2488) (symbol 2473 . 2478) (STRUCT 2466 . 2472) (punctuation 2464 . 2465) (symbol 2458 . 2463) (TYPENAME 2449 . 2457) (punctuation 2447 . 2448) (symbol 2442 . 2447) (TYPENAME 2433 . 2441) (punctuation 2431 . 2432) (TEMPLATE 2423 . 2431) (punctuation 2299 . 2300) (symbol 2280 . 2285) (punctuation 2279 . 2280) (punctuation 2278 . 2279) (semantic-list 2274 . 2278) (symbol 2250 . 2274) (punctuation 2248 . 2249) (symbol 2231 . 2235) (punctuation 2230 . 2231) (punctuation 2229 . 2230) (punctuation 2228 . 2229) (symbol 2226 . 2228) (punctuation 2225 . 2226) (symbol 2210 . 2225) (punctuation 2209 . 2210) (punctuation 2208 . 2209) (symbol 2205 . 2208) (TYPENAME 2196 . 2204) (punctuation 2179 . 2180) (symbol 2169 . 2179) (TYPEDEF 2161 . 2168) (punctuation 1808 . 1809) (punctuation 1807 . 1808) (punctuation 1806 . 1807) (symbol 1802 . 1806) (punctuation 1801 . 1802) (symbol 1799 . 1801) (punctuation 1798 . 1799) (symbol 1794 . 1798) (TYPENAME 1785 . 1793) (TYPEDEF 1777 . 1784) (punctuation 1597 . 1598) (punctuation 1596 . 1597) (punctuation 1595 . 1596) (symbol 1591 . 1595) (punctuation 1590 . 1591) (symbol 1585 . 1590) (TYPENAME 1576 . 1584) (TYPEDEF 1568 . 1575) (punctuation 1425 . 1426) (symbol 1420 . 1424) (punctuation 1419 . 1420) (punctuation 1418 . 1419) (punctuation 1417 . 1418) (symbol 1416 . 1417) (punctuation 1415 . 1416) (symbol 1410 . 1415) (punctuation 1409 . 1410) (punctuation 1408 . 1409) (symbol 1405 . 1408) (TYPENAME 1396 . 1404) (punctuation 1394 . 1395) (symbol 1388 . 1394) (TYPEDEF 1380 . 1387) (punctuation 1303 . 1304) (symbol 1298 . 1302) (punctuation 1297 . 1298) (punctuation 1296 . 1297) (punctuation 1295 . 1296) (symbol 1294 . 1295) (punctuation 1293 . 1294) (symbol 1289 . 1293) (punctuation 1288 . 1289) (punctuation 1287 . 1288) (symbol 1284 . 1287) (TYPENAME 1275 . 1283) (punctuation 1273 . 1274) (symbol 1267 . 1273) (TYPEDEF 1259 . 1266))
+      :lexical-table 
+        '(("BOOST_MPL_AUX_RANGE_C_ITERATOR_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "tag.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPL_AUX_RANGE_C_TAG_HPP_INCLUDED" variable (:constant-flag t) nil [57 95])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("aux" type
+                               (:members 
+                                  ( ("half_open_range_tag" type
+                                       (:prototype t
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [442 469])
+                                    ("r_iter_tag" type
+                                       (:prototype t
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [470 488]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [425 491]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [409 492]))                  
+                :type "namespace")
+                nil [391 493]))          
+      :file "tag.hpp"
+      :pointmax 544
+      :fsize 543
+      :lastmodtime '(21727 6086 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPL_AUX_RANGE_C_TAG_HPP_INCLUDED")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!mpl!aux_!range_c!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

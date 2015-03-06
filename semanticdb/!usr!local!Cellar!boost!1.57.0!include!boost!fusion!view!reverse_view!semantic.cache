@@ -1,0 +1,229 @@
+;; Object reverse_view/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "reverse_view/"
+  :tables
+  (list
+    (semanticdb-table "reverse_view.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_REVERSE_VIEW_07202005_0836" variable (:constant-flag t) nil [418 451])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [453 495])
+            ("boost/fusion/support/detail/access.hpp" include (:system-flag t) nil [496 545])
+            ("boost/fusion/support/is_view.hpp" include (:system-flag t) nil [546 589])
+            ("boost/fusion/support/category_of.hpp" include (:system-flag t) nil [590 637])
+            ("boost/fusion/view/reverse_view/reverse_view_iterator.hpp" include (:system-flag t) nil [638 705])
+            ("boost/fusion/view/reverse_view/detail/begin_impl.hpp" include (:system-flag t) nil [706 769])
+            ("boost/fusion/view/reverse_view/detail/end_impl.hpp" include (:system-flag t) nil [770 831])
+            ("boost/fusion/view/reverse_view/detail/at_impl.hpp" include (:system-flag t) nil [832 892])
+            ("boost/fusion/view/reverse_view/detail/value_at_impl.hpp" include (:system-flag t) nil [893 959])
+            ("boost/fusion/support/sequence_base.hpp" include (:system-flag t) nil [960 1009])
+            ("boost/fusion/sequence/intrinsic/begin.hpp" include (:system-flag t) nil [1010 1062])
+            ("boost/fusion/sequence/intrinsic/end.hpp" include (:system-flag t) nil [1063 1113])
+            ("boost/fusion/sequence/intrinsic/size.hpp" include (:system-flag t) nil [1114 1165])
+            ("boost/type_traits/is_base_of.hpp" include (:system-flag t) nil [1166 1209])
+            ("boost/static_assert.hpp" include (:system-flag t) nil [1210 1244])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [1245 1274])
+            ("boost/mpl/eval_if.hpp" include (:system-flag t) nil [1275 1307])
+            ("boost/mpl/inherit.hpp" include (:system-flag t) nil [1308 1340])
+            ("boost/mpl/identity.hpp" include (:system-flag t) nil [1341 1374])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("reverse_view_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1417 1441])
+                            ("fusion_sequence_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1446 1473])
+                            ("reverse_view" type
+                               (:template 
+                                  ( ("Sequence" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("fusion_tag" type
+                                       (:typedef ("reverse_view_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1587 1623])
+                                    ("tag" type
+                                       (:typedef ("fusion_sequence_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1632 1664])
+                                    ("is_view" type
+                                       (:typedef ("mpl::true_" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1703 1730])
+                                    ("seq_type" type
+                                       (:typedef ("Sequence" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1740 1766])
+                                    ("category" type
+                                       (:typedef ("traits::category_of::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1775 1837])
+                                    ("first_type" type
+                                       (:typedef ("result_of::begin::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1846 1907])
+                                    ("last_type" type
+                                       (:typedef ("result_of::end::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1916 1974])
+                                    ("size" type
+                                       (:typedef ("result_of::size::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1983 2037])
+                                    ("BOOST_STATIC_ASSERT" function
+                                       (:prototype-flag t
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [2047 2210])
+                                    ("reverse_view" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("in_seq" variable
+                                               (:reference 1
+                                                :type ("Sequence" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2266 2283]))                                          
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2220 2320])
+                                    ("first" function (:type ("first_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2363 2418])
+                                    ("last" function (:type ("last_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2460 2511])
+                                    ("seq" variable
+                                       (:typemodifiers ("typename")
+                                        :type ("mpl::if_::type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2520 2596])
+                                    ("private" label nil (reparse-symbol classsubparts) [2602 2610])
+                                    ("=" function
+                                       (:prototype-flag t
+                                        :operator-flag t
+                                        :arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("reverse_view" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2726 2746]))                                          
+                                        :type ("reverse_view" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2701 2747]))                                  
+                                :superclasses 
+                                  ( ("sequence_base" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1479 2754]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1394 2756]))                  
+                :type "namespace")
+                nil [1376 2757]))          
+      :file "reverse_view.hpp"
+      :pointmax 2768
+      :fsize 2767
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((symbol 2427 . 2451) (symbol 2330 . 2354) (semantic-list 2067 . 2208))
+      :lexical-table 
+        '(("FUSION_REVERSE_VIEW_07202005_0836")
+          )
+)
+    (semanticdb-table "reverse_view_iterator.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_REVERSE_VIEW_ITERATOR_07202005_0835" variable (:constant-flag t) nil [426 468])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [470 512])
+            ("boost/fusion/support/iterator_base.hpp" include (:system-flag t) nil [513 562])
+            ("boost/fusion/support/category_of.hpp" include (:system-flag t) nil [563 610])
+            ("boost/fusion/iterator/mpl/convert_iterator.hpp" include (:system-flag t) nil [611 668])
+            ("boost/fusion/adapted/mpl/mpl_iterator.hpp" include (:system-flag t) nil [669 721])
+            ("boost/fusion/view/reverse_view/detail/deref_impl.hpp" include (:system-flag t) nil [722 785])
+            ("boost/fusion/view/reverse_view/detail/next_impl.hpp" include (:system-flag t) nil [786 848])
+            ("boost/fusion/view/reverse_view/detail/prior_impl.hpp" include (:system-flag t) nil [849 912])
+            ("boost/fusion/view/reverse_view/detail/advance_impl.hpp" include (:system-flag t) nil [913 978])
+            ("boost/fusion/view/reverse_view/detail/distance_impl.hpp" include (:system-flag t) nil [979 1045])
+            ("boost/fusion/view/reverse_view/detail/value_of_impl.hpp" include (:system-flag t) nil [1046 1112])
+            ("boost/fusion/view/reverse_view/detail/deref_data_impl.hpp" include (:system-flag t) nil [1113 1181])
+            ("boost/fusion/view/reverse_view/detail/value_of_data_impl.hpp" include (:system-flag t) nil [1182 1253])
+            ("boost/fusion/view/reverse_view/detail/key_of_impl.hpp" include (:system-flag t) nil [1254 1318])
+            ("boost/type_traits/is_base_of.hpp" include (:system-flag t) nil [1319 1362])
+            ("boost/static_assert.hpp" include (:system-flag t) nil [1363 1397])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("reverse_view_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1440 1473])
+                            ("reverse_view_iterator" type
+                               (:template 
+                                  ( ("First" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("converter" type
+                                       (:typedef ("convert_iterator" type
+                                             (:template-specifier 
+                                                ( ("First" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1607 1649])
+                                    ("first_type" type
+                                       (:typedef ("converter::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1658 1702])
+                                    ("fusion_tag" type
+                                       (:typedef ("reverse_view_iterator_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1711 1756])
+                                    ("category" type
+                                       (:typedef ("traits::category_of::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1765 1829])
+                                    ("BOOST_STATIC_ASSERT" function
+                                       (:prototype-flag t
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [1839 1964])
+                                    ("reverse_view_iterator" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("in_first" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("First" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2029 2051]))                                          
+                                        :type ("BOOST_FUSION_GPU_ENABLED" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [1974 2101])
+                                    ("first" variable (:type ("first_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2111 2128])
+                                    ("private" label nil (reparse-symbol classsubparts) [2134 2142])
+                                    ("=" function
+                                       (:prototype-flag t
+                                        :operator-flag t
+                                        :arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("reverse_view_iterator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2267 2296]))                                          
+                                        :type ("reverse_view_iterator" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2233 2297]))                                  
+                                :superclasses 
+                                  ( ("iterator_base" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1479 2304]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1417 2306]))                  
+                :type "namespace")
+                nil [1399 2307]))          
+      :file "reverse_view_iterator.hpp"
+      :pointmax 2317
+      :fsize 2316
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((semantic-list 1859 . 1962))
+      :lexical-table 
+        '(("FUSION_REVERSE_VIEW_ITERATOR_07202005_0835")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!view!reverse_view!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

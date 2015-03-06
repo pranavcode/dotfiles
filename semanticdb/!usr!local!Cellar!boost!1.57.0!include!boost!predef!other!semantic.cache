@@ -1,0 +1,48 @@
+;; Object other/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "other/"
+  :tables
+  (list
+    (semanticdb-table "endian.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_ENDIAN_H" variable (:constant-flag t) nil [225 246])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [248 288])
+            ("boost/predef/make.h" include (:system-flag t) nil [289 319])
+            ("boost/predef/library/c/gnu.h" include (:system-flag t) nil [320 359])
+            ("boost/predef/os/macos.h" include (:system-flag t) nil [360 394])
+            ("boost/predef/os/bsd.h" include (:system-flag t) nil [395 427])
+            ("BOOST_ENDIAN_BIG_BYTE" variable (:constant-flag t) nil [1617 1638])
+            ("BOOST_ENDIAN_BIG_WORD" variable (:constant-flag t) nil [1682 1703])
+            ("BOOST_ENDIAN_LITTLE_BYTE" variable (:constant-flag t) nil [1747 1771])
+            ("BOOST_ENDIAN_LITTLE_WORD" variable (:constant-flag t) nil [1815 1839])
+            ("BOOST_ENDIAN_LITTLE_BYTE" variable (:constant-flag t) nil [4795 4819])
+            ("boost/predef/architecture.h" include (:system-flag t) nil [5088 5129])
+            ("BOOST_ENDIAN_BIG_BYTE_NAME" variable (:constant-flag t) nil [6454 6480])
+            ("BOOST_ENDIAN_BIG_WORD_NAME" variable (:constant-flag t) nil [6515 6541])
+            ("BOOST_ENDIAN_LITTLE_BYTE_NAME" variable (:constant-flag t) nil [6576 6605])
+            ("BOOST_ENDIAN_LITTLE_WORD_NAME" variable (:constant-flag t) nil [6643 6672])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [6703 6740])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [6818 6855])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [6933 6970])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [7054 7091]))          
+      :file "endian.h"
+      :pointmax 7183
+      :fsize 7182
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 7117 . 7173) (symbol 7092 . 7117) (string "\"Word-Swapped Little-Endian\"" 7143 . 7172) (semantic-list 6996 . 7052) (symbol 6971 . 6996) (string "\"Byte-Swapped Little-Endian\"" 7022 . 7051) (semantic-list 6881 . 6931) (symbol 6856 . 6881) (string "\"Word-Swapped Big-Endian\"" 6904 . 6930) (semantic-list 6766 . 6816) (symbol 6741 . 6766) (string "\"Byte-Swapped Big-Endian\"" 6789 . 6815) (symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 5850 . 5874) (punctuation 5849 . 5850) (punctuation 5847 . 5848) (punctuation 5846 . 5847) (symbol "BOOST_VERSION_NUMBER_AVAILABLE" 5821 . 5845) (punctuation 5820 . 5821) (symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 5063 . 5087) (punctuation 5062 . 5063) (punctuation 5060 . 5061) (punctuation 5059 . 5060) (symbol "BOOST_VERSION_NUMBER_AVAILABLE" 5034 . 5058) (punctuation 5033 . 5034) (semantic-list 4728 . 4740) (symbol 4721 . 4728) (punctuation 4709 . 4710) (punctuation 4708 . 4709) (semantic-list 4697 . 4707) (symbol 4690 . 4697) (punctuation 4678 . 4679) (punctuation 4677 . 4678) (semantic-list 4667 . 4676) (symbol 4660 . 4667) (punctuation 4648 . 4649) (punctuation 4647 . 4648) (semantic-list 4631 . 4646) (symbol 4624 . 4631) (punctuation 4612 . 4613) (punctuation 4611 . 4612) (semantic-list 4597 . 4610) (symbol 4590 . 4597) (punctuation 4578 . 4579) (punctuation 4577 . 4578) (semantic-list 4565 . 4576) (symbol 4558 . 4565) (punctuation 4546 . 4547) (punctuation 4545 . 4546) (semantic-list 4494 . 4544) (symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 4393 . 4417) (semantic-list 4530 . 4543) (punctuation 4522 . 4523) (punctuation 4520 . 4521) (punctuation 4519 . 4520) (semantic-list 4502 . 4518) (punctuation 4392 . 4393) (punctuation 4390 . 4391) (punctuation 4389 . 4390) (symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 4364 . 4388) (punctuation 4363 . 4364) (symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 3781 . 3805) (punctuation 3780 . 3781) (punctuation 3778 . 3779) (punctuation 3777 . 3778) (symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 3752 . 3776) (punctuation 3751 . 3752) (symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 2097 . 2121) (punctuation 2096 . 2097) (punctuation 2094 . 2095) (punctuation 2093 . 2094) (symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 2068 . 2092) (punctuation 2067 . 2068))
+      :lexical-table 
+        '(("BOOST_ENDIAN_LITTLE_WORD" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 1840 . 1874)))
+          ("BOOST_PREDEF_ENDIAN_H")
+          ("BOOST_ENDIAN_BIG_BYTE_NAME" . ((string "\"Byte-Swapped Big-Endian\"" 6481 . 6506)))
+          ("BOOST_ENDIAN_LITTLE_BYTE_NAME" . ((string "\"Byte-Swapped Little-Endian\"" 6606 . 6634)))
+          ("BOOST_ENDIAN_BIG_WORD_NAME" . ((string "\"Word-Swapped Big-Endian\"" 6542 . 6567)))
+          ("BOOST_ENDIAN_LITTLE_WORD_NAME" . ((string "\"Word-Swapped Little-Endian\"" 6673 . 6701)))
+          ("BOOST_ENDIAN_BIG_BYTE" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 1639 . 1673)))
+          ("BOOST_ENDIAN_BIG_WORD" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 1704 . 1738)))
+          ("BOOST_ENDIAN_LITTLE_BYTE" . ((symbol "BOOST_VERSION_NUMBER_AVAILABLE" 4820 . 4850)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!predef!other!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

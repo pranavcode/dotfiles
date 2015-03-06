@@ -1,0 +1,71 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "std_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_CONTAINER_DETAIL_STD_FWD_HPP" variable (:constant-flag t) nil [477 511])
+            ("BOOST_CONTAINER_STD_NS_BEG" variable (:constant-flag t) nil [1099 1125])
+            ("BOOST_CONTAINER_STD_NS_END" variable (:constant-flag t) nil [1152 1178])
+            ("std" type
+               (:members 
+                  ( ("allocator" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "class"
+                        :prototype t)
+                        (reparse-symbol namespacesubparts) [1217 1251])
+                    ("less" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :prototype t)
+                        (reparse-symbol namespacesubparts) [1253 1283])
+                    ("pair" type
+                       (:template 
+                          ( ("T1" type (:type "class") nil nil)
+                            ("T2" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :prototype t)
+                        (reparse-symbol namespacesubparts) [1285 1326])
+                    ("char_traits" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :prototype t)
+                        (reparse-symbol namespacesubparts) [1328 1365])
+                    ("input_iterator_tag" type
+                       (:prototype t
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [1367 1393])
+                    ("forward_iterator_tag" type
+                       (:prototype t
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [1394 1422])
+                    ("bidirectional_iterator_tag" type
+                       (:prototype t
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [1423 1457])
+                    ("random_access_iterator_tag" type
+                       (:prototype t
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [1458 1492]))                  
+                :type "namespace")
+                nil [1189 1521]))          
+      :file "std_fwd.hpp"
+      :pointmax 1741
+      :fsize 1740
+      :lastmodtime '(21727 6072 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_CONTAINER_DETAIL_STD_FWD_HPP")
+          ("BOOST_CONTAINER_STD_NS_END" . ((close-paren "}" 1179 . 1180)))
+          ("BOOST_CONTAINER_STD_NS_BEG" . 
+              ((NAMESPACE "namespace" 1126 . 1135) (symbol "std" 1136 . 1139) (open-paren "{" 1139 . 1140)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!container!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

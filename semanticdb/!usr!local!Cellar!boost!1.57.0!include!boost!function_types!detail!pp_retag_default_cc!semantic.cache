@@ -1,0 +1,125 @@
+;; Object pp_retag_default_cc/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "pp_retag_default_cc/"
+  :tables
+  (list
+    (semanticdb-table "preprocessed.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("boost" type
+               (:members 
+                  ( ("function_types" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("selector_bits" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil)
+                                            ("RefTag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("BOOST_STATIC_CONSTANT" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type ("bits_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [539 546])
+                                                    ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [547 689]))                                                  
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [517 691]))                                          )
+                                        (reparse-symbol namespacesubparts) [460 694])
+                                    ("default_cc_tag" type
+                                       (:template 
+                                          ( ("bits_t" type nil nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [695 747])
+                                    ("default_cc_tag" type
+                                       (:template 
+                                          ( ("bits_t" type nil nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("bits" type
+                                               (:typedef ("null_tag::bits" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [992 1020])
+                                            ("mask" type
+                                               (:typedef ("null_tag::mask" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1021 1049]))                                          )
+                                        (reparse-symbol namespacesubparts) [938 1052])
+                                    ("test_class" type
+                                       (:prototype t
+                                        :type "class")
+                                        (reparse-symbol namespacesubparts) [1053 1070])
+                                    ("cc_mask_constant" type
+                                       (:typedef ("constant" type
+                                             (:template-specifier (("0x00ff8000"))
+                                              :type "class")
+                                              nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol namespacesubparts) [1071 1117])
+                                    ("default_cc_tag" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("tester" function
+                                               (:prototype-flag t
+                                                :function-pointer t
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1170 1188])
+                                            ("bits" variable (:type "int") (reparse-symbol classsubparts) [1254 1259])
+                                            ("mask" type
+                                               (:typedef ("cc_mask_constant" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1260 1290]))                                          
+                                        :template-specifier (("33282")))
+                                        (reparse-symbol namespacesubparts) [1118 1293])
+                                    ("default_cc_tag" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("tester" function
+                                               (:prototype-flag t
+                                                :function-pointer t
+                                                :arguments 
+                                                  ( ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [1363 1368]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1346 1369])
+                                            ("bits" variable (:type "int") (reparse-symbol classsubparts) [1435 1440])
+                                            ("mask" type
+                                               (:typedef ("cc_mask_constant" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1441 1471]))                                          
+                                        :template-specifier (("33026")))
+                                        (reparse-symbol namespacesubparts) [1294 1474])
+                                    ("default_cc_tag" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("bits" variable (:type "int") (reparse-symbol classsubparts) [1623 1628])
+                                            ("mask" type
+                                               (:typedef ("cc_mask_constant" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1629 1659]))                                          
+                                        :template-specifier (("33312")))
+                                        (reparse-symbol namespacesubparts) [1475 1662])
+                                    ("default_cc_tag" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("bits" variable (:type "int") (reparse-symbol classsubparts) [1816 1821])
+                                            ("mask" type
+                                               (:typedef ("cc_mask_constant" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1822 1852]))                                          
+                                        :template-specifier (("33056")))
+                                        (reparse-symbol namespacesubparts) [1663 1855]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [441 1857]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [414 1859]))                  
+                :type "namespace")
+                nil [396 1861]))          
+      :file "preprocessed.hpp"
+      :pointmax 1863
+      :fsize 1862
+      :lastmodtime '(21727 6083 0 0)
+      :unmatched-syntax '((punctuation 1814 . 1815) (symbol 1798 . 1814) (punctuation 1797 . 1798) (symbol 1793 . 1797) (punctuation 1792 . 1793) (punctuation 1791 . 1792) (punctuation 1789 . 1790) (symbol 1783 . 1789) (punctuation 1782 . 1783) (symbol 1772 . 1782) (punctuation 1771 . 1772) (symbol 1764 . 1771) (punctuation 1763 . 1764) (punctuation 1762 . 1763) (symbol 1759 . 1762) (TYPEDEF 1751 . 1758) (punctuation 1749 . 1750) (semantic-list 1742 . 1749) (semantic-list 1720 . 1742) (VOID 1715 . 1719) (TYPEDEF 1707 . 1714) (punctuation 1621 . 1622) (symbol 1605 . 1621) (punctuation 1604 . 1605) (symbol 1600 . 1604) (punctuation 1599 . 1600) (punctuation 1598 . 1599) (punctuation 1596 . 1597) (symbol 1590 . 1596) (punctuation 1589 . 1590) (symbol 1579 . 1589) (punctuation 1578 . 1579) (symbol 1571 . 1578) (punctuation 1570 . 1571) (punctuation 1569 . 1570) (symbol 1566 . 1569) (TYPEDEF 1558 . 1565) (punctuation 1556 . 1557) (semantic-list 1554 . 1556) (semantic-list 1532 . 1554) (VOID 1527 . 1531) (TYPEDEF 1519 . 1526) (punctuation 1433 . 1434) (symbol 1417 . 1433) (punctuation 1416 . 1417) (symbol 1412 . 1416) (punctuation 1411 . 1412) (punctuation 1410 . 1411) (punctuation 1408 . 1409) (symbol 1402 . 1408) (punctuation 1401 . 1402) (symbol 1391 . 1401) (punctuation 1390 . 1391) (symbol 1383 . 1390) (punctuation 1382 . 1383) (punctuation 1381 . 1382) (symbol 1378 . 1381) (TYPEDEF 1370 . 1377) (TYPEDEF 1338 . 1345) (punctuation 1252 . 1253) (symbol 1236 . 1252) (punctuation 1235 . 1236) (symbol 1231 . 1235) (punctuation 1230 . 1231) (punctuation 1229 . 1230) (punctuation 1227 . 1228) (symbol 1221 . 1227) (punctuation 1220 . 1221) (symbol 1210 . 1220) (punctuation 1209 . 1210) (symbol 1202 . 1209) (punctuation 1201 . 1202) (punctuation 1200 . 1201) (symbol 1197 . 1200) (TYPEDEF 1189 . 1196) (TYPEDEF 1162 . 1169) (punctuation 936 . 937) (semantic-list 933 . 936) (punctuation 931 . 932) (punctuation 929 . 930) (symbol 923 . 928) (punctuation 922 . 923) (punctuation 921 . 922) (punctuation 919 . 920) (symbol 913 . 919) (punctuation 912 . 913) (symbol 909 . 912) (punctuation 908 . 909) (symbol 895 . 908) (punctuation 894 . 895) (punctuation 893 . 894) (symbol 887 . 893) (punctuation 886 . 887) (punctuation 885 . 886) (symbol 871 . 885) (punctuation 870 . 871) (punctuation 869 . 870) (symbol 864 . 869) (punctuation 863 . 864) (punctuation 862 . 863) (punctuation 859 . 860) (symbol 845 . 859) (punctuation 844 . 845) (punctuation 843 . 844) (symbol 837 . 843) (punctuation 835 . 836) (symbol 832 . 835) (punctuation 830 . 831) (symbol 817 . 829) (punctuation 816 . 817) (punctuation 815 . 816) (symbol 809 . 815) (punctuation 807 . 808) (symbol 790 . 806) (STRUCT 783 . 789) (punctuation 781 . 782) (symbol 775 . 781) (CLASS 769 . 774) (punctuation 767 . 768) (symbol 764 . 767) (CLASS 758 . 763) (punctuation 757 . 758) (TEMPLATE 749 . 757))))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!function_types!detail!pp_retag_default_cc!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

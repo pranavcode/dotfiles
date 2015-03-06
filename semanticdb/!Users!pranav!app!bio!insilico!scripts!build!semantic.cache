@@ -1,0 +1,67 @@
+;; Object build/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "build/"
+  :tables
+  (list
+    (semanticdb-table "gentest.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("random" include (:system-flag t) nil [40 57])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [59 79])
+            ("neurons" variable
+               (:default-value "{ 0, 0, 1, 1, 2, 2, 2 }"
+                :type ("vector" type
+                     (:template-specifier 
+                        ( ("int" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [81 130])
+            ("STARTTIME" variable
+               (:constant-flag t
+                :default-value "0.0"
+                :type "double")
+                nil [131 160])
+            ("ENDTIME" variable
+               (:constant-flag t
+                :default-value "100.0"
+                :type "double")
+                nil [161 192])
+            ("STEPSIZE" variable
+               (:constant-flag t
+                :default-value "0.05"
+                :type "double")
+                nil [193 223])
+            ("rand" function
+               (:arguments 
+                  ( ("min" variable (:type "double") (reparse-symbol arg-sub-list) [237 248])
+                    ("max" variable (:type "double") (reparse-symbol arg-sub-list) [249 260]))                  
+                :type "double")
+                nil [225 376])
+            ("rand" function
+               (:arguments 
+                  ( ("max" variable (:type "double") (reparse-symbol arg-sub-list) [390 401]))                  
+                :type "double")
+                nil [378 428])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [439 448])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [449 462]))                  
+                :type "int")
+                nil [430 805]))          
+      :file "gentest.cpp"
+      :pointmax 806
+      :fsize 787
+      :lastmodtime '(21750 43720 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!pranav!app!bio!insilico!scripts!build!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

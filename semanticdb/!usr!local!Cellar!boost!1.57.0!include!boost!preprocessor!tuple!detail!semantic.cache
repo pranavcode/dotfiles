@@ -1,0 +1,22 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "is_single_return.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_TUPLE_DETAIL_IS_SINGLE_RETURN_HPP" variable (:constant-flag t) nil [775 827])
+            ("boost/preprocessor/config/config.hpp" include (:system-flag t) nil [830 878]))          
+      :file "is_single_return.hpp"
+      :pointmax 1376
+      :fsize 1375
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((punctuation 1307 . 1308) (punctuation 921 . 922) (punctuation 881 . 882) (punctuation 879 . 880) (punctuation 828 . 829) (punctuation 702 . 703) (punctuation 644 . 645) (punctuation 642 . 643) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PREPROCESSOR_TUPLE_DETAIL_IS_SINGLE_RETURN_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!preprocessor!tuple!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,76 @@
+;; Object SquidAxon_HH1952/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "SquidAxon_HH1952/"
+  :tables
+  (list
+    (semanticdb-table "main.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("core/configuration.hpp" include nil nil [951 984])
+            ("core/engine.hpp" include nil nil [985 1011])
+            ("core/injector.hpp" include nil nil [1012 1040])
+            ("neuron/N_SquidAxon_HH1952.hpp" include nil nil [1042 1082])
+            ("synapse/S_DefaultSynapse.hpp" include nil nil [1083 1122])
+            ("boost/numeric/odeint.hpp" include (:system-flag t) nil [1124 1159])
+            ("fstream" include (:system-flag t) nil [1161 1179])
+            ("iostream" include (:system-flag t) nil [1180 1199])
+            ("iomanip" include (:system-flag t) nil [1200 1218])
+            ("string" include (:system-flag t) nil [1219 1236])
+            ("vector" include (:system-flag t) nil [1237 1254])
+            ("insilico" using (:type ("insilico" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [1256 1281])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [1282 1302])
+            ("()" function
+               (:operator-flag t
+                :parent "engine"
+                :arguments 
+                  ( ("variables" variable
+                       (:reference 1
+                        :type ("state_type" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1328 1350])
+                    ("dxdt" variable
+                       (:reference 1
+                        :type ("state_type" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1351 1368])
+                    ("time" variable
+                       (:constant-flag t
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1369 1387]))                  
+                :type "void")
+                nil [1304 1785])
+            ("()" function
+               (:operator-flag t
+                :parent "configuration::observer"
+                :arguments 
+                  ( ("variables" variable
+                       (:reference 1
+                        :type ("state_type" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1828 1850])
+                    ("t" variable
+                       (:constant-flag t
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1851 1866]))                  
+                :type "void")
+                nil [1787 2124])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2135 2144])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2145 2157]))                  
+                :type "int")
+                nil [2126 2492]))          
+      :file "main.cpp"
+      :pointmax 2493
+      :fsize 2492
+      :lastmodtime '(21750 29000 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!pranav!app!bio!insilico!examples!SquidAxon_HH1952!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

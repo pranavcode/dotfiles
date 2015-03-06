@@ -1,0 +1,72 @@
+;; Object generation/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "generation/"
+  :tables
+  (list
+    (semanticdb-table "make_vector.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_MAKE_VECTOR_07162005_0243" variable (:constant-flag t) nil [446 478])
+            ("boost/preprocessor/iterate.hpp" include (:system-flag t) nil [480 521])
+            ("boost/preprocessor/repetition/enum_params.hpp" include (:system-flag t) nil [522 578])
+            ("boost/preprocessor/repetition/enum_binary_params.hpp" include (:system-flag t) nil [579 642])
+            ("boost/preprocessor/repetition/enum_params_with_a_default.hpp" include (:system-flag t) nil [643 714])
+            ("boost/preprocessor/repetition/repeat_from_to.hpp" include (:system-flag t) nil [715 774])
+            ("boost/fusion/container/vector/vector.hpp" include (:system-flag t) nil [775 826])
+            ("boost/fusion/support/detail/as_fusion_element.hpp" include (:system-flag t) nil [827 887])
+            ("boost/fusion/container/generation/detail/preprocessed/make_vector.hpp" include (:system-flag t) nil [944 1024]))          
+      :file "make_vector.hpp"
+      :pointmax 3916
+      :fsize 3915
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_MAKE_VECTOR_07162005_0243")
+          )
+)
+    (semanticdb-table "ignore.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_IGNORE_07192005_0329" variable (:constant-flag t) nil [488 515])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("swallow_assign" type
+                                       (:members 
+                                          ( ("=" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [796 805]))                                                  
+                                                :type ("swallow_assign" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [752 869]))                                          
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [638 880]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [607 886])
+                            ("ignore" variable
+                               (:default-value "detail::swallow_assign()"
+                                :type ("detail::swallow_assign" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [964 1027]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [535 1029]))                  
+                :type "namespace")
+                nil [517 1030]))          
+      :file "ignore.hpp"
+      :pointmax 1039
+      :fsize 1038
+      :lastmodtime '(21727 6084 0 0)
+      :unmatched-syntax '((symbol 715 . 739) (punctuation 701 . 702) (symbol 700 . 701) (TYPENAME 691 . 699) (punctuation 690 . 691) (TEMPLATE 682 . 690))
+      :lexical-table 
+        '(("FUSION_IGNORE_07192005_0329")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!container!generation!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

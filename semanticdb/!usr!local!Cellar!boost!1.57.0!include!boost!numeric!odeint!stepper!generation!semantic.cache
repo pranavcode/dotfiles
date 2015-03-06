@@ -1,0 +1,766 @@
+;; Object generation/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "generation/"
+  :tables
+  (list
+    (semanticdb-table "make_controlled.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_MAKE_CONTROLLED_HPP_INCLUDED" variable (:constant-flag t) nil [526 594])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("get_controller" type
+                                       (:template 
+                                          ( ("Stepper" type (:type "class") nil nil))                                          
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [698 750])
+                                    ("controller_factory" type
+                                       (:template 
+                                          ( ("Stepper" type (:type "class") nil nil)
+                                            ("Controller" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("abs_error" variable
+                                                       (:typemodifiers ("typename")
+                                                        :type ("Stepper::value_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [896 936])
+                                                    ("rel_error" variable
+                                                       (:typemodifiers ("typename")
+                                                        :type ("Stepper::value_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [949 989])
+                                                    ("stepper" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("Stepper" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1002 1026]))                                                  
+                                                :type ("Controller" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [861 1100]))                                          )
+                                        (reparse-symbol namespacesubparts) [784 1103])
+                                    ("result_of" type
+                                       (:members 
+                                          ( ("make_controlled" type
+                                               (:template 
+                                                  ( ("Stepper" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1245 1255]))                                                  )
+                                                (reparse-symbol namespacesubparts) [1134 1262]))                                          
+                                        :type "namespace")
+                                        (reparse-symbol namespacesubparts) [1108 1264])
+                                    ("make_controlled" function
+                                       (:template 
+                                          ( ("Stepper" type (:type "class") nil nil))                                          
+                                        :type ("result_of::make_controlled::type" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("abs_error" variable
+                                               (:typemodifiers ("typename")
+                                                :type ("Stepper::value_type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1371 1411])
+                                            ("rel_error" variable
+                                               (:typemodifiers ("typename")
+                                                :type ("Stepper::value_type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1420 1460])
+                                            ("stepper" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :default-value "Stepper()"
+                                                :type ("Stepper" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1469 1504]))                                          
+                                        :typemodifiers ("typename"))
+                                        (reparse-symbol namespacesubparts) [1267 1791]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [637 1796]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [617 1808]))                  
+                :type "namespace")
+                nil [599 1821]))          
+      :file "make_controlled.hpp"
+      :pointmax 1912
+      :fsize 1911
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax '((punctuation 1244 . 1245) (punctuation 1243 . 1244) (punctuation 1242 . 1243) (symbol 1234 . 1241) (punctuation 1232 . 1233) (symbol 1218 . 1232) (TYPENAME 1209 . 1217) (TYPEDEF 1201 . 1208))
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_MAKE_CONTROLLED_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "make_dense_output.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_MAKE_DENSE_OUTPUT_HPP_INCLUDED" variable (:constant-flag t) nil [532 602])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("get_dense_output" type
+                                       (:template 
+                                          ( ("Stepper" type (:type "class") nil nil))                                          
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [704 758])
+                                    ("dense_output_factory" type
+                                       (:template 
+                                          ( ("Stepper" type (:type "class") nil nil)
+                                            ("DenseOutput" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("abs_error" variable
+                                                       (:typemodifiers ("typename")
+                                                        :type ("Stepper::value_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [910 950])
+                                                    ("rel_error" variable
+                                                       (:typemodifiers ("typename")
+                                                        :type ("Stepper::value_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [963 1003])
+                                                    ("stepper" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("Stepper" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1016 1040]))                                                  
+                                                :type ("DenseOutput" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [874 1115]))                                          )
+                                        (reparse-symbol namespacesubparts) [794 1118])
+                                    ("result_of" type
+                                       (:members 
+                                          ( ("make_dense_output" type
+                                               (:template 
+                                                  ( ("Stepper" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1263 1273]))                                                  )
+                                                (reparse-symbol namespacesubparts) [1148 1280]))                                          
+                                        :type "namespace")
+                                        (reparse-symbol namespacesubparts) [1122 1282])
+                                    ("make_dense_output" function
+                                       (:template 
+                                          ( ("Stepper" type (:type "class") nil nil))                                          
+                                        :type ("result_of::make_dense_output::type" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("abs_error" variable
+                                               (:typemodifiers ("typename")
+                                                :type ("Stepper::value_type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1394 1434])
+                                            ("rel_error" variable
+                                               (:typemodifiers ("typename")
+                                                :type ("Stepper::value_type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1443 1483])
+                                            ("stepper" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :default-value "Stepper()"
+                                                :type ("Stepper" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1492 1526]))                                          
+                                        :typemodifiers ("typename"))
+                                        (reparse-symbol namespacesubparts) [1286 1821]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [642 1827]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [622 1839]))                  
+                :type "namespace")
+                nil [604 1852]))          
+      :file "make_dense_output.hpp"
+      :pointmax 1945
+      :fsize 1944
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax '((punctuation 1262 . 1263) (punctuation 1261 . 1262) (punctuation 1260 . 1261) (symbol 1252 . 1259) (punctuation 1250 . 1251) (symbol 1234 . 1250) (TYPENAME 1225 . 1233) (TYPEDEF 1217 . 1224))
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_MAKE_DENSE_OUTPUT_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "generation_controlled_runge_kutta.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_CONTROLLED_RUNGE_KUTTA_HPP_INCLUDED" variable (:constant-flag t) nil [555 641])
+            ("boost/numeric/odeint/stepper/controlled_runge_kutta.hpp" include (:system-flag t) nil [643 709])
+            ("boost/numeric/odeint/stepper/generation/make_controlled.hpp" include (:system-flag t) nil [710 780])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("controller_factory" type
+                                       (:template 
+                                          ( ("Stepper" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("stepper_type" type
+                                               (:typedef ("Stepper" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [996 1025])
+                                            ("controller_type" type
+                                               (:typedef ("controlled_runge_kutta" type
+                                                     (:template-specifier 
+                                                        ( ("stepper_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1030 1093])
+                                            ("error_checker_type" type
+                                               (:typedef ("controller_type::error_checker_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1098 1170])
+                                            ("value_type" type
+                                               (:typedef ("stepper_type::value_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1175 1228])
+                                            ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("abs_error" variable (:type ("value_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1262 1284])
+                                                    ("rel_error" variable (:type ("value_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1285 1307])
+                                                    ("stepper" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("stepper_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1308 1337]))                                                  
+                                                :type ("controller_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [1234 1438]))                                          
+                                        :template-specifier 
+                                          ( ("Stepper" type nil nil nil)
+                                            ("controlled_runge_kutta" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [891 1441]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [821 1447]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [801 1459]))                  
+                :type "namespace")
+                nil [783 1472]))          
+      :file "generation_controlled_runge_kutta.hpp"
+      :pointmax 1581
+      :fsize 1580
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_CONTROLLED_RUNGE_KUTTA_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "generation_dense_output_runge_kutta.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_DENSE_OUTPUT_RUNGE_KUTTA_HPP_INCLUDED" variable (:constant-flag t) nil [561 649])
+            ("boost/numeric/odeint/stepper/controlled_runge_kutta.hpp" include (:system-flag t) nil [651 717])
+            ("boost/numeric/odeint/stepper/dense_output_runge_kutta.hpp" include (:system-flag t) nil [718 786])
+            ("boost/numeric/odeint/stepper/generation/make_dense_output.hpp" include (:system-flag t) nil [787 859])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("dense_output_factory" type
+                                       (:template 
+                                          ( ("Stepper" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("stepper_type" type
+                                               (:typedef ("Stepper" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1103 1132])
+                                            ("controller_type" type
+                                               (:typedef ("controlled_runge_kutta" type
+                                                     (:template-specifier 
+                                                        ( ("stepper_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1137 1200])
+                                            ("error_checker_type" type
+                                               (:typedef ("controller_type::error_checker_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1205 1277])
+                                            ("value_type" type
+                                               (:typedef ("stepper_type::value_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1282 1335])
+                                            ("dense_output_type" type
+                                               (:typedef ("dense_output_runge_kutta" type
+                                                     (:template-specifier 
+                                                        ( ("controller_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1340 1410])
+                                            ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("abs_error" variable (:type ("value_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1446 1468])
+                                                    ("rel_error" variable (:type ("value_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1469 1491])
+                                                    ("stepper" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("stepper_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1492 1521]))                                                  
+                                                :type ("dense_output_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [1416 1643]))                                          
+                                        :template-specifier 
+                                          ( ("Stepper" type nil nil nil)
+                                            ("dense_output_runge_kutta" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [968 1646]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [899 1653]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [879 1665]))                  
+                :type "namespace")
+                nil [861 1678]))          
+      :file "generation_dense_output_runge_kutta.hpp"
+      :pointmax 1789
+      :fsize 1788
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_DENSE_OUTPUT_RUNGE_KUTTA_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "generation_runge_kutta_cash_karp54_classic.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_RUNGE_KUTTA_CASH_KARP54_CLASSIC_HPP_INCLUDED" variable (:constant-flag t) nil [628 723])
+            ("boost/numeric/odeint/stepper/controlled_runge_kutta.hpp" include (:system-flag t) nil [725 791])
+            ("boost/numeric/odeint/stepper/runge_kutta_cash_karp54_classic.hpp" include (:system-flag t) nil [792 867])
+            ("boost/numeric/odeint/stepper/generation/make_controlled.hpp" include (:system-flag t) nil [868 938])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("get_controller" type
+                                       (:template 
+                                          ( ("State" type (:type "class") nil nil)
+                                            ("Value" type (:type "class") nil nil)
+                                            ("Deriv" type (:type "class") nil nil)
+                                            ("Time" type (:type "class") nil nil)
+                                            ("Algebra" type (:type "class") nil nil)
+                                            ("Operations" type (:type "class") nil nil)
+                                            ("Resize" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("stepper_type" type
+                                               (:typedef ("runge_kutta_cash_karp54_classic" type
+                                                     (:template-specifier 
+                                                        ( ("State" type nil nil nil)
+                                                          ("Value" type nil nil nil)
+                                                          ("Deriv" type nil nil nil)
+                                                          ("Time" type nil nil nil)
+                                                          ("Algebra" type nil nil nil)
+                                                          ("Operations" type nil nil nil)
+                                                          ("Resize" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1289 1406])
+                                            ("type" type
+                                               (:typedef ("controlled_runge_kutta" type
+                                                     (:template-specifier 
+                                                        ( ("stepper_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1411 1463]))                                          
+                                        :template-specifier 
+                                          ( ("runge_kutta_cash_karp54_classic" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1047 1466]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [979 1472]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [959 1484]))                  
+                :type "namespace")
+                nil [941 1497]))          
+      :file "generation_runge_kutta_cash_karp54_classic.hpp"
+      :pointmax 1615
+      :fsize 1614
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_RUNGE_KUTTA_CASH_KARP54_CLASSIC_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "generation_runge_kutta_cash_karp54.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_RUNGE_KUTTA_CASH_KARP54_HPP_INCLUDED" variable (:constant-flag t) nil [577 664])
+            ("boost/numeric/odeint/stepper/controlled_runge_kutta.hpp" include (:system-flag t) nil [666 732])
+            ("boost/numeric/odeint/stepper/runge_kutta_cash_karp54.hpp" include (:system-flag t) nil [733 800])
+            ("boost/numeric/odeint/stepper/generation/make_controlled.hpp" include (:system-flag t) nil [801 871])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("get_controller" type
+                                       (:template 
+                                          ( ("State" type (:type "class") nil nil)
+                                            ("Value" type (:type "class") nil nil)
+                                            ("Deriv" type (:type "class") nil nil)
+                                            ("Time" type (:type "class") nil nil)
+                                            ("Algebra" type (:type "class") nil nil)
+                                            ("Operations" type (:type "class") nil nil)
+                                            ("Resize" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("stepper_type" type
+                                               (:typedef ("runge_kutta_cash_karp54" type
+                                                     (:template-specifier 
+                                                        ( ("State" type nil nil nil)
+                                                          ("Value" type nil nil nil)
+                                                          ("Deriv" type nil nil nil)
+                                                          ("Time" type nil nil nil)
+                                                          ("Algebra" type nil nil nil)
+                                                          ("Operations" type nil nil nil)
+                                                          ("Resize" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1213 1322])
+                                            ("type" type
+                                               (:typedef ("controlled_runge_kutta" type
+                                                     (:template-specifier 
+                                                        ( ("stepper_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1327 1379]))                                          
+                                        :template-specifier 
+                                          ( ("runge_kutta_cash_karp54" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [979 1382]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [912 1389]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [892 1401]))                  
+                :type "namespace")
+                nil [874 1414]))          
+      :file "generation_runge_kutta_cash_karp54.hpp"
+      :pointmax 1524
+      :fsize 1523
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_RUNGE_KUTTA_CASH_KARP54_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "generation_runge_kutta_dopri5.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_RUNGE_KUTTA_DOPRI5_HPP_INCLUDED" variable (:constant-flag t) nil [570 652])
+            ("boost/numeric/odeint/stepper/controlled_runge_kutta.hpp" include (:system-flag t) nil [654 720])
+            ("boost/numeric/odeint/stepper/dense_output_runge_kutta.hpp" include (:system-flag t) nil [721 789])
+            ("boost/numeric/odeint/stepper/runge_kutta_dopri5.hpp" include (:system-flag t) nil [790 852])
+            ("boost/numeric/odeint/stepper/generation/make_controlled.hpp" include (:system-flag t) nil [853 923])
+            ("boost/numeric/odeint/stepper/generation/make_dense_output.hpp" include (:system-flag t) nil [924 996])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("get_controller" type
+                                       (:template 
+                                          ( ("State" type (:type "class") nil nil)
+                                            ("Value" type (:type "class") nil nil)
+                                            ("Deriv" type (:type "class") nil nil)
+                                            ("Time" type (:type "class") nil nil)
+                                            ("Algebra" type (:type "class") nil nil)
+                                            ("Operations" type (:type "class") nil nil)
+                                            ("Resize" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("stepper_type" type
+                                               (:typedef ("runge_kutta_dopri5" type
+                                                     (:template-specifier 
+                                                        ( ("State" type nil nil nil)
+                                                          ("Value" type nil nil nil)
+                                                          ("Deriv" type nil nil nil)
+                                                          ("Time" type nil nil nil)
+                                                          ("Algebra" type nil nil nil)
+                                                          ("Operations" type nil nil nil)
+                                                          ("Resize" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1286 1390])
+                                            ("type" type
+                                               (:typedef ("controlled_runge_kutta" type
+                                                     (:template-specifier 
+                                                        ( ("stepper_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1395 1447]))                                          
+                                        :template-specifier 
+                                          ( ("runge_kutta_dopri5" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1057 1450])
+                                    ("get_dense_output" type
+                                       (:template 
+                                          ( ("State" type (:type "class") nil nil)
+                                            ("Value" type (:type "class") nil nil)
+                                            ("Deriv" type (:type "class") nil nil)
+                                            ("Time" type (:type "class") nil nil)
+                                            ("Algebra" type (:type "class") nil nil)
+                                            ("Operations" type (:type "class") nil nil)
+                                            ("Resize" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("stepper_type" type
+                                               (:typedef ("runge_kutta_dopri5" type
+                                                     (:template-specifier 
+                                                        ( ("State" type nil nil nil)
+                                                          ("Value" type nil nil nil)
+                                                          ("Deriv" type nil nil nil)
+                                                          ("Time" type nil nil nil)
+                                                          ("Algebra" type nil nil nil)
+                                                          ("Operations" type nil nil nil)
+                                                          ("Resize" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1684 1788])
+                                            ("controller_type" type
+                                               (:typedef ("controlled_runge_kutta" type
+                                                     (:template-specifier 
+                                                        ( ("stepper_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1793 1856])
+                                            ("type" type
+                                               (:typedef ("dense_output_runge_kutta" type
+                                                     (:template-specifier 
+                                                        ( ("controller_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1861 1918]))                                          
+                                        :template-specifier 
+                                          ( ("runge_kutta_dopri5" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1453 1921]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1036 1927]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1016 1939]))                  
+                :type "namespace")
+                nil [998 1952]))          
+      :file "generation_runge_kutta_dopri5.hpp"
+      :pointmax 2057
+      :fsize 2056
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_RUNGE_KUTTA_DOPRI5_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "generation_runge_kutta_fehlberg78.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_RUNGE_KUTTA_FEHLBERG78_HPP_INCLUDED" variable (:constant-flag t) nil [574 660])
+            ("boost/numeric/odeint/stepper/controlled_runge_kutta.hpp" include (:system-flag t) nil [662 728])
+            ("boost/numeric/odeint/stepper/runge_kutta_fehlberg78.hpp" include (:system-flag t) nil [729 795])
+            ("boost/numeric/odeint/stepper/generation/make_controlled.hpp" include (:system-flag t) nil [796 866])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("get_controller" type
+                                       (:template 
+                                          ( ("State" type (:type "class") nil nil)
+                                            ("Value" type (:type "class") nil nil)
+                                            ("Deriv" type (:type "class") nil nil)
+                                            ("Time" type (:type "class") nil nil)
+                                            ("Algebra" type (:type "class") nil nil)
+                                            ("Operations" type (:type "class") nil nil)
+                                            ("Resize" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("stepper_type" type
+                                               (:typedef ("runge_kutta_fehlberg78" type
+                                                     (:template-specifier 
+                                                        ( ("State" type nil nil nil)
+                                                          ("Value" type nil nil nil)
+                                                          ("Deriv" type nil nil nil)
+                                                          ("Time" type nil nil nil)
+                                                          ("Algebra" type nil nil nil)
+                                                          ("Operations" type nil nil nil)
+                                                          ("Resize" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1160 1268])
+                                            ("type" type
+                                               (:typedef ("controlled_runge_kutta" type
+                                                     (:template-specifier 
+                                                        ( ("stepper_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1273 1325]))                                          
+                                        :template-specifier 
+                                          ( ("runge_kutta_fehlberg78" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [927 1328]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [906 1335]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [886 1347]))                  
+                :type "namespace")
+                nil [868 1360]))          
+      :file "generation_runge_kutta_fehlberg78.hpp"
+      :pointmax 1469
+      :fsize 1468
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_RUNGE_KUTTA_FEHLBERG78_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "generation_rosenbrock4.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_ROSENBROCK4_HPP_INCLUDED" variable (:constant-flag t) nil [550 625])
+            ("boost/numeric/odeint/stepper/rosenbrock4.hpp" include (:system-flag t) nil [627 682])
+            ("boost/numeric/odeint/stepper/rosenbrock4_controller.hpp" include (:system-flag t) nil [683 749])
+            ("boost/numeric/odeint/stepper/rosenbrock4_dense_output.hpp" include (:system-flag t) nil [750 818])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("get_controller" type
+                                       (:template 
+                                          ( ("Value" type (:type "class") nil nil)
+                                            ("Coefficients" type (:type "class") nil nil)
+                                            ("Resize" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("stepper_type" type
+                                               (:typedef ("rosenbrock4" type
+                                                     (:template-specifier 
+                                                        ( ("Value" type nil nil nil)
+                                                          ("Coefficients" type nil nil nil)
+                                                          ("Resize" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1016 1082])
+                                            ("type" type
+                                               (:typedef ("rosenbrock4_controller" type
+                                                     (:template-specifier 
+                                                        ( ("stepper_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1087 1139]))                                          
+                                        :template-specifier 
+                                          ( ("rosenbrock4" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [880 1142])
+                                    ("get_dense_output" type
+                                       (:template 
+                                          ( ("Value" type (:type "class") nil nil)
+                                            ("Coefficients" type (:type "class") nil nil)
+                                            ("Resize" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("stepper_type" type
+                                               (:typedef ("rosenbrock4" type
+                                                     (:template-specifier 
+                                                        ( ("Value" type nil nil nil)
+                                                          ("Coefficients" type nil nil nil)
+                                                          ("Resize" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1284 1350])
+                                            ("controller_type" type
+                                               (:typedef ("rosenbrock4_controller" type
+                                                     (:template-specifier 
+                                                        ( ("stepper_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1355 1418])
+                                            ("type" type
+                                               (:typedef ("rosenbrock4_dense_output" type
+                                                     (:template-specifier 
+                                                        ( ("controller_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1423 1480]))                                          
+                                        :template-specifier 
+                                          ( ("rosenbrock4" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1146 1483])
+                                    ("dense_output_factory" type
+                                       (:template 
+                                          ( ("Stepper" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("stepper_type" type
+                                               (:typedef ("Stepper" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1671 1700])
+                                            ("controller_type" type
+                                               (:typedef ("rosenbrock4_controller" type
+                                                     (:template-specifier 
+                                                        ( ("stepper_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1705 1768])
+                                            ("value_type" type
+                                               (:typedef ("stepper_type::value_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1773 1826])
+                                            ("dense_output_type" type
+                                               (:typedef ("rosenbrock4_dense_output" type
+                                                     (:template-specifier 
+                                                        ( ("controller_type" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1831 1901])
+                                            ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("abs_error" variable (:type ("value_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1937 1959])
+                                                    ("rel_error" variable (:type ("value_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1960 1982])
+                                                    ("stepper" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("stepper_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1983 2012]))                                                  
+                                                :type ("dense_output_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [1907 2112]))                                          
+                                        :template-specifier 
+                                          ( ("Stepper" type nil nil nil)
+                                            ("rosenbrock4_dense_output" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1536 2115]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [859 2120]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [839 2132]))                  
+                :type "namespace")
+                nil [821 2145]))          
+      :file "generation_rosenbrock4.hpp"
+      :pointmax 2243
+      :fsize 2242
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_ROSENBROCK4_HPP_INCLUDED")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!numeric!odeint!stepper!generation!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

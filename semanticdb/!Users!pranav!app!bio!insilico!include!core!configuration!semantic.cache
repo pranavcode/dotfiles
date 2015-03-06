@@ -1,0 +1,131 @@
+;; Object configuration/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "configuration/"
+  :tables
+  (list
+    (semanticdb-table "serial.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_SERIAL_HPP" variable (:constant-flag t) nil [936 991])
+            ("core/engine.hpp" include nil nil [993 1019])
+            ("core/helper/file.hpp" include nil nil [1020 1051])
+            ("core/helper/string.hpp" include nil nil [1052 1085])
+            ("core/configuration/parser.hpp" include nil nil [1087 1127])
+            ("core/injector.hpp" include nil nil [1128 1156])
+            ("iostream" include (:system-flag t) nil [1158 1177])
+            ("sstream" include (:system-flag t) nil [1178 1196])
+            ("string" include (:system-flag t) nil [1197 1214])
+            ("vector" include (:system-flag t) nil [1215 1232])
+            ("insilico" type
+               (:members 
+                  ( ("configuration" type
+                       (:members 
+                          ( ("outstream" variable (:type ("std::ofstream" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [1282 1306])
+                            ("initialize" function
+                               (:arguments 
+                                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1382 1391])
+                                    ("argv" variable
+                                       (:pointer 2
+                                        :type "char")
+                                        (reparse-symbol arg-sub-list) [1392 1404]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1366 4152])
+                            ("finalize" function (:type "void") (reparse-symbol namespacesubparts) [4199 4329]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1255 4332]))                  
+                :type "namespace")
+                nil [1234 4334]))          
+      :file "serial.hpp"
+      :pointmax 4380
+      :fsize 4379
+      :lastmodtime '(21754 3304 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_SERIAL_HPP")
+          )
+)
+    (semanticdb-table "mpi.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_MPI_HPP" variable (:constant-flag t) nil [943 995])
+            ("core/engine.hpp" include nil nil [997 1023])
+            ("core/helper/file.hpp" include nil nil [1024 1055])
+            ("core/helper/string.hpp" include nil nil [1056 1089])
+            ("core/configuration/parser.hpp" include nil nil [1091 1131])
+            ("parallel/mpi.hpp" include nil nil [1133 1160])
+            ("insilico" type
+               (:members 
+                  ( ("configuration" type
+                       (:members 
+                          ( ("initialize" function
+                               (:arguments 
+                                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1284 1293])
+                                    ("argv" variable
+                                       (:pointer 2
+                                        :type "char")
+                                        (reparse-symbol arg-sub-list) [1294 1306]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1268 3059])
+                            ("finalize" function (:type "void") (reparse-symbol namespacesubparts) [3106 3414]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1183 3417]))                  
+                :type "namespace")
+                nil [1162 3419]))          
+      :file "mpi.hpp"
+      :pointmax 3465
+      :fsize 3464
+      :lastmodtime '(21754 3346 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_MPI_HPP")
+          )
+)
+    (semanticdb-table "parser.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_PARSER_HPP" variable (:constant-flag t) nil [884 939])
+            ("core/helper/file.hpp" include nil nil [941 972])
+            ("core/helper/string.hpp" include nil nil [973 1006])
+            ("sstream" include (:system-flag t) nil [1008 1026])
+            ("string" include (:system-flag t) nil [1027 1044])
+            ("insilico" type
+               (:members 
+                  ( ("configuration" type
+                       (:members 
+                          ( ("remove_comments" function
+                               (:arguments 
+                                  ( ("with_comments" variable
+                                       (:reference 1
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1149 1176]))                                  
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1121 1513])
+                            ("read" function
+                               (:arguments 
+                                  ( ("neuron_file" variable
+                                       (:constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1758 1788])
+                                    ("synapse_file" variable
+                                       (:constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1789 1822]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1748 4889]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1067 4892]))                  
+                :type "namespace")
+                nil [1046 4894]))          
+      :file "parser.hpp"
+      :pointmax 4940
+      :fsize 4939
+      :lastmodtime '(21753 64618 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_PARSER_HPP")
+          )
+))
+  :file "!Users!pranav!app!bio!insilico!include!core!configuration!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

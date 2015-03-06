@@ -1,0 +1,39 @@
+;; Object debug/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "debug/"
+  :tables
+  (list
+    (semanticdb-table "error.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_DEBUG_ERROR_HPP" variable (:constant-flag t) nil [656 690])
+            ("boost/preprocessor/cat.hpp" include (:system-flag t) nil [693 731])
+            ("boost/preprocessor/config/config.hpp" include (:system-flag t) nil [732 780])
+            ("BOOST_PP_ERROR_0x0000" variable (:constant-flag t) nil [924 945])
+            ("BOOST_PP_ERROR_0x0001" variable (:constant-flag t) nil [1008 1029])
+            ("BOOST_PP_ERROR_0x0002" variable (:constant-flag t) nil [1087 1108])
+            ("BOOST_PP_ERROR_0x0003" variable (:constant-flag t) nil [1164 1185])
+            ("BOOST_PP_ERROR_0x0004" variable (:constant-flag t) nil [1244 1265])
+            ("BOOST_PP_ERROR_0x0005" variable (:constant-flag t) nil [1327 1348])
+            ("BOOST_PP_ERROR_0x0006" variable (:constant-flag t) nil [1409 1430])
+            ("BOOST_PP_ERROR_0x0007" variable (:constant-flag t) nil [1493 1514]))          
+      :file "error.hpp"
+      :pointmax 1575
+      :fsize 1574
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((punctuation 1565 . 1566) (punctuation 913 . 914) (punctuation 806 . 807) (punctuation 783 . 784) (punctuation 781 . 782) (punctuation 691 . 692) (punctuation 601 . 602) (punctuation 543 . 544) (punctuation 541 . 542) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PP_ERROR_0x0004" . ((symbol "BOOST_PP_ERROR" 1266 . 1280) (semantic-list "(0x0004, BOOST_PP_LIST_FOLD_OVERFLOW)" 1280 . 1317)))
+          ("BOOST_PP_ERROR_0x0005" . ((symbol "BOOST_PP_ERROR" 1349 . 1363) (semantic-list "(0x0005, BOOST_PP_SEQ_FOLD_OVERFLOW)" 1363 . 1399)))
+          ("BOOST_PP_ERROR_0x0006" . ((symbol "BOOST_PP_ERROR" 1431 . 1445) (semantic-list "(0x0006, BOOST_PP_ARITHMETIC_OVERFLOW)" 1445 . 1483)))
+          ("BOOST_PP_ERROR_0x0007" . ((symbol "BOOST_PP_ERROR" 1515 . 1529) (semantic-list "(0x0007, BOOST_PP_DIVISION_BY_ZERO)" 1529 . 1564)))
+          ("BOOST_PP_ERROR_0x0000" . ((symbol "BOOST_PP_ERROR" 946 . 960) (semantic-list "(0x0000, BOOST_PP_INDEX_OUT_OF_BOUNDS)" 960 . 998)))
+          ("BOOST_PP_ERROR_0x0001" . ((symbol "BOOST_PP_ERROR" 1030 . 1044) (semantic-list "(0x0001, BOOST_PP_WHILE_OVERFLOW)" 1044 . 1077)))
+          ("BOOST_PREPROCESSOR_DEBUG_ERROR_HPP")
+          ("BOOST_PP_ERROR_0x0002" . ((symbol "BOOST_PP_ERROR" 1109 . 1123) (semantic-list "(0x0002, BOOST_PP_FOR_OVERFLOW)" 1123 . 1154)))
+          ("BOOST_PP_ERROR_0x0003" . ((symbol "BOOST_PP_ERROR" 1186 . 1200) (semantic-list "(0x0003, BOOST_PP_REPEAT_OVERFLOW)" 1200 . 1234)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!preprocessor!debug!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

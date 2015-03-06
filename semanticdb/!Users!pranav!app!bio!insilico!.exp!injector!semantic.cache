@@ -1,0 +1,163 @@
+;; Object injector/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "injector/"
+  :tables
+  (list
+    (semanticdb-table "injector.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("fstream" include (:system-flag t) nil [1 19])
+            ("iostream" include (:system-flag t) nil [20 39])
+            ("cmath" include (:system-flag t) nil [40 56])
+            ("sstream" include (:system-flag t) nil [57 75])
+            ("string" include (:system-flag t) nil [76 93])
+            ("vector" include (:system-flag t) nil [94 111])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [113 133])
+            ("ltrim" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("s" variable
+                       (:reference 1
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [187 202]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [154 323])
+            ("rtrim" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("s" variable
+                       (:reference 1
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [375 390]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [342 518])
+            ("trim" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("s" variable
+                       (:reference 1
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [575 590]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [543 620])
+            ("file_check" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("stream" variable
+                       (:reference 1
+                        :type ("std::ifstream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [677 699])
+                    ("filename" variable
+                       (:reference 1
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [700 722]))                  
+                :type "bool")
+                nil [654 1005])
+            ("string_to_double" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("strnum" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1113 1132]))                  
+                :type "double")
+                nil [1075 1418])
+            ("starts_with" function
+               (:arguments 
+                  ( ("subject" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1437 1459])
+                    ("test" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1460 1479]))                  
+                :type "bool")
+                nil [1420 1590])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1601 1610])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1611 1624]))                  
+                :type "int")
+                nil [1592 3199]))          
+      :file "injector.cpp"
+      :pointmax 3200
+      :fsize 3199
+      :lastmodtime '(21750 6711 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "gentest.py"
+      :major-mode 'python-mode
+      :tags nil
+      :file "gentest.py"
+      :pointmax 2
+      :fsize 33
+      :lastmodtime '(21749 58465 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "gentest.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("random" include (:system-flag t) nil [40 57])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [59 79])
+            ("neurons" variable
+               (:default-value "{0,1,1,1,2,3,3,4,5,5,6}"
+                :type ("vector" type
+                     (:template-specifier 
+                        ( ("int" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [81 130])
+            ("STARTTIME" variable
+               (:constant-flag t
+                :default-value "0.0"
+                :type "double")
+                nil [131 160])
+            ("ENDTIME" variable
+               (:constant-flag t
+                :default-value "100.0"
+                :type "double")
+                nil [161 192])
+            ("STEPSIZE" variable
+               (:constant-flag t
+                :default-value "0.01"
+                :type "double")
+                nil [193 223])
+            ("rand" function
+               (:arguments 
+                  ( ("min" variable (:type "double") (reparse-symbol arg-sub-list) [237 248])
+                    ("max" variable (:type "double") (reparse-symbol arg-sub-list) [249 260]))                  
+                :type "double")
+                nil [225 376])
+            ("rand" function
+               (:arguments 
+                  ( ("max" variable (:type "double") (reparse-symbol arg-sub-list) [390 401]))                  
+                :type "double")
+                nil [378 428])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [439 448])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [449 462]))                  
+                :type "int")
+                nil [430 818]))          
+      :file "gentest.cpp"
+      :pointmax 819
+      :fsize 818
+      :lastmodtime '(21750 2030 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!pranav!app!bio!insilico!.exp!injector!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

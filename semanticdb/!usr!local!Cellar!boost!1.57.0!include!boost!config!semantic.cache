@@ -1,0 +1,187 @@
+;; Object config/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "config/"
+  :tables
+  (list
+    (semanticdb-table "select_compiler_config.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_COMPILER_CONFIG" variable (:constant-flag t) nil [1522 1543])
+            ("BOOST_COMPILER_CONFIG" variable (:constant-flag t) nil [1744 1765]))          
+      :file "select_compiler_config.hpp"
+      :pointmax 4829
+      :fsize 4828
+      :lastmodtime '(21727 6064 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_COMPILER_CONFIG" . ((string "\"boost/config/compiler/gcc.hpp\"" 1766 . 1797)))
+          )
+)
+    (semanticdb-table "select_stdlib_config.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("cstddef" include (:system-flag t) nil [724 744])
+            ("utility" include (:system-flag t) nil [1890 1908]))          
+      :file "select_stdlib_config.hpp"
+      :pointmax 3881
+      :fsize 3880
+      :lastmodtime '(21727 6064 0 0)
+      :unmatched-syntax '((semantic-list 1876 . 1889) (symbol 1869 . 1876) (punctuation 1868 . 1869) (punctuation 1866 . 1867) (punctuation 1865 . 1866) (semantic-list 1856 . 1864) (symbol 1849 . 1856) (punctuation 1848 . 1849) (punctuation 1846 . 1847) (punctuation 1845 . 1846) (semantic-list 1827 . 1844) (symbol 1820 . 1827) (punctuation 1819 . 1820) (punctuation 1817 . 1818) (punctuation 1816 . 1817) (semantic-list 1799 . 1811) (symbol 1792 . 1799) (punctuation 1791 . 1792) (punctuation 1789 . 1790) (punctuation 1788 . 1789) (semantic-list 1774 . 1787) (symbol 1767 . 1774) (punctuation 1766 . 1767) (punctuation 1764 . 1765) (punctuation 1763 . 1764) (semantic-list 1746 . 1762) (symbol 1739 . 1746) (punctuation 1738 . 1739) (punctuation 1736 . 1737) (punctuation 1735 . 1736) (semantic-list 1717 . 1730) (symbol 1710 . 1717) (punctuation 1709 . 1710) (punctuation 1707 . 1708) (punctuation 1706 . 1707) (semantic-list 1692 . 1705) (symbol 1685 . 1692) (punctuation 1684 . 1685) (punctuation 1682 . 1683) (punctuation 1681 . 1682) (semantic-list 1663 . 1680) (symbol 1656 . 1663) (punctuation 1655 . 1656) (punctuation 1653 . 1654) (punctuation 1652 . 1653)))
+    (semanticdb-table "select_platform_config.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PLATFORM_CONFIG" variable (:constant-flag t) nil [1913 1934]))          
+      :file "select_platform_config.hpp"
+      :pointmax 4098
+      :fsize 4097
+      :lastmodtime '(21727 6064 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_PLATFORM_CONFIG" . ((string "\"boost/config/platform/macos.hpp\"" 1935 . 1968)))
+          )
+)
+    (semanticdb-table "suffix.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_CONFIG_SUFFIX_HPP" variable (:constant-flag t) nil [1083 1106])
+            ("BOOST_SYMBOL_EXPORT" variable (:constant-flag t) nil [1411 1430])
+            ("BOOST_SYMBOL_IMPORT" variable (:constant-flag t) nil [1475 1494])
+            ("BOOST_SYMBOL_VISIBLE" variable (:constant-flag t) nil [1540 1560])
+            ("limits.h" include (:system-flag t) nil [2001 2021])
+            ("BOOST_NO_LONG_LONG" variable (:constant-flag t) nil [2151 2169])
+            ("BOOST_STD_EXTENSION_NAMESPACE" variable (:constant-flag t) nil [2598 2627])
+            ("BOOST_NO_LONG_LONG_NUMERIC_LIMITS" variable (:constant-flag t) nil [3434 3467])
+            ("BOOST_NO_MS_INT64_NUMERIC_LIMITS" variable (:constant-flag t) nil [3668 3700])
+            ("BOOST_MSVC6_MEMBER_TEMPLATES" variable (:constant-flag t) nil [3908 3936])
+            ("BOOST_HAS_PARTIAL_STD_ALLOCATOR" variable (:constant-flag t) nil [6161 6192])
+            ("BOOST_HAS_THREADS" variable (:constant-flag t) nil [7857 7874])
+            ("BOOST_NO_SLIST" variable (:constant-flag t) nil [9220 9234])
+            ("BOOST_NO_HASH" variable (:constant-flag t) nil [9316 9329])
+            ("BOOST_PREVENT_MACRO_SUBSTITUTION" variable (:constant-flag t) nil [11064 11096])
+            ("BOOST_USING_STD_MIN" variable (:constant-flag t) nil [11136 11155])
+            ("BOOST_USING_STD_MAX" variable (:constant-flag t) nil [11219 11238])
+            ("BOOST_STATIC_CONSTANT" variable (:constant-flag t) nil [12227 12248])
+            ("BOOST_USE_FACET" variable (:constant-flag t) nil [13485 13500])
+            ("BOOST_HAS_FACET" variable (:constant-flag t) nil [13550 13565])
+            ("BOOST_NESTED_TEMPLATE" variable (:constant-flag t) nil [14018 14039])
+            ("BOOST_UNREACHABLE_RETURN" variable (:constant-flag t) nil [14488 14512])
+            ("BOOST_DEDUCED_TYPENAME" variable (:constant-flag t) nil [14968 14990])
+            ("BOOST_CTOR_TYPENAME" variable (:constant-flag t) nil [15093 15112])
+            ("BOOST_EXPLICIT_TEMPLATE_TYPE" variable (:constant-flag t) nil [16231 16259])
+            ("BOOST_EXPLICIT_TEMPLATE_TYPE_SPEC" variable (:constant-flag t) nil [16273 16306])
+            ("BOOST_EXPLICIT_TEMPLATE_NON_TYPE" variable (:constant-flag t) nil [16320 16352])
+            ("BOOST_EXPLICIT_TEMPLATE_NON_TYPE_SPEC" variable (:constant-flag t) nil [16369 16406])
+            ("BOOST_APPEND_EXPLICIT_TEMPLATE_TYPE" variable (:constant-flag t) nil [16424 16459])
+            ("BOOST_APPEND_EXPLICIT_TEMPLATE_TYPE_SPEC" variable (:constant-flag t) nil [16473 16513])
+            ("BOOST_APPEND_EXPLICIT_TEMPLATE_NON_TYPE" variable (:constant-flag t) nil [16527 16566])
+            ("BOOST_APPEND_EXPLICIT_TEMPLATE_NON_TYPE_SPEC" variable (:constant-flag t) nil [16583 16627])
+            ("BOOST_STRINGIZE" variable (:constant-flag t) nil [17085 17100])
+            ("BOOST_DO_STRINGIZE" variable (:constant-flag t) nil [17134 17152])
+            ("BOOST_JOIN" variable (:constant-flag t) nil [17477 17487])
+            ("BOOST_DO_JOIN" variable (:constant-flag t) nil [17526 17539])
+            ("BOOST_DO_JOIN2" variable (:constant-flag t) nil [17576 17590])
+            ("BOOST_COMPILER" variable (:constant-flag t) nil [17759 17773])
+            ("BOOST_STDLIB" variable (:constant-flag t) nil [17846 17858])
+            ("BOOST_PLATFORM" variable (:constant-flag t) nil [18102 18116])
+            ("BOOST_GPU_ENABLED" variable (:constant-flag t) nil [18232 18249])
+            ("BOOST_FORCEINLINE" variable (:constant-flag t) nil [18596 18613])
+            ("BOOST_NOINLINE" variable (:constant-flag t) nil [19263 19277])
+            ("BOOST_NORETURN" variable (:constant-flag t) nil [19794 19808])
+            ("BOOST_LIKELY" variable (:constant-flag t) nil [20161 20173])
+            ("BOOST_UNLIKELY" variable (:constant-flag t) nil [20225 20239])
+            ("BOOST_ALIGNMENT" variable (:constant-flag t) nil [20344 20359])
+            ("BOOST_ALIGNMENT" variable (:constant-flag t) nil [20482 20497])
+            ("BOOST_DEFAULTED_FUNCTION" variable (:constant-flag t) nil [21820 21844])
+            ("BOOST_DELETED_FUNCTION" variable (:constant-flag t) nil [21999 22021])
+            ("BOOST_NOEXCEPT" variable (:constant-flag t) nil [32954 32968])
+            ("BOOST_NOEXCEPT_OR_NOTHROW" variable (:constant-flag t) nil [32988 33013])
+            ("BOOST_NOEXCEPT_IF" variable (:constant-flag t) nil [33033 33050])
+            ("BOOST_NOEXCEPT_EXPR" variable (:constant-flag t) nil [33094 33113])
+            ("BOOST_FALLTHROUGH" variable (:constant-flag t) nil [33492 33509])
+            ("BOOST_CONSTEXPR" variable (:constant-flag t) nil [33674 33689])
+            ("BOOST_CONSTEXPR_OR_CONST" variable (:constant-flag t) nil [33708 33732])
+            ("BOOST_CXX14_CONSTEXPR" variable (:constant-flag t) nil [33832 33853])
+            ("BOOST_ATTRIBUTE_UNUSED" variable (:constant-flag t) nil [33959 33981])
+            ("BOOST_STATIC_CONSTEXPR" variable (:constant-flag t) nil [33998 34020])
+            ("BOOST_HAS_STATIC_ASSERT" variable (:constant-flag t) nil [34231 34254])
+            ("BOOST_HAS_RVALUE_REFS" variable (:constant-flag t) nil [34441 34462])
+            ("BOOST_HAS_VARIADIC_TMPL" variable (:constant-flag t) nil [34655 34678]))          
+      :file "suffix.hpp"
+      :pointmax 35616
+      :fsize 35615
+      :lastmodtime '(21727 6064 0 0)
+      :unmatched-syntax '((close-paren 8306 . 8307) (symbol 8289 . 8306) (open-paren 8288 . 8289) (symbol 8281 . 8288) (punctuation 8280 . 8281) (punctuation 8278 . 8279) (punctuation 8277 . 8278) (close-paren 8268 . 8269) (symbol 8249 . 8268) (open-paren 8248 . 8249) (symbol 8241 . 8248) (punctuation 8240 . 8241) (punctuation 8238 . 8239) (punctuation 8237 . 8238) (close-paren 8235 . 8236) (symbol 8215 . 8235) (open-paren 8214 . 8215) (symbol 8207 . 8214) (punctuation 8206 . 8207) (punctuation 8204 . 8205) (punctuation 8203 . 8204) (close-paren 7845 . 7846) (symbol 7828 . 7845) (open-paren 7827 . 7828) (symbol 7820 . 7827) (punctuation 7819 . 7820) (punctuation 7817 . 7818) (punctuation 7816 . 7817) (close-paren 7808 . 7809) (semantic-list 7793 . 7808) (symbol 7786 . 7793) (punctuation 7784 . 7785) (punctuation 7783 . 7784) (semantic-list 7771 . 7782) (symbol 7764 . 7771) (punctuation 7762 . 7763) (punctuation 7761 . 7762) (semantic-list 7749 . 7760) (symbol 7742 . 7749) (punctuation 7740 . 7741) (punctuation 7739 . 7740) (semantic-list 3864 . 3894) (symbol 3857 . 3864) (punctuation 3856 . 3857) (punctuation 3854 . 3855) (punctuation 3853 . 3854) (semantic-list 1986 . 2000) (symbol 1979 . 1986) (punctuation 1978 . 1979) (punctuation 1976 . 1977) (punctuation 1975 . 1976) (semantic-list 1962 . 1974) (symbol 1955 . 1962) (punctuation 1954 . 1955) (punctuation 1952 . 1953) (punctuation 1951 . 1952) (symbol 1272 . 1285) (symbol 1268 . 1271) (symbol 1261 . 1267) (punctuation 1260 . 1261))
+      :lexical-table 
+        '(("BOOST_NO_LONG_LONG_NUMERIC_LIMITS")
+          ("BOOST_EXPLICIT_TEMPLATE_NON_TYPE" (spp-arg-list ("t" "v") 16352 . 16358))
+          ("BOOST_PLATFORM" . ((string "\"Unknown\"" 18117 . 18126)))
+          ("BOOST_HAS_PARTIAL_STD_ALLOCATOR")
+          ("BOOST_HAS_FACET" (spp-arg-list ("Type" "loc") 13565 . 13576) . 
+              ((symbol "std" 13577 . 13580) (punctuation ":" 13580 . 13581) (punctuation ":" 13581 . 13582) (symbol "has_facet" 13582 . 13591) (punctuation "<" 13591 . 13592) (symbol "Type" 13593 . 13597) (punctuation ">" 13598 . 13599) (semantic-list "(loc)" 13599 . 13604)))
+          ("BOOST_DEFAULTED_FUNCTION" (spp-arg-list ("fun" "body") 21844 . 21855) . 
+              ((symbol "fun" 21856 . 21859) (punctuation "=" 21860 . 21861) (DEFAULT "default" 21862 . 21869) (punctuation ";" 21869 . 21870)))
+          ("BOOST_ATTRIBUTE_UNUSED")
+          ("BOOST_CONFIG_SUFFIX_HPP")
+          ("BOOST_NO_MS_INT64_NUMERIC_LIMITS")
+          ("BOOST_USE_FACET" (spp-arg-list ("Type" "loc") 13500 . 13511) . 
+              ((symbol "std" 13512 . 13515) (punctuation ":" 13515 . 13516) (punctuation ":" 13516 . 13517) (symbol "use_facet" 13517 . 13526) (punctuation "<" 13526 . 13527) (symbol "Type" 13528 . 13532) (punctuation ">" 13533 . 13534) (semantic-list "(loc)" 13534 . 13539)))
+          ("BOOST_UNREACHABLE_RETURN" (spp-arg-list ("x") 14512 . 14515))
+          ("BOOST_DO_STRINGIZE" (spp-arg-list ("X") 17152 . 17155) . ((punctuation "#" 17156 . 17157) (symbol "X" 17157 . 17158)))
+          ("BOOST_COMPILER" . ((string "\"Unknown ISO C++ Compiler\"" 17774 . 17800)))
+          ("BOOST_CXX14_CONSTEXPR" . ((symbol "constexpr" 33854 . 33863)))
+          ("BOOST_STATIC_CONSTEXPR" . ((STATIC "static" 34022 . 34028) (symbol "BOOST_CONSTEXPR_OR_CONST" 34029 . 34053)))
+          ("BOOST_NO_LONG_LONG")
+          ("BOOST_USING_STD_MAX" (spp-arg-list nil 11238 . 11240) . 
+              ((USING "using" 11241 . 11246) (symbol "std" 11247 . 11250) (punctuation ":" 11250 . 11251) (punctuation ":" 11251 . 11252) (symbol "max" 11252 . 11255)))
+          ("BOOST_CONSTEXPR_OR_CONST" . ((symbol "constexpr" 33733 . 33742)))
+          ("BOOST_NO_HASH")
+          ("BOOST_USING_STD_MIN" (spp-arg-list nil 11155 . 11157) . 
+              ((USING "using" 11158 . 11163) (symbol "std" 11164 . 11167) (punctuation ":" 11167 . 11168) (punctuation ":" 11168 . 11169) (symbol "min" 11169 . 11172)))
+          ("BOOST_NOEXCEPT_OR_NOTHROW" . ((symbol "noexcept" 33014 . 33022)))
+          ("BOOST_SYMBOL_EXPORT")
+          ("BOOST_NO_SLIST")
+          ("BOOST_STATIC_CONSTANT" (spp-arg-list ("type" "assignment") 12248 . 12266) . 
+              ((STATIC "static" 12267 . 12273) (CONST "const" 12274 . 12279) (symbol "type" 12280 . 12284) (symbol "assignment" 12285 . 12295)))
+          ("BOOST_NESTED_TEMPLATE" . ((TEMPLATE "template" 14040 . 14048)))
+          ("BOOST_APPEND_EXPLICIT_TEMPLATE_TYPE" (spp-arg-list ("t") 16459 . 16462))
+          ("BOOST_NORETURN" . ((symbol "__attribute__" 19809 . 19822) (semantic-list "((__noreturn__))" 19823 . 19839)))
+          ("BOOST_UNLIKELY" (spp-arg-list ("x") 20239 . 20242) . ((symbol "x" 20243 . 20244)))
+          ("BOOST_NOEXCEPT" . ((symbol "noexcept" 32969 . 32977)))
+          ("BOOST_SYMBOL_VISIBLE")
+          ("BOOST_APPEND_EXPLICIT_TEMPLATE_NON_TYPE" (spp-arg-list ("t" "v") 16566 . 16572))
+          ("BOOST_DO_JOIN2" (spp-arg-list ("X" "Y") 17590 . 17598) . ((spp-symbol-merge ((symbol "X" 17599 . 17600) (symbol "Y" 17602 . 17603)) 17599 . 17603)))
+          ("BOOST_FORCEINLINE" . 
+              ((INLINE "inline" 18614 . 18620) (symbol "__attribute__" 18621 . 18634) (semantic-list "((__always_inline__))" 18635 . 18656)))
+          ("BOOST_NOEXCEPT_IF" (spp-arg-list ("Predicate") 33050 . 33061) . ((symbol "noexcept" 33062 . 33070) (semantic-list "((Predicate))" 33070 . 33083)))
+          ("BOOST_MSVC6_MEMBER_TEMPLATES")
+          ("BOOST_PREVENT_MACRO_SUBSTITUTION")
+          ("BOOST_DO_JOIN" (spp-arg-list ("X" "Y") 17539 . 17547) . ((symbol "BOOST_DO_JOIN2" 17548 . 17562) (semantic-list "(X,Y)" 17562 . 17567)))
+          ("BOOST_LIKELY" (spp-arg-list ("x") 20173 . 20176) . ((symbol "x" 20177 . 20178)))
+          ("BOOST_SYMBOL_IMPORT")
+          ("BOOST_ALIGNMENT" (spp-arg-list ("x") 20497 . 20500) . ((symbol "__attribute__" 20501 . 20514) (semantic-list "((__aligned__(x)))" 20515 . 20533)))
+          ("BOOST_NOEXCEPT_EXPR" (spp-arg-list ("Expression") 33113 . 33125) . ((symbol "noexcept" 33126 . 33134) (semantic-list "((Expression))" 33134 . 33148)))
+          ("BOOST_CONSTEXPR" . ((symbol "constexpr" 33690 . 33699)))
+          ("BOOST_HAS_VARIADIC_TMPL")
+          ("BOOST_DEDUCED_TYPENAME" . ((TYPENAME "typename" 14991 . 14999)))
+          ("BOOST_EXPLICIT_TEMPLATE_TYPE_SPEC" (spp-arg-list ("t") 16306 . 16309))
+          ("BOOST_JOIN" (spp-arg-list ("X" "Y") 17487 . 17495) . ((symbol "BOOST_DO_JOIN" 17496 . 17509) (semantic-list "( X, Y )" 17509 . 17517)))
+          ("BOOST_NOINLINE" . ((symbol "__attribute__" 19278 . 19291) (semantic-list "((__noinline__))" 19292 . 19308)))
+          ("BOOST_STD_EXTENSION_NAMESPACE" . ((symbol "std" 2628 . 2631)))
+          ("BOOST_EXPLICIT_TEMPLATE_NON_TYPE_SPEC" (spp-arg-list ("t" "v") 16406 . 16412))
+          ("BOOST_STDLIB" . ((string "\"Unknown ISO standard library\"" 17859 . 17889)))
+          ("BOOST_HAS_STATIC_ASSERT")
+          ("BOOST_EXPLICIT_TEMPLATE_TYPE" (spp-arg-list ("t") 16259 . 16262))
+          ("BOOST_DELETED_FUNCTION" (spp-arg-list ("fun") 22021 . 22026) . 
+              ((symbol "fun" 22027 . 22030) (punctuation "=" 22031 . 22032) (DELETE "delete" 22033 . 22039) (punctuation ";" 22039 . 22040)))
+          ("BOOST_FALLTHROUGH" . ((semantic-list "((void)0)" 33510 . 33519)))
+          ("BOOST_CTOR_TYPENAME" . ((TYPENAME "typename" 15113 . 15121)))
+          ("BOOST_APPEND_EXPLICIT_TEMPLATE_TYPE_SPEC" (spp-arg-list ("t") 16513 . 16516))
+          ("BOOST_APPEND_EXPLICIT_TEMPLATE_NON_TYPE_SPEC" (spp-arg-list ("t" "v") 16627 . 16633))
+          ("BOOST_STRINGIZE" (spp-arg-list ("X") 17100 . 17103) . ((symbol "BOOST_DO_STRINGIZE" 17104 . 17122) (semantic-list "(X)" 17122 . 17125)))
+          ("BOOST_GPU_ENABLED")
+          ("BOOST_HAS_RVALUE_REFS")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!config!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

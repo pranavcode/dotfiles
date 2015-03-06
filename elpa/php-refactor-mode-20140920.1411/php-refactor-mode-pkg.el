@@ -1,0 +1,1 @@
+(define-package "php-refactor-mode" "20140920.1411" "Minor mode to quickly and safely perform common refactorings" 'nil :url "https://github.com/keelerm84/php-refactor-mode.el" :keywords '("php" "refactor"))

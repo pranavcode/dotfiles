@@ -1,0 +1,88 @@
+;; Object odeint/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "odeint/"
+  :tables
+  (list
+    (semanticdb-table "version.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_VERSION_HPP_INCLUDED" variable (:constant-flag t) nil [424 465])
+            ("string" include (:system-flag t) nil [467 484])
+            ("sstream" include (:system-flag t) nil [485 503])
+            ("ODEINT_MAJOR_VERSION" variable (:constant-flag t) nil [514 534])
+            ("ODEINT_MINOR_VERSION" variable (:constant-flag t) nil [545 565])
+            ("ODEINT_PATCH_LEVEL" variable (:constant-flag t) nil [576 594])
+            ("ODEINT_VERSION" variable (:constant-flag t) nil [605 619])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("version" type
+                                       (:members 
+                                          ( ("major" variable
+                                               (:constant-flag t
+                                                :default-value "ODEINT_MAJOR_VERSION"
+                                                :type "int")
+                                                (reparse-symbol namespacesubparts) [785 825])
+                                            ("minor" variable
+                                               (:constant-flag t
+                                                :default-value "ODEINT_MINOR_VERSION"
+                                                :type "int")
+                                                (reparse-symbol namespacesubparts) [826 866])
+                                            ("patch_level" variable
+                                               (:constant-flag t
+                                                :default-value "ODEINT_PATCH_LEVEL"
+                                                :type "int")
+                                                (reparse-symbol namespacesubparts) [867 911]))                                          
+                                        :type "namespace")
+                                        (reparse-symbol namespacesubparts) [764 914])
+                                    ("get_version_string" function
+                                       (:typemodifiers ("inline")
+                                        :arguments 
+                                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [955 961]))                                          
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol namespacesubparts) [916 1146]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [744 1150]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [724 1152]))                  
+                :type "namespace")
+                nil [706 1154]))          
+      :file "version.hpp"
+      :pointmax 1208
+      :fsize 1207
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("ODEINT_MAJOR_VERSION" . ((number "2" 535 . 536)))
+          ("BOOST_NUMERIC_ODEINT_VERSION_HPP_INCLUDED")
+          ("ODEINT_PATCH_LEVEL" . ((number "0" 595 . 596)))
+          ("ODEINT_VERSION" . ((semantic-list "( ODEINT_MAJOR_VERSION * 100000 + ODEINT_MINOR_VERSION * 100 + ODEINT_PATCH_LEVEL )" 620 . 703)))
+          ("ODEINT_MINOR_VERSION" . ((number "2" 566 . 567)))
+          )
+)
+    (semanticdb-table "config.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_CONFIG_HPP_INCLUDED" variable (:constant-flag t) nil [485 525])
+            ("FUSION_MAX_VECTOR_SIZE" variable (:constant-flag t) nil [614 636])
+            ("BOOST_FUSION_INVOKE_MAX_ARITY" variable (:constant-flag t) nil [925 954])
+            ("BOOST_RESULT_OF_NUM_ARGS" variable (:constant-flag t) nil [1007 1031])
+            ("boost/config.hpp" include (:system-flag t) nil [1047 1074]))          
+      :file "config.hpp"
+      :pointmax 1202
+      :fsize 1201
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_MAX_VECTOR_SIZE" . ((number "15" 637 . 639)))
+          ("BOOST_NUMERIC_ODEINT_CONFIG_HPP_INCLUDED")
+          ("BOOST_FUSION_INVOKE_MAX_ARITY" . ((number "15" 955 . 957)))
+          ("BOOST_RESULT_OF_NUM_ARGS" . ((number "15" 1032 . 1034)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!numeric!odeint!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

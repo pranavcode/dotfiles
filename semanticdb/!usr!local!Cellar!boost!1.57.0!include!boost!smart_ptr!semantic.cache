@@ -1,0 +1,1010 @@
+;; Object smart_ptr/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "smart_ptr/"
+  :tables
+  (list
+    (semanticdb-table "shared_ptr.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SMART_PTR_SHARED_PTR_HPP_INCLUDED" variable (:constant-flag t) nil [57 96])
+            ("boost/config.hpp" include (:system-flag t) nil [468 495])
+            ("boost/config/no_tr1/memory.hpp" include (:system-flag t) nil [755 796])
+            ("boost/assert.hpp" include (:system-flag t) nil [816 843])
+            ("boost/checked_delete.hpp" include (:system-flag t) nil [844 879])
+            ("boost/throw_exception.hpp" include (:system-flag t) nil [880 916])
+            ("boost/smart_ptr/detail/shared_count.hpp" include (:system-flag t) nil [917 967])
+            ("boost/detail/workaround.hpp" include (:system-flag t) nil [968 1006])
+            ("boost/smart_ptr/detail/sp_convertible.hpp" include (:system-flag t) nil [1007 1059])
+            ("boost/smart_ptr/detail/sp_nullptr_t.hpp" include (:system-flag t) nil [1060 1110])
+            ("boost/smart_ptr/detail/spinlock_pool.hpp" include (:system-flag t) nil [1152 1203])
+            ("algorithm" include (:system-flag t) nil [1212 1232])
+            ("functional" include (:system-flag t) nil [1261 1282])
+            ("typeinfo" include (:system-flag t) nil [1310 1329])
+            ("cstddef" include (:system-flag t) nil [1363 1381])
+            ("iosfwd" include (:system-flag t) nil [1477 1494])
+            ("boost" type
+               (:members 
+                  ( ("shared_ptr" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "class"
+                        :prototype t)
+                        (reparse-symbol namespacesubparts) [1594 1629])
+                    ("weak_ptr" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "class"
+                        :prototype t)
+                        (reparse-symbol namespacesubparts) [1630 1663])
+                    ("enable_shared_from_this" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "class"
+                        :prototype t)
+                        (reparse-symbol namespacesubparts) [1664 1712])
+                    ("enable_shared_from_raw" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1713 1742])
+                    ("detail" type
+                       (:members 
+                          ( ("sp_element" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("T" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1837 1852]))                                  )
+                                (reparse-symbol namespacesubparts) [1793 1855])
+                            ("sp_dereference" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2322 2331]))                                  )
+                                (reparse-symbol namespacesubparts) [2266 2334])
+                            ("sp_dereference" type
+                               (:type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("void")
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [2383 2401]))                                  
+                                :template-specifier 
+                                  ( ("void" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2336 2404])
+                            ("sp_dereference" type
+                               (:type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("void")
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [2507 2525]))                                  
+                                :template-specifier 
+                                  ( ("void" type (:constant-flag t) nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2454 2528])
+                            ("sp_dereference" type
+                               (:type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("void")
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [2586 2604]))                                  
+                                :template-specifier 
+                                  ( ("void" type (:typemodifiers ("volatile")) nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2530 2607])
+                            ("sp_dereference" type
+                               (:type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("void")
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [2671 2689]))                                  
+                                :template-specifier 
+                                  ( ("void" type
+                                       (:typemodifiers ("volatile")
+                                        :constant-flag t)
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2609 2692])
+                            ("sp_member_access" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("T" type (:type "class") nil nil)
+                                        :pointer 1
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [3224 3241]))                                  )
+                                (reparse-symbol namespacesubparts) [3174 3244])
+                            ("sp_array_access" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("void")
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [3724 3742]))                                  )
+                                (reparse-symbol namespacesubparts) [3675 3745])
+                            ("sp_extent" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("_vt" type
+                                       (:members 
+                                          ( ("value" variable
+                                               (:constant-flag t
+                                                :default-value (4229 4230)
+                                                :type "int")
+                                                (reparse-symbol enumsubparts) [4221 4230]))                                          
+                                        :type "enum")
+                                        (reparse-symbol classsubparts) [4210 4233]))                                  )
+                                (reparse-symbol namespacesubparts) [4167 4236])
+                            ("sp_enable_shared_from_this" function
+                               (:template 
+                                  ( ("X" type (:type "class") nil nil)
+                                    ("Y" type (:type "class") nil nil)
+                                    ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ppx" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("boost::shared_ptr" type
+                                             (:template-specifier 
+                                                ( ("X" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4568 4601])
+                                    ("py" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4602 4615])
+                                    ("pe" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("boost::enable_shared_from_this" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4616 4664]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [4490 4765])
+                            ("sp_enable_shared_from_this" function
+                               (:template 
+                                  ( ("X" type (:type "class") nil nil)
+                                    ("Y" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ppx" variable
+                                       (:pointer 1
+                                        :type ("boost::shared_ptr" type
+                                             (:template-specifier 
+                                                ( ("X" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4836 4863])
+                                    ("py" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4864 4877])
+                                    ("pe" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("boost::enable_shared_from_raw" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4878 4920]))                                  
+                                :typemodifiers ("inline")
+                                :prototype-flag t)
+                                (reparse-symbol namespacesubparts) [4767 4921])
+                            ("sp_enable_shared_from_this" function
+                               (:typemodifiers ("inline")
+                                :arguments 
+                                  ( ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [5218 5223]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [5178 5227])
+                            ("sp_enable_if_auto_ptr" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("R" type (:type "class") nil nil))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [5437 5499])
+                            ("sp_enable_if_auto_ptr" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("R" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("R" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [5590 5605]))                                  
+                                :template-specifier 
+                                  ( ("std::auto_ptr" type nil nil nil)
+                                    ("R" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [5501 5608])
+                            ("sp_assert_convertible" function
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil)
+                                    ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [5645 5963])
+                            ("sp_pointer_construct" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Y" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ppx" variable
+                                       (:pointer 1
+                                        :type ("boost::shared_ptr" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [6059 6088])
+                                    ("p" variable
+                                       (:pointer 1
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6089 6095])
+                                    ("pn" variable
+                                       (:reference 1
+                                        :type ("boost::detail::shared_count" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6096 6130]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [5996 6243])
+                            ("sp_pointer_construct" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Y" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("" variable (:type ("boost::shared_ptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6366 6384])
+                                    ("" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6385 6388])
+                                    ("p" variable
+                                       (:pointer 1
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6402 6408])
+                                    ("pn" variable
+                                       (:reference 1
+                                        :type ("boost::detail::shared_count" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6409 6443]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [6303 6574])
+                            ("sp_pointer_construct" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("std::size_t" type nil nil nil)
+                                    ("Y" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("" variable (:type ("boost::shared_ptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6654 6672])
+                                    ("" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6673 6677])
+                                    ("p" variable
+                                       (:pointer 1
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6691 6697])
+                                    ("pn" variable
+                                       (:reference 1
+                                        :type ("boost::detail::shared_count" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6698 6732]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [6576 6865])
+                            ("sp_deleter_construct" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Y" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ppx" variable
+                                       (:pointer 1
+                                        :type ("boost::shared_ptr" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [7025 7054])
+                                    ("p" variable
+                                       (:pointer 1
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7055 7062]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [6962 7126])
+                            ("sp_deleter_construct" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Y" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("" variable (:type ("boost::shared_ptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7249 7267])
+                                    ("" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7268 7271])
+                                    ("" variable
+                                       (:pointer 1
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7285 7296]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [7186 7341])
+                            ("sp_deleter_construct" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("std::size_t" type nil nil nil)
+                                    ("Y" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("" variable (:type ("boost::shared_ptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7421 7439])
+                                    ("" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7440 7444])
+                                    ("" variable
+                                       (:pointer 1
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7458 7469]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [7343 7516]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1744 7583])
+                    ("shared_ptr" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "class"
+                        :members 
+                          ( ("private" label nil (reparse-symbol classsubparts) [7850 7858])
+                            ("this_type" type
+                               (:typedef ("shared_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [7905 7937])
+                            ("public" label nil (reparse-symbol classsubparts) [7939 7946])
+                            ("element_type" type
+                               (:typedef ("boost::detail::sp_element::type" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [7952 8019])
+                            ("px" function
+                               (:constructor-flag t
+                                :type ("shared_ptr" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [8055 8105])
+                            ("px" function
+                               (:constructor-flag t
+                                :type ("shared_ptr" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [8210 8251])
+                            ("shared_ptr" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("p" variable
+                                       (:pointer 1
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [8308 8315]))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [8296 8424])
+                            ("shared_ptr" function
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil)
+                                    ("D" type (:type "class") nil nil))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("p" variable
+                                       (:pointer 1
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [8597 8603])
+                                    ("d" variable (:type ("D" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8604 8609]))                                  
+                                :constructor-flag t)
+                                (reparse-symbol classsubparts) [8558 8698])
+                            ("shared_ptr" function
+                               (:template 
+                                  ( ("D" type (:type "class") nil nil))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("p" variable (:type ("boost::detail::sp_nullptr_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8774 8804])
+                                    ("d" variable (:type ("D" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8805 8810]))                                  
+                                :constructor-flag t)
+                                (reparse-symbol classsubparts) [8744 8843])
+                            ("shared_ptr" function
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil)
+                                    ("D" type (:type "class") nil nil)
+                                    ("A" type (:type "class") nil nil))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("p" variable
+                                       (:pointer 1
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [8981 8987])
+                                    ("d" variable (:type ("D" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8988 8992])
+                                    ("a" variable (:type ("A" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8993 8998]))                                  
+                                :constructor-flag t)
+                                (reparse-symbol classsubparts) [8933 9090])
+                            ("shared_ptr" function
+                               (:template 
+                                  ( ("D" type (:type "class") nil nil)
+                                    ("A" type (:type "class") nil nil))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("p" variable (:type ("boost::detail::sp_nullptr_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9175 9205])
+                                    ("d" variable (:type ("D" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9206 9210])
+                                    ("a" variable (:type ("A" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9211 9216]))                                  
+                                :constructor-flag t)
+                                (reparse-symbol classsubparts) [9136 9252])
+                            ("px" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("" variable (:type ("r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9485 9487])
+                                    ("" variable (:type ("px" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9487 9491]))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [9481 9515])
+                            ("shared_ptr" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("r" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("weak_ptr" type
+                                             (:template-specifier 
+                                                ( ("Y" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [9572 9595]))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [9560 9774])
+                            ("px" function
+                               (:constructor-flag t
+                                :type ("shared_ptr" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [9890 10023])
+                            ("px" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("" variable (:type ("r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10305 10307])
+                                    ("" variable (:type ("px" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10307 10311]))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [10301 10391])
+                            ("px" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("" variable (:type ("p" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10514 10517]))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [10510 10541])
+                            ("shared_ptr" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("r" variable
+                                       (:reference 1
+                                        :type ("std::auto_ptr" type
+                                             (:template-specifier 
+                                                ( ("Y" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [10617 10639]))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [10605 10860])
+                            ("shared_ptr" function
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :type ("std::auto_ptr" type
+                                             (:template-specifier 
+                                                ( ("Y" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [10950 10969])
+                                    ("" variable (:type ("r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10970 10973]))                                  
+                                :constructor-flag t)
+                                (reparse-symbol classsubparts) [10916 11194])
+                            ("shared_ptr" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("r" variable (:type ("Ap" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11335 11340])
+                                    ("" variable
+                                       (:typemodifiers ("typename")
+                                        :type ("boost::detail::sp_enable_if_auto_ptr::type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [11341 11405]))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [11323 11676])
+                            ("shared_ptr" function
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil)
+                                    ("D" type (:type "class") nil nil))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :type ("std::unique_ptr" type
+                                             (:template-specifier 
+                                                ( ("Y" type nil nil nil)
+                                                  ("D" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11915 11941])
+                                    ("" variable (:type ("r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11942 11945]))                                  
+                                :constructor-flag t)
+                                (reparse-symbol classsubparts) [11870 12206])
+                            ("=" function
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("r" variable
+                                       (:reference 1
+                                        :type ("std::auto_ptr" type
+                                             (:template-specifier 
+                                                ( ("Y" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [12663 12685]))                                  
+                                :operator-flag t)
+                                (reparse-symbol classsubparts) [12617 12757])
+                            ("=" function
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :type ("std::auto_ptr" type
+                                             (:template-specifier 
+                                                ( ("Y" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [12859 12878])
+                                    ("" variable (:type ("r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12879 12882]))                                  
+                                :operator-flag t)
+                                (reparse-symbol classsubparts) [12813 12992])
+                            ("=" function
+                               (:template 
+                                  ( ("Ap" type (:type "class") nil nil))                                  
+                                :type ("boost::detail::sp_enable_if_auto_ptr::type" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("r" variable (:type ("Ap" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13195 13201]))                                  
+                                :typemodifiers ("typename")
+                                :operator-flag t)
+                                (reparse-symbol classsubparts) [13089 13273])
+                            ("=" function
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil)
+                                    ("D" type (:type "class") nil nil))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :type ("std::unique_ptr" type
+                                             (:template-specifier 
+                                                ( ("Y" type nil nil nil)
+                                                  ("D" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [13522 13546])
+                                    ("" variable (:type ("r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13547 13550]))                                  
+                                :operator-flag t)
+                                (reparse-symbol classsubparts) [13467 13663])
+                            ("px" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("" variable (:type ("r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13795 13797])
+                                    ("" variable (:type ("px" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13797 13801]))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [13791 13862])
+                            ("px" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("" variable (:type ("r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14134 14136])
+                                    ("" variable (:type ("px" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14136 14140]))                                  
+                                :type ("shared_ptr" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [14130 14258])
+                            ("reset" function
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("p" variable
+                                       (:pointer 1
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [14970 14977]))                                  )
+                                (reparse-symbol classsubparts) [14940 15119])
+                            ("reset" function
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil)
+                                    ("D" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("p" variable
+                                       (:pointer 1
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [15164 15170])
+                                    ("d" variable (:type ("D" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15171 15176]))                                  )
+                                (reparse-symbol classsubparts) [15125 15229])
+                            ("reset" function
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil)
+                                    ("D" type (:type "class") nil nil)
+                                    ("A" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("p" variable
+                                       (:pointer 1
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [15283 15289])
+                                    ("d" variable (:type ("D" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15290 15294])
+                                    ("a" variable (:type ("A" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15295 15300]))                                  )
+                                (reparse-symbol classsubparts) [15235 15356])
+                            ("reset" function
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("r" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("shared_ptr" type
+                                             (:template-specifier 
+                                                ( ("Y" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [15392 15416])
+                                    ("p" variable
+                                       (:pointer 1
+                                        :type ("element_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [15417 15435]))                                  )
+                                (reparse-symbol classsubparts) [15362 15488])
+                            ("" function
+                               (:operator-flag t
+                                :function-pointer t
+                                :typemodifiers ("typename")
+                                :type ("boost::detail::sp_dereference::type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [15584 15717])
+                            ("->" function
+                               (:operator-flag t
+                                :typemodifiers ("typename")
+                                :type ("boost::detail::sp_member_access::type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [15813 15949])
+                            ("[]" function
+                               (:operator-flag t
+                                :typemodifiers ("typename")
+                                :arguments 
+                                  ( ("i" variable (:type ("std::ptrdiff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16109 16127]))                                  
+                                :type ("boost::detail::sp_array_access::type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [16045 16328])
+                            ("private" label nil (reparse-symbol classsubparts) [17628 17636])
+                            ("shared_ptr" type
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil))                                  
+                                :type "class"
+                                :prototype t)
+                                (reparse-symbol classsubparts) [17642 17684])
+                            ("weak_ptr" type
+                               (:template 
+                                  ( ("Y" type (:type "class") nil nil))                                  
+                                :type "class"
+                                :prototype t)
+                                (reparse-symbol classsubparts) [17689 17729])
+                            ("px" variable
+                               (:pointer 1
+                                :type ("element_type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [17744 17762])
+                            ("pn" variable (:type ("boost::detail::shared_count" type (:type "class") nil nil)) (reparse-symbol classsubparts) [17804 17835]))                          )
+                        (reparse-symbol namespacesubparts) [7813 17863])
+                    ("<<" function
+                       (:template 
+                          ( ("E" type (:type "class") nil nil)
+                            ("T" type (:type "class") nil nil)
+                            ("Y" type (:type "class") nil nil))                          
+                        :type ("std::basic_ostream" type
+                             (:template-specifier 
+                                ( ("E" type nil nil nil)
+                                  ("T" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("os" variable
+                               (:reference 1
+                                :type ("std::basic_ostream" type
+                                     (:template-specifier 
+                                        ( ("E" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [21505 21535])
+                            ("p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("shared_ptr" type
+                                     (:template-specifier 
+                                        ( ("Y" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [21536 21560]))                          
+                        :operator-flag t)
+                        (reparse-symbol namespacesubparts) [21430 21606])
+                    ("detail" type
+                       (:members 
+                          ( ("esft2_deleter_wrapper" type
+                               (:members 
+                                  ( ("private" label nil (reparse-symbol classsubparts) [22491 22499])
+                                    ("deleter_" variable (:type ("shared_ptr" type
+                                         (:template-specifier 
+                                            ( ("void" type
+                                                 (:typemodifiers ("volatile")
+                                                  :constant-flag t)
+                                                  nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol classsubparts) [22505 22546])
+                                    ("public" label nil (reparse-symbol classsubparts) [22548 22555])
+                                    ("esft2_deleter_wrapper" function
+                                       (:constructor-flag t
+                                        :type ("esft2_deleter_wrapper" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [22561 22596])
+                                    ("set_deleter" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("deleter" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("shared_ptr" type
+                                                     (:template-specifier 
+                                                        ( ("T" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) [22640 22671]))                                          )
+                                        (reparse-symbol classsubparts) [22602 22711])
+                                    ("()" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [22893 22897]))                                          
+                                        :operator-flag t)
+                                        (reparse-symbol classsubparts) [22857 22986]))                                  
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [22461 22989]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [21717 22992])
+                    ("atomic_load" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type ("shared_ptr" type
+                             (:template-specifier 
+                                ( ("T" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("p" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type ("shared_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [23832 23857]))                          )
+                        (reparse-symbol namespacesubparts) [23787 23936])
+                    ("atomic_load_explicit" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type ("shared_ptr" type
+                             (:template-specifier 
+                                ( ("T" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("p" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type ("shared_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [23999 24023])
+                            ("" variable (:type "int") (reparse-symbol arg-sub-list) [24044 24049]))                          
+                        :typemodifiers ("inline"))
+                        (reparse-symbol namespacesubparts) [23938 24082])
+                    ("atomic_store" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("p" variable
+                               (:pointer 1
+                                :type ("shared_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [24121 24139])
+                            ("r" variable (:type ("shared_ptr" type
+                                 (:template-specifier 
+                                    ( ("T" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [24140 24157]))                          )
+                        (reparse-symbol namespacesubparts) [24084 24239])
+                    ("atomic_store_explicit" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("p" variable
+                               (:pointer 1
+                                :type ("shared_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [24294 24312])
+                            ("r" variable (:type ("shared_ptr" type
+                                 (:template-specifier 
+                                    ( ("T" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [24313 24329])
+                            ("" variable (:type "int") (reparse-symbol arg-sub-list) [24350 24355]))                          
+                        :typemodifiers ("inline"))
+                        (reparse-symbol namespacesubparts) [24241 24403])
+                    ("atomic_exchange" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type ("shared_ptr" type
+                             (:template-specifier 
+                                ( ("T" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("p" variable
+                               (:pointer 1
+                                :type ("shared_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [24454 24472])
+                            ("r" variable (:type ("shared_ptr" type
+                                 (:template-specifier 
+                                    ( ("T" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [24473 24490]))                          )
+                        (reparse-symbol namespacesubparts) [24405 24672])
+                    ("atomic_exchange_explicit" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type ("shared_ptr" type
+                             (:template-specifier 
+                                ( ("T" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("p" variable
+                               (:pointer 1
+                                :type ("shared_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [24732 24750])
+                            ("r" variable (:type ("shared_ptr" type
+                                 (:template-specifier 
+                                    ( ("T" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [24751 24767])
+                            ("" variable (:type "int") (reparse-symbol arg-sub-list) [24788 24793]))                          )
+                        (reparse-symbol namespacesubparts) [24674 24851])
+                    ("atomic_compare_exchange" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "bool"
+                        :arguments 
+                          ( ("p" variable
+                               (:pointer 1
+                                :type ("shared_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [24901 24919])
+                            ("v" variable
+                               (:pointer 1
+                                :type ("shared_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [24920 24938])
+                            ("w" variable (:type ("shared_ptr" type
+                                 (:template-specifier 
+                                    ( ("T" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [24939 24956]))                          )
+                        (reparse-symbol namespacesubparts) [24853 25300])
+                    ("atomic_compare_exchange_explicit" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "bool"
+                        :arguments 
+                          ( ("p" variable
+                               (:pointer 1
+                                :type ("shared_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [25366 25384])
+                            ("v" variable
+                               (:pointer 1
+                                :type ("shared_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [25385 25403])
+                            ("w" variable (:type ("shared_ptr" type
+                                 (:template-specifier 
+                                    ( ("T" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [25404 25420])
+                            ("" variable (:type "int") (reparse-symbol arg-sub-list) [25446 25450])
+                            ("" variable (:type "int") (reparse-symbol arg-sub-list) [25476 25481]))                          
+                        :typemodifiers ("inline"))
+                        (reparse-symbol namespacesubparts) [25302 25550])
+                    ("hash" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :prototype t)
+                        (reparse-symbol namespacesubparts) [25614 25646]))                  
+                :type "namespace")
+                nil [1575 25789]))          
+      :file "shared_ptr.hpp"
+      :pointmax 25869
+      :fsize 25868
+      :lastmodtime '(21727 6069 0 0)
+      :unmatched-syntax '((semantic-list 25740 . 25786) (symbol 25725 . 25739) (semantic-list 25690 . 25724) (symbol 25680 . 25690) (symbol 25673 . 25679) (punctuation 25672 . 25673) (punctuation 25671 . 25672) (symbol 25668 . 25671) (punctuation 25666 . 25667) (symbol 25664 . 25665) (CLASS 25658 . 25663) (punctuation 25656 . 25657) (TEMPLATE 25648 . 25656) (semantic-list 23764 . 23785) (symbol 23749 . 23763) (semantic-list 23717 . 23748) (symbol 23698 . 23717) (BOOL 23693 . 23697) (INLINE 23686 . 23692) (punctuation 23684 . 23685) (symbol 23683 . 23684) (CLASS 23677 . 23682) (punctuation 23676 . 23677) (TEMPLATE 23668 . 23676) (semantic-list 23099 . 23607) (symbol 23084 . 23098) (semantic-list 23056 . 23083) (symbol 23045 . 23056) (punctuation 23043 . 23044) (symbol 23041 . 23042) (punctuation 23039 . 23040) (symbol 23038 . 23039) (CLASS 23032 . 23037) (punctuation 23030 . 23031) (symbol 23029 . 23030) (CLASS 23023 . 23028) (punctuation 23022 . 23023) (TEMPLATE 23014 . 23022) (semantic-list 22780 . 22851) (symbol 22761 . 22775) (CONST 22755 . 22760) (semantic-list 22752 . 22754) (symbol 22741 . 22752) (punctuation 22739 . 22740) (symbol 22738 . 22739) (punctuation 22736 . 22737) (symbol 22735 . 22736) (TYPENAME 22726 . 22734) (punctuation 22725 . 22726) (TEMPLATE 22717 . 22725) (semantic-list 22372 . 22451) (symbol 22357 . 22371) (semantic-list 22329 . 22356) (symbol 22312 . 22329) (punctuation 22310 . 22311) (symbol 22308 . 22309) (punctuation 22306 . 22307) (symbol 22305 . 22306) (CLASS 22299 . 22304) (punctuation 22297 . 22298) (symbol 22296 . 22297) (CLASS 22290 . 22295) (punctuation 22289 . 22290) (TEMPLATE 22281 . 22289) (semantic-list 20707 . 20730) (symbol 20692 . 20706) (semantic-list 20666 . 20691) (symbol 20655 . 20666) (punctuation 20653 . 20654) (symbol 20640 . 20652) (punctuation 20639 . 20640) (punctuation 20638 . 20639) (punctuation 20637 . 20638) (symbol 20636 . 20637) (punctuation 20635 . 20636) (symbol 20625 . 20635) (TYPENAME 20616 . 20624) (INLINE 20609 . 20615) (punctuation 20607 . 20608) (symbol 20606 . 20607) (CLASS 20600 . 20605) (punctuation 20599 . 20600) (TEMPLATE 20591 . 20599) (semantic-list 20326 . 20525) (symbol 20311 . 20325) (semantic-list 20283 . 20310) (symbol 20259 . 20283) (punctuation 20257 . 20258) (symbol 20256 . 20257) (punctuation 20255 . 20256) (symbol 20245 . 20255) (punctuation 20243 . 20244) (symbol 20242 . 20243) (CLASS 20236 . 20241) (punctuation 20234 . 20235) (symbol 20233 . 20234) (CLASS 20227 . 20232) (punctuation 20226 . 20227) (TEMPLATE 20218 . 20226) (semantic-list 20005 . 20216) (symbol 19990 . 20004) (semantic-list 19962 . 19989) (symbol 19942 . 19962) (punctuation 19940 . 19941) (symbol 19939 . 19940) (punctuation 19938 . 19939) (symbol 19928 . 19938) (punctuation 19926 . 19927) (symbol 19925 . 19926) (CLASS 19919 . 19924) (punctuation 19917 . 19918) (symbol 19916 . 19917) (CLASS 19910 . 19915) (punctuation 19909 . 19910) (TEMPLATE 19901 . 19909) (semantic-list 19712 . 19899) (symbol 19697 . 19711) (semantic-list 19669 . 19696) (symbol 19651 . 19669) (punctuation 19649 . 19650) (symbol 19648 . 19649) (punctuation 19647 . 19648) (symbol 19637 . 19647) (punctuation 19635 . 19636) (symbol 19634 . 19635) (CLASS 19628 . 19633) (punctuation 19626 . 19627) (symbol 19625 . 19626) (CLASS 19619 . 19624) (punctuation 19618 . 19619) (TEMPLATE 19610 . 19618) (semantic-list 19419 . 19608) (symbol 19404 . 19418) (semantic-list 19376 . 19403) (symbol 19357 . 19376) (punctuation 19355 . 19356) (symbol 19354 . 19355) (punctuation 19353 . 19354) (symbol 19343 . 19353) (punctuation 19341 . 19342) (symbol 19340 . 19341) (CLASS 19334 . 19339) (punctuation 19332 . 19333) (symbol 19331 . 19332) (CLASS 19325 . 19330) (punctuation 19324 . 19325) (TEMPLATE 19316 . 19324) (semantic-list 19296 . 19314) (symbol 19281 . 19295) (semantic-list 19242 . 19280) (symbol 19238 . 19242) (VOID 19233 . 19237) (INLINE 19226 . 19232) (punctuation 19224 . 19225) (symbol 19223 . 19224) (CLASS 19217 . 19222) (punctuation 19216 . 19217) (TEMPLATE 19208 . 19216) (semantic-list 19171 . 19206) (symbol 19156 . 19170) (semantic-list 19105 . 19155) (punctuation 19104 . 19105) (OPERATOR 19096 . 19104) (BOOL 19091 . 19095) (INLINE 19084 . 19090) (punctuation 19082 . 19083) (symbol 19081 . 19082) (CLASS 19075 . 19080) (punctuation 19073 . 19074) (symbol 19072 . 19073) (CLASS 19066 . 19071) (punctuation 19065 . 19066) (TEMPLATE 19057 . 19065) (semantic-list 19019 . 19047) (symbol 19004 . 19018) (semantic-list 18947 . 19003) (punctuation 18946 . 18947) (punctuation 18945 . 18946) (OPERATOR 18937 . 18945) (BOOL 18932 . 18936) (INLINE 18925 . 18931) (punctuation 18923 . 18924) (symbol 18922 . 18923) (CLASS 18916 . 18921) (punctuation 18915 . 18916) (TEMPLATE 18907 . 18915) (semantic-list 18877 . 18905) (symbol 18862 . 18876) (semantic-list 18805 . 18861) (punctuation 18804 . 18805) (punctuation 18803 . 18804) (OPERATOR 18795 . 18803) (BOOL 18790 . 18794) (INLINE 18783 . 18789) (punctuation 18781 . 18782) (symbol 18780 . 18781) (CLASS 18774 . 18779) (punctuation 18773 . 18774) (TEMPLATE 18765 . 18773) (semantic-list 18735 . 18763) (symbol 18720 . 18734) (semantic-list 18663 . 18719) (punctuation 18662 . 18663) (punctuation 18661 . 18662) (OPERATOR 18653 . 18661) (BOOL 18648 . 18652) (INLINE 18641 . 18647) (punctuation 18639 . 18640) (symbol 18638 . 18639) (CLASS 18632 . 18637) (punctuation 18631 . 18632) (TEMPLATE 18623 . 18631) (semantic-list 18593 . 18621) (symbol 18578 . 18592) (semantic-list 18521 . 18577) (punctuation 18520 . 18521) (punctuation 18519 . 18520) (OPERATOR 18511 . 18519) (BOOL 18506 . 18510) (INLINE 18499 . 18505) (punctuation 18497 . 18498) (symbol 18496 . 18497) (CLASS 18490 . 18495) (punctuation 18489 . 18490) (TEMPLATE 18481 . 18489) (semantic-list 18146 . 18180) (symbol 18131 . 18145) (semantic-list 18080 . 18130) (punctuation 18079 . 18080) (punctuation 18078 . 18079) (OPERATOR 18070 . 18078) (BOOL 18065 . 18069) (INLINE 18058 . 18064) (punctuation 18056 . 18057) (symbol 18055 . 18056) (CLASS 18049 . 18054) (punctuation 18047 . 18048) (symbol 18046 . 18047) (CLASS 18040 . 18045) (punctuation 18039 . 18040) (TEMPLATE 18031 . 18039) (semantic-list 17995 . 18029) (symbol 17980 . 17994) (semantic-list 17929 . 17979) (punctuation 17928 . 17929) (punctuation 17927 . 17928) (OPERATOR 17919 . 17927) (BOOL 17914 . 17918) (INLINE 17907 . 17913) (punctuation 17905 . 17906) (symbol 17904 . 17905) (CLASS 17898 . 17903) (punctuation 17896 . 17897) (symbol 17895 . 17896) (CLASS 17889 . 17894) (punctuation 17888 . 17889) (TEMPLATE 17880 . 17888) (semantic-list 17381 . 17429) (symbol 17362 . 17376) (CONST 17356 . 17361) (semantic-list 17331 . 17355) (symbol 17316 . 17331) (BOOL 17311 . 17315) (semantic-list 17257 . 17305) (symbol 17238 . 17252) (CONST 17232 . 17237) (semantic-list 17229 . 17231) (symbol 17200 . 17229) (punctuation 17198 . 17199) (VOID 17193 . 17197) (semantic-list 17143 . 17187) (symbol 17124 . 17138) (CONST 17118 . 17123) (semantic-list 17076 . 17117) (symbol 17055 . 17076) (punctuation 17053 . 17054) (VOID 17048 . 17052) (semantic-list 17007 . 17042) (symbol 16988 . 17002) (CONST 16982 . 16987) (semantic-list 16954 . 16981) (symbol 16942 . 16954) (BOOL 16937 . 16941) (punctuation 16935 . 16936) (symbol 16934 . 16935) (CLASS 16928 . 16933) (punctuation 16927 . 16928) (TEMPLATE 16919 . 16927) (semantic-list 16878 . 16913) (symbol 16859 . 16873) (CONST 16853 . 16858) (semantic-list 16823 . 16852) (symbol 16811 . 16823) (BOOL 16806 . 16810) (punctuation 16804 . 16805) (symbol 16803 . 16804) (CLASS 16797 . 16802) (punctuation 16796 . 16797) (TEMPLATE 16788 . 16796) (semantic-list 16715 . 16782) (symbol 16696 . 16710) (semantic-list 16673 . 16695) (symbol 16669 . 16673) (VOID 16664 . 16668) (semantic-list 16620 . 16658) (symbol 16601 . 16615) (CONST 16595 . 16600) (semantic-list 16592 . 16594) (symbol 16583 . 16592) (LONG 16578 . 16582) (semantic-list 16537 . 16572) (symbol 16518 . 16532) (CONST 16512 . 16517) (semantic-list 16509 . 16511) (symbol 16503 . 16509) (BOOL 16498 . 16502) (spp-system-include "boost/smart_ptr/detail/operator_bool.hpp" 16441 . 16492) (semantic-list 16380 . 16406) (symbol 16361 . 16375) (CONST 16355 . 16360) (semantic-list 16352 . 16354) (symbol 16349 . 16352) (punctuation 16347 . 16348) (symbol 16334 . 16346) (semantic-list 14894 . 14934) (symbol 14850 . 14864) (semantic-list 14847 . 14849) (symbol 14842 . 14847) (VOID 14837 . 14841) (semantic-list 14761 . 14823) (symbol 14726 . 14740) (semantic-list 14694 . 14725) (punctuation 14693 . 14694) (OPERATOR 14685 . 14693) (punctuation 14683 . 14684) (symbol 14672 . 14682) (semantic-list 14516 . 14618) (symbol 14497 . 14511) (semantic-list 14474 . 14496) (punctuation 14473 . 14474) (OPERATOR 14465 . 14473) (punctuation 14491 . 14492) (punctuation 14463 . 14464) (symbol 14452 . 14462) (punctuation 14491 . 14492) (punctuation 14446 . 14447) (symbol 14445 . 14446) (CLASS 14439 . 14444) (punctuation 14438 . 14439) (TEMPLATE 14430 . 14438) (punctuation 14491 . 14492) (semantic-list 14325 . 14424) (symbol 14306 . 14320) (semantic-list 14286 . 14305) (punctuation 14285 . 14286) (OPERATOR 14277 . 14285) (punctuation 14300 . 14301) (punctuation 14275 . 14276) (symbol 14264 . 14274) (punctuation 14300 . 14301) (punctuation 14135 . 14136) (punctuation 14128 . 14129) (symbol 14113 . 14127) (semantic-list 13944 . 14055) (symbol 13934 . 13944) (punctuation 13961 . 13962) (punctuation 13884 . 13885) (symbol 13883 . 13884) (CLASS 13877 . 13882) (punctuation 13876 . 13877) (TEMPLATE 13868 . 13876) (punctuation 13961 . 13962) (punctuation 13796 . 13797) (punctuation 13789 . 13790) (symbol 13774 . 13788) (semantic-list 13754 . 13773) (symbol 13744 . 13754) (punctuation 13768 . 13769) (punctuation 13545 . 13546) (punctuation 12877 . 12878) (semantic-list 12513 . 12576) (symbol 12494 . 12508) (semantic-list 12468 . 12493) (punctuation 12467 . 12468) (OPERATOR 12459 . 12467) (punctuation 12457 . 12458) (symbol 12446 . 12456) (punctuation 12440 . 12441) (symbol 12439 . 12440) (CLASS 12433 . 12438) (punctuation 12432 . 12433) (TEMPLATE 12424 . 12432) (semantic-list 12305 . 12368) (symbol 12286 . 12300) (semantic-list 12261 . 12285) (punctuation 12260 . 12261) (OPERATOR 12252 . 12260) (punctuation 12250 . 12251) (symbol 12239 . 12249) (punctuation 11940 . 11941) (EXPLICIT 11314 . 11322) (punctuation 11308 . 11309) (symbol 11306 . 11308) (CLASS 11300 . 11305) (punctuation 11299 . 11300) (TEMPLATE 11291 . 11299) (punctuation 10968 . 10969) (EXPLICIT 10596 . 10604) (punctuation 10590 . 10591) (symbol 10589 . 10590) (CLASS 10583 . 10588) (punctuation 10582 . 10583) (TEMPLATE 10574 . 10582) (punctuation 10508 . 10509) (symbol 10493 . 10507) (semantic-list 10447 . 10492) (symbol 10437 . 10447) (punctuation 10431 . 10432) (symbol 10429 . 10430) (CLASS 10423 . 10428) (punctuation 10421 . 10422) (TEMPLATE 10413 . 10421) (punctuation 10306 . 10307) (punctuation 10299 . 10300) (symbol 10284 . 10298) (semantic-list 10105 . 10221) (symbol 10095 . 10105) (punctuation 10045 . 10046) (symbol 10044 . 10045) (CLASS 10038 . 10043) (punctuation 10037 . 10038) (TEMPLATE 10029 . 10037) (number 9894 . 9895) (punctuation 9888 . 9889) (symbol 9873 . 9887) (semantic-list 9812 . 9868) (symbol 9802 . 9812) (punctuation 9796 . 9797) (symbol 9795 . 9796) (CLASS 9789 . 9794) (punctuation 9788 . 9789) (TEMPLATE 9780 . 9788) (EXPLICIT 9551 . 9559) (punctuation 9545 . 9546) (symbol 9544 . 9545) (CLASS 9538 . 9543) (punctuation 9537 . 9538) (TEMPLATE 9529 . 9537) (punctuation 9486 . 9487) (punctuation 9479 . 9480) (symbol 9464 . 9478) (semantic-list 9439 . 9463) (symbol 9429 . 9439) (EXPLICIT 8287 . 8295) (punctuation 8281 . 8282) (symbol 8280 . 8281) (CLASS 8274 . 8279) (punctuation 8273 . 8274) (TEMPLATE 8265 . 8273) (number 8214 . 8215) (punctuation 8208 . 8209) (symbol 8193 . 8207) (semantic-list 8161 . 8192) (symbol 8151 . 8161) (number 8059 . 8060) (punctuation 8053 . 8054) (symbol 8038 . 8052) (semantic-list 8035 . 8037) (symbol 8025 . 8035) (punctuation 7447 . 7448) (punctuation 7445 . 7446) (semantic-list 7441 . 7444) (punctuation 7438 . 7439) (punctuation 7274 . 7275) (punctuation 7272 . 7273) (semantic-list 7269 . 7271) (punctuation 7266 . 7267) (punctuation 6680 . 6681) (punctuation 6678 . 6679) (semantic-list 6674 . 6677) (punctuation 6671 . 6672) (punctuation 6391 . 6392) (punctuation 6389 . 6390) (semantic-list 6386 . 6388) (punctuation 6383 . 6384) (punctuation 4387 . 4388) (semantic-list 4356 . 4387) (punctuation 4354 . 4355) (semantic-list 4350 . 4353) (symbol 4349 . 4350) (punctuation 4347 . 4348) (symbol 4338 . 4347) (STRUCT 4331 . 4337) (punctuation 4329 . 4330) (symbol 4327 . 4328) (symbol 4320 . 4326) (punctuation 4319 . 4320) (punctuation 4318 . 4319) (symbol 4315 . 4318) (punctuation 4313 . 4314) (symbol 4312 . 4313) (CLASS 4306 . 4311) (punctuation 4304 . 4305) (TEMPLATE 4296 . 4304) (punctuation 3880 . 3881) (semantic-list 3855 . 3880) (punctuation 3853 . 3854) (semantic-list 3850 . 3852) (symbol 3849 . 3850) (punctuation 3847 . 3848) (symbol 3832 . 3847) (STRUCT 3825 . 3831) (punctuation 3823 . 3824) (symbol 3821 . 3822) (CLASS 3815 . 3820) (punctuation 3813 . 3814) (TEMPLATE 3805 . 3813) (punctuation 3381 . 3382) (semantic-list 3355 . 3381) (punctuation 3353 . 3354) (semantic-list 3350 . 3352) (symbol 3349 . 3350) (punctuation 3347 . 3348) (symbol 3331 . 3347) (STRUCT 3324 . 3330) (punctuation 3322 . 3323) (symbol 3320 . 3321) (CLASS 3314 . 3319) (punctuation 3312 . 3313) (TEMPLATE 3304 . 3312) (punctuation 2881 . 2882) (semantic-list 2855 . 2881) (punctuation 2853 . 2854) (semantic-list 2850 . 2852) (symbol 2849 . 2850) (punctuation 2847 . 2848) (symbol 2833 . 2847) (STRUCT 2826 . 2832) (punctuation 2824 . 2825) (symbol 2822 . 2823) (CLASS 2816 . 2821) (punctuation 2814 . 2815) (TEMPLATE 2806 . 2814) (TYPEDEF 2314 . 2321) (punctuation 1983 . 1984) (semantic-list 1960 . 1983) (punctuation 1958 . 1959) (semantic-list 1955 . 1957) (symbol 1954 . 1955) (punctuation 1952 . 1953) (symbol 1942 . 1952) (STRUCT 1935 . 1941) (punctuation 1933 . 1934) (symbol 1931 . 1932) (CLASS 1925 . 1930) (punctuation 1923 . 1924) (TEMPLATE 1915 . 1923))
+      :lexical-table 
+        '(("BOOST_SMART_PTR_SHARED_PTR_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "bad_weak_ptr.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SMART_PTR_BAD_WEAK_PTR_HPP_INCLUDED" variable (:constant-flag t) nil [59 100])
+            ("exception" include (:system-flag t) nil [491 511])
+            ("boost" type
+               (:members 
+                  ( ("bad_weak_ptr" type
+                       (:superclasses 
+                          ( ("std::exception" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1057 1064])
+                            ("what" function
+                               (:pointer 1
+                                :typemodifiers ("virtual")
+                                :type "char")
+                                (reparse-symbol classsubparts) [1070 1159]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1013 1162]))                  
+                :type "namespace")
+                nil [620 1244]))          
+      :file "bad_weak_ptr.hpp"
+      :pointmax 1433
+      :fsize 1432
+      :lastmodtime '(21727 6069 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_SMART_PTR_BAD_WEAK_PTR_HPP_INCLUDED")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!smart_ptr!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

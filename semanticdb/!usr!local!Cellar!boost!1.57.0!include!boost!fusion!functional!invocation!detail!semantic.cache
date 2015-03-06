@@ -1,0 +1,159 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "that_ptr.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_FUSION_FUNCTIONAL_INVOCATION_DETAIL_THAT_PTR_HPP_INCLUDED" variable (:constant-flag t) nil [489 552])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [554 596])
+            ("boost/get_pointer.hpp" include (:system-flag t) nil [597 629])
+            ("boost/utility/addressof.hpp" include (:system-flag t) nil [630 668])
+            ("boost/type_traits/config.hpp" include (:system-flag t) nil [669 708])
+            ("boost/type_traits/remove_reference.hpp" include (:system-flag t) nil [709 758])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("that_ptr" type
+                                       (:template 
+                                          ( ("Wanted" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("private" label nil (reparse-symbol classsubparts) [879 887])
+                                            ("pointee" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [940 953])
+                                            ("do_get_pointer" function
+                                               (:pointer 1
+                                                :typemodifiers ("static" "inline")
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1066 1070])
+                                                    ("x" variable
+                                                       (:pointer 1
+                                                        :type ("pointee" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1071 1083]))                                                  
+                                                :type ("pointee" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [1027 1126])
+                                            ("do_get_pointer" function
+                                               (:pointer 1
+                                                :typemodifiers ("static" "inline")
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1238 1244])
+                                                    ("" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "void")
+                                                        (reparse-symbol arg-sub-list) [1245 1258]))                                                  
+                                                :type ("pointee" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [1199 1315])
+                                            ("public" label nil (reparse-symbol classsubparts) [1323 1330])
+                                            ("get" function
+                                               (:pointer 1
+                                                :typemodifiers ("static" "inline")
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:pointer 1
+                                                        :type ("pointee" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1401 1413]))                                                  
+                                                :type ("pointee" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [1373 1456])
+                                            ("get" function
+                                               (:pointer 1
+                                                :typemodifiers ("static" "inline")
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :type ("pointee" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1527 1539]))                                                  
+                                                :type ("pointee" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [1499 1600])
+                                            ("get" function
+                                               (:pointer 1
+                                                :typemodifiers ("static" "inline")
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1701 1707]))                                                  
+                                                :type ("pointee" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [1673 1787]))                                          )
+                                        (reparse-symbol namespacesubparts) [820 1794])
+                                    ("non_const_pointee" type
+                                       (:template 
+                                          ( ("PtrOrSmartPtr" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [1800 1859])
+                                    ("adl_barrier" type
+                                       (:members 
+                                          ( ("boost::get_pointer" using (:type ("boost::get_pointer" type
+                                                 (:prototype t
+                                                  :type "class")
+                                                  nil nil)) (reparse-symbol namespacesubparts) [1901 1926])
+                                            ("get_pointer" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [1974 1978]))                                                  
+                                                :type ("BOOST_TT_DECL" type (:type "class") nil nil))
+                                                (reparse-symbol namespacesubparts) [1948 1979])
+                                            ("const_tester" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "char"
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:pointer 1
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2043 2047]))                                                  
+                                                :prototype-flag t)
+                                                (reparse-symbol namespacesubparts) [2003 2048])
+                                            ("const_tester" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "long"
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2097 2107]))                                                  
+                                                :prototype-flag t)
+                                                (reparse-symbol namespacesubparts) [2057 2108])
+                                            ("non_const_pointee_impl" type
+                                               (:template 
+                                                  ( ("Ptr" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("what" variable
+                                                       (:typemodifiers ("static")
+                                                        :type ("Ptr" type (:type "class") nil nil))
+                                                        (reparse-symbol classsubparts) [2202 2220]))                                                  )
+                                                (reparse-symbol namespacesubparts) [2118 2332]))                                          
+                                        :type "namespace")
+                                        (reparse-symbol namespacesubparts) [1865 2338]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [797 2648]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [778 2649]))                  
+                :type "namespace")
+                nil [760 2650]))          
+      :file "that_ptr.hpp"
+      :pointmax 2660
+      :fsize 2659
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((punctuation 2644 . 2645) (semantic-list 2564 . 2644) (punctuation 2558 . 2559) (symbol 2553 . 2557) (punctuation 2552 . 2553) (punctuation 2551 . 2552) (punctuation 2550 . 2551) (symbol 2545 . 2549) (punctuation 2544 . 2545) (punctuation 2543 . 2544) (punctuation 2542 . 2543) (symbol 2529 . 2542) (punctuation 2528 . 2529) (symbol 2512 . 2528) (TYPENAME 2503 . 2511) (punctuation 2483 . 2484) (symbol 2474 . 2483) (TYPENAME 2465 . 2473) (punctuation 2448 . 2449) (symbol 2426 . 2448) (punctuation 2425 . 2426) (punctuation 2424 . 2425) (symbol 2413 . 2424) (punctuation 2411 . 2412) (symbol 2385 . 2402) (STRUCT 2378 . 2384) (punctuation 2376 . 2377) (symbol 2363 . 2376) (TYPENAME 2354 . 2362) (punctuation 2353 . 2354) (TEMPLATE 2344 . 2352) (punctuation 2320 . 2321) (number 2319 . 2320) (punctuation 2317 . 2318) (punctuation 2316 . 2317) (semantic-list 2282 . 2315) (SIZEOF 2276 . 2282) (punctuation 2258 . 2259) (symbol 2252 . 2257) (CONST 2246 . 2251) (BOOL 2241 . 2245) (STATIC 2234 . 2240) (punctuation 1946 . 1947) (CONST 1940 . 1945) (VOID 1935 . 1939) (symbol 1640 . 1664) (punctuation 1630 . 1631) (symbol 1629 . 1630) (TYPENAME 1620 . 1628) (punctuation 1619 . 1620) (TEMPLATE 1610 . 1618) (symbol 1466 . 1490) (symbol 1340 . 1364) (symbol 1166 . 1190) (punctuation 1155 . 1156) (symbol 1154 . 1155) (TYPENAME 1145 . 1153) (punctuation 1144 . 1145) (TEMPLATE 1135 . 1143) (symbol 994 . 1018) (punctuation 983 . 984) (symbol 982 . 983) (TYPENAME 973 . 981) (punctuation 972 . 973) (TEMPLATE 963 . 971) (punctuation 939 . 940) (punctuation 938 . 939) (punctuation 937 . 938) (symbol 931 . 937) (punctuation 930 . 931) (symbol 914 . 930) (TYPENAME 905 . 913) (TYPEDEF 897 . 904))
+      :lexical-table 
+        '(("BOOST_FUSION_FUNCTIONAL_INVOCATION_DETAIL_THAT_PTR_HPP_INCLUDED")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!functional!invocation!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

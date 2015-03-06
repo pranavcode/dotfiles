@@ -1,0 +1,109 @@
+;; Object typeof/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "typeof/"
+  :tables
+  (list
+    (semanticdb-table "typeof.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_TYPEOF_TYPEOF_HPP_INCLUDED" variable (:constant-flag t) nil [243 275])
+            ("BOOST_TYPEOF_NATIVE" variable (:constant-flag t) nil [1623 1642])
+            ("BOOST_TYPEOF_KEYWORD" variable (:constant-flag t) nil [1672 1692])
+            ("BOOST_TYPEOF_UNIQUE_ID" variable (:constant-flag t) nil [5343 5365])
+            ("BOOST_TYPEOF_INCREMENT_REGISTRATION_GROUP" variable (:constant-flag t) nil [5436 5477])
+            ("BOOST_TYPEOF_TEXT" variable (:constant-flag t) nil [6125 6142])
+            ("boost/typeof/message.hpp" include (:system-flag t) nil [6165 6203])
+            ("boost/typeof/native.hpp" include (:system-flag t) nil [6204 6241])
+            ("BOOST_AUTO" variable (:constant-flag t) nil [6309 6319])
+            ("BOOST_AUTO_TPL" variable (:constant-flag t) nil [6369 6383]))          
+      :file "typeof.hpp"
+      :pointmax 6471
+      :fsize 6470
+      :lastmodtime '(21727 6070 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_AUTO_TPL" (spp-arg-list ("Var" "Expr") 6383 . 6394) . 
+              ((symbol "BOOST_TYPEOF_TPL" 6395 . 6411) (semantic-list "(Expr)" 6411 . 6417) (symbol "Var" 6418 . 6421) (punctuation "=" 6422 . 6423) (symbol "Expr" 6424 . 6428)))
+          ("BOOST_TYPEOF_TYPEOF_HPP_INCLUDED")
+          ("BOOST_TYPEOF_INCREMENT_REGISTRATION_GROUP" (spp-arg-list nil 5477 . 5479) . 
+              ((punctuation "<" 5486 . 5487) (symbol "boost" 5487 . 5492) (punctuation "/" 5492 . 5493) (symbol "typeof" 5493 . 5499) (punctuation "/" 5499 . 5500) (symbol "incr_registration_group" 5500 . 5523) (punctuation "." 5523 . 5524) (symbol "hpp" 5524 . 5527) (punctuation ">" 5527 . 5528)))
+          ("BOOST_TYPEOF_KEYWORD" . ((symbol "__typeof__" 1693 . 1703)))
+          ("BOOST_TYPEOF_TEXT" . ((string "\"using native typeof\"" 6143 . 6164)))
+          ("BOOST_TYPEOF_UNIQUE_ID" (spp-arg-list nil 5365 . 5367) . 
+              ((symbol "BOOST_TYPEOF_REGISTRATION_GROUP" 5374 . 5405) (punctuation "*" 5406 . 5407) (number "0x10000" 5408 . 5415) (punctuation "+" 5416 . 5417) (symbol "__LINE__" 5418 . 5426)))
+          ("BOOST_AUTO" (spp-arg-list ("Var" "Expr") 6319 . 6330) . 
+              ((symbol "BOOST_TYPEOF" 6331 . 6343) (semantic-list "(Expr)" 6343 . 6349) (symbol "Var" 6350 . 6353) (punctuation "=" 6354 . 6355) (symbol "Expr" 6356 . 6360)))
+          ("BOOST_TYPEOF_NATIVE")
+          )
+)
+    (semanticdb-table "message.hpp"
+      :major-mode 'c++-mode
+      :tags nil
+      :file "message.hpp"
+      :pointmax 302
+      :fsize 301
+      :lastmodtime '(21727 6070 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "native.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_TYPEOF_NATIVE_HPP_INCLUDED" variable (:constant-flag t) nil [225 257])
+            ("boost/type_traits/is_function.hpp" include (:system-flag t) nil [416 460])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [462 500])
+            ("boost" type
+               (:members 
+                  ( ("type_of" type
+                       (:members 
+                          ( ("ensure_obj" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [720 723]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [696 724])
+                            ("ensure_obj" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [824 833]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [800 834]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [520 844]))                  
+                :type "namespace")
+                nil [502 845])
+            ("BOOST_TYPEOF" variable (:constant-flag t) nil [880 892])
+            ("BOOST_TYPEOF_TPL" variable (:constant-flag t) nil [962 978])
+            ("BOOST_TYPEOF_NESTED_TYPEDEF_TPL" variable (:constant-flag t) nil [1001 1032])
+            ("BOOST_TYPEOF_NESTED_TYPEDEF" variable (:constant-flag t) nil [1127 1154])
+            ("BOOST_TYPEOF_REGISTER_TYPE" variable (:constant-flag t) nil [1271 1297])
+            ("BOOST_TYPEOF_REGISTER_TEMPLATE" variable (:constant-flag t) nil [1309 1339]))          
+      :file "native.hpp"
+      :pointmax 1394
+      :fsize 1393
+      :lastmodtime '(21727 6070 0 0)
+      :unmatched-syntax '((punctuation 799 . 800) (punctuation 798 . 799) (punctuation 797 . 798) (punctuation 796 . 797) (symbol 795 . 796) (punctuation 793 . 794) (punctuation 792 . 793) (symbol 791 . 792) (punctuation 790 . 791) (symbol 779 . 790) (punctuation 778 . 779) (symbol 768 . 778) (TYPENAME 759 . 767) (punctuation 749 . 750) (symbol 748 . 749) (TYPENAME 739 . 747) (punctuation 738 . 739) (TEMPLATE 730 . 738) (punctuation 695 . 696) (punctuation 694 . 695) (punctuation 693 . 694) (punctuation 692 . 693) (symbol 691 . 692) (punctuation 689 . 690) (punctuation 688 . 689) (symbol 687 . 688) (punctuation 686 . 687) (symbol 675 . 686) (punctuation 674 . 675) (symbol 665 . 674) (TYPENAME 656 . 664) (punctuation 646 . 647) (symbol 645 . 646) (TYPENAME 636 . 644) (punctuation 635 . 636) (TEMPLATE 627 . 635))
+      :lexical-table 
+        '(("BOOST_TYPEOF_NESTED_TYPEDEF" (spp-arg-list ("name" "expr") 1154 . 1165) . 
+              ((STRUCT "struct" 1172 . 1178) (symbol "name" 1179 . 1183) (semantic-list "{\\
+        typedef BOOST_TYPEOF(expr) type;\\
+    }" 1184 . 1234) (punctuation ";" 1234 . 1235)))
+          ("BOOST_TYPEOF_TPL" . ((symbol "BOOST_TYPEOF" 979 . 991)))
+          ("BOOST_TYPEOF" (spp-arg-list ("expr") 892 . 898) . ((symbol "BOOST_TYPEOF_KEYWORD" 899 . 919) (semantic-list "(boost::type_of::ensure_obj(expr))" 919 . 953)))
+          ("BOOST_TYPEOF_NESTED_TYPEDEF_TPL" (spp-arg-list ("name" "expr") 1032 . 1043) . 
+              ((STRUCT "struct" 1050 . 1056) (symbol "name" 1057 . 1061) (semantic-list "{\\
+        typedef BOOST_TYPEOF_TPL(expr) type;\\
+    }" 1062 . 1116) (punctuation ";" 1116 . 1117)))
+          ("BOOST_TYPEOF_NATIVE_HPP_INCLUDED")
+          ("BOOST_TYPEOF_REGISTER_TYPE" (spp-arg-list ("x") 1297 . 1300))
+          ("BOOST_TYPEOF_REGISTER_TEMPLATE" (spp-arg-list ("x" "params") 1339 . 1350))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!typeof!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

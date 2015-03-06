@@ -1,0 +1,31 @@
+;; Object cstdfloat/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "cstdfloat/"
+  :tables
+  (list
+    (semanticdb-table "cstdfloat_types.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("_BOOST_CSTDFLOAT_TYPES_2014_01_09_HPP_" variable (:constant-flag t) nil [480 518])
+            ("float.h" include (:system-flag t) nil [520 540])
+            ("limits" include (:system-flag t) nil [541 560])
+            ("boost/static_assert.hpp" include (:system-flag t) nil [561 597])
+            ("boost/math/tools/config.hpp" include (:system-flag t) nil [598 638])
+            ("BOOST_CSTDFLOAT_MAXIMUM_AVAILABLE_WIDTH" variable (:constant-flag t) nil [1371 1410])
+            ("BOOST_CSTDFLOAT_HAS_FLOAT16_NATIVE_TYPE" variable (:constant-flag t) nil [1425 1464])
+            ("BOOST_CSTDFLOAT_HAS_FLOAT32_NATIVE_TYPE" variable (:constant-flag t) nil [1478 1517])
+            ("BOOST_CSTDFLOAT_HAS_FLOAT64_NATIVE_TYPE" variable (:constant-flag t) nil [1531 1570])
+            ("BOOST_CSTDFLOAT_HAS_FLOAT80_NATIVE_TYPE" variable (:constant-flag t) nil [1584 1623])
+            ("BOOST_CSTDFLOAT_HAS_FLOAT128_NATIVE_TYPE" variable (:constant-flag t) nil [1637 1677]))          
+      :file "cstdfloat_types.hpp"
+      :pointmax 23947
+      :fsize 23946
+      :lastmodtime '(21727 6076 0 0)
+      :unmatched-syntax '((close-paren 23869 . 23870) (punctuation 23545 . 23546) (symbol 23536 . 23545) (symbol 23533 . 23535) (punctuation 23531 . 23532) (symbol 23528 . 23531) (punctuation 23527 . 23528) (symbol 23518 . 23527) (punctuation 23517 . 23518) (symbol 23512 . 23517) (punctuation 23511 . 23512) (FOR 23507 . 23510) (symbol 23501 . 23506) (symbol 23495 . 23500) (punctuation 23494 . 23495) (symbol 23486 . 23494) (symbol 23476 . 23485) (symbol 23468 . 23475) (symbol 23464 . 23467) (symbol 23458 . 23463) (punctuation 23457 . 23458) (open-paren 16959 . 16960) (symbol 16951 . 16956) (NAMESPACE 16941 . 16950) (punctuation 16456 . 16457) (symbol 16447 . 16456) (symbol 16444 . 16446) (punctuation 16442 . 16443) (symbol 16439 . 16442) (punctuation 16438 . 16439) (symbol 16429 . 16438) (punctuation 16428 . 16429) (symbol 16423 . 16428) (punctuation 16422 . 16423) (FOR 16418 . 16421) (symbol 16412 . 16417) (symbol 16406 . 16411) (punctuation 16405 . 16406) (symbol 16397 . 16405) (symbol 16387 . 16396) (symbol 16379 . 16386) (symbol 16375 . 16378) (symbol 16369 . 16374) (punctuation 16368 . 16369) (punctuation 13311 . 13312) (punctuation 13310 . 13311) (symbol 13307 . 13310) (punctuation 13306 . 13307) (symbol 13297 . 13306) (punctuation 13296 . 13297) (symbol 13291 . 13296) (punctuation 13290 . 13291) (FOR 13286 . 13289) (symbol 13277 . 13285) (symbol 13271 . 13276) (symbol 13265 . 13270) (punctuation 13264 . 13265) (symbol 13256 . 13264) (symbol 13252 . 13255) (symbol 13249 . 13251) (symbol 13245 . 13248) (symbol 13237 . 13244) (symbol 13233 . 13236) (symbol 13228 . 13232) (symbol 13219 . 13227) (symbol 13215 . 13218) (symbol 13209 . 13214) (punctuation 13208 . 13209) (close-paren 13202 . 13203) (semantic-list 13155 . 13202) (punctuation 13153 . 13154) (punctuation 13152 . 13153) (semantic-list 13094 . 13141) (punctuation 13092 . 13093) (punctuation 13091 . 13092) (semantic-list 13033 . 13080) (punctuation 13031 . 13032) (punctuation 13030 . 13031) (semantic-list 12972 . 13019) (punctuation 12970 . 12971) (punctuation 12969 . 12970) (punctuation 1938 . 1939) (punctuation 1937 . 1938) (symbol 1934 . 1937) (punctuation 1933 . 1934) (symbol 1924 . 1933) (punctuation 1923 . 1924) (symbol 1918 . 1923) (punctuation 1917 . 1918) (FOR 1913 . 1916) (symbol 1904 . 1912) (symbol 1898 . 1903) (symbol 1892 . 1897) (punctuation 1891 . 1892) (symbol 1883 . 1891) (number 1881 . 1882) (punctuation 1880 . 1881) (symbol 1875 . 1880) (symbol 1871 . 1874) (symbol 1863 . 1870) (symbol 1859 . 1862) (symbol 1854 . 1858) (symbol 1845 . 1853) (symbol 1841 . 1844) (symbol 1835 . 1840) (punctuation 1834 . 1835))
+      :lexical-table 
+        '(("_BOOST_CSTDFLOAT_TYPES_2014_01_09_HPP_")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!math!cstdfloat!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

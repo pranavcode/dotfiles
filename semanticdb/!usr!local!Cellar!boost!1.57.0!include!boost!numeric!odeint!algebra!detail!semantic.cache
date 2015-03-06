@@ -1,0 +1,502 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "for_each.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_ALGEBRA_DETAIL_FOR_EACH_HPP_INCLUDED" variable (:constant-flag t) nil [447 504])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("detail" type
+                                       (:members 
+                                          ( ("for_each1" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [661 679])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [680 697])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [698 712]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [588 788])
+                                            ("for_each2" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [886 904])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [905 922])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [923 941])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [942 956]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [795 1044])
+                                            ("for_each3" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Iterator3" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1160 1178])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1179 1196])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1197 1215])
+                                                    ("first3" variable (:type ("Iterator3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1216 1233])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1234 1248]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [1051 1348])
+                                            ("for_each4" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Iterator3" type (:type "class") nil nil)
+                                                    ("Iterator4" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1482 1500])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1501 1518])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1519 1537])
+                                                    ("first3" variable (:type ("Iterator3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1538 1555])
+                                                    ("first4" variable (:type ("Iterator4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1556 1573])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1574 1588]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [1355 1700])
+                                            ("for_each5" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Iterator3" type (:type "class") nil nil)
+                                                    ("Iterator4" type (:type "class") nil nil)
+                                                    ("Iterator5" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1852 1870])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1871 1888])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1889 1907])
+                                                    ("first3" variable (:type ("Iterator3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1908 1925])
+                                                    ("first4" variable (:type ("Iterator4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1953 1970])
+                                                    ("first5" variable (:type ("Iterator5" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1971 1988])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1989 2003]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [1707 2127])
+                                            ("for_each6" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Iterator3" type (:type "class") nil nil)
+                                                    ("Iterator4" type (:type "class") nil nil)
+                                                    ("Iterator5" type (:type "class") nil nil)
+                                                    ("Iterator6" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2297 2315])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2316 2333])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2334 2352])
+                                                    ("first3" variable (:type ("Iterator3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2353 2370])
+                                                    ("first4" variable (:type ("Iterator4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2398 2415])
+                                                    ("first5" variable (:type ("Iterator5" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2416 2433])
+                                                    ("first6" variable (:type ("Iterator6" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2434 2452])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2453 2467]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [2134 2603])
+                                            ("for_each7" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Iterator3" type (:type "class") nil nil)
+                                                    ("Iterator4" type (:type "class") nil nil)
+                                                    ("Iterator5" type (:type "class") nil nil)
+                                                    ("Iterator6" type (:type "class") nil nil)
+                                                    ("Iterator7" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2791 2809])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2810 2827])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2828 2846])
+                                                    ("first3" variable (:type ("Iterator3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2847 2864])
+                                                    ("first4" variable (:type ("Iterator4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2892 2909])
+                                                    ("first5" variable (:type ("Iterator5" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2910 2927])
+                                                    ("first6" variable (:type ("Iterator6" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2928 2946])
+                                                    ("first7" variable (:type ("Iterator7" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2947 2965])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2966 2980]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [2610 3128])
+                                            ("for_each8" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Iterator3" type (:type "class") nil nil)
+                                                    ("Iterator4" type (:type "class") nil nil)
+                                                    ("Iterator5" type (:type "class") nil nil)
+                                                    ("Iterator6" type (:type "class") nil nil)
+                                                    ("Iterator7" type (:type "class") nil nil)
+                                                    ("Iterator8" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3333 3351])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3352 3369])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3370 3388])
+                                                    ("first3" variable (:type ("Iterator3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3389 3406])
+                                                    ("first4" variable (:type ("Iterator4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3434 3451])
+                                                    ("first5" variable (:type ("Iterator5" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3452 3469])
+                                                    ("first6" variable (:type ("Iterator6" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3470 3488])
+                                                    ("first7" variable (:type ("Iterator7" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3489 3507])
+                                                    ("first8" variable (:type ("Iterator8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3508 3526])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3527 3541]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [3134 3701])
+                                            ("for_each9" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Iterator3" type (:type "class") nil nil)
+                                                    ("Iterator4" type (:type "class") nil nil)
+                                                    ("Iterator5" type (:type "class") nil nil)
+                                                    ("Iterator6" type (:type "class") nil nil)
+                                                    ("Iterator7" type (:type "class") nil nil)
+                                                    ("Iterator8" type (:type "class") nil nil)
+                                                    ("Iterator9" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3924 3942])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3943 3960])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3961 3979])
+                                                    ("first3" variable (:type ("Iterator3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3980 3997])
+                                                    ("first4" variable (:type ("Iterator4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4025 4042])
+                                                    ("first5" variable (:type ("Iterator5" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4043 4060])
+                                                    ("first6" variable (:type ("Iterator6" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4061 4079])
+                                                    ("first7" variable (:type ("Iterator7" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4080 4098])
+                                                    ("first8" variable (:type ("Iterator8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4099 4117])
+                                                    ("first9" variable (:type ("Iterator9" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4145 4163])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4164 4178]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [3707 4350])
+                                            ("for_each10" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Iterator3" type (:type "class") nil nil)
+                                                    ("Iterator4" type (:type "class") nil nil)
+                                                    ("Iterator5" type (:type "class") nil nil)
+                                                    ("Iterator6" type (:type "class") nil nil)
+                                                    ("Iterator7" type (:type "class") nil nil)
+                                                    ("Iterator8" type (:type "class") nil nil)
+                                                    ("Iterator9" type (:type "class") nil nil)
+                                                    ("Iterator10" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4593 4611])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4612 4629])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4630 4648])
+                                                    ("first3" variable (:type ("Iterator3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4649 4666])
+                                                    ("first4" variable (:type ("Iterator4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4695 4712])
+                                                    ("first5" variable (:type ("Iterator5" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4713 4730])
+                                                    ("first6" variable (:type ("Iterator6" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4731 4749])
+                                                    ("first7" variable (:type ("Iterator7" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4750 4768])
+                                                    ("first8" variable (:type ("Iterator8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4769 4787])
+                                                    ("first9" variable (:type ("Iterator9" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4816 4834])
+                                                    ("first10" variable (:type ("Iterator10" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4835 4855])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4856 4870]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [4356 5055])
+                                            ("for_each11" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Iterator3" type (:type "class") nil nil)
+                                                    ("Iterator4" type (:type "class") nil nil)
+                                                    ("Iterator5" type (:type "class") nil nil)
+                                                    ("Iterator6" type (:type "class") nil nil)
+                                                    ("Iterator7" type (:type "class") nil nil)
+                                                    ("Iterator8" type (:type "class") nil nil)
+                                                    ("Iterator9" type (:type "class") nil nil)
+                                                    ("Iterator10" type (:type "class") nil nil)
+                                                    ("Iterator11" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5317 5335])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5336 5353])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5354 5372])
+                                                    ("first3" variable (:type ("Iterator3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5373 5390])
+                                                    ("first4" variable (:type ("Iterator4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5419 5436])
+                                                    ("first5" variable (:type ("Iterator5" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5437 5454])
+                                                    ("first6" variable (:type ("Iterator6" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5455 5473])
+                                                    ("first7" variable (:type ("Iterator7" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5474 5492])
+                                                    ("first8" variable (:type ("Iterator8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5493 5511])
+                                                    ("first9" variable (:type ("Iterator9" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5540 5558])
+                                                    ("first10" variable (:type ("Iterator10" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5559 5579])
+                                                    ("first11" variable (:type ("Iterator11" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5580 5600])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5601 5615]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [5061 5813])
+                                            ("for_each12" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Iterator3" type (:type "class") nil nil)
+                                                    ("Iterator4" type (:type "class") nil nil)
+                                                    ("Iterator5" type (:type "class") nil nil)
+                                                    ("Iterator6" type (:type "class") nil nil)
+                                                    ("Iterator7" type (:type "class") nil nil)
+                                                    ("Iterator8" type (:type "class") nil nil)
+                                                    ("Iterator9" type (:type "class") nil nil)
+                                                    ("Iterator10" type (:type "class") nil nil)
+                                                    ("Iterator11" type (:type "class") nil nil)
+                                                    ("Iterator12" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6094 6112])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6113 6130])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6131 6149])
+                                                    ("first3" variable (:type ("Iterator3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6150 6167])
+                                                    ("first4" variable (:type ("Iterator4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6196 6213])
+                                                    ("first5" variable (:type ("Iterator5" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6214 6231])
+                                                    ("first6" variable (:type ("Iterator6" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6232 6250])
+                                                    ("first7" variable (:type ("Iterator7" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6251 6269])
+                                                    ("first8" variable (:type ("Iterator8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6270 6288])
+                                                    ("first9" variable (:type ("Iterator9" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6317 6335])
+                                                    ("first10" variable (:type ("Iterator10" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6336 6356])
+                                                    ("first11" variable (:type ("Iterator11" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6357 6377])
+                                                    ("first12" variable (:type ("Iterator12" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6378 6398])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6399 6413]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [5819 6624])
+                                            ("for_each13" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Iterator3" type (:type "class") nil nil)
+                                                    ("Iterator4" type (:type "class") nil nil)
+                                                    ("Iterator5" type (:type "class") nil nil)
+                                                    ("Iterator6" type (:type "class") nil nil)
+                                                    ("Iterator7" type (:type "class") nil nil)
+                                                    ("Iterator8" type (:type "class") nil nil)
+                                                    ("Iterator9" type (:type "class") nil nil)
+                                                    ("Iterator10" type (:type "class") nil nil)
+                                                    ("Iterator11" type (:type "class") nil nil)
+                                                    ("Iterator12" type (:type "class") nil nil)
+                                                    ("Iterator13" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6924 6942])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6943 6960])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6961 6979])
+                                                    ("first3" variable (:type ("Iterator3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6980 6997])
+                                                    ("first4" variable (:type ("Iterator4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7026 7043])
+                                                    ("first5" variable (:type ("Iterator5" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7044 7061])
+                                                    ("first6" variable (:type ("Iterator6" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7062 7080])
+                                                    ("first7" variable (:type ("Iterator7" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7081 7099])
+                                                    ("first8" variable (:type ("Iterator8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7100 7118])
+                                                    ("first9" variable (:type ("Iterator9" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7147 7165])
+                                                    ("first10" variable (:type ("Iterator10" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7166 7186])
+                                                    ("first11" variable (:type ("Iterator11" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7187 7207])
+                                                    ("first12" variable (:type ("Iterator12" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7208 7228])
+                                                    ("first13" variable (:type ("Iterator13" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7229 7249])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7250 7264]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [6630 7488])
+                                            ("for_each14" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Iterator3" type (:type "class") nil nil)
+                                                    ("Iterator4" type (:type "class") nil nil)
+                                                    ("Iterator5" type (:type "class") nil nil)
+                                                    ("Iterator6" type (:type "class") nil nil)
+                                                    ("Iterator7" type (:type "class") nil nil)
+                                                    ("Iterator8" type (:type "class") nil nil)
+                                                    ("Iterator9" type (:type "class") nil nil)
+                                                    ("Iterator10" type (:type "class") nil nil)
+                                                    ("Iterator11" type (:type "class") nil nil)
+                                                    ("Iterator12" type (:type "class") nil nil)
+                                                    ("Iterator13" type (:type "class") nil nil)
+                                                    ("Iterator14" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7807 7825])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7826 7843])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7844 7862])
+                                                    ("first3" variable (:type ("Iterator3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7863 7880])
+                                                    ("first4" variable (:type ("Iterator4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7909 7926])
+                                                    ("first5" variable (:type ("Iterator5" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7927 7944])
+                                                    ("first6" variable (:type ("Iterator6" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7945 7963])
+                                                    ("first7" variable (:type ("Iterator7" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7964 7982])
+                                                    ("first8" variable (:type ("Iterator8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7983 8001])
+                                                    ("first9" variable (:type ("Iterator9" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8030 8048])
+                                                    ("first10" variable (:type ("Iterator10" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8049 8069])
+                                                    ("first11" variable (:type ("Iterator11" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8070 8090])
+                                                    ("first12" variable (:type ("Iterator12" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8091 8111])
+                                                    ("first13" variable (:type ("Iterator13" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8112 8132])
+                                                    ("first14" variable (:type ("Iterator14" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8161 8181])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8182 8196]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [7494 8433])
+                                            ("for_each15" function
+                                               (:template 
+                                                  ( ("Iterator1" type (:type "class") nil nil)
+                                                    ("Iterator2" type (:type "class") nil nil)
+                                                    ("Iterator3" type (:type "class") nil nil)
+                                                    ("Iterator4" type (:type "class") nil nil)
+                                                    ("Iterator5" type (:type "class") nil nil)
+                                                    ("Iterator6" type (:type "class") nil nil)
+                                                    ("Iterator7" type (:type "class") nil nil)
+                                                    ("Iterator8" type (:type "class") nil nil)
+                                                    ("Iterator9" type (:type "class") nil nil)
+                                                    ("Iterator10" type (:type "class") nil nil)
+                                                    ("Iterator11" type (:type "class") nil nil)
+                                                    ("Iterator12" type (:type "class") nil nil)
+                                                    ("Iterator13" type (:type "class") nil nil)
+                                                    ("Iterator14" type (:type "class") nil nil)
+                                                    ("Iterator15" type (:type "class") nil nil)
+                                                    ("Operation" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8771 8789])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8790 8807])
+                                                    ("first2" variable (:type ("Iterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8808 8826])
+                                                    ("first3" variable (:type ("Iterator3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8827 8844])
+                                                    ("first4" variable (:type ("Iterator4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8873 8890])
+                                                    ("first5" variable (:type ("Iterator5" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8891 8908])
+                                                    ("first6" variable (:type ("Iterator6" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8909 8927])
+                                                    ("first7" variable (:type ("Iterator7" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8928 8946])
+                                                    ("first8" variable (:type ("Iterator8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8947 8965])
+                                                    ("first9" variable (:type ("Iterator9" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8994 9012])
+                                                    ("first10" variable (:type ("Iterator10" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9013 9033])
+                                                    ("first11" variable (:type ("Iterator11" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9034 9054])
+                                                    ("first12" variable (:type ("Iterator12" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9055 9075])
+                                                    ("first13" variable (:type ("Iterator13" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9076 9096])
+                                                    ("first14" variable (:type ("Iterator14" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9125 9145])
+                                                    ("first15" variable (:type ("Iterator15" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9146 9166])
+                                                    ("op" variable (:type ("Operation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9167 9181]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [8439 9431]))                                          
+                                        :type "namespace")
+                                        (reparse-symbol namespacesubparts) [563 9435]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [544 9447]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [524 9459]))                  
+                :type "namespace")
+                nil [506 9472]))          
+      :file "for_each.hpp"
+      :pointmax 9552
+      :fsize 9551
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_ALGEBRA_DETAIL_FOR_EACH_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "norm_inf.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_ALGEBRA_DETAIL_NORM_INF_HPP_INCLUDED" variable (:constant-flag t) nil [439 496])
+            ("cmath" include (:system-flag t) nil [498 514])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("detail" type
+                                       (:members 
+                                          ( ("norm_inf" function
+                                               (:template 
+                                                  ( ("Value" type (:type "class") nil nil)
+                                                    ("Iterator1" type (:type "class") nil nil))                                                  
+                                                :type ("Value" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("first1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [661 679])
+                                                    ("last1" variable (:type ("Iterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [680 697])
+                                                    ("init" variable (:type ("Value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [698 710]))                                                  
+                                                :typemodifiers ("inline"))
+                                                (reparse-symbol namespacesubparts) [593 849]))                                          
+                                        :type "namespace")
+                                        (reparse-symbol namespacesubparts) [573 853]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [554 865]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [534 877]))                  
+                :type "namespace")
+                nil [516 890]))          
+      :file "norm_inf.hpp"
+      :pointmax 970
+      :fsize 969
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_ALGEBRA_DETAIL_NORM_INF_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "extract_value_type.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_ALGEBRA_DETAIL_EXTRACT_VALUE_TYPE_HPP_INCLUDED" variable (:constant-flag t) nil [489 556])
+            ("boost/utility.hpp" include (:system-flag t) nil [558 586])
+            ("boost/mpl/has_xxx.hpp" include (:system-flag t) nil [587 619])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("detail" type
+                                       (:members 
+                                          ( ("extract_value_type" type (:type "struct") (reparse-symbol namespacesubparts) [788 817]))                                          
+                                        :type "namespace")
+                                        (reparse-symbol namespacesubparts) [719 1344]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [700 1346]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [680 1348]))                  
+                :type "namespace")
+                nil [662 1350]))          
+      :file "extract_value_type.hpp"
+      :pointmax 1359
+      :fsize 1358
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax '((punctuation 1340 . 1341) (semantic-list 1229 . 1340) (punctuation 1227 . 1228) (symbol 1222 . 1226) (punctuation 1221 . 1222) (punctuation 1220 . 1221) (punctuation 1219 . 1220) (punctuation 1217 . 1218) (symbol 1216 . 1217) (punctuation 1215 . 1216) (symbol 1201 . 1215) (punctuation 1199 . 1200) (symbol 1190 . 1199) (punctuation 1189 . 1190) (punctuation 1188 . 1189) (symbol 1183 . 1188) (TYPENAME 1174 . 1182) (punctuation 1172 . 1173) (symbol 1170 . 1171) (punctuation 1168 . 1169) (symbol 1150 . 1168) (STRUCT 1143 . 1149) (punctuation 1141 . 1142) (symbol 1139 . 1140) (TYPENAME 1130 . 1138) (punctuation 1128 . 1129) (TEMPLATE 1120 . 1128) (punctuation 1117 . 1118) (semantic-list 1055 . 1117) (punctuation 1053 . 1054) (symbol 1048 . 1052) (punctuation 1047 . 1048) (punctuation 1046 . 1047) (punctuation 1045 . 1046) (punctuation 1043 . 1044) (symbol 1042 . 1043) (punctuation 1041 . 1042) (symbol 1027 . 1041) (punctuation 1025 . 1026) (symbol 1015 . 1025) (punctuation 1014 . 1015) (punctuation 1013 . 1014) (symbol 1008 . 1013) (TYPENAME 999 . 1007) (punctuation 997 . 998) (symbol 995 . 996) (punctuation 994 . 995) (symbol 976 . 994) (STRUCT 969 . 975) (punctuation 967 . 968) (symbol 965 . 966) (TYPENAME 956 . 964) (punctuation 954 . 955) (TEMPLATE 946 . 954) (punctuation 786 . 787) (VOID 781 . 785) (punctuation 779 . 780) (symbol 771 . 778) (TYPENAME 762 . 770) (punctuation 760 . 761) (symbol 758 . 759) (TYPENAME 749 . 757) (punctuation 747 . 748) (TEMPLATE 739 . 747) (semantic-list 648 . 660) (symbol 621 . 648))
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_ALGEBRA_DETAIL_EXTRACT_VALUE_TYPE_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "macros.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_ALGEBRA_DETAIL_MACROS_HPP_INCLUDED" variable (:constant-flag t) nil [440 495])
+            ("boost/type_traits.hpp" include (:system-flag t) nil [556 588])
+            ("boost/static_assert.hpp" include (:system-flag t) nil [589 623])
+            ("BOOST_ODEINT_CHECK_CONTAINER_TYPE" variable (:constant-flag t) nil [633 666]))          
+      :file "macros.hpp"
+      :pointmax 1135
+      :fsize 1134
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_ALGEBRA_DETAIL_MACROS_HPP_INCLUDED")
+          ("BOOST_ODEINT_CHECK_CONTAINER_TYPE" (spp-arg-list ("Type1" "Type2") 666 . 683) . ((symbol "BOOST_STATIC_ASSERT" 694 . 713) (semantic-list "(( boost::is_same< typename boost::remove_const< Type1 >::type , Type2 >::value ))" 713 . 795)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!numeric!odeint!algebra!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,896 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "at_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_AT_IMPL_05042005_0741" variable (:constant-flag t) nil [412 440])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [442 484])
+            ("boost/fusion/support/detail/access.hpp" include (:system-flag t) nil [485 534])
+            ("boost/type_traits/is_const.hpp" include (:system-flag t) nil [535 576])
+            ("boost/mpl/at.hpp" include (:system-flag t) nil [577 604])
+            ("boost/mpl/int.hpp" include (:system-flag t) nil [605 633])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("vector_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [676 694])
+                            ("extension" type
+                               (:members 
+                                  ( ("at_impl" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [734 781])
+                                    ("at_impl" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("apply" type
+                                               (:template 
+                                                  ( ("Sequence" type (:type "class") nil nil)
+                                                    ("N" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("element" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1011 1024])
+                                                    ("type" type
+                                                       (:typedef ("detail::ref_result::type" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [1041 1097])
+                                                    ("call" function
+                                                       (:typemodifiers ("static")
+                                                        :arguments 
+                                                          ( ("v" variable
+                                                               (:reference 1
+                                                                :type ("Sequence" type (:type "class") nil nil))
+                                                                (reparse-symbol arg-sub-list) [1189 1201]))                                                          
+                                                        :type ("type" type (:type "class") nil nil))
+                                                        (reparse-symbol classsubparts) [1156 1357]))                                                  )
+                                                (reparse-symbol classsubparts) [860 1372])
+                                            ("apply" type
+                                               (:template 
+                                                  ( ("Sequence" type (:type "class") nil nil)
+                                                    ("N" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("element" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1557 1570])
+                                                    ("type" type
+                                                       (:typedef ("detail::cref_result::type" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [1587 1644])
+                                                    ("call" function
+                                                       (:typemodifiers ("static")
+                                                        :arguments 
+                                                          ( ("v" variable
+                                                               (:reference 1
+                                                                :constant-flag t
+                                                                :type ("Sequence" type (:type "class") nil nil))
+                                                                (reparse-symbol arg-sub-list) [1736 1754]))                                                          
+                                                        :type ("type" type (:type "class") nil nil))
+                                                        (reparse-symbol classsubparts) [1703 1910]))                                                  
+                                                :template-specifier 
+                                                  ( ("Sequence" type (:constant-flag t) nil nil)
+                                                    ("N" type nil nil nil))                                                  )
+                                                (reparse-symbol classsubparts) [1386 1925]))                                          
+                                        :template-specifier 
+                                          ( ("vector_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [791 1936]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [700 1942]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [653 1944]))                  
+                :type "namespace")
+                nil [635 1945]))          
+      :file "at_impl.hpp"
+      :pointmax 1954
+      :fsize 1953
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((symbol 1662 . 1686) (punctuation 1556 . 1557) (punctuation 1555 . 1556) (punctuation 1554 . 1555) (symbol 1553 . 1554) (punctuation 1551 . 1552) (symbol 1546 . 1551) (punctuation 1545 . 1546) (punctuation 1544 . 1545) (symbol 1536 . 1544) (TYPENAME 1527 . 1535) (punctuation 1526 . 1527) (symbol 1524 . 1526) (punctuation 1523 . 1524) (punctuation 1522 . 1523) (symbol 1519 . 1522) (TYPENAME 1510 . 1518) (TYPEDEF 1502 . 1509) (symbol 1115 . 1139) (punctuation 1010 . 1011) (punctuation 1009 . 1010) (punctuation 1008 . 1009) (symbol 1007 . 1008) (punctuation 1005 . 1006) (symbol 1000 . 1005) (punctuation 999 . 1000) (punctuation 998 . 999) (symbol 990 . 998) (TYPENAME 981 . 989) (punctuation 980 . 981) (symbol 978 . 980) (punctuation 977 . 978) (punctuation 976 . 977) (symbol 973 . 976) (TYPENAME 964 . 972) (TYPEDEF 956 . 963))
+      :lexical-table 
+        '(("FUSION_AT_IMPL_05042005_0741")
+          )
+)
+    (semanticdb-table "value_at_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_VALUE_AT_IMPL_05052005_0232" variable (:constant-flag t) nil [419 453])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [455 497])
+            ("boost/mpl/at.hpp" include (:system-flag t) nil [498 525])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("vector_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [568 586])
+                            ("extension" type
+                               (:members 
+                                  ( ("value_at_impl" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [626 679])
+                                    ("value_at_impl" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("apply" type
+                                               (:template 
+                                                  ( ("Sequence" type (:type "class") nil nil)
+                                                    ("N" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [916 926]))                                                  )
+                                                (reparse-symbol classsubparts) [764 941]))                                          
+                                        :template-specifier 
+                                          ( ("vector_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [689 952]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [592 958]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [545 960]))                  
+                :type "namespace")
+                nil [527 961]))          
+      :file "value_at_impl.hpp"
+      :pointmax 970
+      :fsize 969
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((punctuation 915 . 916) (punctuation 914 . 915) (punctuation 913 . 914) (symbol 912 . 913) (punctuation 910 . 911) (symbol 905 . 910) (punctuation 904 . 905) (punctuation 903 . 904) (symbol 895 . 903) (TYPENAME 886 . 894) (punctuation 885 . 886) (symbol 883 . 885) (punctuation 882 . 883) (punctuation 881 . 882) (symbol 878 . 881) (TYPENAME 869 . 877) (TYPEDEF 861 . 868))
+      :lexical-table 
+        '(("FUSION_VALUE_AT_IMPL_05052005_0232")
+          )
+)
+    (semanticdb-table "begin_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_BEGIN_IMPL_05042005_1136" variable (:constant-flag t) nil [416 447])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [449 491])
+            ("boost/fusion/container/vector/vector_iterator.hpp" include (:system-flag t) nil [492 552])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("vector_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [595 613])
+                            ("extension" type
+                               (:members 
+                                  ( ("begin_impl" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [653 703])
+                                    ("begin_impl" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("apply" type
+                                               (:template 
+                                                  ( ("Sequence" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("type" type
+                                                       (:typedef ("vector_iterator" type
+                                                             (:template-specifier 
+                                                                ( ("Sequence" type nil nil nil)
+                                                                  ("0"))                                                                
+                                                              :type "class")
+                                                              nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [870 912])
+                                                    ("call" function
+                                                       (:typemodifiers ("static")
+                                                        :arguments 
+                                                          ( ("v" variable
+                                                               (:reference 1
+                                                                :type ("Sequence" type (:type "class") nil nil))
+                                                                (reparse-symbol arg-sub-list) [1008 1020]))                                                          
+                                                        :type ("type" type (:type "class") nil nil))
+                                                        (reparse-symbol classsubparts) [975 1092]))                                                  )
+                                                (reparse-symbol classsubparts) [785 1107]))                                          
+                                        :template-specifier 
+                                          ( ("vector_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [713 1118]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [619 1124]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [572 1126]))                  
+                :type "namespace")
+                nil [554 1127]))          
+      :file "begin_impl.hpp"
+      :pointmax 1136
+      :fsize 1135
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((symbol 934 . 958))
+      :lexical-table 
+        '(("FUSION_BEGIN_IMPL_05042005_1136")
+          )
+)
+    (semanticdb-table "end_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_END_IMPL_05042005_1142" variable (:constant-flag t) nil [414 443])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [445 487])
+            ("boost/fusion/container/vector/vector_iterator.hpp" include (:system-flag t) nil [488 548])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("vector_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [591 609])
+                            ("extension" type
+                               (:members 
+                                  ( ("end_impl" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [649 697])
+                                    ("end_impl" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("apply" type
+                                               (:template 
+                                                  ( ("Sequence" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("size" type
+                                                       (:typedef ("Sequence::size" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [862 899])
+                                                    ("type" type
+                                                       (:typedef ("vector_iterator" type
+                                                             (:template-specifier 
+                                                                ( ("Sequence" type nil nil nil)
+                                                                  ("size::value" type nil nil nil))                                                                
+                                                              :type "class")
+                                                              nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [916 968])
+                                                    ("call" function
+                                                       (:typemodifiers ("static")
+                                                        :arguments 
+                                                          ( ("v" variable
+                                                               (:reference 1
+                                                                :type ("Sequence" type (:type "class") nil nil))
+                                                                (reparse-symbol arg-sub-list) [1064 1076]))                                                          
+                                                        :type ("type" type (:type "class") nil nil))
+                                                        (reparse-symbol classsubparts) [1031 1148]))                                                  )
+                                                (reparse-symbol classsubparts) [777 1163]))                                          
+                                        :template-specifier 
+                                          ( ("vector_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [707 1174]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [615 1180]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [568 1182]))                  
+                :type "namespace")
+                nil [550 1183]))          
+      :file "end_impl.hpp"
+      :pointmax 1192
+      :fsize 1191
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((symbol 990 . 1014))
+      :lexical-table 
+        '(("FUSION_END_IMPL_05042005_1142")
+          )
+)
+    (semanticdb-table "vector_n_chooser.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_VECTOR_N_CHOOSER_07072005_1248" variable (:constant-flag t) nil [451 488])
+            ("boost/fusion/container/vector/limits.hpp" include (:system-flag t) nil [490 541])
+            ("boost/fusion/container/vector/vector10.hpp" include (:system-flag t) nil [600 653])
+            ("boost/preprocessor/cat.hpp" include (:system-flag t) nil [1035 1072])
+            ("boost/preprocessor/arithmetic/dec.hpp" include (:system-flag t) nil [1073 1121])
+            ("boost/preprocessor/arithmetic/sub.hpp" include (:system-flag t) nil [1122 1170])
+            ("boost/preprocessor/facilities/intercept.hpp" include (:system-flag t) nil [1171 1225])
+            ("boost/preprocessor/repetition/enum_params.hpp" include (:system-flag t) nil [1226 1282])
+            ("boost/preprocessor/repetition/enum_trailing_params.hpp" include (:system-flag t) nil [1283 1348])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("void_" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1391 1404]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1368 1406]))                  
+                :type "namespace")
+                nil [1350 1407])
+            ("boost/fusion/container/vector/detail/preprocessed/vector_chooser.hpp" include (:system-flag t) nil [1464 1543]))          
+      :file "vector_n_chooser.hpp"
+      :pointmax 3738
+      :fsize 3737
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FUSION_VECTOR_N_CHOOSER_07072005_1248")
+          )
+)
+    (semanticdb-table "deref_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_DEREF_IMPL_05042005_1037" variable (:constant-flag t) nil [416 447])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [449 491])
+            ("boost/mpl/at.hpp" include (:system-flag t) nil [492 519])
+            ("boost/fusion/support/detail/access.hpp" include (:system-flag t) nil [520 569])
+            ("boost/type_traits/is_const.hpp" include (:system-flag t) nil [570 611])
+            ("boost/mpl/if.hpp" include (:system-flag t) nil [612 639])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("vector_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [682 709])
+                            ("extension" type
+                               (:members 
+                                  ( ("deref_impl" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [749 799])
+                                    ("deref_impl" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("apply" type
+                                               (:template 
+                                                  ( ("Iterator" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("vector" type
+                                                       (:typedef ("Iterator::vector" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [975 1016])
+                                                    ("index" type
+                                                       (:typedef ("Iterator::index" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [1033 1072])
+                                                    ("element" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1167 1196])
+                                                    ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1492 1518])
+                                                    ("call" function
+                                                       (:typemodifiers ("static")
+                                                        :arguments 
+                                                          ( ("i" variable
+                                                               (:reference 1
+                                                                :constant-flag t
+                                                                :type ("Iterator" type (:type "class") nil nil))
+                                                                (reparse-symbol arg-sub-list) [1610 1628]))                                                          
+                                                        :type ("type" type (:type "class") nil nil))
+                                                        (reparse-symbol classsubparts) [1577 1715]))                                                  )
+                                                (reparse-symbol classsubparts) [890 1730]))                                          
+                                        :template-specifier 
+                                          ( ("vector_iterator_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [809 1741]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [715 1747]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [659 1749]))                  
+                :type "namespace")
+                nil [641 1750]))          
+      :file "deref_impl.hpp"
+      :pointmax 1759
+      :fsize 1758
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((symbol 1536 . 1560) (punctuation 1491 . 1492) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (symbol 1464 . 1468) (punctuation 1463 . 1464) (punctuation 1462 . 1463) (punctuation 1461 . 1462) (symbol 1454 . 1461) (punctuation 1453 . 1454) (symbol 1443 . 1453) (punctuation 1442 . 1443) (punctuation 1441 . 1442) (symbol 1435 . 1441) (punctuation 1434 . 1435) (punctuation 1433 . 1434) (symbol 1427 . 1433) (TYPENAME 1418 . 1426) (punctuation 1416 . 1417) (symbol 1389 . 1393) (punctuation 1388 . 1389) (punctuation 1387 . 1388) (punctuation 1386 . 1387) (symbol 1379 . 1386) (punctuation 1378 . 1379) (symbol 1367 . 1378) (punctuation 1366 . 1367) (punctuation 1365 . 1366) (symbol 1359 . 1365) (punctuation 1358 . 1359) (punctuation 1357 . 1358) (symbol 1351 . 1357) (TYPENAME 1342 . 1350) (punctuation 1340 . 1341) (punctuation 1316 . 1317) (symbol 1310 . 1316) (punctuation 1309 . 1310) (symbol 1301 . 1309) (punctuation 1275 . 1276) (symbol 1272 . 1275) (punctuation 1271 . 1272) (punctuation 1270 . 1271) (symbol 1267 . 1270) (TYPENAME 1238 . 1246) (TYPEDEF 1230 . 1237) (punctuation 1166 . 1167) (punctuation 1165 . 1166) (punctuation 1164 . 1165) (symbol 1159 . 1164) (punctuation 1157 . 1158) (symbol 1152 . 1157) (punctuation 1151 . 1152) (punctuation 1150 . 1151) (symbol 1144 . 1150) (TYPENAME 1135 . 1143) (punctuation 1113 . 1114) (symbol 1111 . 1113) (punctuation 1110 . 1111) (punctuation 1109 . 1110) (symbol 1106 . 1109) (TYPENAME 1097 . 1105) (TYPEDEF 1089 . 1096))
+      :lexical-table 
+        '(("FUSION_DEREF_IMPL_05042005_1037")
+          )
+)
+    (semanticdb-table "value_of_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_VALUE_OF_IMPL_05052005_1128" variable (:constant-flag t) nil [419 453])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [455 497])
+            ("boost/mpl/at.hpp" include (:system-flag t) nil [498 525])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("vector_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [568 595])
+                            ("extension" type
+                               (:members 
+                                  ( ("value_of_impl" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [635 688])
+                                    ("value_of_impl" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("apply" type
+                                               (:template 
+                                                  ( ("Iterator" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("vector" type
+                                                       (:typedef ("Iterator::vector" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [867 908])
+                                                    ("index" type
+                                                       (:typedef ("Iterator::index" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [925 964])
+                                                    ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1059 1085]))                                                  )
+                                                (reparse-symbol classsubparts) [782 1100]))                                          
+                                        :template-specifier 
+                                          ( ("vector_iterator_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [698 1111]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [601 1117]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [545 1119]))                  
+                :type "namespace")
+                nil [527 1120]))          
+      :file "value_of_impl.hpp"
+      :pointmax 1129
+      :fsize 1128
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((punctuation 1058 . 1059) (punctuation 1057 . 1058) (punctuation 1056 . 1057) (symbol 1051 . 1056) (punctuation 1049 . 1050) (symbol 1044 . 1049) (punctuation 1043 . 1044) (punctuation 1042 . 1043) (symbol 1036 . 1042) (TYPENAME 1027 . 1035) (punctuation 1005 . 1006) (symbol 1003 . 1005) (punctuation 1002 . 1003) (punctuation 1001 . 1002) (symbol 998 . 1001) (TYPENAME 989 . 997) (TYPEDEF 981 . 988))
+      :lexical-table 
+        '(("FUSION_VALUE_OF_IMPL_05052005_1128")
+          )
+)
+    (semanticdb-table "next_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_NEXT_IMPL_05042005_1058" variable (:constant-flag t) nil [415 445])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [447 489])
+            ("boost/fusion/container/vector/vector_iterator.hpp" include (:system-flag t) nil [490 550])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("vector_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [593 620])
+                            ("vector_iterator" type
+                               (:template 
+                                  ( ("Vector" type (:type "class") nil nil)
+                                    ("int" type nil nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [625 686])
+                            ("extension" type
+                               (:members 
+                                  ( ("next_impl" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [726 775])
+                                    ("next_impl" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("apply" type
+                                               (:template 
+                                                  ( ("Iterator" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("vector" type
+                                                       (:typedef ("Iterator::vector" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [950 991])
+                                                    ("index" type
+                                                       (:typedef ("Iterator::index" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [1008 1047])
+                                                    ("type" variable (:type "int") (reparse-symbol classsubparts) [1112 1117])
+                                                    ("call" function
+                                                       (:typemodifiers ("static")
+                                                        :arguments 
+                                                          ( ("i" variable
+                                                               (:reference 1
+                                                                :constant-flag t
+                                                                :type ("Iterator" type (:type "class") nil nil))
+                                                                (reparse-symbol arg-sub-list) [1209 1227]))                                                          
+                                                        :type ("type" type (:type "class") nil nil))
+                                                        (reparse-symbol classsubparts) [1176 1303]))                                                  )
+                                                (reparse-symbol classsubparts) [865 1318]))                                          
+                                        :template-specifier 
+                                          ( ("vector_iterator_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [785 1329]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [692 1335]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [570 1337]))                  
+                :type "namespace")
+                nil [552 1338]))          
+      :file "next_impl.hpp"
+      :pointmax 1347
+      :fsize 1346
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((symbol 1135 . 1159) (punctuation 1110 . 1111) (number 1109 . 1110) (punctuation 1108 . 1109) (symbol 1103 . 1108) (punctuation 1102 . 1103) (punctuation 1101 . 1102) (symbol 1096 . 1101) (punctuation 1094 . 1095) (symbol 1088 . 1094) (punctuation 1087 . 1088) (symbol 1072 . 1087) (TYPEDEF 1064 . 1071))
+      :lexical-table 
+        '(("FUSION_NEXT_IMPL_05042005_1058")
+          )
+)
+    (semanticdb-table "prior_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_PRIOR_IMPL_05042005_1145" variable (:constant-flag t) nil [416 447])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [449 491])
+            ("boost/fusion/container/vector/vector_iterator.hpp" include (:system-flag t) nil [492 552])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("vector_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [595 622])
+                            ("vector_iterator" type
+                               (:template 
+                                  ( ("Vector" type (:type "class") nil nil)
+                                    ("int" type nil nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [627 688])
+                            ("extension" type
+                               (:members 
+                                  ( ("prior_impl" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [728 778])
+                                    ("prior_impl" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("apply" type
+                                               (:template 
+                                                  ( ("Iterator" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("vector" type
+                                                       (:typedef ("Iterator::vector" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [954 995])
+                                                    ("index" type
+                                                       (:typedef ("Iterator::index" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [1012 1051])
+                                                    ("type" variable (:type "int") (reparse-symbol classsubparts) [1116 1121])
+                                                    ("call" function
+                                                       (:typemodifiers ("static")
+                                                        :arguments 
+                                                          ( ("i" variable
+                                                               (:reference 1
+                                                                :constant-flag t
+                                                                :type ("Iterator" type (:type "class") nil nil))
+                                                                (reparse-symbol arg-sub-list) [1213 1231]))                                                          
+                                                        :type ("type" type (:type "class") nil nil))
+                                                        (reparse-symbol classsubparts) [1180 1307]))                                                  )
+                                                (reparse-symbol classsubparts) [869 1322]))                                          
+                                        :template-specifier 
+                                          ( ("vector_iterator_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [788 1333]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [694 1339]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [572 1341]))                  
+                :type "namespace")
+                nil [554 1342]))          
+      :file "prior_impl.hpp"
+      :pointmax 1351
+      :fsize 1350
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((symbol 1139 . 1163) (punctuation 1114 . 1115) (number 1113 . 1114) (punctuation 1112 . 1113) (symbol 1107 . 1112) (punctuation 1106 . 1107) (punctuation 1105 . 1106) (symbol 1100 . 1105) (punctuation 1098 . 1099) (symbol 1092 . 1098) (punctuation 1091 . 1092) (symbol 1076 . 1091) (TYPEDEF 1068 . 1075))
+      :lexical-table 
+        '(("FUSION_PRIOR_IMPL_05042005_1145")
+          )
+)
+    (semanticdb-table "equal_to_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_EQUAL_TO_IMPL_05052005_1215" variable (:constant-flag t) nil [419 453])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [455 497])
+            ("boost/type_traits/is_same.hpp" include (:system-flag t) nil [498 538])
+            ("boost/mpl/equal_to.hpp" include (:system-flag t) nil [539 572])
+            ("boost/mpl/and.hpp" include (:system-flag t) nil [573 601])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("vector_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [644 671])
+                            ("extension" type
+                               (:members 
+                                  ( ("equal_to_impl" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [711 764])
+                                    ("equal_to_impl" type
+                                       (:type "struct"
+                                        :template-specifier 
+                                          ( ("vector_iterator_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [774 1100]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [677 1106]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [621 1108]))                  
+                :type "namespace")
+                nil [603 1109]))          
+      :file "equal_to_impl.hpp"
+      :pointmax 1119
+      :fsize 1118
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((punctuation 1088 . 1089) (semantic-list 1073 . 1088) (punctuation 1059 . 1060) (symbol 1034 . 1042) (punctuation 1033 . 1034) (punctuation 1032 . 1033) (symbol 1030 . 1032) (TYPENAME 1021 . 1029) (punctuation 1019 . 1020) (symbol 992 . 1000) (punctuation 991 . 992) (punctuation 990 . 991) (symbol 988 . 990) (TYPENAME 979 . 987) (punctuation 957 . 958) (symbol 950 . 957) (punctuation 948 . 949) (symbol 913 . 918) (STRUCT 906 . 912) (punctuation 892 . 893) (symbol 890 . 892) (TYPENAME 881 . 889) (punctuation 879 . 880) (symbol 877 . 879) (TYPENAME 868 . 876) (punctuation 867 . 868) (TEMPLATE 858 . 866))
+      :lexical-table 
+        '(("FUSION_EQUAL_TO_IMPL_05052005_1215")
+          )
+)
+    (semanticdb-table "distance_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_DISTANCE_IMPL_09172005_0751" variable (:constant-flag t) nil [419 453])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [455 497])
+            ("boost/mpl/minus.hpp" include (:system-flag t) nil [498 528])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("vector_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [571 598])
+                            ("extension" type
+                               (:members 
+                                  ( ("distance_impl" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [638 691])
+                                    ("distance_impl" type
+                                       (:type "struct"
+                                        :template-specifier 
+                                          ( ("vector_iterator_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [701 1382]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [604 1388]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [548 1390]))                  
+                :type "namespace")
+                nil [530 1391]))          
+      :file "distance_impl.hpp"
+      :pointmax 1400
+      :fsize 1399
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((punctuation 1370 . 1371) (semantic-list 921 . 1370) (punctuation 907 . 908) (symbol 902 . 907) (punctuation 901 . 902) (punctuation 900 . 901) (symbol 895 . 900) (TYPENAME 886 . 894) (punctuation 884 . 885) (symbol 879 . 884) (punctuation 878 . 879) (punctuation 877 . 878) (symbol 873 . 877) (TYPENAME 864 . 872) (punctuation 863 . 864) (symbol 858 . 863) (punctuation 857 . 858) (punctuation 856 . 857) (symbol 853 . 856) (punctuation 851 . 852) (symbol 845 . 850) (STRUCT 838 . 844) (punctuation 824 . 825) (symbol 820 . 824) (TYPENAME 811 . 819) (punctuation 809 . 810) (symbol 804 . 809) (TYPENAME 795 . 803) (punctuation 794 . 795) (TEMPLATE 785 . 793))
+      :lexical-table 
+        '(("FUSION_DISTANCE_IMPL_09172005_0751")
+          )
+)
+    (semanticdb-table "advance_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_ADVANCE_IMPL_09172005_1156" variable (:constant-flag t) nil [418 451])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("vector_iterator_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [494 521])
+                            ("vector_iterator" type
+                               (:template 
+                                  ( ("Vector" type (:type "class") nil nil)
+                                    ("int" type nil nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [527 588])
+                            ("extension" type
+                               (:members 
+                                  ( ("advance_impl" type
+                                       (:template 
+                                          ( ("Tag" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [628 680])
+                                    ("advance_impl" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("apply" type
+                                               (:template 
+                                                  ( ("Iterator" type (:type "class") nil nil)
+                                                    ("N" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("index" type
+                                                       (:typedef ("Iterator::index" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [873 912])
+                                                    ("vector" type
+                                                       (:typedef ("Iterator::vector" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [929 970])
+                                                    ("type" variable (:type "int") (reparse-symbol classsubparts) [1042 1047])
+                                                    ("call" function
+                                                       (:typemodifiers ("static")
+                                                        :arguments 
+                                                          ( ("i" variable
+                                                               (:reference 1
+                                                                :constant-flag t
+                                                                :type ("Iterator" type (:type "class") nil nil))
+                                                                (reparse-symbol arg-sub-list) [1143 1161]))                                                          
+                                                        :type ("type" type (:type "class") nil nil))
+                                                        (reparse-symbol classsubparts) [1110 1237]))                                                  )
+                                                (reparse-symbol classsubparts) [777 1252]))                                          
+                                        :template-specifier 
+                                          ( ("vector_iterator_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [694 1263]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [594 1269]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [471 1271]))                  
+                :type "namespace")
+                nil [453 1272]))          
+      :file "advance_impl.hpp"
+      :pointmax 1281
+      :fsize 1280
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((symbol 1069 . 1093) (punctuation 1040 . 1041) (symbol 1035 . 1040) (punctuation 1034 . 1035) (punctuation 1033 . 1034) (symbol 1032 . 1033) (punctuation 1031 . 1032) (symbol 1026 . 1031) (punctuation 1025 . 1026) (punctuation 1024 . 1025) (symbol 1019 . 1024) (punctuation 1017 . 1018) (symbol 1011 . 1017) (punctuation 1010 . 1011) (symbol 995 . 1010) (TYPEDEF 987 . 994))
+      :lexical-table 
+        '(("FUSION_ADVANCE_IMPL_09172005_1156")
+          )
+)
+    (semanticdb-table "as_vector.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_AS_VECTOR_09222005_0950" variable (:constant-flag t) nil [444 474])
+            ("boost/preprocessor/iterate.hpp" include (:system-flag t) nil [476 517])
+            ("boost/preprocessor/repetition/enum_params.hpp" include (:system-flag t) nil [518 574])
+            ("boost/preprocessor/repetition/enum_binary_params.hpp" include (:system-flag t) nil [575 638])
+            ("boost/preprocessor/repetition/repeat.hpp" include (:system-flag t) nil [639 690])
+            ("boost/preprocessor/cat.hpp" include (:system-flag t) nil [691 728])
+            ("boost/preprocessor/inc.hpp" include (:system-flag t) nil [729 766])
+            ("boost/preprocessor/dec.hpp" include (:system-flag t) nil [767 804])
+            ("boost/fusion/container/vector/vector.hpp" include (:system-flag t) nil [805 856])
+            ("boost/fusion/iterator/value_of.hpp" include (:system-flag t) nil [857 902])
+            ("boost/fusion/iterator/deref.hpp" include (:system-flag t) nil [903 945])
+            ("boost/fusion/iterator/next.hpp" include (:system-flag t) nil [946 987])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("as_vector" type
+                                       (:template 
+                                          ( ("int" type nil nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [1049 1090])
+                                    ("as_vector" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("apply" type
+                                               (:template 
+                                                  ( ("Iterator" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("type" type
+                                                       (:typedef ("vector0" type (:type "class") nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [1218 1241]))                                                  )
+                                                (reparse-symbol classsubparts) [1146 1252])
+                                            ("call" function
+                                               (:arguments 
+                                                  ( ("" variable (:type ("Iterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1383 1392]))                                                  
+                                                :type ("type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [1365 1444]))                                          
+                                        :template-specifier (("0")))
+                                        (reparse-symbol namespacesubparts) [1096 1451]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1026 1453]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1007 1454]))                  
+                :type "namespace")
+                nil [989 1455])
+            ("boost/fusion/container/vector/detail/preprocessed/as_vector.hpp" include (:system-flag t) nil [1512 1586]))          
+      :file "as_vector.hpp"
+      :pointmax 4531
+      :fsize 4530
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((punctuation 1364 . 1365) (punctuation 1363 . 1364) (punctuation 1362 . 1363) (symbol 1354 . 1362) (punctuation 1353 . 1354) (symbol 1348 . 1353) (TYPENAME 1339 . 1347) (STATIC 1332 . 1338) (symbol 1299 . 1323) (punctuation 1289 . 1290) (symbol 1281 . 1289) (TYPENAME 1272 . 1280) (punctuation 1271 . 1272) (TEMPLATE 1262 . 1270))
+      :lexical-table 
+        '(("FUSION_AS_VECTOR_09222005_0950")
+          )
+)
+    (semanticdb-table "convert_impl.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("FUSION_CONVERT_IMPL_09222005_1104" variable (:constant-flag t) nil [457 490])
+            ("boost/fusion/support/config.hpp" include (:system-flag t) nil [492 534])
+            ("boost/fusion/container/vector/detail/as_vector.hpp" include (:system-flag t) nil [535 596])
+            ("boost/fusion/container/vector/vector.hpp" include (:system-flag t) nil [597 648])
+            ("boost/fusion/sequence/intrinsic/begin.hpp" include (:system-flag t) nil [649 701])
+            ("boost/fusion/sequence/intrinsic/size.hpp" include (:system-flag t) nil [702 753])
+            ("boost" type
+               (:members 
+                  ( ("fusion" type
+                       (:members 
+                          ( ("vector_tag" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [796 814])
+                            ("extension" type
+                               (:members 
+                                  ( ("convert_impl" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [854 904])
+                                    ("convert_impl" type
+                                       (:type "struct"
+                                        :members 
+                                          ( ("apply" type
+                                               (:template 
+                                                  ( ("Sequence" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :members 
+                                                  ( ("gen" type
+                                                       (:typedef ("detail::as_vector" type
+                                                             (:template-specifier 
+                                                                ( ("result_of::size::value" type nil nil nil))                                                                
+                                                              :type "class")
+                                                              nil nil)
+                                                        :type "typedef")
+                                                        (reparse-symbol classsubparts) [1072 1145])
+                                                    ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1264 1290])
+                                                    ("call" function
+                                                       (:typemodifiers ("static")
+                                                        :arguments 
+                                                          ( ("seq" variable
+                                                               (:reference 1
+                                                                :type ("Sequence" type (:type "class") nil nil))
+                                                                (reparse-symbol arg-sub-list) [1366 1380]))                                                          
+                                                        :type ("type" type (:type "class") nil nil))
+                                                        (reparse-symbol classsubparts) [1349 1474]))                                                  )
+                                                (reparse-symbol classsubparts) [988 1489]))                                          
+                                        :template-specifier 
+                                          ( ("vector_tag" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [914 1500]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [820 1506]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [773 1508]))                  
+                :type "namespace")
+                nil [755 1509]))          
+      :file "convert_impl.hpp"
+      :pointmax 1518
+      :fsize 1517
+      :lastmodtime '(21727 6089 0 0)
+      :unmatched-syntax '((symbol 1308 . 1332) (punctuation 1263 . 1264) (punctuation 1262 . 1263) (punctuation 1261 . 1262) (symbol 1257 . 1261) (punctuation 1256 . 1257) (punctuation 1255 . 1256) (punctuation 1254 . 1255) (symbol 1246 . 1254) (punctuation 1245 . 1246) (symbol 1240 . 1245) (punctuation 1239 . 1240) (punctuation 1238 . 1239) (symbol 1229 . 1238) (TYPENAME 1220 . 1228) (punctuation 1219 . 1220) (symbol 1214 . 1219) (TEMPLATE 1205 . 1213) (punctuation 1183 . 1184) (punctuation 1182 . 1183) (symbol 1179 . 1182) (TYPENAME 1170 . 1178) (TYPEDEF 1162 . 1169))
+      :lexical-table 
+        '(("FUSION_CONVERT_IMPL_09222005_1104")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!fusion!container!vector!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

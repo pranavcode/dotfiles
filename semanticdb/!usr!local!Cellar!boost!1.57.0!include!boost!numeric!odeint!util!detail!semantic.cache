@@ -1,0 +1,236 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "less_with_sign.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_INTEGRATE_DETAIL_LESS_WITH_SIGN_HPP_INCLUDED" variable (:constant-flag t) nil [491 556])
+            ("limits" include (:system-flag t) nil [558 575])
+            ("boost/numeric/odeint/util/unit_helper.hpp" include (:system-flag t) nil [577 629])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("detail" type
+                                       (:members 
+                                          ( ("less_with_sign" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "bool"
+                                                :arguments 
+                                                  ( ("t1" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [832 838])
+                                                    ("t2" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [839 845])
+                                                    ("dt" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [846 852]))                                                  )
+                                                (reparse-symbol namespacesubparts) [788 1066])
+                                            ("less_eq_with_sign" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "bool"
+                                                :arguments 
+                                                  ( ("t1" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1197 1203])
+                                                    ("t2" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1204 1210])
+                                                    ("dt" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1211 1217]))                                                  )
+                                                (reparse-symbol namespacesubparts) [1150 1379])
+                                            ("min_abs" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("t1" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1415 1421])
+                                                    ("t2" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1422 1428]))                                                  )
+                                                (reparse-symbol namespacesubparts) [1381 1640])
+                                            ("max_abs" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("t1" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1676 1682])
+                                                    ("t2" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1683 1689]))                                                  )
+                                                (reparse-symbol namespacesubparts) [1642 1901]))                                          
+                                        :type "namespace")
+                                        (reparse-symbol namespacesubparts) [688 1903]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [669 1905]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [649 1907]))                  
+                :type "namespace")
+                nil [631 1909]))          
+      :file "less_with_sign.hpp"
+      :pointmax 1918
+      :fsize 1917
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_INTEGRATE_DETAIL_LESS_WITH_SIGN_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "is_range.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_UTIL_DETAIL_IS_RANGE_HPP_INCLUDED" variable (:constant-flag t) nil [478 532])
+            ("cstddef" include (:system-flag t) nil [601 619])
+            ("boost/range/config.hpp" include (:system-flag t) nil [620 653])
+            ("boost/mpl/has_xxx.hpp" include (:system-flag t) nil [654 686])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [687 716])
+            ("boost/mpl/and.hpp" include (:system-flag t) nil [717 745])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("range_detail" type (:type "namespace") (reparse-symbol namespacesubparts) [807 919])
+                                    ("detail" type
+                                       (:members 
+                                          ( ("is_range" type
+                                               (:template 
+                                                  ( ("Range" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :superclasses 
+                                                  ( ("boost::mpl::and_" type
+                                                       (:protection "unspecified"
+                                                        :type "class")
+                                                        nil nil))                                                  )
+                                                (reparse-symbol namespacesubparts) [941 1084])
+                                            ("is_range" type
+                                               (:template 
+                                                  ( ("iteratorT" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :superclasses 
+                                                  ( ("boost::mpl::true_" type
+                                                       (:protection "unspecified"
+                                                        :type "class")
+                                                        nil nil))                                                  
+                                                :template-specifier 
+                                                  ( ("std::pair" type nil nil nil))                                                  )
+                                                (reparse-symbol namespacesubparts) [1245 1350])
+                                            ("is_range" type
+                                               (:template 
+                                                  ( ("iteratorT" type (:type "class") nil nil))                                                  
+                                                :type "struct"
+                                                :superclasses 
+                                                  ( ("boost::mpl::true_" type
+                                                       (:protection "unspecified"
+                                                        :type "class")
+                                                        nil nil))                                                  
+                                                :template-specifier 
+                                                  ( ("std::pair" type (:constant-flag t) nil nil))                                                  )
+                                                (reparse-symbol namespacesubparts) [1352 1463])
+                                            ("boost::mpl::true_" variable (:type "int") (reparse-symbol namespacesubparts) [1705 1727])
+                                            ("boost::mpl::true_" variable (:type "int") (reparse-symbol namespacesubparts) [1815 1837])
+                                            ("is_range" type
+                                               (:type "struct"
+                                                :superclasses 
+                                                  ( ("boost::mpl::true_" type
+                                                       (:protection "unspecified"
+                                                        :type "class")
+                                                        nil nil))                                                  
+                                                :template-specifier 
+                                                  ( ("char" type (:pointer 1) nil nil))                                                  )
+                                                (reparse-symbol namespacesubparts) [2000 2060])
+                                            ("is_range" type
+                                               (:type "struct"
+                                                :superclasses 
+                                                  ( ("boost::mpl::true_" type
+                                                       (:protection "unspecified"
+                                                        :type "class")
+                                                        nil nil))                                                  
+                                                :template-specifier 
+                                                  ( ("wchar_t" type (:pointer 1) nil nil))                                                  )
+                                                (reparse-symbol namespacesubparts) [2062 2125])
+                                            ("is_range" type
+                                               (:type "struct"
+                                                :superclasses 
+                                                  ( ("boost::mpl::true_" type
+                                                       (:protection "unspecified"
+                                                        :type "class")
+                                                        nil nil))                                                  
+                                                :template-specifier 
+                                                  ( ("char" type
+                                                       (:pointer 1
+                                                        :constant-flag t)
+                                                        nil nil))                                                  )
+                                                (reparse-symbol namespacesubparts) [2127 2193])
+                                            ("is_range" type
+                                               (:type "struct"
+                                                :superclasses 
+                                                  ( ("boost::mpl::true_" type
+                                                       (:protection "unspecified"
+                                                        :type "class")
+                                                        nil nil))                                                  
+                                                :template-specifier 
+                                                  ( ("wchar_t" type
+                                                       (:pointer 1
+                                                        :constant-flag t)
+                                                        nil nil))                                                  )
+                                                (reparse-symbol namespacesubparts) [2195 2264])
+                                            ("is_range" type
+                                               (:type "struct"
+                                                :superclasses 
+                                                  ( ("boost::mpl::true_" type
+                                                       (:protection "unspecified"
+                                                        :type "class")
+                                                        nil nil))                                                  
+                                                :template-specifier 
+                                                  ( ("char" type (:pointer 1) nil nil))                                                  )
+                                                (reparse-symbol namespacesubparts) [2266 2332])
+                                            ("is_range" type
+                                               (:type "struct"
+                                                :superclasses 
+                                                  ( ("boost::mpl::true_" type
+                                                       (:protection "unspecified"
+                                                        :type "class")
+                                                        nil nil))                                                  
+                                                :template-specifier 
+                                                  ( ("wchar_t" type (:pointer 1) nil nil))                                                  )
+                                                (reparse-symbol namespacesubparts) [2334 2403])
+                                            ("is_range" type
+                                               (:type "struct"
+                                                :superclasses 
+                                                  ( ("boost::mpl::true_" type
+                                                       (:protection "unspecified"
+                                                        :type "class")
+                                                        nil nil))                                                  
+                                                :template-specifier 
+                                                  ( ("char" type
+                                                       (:pointer 1
+                                                        :constant-flag t)
+                                                        nil nil))                                                  )
+                                                (reparse-symbol namespacesubparts) [2405 2477])
+                                            ("is_range" type
+                                               (:type "struct"
+                                                :superclasses 
+                                                  ( ("boost::mpl::true_" type
+                                                       (:protection "unspecified"
+                                                        :type "class")
+                                                        nil nil))                                                  
+                                                :template-specifier 
+                                                  ( ("wchar_t" type
+                                                       (:pointer 1
+                                                        :constant-flag t)
+                                                        nil nil))                                                  )
+                                                (reparse-symbol namespacesubparts) [2479 2554]))                                          
+                                        :type "namespace")
+                                        (reparse-symbol namespacesubparts) [921 2557]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [785 2580]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [765 2602]))                  
+                :type "namespace")
+                nil [747 2625]))          
+      :file "is_range.hpp"
+      :pointmax 2713
+      :fsize 2712
+      :lastmodtime '(21727 6092 0 0)
+      :unmatched-syntax '((punctuation 1813 . 1814) (punctuation 1811 . 1812) (semantic-list 1806 . 1810) (symbol 1798 . 1806) (CONST 1792 . 1797) (punctuation 1790 . 1791) (symbol 1782 . 1790) (STRUCT 1775 . 1781) (punctuation 1773 . 1774) (symbol 1770 . 1772) (symbol 1763 . 1769) (punctuation 1762 . 1763) (punctuation 1761 . 1762) (symbol 1758 . 1761) (punctuation 1756 . 1757) (symbol 1748 . 1756) (TYPENAME 1739 . 1747) (punctuation 1737 . 1738) (TEMPLATE 1729 . 1737) (punctuation 1703 . 1704) (punctuation 1701 . 1702) (semantic-list 1696 . 1700) (symbol 1688 . 1696) (punctuation 1686 . 1687) (symbol 1678 . 1686) (STRUCT 1671 . 1677) (punctuation 1669 . 1670) (symbol 1666 . 1668) (symbol 1659 . 1665) (punctuation 1658 . 1659) (punctuation 1657 . 1658) (symbol 1654 . 1657) (punctuation 1652 . 1653) (symbol 1644 . 1652) (TYPENAME 1635 . 1643) (punctuation 1633 . 1634) (TEMPLATE 1625 . 1633) (semantic-list 901 . 917) (symbol 874 . 901) (semantic-list 859 . 869) (symbol 832 . 859))
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_UTIL_DETAIL_IS_RANGE_HPP_INCLUDED")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!numeric!odeint!util!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

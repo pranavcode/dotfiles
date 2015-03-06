@@ -1,0 +1,19 @@
+:; exec emacs -Q --script "$0" -- "$@" # -*- mode: emacs-lisp; lexical-binding: t -*-
+
+(setq
+ vc-handled-backends nil
+ debug-on-error t						; show stack stace
+ argv (cdr argv))						; remove '--' from CL arguments
+
+(push (concat (file-name-directory (file-truename load-file-name)) "..")
+	  load-path)
+(require 'ph)
+
+(when (not (= 1 (length argv)))
+  (message "Usage: %s directory" (file-name-base load-file-name))
+  (kill-emacs 1))
+
+(condition-case err
+	(ph-project-new (car argv))
+  (error err
+		 (ph-warn 1 "%s" (error-message-string err))))
