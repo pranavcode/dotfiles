@@ -61,6 +61,9 @@
   (add-to-list 'achead:include-directories '"/usr/include/c++/4.8.2")
   (add-to-list 'achead:include-directories '"/usr/include/boost_1_56_0/boost/")
   ;; for Darwin
+  ;; boost is the secret of my energy
+  (add-to-list 'achead:include-directories '"/usr/local/Cellar/boost/1.57.0/include/boost")
+  (add-to-list 'achead:include-directories '"/usr/local/Cellar/gcc/4.9.2_1/include/c++/4.9.2")
   )
 (add-hook 'c++-mode-hook 'my:ac-c-header-init)
 (add-hook 'c-mode-hook 'my:ac-c-header-init)
