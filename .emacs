@@ -68,7 +68,7 @@
 (add-hook 'c++-mode-hook 'my:ac-c-header-init)
 (add-hook 'c-mode-hook 'my:ac-c-header-init)
 
-;; Yasnippet
+;; Yasnippet setup
 (require 'yasnippet)
 (yas-global-mode 1)
 
