@@ -97,9 +97,12 @@ esac
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-    . $(brew --prefix)/etc/bash_completion
-fi
+case $_myos in
+    Darwin)
+	if [ -f $(brew --prefix)/etc/bash_completion ]; then
+	    . $(brew --prefix)/etc/bash_completion
+	fi ;;
+esac
 
 # Git completion
 # Needs https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
