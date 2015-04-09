@@ -168,6 +168,35 @@
       :lexical-table 
         '(("BOOST_PREPROCESSOR_EMPTY_HPP")
           )
+)
+    (semanticdb-table "repetition.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_REPETITION_HPP" variable (:constant-flag t) nil [655 688])
+            ("boost/preprocessor/repetition/deduce_r.hpp" include (:system-flag t) nil [691 745])
+            ("boost/preprocessor/repetition/deduce_z.hpp" include (:system-flag t) nil [746 800])
+            ("boost/preprocessor/repetition/enum.hpp" include (:system-flag t) nil [801 851])
+            ("boost/preprocessor/repetition/enum_binary_params.hpp" include (:system-flag t) nil [852 916])
+            ("boost/preprocessor/repetition/enum_params.hpp" include (:system-flag t) nil [917 974])
+            ("boost/preprocessor/repetition/enum_params_with_a_default.hpp" include (:system-flag t) nil [975 1047])
+            ("boost/preprocessor/repetition/enum_params_with_defaults.hpp" include (:system-flag t) nil [1048 1119])
+            ("boost/preprocessor/repetition/enum_shifted.hpp" include (:system-flag t) nil [1120 1178])
+            ("boost/preprocessor/repetition/enum_shifted_binary_params.hpp" include (:system-flag t) nil [1179 1251])
+            ("boost/preprocessor/repetition/enum_shifted_params.hpp" include (:system-flag t) nil [1252 1317])
+            ("boost/preprocessor/repetition/enum_trailing.hpp" include (:system-flag t) nil [1318 1377])
+            ("boost/preprocessor/repetition/enum_trailing_binary_params.hpp" include (:system-flag t) nil [1378 1451])
+            ("boost/preprocessor/repetition/enum_trailing_params.hpp" include (:system-flag t) nil [1452 1518])
+            ("boost/preprocessor/repetition/for.hpp" include (:system-flag t) nil [1519 1568])
+            ("boost/preprocessor/repetition/repeat.hpp" include (:system-flag t) nil [1569 1621])
+            ("boost/preprocessor/repetition/repeat_from_to.hpp" include (:system-flag t) nil [1622 1682]))          
+      :file "repetition.hpp"
+      :pointmax 1693
+      :fsize 1692
+      :lastmodtime '(21727 6068 0 0)
+      :unmatched-syntax '((punctuation 1683 . 1684) (punctuation 689 . 690) (punctuation 601 . 602) (punctuation 543 . 544) (punctuation 541 . 542) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PREPROCESSOR_REPETITION_HPP")
+          )
 ))
   :file "!usr!local!Cellar!boost!1.57.0!include!boost!preprocessor!semantic.cache"
   :semantic-tag-version "2.0"

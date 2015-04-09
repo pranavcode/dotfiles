@@ -42,15 +42,15 @@
                                         :type ("std::string" type (:type "class") nil nil))
                                         (reparse-symbol arg-sub-list) [1297 1338]))                                  
                                 :type "void")
-                                (reparse-symbol namespacesubparts) [1287 2782]))                          
+                                (reparse-symbol namespacesubparts) [1287 2884]))                          
                         :type "namespace")
-                        (reparse-symbol namespacesubparts) [1147 2785]))                  
+                        (reparse-symbol namespacesubparts) [1147 2887]))                  
                 :type "namespace")
-                nil [1126 2787]))          
+                nil [1126 2889]))          
       :file "parser.hpp"
-      :pointmax 2828
-      :fsize 2827
-      :lastmodtime '(21753 64618 0 0)
+      :pointmax 2930
+      :fsize 2929
+      :lastmodtime '(21785 25923 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("INCLUDED_INSILICO_CORE_INJECTOR_PARSER_HPP")

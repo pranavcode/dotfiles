@@ -413,6 +413,21 @@
       :lexical-table 
         '(("BOOST_MPL_AUX_CONFIG_BCC_HPP_INCLUDED")
           )
+)
+    (semanticdb-table "dependent_nttp.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPL_AUX_CONFIG_DEPENDENT_NTTP_HPP_INCLUDED" variable (:constant-flag t) nil [67 115])
+            ("boost/mpl/aux_/config/gcc.hpp" include (:system-flag t) nil [411 451])
+            ("boost/mpl/aux_/config/workaround.hpp" include (:system-flag t) nil [452 499]))          
+      :file "dependent_nttp.hpp"
+      :pointmax 1131
+      :fsize 1130
+      :lastmodtime '(21727 6086 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPL_AUX_CONFIG_DEPENDENT_NTTP_HPP_INCLUDED")
+          )
 ))
   :file "!usr!local!Cellar!boost!1.57.0!include!boost!mpl!aux_!config!semantic.cache"
   :semantic-tag-version "2.0"

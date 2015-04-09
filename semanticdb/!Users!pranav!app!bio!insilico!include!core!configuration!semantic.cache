@@ -6,39 +6,39 @@
     (semanticdb-table "serial.hpp"
       :major-mode 'c++-mode
       :tags 
-        '( ("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_SERIAL_HPP" variable (:constant-flag t) nil [936 991])
-            ("core/engine.hpp" include nil nil [993 1019])
-            ("core/helper/file.hpp" include nil nil [1020 1051])
-            ("core/helper/string.hpp" include nil nil [1052 1085])
-            ("core/configuration/parser.hpp" include nil nil [1087 1127])
-            ("core/injector.hpp" include nil nil [1128 1156])
-            ("iostream" include (:system-flag t) nil [1158 1177])
-            ("sstream" include (:system-flag t) nil [1178 1196])
-            ("string" include (:system-flag t) nil [1197 1214])
-            ("vector" include (:system-flag t) nil [1215 1232])
+        '( ("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_SERIAL_HPP" variable (:constant-flag t) nil [964 1019])
+            ("core/engine.hpp" include nil nil [1021 1047])
+            ("core/helper/file.hpp" include nil nil [1048 1079])
+            ("core/helper/string.hpp" include nil nil [1080 1113])
+            ("core/configuration/observer.hpp" include nil nil [1115 1157])
+            ("core/configuration/parser.hpp" include nil nil [1158 1198])
+            ("core/injector.hpp" include nil nil [1199 1227])
+            ("iostream" include (:system-flag t) nil [1229 1248])
+            ("sstream" include (:system-flag t) nil [1249 1267])
+            ("string" include (:system-flag t) nil [1268 1285])
+            ("vector" include (:system-flag t) nil [1286 1303])
             ("insilico" type
                (:members 
                   ( ("configuration" type
                        (:members 
-                          ( ("outstream" variable (:type ("std::ofstream" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [1282 1306])
-                            ("initialize" function
+                          ( ("initialize" function
                                (:arguments 
-                                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1382 1391])
+                                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1427 1436])
                                     ("argv" variable
                                        (:pointer 2
                                         :type "char")
-                                        (reparse-symbol arg-sub-list) [1392 1404]))                                  
+                                        (reparse-symbol arg-sub-list) [1437 1449]))                                  
                                 :type "void")
-                                (reparse-symbol namespacesubparts) [1366 4152])
-                            ("finalize" function (:type "void") (reparse-symbol namespacesubparts) [4199 4329]))                          
+                                (reparse-symbol namespacesubparts) [1411 4252])
+                            ("finalize" function (:type "void") (reparse-symbol namespacesubparts) [4282 4412]))                          
                         :type "namespace")
-                        (reparse-symbol namespacesubparts) [1255 4332]))                  
+                        (reparse-symbol namespacesubparts) [1326 4415]))                  
                 :type "namespace")
-                nil [1234 4334]))          
+                nil [1305 4417]))          
       :file "serial.hpp"
-      :pointmax 4380
-      :fsize 4379
-      :lastmodtime '(21754 3304 0 0)
+      :pointmax 4463
+      :fsize 4462
+      :lastmodtime '(21778 45310 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_SERIAL_HPP")
@@ -47,34 +47,50 @@
     (semanticdb-table "mpi.hpp"
       :major-mode 'c++-mode
       :tags 
-        '( ("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_MPI_HPP" variable (:constant-flag t) nil [943 995])
-            ("core/engine.hpp" include nil nil [997 1023])
-            ("core/helper/file.hpp" include nil nil [1024 1055])
-            ("core/helper/string.hpp" include nil nil [1056 1089])
-            ("core/configuration/parser.hpp" include nil nil [1091 1131])
-            ("parallel/mpi.hpp" include nil nil [1133 1160])
+        '( ("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_MPI_HPP" variable (:constant-flag t) nil [879 931])
+            ("core/engine.hpp" include nil nil [933 959])
+            ("core/engine/mpi.hpp" include nil nil [960 990])
+            ("core/helper/file.hpp" include nil nil [991 1022])
+            ("core/helper/string.hpp" include nil nil [1023 1056])
+            ("core/mpi.hpp" include nil nil [1057 1080])
+            ("core/configuration/observer.hpp" include nil nil [1082 1124])
+            ("core/configuration/parser.hpp" include nil nil [1125 1165])
+            ("core/configuration/serial.hpp" include nil nil [1166 1206])
+            ("core/injector.hpp" include nil nil [1207 1235])
+            ("mpi.h" include nil nil [1237 1253])
+            ("stdio.h" include nil nil [1254 1272])
+            ("fstream" include (:system-flag t) nil [1274 1292])
+            ("iostream" include (:system-flag t) nil [1293 1312])
+            ("sstream" include (:system-flag t) nil [1313 1331])
+            ("string" include (:system-flag t) nil [1332 1349])
+            ("sys/types.h" include (:system-flag t) nil [1350 1372])
+            ("sys/stat.h" include (:system-flag t) nil [1373 1394])
+            ("unordered_map" include (:system-flag t) nil [1395 1419])
+            ("vector" include (:system-flag t) nil [1420 1437])
             ("insilico" type
                (:members 
                   ( ("configuration" type
                        (:members 
-                          ( ("initialize" function
-                               (:arguments 
-                                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1284 1293])
-                                    ("argv" variable
-                                       (:pointer 2
-                                        :type "char")
-                                        (reparse-symbol arg-sub-list) [1294 1306]))                                  
-                                :type "void")
-                                (reparse-symbol namespacesubparts) [1268 3059])
-                            ("finalize" function (:type "void") (reparse-symbol namespacesubparts) [3106 3414]))                          
+                          ( ("mpi" type
+                               (:members 
+                                  ( ("observer" type
+                                       (:members 
+                                          ( ("engine_exechook" variable
+                                               (:default-value "false"
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [6575 6604]))                                          
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [6555 8429]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1486 9327]))                          
                         :type "namespace")
-                        (reparse-symbol namespacesubparts) [1183 3417]))                  
+                        (reparse-symbol namespacesubparts) [1460 9329]))                  
                 :type "namespace")
-                nil [1162 3419]))          
+                nil [1439 9331]))          
       :file "mpi.hpp"
-      :pointmax 3465
-      :fsize 3464
-      :lastmodtime '(21754 3346 0 0)
+      :pointmax 9383
+      :fsize 9382
+      :lastmodtime '(21797 52647 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_MPI_HPP")
@@ -112,18 +128,94 @@
                                         :type ("std::string" type (:type "class") nil nil))
                                         (reparse-symbol arg-sub-list) [1789 1822]))                                  
                                 :type "void")
-                                (reparse-symbol namespacesubparts) [1748 4889]))                          
+                                (reparse-symbol namespacesubparts) [1748 4961]))                          
                         :type "namespace")
-                        (reparse-symbol namespacesubparts) [1067 4892]))                  
+                        (reparse-symbol namespacesubparts) [1067 4964]))                  
                 :type "namespace")
-                nil [1046 4894]))          
+                nil [1046 4966]))          
       :file "parser.hpp"
-      :pointmax 4940
-      :fsize 4939
-      :lastmodtime '(21753 64618 0 0)
+      :pointmax 5012
+      :fsize 5011
+      :lastmodtime '(21785 26014 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_PARSER_HPP")
+          )
+)
+    (semanticdb-table "observer.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_OBSERVER_HPP" variable (:constant-flag t) nil [860 917])
+            ("core/configuration/error.hpp" include nil nil [919 958])
+            ("fstream" include (:system-flag t) nil [960 978])
+            ("iostream" include (:system-flag t) nil [979 998])
+            ("sstream" include (:system-flag t) nil [999 1017])
+            ("string" include (:system-flag t) nil [1018 1035])
+            ("vector" include (:system-flag t) nil [1036 1053])
+            ("insilico" type
+               (:members 
+                  ( ("configuration" type
+                       (:members 
+                          ( ("observation_header" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("std::string" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [1103 1149])
+                            ("pre_computed_keys" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("std::string" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [1150 1195])
+                            ("pre_computed_indices" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("int" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [1196 1236])
+                            ("outstream" variable (:type ("std::ofstream" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [1237 1261])
+                            ("header_observed_flag" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [1262 1296])
+                            ("observer_delimiter" variable
+                               (:default-value "','"
+                                :type "char")
+                                (reparse-symbol namespacesubparts) [1319 1349])
+                            ("observer_header" variable
+                               (:default-value "true"
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [1350 1378])
+                            ("observer" type (:type "struct") (reparse-symbol namespacesubparts) [1859 2249]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1076 5819]))                  
+                :type "namespace")
+                nil [1055 5821]))          
+      :file "observer.hpp"
+      :pointmax 5867
+      :fsize 5866
+      :lastmodtime '(21783 21786 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_OBSERVER_HPP")
+          )
+)
+    (semanticdb-table "error.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_ERROR_HPP" variable (:constant-flag t) nil [852 906])
+            ("iostream" include (:system-flag t) nil [908 927])
+            ("cstdlib" include (:system-flag t) nil [928 946])
+            ("insilico" type
+               (:members 
+                  ( ("configuration" type (:type "namespace") (reparse-symbol namespacesubparts) [969 1104]))                  
+                :type "namespace")
+                nil [948 1106]))          
+      :file "error.hpp"
+      :pointmax 1152
+      :fsize 1151
+      :lastmodtime '(21758 55965 0 0)
+      :unmatched-syntax '((semantic-list 1024 . 1101) (VOID 1019 . 1023) (punctuation 1017 . 1018) (punctuation 1016 . 1017) (semantic-list 1013 . 1015) (symbol 1001 . 1013) (symbol 996 . 1000) (symbol 852 . 906))
+      :lexical-table 
+        '(("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_ERROR_HPP")
           )
 ))
   :file "!Users!pranav!app!bio!insilico!include!core!configuration!semantic.cache"

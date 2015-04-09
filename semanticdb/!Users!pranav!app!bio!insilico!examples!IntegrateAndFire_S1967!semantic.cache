@@ -1,0 +1,45 @@
+;; Object IntegrateAndFire_S1967/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "IntegrateAndFire_S1967/"
+  :tables
+  (list
+    (semanticdb-table "main.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("core.hpp" include nil nil [892 911])
+            ("neuron/N_LIF_S1967.hpp" include nil nil [913 946])
+            ("boost/numeric/odeint.hpp" include (:system-flag t) nil [948 983])
+            ("fstream" include (:system-flag t) nil [984 1002])
+            ("iostream" include (:system-flag t) nil [1003 1022])
+            ("iomanip" include (:system-flag t) nil [1023 1041])
+            ("string" include (:system-flag t) nil [1042 1059])
+            ("vector" include (:system-flag t) nil [1060 1077])
+            ("boost" using (:type ("boost" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [1079 1101])
+            ("insilico" using (:type ("insilico" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [1102 1127])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [1128 1148])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1159 1168])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1169 1181]))                  
+                :type "int")
+                nil [1150 1562]))          
+      :file "main.cpp"
+      :pointmax 1563
+      :fsize 1562
+      :lastmodtime '(21760 13714 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!pranav!app!bio!insilico!examples!IntegrateAndFire_S1967!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,53 @@
+;; Object synapse/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "synapse/"
+  :tables
+  (list
+    (semanticdb-table "S_DefaultSynapse.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_S_DEFAULTSYNAPSE_HPP" variable (:constant-flag t) nil [863 892])
+            ("core/engine.hpp" include nil nil [894 920])
+            ("insilico" type
+               (:members 
+                  ( ("S_DefaultSynapse" type
+                       (:superclasses 
+                          ( ("Synapse" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [987 994])
+                            ("ode_set" function
+                               (:arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1010 1032])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1033 1050])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1051 1066])
+                                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1067 1082]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [997 1916]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [944 1939]))                  
+                :type "namespace")
+                nil [922 1968]))          
+      :file "S_DefaultSynapse.hpp"
+      :pointmax 1989
+      :fsize 1650
+      :lastmodtime '(21780 4923 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_S_DEFAULTSYNAPSE_HPP")
+          )
+))
+  :file "!Users!pranav!app!bio!insilico!include!synapse!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

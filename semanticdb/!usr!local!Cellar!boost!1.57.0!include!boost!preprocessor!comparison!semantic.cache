@@ -1109,6 +1109,29 @@
           ("BOOST_PP_NOT_EQUAL_247" (spp-arg-list ("c" "y") 64010 . 64016) . ((symbol "BOOST_PP_IIF" 64017 . 64029) (semantic-list "(c, BOOST_PP_NIL, y##(1, BOOST_PP_NIL))" 64029 . 64068)))
           ("BOOST_PP_NOT_EQUAL_254" (spp-arg-list ("c" "y") 64661 . 64667) . ((symbol "BOOST_PP_IIF" 64668 . 64680) (semantic-list "(c, BOOST_PP_NIL, y##(1, BOOST_PP_NIL))" 64680 . 64719)))
           )
+)
+    (semanticdb-table "greater.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_COMPARISON_GREATER_HPP" variable (:constant-flag t) nil [416 457])
+            ("boost/preprocessor/comparison/less.hpp" include (:system-flag t) nil [460 510])
+            ("boost/preprocessor/config/config.hpp" include (:system-flag t) nil [511 559])
+            ("BOOST_PP_GREATER" variable (:constant-flag t) nil [717 733])
+            ("BOOST_PP_GREATER_I" variable (:constant-flag t) nil [777 795])
+            ("BOOST_PP_GREATER_D" variable (:constant-flag t) nil [999 1017])
+            ("BOOST_PP_GREATER_D_I" variable (:constant-flag t) nil [1069 1089]))          
+      :file "greater.hpp"
+      :pointmax 1142
+      :fsize 1141
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((punctuation 1132 . 1133) (punctuation 859 . 860) (punctuation 832 . 833) (punctuation 830 . 831) (punctuation 587 . 588) (punctuation 562 . 563) (punctuation 560 . 561) (punctuation 458 . 459) (punctuation 354 . 355) (punctuation 296 . 297) (punctuation 294 . 295) (punctuation 252 . 253) (punctuation 250 . 251) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PP_GREATER_I" (spp-arg-list ("x" "y") 795 . 801) . ((symbol "BOOST_PP_LESS" 802 . 815) (semantic-list "(y, x)" 815 . 821)))
+          ("BOOST_PREPROCESSOR_COMPARISON_GREATER_HPP")
+          ("BOOST_PP_GREATER_D_I" (spp-arg-list ("d" "x" "y") 1089 . 1098) . ((symbol "BOOST_PP_LESS_D" 1099 . 1114) (semantic-list "(d, y, x)" 1114 . 1123)))
+          ("BOOST_PP_GREATER" (spp-arg-list ("x" "y") 733 . 739) . ((symbol "BOOST_PP_GREATER_I" 740 . 758) (semantic-list "(x, y)" 758 . 764)))
+          ("BOOST_PP_GREATER_D" (spp-arg-list ("d" "x" "y") 1017 . 1026) . ((symbol "BOOST_PP_GREATER_D_I" 1027 . 1047) (semantic-list "(d, x, y)" 1047 . 1056)))
+          )
 ))
   :file "!usr!local!Cellar!boost!1.57.0!include!boost!preprocessor!comparison!semantic.cache"
   :semantic-tag-version "2.0"

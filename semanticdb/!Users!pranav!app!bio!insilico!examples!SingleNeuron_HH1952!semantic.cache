@@ -6,159 +6,130 @@
     (semanticdb-table "main.cpp"
       :major-mode 'c++-mode
       :tags 
-        '( ("core/configuration.hpp" include nil nil [1 34])
-            ("core/engine.hpp" include nil nil [35 61])
-            ("boost/numeric/odeint.hpp" include (:system-flag t) nil [63 98])
-            ("fstream" include (:system-flag t) nil [100 118])
-            ("iostream" include (:system-flag t) nil [119 138])
-            ("iomanip" include (:system-flag t) nil [139 157])
-            ("string" include (:system-flag t) nil [158 175])
-            ("vector" include (:system-flag t) nil [176 193])
+        '( ("core.hpp" include nil nil [839 858])
+            ("boost/numeric/odeint.hpp" include (:system-flag t) nil [860 895])
+            ("fstream" include (:system-flag t) nil [897 915])
+            ("iostream" include (:system-flag t) nil [916 935])
+            ("iomanip" include (:system-flag t) nil [936 954])
+            ("string" include (:system-flag t) nil [955 972])
+            ("vector" include (:system-flag t) nil [973 990])
             ("insilico" using (:type ("insilico" type
                  (:prototype t
                   :type "namespace")
-                  nil nil)) nil [195 220])
+                  nil nil)) nil [992 1017])
             ("std" using (:type ("std" type
                  (:prototype t
                   :type "namespace")
-                  nil nil)) nil [221 241])
+                  nil nil)) nil [1018 1038])
             ("I_Na" type
                (:members 
-                  ( ("public" label nil (reparse-symbol classsubparts) [257 264])
+                  ( ("public" label nil (reparse-symbol classsubparts) [1054 1061])
                     ("current" function
                        (:typemodifiers ("static")
                         :arguments 
                           ( ("variables" variable
                                (:reference 1
                                 :type ("state_type" type (:type "class") nil nil))
-                                (reparse-symbol arg-sub-list) [287 309])
+                                (reparse-symbol arg-sub-list) [1084 1106])
                             ("dxdt" variable
                                (:reference 1
                                 :type ("state_type" type (:type "class") nil nil))
-                                (reparse-symbol arg-sub-list) [310 327])
+                                (reparse-symbol arg-sub-list) [1107 1124])
                             ("t" variable
                                (:constant-flag t
                                 :type "double")
-                                (reparse-symbol arg-sub-list) [328 343])
-                            ("index" variable (:type "int") (reparse-symbol arg-sub-list) [344 354]))                          
+                                (reparse-symbol arg-sub-list) [1125 1140])
+                            ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1141 1156]))                          
                         :type "void")
-                        (reparse-symbol classsubparts) [267 1051]))                  
+                        (reparse-symbol classsubparts) [1064 1944]))                  
                 :type "class")
-                nil [243 1054])
+                nil [1040 1947])
             ("I_K" type
                (:members 
-                  ( ("public" label nil (reparse-symbol classsubparts) [1069 1076])
+                  ( ("public" label nil (reparse-symbol classsubparts) [1962 1969])
                     ("current" function
                        (:typemodifiers ("static")
                         :arguments 
                           ( ("variables" variable
                                (:reference 1
                                 :type ("state_type" type (:type "class") nil nil))
-                                (reparse-symbol arg-sub-list) [1099 1121])
+                                (reparse-symbol arg-sub-list) [1992 2014])
                             ("dxdt" variable
                                (:reference 1
                                 :type ("state_type" type (:type "class") nil nil))
-                                (reparse-symbol arg-sub-list) [1122 1139])
+                                (reparse-symbol arg-sub-list) [2015 2032])
                             ("t" variable
                                (:constant-flag t
                                 :type "double")
-                                (reparse-symbol arg-sub-list) [1140 1155])
-                            ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1156 1166]))                          
+                                (reparse-symbol arg-sub-list) [2033 2048])
+                            ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2049 2064]))                          
                         :type "void")
-                        (reparse-symbol classsubparts) [1079 1609]))                  
+                        (reparse-symbol classsubparts) [1972 2586]))                  
                 :type "class")
-                nil [1056 1612])
+                nil [1949 2589])
             ("I_Leak" type
                (:members 
-                  ( ("public" label nil (reparse-symbol classsubparts) [1630 1637])
+                  ( ("public" label nil (reparse-symbol classsubparts) [2607 2614])
                     ("current" function
                        (:typemodifiers ("static")
                         :arguments 
                           ( ("variables" variable
                                (:reference 1
                                 :type ("state_type" type (:type "class") nil nil))
-                                (reparse-symbol arg-sub-list) [1660 1682])
+                                (reparse-symbol arg-sub-list) [2637 2659])
                             ("dxdt" variable
                                (:reference 1
                                 :type ("state_type" type (:type "class") nil nil))
-                                (reparse-symbol arg-sub-list) [1683 1700])
+                                (reparse-symbol arg-sub-list) [2660 2677])
                             ("t" variable
                                (:constant-flag t
                                 :type "double")
-                                (reparse-symbol arg-sub-list) [1701 1716])
-                            ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1717 1727]))                          
+                                (reparse-symbol arg-sub-list) [2678 2693])
+                            ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2694 2709]))                          
                         :type "void")
-                        (reparse-symbol classsubparts) [1640 1915]))                  
+                        (reparse-symbol classsubparts) [2617 2968]))                  
                 :type "class")
-                nil [1614 1918])
+                nil [2591 2971])
             ("HH_Neuron" type
-               (:members 
-                  ( ("public" label nil (reparse-symbol classsubparts) [1939 1946])
+               (:superclasses 
+                  ( ("Neuron" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [3008 3015])
                     ("ode_set" function
-                       (:typemodifiers ("static")
-                        :arguments 
+                       (:arguments 
                           ( ("variables" variable
                                (:reference 1
                                 :type ("state_type" type (:type "class") nil nil))
-                                (reparse-symbol arg-sub-list) [1969 1991])
+                                (reparse-symbol arg-sub-list) [3031 3053])
                             ("dxdt" variable
                                (:reference 1
                                 :type ("state_type" type (:type "class") nil nil))
-                                (reparse-symbol arg-sub-list) [1992 2009])
+                                (reparse-symbol arg-sub-list) [3054 3071])
                             ("t" variable
                                (:constant-flag t
                                 :type "double")
-                                (reparse-symbol arg-sub-list) [2010 2025])
-                            ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2026 2036]))                          
+                                (reparse-symbol arg-sub-list) [3072 3087])
+                            ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [3088 3103]))                          
                         :type "void")
-                        (reparse-symbol classsubparts) [1949 2522]))                  
+                        (reparse-symbol classsubparts) [3018 3690]))                  
                 :type "class")
-                nil [1920 2525])
-            ("()" function
-               (:operator-flag t
-                :parent "engine"
-                :arguments 
-                  ( ("variables" variable
-                       (:reference 1
-                        :type ("state_type" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [2551 2573])
-                    ("dxdt" variable
-                       (:reference 1
-                        :type ("state_type" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [2574 2591])
-                    ("time" variable
-                       (:constant-flag t
-                        :type "double")
-                        (reparse-symbol arg-sub-list) [2592 2610]))                  
-                :type "void")
-                nil [2527 2662])
-            ("()" function
-               (:operator-flag t
-                :parent "configuration::observer"
-                :arguments 
-                  ( ("variables" variable
-                       (:reference 1
-                        :type ("state_type" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [2705 2727])
-                    ("t" variable
-                       (:constant-flag t
-                        :type "double")
-                        (reparse-symbol arg-sub-list) [2728 2743]))                  
-                :type "void")
-                nil [2664 2935])
+                nil [2973 3693])
             ("main" function
                (:arguments 
-                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2946 2955])
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [3704 3713])
                     ("argv" variable
                        (:pointer 2
                         :type "char")
-                        (reparse-symbol arg-sub-list) [2956 2968]))                  
+                        (reparse-symbol arg-sub-list) [3714 3726]))                  
                 :type "int")
-                nil [2937 3291]))          
+                nil [3695 4286]))          
       :file "main.cpp"
-      :pointmax 3292
-      :fsize 3291
-      :lastmodtime '(21750 40007 0 0)
+      :pointmax 4287
+      :fsize 4286
+      :lastmodtime '(21796 22260 0 0)
       :unmatched-syntax nil))
   :file "!Users!pranav!app!bio!insilico!examples!SingleNeuron_HH1952!semantic.cache"
   :semantic-tag-version "2.0"

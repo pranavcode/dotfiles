@@ -1,0 +1,50 @@
+;; Object library/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "library/"
+  :tables
+  (list
+    (semanticdb-table "c.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_LIBRARY_C_H" variable (:constant-flag t) nil [228 252])
+            ("boost/predef/library/c/_prefix.h" include (:system-flag t) nil [254 297])
+            ("boost/predef/library/c/gnu.h" include (:system-flag t) nil [299 338])
+            ("boost/predef/library/c/uc.h" include (:system-flag t) nil [339 377])
+            ("boost/predef/library/c/vms.h" include (:system-flag t) nil [378 417])
+            ("boost/predef/library/c/zos.h" include (:system-flag t) nil [418 457]))          
+      :file "c.h"
+      :pointmax 466
+      :fsize 465
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_PREDEF_LIBRARY_C_H")
+          )
+)
+    (semanticdb-table "std.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_LIBRARY_STD_H" variable (:constant-flag t) nil [229 255])
+            ("boost/predef/library/std/_prefix.h" include (:system-flag t) nil [257 302])
+            ("boost/predef/library/std/cxx.h" include (:system-flag t) nil [304 345])
+            ("boost/predef/library/std/dinkumware.h" include (:system-flag t) nil [346 394])
+            ("boost/predef/library/std/libcomo.h" include (:system-flag t) nil [395 440])
+            ("boost/predef/library/std/modena.h" include (:system-flag t) nil [441 485])
+            ("boost/predef/library/std/msl.h" include (:system-flag t) nil [486 527])
+            ("boost/predef/library/std/roguewave.h" include (:system-flag t) nil [528 575])
+            ("boost/predef/library/std/sgi.h" include (:system-flag t) nil [576 617])
+            ("boost/predef/library/std/stdcpp3.h" include (:system-flag t) nil [618 663])
+            ("boost/predef/library/std/stlport.h" include (:system-flag t) nil [664 709])
+            ("boost/predef/library/std/vacpp.h" include (:system-flag t) nil [710 753]))          
+      :file "std.h"
+      :pointmax 762
+      :fsize 761
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_PREDEF_LIBRARY_STD_H")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!predef!library!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

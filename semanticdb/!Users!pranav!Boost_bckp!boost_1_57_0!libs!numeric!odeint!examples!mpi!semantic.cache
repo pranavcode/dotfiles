@@ -1,0 +1,120 @@
+;; Object mpi/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "mpi/"
+  :tables
+  (list
+    (semanticdb-table "phase_chain.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("fstream" include (:system-flag t) nil [336 354])
+            ("iostream" include (:system-flag t) nil [355 374])
+            ("vector" include (:system-flag t) nil [375 392])
+            ("boost/random.hpp" include (:system-flag t) nil [393 420])
+            ("boost/timer/timer.hpp" include (:system-flag t) nil [421 453])
+            ("boost/numeric/odeint.hpp" include (:system-flag t) nil [480 515])
+            ("boost/numeric/odeint/external/mpi/mpi.hpp" include (:system-flag t) nil [516 568])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [574 594])
+            ("boost::numeric::odeint" using (:type ("boost::numeric::odeint" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [595 634])
+            ("boost::timer::cpu_timer" using (:type ("boost::timer::cpu_timer" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [635 665])
+            ("boost::math::double_constants::pi" using (:type ("boost::math::double_constants::pi" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [666 706])
+            ("state_type" type
+               (:typedef ("mpi_state" type
+                     (:template-specifier 
+                        ( ("vector" type nil nil nil))                        
+                      :type "class")
+                      nil nil)
+                :type "typedef")
+                nil [729 776])
+            ("phase_chain_mpi_state" type
+               (:members 
+                  ( ("phase_chain_mpi_state" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("gamma" variable
+                               (:default-value "0.5"
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [863 881]))                          
+                        :type ("phase_chain_mpi_state" type (:type "struct") nil nil))
+                        (reparse-symbol classsubparts) [840 910])
+                    ("()" function
+                       (:operator-flag t
+                        :arguments 
+                          ( ("x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [933 954])
+                            ("dxdt" variable
+                               (:reference 1
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [955 973])
+                            ("" variable (:type "double") (reparse-symbol arg-sub-list) [974 990]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [916 2261])
+                    ("coupling_func" function
+                       (:arguments 
+                          ( ("x" variable (:type "double") (reparse-symbol arg-sub-list) [2289 2299]))                          
+                        :type "double")
+                        (reparse-symbol classsubparts) [2267 2373])
+                    ("m_gamma" variable (:type "double") (reparse-symbol classsubparts) [2379 2394]))                  
+                :type "struct")
+                nil [805 2397])
+            ("output_observer" type
+               (:members 
+                  ( ("filename_" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2430 2447])
+                    ("count_" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2450 2464])
+                    ("output_observer" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("filename" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2484 2508]))                          
+                        :type ("output_observer" type (:type "struct") nil nil))
+                        (reparse-symbol classsubparts) [2467 2550])
+                    ("()" function
+                       (:operator-flag t
+                        :arguments 
+                          ( ("x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2570 2591])
+                            ("dt" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [2592 2609]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2553 2811]))                  
+                :type "struct")
+                nil [2403 2814])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2826 2836])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2837 2850]))                  
+                :type "int")
+                nil [2816 3871]))          
+      :file "phase_chain.cpp"
+      :pointmax 3872
+      :fsize 3871
+      :lastmodtime '(21789 61522 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!pranav!Boost_bckp!boost_1_57_0!libs!numeric!odeint!examples!mpi!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

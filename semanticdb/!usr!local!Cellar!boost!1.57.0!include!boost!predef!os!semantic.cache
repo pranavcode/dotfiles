@@ -70,6 +70,290 @@
           ("BOOST_OS_IOS_NAME" . ((string "\"iOS\"" 1217 . 1222)))
           ("BOOST_OS_IOS" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 769 . 803)))
           )
+)
+    (semanticdb-table "aix.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_AIX_H" variable (:constant-flag t) nil [225 246])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [248 288])
+            ("boost/predef/make.h" include (:system-flag t) nil [289 319])
+            ("BOOST_OS_AIX" variable (:constant-flag t) nil [741 753])
+            ("BOOST_OS_AIX_NAME" variable (:constant-flag t) nil [1597 1614])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1626 1663]))          
+      :file "aix.h"
+      :pointmax 1731
+      :fsize 1730
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1689 . 1721) (symbol 1664 . 1689) (string "\"IBM AIX\"" 1703 . 1720))
+      :lexical-table 
+        '(("BOOST_PREDEF_OS_AIX_H")
+          ("BOOST_OS_AIX_NAME" . ((string "\"IBM AIX\"" 1615 . 1624)))
+          ("BOOST_OS_AIX" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 754 . 788)))
+          )
+)
+    (semanticdb-table "amigaos.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_AMIGAOS_H" variable (:constant-flag t) nil [229 254])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [256 296])
+            ("boost/predef/make.h" include (:system-flag t) nil [297 327])
+            ("BOOST_OS_AMIGAOS" variable (:constant-flag t) nil [588 604])
+            ("BOOST_OS_AMIGAOS_NAME" variable (:constant-flag t) nil [962 983])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [995 1032]))          
+      :file "amigaos.h"
+      :pointmax 1108
+      :fsize 1107
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1058 . 1098) (symbol 1033 . 1058) (string "\"AmigaOS\"" 1076 . 1097))
+      :lexical-table 
+        '(("BOOST_OS_AMIGAOS_NAME" . ((string "\"AmigaOS\"" 984 . 993)))
+          ("BOOST_PREDEF_OS_AMIGAOS_H")
+          ("BOOST_OS_AMIGAOS" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 605 . 639)))
+          )
+)
+    (semanticdb-table "android.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_ADROID_H" variable (:constant-flag t) nil [223 247])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [249 289])
+            ("boost/predef/make.h" include (:system-flag t) nil [290 320])
+            ("BOOST_OS_ANDROID" variable (:constant-flag t) nil [565 581])
+            ("BOOST_OS_ANDROID_NAME" variable (:constant-flag t) nil [921 942])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [954 991]))          
+      :file "android.h"
+      :pointmax 1067
+      :fsize 1066
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1017 . 1057) (symbol 992 . 1017) (string "\"Android\"" 1035 . 1056))
+      :lexical-table 
+        '(("BOOST_OS_ANDROID" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 582 . 616)))
+          ("BOOST_OS_ANDROID_NAME" . ((string "\"Android\"" 943 . 952)))
+          ("BOOST_PREDEF_OS_ADROID_H")
+          )
+)
+    (semanticdb-table "beos.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_BEOS_H" variable (:constant-flag t) nil [226 248])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [250 290])
+            ("boost/predef/make.h" include (:system-flag t) nil [291 321])
+            ("BOOST_OS_BEOS" variable (:constant-flag t) nil [531 544])
+            ("BOOST_OS_BEOS_NAME" variable (:constant-flag t) nil [869 887])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [896 933]))          
+      :file "beos.h"
+      :pointmax 1003
+      :fsize 1002
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 959 . 993) (symbol 934 . 959) (string "\"BeOS\"" 974 . 992))
+      :lexical-table 
+        '(("BOOST_OS_BEOS_NAME" . ((string "\"BeOS\"" 888 . 894)))
+          ("BOOST_OS_BEOS" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 545 . 579)))
+          ("BOOST_PREDEF_OS_BEOS_H")
+          )
+)
+    (semanticdb-table "cygwin.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_CYGWIN_H" variable (:constant-flag t) nil [228 252])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [254 294])
+            ("boost/predef/make.h" include (:system-flag t) nil [295 325])
+            ("BOOST_OS_CYGWIN" variable (:constant-flag t) nil [537 552])
+            ("BOOST_OS_CYGWIN_NAME" variable (:constant-flag t) nil [887 907])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [918 955]))          
+      :file "cygwin.h"
+      :pointmax 1029
+      :fsize 1028
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 981 . 1019) (symbol 956 . 981) (string "\"Cygwin\"" 998 . 1018))
+      :lexical-table 
+        '(("BOOST_PREDEF_OS_CYGWIN_H")
+          ("BOOST_OS_CYGWIN_NAME" . ((string "\"Cygwin\"" 908 . 916)))
+          ("BOOST_OS_CYGWIN" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 553 . 587)))
+          )
+)
+    (semanticdb-table "hpux.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_HPUX_H" variable (:constant-flag t) nil [226 248])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [250 290])
+            ("boost/predef/make.h" include (:system-flag t) nil [291 321])
+            ("BOOST_OS_HPUX" variable (:constant-flag t) nil [608 621])
+            ("BOOST_OS_HPUX_NAME" variable (:constant-flag t) nil [979 997])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1007 1044]))          
+      :file "hpux.h"
+      :pointmax 1114
+      :fsize 1113
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1070 . 1104) (symbol 1045 . 1070) (string "\"HP-UX\"" 1085 . 1103))
+      :lexical-table 
+        '(("BOOST_PREDEF_OS_HPUX_H")
+          ("BOOST_OS_HPUX" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 622 . 656)))
+          ("BOOST_OS_HPUX_NAME" . ((string "\"HP-UX\"" 998 . 1005)))
+          )
+)
+    (semanticdb-table "irix.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_IRIX_H" variable (:constant-flag t) nil [226 248])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [250 290])
+            ("boost/predef/make.h" include (:system-flag t) nil [291 321])
+            ("BOOST_OS_IRIX" variable (:constant-flag t) nil [565 578])
+            ("BOOST_OS_IRIX_NAME" variable (:constant-flag t) nil [916 934])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [943 980]))          
+      :file "irix.h"
+      :pointmax 1050
+      :fsize 1049
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1006 . 1040) (symbol 981 . 1006) (string "\"IRIX\"" 1021 . 1039))
+      :lexical-table 
+        '(("BOOST_PREDEF_OS_IRIX_H")
+          ("BOOST_OS_IRIX" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 579 . 613)))
+          ("BOOST_OS_IRIX_NAME" . ((string "\"IRIX\"" 935 . 941)))
+          )
+)
+    (semanticdb-table "linux.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_LINUX_H" variable (:constant-flag t) nil [227 250])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [252 292])
+            ("boost/predef/make.h" include (:system-flag t) nil [293 323])
+            ("BOOST_OS_LINUX" variable (:constant-flag t) nil [574 588])
+            ("BOOST_OS_LINUX_NAME" variable (:constant-flag t) nil [934 953])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [963 1000]))          
+      :file "linux.h"
+      :pointmax 1072
+      :fsize 1071
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1026 . 1062) (symbol 1001 . 1026) (string "\"Linux\"" 1042 . 1061))
+      :lexical-table 
+        '(("BOOST_OS_LINUX_NAME" . ((string "\"Linux\"" 954 . 961)))
+          ("BOOST_PREDEF_OS_LINUX_H")
+          ("BOOST_OS_LINUX" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 589 . 623)))
+          )
+)
+    (semanticdb-table "os400.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_OS400_H" variable (:constant-flag t) nil [227 250])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [252 292])
+            ("boost/predef/make.h" include (:system-flag t) nil [293 323])
+            ("BOOST_OS_OS400" variable (:constant-flag t) nil [542 556])
+            ("BOOST_OS_OS400_NAME" variable (:constant-flag t) nil [886 905])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [920 957]))          
+      :file "os400.h"
+      :pointmax 1029
+      :fsize 1028
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 983 . 1019) (symbol 958 . 983) (string "\"IBM OS/400\"" 999 . 1018))
+      :lexical-table 
+        '(("BOOST_OS_OS400" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 557 . 591)))
+          ("BOOST_OS_OS400_NAME" . ((string "\"IBM OS/400\"" 906 . 918)))
+          ("BOOST_PREDEF_OS_OS400_H")
+          )
+)
+    (semanticdb-table "qnxnto.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_QNXNTO_H" variable (:constant-flag t) nil [228 252])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [254 294])
+            ("boost/predef/make.h" include (:system-flag t) nil [295 325])
+            ("BOOST_OS_QNX" variable (:constant-flag t) nil [731 743])
+            ("BOOST_OS_QNX_NAME" variable (:constant-flag t) nil [1379 1396])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1404 1441]))          
+      :file "qnxnto.h"
+      :pointmax 1509
+      :fsize 1508
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1467 . 1499) (symbol 1442 . 1467) (string "\"QNX\"" 1481 . 1498))
+      :lexical-table 
+        '(("BOOST_OS_QNX" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 744 . 778)))
+          ("BOOST_OS_QNX_NAME" . ((string "\"QNX\"" 1397 . 1402)))
+          ("BOOST_PREDEF_OS_QNXNTO_H")
+          )
+)
+    (semanticdb-table "solaris.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_SOLARIS_H" variable (:constant-flag t) nil [229 254])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [256 296])
+            ("boost/predef/make.h" include (:system-flag t) nil [297 327])
+            ("BOOST_OS_SOLARIS" variable (:constant-flag t) nil [602 618])
+            ("BOOST_OS_SOLARIS_NAME" variable (:constant-flag t) nil [968 989])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1001 1038]))          
+      :file "solaris.h"
+      :pointmax 1114
+      :fsize 1113
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1064 . 1104) (symbol 1039 . 1064) (string "\"Solaris\"" 1082 . 1103))
+      :lexical-table 
+        '(("BOOST_OS_SOLARIS_NAME" . ((string "\"Solaris\"" 990 . 999)))
+          ("BOOST_PREDEF_OS_SOLARIS_H")
+          ("BOOST_OS_SOLARIS" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 619 . 653)))
+          )
+)
+    (semanticdb-table "unix.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_UNIX_H" variable (:constant-flag t) nil [226 248])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [250 290])
+            ("boost/predef/make.h" include (:system-flag t) nil [291 321])
+            ("BOOST_OS_UNIX" variable (:constant-flag t) nil [673 686])
+            ("BOOST_OS_UNIX_NAME" variable (:constant-flag t) nil [975 993])
+            ("BOOST_OS_SVR4" variable (:constant-flag t) nil [1372 1385])
+            ("BOOST_OS_SVR4_NAME" variable (:constant-flag t) nil [1673 1691])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1712 1749]))          
+      :file "unix.h"
+      :pointmax 1878
+      :fsize 1877
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1835 . 1869) (symbol 1810 . 1835) (string "\"SVR4 Environment\"" 1850 . 1868) (semantic-list 1775 . 1809) (symbol 1750 . 1775) (string "\"Unix Environment\"" 1790 . 1808))
+      :lexical-table 
+        '(("BOOST_OS_UNIX" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 687 . 721)))
+          ("BOOST_OS_UNIX_NAME" . ((string "\"Unix Environment\"" 994 . 1012)))
+          ("BOOST_OS_SVR4_NAME" . ((string "\"SVR4 Environment\"" 1692 . 1710)))
+          ("BOOST_PREDEF_OS_UNIX_H")
+          ("BOOST_OS_SVR4" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 1386 . 1420)))
+          )
+)
+    (semanticdb-table "vms.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_VMS_H" variable (:constant-flag t) nil [225 246])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [248 288])
+            ("boost/predef/make.h" include (:system-flag t) nil [289 319])
+            ("BOOST_OS_VMS" variable (:constant-flag t) nil [589 601])
+            ("BOOST_OS_VMS_NAME" variable (:constant-flag t) nil [1055 1072])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1080 1117]))          
+      :file "vms.h"
+      :pointmax 1185
+      :fsize 1184
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1143 . 1175) (symbol 1118 . 1143) (string "\"VMS\"" 1157 . 1174))
+      :lexical-table 
+        '(("BOOST_OS_VMS" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 602 . 636)))
+          ("BOOST_OS_VMS_NAME" . ((string "\"VMS\"" 1073 . 1078)))
+          ("BOOST_PREDEF_OS_VMS_H")
+          )
+)
+    (semanticdb-table "windows.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_OS_WINDOWS_H" variable (:constant-flag t) nil [229 254])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [256 296])
+            ("boost/predef/make.h" include (:system-flag t) nil [297 327])
+            ("BOOST_OS_WINDOWS" variable (:constant-flag t) nil [746 762])
+            ("BOOST_OS_WINDOWS_NAME" variable (:constant-flag t) nil [1198 1219])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1241 1278]))          
+      :file "windows.h"
+      :pointmax 1353
+      :fsize 1352
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1304 . 1344) (symbol 1279 . 1304) (string "\"Microsoft Windows\"" 1322 . 1343))
+      :lexical-table 
+        '(("BOOST_OS_WINDOWS_NAME" . ((string "\"Microsoft Windows\"" 1220 . 1239)))
+          ("BOOST_PREDEF_OS_WINDOWS_H")
+          ("BOOST_OS_WINDOWS" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 763 . 797)))
+          )
 ))
   :file "!usr!local!Cellar!boost!1.57.0!include!boost!predef!os!semantic.cache"
   :semantic-tag-version "2.0"

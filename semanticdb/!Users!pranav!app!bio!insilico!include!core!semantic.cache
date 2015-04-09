@@ -6,325 +6,18 @@
     (semanticdb-table "engine.hpp"
       :major-mode 'c++-mode
       :tags 
-        '( ("INCLUDED_INSILICO_CORE_ENGINE_HPP" variable (:constant-flag t) nil [849 882])
-            ("INCLUDED_INSILICO_CORE_ENGINE_HPP" variable (:constant-flag t) nil [849 882])
-            ("algorithm" include (:system-flag t) nil [884 904])
-            ("cassert" include (:system-flag t) nil [905 923])
-            ("cstdio" include (:system-flag t) nil [924 941])
-            ("fstream" include (:system-flag t) nil [942 960])
-            ("iostream" include (:system-flag t) nil [961 980])
-            ("string" include (:system-flag t) nil [981 998])
-            ("unordered_map" include (:system-flag t) nil [999 1023])
-            ("vector" include (:system-flag t) nil [1024 1041])
+        '( ("INCLUDED_INSILICO_CORE_ENGINE_HPP" variable (:constant-flag t) nil [861 894])
+            ("core/engine/serial.hpp" include nil nil [960 993])
             ("insilico" type
                (:members 
-                  ( ("std::vector" variable (:type "int") (reparse-symbol namespacesubparts) [1159 1179])
-                    ("key" variable
-                       (:dereference 1
-                        :type "char")
-                        (reparse-symbol namespacesubparts) [1181 1195])
-                    ("engine" type
-                       (:members 
-                          ( ("public" label nil (reparse-symbol classsubparts) [1213 1220])
-                            ("index_map" variable
-                               (:typemodifiers ("static")
-                                :type ("std::unordered_map" type
-                                     (:template-specifier 
-                                        ( ("std::string" type nil nil nil)
-                                          ("int" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [1223 1277])
-                            ("value_map" variable
-                               (:typemodifiers ("static")
-                                :type ("std::unordered_map" type
-                                     (:template-specifier 
-                                        ( ("std::string" type nil nil nil)
-                                          ("double" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [1280 1337])
-                            ("neuron_start_list_ids" variable
-                               (:typemodifiers ("static")
-                                :type ("std::vector" type
-                                     (:template-specifier 
-                                        ( ("int" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [1340 1386])
-                            ("neuron_end_list_ids" variable
-                               (:typemodifiers ("static")
-                                :type ("std::vector" type
-                                     (:template-specifier 
-                                        ( ("int" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [1389 1433])
-                            ("synapse_start_list_ids" variable
-                               (:typemodifiers ("static")
-                                :type ("std::vector" type
-                                     (:template-specifier 
-                                        ( ("int" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [1436 1483])
-                            ("synapse_end_list_ids" variable
-                               (:typemodifiers ("static")
-                                :type ("std::vector" type
-                                     (:template-specifier 
-                                        ( ("int" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [1486 1531])
-                            ("pre_synaptic_lists" variable
-                               (:typemodifiers ("static")
-                                :type ("std::vector" type
-                                     (:template-specifier 
-                                        ( ("std::vector" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [1534 1590])
-                            ("pre_neuron" variable
-                               (:typemodifiers ("static")
-                                :type ("std::vector" type
-                                     (:template-specifier 
-                                        ( ("int" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [1593 1628])
-                            ("post_neuron" variable
-                               (:typemodifiers ("static")
-                                :type ("std::vector" type
-                                     (:template-specifier 
-                                        ( ("int" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [1631 1667])
-                            ("var_list_ids" variable
-                               (:typemodifiers ("static")
-                                :type ("std::vector" type
-                                     (:template-specifier 
-                                        ( ("std::string" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [1670 1715])
-                            ("var_vals" variable
-                               (:typemodifiers ("static")
-                                :type ("std::vector" type
-                                     (:template-specifier 
-                                        ( ("double" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [1718 1754])
-                            ("get_variables" function
-                               (:typemodifiers ("static")
-                                :type ("std::vector" type
-                                     (:template-specifier 
-                                        ( ("double" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [1758 1827])
-                            ("neuron_index" function
-                               (:typemodifiers ("static")
-                                :arguments 
-                                  ( ("id" variable (:type "int") (reparse-symbol arg-sub-list) [1855 1862])
-                                    ("variable" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1863 1884])
-                                    ("error" variable
-                                       (:default-value "true"
-                                        :type "bool")
-                                        (reparse-symbol arg-sub-list) [1885 1900]))                                  
-                                :type "int")
-                                (reparse-symbol classsubparts) [1831 2246])
-                            ("neuron_value" function
-                               (:typemodifiers ("static")
-                                :arguments 
-                                  ( ("id" variable (:type "int") (reparse-symbol arg-sub-list) [2277 2284])
-                                    ("variable" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2285 2306])
-                                    ("error" variable
-                                       (:default-value "true"
-                                        :type "bool")
-                                        (reparse-symbol arg-sub-list) [2307 2322]))                                  
-                                :type "double")
-                                (reparse-symbol classsubparts) [2250 2668])
-                            ("neuron_value" function
-                               (:typemodifiers ("static")
-                                :arguments 
-                                  ( ("id" variable (:type "int") (reparse-symbol arg-sub-list) [2697 2704])
-                                    ("variable" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2705 2726])
-                                    ("value" variable (:type "double") (reparse-symbol arg-sub-list) [2727 2740]))                                  
-                                :type "void")
-                                (reparse-symbol classsubparts) [2672 2823])
-                            ("synapse_index" function
-                               (:typemodifiers ("static")
-                                :arguments 
-                                  ( ("id" variable (:type "int") (reparse-symbol arg-sub-list) [2852 2859])
-                                    ("variable" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2860 2881])
-                                    ("error" variable
-                                       (:default-value "true"
-                                        :type "bool")
-                                        (reparse-symbol arg-sub-list) [2882 2897]))                                  
-                                :type "int")
-                                (reparse-symbol classsubparts) [2827 3245])
-                            ("synapse_value" function
-                               (:typemodifiers ("static")
-                                :arguments 
-                                  ( ("id" variable (:type "int") (reparse-symbol arg-sub-list) [3277 3284])
-                                    ("variable" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3285 3306])
-                                    ("error" variable
-                                       (:default-value "true"
-                                        :type "bool")
-                                        (reparse-symbol arg-sub-list) [3307 3322]))                                  
-                                :type "double")
-                                (reparse-symbol classsubparts) [3249 3670])
-                            ("synapse_value" function
-                               (:typemodifiers ("static")
-                                :arguments 
-                                  ( ("id" variable (:type "int") (reparse-symbol arg-sub-list) [3700 3707])
-                                    ("variable" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3708 3729])
-                                    ("value" variable (:type "double") (reparse-symbol arg-sub-list) [3730 3743]))                                  
-                                :type "void")
-                                (reparse-symbol classsubparts) [3674 3826])
-                            ("current_value" function
-                               (:typemodifiers ("static")
-                                :arguments 
-                                  ( ("id" variable (:type "int") (reparse-symbol arg-sub-list) [3858 3865])
-                                    ("variable" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3866 3887]))                                  
-                                :type "double")
-                                (reparse-symbol classsubparts) [3830 3972])
-                            ("current_value" function
-                               (:typemodifiers ("static")
-                                :arguments 
-                                  ( ("id" variable (:type "int") (reparse-symbol arg-sub-list) [4002 4009])
-                                    ("variable" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4010 4031])
-                                    ("value" variable (:type "double") (reparse-symbol arg-sub-list) [4032 4045]))                                  
-                                :type "void")
-                                (reparse-symbol classsubparts) [3976 4128])
-                            ("get_pre_neuron_indices" function
-                               (:typemodifiers ("static")
-                                :arguments 
-                                  ( ("neuron_id" variable (:type "int") (reparse-symbol arg-sub-list) [5380 5394])
-                                    ("variable" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5395 5416]))                                  
-                                :type ("std::vector" type
-                                     (:template-specifier 
-                                        ( ("int" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [5333 5720])
-                            ("get_pre_neuron_values" function
-                               (:typemodifiers ("static")
-                                :arguments 
-                                  ( ("neuron_id" variable (:type "int") (reparse-symbol arg-sub-list) [5773 5787])
-                                    ("variable" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5788 5809]))                                  
-                                :type ("std::vector" type
-                                     (:template-specifier 
-                                        ( ("double" type nil nil nil))                                        
-                                      :type "class")
-                                      nil nil))
-                                (reparse-symbol classsubparts) [5724 6116])
-                            ("populate_pre_synaptic_lists" function
-                               (:typemodifiers ("static")
-                                :type "void")
-                                (reparse-symbol classsubparts) [6120 6477])
-                            ("neuron_count" function
-                               (:typemodifiers ("static" "inline")
-                                :type "int")
-                                (reparse-symbol classsubparts) [6481 6560])
-                            ("synapse_count" function
-                               (:typemodifiers ("static" "inline")
-                                :type "int")
-                                (reparse-symbol classsubparts) [6564 6645])
-                            ("()" function
-                               (:prototype-flag t
-                                :operator-flag t
-                                :arguments 
-                                  ( ("variables" variable
-                                       (:reference 1
-                                        :type ("std::vector" type
-                                             (:template-specifier 
-                                                ( ("double" type nil nil nil))                                                
-                                              :type "class")
-                                              nil nil))
-                                        (reparse-symbol arg-sub-list) [6665 6696])
-                                    ("dxdt" variable
-                                       (:reference 1
-                                        :type ("std::vector" type
-                                             (:template-specifier 
-                                                ( ("double" type nil nil nil))                                                
-                                              :type "class")
-                                              nil nil))
-                                        (reparse-symbol arg-sub-list) [6697 6723])
-                                    ("time" variable
-                                       (:constant-flag t
-                                        :type "double")
-                                        (reparse-symbol arg-sub-list) [6724 6742]))                                  
-                                :type "void")
-                                (reparse-symbol classsubparts) [6649 6743]))                          
-                        :type "class")
-                        (reparse-symbol namespacesubparts) [1197 6746])
-                    ("engine::index_map" variable (:type ("std::unordered_map" type
-                         (:template-specifier 
-                            ( ("std::string" type nil nil nil)
-                              ("int" type nil nil nil))                            
-                          :type "class")
-                          nil nil)) (reparse-symbol namespacesubparts) [6793 6848])
-                    ("engine::value_map" variable (:type ("std::unordered_map" type
-                         (:template-specifier 
-                            ( ("std::string" type nil nil nil)
-                              ("double" type nil nil nil))                            
-                          :type "class")
-                          nil nil)) (reparse-symbol namespacesubparts) [6849 6907])
-                    ("engine::neuron_start_list_ids" variable (:type ("std::vector" type
-                         (:template-specifier 
-                            ( ("int" type nil nil nil))                            
-                          :type "class")
-                          nil nil)) (reparse-symbol namespacesubparts) [6908 6955])
-                    ("engine::neuron_end_list_ids" variable (:type ("std::vector" type
-                         (:template-specifier 
-                            ( ("int" type nil nil nil))                            
-                          :type "class")
-                          nil nil)) (reparse-symbol namespacesubparts) [6956 7001])
-                    ("engine::synapse_start_list_ids" variable (:type ("std::vector" type
-                         (:template-specifier 
-                            ( ("int" type nil nil nil))                            
-                          :type "class")
-                          nil nil)) (reparse-symbol namespacesubparts) [7002 7050])
-                    ("engine::synapse_end_list_ids" variable (:type ("std::vector" type
-                         (:template-specifier 
-                            ( ("int" type nil nil nil))                            
-                          :type "class")
-                          nil nil)) (reparse-symbol namespacesubparts) [7051 7097])
-                    ("engine::pre_synaptic_lists" variable (:type ("std::vector" type
-                         (:template-specifier 
-                            ( ("std::vector" type nil nil nil))                            
-                          :type "class")
-                          nil nil)) (reparse-symbol namespacesubparts) [7098 7155])
-                    ("engine::pre_neuron" variable (:type ("std::vector" type
-                         (:template-specifier 
-                            ( ("int" type nil nil nil))                            
-                          :type "class")
-                          nil nil)) (reparse-symbol namespacesubparts) [7156 7192])
-                    ("engine::post_neuron" variable (:type ("std::vector" type
-                         (:template-specifier 
-                            ( ("int" type nil nil nil))                            
-                          :type "class")
-                          nil nil)) (reparse-symbol namespacesubparts) [7193 7230])
-                    ("engine::var_list_ids" variable (:type ("std::vector" type
-                         (:template-specifier 
-                            ( ("std::string" type nil nil nil))                            
-                          :type "class")
-                          nil nil)) (reparse-symbol namespacesubparts) [7231 7277])
-                    ("engine::var_vals" variable (:type ("std::vector" type
-                         (:template-specifier 
-                            ( ("double" type nil nil nil))                            
-                          :type "class")
-                          nil nil)) (reparse-symbol namespacesubparts) [7278 7315]))                  
+                  ( ("engine" type (:type "namespace") (reparse-symbol namespacesubparts) [1023 1371]))                  
                 :type "namespace")
-                nil [1118 7318]))          
+                nil [1002 1373]))          
       :file "engine.hpp"
-      :pointmax 7339
-      :fsize 7338
-      :lastmodtime '(21753 64618 0 0)
-      :unmatched-syntax nil
+      :pointmax 1412
+      :fsize 1411
+      :lastmodtime '(21783 20327 0 0)
+      :unmatched-syntax '((semantic-list 1086 . 1368) (VOID 1081 . 1085) (punctuation 1079 . 1080) (punctuation 1078 . 1079) (semantic-list 1075 . 1077) (symbol 1048 . 1075) (symbol 1043 . 1047) (semantic-list 1086 . 1368) (VOID 1081 . 1085) (punctuation 1079 . 1080) (punctuation 1078 . 1079) (semantic-list 1075 . 1077) (symbol 1048 . 1075) (symbol 1043 . 1047) (semantic-list 1086 . 1387) (VOID 1081 . 1085) (punctuation 1079 . 1080) (punctuation 1078 . 1079) (semantic-list 1075 . 1077) (symbol 1048 . 1075) (symbol 1043 . 1047) (semantic-list 1045 . 1346) (VOID 1040 . 1044) (punctuation 1038 . 1039) (punctuation 1037 . 1038) (semantic-list 1034 . 1036) (symbol 1007 . 1034) (symbol 1002 . 1006))
       :lexical-table 
         '(("INCLUDED_INSILICO_CORE_ENGINE_HPP")
           )
@@ -333,58 +26,11 @@
       :major-mode 'c++-mode
       :tags 
         '( ("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_HPP" variable (:constant-flag t) nil [929 977])
-            ("core/configuration/serial.hpp" include nil nil [1055 1095])
-            ("algorithm" include (:system-flag t) nil [1104 1124])
-            ("cctype" include (:system-flag t) nil [1125 1142])
-            ("cstdio" include (:system-flag t) nil [1143 1160])
-            ("functional" include (:system-flag t) nil [1161 1182])
-            ("fstream" include (:system-flag t) nil [1183 1201])
-            ("iostream" include (:system-flag t) nil [1202 1221])
-            ("sstream" include (:system-flag t) nil [1222 1240])
-            ("string" include (:system-flag t) nil [1241 1258])
-            ("unordered_map" include (:system-flag t) nil [1259 1283])
-            ("vector" include (:system-flag t) nil [1284 1301])
-            ("insilico" type
-               (:members 
-                  ( ("configuration" type
-                       (:members 
-                          ( ("outstream" variable (:type ("std::ofstream" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [1350 1350])
-                            ("observer" type
-                               (:members 
-                                  ( ("outfile" variable (:type ("std::ofstream" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1371 1394])
-                                    ("observer" function
-                                       (:constructor-flag t
-                                        :arguments 
-                                          ( ("stream_" variable
-                                               (:reference 1
-                                                :type ("std::ofstream" type (:type "class") nil nil))
-                                                (reparse-symbol arg-sub-list) [1406 1429]))                                          
-                                        :type ("observer" type (:type "struct") nil nil))
-                                        (reparse-symbol classsubparts) [1397 1450])
-                                    ("()" function
-                                       (:prototype-flag t
-                                        :operator-flag t
-                                        :arguments 
-                                          ( ("variables" variable
-                                               (:reference 1
-                                                :type ("state_type" type (:type "class") nil nil))
-                                                (reparse-symbol arg-sub-list) [1469 1491])
-                                            ("t" variable
-                                               (:constant-flag t
-                                                :type "double")
-                                                (reparse-symbol arg-sub-list) [1492 1507]))                                          
-                                        :type "void")
-                                        (reparse-symbol classsubparts) [1453 1508]))                                  
-                                :type "struct")
-                                (reparse-symbol namespacesubparts) [1351 1511]))                          
-                        :type "namespace")
-                        (reparse-symbol namespacesubparts) [1324 1514]))                  
-                :type "namespace")
-                nil [1303 1515]))          
+            ("core/configuration/serial.hpp" include nil nil [1050 1090]))          
       :file "configuration.hpp"
-      :pointmax 1561
-      :fsize 1560
-      :lastmodtime '(21753 64618 0 0)
+      :pointmax 1106
+      :fsize 1105
+      :lastmodtime '(21780 36929 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_HPP")
@@ -443,37 +89,132 @@
       :tags 
         '( ("INCLUDED_INSILICO_CORE_INJECTOR_HPP" variable (:constant-flag t) nil [851 886])
             ("core/injector/parser.hpp" include nil nil [888 923])
+            ("cmath" include (:system-flag t) nil [925 941])
             ("insilico" type
                (:members 
                   ( ("injector" type
                        (:members 
                           ( ("external_current" function
                                (:arguments 
-                                  ( ("neuron_id" variable
+                                  ( ("_neuron_id" variable
                                        (:constant-flag t
                                         :type "int")
-                                        (reparse-symbol arg-sub-list) [1005 1025])
-                                    ("time" variable
+                                        (reparse-symbol arg-sub-list) [1025 1046])
+                                    ("_time" variable
                                        (:constant-flag t
                                         :type "double")
-                                        (reparse-symbol arg-sub-list) [1026 1044]))                                  
+                                        (reparse-symbol arg-sub-list) [1047 1066]))                                  
                                 :type ("std::vector" type
                                      (:template-specifier 
                                         ( ("double" type nil nil nil))                                        
                                       :type "class")
                                       nil nil))
-                                (reparse-symbol namespacesubparts) [968 1667]))                          
+                                (reparse-symbol namespacesubparts) [986 1616])
+                            ("current_values" variable (:type "int") (reparse-symbol namespacesubparts) [1599 1614]))                          
                         :type "namespace")
-                        (reparse-symbol namespacesubparts) [946 1670]))                  
+                        (reparse-symbol namespacesubparts) [964 1616]))                  
                 :type "namespace")
-                nil [925 1672]))          
+                nil [943 1619]))          
       :file "injector.hpp"
-      :pointmax 1715
-      :fsize 1714
-      :lastmodtime '(21753 64618 0 0)
+      :pointmax 1664
+      :fsize 1663
+      :lastmodtime '(21790 55928 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("INCLUDED_INSILICO_CORE_INJECTOR_HPP")
+          )
+)
+    (semanticdb-table "type.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_CORE_TYPE_HPP" variable (:constant-flag t) nil [859 890])
+            ("iostream" include (:system-flag t) nil [892 911])
+            ("vector" include (:system-flag t) nil [912 929])
+            ("insilico" type
+               (:members 
+                  ( ("std::vector" variable (:type "int") (reparse-symbol namespacesubparts) [972 992])
+                    ("Neuron" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1010 1017])
+                            ("ode_set" function
+                               (:typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1041 1054])
+                                    ("" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1055 1068])
+                                    ("" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1069 1082])
+                                    ("" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1083 1092]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1020 1142]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [994 1145])
+                    ("Synapse" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1164 1171])
+                            ("ode_set" function
+                               (:typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1195 1208])
+                                    ("" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1209 1222])
+                                    ("" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1223 1236])
+                                    ("" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1237 1246]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1174 1296]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1147 1299]))                  
+                :type "namespace")
+                nil [931 1302]))          
+      :file "type.hpp"
+      :pointmax 1333
+      :fsize 1332
+      :lastmodtime '(21760 15990 0 0)
+      :unmatched-syntax '((punctuation 970 . 971) (symbol 959 . 969) (USING 953 . 958) (punctuation 970 . 971) (symbol 959 . 969) (USING 953 . 958) (punctuation 970 . 971) (symbol 959 . 969) (USING 953 . 958))
+      :lexical-table 
+        '(("INCLUDED_INSILICO_CORE_TYPE_HPP")
+          )
+)
+    (semanticdb-table "mpi.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_INCLUDE_CORE_MPI_HPP" variable (:constant-flag t) nil [825 863])
+            ("insilico" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("master" variable
+                               (:default-value "0"
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [903 918])
+                            ("rank" variable (:type "int") (reparse-symbol namespacesubparts) [919 928])
+                            ("size" variable (:type "int") (reparse-symbol namespacesubparts) [929 938]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [886 941]))                  
+                :type "namespace")
+                nil [865 943]))          
+      :file "mpi.hpp"
+      :pointmax 980
+      :fsize 979
+      :lastmodtime '(21788 6829 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_INCLUDE_CORE_MPI_HPP")
           )
 ))
   :file "!Users!pranav!app!bio!insilico!include!core!semantic.cache"

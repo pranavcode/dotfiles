@@ -1,0 +1,51 @@
+;; Object mpi/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "mpi/"
+  :tables
+  (list
+    (semanticdb-table "value.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_CORE_ENGINE_MPI_VALUE_HPP" variable (:constant-flag t) nil [878 921])
+            ("core/configuration/mpi/error.hpp" include nil nil [923 966])
+            ("core/engine/data.hpp" include nil nil [967 998])
+            ("core/type.hpp" include nil nil [999 1023])
+            ("algorithm" include (:system-flag t) nil [1025 1045])
+            ("cstdio" include (:system-flag t) nil [1046 1063])
+            ("fstream" include (:system-flag t) nil [1064 1082])
+            ("iostream" include (:system-flag t) nil [1083 1102])
+            ("stdio.h" include (:system-flag t) nil [1103 1121])
+            ("string" include (:system-flag t) nil [1122 1139])
+            ("unordered_map" include (:system-flag t) nil [1140 1164])
+            ("vector" include (:system-flag t) nil [1165 1182])
+            ("insilico" type
+               (:members 
+                  ( ("engine" type
+                       (:members 
+                          ( ("decltype" function
+                               (:arguments 
+                                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5588 5601]))                                  
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [5579 5755])
+                            ("decltype" function
+                               (:arguments 
+                                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5829 5842]))                                  
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [5820 5996]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1205 7230]))                  
+                :type "namespace")
+                nil [1184 7232]))          
+      :file "value.hpp"
+      :pointmax 7271
+      :fsize 7270
+      :lastmodtime '(21784 16087 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_CORE_ENGINE_MPI_VALUE_HPP")
+          )
+)
+)
+  :file "!Users!pranav!app!bio!insilico!include!core!engine!mpi!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

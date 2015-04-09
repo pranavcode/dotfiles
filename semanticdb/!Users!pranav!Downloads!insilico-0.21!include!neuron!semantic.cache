@@ -1,0 +1,56 @@
+;; Object neuron/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "neuron/"
+  :tables
+  (list
+    (semanticdb-table "N_SquidAxon_HH1952.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_N_SQUIDAXON_HH1952_HPP" variable (:constant-flag t) nil [974 1005])
+            ("core/engine.hpp" include nil nil [1007 1033])
+            ("current/I_K_SquidAxon_HH_HH1952.hpp" include nil nil [1035 1081])
+            ("current/I_Leak_SquidAxon_HH_HH1952.hpp" include nil nil [1082 1131])
+            ("current/I_Na_SquidAxon_HH_HH1952.hpp" include nil nil [1132 1179])
+            ("insilico" type
+               (:members 
+                  ( ("N_SquidAxon_HH1952" type
+                       (:superclasses 
+                          ( ("Neuron" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1247 1254])
+                            ("ode_set" function
+                               (:arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1270 1292])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1293 1310])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1311 1326])
+                                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1327 1342]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1257 2785]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1203 2808]))                  
+                :type "namespace")
+                nil [1181 2839]))          
+      :file "N_SquidAxon_HH1952.hpp"
+      :pointmax 2860
+      :fsize 2859
+      :lastmodtime '(21768 53958 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_N_SQUIDAXON_HH1952_HPP")
+          )
+))
+  :file "!Users!pranav!Downloads!insilico-0.21!include!neuron!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

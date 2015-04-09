@@ -1,0 +1,530 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "overflow_helpers.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_RATIO_DETAIL_RATIO_OPERATIONS_HPP" variable (:constant-flag t) nil [1134 1173])
+            ("boost/ratio/config.hpp" include (:system-flag t) nil [1175 1208])
+            ("boost/ratio/detail/mpl/abs.hpp" include (:system-flag t) nil [1209 1250])
+            ("boost/ratio/detail/mpl/sign.hpp" include (:system-flag t) nil [1251 1293])
+            ("cstdlib" include (:system-flag t) nil [1294 1312])
+            ("climits" include (:system-flag t) nil [1313 1331])
+            ("limits" include (:system-flag t) nil [1332 1349])
+            ("boost/cstdint.hpp" include (:system-flag t) nil [1350 1378])
+            ("boost/type_traits/integral_constant.hpp" include (:system-flag t) nil [1379 1429])
+            ("boost/core/enable_if.hpp" include (:system-flag t) nil [1430 1465])
+            ("boost/integer_traits.hpp" include (:system-flag t) nil [1466 1501])
+            ("boost" type
+               (:members 
+                  ( ("ratio_detail" type
+                       (:members 
+                          ( ("br_add" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [2279 2292])
+                            ("br_add" type
+                               (:template 
+                                  ( ("boost::intmax_t" type nil nil nil)
+                                    ("boost::intmax_t" type nil nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("boost::integer_traits::const_min" variable (:type "int") (reparse-symbol classsubparts) [2413 2463])
+                                    ("boost::integer_traits::const_max" variable (:type "int") (reparse-symbol classsubparts) [2505 2555])
+                                    ("BOOST_RATIO_STATIC_ASSERT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type ("X" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2589 2592])
+                                            ("" variable (:type ("max" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2594 2599])
+                                            ("" variable (:type ("Y" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2600 2603])
+                                            ("" variable (:type ("BOOST_RATIO_OVERFLOW_IN_ADD" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2604 2632]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [2563 2637])
+                                    ("public" label nil (reparse-symbol classsubparts) [2640 2647])
+                                    ("value" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "X + Y"
+                                        :type ("boost::intmax_t" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2654 2697]))                                  
+                                :template-specifier 
+                                  ( ("X" type nil nil nil)
+                                    ("Y" type nil nil nil)
+                                    ("1"))                                  )
+                                (reparse-symbol namespacesubparts) [2296 2702])
+                            ("br_add" type
+                               (:template 
+                                  ( ("boost::intmax_t" type nil nil nil)
+                                    ("boost::intmax_t" type nil nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [2784 2791])
+                                    ("value" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "X"
+                                        :type ("boost::intmax_t" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2798 2837]))                                  
+                                :template-specifier 
+                                  ( ("X" type nil nil nil)
+                                    ("Y" type nil nil nil)
+                                    ("0"))                                  )
+                                (reparse-symbol namespacesubparts) [2706 2842])
+                            ("br_sub" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [3364 3377])
+                            ("br_sub" type
+                               (:template 
+                                  ( ("boost::intmax_t" type nil nil nil)
+                                    ("boost::intmax_t" type nil nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("boost::integer_traits::const_min" variable (:type "int") (reparse-symbol classsubparts) [3498 3548])
+                                    ("boost::integer_traits::const_max" variable (:type "int") (reparse-symbol classsubparts) [3590 3640])
+                                    ("BOOST_RATIO_STATIC_ASSERT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type ("min" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3674 3679])
+                                            ("" variable (:type ("Y" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3680 3683])
+                                            ("" variable (:type ("X" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3685 3687])
+                                            ("" variable (:type ("BOOST_RATIO_OVERFLOW_IN_SUB" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3688 3716]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [3648 3721])
+                                    ("public" label nil (reparse-symbol classsubparts) [3724 3731])
+                                    ("value" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "X - Y"
+                                        :type ("boost::intmax_t" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3738 3781]))                                  
+                                :template-specifier 
+                                  ( ("X" type nil nil nil)
+                                    ("Y" type nil nil nil)
+                                    ("1"))                                  )
+                                (reparse-symbol namespacesubparts) [3381 3786])
+                            ("br_sub" type
+                               (:template 
+                                  ( ("boost::intmax_t" type nil nil nil)
+                                    ("boost::intmax_t" type nil nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [3868 3875])
+                                    ("value" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "X"
+                                        :type ("boost::intmax_t" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3882 3921]))                                  
+                                :template-specifier 
+                                  ( ("X" type nil nil nil)
+                                    ("Y" type nil nil nil)
+                                    ("0"))                                  )
+                                (reparse-symbol namespacesubparts) [3790 3926])
+                            ("br_mul" type
+                               (:template 
+                                  ( ("boost::intmax_t" type nil nil nil)
+                                    ("boost::intmax_t" type nil nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("nan" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "boost::intmax_t(BOOST_RATIO_UINTMAX_C(1) << (sizeof(boost::intmax_t) * CHAR_BIT - 1))"
+                                        :type ("boost::intmax_t" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4413 4544])
+                                    ("boost::integer_traits::const_min" variable (:type "int") (reparse-symbol classsubparts) [4586 4636])
+                                    ("boost::integer_traits::const_max" variable (:type "int") (reparse-symbol classsubparts) [4678 4728])
+                                    ("mpl::abs_c::value" variable (:type "int") (reparse-symbol classsubparts) [4771 4809])
+                                    ("mpl::abs_c::value" variable (:type "int") (reparse-symbol classsubparts) [4851 4889])
+                                    ("BOOST_RATIO_STATIC_ASSERT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type ("X" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4923 4926])
+                                            ("" variable (:type ("nan" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4928 4932])
+                                            ("" variable (:type ("BOOST_RATIO_OVERFLOW_IN_MUL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4933 4961]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [4897 4966])
+                                    ("BOOST_RATIO_STATIC_ASSERT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type ("Y" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4999 5002])
+                                            ("" variable (:type ("nan" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5004 5008])
+                                            ("" variable (:type ("BOOST_RATIO_OVERFLOW_IN_MUL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5009 5037]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [4973 5042])
+                                    ("BOOST_RATIO_STATIC_ASSERT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type ("a_x" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5075 5080])
+                                            ("" variable (:type ("max" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5082 5087])
+                                            ("" variable (:type ("a_y" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5088 5092])
+                                            ("" variable (:type ("BOOST_RATIO_OVERFLOW_IN_MUL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5093 5121]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [5049 5126])
+                                    ("public" label nil (reparse-symbol classsubparts) [5129 5136])
+                                    ("value" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "X * Y"
+                                        :type ("boost::intmax_t" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [5143 5186]))                                  )
+                                (reparse-symbol namespacesubparts) [4340 5191])
+                            ("br_mul" type
+                               (:template 
+                                  ( ("boost::intmax_t" type nil nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [5251 5258])
+                                    ("value" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "0"
+                                        :type ("boost::intmax_t" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [5265 5304]))                                  
+                                :template-specifier (("0") ("Y" type nil nil nil)))
+                                (reparse-symbol namespacesubparts) [5195 5309])
+                            ("br_mul" type
+                               (:template 
+                                  ( ("boost::intmax_t" type nil nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [5369 5376])
+                                    ("value" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "0"
+                                        :type ("boost::intmax_t" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [5383 5422]))                                  
+                                :template-specifier 
+                                  ( ("X" type nil nil nil)
+                                    ("0"))                                  )
+                                (reparse-symbol namespacesubparts) [5313 5427])
+                            ("br_mul" type
+                               (:type "class"
+                                :members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [5470 5477])
+                                    ("value" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "0"
+                                        :type ("boost::intmax_t" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [5484 5523]))                                  
+                                :template-specifier (("0") ("0")))
+                                (reparse-symbol namespacesubparts) [5431 5528])
+                            ("br_div" type
+                               (:template 
+                                  ( ("boost::intmax_t" type nil nil nil)
+                                    ("boost::intmax_t" type nil nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("nan" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "boost::intmax_t(BOOST_RATIO_UINTMAX_C(1) << (sizeof(boost::intmax_t) * CHAR_BIT - 1))"
+                                        :type ("boost::intmax_t" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [5679 5800])
+                                    ("boost::integer_traits::const_min" variable (:type "int") (reparse-symbol classsubparts) [5842 5892])
+                                    ("boost::integer_traits::const_max" variable (:type "int") (reparse-symbol classsubparts) [5934 5984])
+                                    ("BOOST_RATIO_STATIC_ASSERT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type ("X" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6018 6021])
+                                            ("" variable (:type ("nan" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6023 6027])
+                                            ("" variable (:type ("BOOST_RATIO_OVERFLOW_IN_DIV" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6028 6056]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [5992 6061])
+                                    ("BOOST_RATIO_STATIC_ASSERT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type ("Y" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6094 6097])
+                                            ("" variable (:type ("nan" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6099 6103])
+                                            ("" variable (:type ("BOOST_RATIO_OVERFLOW_IN_DIV" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6104 6132]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [6068 6137])
+                                    ("BOOST_RATIO_STATIC_ASSERT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type ("Y" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6170 6173])
+                                            ("" variable (:type ("BOOST_RATIO_DIVIDE_BY_0" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6178 6202]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [6144 6207])
+                                    ("public" label nil (reparse-symbol classsubparts) [6210 6217])
+                                    ("value" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "X / Y"
+                                        :type ("boost::intmax_t" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [6224 6267]))                                  )
+                                (reparse-symbol namespacesubparts) [5606 6272])
+                            ("ratio_add" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [6298 6345])
+                            ("ratio_subtract" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [6348 6400])
+                            ("ratio_multiply" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [6403 6455])
+                            ("ratio_divide" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [6458 6508])
+                            ("ratio_add" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("private" label nil (reparse-symbol classsubparts) [6865 6873])
+                                    ("mpl::gcd_c::value" variable (:type "int") (reparse-symbol classsubparts) [6921 6974])
+                                    ("mpl::gcd_c::value" variable (:type "int") (reparse-symbol classsubparts) [7022 7075])
+                                    ("public" label nil (reparse-symbol classsubparts) [7078 7085])
+                                    ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7631 7641]))                                  )
+                                (reparse-symbol namespacesubparts) [6512 7646])
+                            ("ratio_add" type
+                               (:template 
+                                  ( ("R" type (:type "class") nil nil)
+                                    ("boost::intmax_t" type nil nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("R" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [7730 7745]))                                  
+                                :template-specifier 
+                                  ( ("R" type nil nil nil)
+                                    ("ratio" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [7649 7750])
+                            ("ratio_subtract" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("private" label nil (reparse-symbol classsubparts) [8112 8120])
+                                    ("mpl::gcd_c::value" variable (:type "int") (reparse-symbol classsubparts) [8168 8221])
+                                    ("mpl::gcd_c::value" variable (:type "int") (reparse-symbol classsubparts) [8269 8322])
+                                    ("public" label nil (reparse-symbol classsubparts) [8325 8332])
+                                    ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8878 8888]))                                  )
+                                (reparse-symbol namespacesubparts) [7754 8893])
+                            ("ratio_subtract" type
+                               (:template 
+                                  ( ("R" type (:type "class") nil nil)
+                                    ("boost::intmax_t" type nil nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("R" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [8983 8998]))                                  
+                                :template-specifier 
+                                  ( ("R" type nil nil nil)
+                                    ("ratio" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [8897 9003])
+                            ("ratio_multiply" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("private" label nil (reparse-symbol classsubparts) [9309 9317])
+                                    ("mpl::gcd_c::value" variable (:type "int") (reparse-symbol classsubparts) [9364 9417])
+                                    ("mpl::gcd_c::value" variable (:type "int") (reparse-symbol classsubparts) [9464 9517])
+                                    ("public" label nil (reparse-symbol classsubparts) [9520 9527])
+                                    ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9761 9771]))                                  )
+                                (reparse-symbol namespacesubparts) [9007 9776])
+                            ("ratio_divide" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("private" label nil (reparse-symbol classsubparts) [10060 10068])
+                                    ("mpl::gcd_c::value" variable (:type "int") (reparse-symbol classsubparts) [10116 10169])
+                                    ("mpl::gcd_c::value" variable (:type "int") (reparse-symbol classsubparts) [10217 10270])
+                                    ("public" label nil (reparse-symbol classsubparts) [10273 10280])
+                                    ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10514 10524]))                                  )
+                                (reparse-symbol namespacesubparts) [9780 10529])
+                            ("is_evenly_divisible_by" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("private" label nil (reparse-symbol classsubparts) [10600 10608])
+                                    ("mpl::gcd_c::value" variable (:type "int") (reparse-symbol classsubparts) [10656 10709])
+                                    ("mpl::gcd_c::value" variable (:type "int") (reparse-symbol classsubparts) [10757 10810])
+                                    ("public" label nil (reparse-symbol classsubparts) [10813 10820])
+                                    ("type" type
+                                       (:typedef ("integral_constant" type
+                                             (:template-specifier 
+                                                ( ("bool" type nil nil nil)
+                                                  ((10872 . 10927)))                                                
+                                              :type "class")
+                                              nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [10827 10941]))                                  )
+                                (reparse-symbol namespacesubparts) [10532 10946])
+                            ("is_ratio" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("boost::false_type" type
+                                       (:protection "public"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [10950 11019])
+                            ("is_ratio" type
+                               (:template 
+                                  ( ("boost::intmax_t" type nil nil nil)
+                                    ("boost::intmax_t" type nil nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("boost::true_type" type
+                                       (:protection "public"
+                                        :type "class")
+                                        nil nil))                                  
+                                :template-specifier 
+                                  ( ("ratio" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [11022 11133])
+                            ("ratio_less1" type
+                               (:members 
+                                  ( ("Q2" variable (:type "int") (reparse-symbol classsubparts) [11411 11414]))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [11353 11419])
+                            ("ratio_less1" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil)
+                                    ("boost::intmax_t" type nil nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("value" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "false"
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [11521 11553]))                                  
+                                :template-specifier 
+                                  ( ("R1" type nil nil nil)
+                                    ("R2" type nil nil nil)
+                                    ("Q" type nil nil nil)
+                                    ("0")
+                                    ("Q" type nil nil nil)
+                                    ("0"))                                  )
+                                (reparse-symbol namespacesubparts) [11423 11558])
+                            ("ratio_less1" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil)
+                                    ("boost::intmax_t" type nil nil nil)
+                                    ("boost::intmax_t" type nil nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("value" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "true"
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [11681 11712]))                                  
+                                :template-specifier 
+                                  ( ("R1" type nil nil nil)
+                                    ("R2" type nil nil nil)
+                                    ("Q" type nil nil nil)
+                                    ("0")
+                                    ("Q" type nil nil nil)
+                                    ("M2" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [11562 11717])
+                            ("ratio_less1" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil)
+                                    ("boost::intmax_t" type nil nil nil)
+                                    ("boost::intmax_t" type nil nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("value" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "false"
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [11840 11872]))                                  
+                                :template-specifier 
+                                  ( ("R1" type nil nil nil)
+                                    ("R2" type nil nil nil)
+                                    ("Q" type nil nil nil)
+                                    ("M1" type nil nil nil)
+                                    ("Q" type nil nil nil)
+                                    ("0"))                                  )
+                                (reparse-symbol namespacesubparts) [11721 11877])
+                            ("ratio_less1" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil)
+                                    ("boost::intmax_t" type nil nil nil)
+                                    ("boost::intmax_t" type nil nil nil)
+                                    ("boost::intmax_t" type nil nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("ratio_less1::value" variable (:type "int") (reparse-symbol classsubparts) [12047 12151]))                                  
+                                :template-specifier 
+                                  ( ("R1" type nil nil nil)
+                                    ("R2" type nil nil nil)
+                                    ("Q" type nil nil nil)
+                                    ("M1" type nil nil nil)
+                                    ("Q" type nil nil nil)
+                                    ("M2" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [11881 12156])
+                            ("ratio_less" type
+                               (:members 
+                                  ( ("S2" variable (:type "int") (reparse-symbol classsubparts) [12409 12412]))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [12350 12417])
+                            ("ratio_less" type
+                               (:template 
+                                  ( ("R1" type (:type "class") nil nil)
+                                    ("R2" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("ratio_less1::value" variable (:type "int") (reparse-symbol classsubparts) [12525 12552]))                                  
+                                :template-specifier 
+                                  ( ("R1" type nil nil nil)
+                                    ("R2" type nil nil nil)
+                                    ("1LL" type nil nil nil)
+                                    ("1LL" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [12421 12557]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2143 12792]))                  
+                :type "namespace")
+                nil [1880 12822]))          
+      :file "overflow_helpers.hpp"
+      :pointmax 12871
+      :fsize 12870
+      :lastmodtime '(21727 6080 0 0)
+      :unmatched-syntax '((punctuation 12787 . 12788) (semantic-list 12633 . 12787) (punctuation 12629 . 12630) (symbol 12626 . 12629) (punctuation 12625 . 12626) (punctuation 12623 . 12624) (symbol 12620 . 12623) (punctuation 12619 . 12620) (punctuation 12617 . 12618) (symbol 12615 . 12617) (punctuation 12613 . 12614) (symbol 12611 . 12613) (punctuation 12610 . 12611) (symbol 12600 . 12610) (STRUCT 12593 . 12599) (punctuation 12589 . 12590) (symbol 12587 . 12589) (CLASS 12581 . 12586) (punctuation 12579 . 12580) (symbol 12577 . 12579) (CLASS 12571 . 12576) (punctuation 12570 . 12571) (TEMPLATE 12561 . 12569) (punctuation 12523 . 12524) (symbol 12517 . 12522) (BOOL 12512 . 12516) (CONST 12506 . 12511) (STATIC 12499 . 12505) (punctuation 12407 . 12408) (symbol 12404 . 12406) (punctuation 12402 . 12403) (symbol 12396 . 12401) (BOOL 12391 . 12395) (CONST 12385 . 12390) (STATIC 12378 . 12384) (punctuation 12346 . 12347) (symbol 12340 . 12345) (punctuation 12339 . 12340) (punctuation 12338 . 12339) (punctuation 12337 . 12338) (symbol 12334 . 12337) (punctuation 12333 . 12334) (punctuation 12332 . 12333) (symbol 12330 . 12332) (punctuation 12328 . 12329) (symbol 12320 . 12328) (punctuation 12319 . 12320) (punctuation 12318 . 12319) (symbol 12313 . 12318) (punctuation 12312 . 12313) (symbol 12306 . 12312) (punctuation 12305 . 12306) (punctuation 12304 . 12305) (symbol 12301 . 12304) (punctuation 12299 . 12300) (symbol 12296 . 12298) (symbol 12287 . 12295) (punctuation 12286 . 12287) (punctuation 12285 . 12286) (symbol 12280 . 12285) (punctuation 12274 . 12275) (symbol 12269 . 12274) (punctuation 12268 . 12269) (punctuation 12267 . 12268) (punctuation 12266 . 12267) (symbol 12263 . 12266) (punctuation 12262 . 12263) (punctuation 12261 . 12262) (symbol 12259 . 12261) (punctuation 12257 . 12258) (symbol 12249 . 12257) (punctuation 12248 . 12249) (punctuation 12247 . 12248) (symbol 12242 . 12247) (punctuation 12241 . 12242) (symbol 12235 . 12241) (punctuation 12234 . 12235) (punctuation 12233 . 12234) (symbol 12230 . 12233) (punctuation 12228 . 12229) (symbol 12225 . 12227) (symbol 12216 . 12224) (punctuation 12215 . 12216) (punctuation 12214 . 12215) (symbol 12209 . 12214) (punctuation 12201 . 12202) (symbol 12199 . 12201) (CLASS 12193 . 12198) (punctuation 12185 . 12186) (symbol 12183 . 12185) (CLASS 12177 . 12182) (punctuation 12169 . 12170) (TEMPLATE 12160 . 12168) (punctuation 12045 . 12046) (symbol 12039 . 12044) (BOOL 12034 . 12038) (CONST 12028 . 12033) (STATIC 12021 . 12027) (punctuation 11409 . 11410) (symbol 11406 . 11408) (punctuation 11404 . 11405) (symbol 11398 . 11403) (BOOL 11393 . 11397) (CONST 11387 . 11392) (STATIC 11380 . 11386) (punctuation 11349 . 11350) (symbol 11346 . 11349) (punctuation 11345 . 11346) (punctuation 11344 . 11345) (symbol 11342 . 11344) (punctuation 11340 . 11341) (symbol 11336 . 11339) (punctuation 11335 . 11336) (punctuation 11334 . 11335) (symbol 11332 . 11334) (punctuation 11330 . 11331) (symbol 11327 . 11329) (symbol 11318 . 11326) (punctuation 11317 . 11318) (punctuation 11316 . 11317) (symbol 11311 . 11316) (punctuation 11309 . 11310) (symbol 11306 . 11309) (punctuation 11305 . 11306) (punctuation 11304 . 11305) (symbol 11302 . 11304) (punctuation 11300 . 11301) (symbol 11296 . 11299) (punctuation 11295 . 11296) (punctuation 11294 . 11295) (symbol 11292 . 11294) (punctuation 11290 . 11291) (symbol 11287 . 11289) (symbol 11278 . 11286) (punctuation 11277 . 11278) (punctuation 11276 . 11277) (symbol 11271 . 11276) (punctuation 11257 . 11258) (symbol 11254 . 11257) (punctuation 11253 . 11254) (punctuation 11252 . 11253) (symbol 11250 . 11252) (punctuation 11248 . 11249) (symbol 11244 . 11247) (punctuation 11243 . 11244) (punctuation 11242 . 11243) (symbol 11240 . 11242) (punctuation 11238 . 11239) (symbol 11235 . 11237) (symbol 11226 . 11234) (punctuation 11225 . 11226) (punctuation 11224 . 11225) (symbol 11219 . 11224) (punctuation 11217 . 11218) (symbol 11214 . 11217) (punctuation 11213 . 11214) (punctuation 11212 . 11213) (symbol 11210 . 11212) (punctuation 11208 . 11209) (symbol 11204 . 11207) (punctuation 11203 . 11204) (punctuation 11202 . 11203) (symbol 11200 . 11202) (punctuation 11198 . 11199) (symbol 11195 . 11197) (symbol 11186 . 11194) (punctuation 11185 . 11186) (punctuation 11184 . 11185) (symbol 11179 . 11184) (punctuation 11165 . 11166) (symbol 11163 . 11165) (CLASS 11157 . 11162) (punctuation 11155 . 11156) (symbol 11153 . 11155) (CLASS 11147 . 11152) (punctuation 11146 . 11147) (TEMPLATE 11137 . 11145) (punctuation 10755 . 10756) (symbol 10745 . 10754) (symbol 10736 . 10744) (punctuation 10735 . 10736) (punctuation 10734 . 10735) (symbol 10729 . 10734) (CONST 10723 . 10728) (STATIC 10716 . 10722) (punctuation 10654 . 10655) (symbol 10644 . 10653) (symbol 10635 . 10643) (punctuation 10634 . 10635) (punctuation 10633 . 10634) (symbol 10628 . 10633) (CONST 10622 . 10627) (STATIC 10615 . 10621) (punctuation 10513 . 10514) (punctuation 10512 . 10513) (punctuation 10511 . 10512) (symbol 10496 . 10501) (punctuation 10495 . 10496) (punctuation 10494 . 10495) (punctuation 10493 . 10494) (symbol 10484 . 10493) (punctuation 10482 . 10483) (symbol 10478 . 10481) (punctuation 10477 . 10478) (punctuation 10476 . 10477) (symbol 10474 . 10476) (punctuation 10472 . 10473) (symbol 10463 . 10472) (punctuation 10461 . 10462) (symbol 10457 . 10460) (punctuation 10456 . 10457) (punctuation 10455 . 10456) (symbol 10453 . 10455) (punctuation 10452 . 10453) (symbol 10446 . 10452) (punctuation 10445 . 10446) (punctuation 10444 . 10445) (symbol 10432 . 10444) (punctuation 10431 . 10432) (punctuation 10430 . 10431) (symbol 10425 . 10430) (punctuation 10410 . 10411) (symbol 10405 . 10410) (punctuation 10404 . 10405) (punctuation 10403 . 10404) (punctuation 10402 . 10403) (symbol 10393 . 10402) (punctuation 10391 . 10392) (symbol 10387 . 10390) (punctuation 10386 . 10387) (punctuation 10385 . 10386) (symbol 10383 . 10385) (punctuation 10381 . 10382) (symbol 10372 . 10381) (punctuation 10370 . 10371) (symbol 10366 . 10369) (punctuation 10365 . 10366) (punctuation 10364 . 10365) (symbol 10362 . 10364) (punctuation 10361 . 10362) (symbol 10355 . 10361) (punctuation 10354 . 10355) (punctuation 10353 . 10354) (symbol 10341 . 10353) (punctuation 10340 . 10341) (punctuation 10339 . 10340) (symbol 10334 . 10339) (punctuation 10319 . 10320) (symbol 10304 . 10309) (TYPENAME 10295 . 10303) (TYPEDEF 10287 . 10294) (punctuation 10215 . 10216) (symbol 10205 . 10214) (symbol 10196 . 10204) (punctuation 10195 . 10196) (punctuation 10194 . 10195) (symbol 10189 . 10194) (CONST 10183 . 10188) (STATIC 10176 . 10182) (punctuation 10114 . 10115) (symbol 10104 . 10113) (symbol 10095 . 10103) (punctuation 10094 . 10095) (punctuation 10093 . 10094) (symbol 10088 . 10093) (CONST 10082 . 10087) (STATIC 10075 . 10081) (punctuation 9760 . 9761) (punctuation 9759 . 9760) (punctuation 9758 . 9759) (symbol 9743 . 9748) (punctuation 9742 . 9743) (punctuation 9741 . 9742) (punctuation 9740 . 9741) (symbol 9731 . 9740) (punctuation 9729 . 9730) (symbol 9725 . 9728) (punctuation 9724 . 9725) (punctuation 9723 . 9724) (symbol 9721 . 9723) (punctuation 9719 . 9720) (symbol 9710 . 9719) (punctuation 9708 . 9709) (symbol 9704 . 9707) (punctuation 9703 . 9704) (punctuation 9702 . 9703) (symbol 9700 . 9702) (punctuation 9699 . 9700) (symbol 9693 . 9699) (punctuation 9692 . 9693) (punctuation 9691 . 9692) (symbol 9679 . 9691) (punctuation 9678 . 9679) (punctuation 9677 . 9678) (symbol 9672 . 9677) (punctuation 9657 . 9658) (symbol 9652 . 9657) (punctuation 9651 . 9652) (punctuation 9650 . 9651) (punctuation 9649 . 9650) (symbol 9640 . 9649) (punctuation 9638 . 9639) (symbol 9634 . 9637) (punctuation 9633 . 9634) (punctuation 9632 . 9633) (symbol 9630 . 9632) (punctuation 9628 . 9629) (symbol 9619 . 9628) (punctuation 9617 . 9618) (symbol 9613 . 9616) (punctuation 9612 . 9613) (punctuation 9611 . 9612) (symbol 9609 . 9611) (punctuation 9608 . 9609) (symbol 9602 . 9608) (punctuation 9601 . 9602) (punctuation 9600 . 9601) (symbol 9588 . 9600) (punctuation 9587 . 9588) (punctuation 9586 . 9587) (symbol 9581 . 9586) (punctuation 9566 . 9567) (symbol 9551 . 9556) (TYPENAME 9542 . 9550) (TYPEDEF 9534 . 9541) (punctuation 9462 . 9463) (symbol 9452 . 9461) (symbol 9443 . 9451) (punctuation 9442 . 9443) (punctuation 9441 . 9442) (symbol 9436 . 9441) (CONST 9430 . 9435) (STATIC 9423 . 9429) (punctuation 9362 . 9363) (symbol 9352 . 9361) (symbol 9343 . 9351) (punctuation 9342 . 9343) (punctuation 9341 . 9342) (symbol 9336 . 9341) (CONST 9330 . 9335) (STATIC 9323 . 9329) (punctuation 8877 . 8878) (punctuation 8876 . 8877) (punctuation 8875 . 8876) (punctuation 8864 . 8865) (symbol 8847 . 8850) (punctuation 8846 . 8847) (punctuation 8845 . 8846) (symbol 8843 . 8845) (punctuation 8824 . 8825) (symbol 8819 . 8824) (punctuation 8818 . 8819) (punctuation 8817 . 8818) (punctuation 8816 . 8817) (symbol 8793 . 8798) (punctuation 8792 . 8793) (punctuation 8791 . 8792) (punctuation 8790 . 8791) (symbol 8781 . 8790) (punctuation 8779 . 8780) (symbol 8775 . 8778) (punctuation 8774 . 8775) (punctuation 8773 . 8774) (symbol 8771 . 8773) (punctuation 8769 . 8770) (symbol 8760 . 8769) (punctuation 8758 . 8759) (symbol 8754 . 8757) (punctuation 8753 . 8754) (punctuation 8752 . 8753) (symbol 8750 . 8752) (punctuation 8749 . 8750) (symbol 8743 . 8749) (punctuation 8742 . 8743) (punctuation 8741 . 8742) (symbol 8729 . 8741) (punctuation 8728 . 8729) (punctuation 8727 . 8728) (symbol 8722 . 8727) (punctuation 8699 . 8700) (symbol 8694 . 8699) (punctuation 8693 . 8694) (punctuation 8692 . 8693) (punctuation 8691 . 8692) (symbol 8682 . 8691) (punctuation 8680 . 8681) (symbol 8676 . 8679) (punctuation 8675 . 8676) (punctuation 8674 . 8675) (symbol 8672 . 8674) (punctuation 8670 . 8671) (symbol 8661 . 8670) (punctuation 8659 . 8660) (symbol 8655 . 8658) (punctuation 8654 . 8655) (punctuation 8653 . 8654) (symbol 8651 . 8653) (punctuation 8650 . 8651) (symbol 8644 . 8650) (punctuation 8643 . 8644) (punctuation 8642 . 8643) (symbol 8630 . 8642) (punctuation 8629 . 8630) (punctuation 8628 . 8629) (symbol 8623 . 8628) (punctuation 8600 . 8601) (symbol 8576 . 8582) (punctuation 8575 . 8576) (punctuation 8574 . 8575) (symbol 8562 . 8574) (punctuation 8561 . 8562) (punctuation 8560 . 8561) (symbol 8555 . 8560) (punctuation 8536 . 8537) (symbol 8517 . 8522) (punctuation 8502 . 8503) (punctuation 8501 . 8502) (symbol 8492 . 8501) (punctuation 8490 . 8491) (symbol 8486 . 8489) (punctuation 8485 . 8486) (punctuation 8484 . 8485) (symbol 8482 . 8484) (punctuation 8480 . 8481) (symbol 8471 . 8480) (punctuation 8470 . 8471) (symbol 8465 . 8470) (punctuation 8450 . 8451) (symbol 8426 . 8440) (TYPENAME 8417 . 8425) (TYPEDEF 8409 . 8416) (punctuation 8267 . 8268) (symbol 8257 . 8266) (symbol 8248 . 8256) (punctuation 8247 . 8248) (punctuation 8246 . 8247) (symbol 8241 . 8246) (CONST 8235 . 8240) (STATIC 8228 . 8234) (punctuation 8166 . 8167) (symbol 8156 . 8165) (symbol 8147 . 8155) (punctuation 8146 . 8147) (punctuation 8145 . 8146) (symbol 8140 . 8145) (CONST 8134 . 8139) (STATIC 8127 . 8133) (punctuation 7630 . 7631) (punctuation 7629 . 7630) (punctuation 7628 . 7629) (punctuation 7617 . 7618) (symbol 7600 . 7603) (punctuation 7599 . 7600) (punctuation 7598 . 7599) (symbol 7596 . 7598) (punctuation 7577 . 7578) (symbol 7572 . 7577) (punctuation 7571 . 7572) (punctuation 7570 . 7571) (punctuation 7569 . 7570) (symbol 7546 . 7551) (punctuation 7545 . 7546) (punctuation 7544 . 7545) (punctuation 7543 . 7544) (symbol 7534 . 7543) (punctuation 7532 . 7533) (symbol 7528 . 7531) (punctuation 7527 . 7528) (punctuation 7526 . 7527) (symbol 7524 . 7526) (punctuation 7522 . 7523) (symbol 7513 . 7522) (punctuation 7511 . 7512) (symbol 7507 . 7510) (punctuation 7506 . 7507) (punctuation 7505 . 7506) (symbol 7503 . 7505) (punctuation 7502 . 7503) (symbol 7496 . 7502) (punctuation 7495 . 7496) (punctuation 7494 . 7495) (symbol 7482 . 7494) (punctuation 7481 . 7482) (punctuation 7480 . 7481) (symbol 7475 . 7480) (punctuation 7452 . 7453) (symbol 7447 . 7452) (punctuation 7446 . 7447) (punctuation 7445 . 7446) (punctuation 7444 . 7445) (symbol 7435 . 7444) (punctuation 7433 . 7434) (symbol 7429 . 7432) (punctuation 7428 . 7429) (punctuation 7427 . 7428) (symbol 7425 . 7427) (punctuation 7423 . 7424) (symbol 7414 . 7423) (punctuation 7412 . 7413) (symbol 7408 . 7411) (punctuation 7407 . 7408) (punctuation 7406 . 7407) (symbol 7404 . 7406) (punctuation 7403 . 7404) (symbol 7397 . 7403) (punctuation 7396 . 7397) (punctuation 7395 . 7396) (symbol 7383 . 7395) (punctuation 7382 . 7383) (punctuation 7381 . 7382) (symbol 7376 . 7381) (punctuation 7353 . 7354) (symbol 7329 . 7335) (punctuation 7328 . 7329) (punctuation 7327 . 7328) (symbol 7315 . 7327) (punctuation 7314 . 7315) (punctuation 7313 . 7314) (symbol 7308 . 7313) (punctuation 7289 . 7290) (symbol 7270 . 7275) (punctuation 7255 . 7256) (punctuation 7254 . 7255) (symbol 7245 . 7254) (punctuation 7243 . 7244) (symbol 7239 . 7242) (punctuation 7238 . 7239) (punctuation 7237 . 7238) (symbol 7235 . 7237) (punctuation 7233 . 7234) (symbol 7224 . 7233) (punctuation 7223 . 7224) (symbol 7218 . 7223) (punctuation 7203 . 7204) (symbol 7179 . 7193) (TYPENAME 7170 . 7178) (TYPEDEF 7162 . 7169) (punctuation 7020 . 7021) (symbol 7010 . 7019) (symbol 7001 . 7009) (punctuation 7000 . 7001) (punctuation 6999 . 7000) (symbol 6994 . 6999) (CONST 6988 . 6993) (STATIC 6981 . 6987) (punctuation 6919 . 6920) (symbol 6909 . 6918) (symbol 6900 . 6908) (punctuation 6899 . 6900) (punctuation 6898 . 6899) (symbol 6893 . 6898) (CONST 6887 . 6892) (STATIC 6880 . 6886) (semantic-list 6203 . 6205) (number 6175 . 6176) (punctuation 6173 . 6174) (punctuation 6172 . 6173) (semantic-list 6133 . 6135) (punctuation 6097 . 6098) (punctuation 6096 . 6097) (semantic-list 6057 . 6059) (punctuation 6021 . 6022) (punctuation 6020 . 6021) (punctuation 5932 . 5933) (symbol 5928 . 5931) (symbol 5919 . 5927) (punctuation 5918 . 5919) (punctuation 5917 . 5918) (symbol 5912 . 5917) (CONST 5906 . 5911) (STATIC 5899 . 5905) (punctuation 5840 . 5841) (symbol 5836 . 5839) (symbol 5827 . 5835) (punctuation 5826 . 5827) (punctuation 5825 . 5826) (symbol 5820 . 5825) (CONST 5814 . 5819) (STATIC 5807 . 5813) (semantic-list 5122 . 5124) (punctuation 5086 . 5087) (punctuation 5080 . 5081) (punctuation 5079 . 5080) (semantic-list 5038 . 5040) (punctuation 5002 . 5003) (punctuation 5001 . 5002) (semantic-list 4962 . 4964) (punctuation 4926 . 4927) (punctuation 4925 . 4926) (punctuation 4849 . 4850) (symbol 4845 . 4848) (symbol 4836 . 4844) (punctuation 4835 . 4836) (punctuation 4834 . 4835) (symbol 4829 . 4834) (CONST 4823 . 4828) (STATIC 4816 . 4822) (punctuation 4769 . 4770) (symbol 4765 . 4768) (symbol 4756 . 4764) (punctuation 4755 . 4756) (punctuation 4754 . 4755) (symbol 4749 . 4754) (CONST 4743 . 4748) (STATIC 4736 . 4742) (punctuation 4676 . 4677) (symbol 4672 . 4675) (symbol 4663 . 4671) (punctuation 4662 . 4663) (punctuation 4661 . 4662) (symbol 4656 . 4661) (CONST 4650 . 4655) (STATIC 4643 . 4649) (punctuation 4584 . 4585) (symbol 4580 . 4583) (symbol 4571 . 4579) (punctuation 4570 . 4571) (punctuation 4569 . 4570) (symbol 4564 . 4569) (CONST 4558 . 4563) (STATIC 4551 . 4557) (punctuation 4335 . 4336) (semantic-list 4005 . 4335) (punctuation 4001 . 4002) (number 4000 . 4001) (punctuation 3999 . 4000) (punctuation 3997 . 3998) (symbol 3996 . 3997) (punctuation 3994 . 3995) (symbol 3993 . 3994) (punctuation 3992 . 3993) (symbol 3986 . 3992) (CLASS 3980 . 3985) (punctuation 3976 . 3977) (symbol 3975 . 3976) (symbol 3966 . 3974) (punctuation 3965 . 3966) (punctuation 3964 . 3965) (symbol 3959 . 3964) (punctuation 3957 . 3958) (symbol 3956 . 3957) (symbol 3947 . 3955) (punctuation 3946 . 3947) (punctuation 3945 . 3946) (symbol 3940 . 3945) (punctuation 3939 . 3940) (TEMPLATE 3930 . 3938) (semantic-list 3717 . 3719) (punctuation 3683 . 3684) (punctuation 3682 . 3683) (punctuation 3678 . 3679) (punctuation 3588 . 3589) (symbol 3584 . 3587) (symbol 3575 . 3583) (punctuation 3574 . 3575) (punctuation 3573 . 3574) (symbol 3568 . 3573) (CONST 3562 . 3567) (STATIC 3555 . 3561) (punctuation 3496 . 3497) (symbol 3492 . 3495) (symbol 3483 . 3491) (punctuation 3482 . 3483) (punctuation 3481 . 3482) (symbol 3476 . 3481) (CONST 3470 . 3475) (STATIC 3463 . 3469) (punctuation 3360 . 3361) (symbol 3355 . 3360) (punctuation 3354 . 3355) (punctuation 3353 . 3354) (punctuation 3352 . 3353) (symbol 3351 . 3352) (punctuation 3349 . 3350) (symbol 3341 . 3349) (punctuation 3340 . 3341) (punctuation 3339 . 3340) (symbol 3334 . 3339) (punctuation 3333 . 3334) (symbol 3327 . 3333) (punctuation 3326 . 3327) (punctuation 3325 . 3326) (symbol 3322 . 3325) (punctuation 3320 . 3321) (symbol 3311 . 3319) (punctuation 3310 . 3311) (punctuation 3309 . 3310) (symbol 3304 . 3309) (punctuation 3302 . 3303) (symbol 3301 . 3302) (symbol 3292 . 3300) (punctuation 3291 . 3292) (punctuation 3290 . 3291) (symbol 3285 . 3290) (punctuation 3283 . 3284) (symbol 3282 . 3283) (symbol 3273 . 3281) (punctuation 3272 . 3273) (punctuation 3271 . 3272) (symbol 3266 . 3271) (punctuation 3265 . 3266) (TEMPLATE 3256 . 3264) (punctuation 3251 . 3252) (semantic-list 2921 . 3251) (punctuation 2917 . 2918) (number 2916 . 2917) (punctuation 2915 . 2916) (punctuation 2913 . 2914) (symbol 2912 . 2913) (punctuation 2910 . 2911) (symbol 2909 . 2910) (punctuation 2908 . 2909) (symbol 2902 . 2908) (CLASS 2896 . 2901) (punctuation 2892 . 2893) (symbol 2891 . 2892) (symbol 2882 . 2890) (punctuation 2881 . 2882) (punctuation 2880 . 2881) (symbol 2875 . 2880) (punctuation 2873 . 2874) (symbol 2872 . 2873) (symbol 2863 . 2871) (punctuation 2862 . 2863) (punctuation 2861 . 2862) (symbol 2856 . 2861) (punctuation 2855 . 2856) (TEMPLATE 2846 . 2854) (semantic-list 2633 . 2635) (punctuation 2598 . 2599) (punctuation 2592 . 2593) (punctuation 2591 . 2592) (punctuation 2503 . 2504) (symbol 2499 . 2502) (symbol 2490 . 2498) (punctuation 2489 . 2490) (punctuation 2488 . 2489) (symbol 2483 . 2488) (CONST 2477 . 2482) (STATIC 2470 . 2476) (punctuation 2411 . 2412) (symbol 2407 . 2410) (symbol 2398 . 2406) (punctuation 2397 . 2398) (punctuation 2396 . 2397) (symbol 2391 . 2396) (CONST 2385 . 2390) (STATIC 2378 . 2384) (punctuation 2275 . 2276) (symbol 2270 . 2275) (punctuation 2269 . 2270) (punctuation 2268 . 2269) (punctuation 2267 . 2268) (symbol 2266 . 2267) (punctuation 2264 . 2265) (symbol 2256 . 2264) (punctuation 2255 . 2256) (punctuation 2254 . 2255) (symbol 2249 . 2254) (punctuation 2248 . 2249) (symbol 2242 . 2248) (punctuation 2241 . 2242) (punctuation 2240 . 2241) (symbol 2237 . 2240) (punctuation 2235 . 2236) (symbol 2226 . 2234) (punctuation 2225 . 2226) (punctuation 2224 . 2225) (symbol 2219 . 2224) (punctuation 2217 . 2218) (symbol 2216 . 2217) (symbol 2207 . 2215) (punctuation 2206 . 2207) (punctuation 2205 . 2206) (symbol 2200 . 2205) (punctuation 2198 . 2199) (symbol 2197 . 2198) (symbol 2188 . 2196) (punctuation 2187 . 2188) (punctuation 2186 . 2187) (symbol 2181 . 2186) (punctuation 2180 . 2181) (TEMPLATE 2171 . 2179) (symbol 1858 . 1871) (symbol 1854 . 1857) (symbol 1847 . 1853) (punctuation 1846 . 1847))
+      :lexical-table 
+        '(("BOOST_RATIO_DETAIL_RATIO_OPERATIONS_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!ratio!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

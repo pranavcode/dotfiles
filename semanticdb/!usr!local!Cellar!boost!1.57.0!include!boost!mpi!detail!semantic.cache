@@ -1,0 +1,1345 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "point_to_point.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_DETAIL_POINT_TO_POINT_HPP" variable (:constant-flag t) nil [342 377])
+            ("boost/mpi/config.hpp" include (:system-flag t) nil [422 453])
+            ("boost/mpi/packed_oarchive.hpp" include (:system-flag t) nil [454 494])
+            ("boost/mpi/packed_iarchive.hpp" include (:system-flag t) nil [495 535])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("packed_archive_send" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("comm" variable (:type ("MPI_Comm" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [677 691])
+                                            ("dest" variable (:type "int") (reparse-symbol arg-sub-list) [692 701])
+                                            ("tag" variable (:type "int") (reparse-symbol arg-sub-list) [702 710])
+                                            ("ar" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("packed_oarchive" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [731 757]))                                          
+                                        :type "void")
+                                        (reparse-symbol namespacesubparts) [652 758])
+                                    ("packed_archive_isend" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("comm" variable (:type ("MPI_Comm" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1119 1133])
+                                            ("dest" variable (:type "int") (reparse-symbol arg-sub-list) [1134 1143])
+                                            ("tag" variable (:type "int") (reparse-symbol arg-sub-list) [1144 1152])
+                                            ("ar" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("packed_oarchive" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1174 1200])
+                                            ("out_requests" variable
+                                               (:pointer 1
+                                                :type ("MPI_Request" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1222 1248])
+                                            ("num_out_requests" variable (:type "int") (reparse-symbol arg-sub-list) [1249 1270]))                                          
+                                        :type "int")
+                                        (reparse-symbol namespacesubparts) [1094 1271])
+                                    ("packed_archive_isend" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("comm" variable (:type ("MPI_Comm" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1334 1348])
+                                            ("dest" variable (:type "int") (reparse-symbol arg-sub-list) [1349 1358])
+                                            ("tag" variable (:type "int") (reparse-symbol arg-sub-list) [1359 1367])
+                                            ("ar" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("packed_iarchive" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1389 1415])
+                                            ("out_requests" variable
+                                               (:pointer 1
+                                                :type ("MPI_Request" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1437 1463])
+                                            ("num_out_requests" variable (:type "int") (reparse-symbol arg-sub-list) [1464 1485]))                                          
+                                        :type "int")
+                                        (reparse-symbol namespacesubparts) [1309 1486])
+                                    ("packed_archive_recv" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("comm" variable (:type ("MPI_Comm" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1577 1591])
+                                            ("source" variable (:type "int") (reparse-symbol arg-sub-list) [1592 1603])
+                                            ("tag" variable (:type "int") (reparse-symbol arg-sub-list) [1604 1612])
+                                            ("ar" variable
+                                               (:reference 1
+                                                :type ("packed_iarchive" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1613 1633])
+                                            ("status" variable
+                                               (:reference 1
+                                                :type ("MPI_Status" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1654 1673]))                                          
+                                        :type "void")
+                                        (reparse-symbol namespacesubparts) [1552 1674]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [571 1677]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [555 1679]))                  
+                :type "namespace")
+                nil [537 1681]))          
+      :file "point_to_point.hpp"
+      :pointmax 1765
+      :fsize 1764
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax '((symbol 1537 . 1551) (symbol 1294 . 1308) (symbol 1079 . 1093) (symbol 637 . 651))
+      :lexical-table 
+        '(("BOOST_MPI_DETAIL_POINT_TO_POINT_HPP")
+          )
+)
+    (semanticdb-table "mpi_datatype_cache.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_DETAIL_TYPE_MPI_DATATYPE_CACHE_HPP" variable (:constant-flag t) nil [319 363])
+            ("boost/mpi/datatype_fwd.hpp" include (:system-flag t) nil [365 402])
+            ("boost/mpi/detail/mpi_datatype_oarchive.hpp" include (:system-flag t) nil [403 456])
+            ("boost/mpi/exception.hpp" include (:system-flag t) nil [457 491])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [492 530])
+            ("boost/mpl/assert.hpp" include (:system-flag t) nil [531 562])
+            ("boost/noncopyable.hpp" include (:system-flag t) nil [563 595])
+            ("typeinfo" include (:system-flag t) nil [596 615])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("type_info_compare" type
+                                       (:members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("lhs" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type ("std::type_info" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1211 1237])
+                                                    ("rhs" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type ("std::type_info" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1238 1264]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [1195 1308]))                                          
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [1166 1311])
+                                    ("boost::noncopyable" variable (:type "int") (reparse-symbol namespacesubparts) [1433 2374])
+                                    ("mpi_datatype_cache" function
+                                       (:prototype-flag t
+                                        :type ("mpi_datatype_map" type (:type "class") nil nil))
+                                        (reparse-symbol namespacesubparts) [2427 2466]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [985 2469]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [969 2471]))                  
+                :type "namespace")
+                nil [951 2473]))          
+      :file "mpi_datatype_cache.hpp"
+      :pointmax 2615
+      :fsize 2614
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax '((symbol 2412 . 2426) (PUBLIC 1426 . 1432) (punctuation 1424 . 1425) (symbol 1406 . 1422) (symbol 1391 . 1405) (CLASS 1385 . 1390))
+      :lexical-table 
+        '(("BOOST_MPI_DETAIL_TYPE_MPI_DATATYPE_CACHE_HPP")
+          )
+)
+    (semanticdb-table "forward_skeleton_iarchive.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_DETAIL_FORWARD_SKELETON_IARCHIVE_HPP" variable (:constant-flag t) nil [322 368])
+            ("boost/serialization/pfto.hpp" include (:system-flag t) nil [370 409])
+            ("boost/archive/detail/auto_link_archive.hpp" include (:system-flag t) nil [411 464])
+            ("boost/archive/detail/iserializer.hpp" include (:system-flag t) nil [465 512])
+            ("boost/archive/detail/interface_iarchive.hpp" include (:system-flag t) nil [513 567])
+            ("boost/archive/detail/common_iarchive.hpp" include (:system-flag t) nil [568 619])
+            ("boost/serialization/collection_size_type.hpp" include (:system-flag t) nil [620 675])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("forward_skeleton_iarchive" type
+                                       (:template 
+                                          ( ("Archive" type (:type "class") nil nil)
+                                            ("ImplementationArchive" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [872 879])
+                                            ("implementation_archive_type" type
+                                               (:typedef ("ImplementationArchive" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [885 943])
+                                            ("forward_skeleton_iarchive" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("ar" variable
+                                                       (:reference 1
+                                                        :type ("implementation_archive_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [975 1007]))                                                  
+                                                :type ("forward_skeleton_iarchive" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [949 1126])
+                                            ("archive" friend nil (reparse-symbol classsubparts) [1186 1206])
+                                            ("detail::interface_iarchive" variable (:type "int") (reparse-symbol classsubparts) [1208 1244])
+                                            ("archive" friend nil (reparse-symbol classsubparts) [1249 1269])
+                                            ("load_access" variable (:type "int") (reparse-symbol classsubparts) [1271 1283])
+                                            ("protected" label nil (reparse-symbol classsubparts) [1284 1294])
+                                            ("load_override" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1489 1495])
+                                                    ("" variable (:type ("BOOST_PFTO" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1496 1510])
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1507 1511]))                                                  )
+                                                (reparse-symbol classsubparts) [1448 1565])
+                                            ("BOOST_ARCHIVE_FORWARD_IMPLEMENTATION" variable (:constant-flag t) (reparse-symbol classsubparts) [1575 1611])
+                                            ("load_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1774 1843])
+                                            ("load_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1844 1903])
+                                            ("load_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1904 1964])
+                                            ("load_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1965 2035])
+                                            ("load_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2036 2097])
+                                            ("load_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2098 2166])
+                                            ("load_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2167 2227])
+                                            ("load_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2228 2290])
+                                            ("load_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :type ("serialization" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2291 2364])
+                                            ("load_override" function
+                                               (:arguments 
+                                                  ( ("s" variable
+                                                       (:reference 1
+                                                        :type ("std::string" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2389 2406])
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [2407 2411]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2370 2591])
+                                            ("protected" label nil (reparse-symbol classsubparts) [2637 2647])
+                                            ("implementation_archive" variable (:type ("implementation_archive_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2739 2791]))                                          
+                                        :superclasses 
+                                          ( ("archive::detail::common_iarchive" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [731 2794]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [711 2798]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [695 2800]))                  
+                :type "namespace")
+                nil [677 2802]))          
+      :file "forward_skeleton_iarchive.hpp"
+      :pointmax 2897
+      :fsize 2896
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax '((punctuation 1270 . 1271) (punctuation 1269 . 1270) (punctuation 1207 . 1208) (punctuation 1206 . 1207))
+      :lexical-table 
+        '(("BOOST_MPI_DETAIL_FORWARD_SKELETON_IARCHIVE_HPP")
+          )
+)
+    (semanticdb-table "forward_skeleton_oarchive.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_DETAIL_FORWARD_SKELETON_OARCHIVE_HPP" variable (:constant-flag t) nil [322 368])
+            ("boost/serialization/pfto.hpp" include (:system-flag t) nil [370 409])
+            ("boost/archive/detail/auto_link_archive.hpp" include (:system-flag t) nil [411 464])
+            ("boost/archive/detail/oserializer.hpp" include (:system-flag t) nil [465 512])
+            ("boost/archive/detail/interface_oarchive.hpp" include (:system-flag t) nil [513 567])
+            ("boost/archive/detail/common_oarchive.hpp" include (:system-flag t) nil [568 619])
+            ("boost/serialization/collection_size_type.hpp" include (:system-flag t) nil [620 675])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("forward_skeleton_oarchive" type
+                                       (:template 
+                                          ( ("Archive" type (:type "class") nil nil)
+                                            ("ImplementationArchive" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [872 879])
+                                            ("implementation_archive_type" type
+                                               (:typedef ("ImplementationArchive" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [885 943])
+                                            ("forward_skeleton_oarchive" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("ar" variable
+                                                       (:reference 1
+                                                        :type ("implementation_archive_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [975 1007]))                                                  
+                                                :type ("forward_skeleton_oarchive" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [949 1126])
+                                            ("archive" friend nil (reparse-symbol classsubparts) [1186 1206])
+                                            ("detail::interface_oarchive" variable (:type "int") (reparse-symbol classsubparts) [1208 1244])
+                                            ("archive" friend nil (reparse-symbol classsubparts) [1249 1269])
+                                            ("save_access" variable (:type "int") (reparse-symbol classsubparts) [1271 1283])
+                                            ("protected" label nil (reparse-symbol classsubparts) [1284 1294])
+                                            ("save_override" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1489 1500])
+                                                    ("" variable (:type ("BOOST_PFTO" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1501 1515])
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1512 1516]))                                                  )
+                                                (reparse-symbol classsubparts) [1448 1570])
+                                            ("BOOST_ARCHIVE_FORWARD_IMPLEMENTATION" variable (:constant-flag t) (reparse-symbol classsubparts) [1580 1616])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1779 1848])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1849 1908])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1909 1969])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1970 2040])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2041 2102])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2103 2171])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2172 2232])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2233 2295])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("serialization" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2296 2369])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("std::string" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2394 2417])
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [2418 2422]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2375 2557])
+                                            ("protected" label nil (reparse-symbol classsubparts) [2604 2614])
+                                            ("implementation_archive" variable (:type ("implementation_archive_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2706 2758]))                                          
+                                        :superclasses 
+                                          ( ("archive::detail::common_oarchive" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [731 2761]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [711 2764]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [695 2766]))                  
+                :type "namespace")
+                nil [677 2768]))          
+      :file "forward_skeleton_oarchive.hpp"
+      :pointmax 2863
+      :fsize 2862
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax '((punctuation 1270 . 1271) (punctuation 1269 . 1270) (punctuation 1207 . 1208) (punctuation 1206 . 1207))
+      :lexical-table 
+        '(("BOOST_MPI_DETAIL_FORWARD_SKELETON_OARCHIVE_HPP")
+          )
+)
+    (semanticdb-table "ignore_iprimitive.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_DETAIL_IGNORE_IPRIMITIVE_HPP" variable (:constant-flag t) nil [313 351])
+            ("boost/config.hpp" include (:system-flag t) nil [353 380])
+            ("boost/mpi/datatype.hpp" include (:system-flag t) nil [381 414])
+            ("boost/serialization/array.hpp" include (:system-flag t) nil [415 455])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("ignore_iprimitive" type
+                                       (:members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [853 860])
+                                            ("ignore_iprimitive" function
+                                               (:constructor-flag t
+                                                :type ("ignore_iprimitive" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [903 929])
+                                            ("load_binary" function
+                                               (:arguments 
+                                                  ( ("" variable
+                                                       (:pointer 1
+                                                        :type "void")
+                                                        (reparse-symbol arg-sub-list) [1008 1015])
+                                                    ("" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1016 1029]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [991 1040])
+                                            ("load_array" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :type ("serialization::array" type
+                                                             (:template-specifier 
+                                                                ( ("T" type nil nil nil))                                                                
+                                                              :type "class")
+                                                              nil nil))
+                                                        (reparse-symbol arg-sub-list) [1134 1160])
+                                                    ("" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1161 1175]))                                                  )
+                                                (reparse-symbol classsubparts) [1096 1182])
+                                            ("use_array_optimization" type
+                                               (:typedef ("is_mpi_datatype" type
+                                                     (:template-specifier 
+                                                        ( ("mpl::_1" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1188 1244])
+                                            ("load" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1341 1345]))                                                  )
+                                                (reparse-symbol classsubparts) [1309 1357]))                                          
+                                        :type "class")
+                                        (reparse-symbol namespacesubparts) [827 1360]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [492 1363]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [476 1365]))                  
+                :type "namespace")
+                nil [458 1367]))          
+      :file "ignore_iprimitive.hpp"
+      :pointmax 1454
+      :fsize 1453
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_DETAIL_IGNORE_IPRIMITIVE_HPP")
+          )
+)
+    (semanticdb-table "ignore_oprimitive.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_DETAIL_IGNORE_OPRIMITIVE_HPP" variable (:constant-flag t) nil [313 351])
+            ("boost/config.hpp" include (:system-flag t) nil [353 380])
+            ("boost/mpi/datatype.hpp" include (:system-flag t) nil [381 414])
+            ("boost/serialization/array.hpp" include (:system-flag t) nil [415 455])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("ignore_oprimitive" type
+                                       (:members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [854 861])
+                                            ("ignore_oprimitive" function
+                                               (:constructor-flag t
+                                                :type ("ignore_oprimitive" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [904 930])
+                                            ("save_binary" function
+                                               (:arguments 
+                                                  ( ("" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "void")
+                                                        (reparse-symbol arg-sub-list) [1007 1020])
+                                                    ("" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1021 1034]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [990 1046])
+                                            ("save_array" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("serialization::array" type
+                                                             (:template-specifier 
+                                                                ( ("T" type nil nil nil))                                                                
+                                                              :type "class")
+                                                              nil nil))
+                                                        (reparse-symbol arg-sub-list) [1139 1170])
+                                                    ("" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1171 1185]))                                                  )
+                                                (reparse-symbol classsubparts) [1101 1197])
+                                            ("use_array_optimization" type
+                                               (:typedef ("is_mpi_datatype" type
+                                                     (:template-specifier 
+                                                        ( ("mpl::_1" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1203 1259])
+                                            ("archive" friend nil (reparse-symbol classsubparts) [1307 1327])
+                                            ("save_access" variable (:type "int") (reparse-symbol classsubparts) [1329 1341])
+                                            ("protected" label nil (reparse-symbol classsubparts) [1342 1352])
+                                            ("save" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1469 1479]))                                                  )
+                                                (reparse-symbol classsubparts) [1437 1491]))                                          
+                                        :type "class")
+                                        (reparse-symbol namespacesubparts) [828 1494]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [491 1497]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [475 1499]))                  
+                :type "namespace")
+                nil [457 1501]))          
+      :file "ignore_oprimitive.hpp"
+      :pointmax 1588
+      :fsize 1587
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax '((punctuation 1328 . 1329) (punctuation 1327 . 1328))
+      :lexical-table 
+        '(("BOOST_MPI_DETAIL_IGNORE_OPRIMITIVE_HPP")
+          )
+)
+    (semanticdb-table "content_oarchive.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_DETAIL_CONTENT_OARCHIVE_HPP" variable (:constant-flag t) nil [312 349])
+            ("boost/archive/detail/auto_link_archive.hpp" include (:system-flag t) nil [351 404])
+            ("boost/archive/basic_archive.hpp" include (:system-flag t) nil [405 447])
+            ("boost/mpi/detail/ignore_skeleton_oarchive.hpp" include (:system-flag t) nil [448 504])
+            ("boost/mpi/detail/mpi_datatype_primitive.hpp" include (:system-flag t) nil [505 559])
+            ("boost/mpi/datatype.hpp" include (:system-flag t) nil [560 593])
+            ("boost/archive/detail/register_archive.hpp" include (:system-flag t) nil [594 646])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("ignore_skeleton_oarchive" variable (:type "int") (reparse-symbol namespacesubparts) [995 1387]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [683 1389])
+                            ("get_content" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("content" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1460 1471]))                                  
+                                :constant-flag t)
+                                (reparse-symbol namespacesubparts) [1415 1544]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [666 1547]))                  
+                :type "namespace")
+                nil [648 1549]))          
+      :file "content_oarchive.hpp"
+      :pointmax 1926
+      :fsize 1925
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax '((semantic-list 1839 . 1877) (symbol 1797 . 1839) (semantic-list 1712 . 1796) (symbol 1676 . 1712) (semantic-list 1637 . 1675) (symbol 1601 . 1637) (PUBLIC 988 . 994) (punctuation 980 . 981) (symbol 958 . 980) (PUBLIC 951 . 957) (punctuation 949 . 950) (symbol 928 . 944) (symbol 913 . 927) (CLASS 907 . 912))
+      :lexical-table 
+        '(("BOOST_MPI_DETAIL_CONTENT_OARCHIVE_HPP")
+          )
+)
+    (semanticdb-table "computation_tree.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_COMPUTATION_TREE_HPP" variable (:constant-flag t) nil [360 390])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("computation_tree" type
+                                       (:members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [565 572])
+                                            ("computation_tree" function
+                                               (:prototype-flag t
+                                                :constructor-flag t
+                                                :arguments 
+                                                  ( ("rank" variable (:type "int") (reparse-symbol arg-sub-list) [592 601])
+                                                    ("size" variable (:type "int") (reparse-symbol arg-sub-list) [602 611])
+                                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [612 621])
+                                                    ("branching_factor" variable
+                                                       (:default-value "-1"
+                                                        :type "int")
+                                                        (reparse-symbol arg-sub-list) [622 647]))                                                  
+                                                :type ("computation_tree" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [575 649])
+                                            ("branching_factor" function (:type "int") (reparse-symbol classsubparts) [701 759])
+                                            ("level" function (:type "int") (reparse-symbol classsubparts) [830 866])
+                                            ("level_index" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1037 1043]))                                                  
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [1021 1050])
+                                            ("parent" function
+                                               (:prototype-flag t
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [1274 1293])
+                                            ("child_begin" function
+                                               (:prototype-flag t
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [1358 1382])
+                                            ("default_branching_factor" variable
+                                               (:typemodifiers ("static")
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [1771 1807])
+                                            ("protected" label nil (reparse-symbol classsubparts) [1810 1820])
+                                            ("rank" variable (:type "int") (reparse-symbol classsubparts) [1879 1888])
+                                            ("size" variable (:type "int") (reparse-symbol classsubparts) [1961 1970])
+                                            ("root" variable (:type "int") (reparse-symbol classsubparts) [2057 2066])
+                                            ("branching_factor_" variable (:type "int") (reparse-symbol classsubparts) [2333 2355])
+                                            ("level_" variable (:type "int") (reparse-symbol classsubparts) [2418 2429]))                                          
+                                        :type "class")
+                                        (reparse-symbol namespacesubparts) [539 2432]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [426 2435]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [410 2437]))                  
+                :type "namespace")
+                nil [392 2439]))          
+      :file "computation_tree.hpp"
+      :pointmax 2518
+      :fsize 2517
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_COMPUTATION_TREE_HPP")
+          )
+)
+    (semanticdb-table "packed_oprimitive.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_PACKED_OPRIMITIVE_HPP" variable (:constant-flag t) nil [306 337])
+            ("boost/mpi/config.hpp" include (:system-flag t) nil [339 370])
+            ("cstddef" include (:system-flag t) nil [371 389])
+            ("boost/config.hpp" include (:system-flag t) nil [400 427])
+            ("boost/mpi/datatype.hpp" include (:system-flag t) nil [429 462])
+            ("boost/mpi/exception.hpp" include (:system-flag t) nil [463 497])
+            ("boost/serialization/detail/get_data.hpp" include (:system-flag t) nil [498 548])
+            ("boost/serialization/array.hpp" include (:system-flag t) nil [549 589])
+            ("boost/assert.hpp" include (:system-flag t) nil [590 617])
+            ("vector" include (:system-flag t) nil [618 635])
+            ("boost/mpi/allocator.hpp" include (:system-flag t) nil [636 670])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("packed_oprimitive" variable (:type ("BOOST_MPI_DECL" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [742 2922]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [690 2925]))                  
+                :type "namespace")
+                nil [672 2927]))          
+      :file "packed_oprimitive.hpp"
+      :pointmax 2999
+      :fsize 2998
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_PACKED_OPRIMITIVE_HPP")
+          )
+)
+    (semanticdb-table "binary_buffer_oprimitive.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_BINARY_BUFFER_OPRIMITIVE_HPP" variable (:constant-flag t) nil [318 356])
+            ("mpi.h" include (:system-flag t) nil [358 374])
+            ("iostream" include (:system-flag t) nil [375 394])
+            ("cstddef" include (:system-flag t) nil [395 413])
+            ("boost/config.hpp" include (:system-flag t) nil [424 451])
+            ("boost/serialization/array.hpp" include (:system-flag t) nil [453 493])
+            ("boost/serialization/is_bitwise_serializable.hpp" include (:system-flag t) nil [494 552])
+            ("boost/assert.hpp" include (:system-flag t) nil [553 580])
+            ("boost/mpl/assert.hpp" include (:system-flag t) nil [581 612])
+            ("vector" include (:system-flag t) nil [613 630])
+            ("boost/mpi/allocator.hpp" include (:system-flag t) nil [631 665])
+            ("boost/mpl/always.hpp" include (:system-flag t) nil [666 697])
+            ("boost/type_traits/remove_const.hpp" include (:system-flag t) nil [698 743])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("binary_buffer_oprimitive" variable (:type ("BOOST_MPI_DECL" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [831 2600]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [763 2603]))                  
+                :type "namespace")
+                nil [745 2605]))          
+      :file "binary_buffer_oprimitive.hpp"
+      :pointmax 2684
+      :fsize 2683
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_BINARY_BUFFER_OPRIMITIVE_HPP")
+          )
+)
+    (semanticdb-table "packed_iprimitive.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_PACKED_IPRIMITIVE_HPP" variable (:constant-flag t) nil [306 337])
+            ("boost/mpi/config.hpp" include (:system-flag t) nil [339 370])
+            ("cstddef" include (:system-flag t) nil [371 389])
+            ("boost/config.hpp" include (:system-flag t) nil [400 427])
+            ("boost/mpi/datatype.hpp" include (:system-flag t) nil [428 461])
+            ("boost/mpi/exception.hpp" include (:system-flag t) nil [462 496])
+            ("boost/assert.hpp" include (:system-flag t) nil [497 524])
+            ("boost/serialization/array.hpp" include (:system-flag t) nil [525 565])
+            ("boost/serialization/detail/get_data.hpp" include (:system-flag t) nil [566 616])
+            ("vector" include (:system-flag t) nil [617 634])
+            ("boost/mpi/allocator.hpp" include (:system-flag t) nil [635 669])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("packed_iprimitive" variable (:type ("BOOST_MPI_DECL" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [744 2788]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [689 2791]))                  
+                :type "namespace")
+                nil [671 2793]))          
+      :file "packed_iprimitive.hpp"
+      :pointmax 2865
+      :fsize 2864
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_PACKED_IPRIMITIVE_HPP")
+          )
+)
+    (semanticdb-table "binary_buffer_iprimitive.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_BINARY_BUFFER_IPRIMITIVE_HPP" variable (:constant-flag t) nil [318 356])
+            ("mpi.h" include (:system-flag t) nil [358 374])
+            ("iostream" include (:system-flag t) nil [375 394])
+            ("cstddef" include (:system-flag t) nil [395 413])
+            ("boost/config.hpp" include (:system-flag t) nil [424 451])
+            ("boost/mpi/exception.hpp" include (:system-flag t) nil [452 486])
+            ("boost/assert.hpp" include (:system-flag t) nil [487 514])
+            ("boost/mpl/assert.hpp" include (:system-flag t) nil [515 546])
+            ("boost/serialization/array.hpp" include (:system-flag t) nil [547 587])
+            ("boost/serialization/is_bitwise_serializable.hpp" include (:system-flag t) nil [588 646])
+            ("vector" include (:system-flag t) nil [647 664])
+            ("boost/mpi/allocator.hpp" include (:system-flag t) nil [665 699])
+            ("cstring" include (:system-flag t) nil [700 718])
+            ("cassert" include (:system-flag t) nil [733 751])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("binary_buffer_iprimitive" variable (:type ("BOOST_MPI_DECL" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [826 3035]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [771 3038]))                  
+                :type "namespace")
+                nil [753 3040]))          
+      :file "binary_buffer_iprimitive.hpp"
+      :pointmax 3112
+      :fsize 3111
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_BINARY_BUFFER_IPRIMITIVE_HPP")
+          )
+)
+    (semanticdb-table "mpi_datatype_oarchive.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_DETAIL_MPI_DATATYPE_OARCHIVE_HPP" variable (:constant-flag t) nil [317 359])
+            ("boost/type_traits/is_enum.hpp" include (:system-flag t) nil [361 401])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [402 431])
+            ("boost/archive/detail/oserializer.hpp" include (:system-flag t) nil [432 479])
+            ("boost/archive/detail/auto_link_archive.hpp" include (:system-flag t) nil [480 533])
+            ("boost/archive/basic_archive.hpp" include (:system-flag t) nil [534 576])
+            ("boost/mpi/detail/ignore_skeleton_oarchive.hpp" include (:system-flag t) nil [577 633])
+            ("boost/mpi/detail/mpi_datatype_primitive.hpp" include (:system-flag t) nil [634 688])
+            ("boost/mpi/datatype_fwd.hpp" include (:system-flag t) nil [689 726])
+            ("boost/mpl/assert.hpp" include (:system-flag t) nil [727 758])
+            ("boost/static_assert.hpp" include (:system-flag t) nil [759 793])
+            ("boost/integer.hpp" include (:system-flag t) nil [794 822])
+            ("boost/archive/detail/register_archive.hpp" include (:system-flag t) nil [823 875])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("mpi_datatype_oarchive" type
+                                       (:superclasses 
+                                          ( ("mpi_datatype_primitive" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil)
+                                            ("ignore_skeleton_oarchive" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [1253 1260])
+                                            ("mpi_datatype_oarchive" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type ("mpi_datatype_oarchive" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1310 1321]))                                                  
+                                                :constructor-flag t)
+                                                (reparse-symbol classsubparts) [1265 1514])
+                                            ("save_override" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1710 1721])
+                                                    ("" variable (:type ("BOOST_PFTO" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1722 1736])
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1733 1737]))                                                  )
+                                                (reparse-symbol classsubparts) [1669 1789])
+                                            ("save_enum" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1832 1843])
+                                                    ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1844 1856]))                                                  )
+                                                (reparse-symbol classsubparts) [1795 1944])
+                                            ("save_enum" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1987 1998])
+                                                    ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1999 2010]))                                                  )
+                                                (reparse-symbol classsubparts) [1950 2258]))                                          
+                                        :type "class")
+                                        (reparse-symbol namespacesubparts) [1129 2262]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [911 2265]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [895 2267]))                  
+                :type "namespace")
+                nil [877 2269]))          
+      :file "mpi_datatype_oarchive.hpp"
+      :pointmax 2675
+      :fsize 2674
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax '((semantic-list 2577 . 2620) (symbol 2535 . 2577) (semantic-list 2445 . 2534) (symbol 2409 . 2445) (semantic-list 2365 . 2408) (symbol 2329 . 2365))
+      :lexical-table 
+        '(("BOOST_MPI_DETAIL_MPI_DATATYPE_OARCHIVE_HPP")
+          )
+)
+    (semanticdb-table "ignore_skeleton_oarchive.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_DETAIL_IGNORE_SKELETON_OARCHIVE_HPP" variable (:constant-flag t) nil [321 366])
+            ("boost/serialization/pfto.hpp" include (:system-flag t) nil [368 407])
+            ("boost/archive/detail/auto_link_archive.hpp" include (:system-flag t) nil [409 462])
+            ("boost/archive/detail/common_oarchive.hpp" include (:system-flag t) nil [463 514])
+            ("boost/archive/basic_archive.hpp" include (:system-flag t) nil [515 557])
+            ("boost/archive/detail/oserializer.hpp" include (:system-flag t) nil [558 605])
+            ("boost/serialization/collection_size_type.hpp" include (:system-flag t) nil [606 661])
+            ("boost/serialization/array.hpp" include (:system-flag t) nil [662 702])
+            ("boost/serialization/item_version_type.hpp" include (:system-flag t) nil [703 755])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("ignore_skeleton_oarchive" type
+                                       (:template 
+                                          ( ("Archive" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [922 929])
+                                            ("ignore_skeleton_oarchive" function
+                                               (:constructor-flag t
+                                                :type ("ignore_skeleton_oarchive" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [934 1042])
+                                            ("archive" friend nil (reparse-symbol classsubparts) [1102 1122])
+                                            ("detail::interface_oarchive" variable (:type "int") (reparse-symbol classsubparts) [1124 1160])
+                                            ("archive" friend nil (reparse-symbol classsubparts) [1165 1185])
+                                            ("save_access" variable (:type "int") (reparse-symbol classsubparts) [1187 1199])
+                                            ("protected" label nil (reparse-symbol classsubparts) [1200 1210])
+                                            ("save_override" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1405 1416])
+                                                    ("" variable (:type ("BOOST_PFTO" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1417 1431])
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1428 1432]))                                                  )
+                                                (reparse-symbol classsubparts) [1364 1486])
+                                            ("BOOST_ARCHIVE_IGNORE_IMPLEMENTATION" variable (:constant-flag t) (reparse-symbol classsubparts) [1496 1531])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1594 1662])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1663 1721])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1722 1788])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1789 1848])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1849 1918])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1919 1979])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1980 2047])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2048 2107])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2108 2169])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("serialization" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2170 2242])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("serialization" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) nil)
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2243 2312])
+                                            ("save_override" function
+                                               (:arguments 
+                                                  ( ("s" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("std::string" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2337 2359])
+                                                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [2360 2364]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2318 2474]))                                          
+                                        :superclasses 
+                                          ( ("archive::detail::common_oarchive" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [811 2521]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [791 2525]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [775 2527]))                  
+                :type "namespace")
+                nil [757 2529]))          
+      :file "ignore_skeleton_oarchive.hpp"
+      :pointmax 2623
+      :fsize 2622
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax '((punctuation 1186 . 1187) (punctuation 1185 . 1186) (punctuation 1123 . 1124) (punctuation 1122 . 1123))
+      :lexical-table 
+        '(("BOOST_MPI_DETAIL_IGNORE_SKELETON_OARCHIVE_HPP")
+          )
+)
+    (semanticdb-table "mpi_datatype_primitive.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_DETAIL_MPI_DATATYPE_OPRIMITIVE_HPP" variable (:constant-flag t) nil [319 363])
+            ("boost/mpi/config.hpp" include (:system-flag t) nil [365 396])
+            ("cstddef" include (:system-flag t) nil [397 415])
+            ("boost/config.hpp" include (:system-flag t) nil [427 454])
+            ("boost/mpi/datatype_fwd.hpp" include (:system-flag t) nil [554 591])
+            ("boost/mpi/exception.hpp" include (:system-flag t) nil [592 626])
+            ("boost/throw_exception.hpp" include (:system-flag t) nil [627 663])
+            ("boost/assert.hpp" include (:system-flag t) nil [664 691])
+            ("boost/mpl/placeholders.hpp" include (:system-flag t) nil [692 729])
+            ("boost/serialization/array.hpp" include (:system-flag t) nil [730 770])
+            ("boost/serialization/detail/get_data.hpp" include (:system-flag t) nil [771 821])
+            ("stdexcept" include (:system-flag t) nil [822 842])
+            ("iostream" include (:system-flag t) nil [843 862])
+            ("vector" include (:system-flag t) nil [863 880])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("mpi_datatype_primitive" type
+                                       (:members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [1112 1119])
+                                            ("mpi_datatype_primitive" function
+                                               (:constructor-flag t
+                                                :type ("mpi_datatype_primitive" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [1160 1236])
+                                            ("mpi_datatype_primitive" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("orig" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "void")
+                                                        (reparse-symbol arg-sub-list) [1265 1282]))                                                  
+                                                :type ("mpi_datatype_primitive" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [1242 1556])
+                                            ("save_binary" function
+                                               (:arguments 
+                                                  ( ("address" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "void")
+                                                        (reparse-symbol arg-sub-list) [1579 1599])
+                                                    ("count" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1600 1618]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1562 1671])
+                                            ("save_array" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("x" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("serialization::array" type
+                                                             (:template-specifier 
+                                                                ( ("T" type nil nil nil))                                                                
+                                                              :type "class")
+                                                              nil nil))
+                                                        (reparse-symbol arg-sub-list) [1757 1790])
+                                                    ("" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1791 1818]))                                                  )
+                                                (reparse-symbol classsubparts) [1719 1938])
+                                            ("use_array_optimization" type
+                                               (:typedef ("is_mpi_datatype" type
+                                                     (:template-specifier 
+                                                        ( ("mpl::_1" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1944 2000])
+                                            ("get_mpi_datatype" function (:type ("MPI_Datatype" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2056 3162])
+                                            ("save" function
+                                               (:template 
+                                                  ( ("T" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("t" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("T" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3237 3249]))                                                  )
+                                                (reparse-symbol classsubparts) [3205 3320])
+                                            ("private" label nil (reparse-symbol classsubparts) [3322 3330])
+                                            ("save_impl" function
+                                               (:arguments 
+                                                  ( ("p" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "void")
+                                                        (reparse-symbol arg-sub-list) [3351 3366])
+                                                    ("t" variable (:type ("MPI_Datatype" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3367 3382])
+                                                    ("l" variable (:type "int") (reparse-symbol arg-sub-list) [3383 3389]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [3336 3790])
+                                            ("addresses" variable (:type ("std::vector" type
+                                                 (:template-specifier 
+                                                    ( ("MPI_Aint" type nil nil nil))                                                    
+                                                  :type "class")
+                                                  nil nil)) (reparse-symbol classsubparts) [3796 3828])
+                                            ("types" variable (:type ("std::vector" type
+                                                 (:template-specifier 
+                                                    ( ("MPI_Datatype" type nil nil nil))                                                    
+                                                  :type "class")
+                                                  nil nil)) (reparse-symbol classsubparts) [3833 3865])
+                                            ("lengths" variable (:type ("std::vector" type
+                                                 (:template-specifier 
+                                                    ( ("int" type nil nil nil))                                                    
+                                                  :type "class")
+                                                  nil nil)) (reparse-symbol classsubparts) [3870 3895])
+                                            ("is_committed" variable (:type "bool") (reparse-symbol classsubparts) [3901 3919])
+                                            ("datatype_" variable (:type ("MPI_Datatype" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3924 3947])
+                                            ("origin" variable (:type ("MPI_Aint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3952 3968]))                                          
+                                        :type "class")
+                                        (reparse-symbol namespacesubparts) [1081 3971]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [916 3975]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [900 3977]))                  
+                :type "namespace")
+                nil [882 3979]))          
+      :file "mpi_datatype_primitive.hpp"
+      :pointmax 4073
+      :fsize 4072
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_DETAIL_MPI_DATATYPE_OPRIMITIVE_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!mpi!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

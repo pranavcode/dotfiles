@@ -1,0 +1,110 @@
+;; Object adaptor/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "adaptor/"
+  :tables
+  (list
+    (semanticdb-table "argument_fwd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_RANGE_ADAPTOR_ARGUMENT_FWD_HPP" variable (:constant-flag t) nil [396 432])
+            ("boost/config.hpp" include (:system-flag t) nil [434 461])
+            ("boost" type
+               (:members 
+                  ( ("range_detail" type
+                       (:members 
+                          ( ("holder" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("val" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [714 720])
+                                    ("holder" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("t" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [741 746]))                                          
+                                        :type ("holder" type (:type "struct") nil nil))
+                                        (reparse-symbol classsubparts) [733 771]))                                  )
+                                (reparse-symbol namespacesubparts) [650 782])
+                            ("holder2" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("val1" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [857 870])
+                                    ("val2" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [857 870])
+                                    ("holder2" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("t" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [892 896])
+                                            ("u" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [897 902]))                                          
+                                        :type ("holder2" type (:type "struct") nil nil))
+                                        (reparse-symbol classsubparts) [883 937]))                                  )
+                                (reparse-symbol namespacesubparts) [792 948])
+                            ("forwarder" type
+                               (:members 
+                                  ( ("()" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type ("Holder" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil)
+                                        :arguments 
+                                          ( ("t" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1108 1113]))                                          
+                                        :operator-flag t)
+                                        (reparse-symbol classsubparts) [1054 1184]))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1015 1195])
+                            ("forwarder2" type
+                               (:members 
+                                  ( ("()" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type ("Holder" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil)
+                                        :arguments 
+                                          ( ("t" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1348 1352])
+                                            ("u" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1353 1358]))                                          
+                                        :operator-flag t)
+                                        (reparse-symbol classsubparts) [1294 1431]))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1254 1442])
+                            ("forwarder2TU" type
+                               (:members 
+                                  ( ("()" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("U" type (:type "class") nil nil))                                          
+                                        :type ("Holder" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil)
+                                                  ("U" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil)
+                                        :arguments 
+                                          ( ("t" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1615 1619])
+                                            ("u" variable (:type ("U" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1620 1625]))                                          
+                                        :operator-flag t)
+                                        (reparse-symbol classsubparts) [1549 1702]))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1507 1713]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [611 1721]))                  
+                :type "namespace")
+                nil [589 1733]))          
+      :file "argument_fwd.hpp"
+      :pointmax 1789
+      :fsize 1788
+      :lastmodtime '(21727 6080 0 0)
+      :unmatched-syntax '((punctuation 1497 . 1498) (symbol 1490 . 1496) (CLASS 1484 . 1489) (punctuation 1482 . 1483) (CLASS 1477 . 1482) (punctuation 1476 . 1477) (CLASS 1471 . 1476) (punctuation 1470 . 1471) (TEMPLATE 1462 . 1470) (punctuation 1460 . 1461) (TEMPLATE 1452 . 1460) (punctuation 1244 . 1245) (symbol 1237 . 1243) (CLASS 1231 . 1236) (punctuation 1229 . 1230) (CLASS 1224 . 1229) (punctuation 1223 . 1224) (TEMPLATE 1215 . 1223) (punctuation 1213 . 1214) (TEMPLATE 1205 . 1213) (punctuation 1005 . 1006) (symbol 998 . 1004) (CLASS 992 . 997) (punctuation 990 . 991) (CLASS 985 . 990) (punctuation 984 . 985) (TEMPLATE 976 . 984) (punctuation 974 . 975) (TEMPLATE 966 . 974))
+      :lexical-table 
+        '(("BOOST_RANGE_ADAPTOR_ARGUMENT_FWD_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!range!adaptor!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

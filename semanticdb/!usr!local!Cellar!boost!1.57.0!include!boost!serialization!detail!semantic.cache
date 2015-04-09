@@ -1,0 +1,179 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "get_data.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_DETAIL_GET_DATA_HPP" variable (:constant-flag t) nil [364 403])
+            ("STD" variable (:constant-flag t) nil [590 593])
+            ("vector" include (:system-flag t) nil [606 623])
+            ("valarray" include (:system-flag t) nil [624 643])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("get_data" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Allocator" type (:type "class") nil nil))                                          
+                                        :type ("T" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("v" variable
+                                               (:reference 1
+                                                :type ("std::vector" type
+                                                     (:template-specifier 
+                                                        ( ("T" type nil nil nil)
+                                                          ("Allocator" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) [758 786]))                                          
+                                        :pointer 1)
+                                        (reparse-symbol namespacesubparts) [710 824])
+                                    ("get_data" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Allocator" type (:type "class") nil nil))                                          
+                                        :type ("T" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("v" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("std::vector" type
+                                                     (:template-specifier 
+                                                        ( ("T" type nil nil nil)
+                                                          ("Allocator" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) [874 909]))                                          
+                                        :pointer 1)
+                                        (reparse-symbol namespacesubparts) [826 974])
+                                    ("get_data" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type ("T" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("v" variable
+                                               (:reference 1
+                                                :type ("std::valarray" type
+                                                     (:template-specifier 
+                                                        ( ("T" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) [1007 1027]))                                          
+                                        :pointer 1)
+                                        (reparse-symbol namespacesubparts) [976 1067])
+                                    ("get_data" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type ("T" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("v" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("std::valarray" type
+                                                     (:template-specifier 
+                                                        ( ("T" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) [1106 1132]))                                          
+                                        :constant-flag t
+                                        :pointer 1)
+                                        (reparse-symbol namespacesubparts) [1069 1189]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [690 1192]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [663 1204]))                  
+                :type "namespace")
+                nil [645 1223]))          
+      :file "get_data.hpp"
+      :pointmax 1360
+      :fsize 1359
+      :lastmodtime '(21727 6080 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("STD" . ((symbol "std" 594 . 597)))
+          ("BOOST_SERIALIZATION_DETAIL_GET_DATA_HPP")
+          )
+)
+    (semanticdb-table "stack_constructor.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_DETAIL_STACH_CONSTRUCTOR_HPP" variable (:constant-flag t) nil [67 115])
+            ("boost/aligned_storage.hpp" include (:system-flag t) nil [690 726])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("stack_allocate" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("address" function
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [940 1014])
+                                            ("reference" function (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1019 1070])
+                                            ("private" label nil (reparse-symbol classsubparts) [1071 1079])
+                                            ("type" type
+                                               (:typedef ("boost::aligned_storage" type
+                                                     (:template-specifier (((1139 . 1142)) ("boost::alignment_of::value" type nil nil nil))
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1084 1307])
+                                            ("storage_" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1312 1326]))                                          )
+                                        (reparse-symbol namespacesubparts) [889 1329])
+                                    ("stack_construct" type
+                                       (:template 
+                                          ( ("Archive" type (:type "class") nil nil)
+                                            ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("stack_construct" function
+                                               (:constructor-flag t
+                                                :arguments 
+                                                  ( ("ar" variable
+                                                       (:reference 1
+                                                        :type ("Archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1470 1483])
+                                                    ("version" variable
+                                                       (:constant-flag t
+                                                        :type "unsigned int")
+                                                        (reparse-symbol arg-sub-list) [1484 1511]))                                                  
+                                                :type ("stack_construct" type (:type "struct") nil nil))
+                                                (reparse-symbol classsubparts) [1454 1720])
+                                            ("stack_construct" function
+                                               (:destructor-flag t
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1725 1815]))                                          
+                                        :superclasses 
+                                          ( ("stack_allocate" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1365 1818]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [771 1821]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [745 1833]))                  
+                :type "namespace")
+                nil [728 1853]))          
+      :file "stack_constructor.hpp"
+      :pointmax 1924
+      :fsize 1923
+      :lastmodtime '(21727 6080 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_DETAIL_STACH_CONSTRUCTOR_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!serialization!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

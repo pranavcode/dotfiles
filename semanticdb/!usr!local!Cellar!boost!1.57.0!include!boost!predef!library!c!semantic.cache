@@ -39,6 +39,69 @@
       :lexical-table 
         '(("BOOST_PREDEF_LIBRARY_C__PREFIX_H")
           )
+)
+    (semanticdb-table "uc.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_LIBRARY_C_UC_H" variable (:constant-flag t) nil [231 258])
+            ("boost/predef/library/c/_prefix.h" include (:system-flag t) nil [260 303])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [305 345])
+            ("boost/predef/make.h" include (:system-flag t) nil [346 376])
+            ("BOOST_LIB_C_UC" variable (:constant-flag t) nil [674 688])
+            ("BOOST_LIB_C_UC_NAME" variable (:constant-flag t) nil [965 984])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [995 1032]))          
+      :file "uc.h"
+      :pointmax 1104
+      :fsize 1103
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((semantic-list 1058 . 1094) (symbol 1033 . 1058) (string "\"uClibc\"" 1074 . 1093))
+      :lexical-table 
+        '(("BOOST_PREDEF_LIBRARY_C_UC_H")
+          ("BOOST_LIB_C_UC" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 689 . 723)))
+          ("BOOST_LIB_C_UC_NAME" . ((string "\"uClibc\"" 985 . 993)))
+          )
+)
+    (semanticdb-table "vms.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_LIBRARY_C_VMS_H" variable (:constant-flag t) nil [232 260])
+            ("boost/predef/library/c/_prefix.h" include (:system-flag t) nil [262 305])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [307 347])
+            ("boost/predef/make.h" include (:system-flag t) nil [348 378])
+            ("BOOST_LIB_C_VMS" variable (:constant-flag t) nil [644 659])
+            ("BOOST_LIB_C_VMS_NAME" variable (:constant-flag t) nil [897 917])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [925 962]))          
+      :file "vms.h"
+      :pointmax 1036
+      :fsize 1035
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((semantic-list 988 . 1026) (symbol 963 . 988) (string "\"VMS\"" 1005 . 1025))
+      :lexical-table 
+        '(("BOOST_PREDEF_LIBRARY_C_VMS_H")
+          ("BOOST_LIB_C_VMS_NAME" . ((string "\"VMS\"" 918 . 923)))
+          ("BOOST_LIB_C_VMS" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 660 . 694)))
+          )
+)
+    (semanticdb-table "zos.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_LIBRARY_C_ZOS_H" variable (:constant-flag t) nil [232 260])
+            ("boost/predef/library/c/_prefix.h" include (:system-flag t) nil [262 305])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [307 347])
+            ("boost/predef/make.h" include (:system-flag t) nil [348 378])
+            ("BOOST_LIB_C_ZOS" variable (:constant-flag t) nil [678 693])
+            ("BOOST_LIB_C_ZOS_NAME" variable (:constant-flag t) nil [1250 1270])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1279 1316]))          
+      :file "zos.h"
+      :pointmax 1390
+      :fsize 1389
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((semantic-list 1342 . 1380) (symbol 1317 . 1342) (string "\"z/OS\"" 1359 . 1379))
+      :lexical-table 
+        '(("BOOST_LIB_C_ZOS" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 694 . 728)))
+          ("BOOST_PREDEF_LIBRARY_C_ZOS_H")
+          ("BOOST_LIB_C_ZOS_NAME" . ((string "\"z/OS\"" 1271 . 1277)))
+          )
 ))
   :file "!usr!local!Cellar!boost!1.57.0!include!boost!predef!library!c!semantic.cache"
   :semantic-tag-version "2.0"

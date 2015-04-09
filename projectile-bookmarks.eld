@@ -1,1 +1,1 @@
-("~/.emacs.d/")
+("~/app/bio/insilico/" "~/.emacs.d/" "~/app/experiments/" "/usr/local/" "~/Downloads/insilico-0.21/" "~/app/bio/insilico-web/" "~/Downloads/insilico-0.20/")

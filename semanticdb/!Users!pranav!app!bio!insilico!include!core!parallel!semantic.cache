@@ -5,68 +5,125 @@
   (list
     (semanticdb-table "mpi.hpp"
       :major-mode 'c++-mode
+      :tags nil
+      :file "mpi.hpp"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(21780 37033 0 0)
+      :unmatched-syntax '((symbol 289 . 298)))
+    (semanticdb-table "synchronization.hpp"
+      :major-mode 'c++-mode
       :tags 
-        '( ("INCLUDED_INSILICO_PARALLEL_MPI_HPP" variable (:constant-flag t) nil [829 863])
-            ("INSILICO_MPI_ENABLE" variable (:constant-flag t) nil [873 892])
-            ("mpi.h" include nil nil [894 910])
-            ("core/engine.hpp" include nil nil [912 938])
-            ("parallel/synchronization.hpp" include nil nil [939 978])
+        '( ("INCLUDED_INSILICO_PARALLEL_SYNCHRONIZATION_HPP" variable (:constant-flag t) nil [866 912])
+            ("vector" include (:system-flag t) nil [914 931])
             ("insilico" type
                (:members 
-                  ( ("mpi" type
+                  ( ("synchronization" type
                        (:members 
-                          ( ("master" variable
-                               (:default-value "0"
-                                :type "int")
-                                (reparse-symbol namespacesubparts) [1028 1043])
-                            ("rank" variable (:type "int") (reparse-symbol namespacesubparts) [1045 1060])
-                            ("size" variable (:type "int") (reparse-symbol namespacesubparts) [1045 1060])
-                            ("configuration" type
+                          ( ("event" type
                                (:members 
-                                  ( ("public" label nil (reparse-symbol classsubparts) [1085 1092])
+                                  ( ("public" label nil (reparse-symbol classsubparts) [999 1006])
+                                    ("sync_keys" variable
+                                       (:typemodifiers ("static")
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("std::string" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol classsubparts) [1074 1118])
+                                    ("sync_values" variable
+                                       (:typemodifiers ("static")
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("double" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol classsubparts) [1121 1162])
+                                    ("NEURON" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "'n'"
+                                        :type "char")
+                                        (reparse-symbol classsubparts) [1250 1281])
+                                    ("SYNAPSE" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :default-value "'s'"
+                                        :type "char")
+                                        (reparse-symbol classsubparts) [1284 1316])
+                                    ("sync_type" variable
+                                       (:typemodifiers ("static")
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("char" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol classsubparts) [1319 1356])
+                                    ("sync_variable_index" variable
+                                       (:typemodifiers ("static")
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("int" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol classsubparts) [1359 1405])
                                     ("initialize" function
                                        (:typemodifiers ("static")
-                                        :arguments 
-                                          ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1118 1127])
-                                            ("argv" variable
-                                               (:pointer 2
-                                                :type "char")
-                                                (reparse-symbol arg-sub-list) [1128 1140]))                                          
                                         :type "void")
-                                        (reparse-symbol classsubparts) [1095 1268])
-                                    ("finalize" function
+                                        (reparse-symbol classsubparts) [1435 1478])
+                                    ("register_update" function
+                                       (:typemodifiers ("static")
+                                        :arguments 
+                                          ( ("key" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1559 1575])
+                                            ("value" variable (:type "double") (reparse-symbol arg-sub-list) [1576 1589]))                                          
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [1531 1659])
+                                    ("register_update" function
+                                       (:typemodifiers ("static")
+                                        :arguments 
+                                          ( ("type" variable (:type "char") (reparse-symbol arg-sub-list) [1770 1780])
+                                            ("variable_index" variable (:type "int") (reparse-symbol arg-sub-list) [1781 1800]))                                          
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [1742 1888])
+                                    ("clear" function
                                        (:typemodifiers ("static")
                                         :type "void")
-                                        (reparse-symbol classsubparts) [1272 1324]))                                  
+                                        (reparse-symbol classsubparts) [1932 2061]))                                  
                                 :type "class")
-                                (reparse-symbol namespacesubparts) [1062 1327])
-                            ("abort" function (:type "void") (reparse-symbol namespacesubparts) [1352 1408])
-                            ("synchronize" function
-                               (:arguments 
-                                  ( ("shared_state" variable
-                                       (:reference 1
-                                        :type ("state_type" type (:type "class") nil nil))
-                                        (reparse-symbol arg-sub-list) [1427 1452]))                                  
-                                :type "void")
-                                (reparse-symbol namespacesubparts) [1410 2177]))                          
+                                (reparse-symbol namespacesubparts) [984 2064])
+                            ("event::sync_keys" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("std::string" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [2066 2110])
+                            ("event::sync_values" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("double" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [2111 2152])
+                            ("event::sync_type" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("char" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [2153 2190])
+                            ("event::sync_variable_index" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("int" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [2191 2237]))                          
                         :type "namespace")
-                        (reparse-symbol namespacesubparts) [1001 2180]))                  
+                        (reparse-symbol namespacesubparts) [955 2240]))                  
                 :type "namespace")
-                nil [980 2182]))          
-      :file "mpi.hpp"
-      :pointmax 2218
-      :fsize 2217
-      :lastmodtime '(21750 39340 0 0)
-      :unmatched-syntax '((symbol 1018 . 1027) (symbol 1018 . 1027))
-      :lexical-table 
-        '(("INCLUDED_INSILICO_PARALLEL_MPI_HPP")
-          ("INSILICO_MPI_ENABLE")
-          )
-)
-    (semanticdb-table "synchronization.hpp"
+                nil [933 2272]))          
       :file "synchronization.hpp"
+      :pointmax 2303
       :fsize 2302
-      :lastmodtime '(21740 43299 0 0)))
+      :lastmodtime '(21753 64618 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_PARALLEL_SYNCHRONIZATION_HPP")
+          )
+))
   :file "!Users!pranav!app!bio!insilico!include!core!parallel!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

@@ -1,0 +1,1910 @@
+;; Object collectives/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "collectives/"
+  :tables
+  (list
+    (semanticdb-table "all_gather.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_ALL_GATHER_HPP" variable (:constant-flag t) nil [366 390])
+            ("boost/mpi/exception.hpp" include (:system-flag t) nil [392 426])
+            ("boost/mpi/datatype.hpp" include (:system-flag t) nil [427 460])
+            ("vector" include (:system-flag t) nil [461 478])
+            ("boost/serialization/vector.hpp" include (:system-flag t) nil [479 520])
+            ("boost/mpi/collectives/broadcast.hpp" include (:system-flag t) nil [581 627])
+            ("boost/mpi/collectives/gather.hpp" include (:system-flag t) nil [628 671])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("all_gather_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [900 925])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [926 945])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [946 952])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [972 986])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [987 998]))                                          )
+                                        (reparse-symbol namespacesubparts) [854 1238])
+                                    ("all_gather_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1416 1441])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1442 1461])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1462 1468])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1488 1502])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1503 1515]))                                          )
+                                        (reparse-symbol namespacesubparts) [1370 1623]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [708 1625])
+                            ("all_gather" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1695 1720])
+                                    ("in_value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1721 1739])
+                                    ("out_values" variable
+                                       (:pointer 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1740 1754]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [1651 1839])
+                            ("all_gather" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1878 1903])
+                                    ("in_value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1904 1922])
+                                    ("out_values" variable
+                                       (:reference 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [1935 1962]))                                  )
+                                (reparse-symbol namespacesubparts) [1841 2064])
+                            ("all_gather" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2110 2135])
+                                    ("in_values" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2136 2155])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [2156 2162])
+                                    ("out_values" variable
+                                       (:pointer 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2163 2177]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [2066 2262])
+                            ("all_gather" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2301 2326])
+                                    ("in_values" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2327 2346])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [2347 2353])
+                                    ("out_values" variable
+                                       (:reference 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [2365 2392]))                                  )
+                                (reparse-symbol namespacesubparts) [2264 2498]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [691 2501]))                  
+                :type "namespace")
+                nil [673 2503]))          
+      :file "all_gather.hpp"
+      :pointmax 2568
+      :fsize 2567
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_ALL_GATHER_HPP")
+          )
+)
+    (semanticdb-table "all_reduce.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_ALL_REDUCE_HPP" variable (:constant-flag t) nil [478 502])
+            ("vector" include (:system-flag t) nil [504 521])
+            ("boost/mpi/inplace.hpp" include (:system-flag t) nil [523 555])
+            ("boost/mpi/collectives/broadcast.hpp" include (:system-flag t) nil [623 669])
+            ("boost/mpi/collectives/reduce.hpp" include (:system-flag t) nil [670 713])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("all_reduce_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1177 1202])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1203 1222])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1223 1229])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1248 1262])
+                                            ("" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1263 1273])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1274 1299])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1318 1349]))                                          )
+                                        (reparse-symbol namespacesubparts) [1118 1604])
+                                    ("all_reduce_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2085 2110])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2111 2130])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [2131 2137])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2156 2170])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2171 2177])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2178 2204])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2223 2254]))                                          )
+                                        (reparse-symbol namespacesubparts) [2026 2535])
+                                    ("all_reduce_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2970 2995])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2996 3015])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [3016 3022])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3041 3055])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3056 3062])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3063 3089])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3108 3140]))                                          )
+                                        (reparse-symbol namespacesubparts) [2911 3670]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [749 3672])
+                            ("all_reduce" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3755 3780])
+                                    ("in_values" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3781 3800])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [3801 3807])
+                                    ("out_values" variable
+                                       (:pointer 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3808 3822])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3834 3840]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [3698 3975])
+                            ("all_reduce" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4034 4059])
+                                    ("inout_values" variable (:type ("inplace_t" type
+                                         (:template-specifier 
+                                            ( ("T" type (:pointer 1) nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [4060 4087])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [4088 4094])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4095 4101]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [3977 4190])
+                            ("all_reduce" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4249 4274])
+                                    ("inout_values" variable (:type ("inplace_t" type
+                                         (:template-specifier 
+                                            ( ("T" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [4275 4301])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4302 4308]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [4192 4400])
+                            ("all_reduce" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4459 4484])
+                                    ("in_value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4485 4503])
+                                    ("out_value" variable
+                                       (:reference 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4504 4517])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4518 4524]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [4402 4659])
+                            ("all_reduce" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type ("T" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4708 4733])
+                                    ("in_value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4734 4752])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4753 4759]))                                  )
+                                (reparse-symbol namespacesubparts) [4661 4848]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [733 4851]))                  
+                :type "namespace")
+                nil [715 4853]))          
+      :file "all_reduce.hpp"
+      :pointmax 4918
+      :fsize 4917
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_ALL_REDUCE_HPP")
+          )
+)
+    (semanticdb-table "all_to_all.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_ALL_TO_ALL_HPP" variable (:constant-flag t) nil [335 359])
+            ("boost/mpi/exception.hpp" include (:system-flag t) nil [361 395])
+            ("boost/mpi/datatype.hpp" include (:system-flag t) nil [396 429])
+            ("vector" include (:system-flag t) nil [430 447])
+            ("boost/mpi/packed_oarchive.hpp" include (:system-flag t) nil [448 488])
+            ("boost/mpi/packed_iarchive.hpp" include (:system-flag t) nil [489 529])
+            ("boost/mpi/communicator.hpp" include (:system-flag t) nil [530 567])
+            ("boost/mpi/environment.hpp" include (:system-flag t) nil [568 604])
+            ("boost/assert.hpp" include (:system-flag t) nil [605 632])
+            ("boost/mpi/collectives_fwd.hpp" include (:system-flag t) nil [633 673])
+            ("boost/mpi/allocator.hpp" include (:system-flag t) nil [674 708])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("all_to_all_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [967 992])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [993 1012])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1013 1019])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1039 1053])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1054 1065]))                                          )
+                                        (reparse-symbol namespacesubparts) [921 1292])
+                                    ("all_to_all_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1618 1643])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1644 1663])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1664 1670])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1689 1703])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1704 1716]))                                          )
+                                        (reparse-symbol namespacesubparts) [1572 3908]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [755 3910])
+                            ("all_to_all" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3980 4005])
+                                    ("in_values" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4006 4025])
+                                    ("out_values" variable
+                                       (:pointer 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4026 4040]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [3936 4125])
+                            ("all_to_all" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4164 4189])
+                                    ("in_values" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4190 4222])
+                                    ("out_values" variable
+                                       (:reference 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4234 4261]))                                  )
+                                (reparse-symbol namespacesubparts) [4127 4418])
+                            ("all_to_all" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4464 4489])
+                                    ("in_values" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4490 4509])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [4510 4516])
+                                    ("out_values" variable
+                                       (:pointer 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4517 4531]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [4420 4616])
+                            ("all_to_all" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4655 4680])
+                                    ("in_values" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4681 4713])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [4714 4720])
+                                    ("out_values" variable
+                                       (:reference 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4732 4759]))                                  )
+                                (reparse-symbol namespacesubparts) [4618 4927]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [728 4930]))                  
+                :type "namespace")
+                nil [710 4932]))          
+      :file "all_to_all.hpp"
+      :pointmax 4997
+      :fsize 4996
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_ALL_TO_ALL_HPP")
+          )
+)
+    (semanticdb-table "broadcast.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_BROADCAST_HPP" variable (:constant-flag t) nil [362 385])
+            ("boost/mpi/collectives_fwd.hpp" include (:system-flag t) nil [387 427])
+            ("boost/mpi/exception.hpp" include (:system-flag t) nil [428 462])
+            ("boost/mpi/datatype.hpp" include (:system-flag t) nil [463 496])
+            ("boost/mpi/communicator.hpp" include (:system-flag t) nil [497 534])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("broadcast" function
+                               (:template-specifier 
+                                  ( ("packed_oarchive" type (:constant-flag t) nil nil))                                  
+                                :prototype-flag t
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [884 909])
+                                    ("oa" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("packed_oarchive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [943 969])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [1003 1012]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [846 1013])
+                            ("broadcast" function
+                               (:template-specifier 
+                                  ( ("packed_oarchive" type nil nil nil))                                  
+                                :prototype-flag t
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1098 1123])
+                                    ("oa" variable
+                                       (:reference 1
+                                        :type ("packed_oarchive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1124 1144])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [1172 1181]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1066 1182])
+                            ("broadcast" function
+                               (:template-specifier 
+                                  ( ("packed_iarchive" type nil nil nil))                                  
+                                :prototype-flag t
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1267 1292])
+                                    ("ia" variable
+                                       (:reference 1
+                                        :type ("packed_iarchive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1293 1313])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [1341 1350]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1235 1351])
+                            ("broadcast" function
+                               (:template-specifier 
+                                  ( ("packed_skeleton_oarchive" type (:constant-flag t) nil nil))                                  
+                                :prototype-flag t
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1451 1476])
+                                    ("oa" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("packed_skeleton_oarchive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1519 1554])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [1597 1606]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1404 1607])
+                            ("broadcast" function
+                               (:type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1686 1711])
+                                    ("oa" variable
+                                       (:reference 1
+                                        :type ("packed_skeleton_oarchive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1748 1777])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [1778 1787]))                                  
+                                :prototype-flag t
+                                :template-specifier 
+                                  ( ("packed_skeleton_oarchive" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1634 1788])
+                            ("broadcast" function
+                               (:type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1867 1892])
+                                    ("ia" variable
+                                       (:reference 1
+                                        :type ("packed_skeleton_iarchive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1929 1958])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [1959 1968]))                                  
+                                :prototype-flag t
+                                :template-specifier 
+                                  ( ("packed_skeleton_iarchive" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1815 1969])
+                            ("broadcast" function
+                               (:type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2031 2056])
+                                    ("c" variable
+                                       (:reference 1
+                                        :type ("content" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2057 2068])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [2069 2078]))                                  
+                                :prototype-flag t
+                                :template-specifier 
+                                  ( ("content" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1996 2079])
+                            ("broadcast" function
+                               (:type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2147 2172])
+                                    ("c" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("content" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2173 2190])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [2221 2230]))                                  
+                                :prototype-flag t
+                                :template-specifier 
+                                  ( ("content" type (:constant-flag t) nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2106 2231])
+                            ("detail" type
+                               (:members 
+                                  ( ("broadcast_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2637 2662])
+                                            ("values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2663 2673])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [2674 2680])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [2681 2690])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2709 2720]))                                          )
+                                        (reparse-symbol namespacesubparts) [2591 2927])
+                                    ("broadcast_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3202 3227])
+                                            ("values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3228 3238])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [3239 3245])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [3246 3255])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3274 3286]))                                          )
+                                        (reparse-symbol namespacesubparts) [3157 3592]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [2456 3594])
+                            ("broadcast" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3656 3681])
+                                    ("value" variable
+                                       (:reference 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3682 3691])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [3692 3701]))                                  )
+                                (reparse-symbol namespacesubparts) [3620 3776])
+                            ("broadcast" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3814 3839])
+                                    ("values" variable
+                                       (:pointer 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3840 3850])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [3851 3857])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [3858 3867]))                                  )
+                                (reparse-symbol namespacesubparts) [3778 3942]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [554 3945]))                  
+                :type "namespace")
+                nil [536 3947]))          
+      :file "broadcast.hpp"
+      :pointmax 4226
+      :fsize 4225
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax '((symbol 1389 . 1403) (punctuation 1387 . 1388) (punctuation 1386 . 1387) (TEMPLATE 1378 . 1386) (symbol 1220 . 1234) (punctuation 1218 . 1219) (punctuation 1217 . 1218) (TEMPLATE 1209 . 1217) (symbol 1051 . 1065) (punctuation 1049 . 1050) (punctuation 1048 . 1049) (TEMPLATE 1040 . 1048) (symbol 831 . 845) (punctuation 829 . 830) (punctuation 828 . 829) (TEMPLATE 820 . 828))
+      :lexical-table 
+        '(("BOOST_MPI_BROADCAST_HPP")
+          )
+)
+    (semanticdb-table "gather.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_GATHER_HPP" variable (:constant-flag t) nil [327 347])
+            ("boost/mpi/exception.hpp" include (:system-flag t) nil [349 383])
+            ("boost/mpi/datatype.hpp" include (:system-flag t) nil [384 417])
+            ("vector" include (:system-flag t) nil [418 435])
+            ("boost/mpi/packed_oarchive.hpp" include (:system-flag t) nil [436 476])
+            ("boost/mpi/packed_iarchive.hpp" include (:system-flag t) nil [477 517])
+            ("boost/mpi/detail/point_to_point.hpp" include (:system-flag t) nil [518 564])
+            ("boost/mpi/communicator.hpp" include (:system-flag t) nil [565 602])
+            ("boost/mpi/environment.hpp" include (:system-flag t) nil [603 639])
+            ("boost/assert.hpp" include (:system-flag t) nil [640 667])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("gather_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [900 925])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [926 945])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [946 952])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [968 982])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [983 992])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [993 1004]))                                          )
+                                        (reparse-symbol namespacesubparts) [858 1235])
+                                    ("gather_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1418 1443])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1444 1463])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1464 1470])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [1471 1480])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1496 1507]))                                          )
+                                        (reparse-symbol namespacesubparts) [1376 1729])
+                                    ("gather_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2057 2082])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2083 2102])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [2103 2109])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2125 2139])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [2140 2149])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2150 2162]))                                          )
+                                        (reparse-symbol namespacesubparts) [2015 2449])
+                                    ("gather_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2779 2804])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2805 2824])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [2825 2831])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [2832 2841])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2857 2869]))                                          )
+                                        (reparse-symbol namespacesubparts) [2737 2963]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [704 2965])
+                            ("gather" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3024 3049])
+                                    ("in_value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3050 3068])
+                                    ("out_values" variable
+                                       (:pointer 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3069 3083])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [3084 3093]))                                  )
+                                (reparse-symbol namespacesubparts) [2991 3314])
+                            ("gather" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3349 3374])
+                                    ("in_value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3375 3393])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [3394 3403]))                                  )
+                                (reparse-symbol namespacesubparts) [3316 3515])
+                            ("gather" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3550 3575])
+                                    ("in_value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3576 3594])
+                                    ("out_values" variable
+                                       (:reference 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3595 3622])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [3630 3639]))                                  )
+                                (reparse-symbol namespacesubparts) [3517 3835])
+                            ("gather" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3870 3895])
+                                    ("in_values" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3896 3915])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [3916 3922])
+                                    ("out_values" variable
+                                       (:pointer 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3923 3937])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [3946 3955]))                                  )
+                                (reparse-symbol namespacesubparts) [3837 4176])
+                            ("gather" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4211 4236])
+                                    ("in_values" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4237 4256])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [4257 4263])
+                                    ("out_values" variable
+                                       (:reference 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4272 4299])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [4300 4309]))                                  )
+                                (reparse-symbol namespacesubparts) [4178 4514])
+                            ("gather" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4549 4574])
+                                    ("in_values" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4575 4594])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [4595 4601])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [4602 4611]))                                  )
+                                (reparse-symbol namespacesubparts) [4516 4723]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [687 4727]))                  
+                :type "namespace")
+                nil [669 4729]))          
+      :file "gather.hpp"
+      :pointmax 4790
+      :fsize 4789
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_GATHER_HPP")
+          )
+)
+    (semanticdb-table "scatter.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_SCATTER_HPP" variable (:constant-flag t) nil [329 350])
+            ("boost/mpi/exception.hpp" include (:system-flag t) nil [352 386])
+            ("boost/mpi/datatype.hpp" include (:system-flag t) nil [387 420])
+            ("vector" include (:system-flag t) nil [421 438])
+            ("boost/mpi/packed_oarchive.hpp" include (:system-flag t) nil [439 479])
+            ("boost/mpi/packed_iarchive.hpp" include (:system-flag t) nil [480 520])
+            ("boost/mpi/detail/point_to_point.hpp" include (:system-flag t) nil [521 567])
+            ("boost/mpi/communicator.hpp" include (:system-flag t) nil [568 605])
+            ("boost/mpi/environment.hpp" include (:system-flag t) nil [606 642])
+            ("boost/assert.hpp" include (:system-flag t) nil [643 670])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("scatter_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [908 933])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [934 953])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [954 968])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [985 991])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [992 1001])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1002 1013]))                                          )
+                                        (reparse-symbol namespacesubparts) [865 1245])
+                                    ("scatter_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1431 1456])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1457 1471])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1472 1478])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [1479 1488])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1505 1516]))                                          )
+                                        (reparse-symbol namespacesubparts) [1388 1753])
+                                    ("scatter_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2080 2105])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2106 2125])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2126 2140])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [2157 2163])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [2164 2173])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2174 2186]))                                          )
+                                        (reparse-symbol namespacesubparts) [2037 2713])
+                                    ("scatter_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3049 3074])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3075 3089])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [3090 3096])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [3097 3106])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3123 3135]))                                          )
+                                        (reparse-symbol namespacesubparts) [3006 3364]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [707 3366])
+                            ("scatter" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3426 3451])
+                                    ("in_values" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3452 3471])
+                                    ("out_value" variable
+                                       (:reference 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3472 3485])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [3486 3495]))                                  )
+                                (reparse-symbol namespacesubparts) [3392 3720])
+                            ("scatter" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3756 3781])
+                                    ("in_values" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3782 3814])
+                                    ("out_value" variable
+                                       (:reference 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3815 3828])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [3837 3846]))                                  )
+                                (reparse-symbol namespacesubparts) [3722 4061])
+                            ("scatter" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4097 4122])
+                                    ("out_value" variable
+                                       (:reference 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4123 4136])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [4137 4146]))                                  )
+                                (reparse-symbol namespacesubparts) [4063 4260])
+                            ("scatter" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4296 4321])
+                                    ("in_values" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4322 4341])
+                                    ("out_values" variable
+                                       (:pointer 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4342 4356])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [4357 4363])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [4372 4381]))                                  )
+                                (reparse-symbol namespacesubparts) [4262 4605])
+                            ("scatter" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4641 4666])
+                                    ("in_values" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4667 4699])
+                                    ("out_values" variable
+                                       (:pointer 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4709 4723])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [4724 4730])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [4731 4740]))                                  )
+                                (reparse-symbol namespacesubparts) [4607 4964])
+                            ("scatter" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5000 5025])
+                                    ("out_values" variable
+                                       (:pointer 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5026 5040])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [5041 5047])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [5048 5057]))                                  )
+                                (reparse-symbol namespacesubparts) [4966 5171]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [690 5174]))                  
+                :type "namespace")
+                nil [672 5176]))          
+      :file "scatter.hpp"
+      :pointmax 5238
+      :fsize 5237
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_SCATTER_HPP")
+          )
+)
+    (semanticdb-table "reduce.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_REDUCE_HPP" variable (:constant-flag t) nil [470 490])
+            ("boost/mpi/exception.hpp" include (:system-flag t) nil [492 526])
+            ("boost/mpi/datatype.hpp" include (:system-flag t) nil [527 560])
+            ("boost/mpi/packed_oarchive.hpp" include (:system-flag t) nil [605 645])
+            ("boost/mpi/packed_iarchive.hpp" include (:system-flag t) nil [646 686])
+            ("boost/mpi/detail/point_to_point.hpp" include (:system-flag t) nil [733 779])
+            ("boost/mpi/communicator.hpp" include (:system-flag t) nil [781 818])
+            ("boost/mpi/environment.hpp" include (:system-flag t) nil [819 855])
+            ("boost/mpi/detail/computation_tree.hpp" include (:system-flag t) nil [856 904])
+            ("boost/mpi/operations.hpp" include (:system-flag t) nil [905 940])
+            ("algorithm" include (:system-flag t) nil [941 961])
+            ("exception" include (:system-flag t) nil [962 982])
+            ("boost/assert.hpp" include (:system-flag t) nil [983 1010])
+            ("boost/scoped_array.hpp" include (:system-flag t) nil [1011 1044])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("reduce_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1738 1763])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1764 1783])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1784 1790])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1806 1820])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1821 1827])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [1828 1837])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1838 1863])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1878 1908]))                                          )
+                                        (reparse-symbol namespacesubparts) [1683 2166])
+                                    ("reduce_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2359 2384])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2385 2404])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [2405 2411])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2412 2418])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [2434 2443])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2444 2469])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2470 2500]))                                          )
+                                        (reparse-symbol namespacesubparts) [2304 2749])
+                                    ("reduce_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3227 3252])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3253 3272])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [3273 3279])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3295 3309])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3310 3316])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [3317 3326])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3327 3353])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3368 3398]))                                          )
+                                        (reparse-symbol namespacesubparts) [3172 3682])
+                                    ("reduce_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3936 3961])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3962 3981])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [3982 3988])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3989 3995])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [4011 4020])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4021 4046])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4047 4077]))                                          )
+                                        (reparse-symbol namespacesubparts) [3881 4352])
+                                    ("tree_reduce_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4667 4692])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4693 4712])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [4713 4719])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4739 4753])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4754 4760])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [4761 4770])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4791 4821]))                                          )
+                                        (reparse-symbol namespacesubparts) [4607 5802])
+                                    ("tree_reduce_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [5910 5935])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [5936 5955])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [5956 5962])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5963 5969])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [5989 5998])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5999 6029]))                                          )
+                                        (reparse-symbol namespacesubparts) [5850 6195])
+                                    ("tree_reduce_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [6290 6315])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [6316 6335])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [6336 6342])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [6362 6376])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6377 6383])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [6384 6393])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6414 6445]))                                          )
+                                        (reparse-symbol namespacesubparts) [6230 7484])
+                                    ("tree_reduce_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [7596 7621])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [7622 7641])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [7642 7648])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7649 7655])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [7675 7684])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7685 7716]))                                          )
+                                        (reparse-symbol namespacesubparts) [7536 9868])
+                                    ("reduce_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [10076 10101])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [10102 10121])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [10122 10128])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [10144 10158])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10159 10165])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [10166 10175])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10176 10202])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10217 10249]))                                          )
+                                        (reparse-symbol namespacesubparts) [10021 10383])
+                                    ("reduce_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [10591 10616])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [10617 10636])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [10637 10643])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10644 10650])
+                                            ("root" variable (:type "int") (reparse-symbol arg-sub-list) [10666 10675])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10676 10702])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10718 10750]))                                          )
+                                        (reparse-symbol namespacesubparts) [10536 10872]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1305 10874])
+                            ("reduce" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [10946 10971])
+                                    ("in_values" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [10972 10991])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [10992 10998])
+                                    ("out_values" variable
+                                       (:pointer 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [10999 11013])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11022 11028])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [11029 11038]))                                  )
+                                (reparse-symbol namespacesubparts) [10900 11330])
+                            ("reduce" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [11379 11404])
+                                    ("in_values" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [11405 11424])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [11425 11431])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11432 11438])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [11439 11448]))                                  )
+                                (reparse-symbol namespacesubparts) [11332 11607])
+                            ("reduce" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [11657 11683])
+                                    ("in_values" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11684 11717])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11718 11724])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [11733 11742]))                                  )
+                                (reparse-symbol namespacesubparts) [11609 11811])
+                            ("reduce" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [11861 11887])
+                                    ("in_values" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11888 11921])
+                                    ("out_values" variable
+                                       (:reference 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11930 11958])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11959 11965])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [11966 11975]))                                  )
+                                (reparse-symbol namespacesubparts) [11813 12114])
+                            ("reduce" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [12163 12188])
+                                    ("in_value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [12189 12207])
+                                    ("out_value" variable
+                                       (:reference 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [12208 12221])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12222 12228])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [12236 12245]))                                  )
+                                (reparse-symbol namespacesubparts) [12117 12537])
+                            ("reduce" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [12585 12610])
+                                    ("in_value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [12611 12629])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12630 12636])
+                                    ("root" variable (:type "int") (reparse-symbol arg-sub-list) [12637 12646]))                                  )
+                                (reparse-symbol namespacesubparts) [12539 12805]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1064 12808]))                  
+                :type "namespace")
+                nil [1046 12810]))          
+      :file "reduce.hpp"
+      :pointmax 12871
+      :fsize 12870
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_REDUCE_HPP")
+          )
+)
+    (semanticdb-table "scan.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPI_SCAN_HPP" variable (:constant-flag t) nil [466 484])
+            ("boost/mpi/exception.hpp" include (:system-flag t) nil [486 520])
+            ("boost/mpi/datatype.hpp" include (:system-flag t) nil [521 554])
+            ("boost/mpi/packed_oarchive.hpp" include (:system-flag t) nil [599 639])
+            ("boost/mpi/packed_iarchive.hpp" include (:system-flag t) nil [640 680])
+            ("boost/mpi/detail/point_to_point.hpp" include (:system-flag t) nil [727 773])
+            ("boost/mpi/communicator.hpp" include (:system-flag t) nil [775 812])
+            ("boost/mpi/environment.hpp" include (:system-flag t) nil [813 849])
+            ("boost/mpi/detail/computation_tree.hpp" include (:system-flag t) nil [850 898])
+            ("boost/mpi/operations.hpp" include (:system-flag t) nil [899 934])
+            ("algorithm" include (:system-flag t) nil [935 955])
+            ("exception" include (:system-flag t) nil [956 976])
+            ("boost/assert.hpp" include (:system-flag t) nil [977 1004])
+            ("boost" type
+               (:members 
+                  ( ("mpi" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("scan_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1707 1732])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1733 1752])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1753 1759])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1760 1774])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1787 1793])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1794 1819])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1820 1851]))                                          )
+                                        (reparse-symbol namespacesubparts) [1654 2101])
+                                    ("scan_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2582 2607])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2608 2627])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [2628 2634])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2635 2649])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2662 2668])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2669 2695])
+                                            ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2696 2727]))                                          )
+                                        (reparse-symbol namespacesubparts) [2529 3003])
+                                    ("upper_lower_scan" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3291 3316])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3317 3336])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [3337 3343])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3363 3377])
+                                            ("op" variable
+                                               (:reference 1
+                                                :type ("Op" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3378 3385])
+                                            ("lower" variable (:type "int") (reparse-symbol arg-sub-list) [3386 3396])
+                                            ("upper" variable (:type "int") (reparse-symbol arg-sub-list) [3397 3407]))                                          )
+                                        (reparse-symbol namespacesubparts) [3231 4615])
+                                    ("scan_impl" function
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("Op" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("comm" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("communicator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4836 4861])
+                                            ("in_values" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4862 4881])
+                                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [4882 4888])
+                                            ("out_values" variable
+                                               (:pointer 1
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4889 4903])
+                                            ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4917 4923])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4924 4950])
+                                            ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4951 4982]))                                          
+                                        :typemodifiers ("inline"))
+                                        (reparse-symbol namespacesubparts) [4776 5064]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1265 5066])
+                            ("scan" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5144 5169])
+                                    ("in_value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5170 5188])
+                                    ("out_value" variable
+                                       (:reference 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5189 5202])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5203 5209]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [5093 5333])
+                            ("scan" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5386 5411])
+                                    ("in_values" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5412 5431])
+                                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [5432 5438])
+                                    ("out_values" variable
+                                       (:pointer 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5439 5453])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5454 5460]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [5335 5584])
+                            ("scan" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("Op" type (:type "class") nil nil))                                  
+                                :type ("T" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("comm" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("communicator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5634 5659])
+                                    ("in_value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5660 5678])
+                                    ("op" variable (:type ("Op" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5679 5685]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [5586 5844]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1024 5847]))                  
+                :type "namespace")
+                nil [1006 5849]))          
+      :file "scan.hpp"
+      :pointmax 5908
+      :fsize 5907
+      :lastmodtime '(21727 6077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MPI_SCAN_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!mpi!collectives!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

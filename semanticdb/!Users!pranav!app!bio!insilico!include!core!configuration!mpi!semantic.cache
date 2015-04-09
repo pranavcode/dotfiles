@@ -1,0 +1,41 @@
+;; Object mpi/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "mpi/"
+  :tables
+  (list
+    (semanticdb-table "error.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_MPI_ERROR_HPP" variable (:constant-flag t) nil [874 932])
+            ("mpi.h" include nil nil [934 950])
+            ("iostream" include (:system-flag t) nil [952 971])
+            ("cstdlib" include (:system-flag t) nil [972 990])
+            ("insilico" type
+               (:members 
+                  ( ("configuration" type
+                       (:members 
+                          ( ("mpi" type (:type "namespace") (reparse-symbol namespacesubparts) [1039 1183]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1013 1185]))                  
+                :type "namespace")
+                nil [992 1187]))          
+      :file "error.hpp"
+      :pointmax 1238
+      :fsize 1237
+      :lastmodtime '(21783 15836 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_INCLUDE_CORE_CONFIGURATION_MPI_ERROR_HPP")
+          )
+)
+    (semanticdb-table "synchronize.hpp"
+      :major-mode 'c++-mode
+      :tags nil
+      :file "synchronize.hpp"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(21788 6393 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!pranav!app!bio!insilico!include!core!configuration!mpi!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

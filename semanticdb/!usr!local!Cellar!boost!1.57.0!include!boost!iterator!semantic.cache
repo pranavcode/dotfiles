@@ -1910,6 +1910,264 @@
       :lexical-table 
         '(("BOOST_ITERATOR_ADAPTOR_23022003THW_HPP")
           )
+)
+    (semanticdb-table "counting_iterator.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("COUNTING_ITERATOR_DWA200348_HPP" variable (:constant-flag t) nil [240 271])
+            ("boost/iterator/iterator_adaptor.hpp" include (:system-flag t) nil [273 320])
+            ("boost/detail/numeric_traits.hpp" include (:system-flag t) nil [321 364])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [365 395])
+            ("boost/mpl/if.hpp" include (:system-flag t) nil [396 424])
+            ("boost/mpl/identity.hpp" include (:system-flag t) nil [425 459])
+            ("boost/mpl/eval_if.hpp" include (:system-flag t) nil [460 493])
+            ("boost" type
+               (:members 
+                  ( ("iterators" type
+                       (:members 
+                          ( ("counting_iterator" type
+                               (:template 
+                                  ( ("Incrementable" type (:type "class") nil nil)
+                                    ("CategoryOrTraversal" type (:type "class") nil nil)
+                                    ("Difference" type (:type "class") nil nil))                                  
+                                :type "class"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [536 648])
+                            ("detail" type
+                               (:members 
+                                  ( ("is_numeric_impl" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("BOOST_STATIC_ASSERT" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type ("boost::is_integral::value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [964 996]))                                                  
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [942 997])
+                                            ("BOOST_STATIC_CONSTANT" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type "bool") (reparse-symbol arg-sub-list) [1076 1081])
+                                                    ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1082 1093])
+                                                    ("" variable (:type ("numeric_limits" type
+                                                         (:template-specifier 
+                                                            ( ("T" type nil nil nil))                                                            
+                                                          :type "class")
+                                                          nil nil)) (reparse-symbol arg-sub-list) [1095 1113])
+                                                    ("" variable (:type ("is_specialized" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1114 1129]))                                                  
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [1054 1130]))                                          )
+                                        (reparse-symbol namespacesubparts) [794 1472])
+                                    ("is_numeric" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("mpl::bool_" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1476 1594])
+                                    ("is_numeric" type
+                                       (:type "struct"
+                                        :superclasses 
+                                          ( ("mpl::true_" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("wchar_t" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [1872 1933])
+                                    ("numeric_difference" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("boost::detail::numeric_traits::difference_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1994 2066]))                                          )
+                                        (reparse-symbol namespacesubparts) [1937 2071])
+                                    ("BOOST_STATIC_ASSERT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type ("is_numeric" type
+                                                 (:template-specifier 
+                                                    ( ("int" type nil nil nil))                                                    
+                                                  :type "class")
+                                                  nil nil)) (reparse-symbol arg-sub-list) [2095 2111])
+                                            ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2112 2118]))                                          
+                                        :type "int")
+                                        (reparse-symbol namespacesubparts) [2075 2119])
+                                    ("counting_iterator_base" type
+                                       (:template 
+                                          ( ("Incrementable" type (:type "class") nil nil)
+                                            ("CategoryOrTraversal" type (:type "class") nil nil)
+                                            ("Difference" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("traversal" type
+                                               (:typedef ("detail::ia_dflt_help::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2241 2515])
+                                            ("difference" type
+                                               (:typedef ("detail::ia_dflt_help::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2523 2781])
+                                            ("type" type
+                                               (:typedef ("iterator_adaptor" type
+                                                     (:template-specifier 
+                                                        ( ("counting_iterator" type nil nil nil)
+                                                          ("Incrementable" type nil nil nil)
+                                                          ("Incrementable" type (:constant-flag t) nil nil)
+                                                          ("traversal" type nil nil nil)
+                                                          ("Incrementable" type
+                                                             (:reference 1
+                                                              :constant-flag t)
+                                                              nil nil)
+                                                          ("difference" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [2789 3402]))                                          )
+                                        (reparse-symbol namespacesubparts) [2123 3407])
+                                    ("distance_policy_select" type
+                                       (:template 
+                                          ( ("bool" type nil nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [3672 3729])
+                                    ("iterator_distance" type
+                                       (:template 
+                                          ( ("Difference" type (:type "class") nil nil)
+                                            ("Incrementable1" type (:type "class") nil nil)
+                                            ("Incrementable2" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("distance" function
+                                               (:typemodifiers ("static")
+                                                :arguments 
+                                                  ( ("x" variable (:type ("Incrementable1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3905 3922])
+                                                    ("y" variable (:type ("Incrementable2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3923 3940]))                                                  
+                                                :type ("Difference" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3878 3980]))                                          )
+                                        (reparse-symbol namespacesubparts) [3769 3985])
+                                    ("number_distance" type
+                                       (:template 
+                                          ( ("Difference" type (:type "class") nil nil)
+                                            ("Incrementable1" type (:type "class") nil nil)
+                                            ("Incrementable2" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("distance" function
+                                               (:typemodifiers ("static")
+                                                :arguments 
+                                                  ( ("x" variable (:type ("Incrementable1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4157 4174])
+                                                    ("y" variable (:type ("Incrementable2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4175 4192]))                                                  
+                                                :type ("Difference" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [4130 4264]))                                          )
+                                        (reparse-symbol namespacesubparts) [4023 4269]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [650 4271])
+                            ("counting_iterator" type
+                               (:template 
+                                  ( ("Incrementable" type (:type "class") nil nil)
+                                    ("CategoryOrTraversal" type (:type "class") nil nil)
+                                    ("Difference" type (:type "class") nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("super_t" type
+                                       (:typedef ("detail::counting_iterator_base::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [4529 4653])
+                                    ("iterator_core_access" friend nil (reparse-symbol classsubparts) [4659 4692])
+                                    ("public" label nil (reparse-symbol classsubparts) [4696 4703])
+                                    ("difference_type" type
+                                       (:typedef ("super_t::difference_type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [4708 4766])
+                                    ("counting_iterator" function
+                                       (:constructor-flag t
+                                        :type ("counting_iterator" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4772 4795])
+                                    ("counting_iterator" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("rhs" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("counting_iterator" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4819 4848]))                                          
+                                        :type ("counting_iterator" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4801 4873])
+                                    ("counting_iterator" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("x" variable (:type ("Incrementable" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4897 4913]))                                          
+                                        :type ("counting_iterator" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4879 4944])
+                                    ("private" label nil (reparse-symbol classsubparts) [5237 5245])
+                                    ("dereference" function
+                                       (:typemodifiers ("typename")
+                                        :type ("super_t::reference" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [5251 5349])
+                                    ("distance_to" function
+                                       (:template 
+                                          ( ("OtherIncrementable" type (:type "class") nil nil))                                          
+                                        :type ("difference_type" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("y" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("counting_iterator" type
+                                                     (:template-specifier 
+                                                        ( ("OtherIncrementable" type nil nil nil)
+                                                          ("CategoryOrTraversal" type nil nil nil)
+                                                          ("Difference" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) [5427 5507]))                                          )
+                                        (reparse-symbol classsubparts) [5355 5844]))                                  
+                                :superclasses 
+                                  ( ("detail::counting_iterator_base::type" type
+                                       (:protection "public"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [4273 5847])
+                            ("make_counting_iterator" function
+                               (:template 
+                                  ( ("Incrementable" type (:type "class") nil nil))                                  
+                                :type ("counting_iterator" type
+                                     (:template-specifier 
+                                        ( ("Incrementable" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :arguments 
+                                  ( ("x" variable (:type ("Incrementable" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6014 6030]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [5920 6109]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [513 6112])
+                    ("iterators::counting_iterator" using (:type ("iterators::counting_iterator" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [6137 6172])
+                    ("iterators::make_counting_iterator" using (:type ("iterators::make_counting_iterator" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [6173 6213]))                  
+                :type "namespace")
+                nil [495 6216]))          
+      :file "counting_iterator.hpp"
+      :pointmax 6279
+      :fsize 6278
+      :lastmodtime '(21727 6066 0 0)
+      :unmatched-syntax '((punctuation 4692 . 4693) (punctuation 2111 . 2112) (punctuation 2110 . 2111) (punctuation 1113 . 1114) (punctuation 1112 . 1113) (punctuation 1094 . 1095) (punctuation 1093 . 1094) (punctuation 963 . 964) (punctuation 962 . 963))
+      :lexical-table 
+        '(("COUNTING_ITERATOR_DWA200348_HPP")
+          )
 ))
   :file "!usr!local!Cellar!boost!1.57.0!include!boost!iterator!semantic.cache"
   :semantic-tag-version "2.0"

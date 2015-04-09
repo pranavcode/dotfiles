@@ -945,6 +945,98 @@
       :lexical-table 
         '(("_STRUCT_TIMEVAL" . ((STRUCT "struct" 1379 . 1385) (symbol "timeval" 1386 . 1393)))
           )
+)
+    (semanticdb-table "_s_ifmt.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("S_IFMT" variable (:constant-flag t) nil [1497 1503])
+            ("S_IFIFO" variable (:constant-flag t) nil [1552 1559])
+            ("S_IFCHR" variable (:constant-flag t) nil [1608 1615])
+            ("S_IFDIR" variable (:constant-flag t) nil [1664 1671])
+            ("S_IFBLK" variable (:constant-flag t) nil [1712 1719])
+            ("S_IFREG" variable (:constant-flag t) nil [1764 1771])
+            ("S_IFLNK" variable (:constant-flag t) nil [1810 1817])
+            ("S_IFSOCK" variable (:constant-flag t) nil [1862 1870])
+            ("S_IFWHT" variable (:constant-flag t) nil [1966 1973])
+            ("S_IRWXU" variable (:constant-flag t) nil [2084 2091])
+            ("S_IRUSR" variable (:constant-flag t) nil [2141 2148])
+            ("S_IWUSR" variable (:constant-flag t) nil [2191 2198])
+            ("S_IXUSR" variable (:constant-flag t) nil [2241 2248])
+            ("S_IRWXG" variable (:constant-flag t) nil [2334 2341])
+            ("S_IRGRP" variable (:constant-flag t) nil [2391 2398])
+            ("S_IWGRP" variable (:constant-flag t) nil [2441 2448])
+            ("S_IXGRP" variable (:constant-flag t) nil [2491 2498])
+            ("S_IRWXO" variable (:constant-flag t) nil [2585 2592])
+            ("S_IROTH" variable (:constant-flag t) nil [2642 2649])
+            ("S_IWOTH" variable (:constant-flag t) nil [2692 2699])
+            ("S_IXOTH" variable (:constant-flag t) nil [2742 2749])
+            ("S_ISUID" variable (:constant-flag t) nil [2793 2800])
+            ("S_ISGID" variable (:constant-flag t) nil [2856 2863])
+            ("S_ISVTX" variable (:constant-flag t) nil [2920 2927])
+            ("S_ISTXT" variable (:constant-flag t) nil [3045 3052])
+            ("S_IREAD" variable (:constant-flag t) nil [3103 3110])
+            ("S_IWRITE" variable (:constant-flag t) nil [3158 3166])
+            ("S_IEXEC" variable (:constant-flag t) nil [3213 3220]))          
+      :file "_s_ifmt.h"
+      :pointmax 3288
+      :fsize 3287
+      :lastmodtime '(21531 55886 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("S_IWUSR" . ((number "0000200" 2200 . 2207)))
+          ("S_IXGRP" . ((number "0000010" 2500 . 2507)))
+          ("S_IXUSR" . ((number "0000100" 2250 . 2257)))
+          ("S_ISVTX" . ((number "0001000" 2929 . 2936)))
+          ("S_IFIFO" . ((number "0010000" 1561 . 1568)))
+          ("S_IRWXG" . ((number "0000070" 2343 . 2350)))
+          ("S_IWOTH" . ((number "0000002" 2701 . 2708)))
+          ("S_ISUID" . ((number "0004000" 2802 . 2809)))
+          ("S_ISTXT" . ((symbol "S_ISVTX" 3054 . 3061)))
+          ("S_IREAD" . ((symbol "S_IRUSR" 3112 . 3119)))
+          ("S_IEXEC" . ((symbol "S_IXUSR" 3222 . 3229)))
+          ("S_IFBLK" . ((number "0060000" 1721 . 1728)))
+          ("S_IRWXU" . ((number "0000700" 2093 . 2100)))
+          ("S_IXOTH" . ((number "0000001" 2751 . 2758)))
+          ("S_IFSOCK" . ((number "0140000" 1871 . 1878)))
+          ("S_IFREG" . ((number "0100000" 1773 . 1780)))
+          ("S_IRGRP" . ((number "0000040" 2400 . 2407)))
+          ("S_IFDIR" . ((number "0040000" 1673 . 1680)))
+          ("S_IRUSR" . ((number "0000400" 2150 . 2157)))
+          ("S_ISGID" . ((number "0002000" 2865 . 2872)))
+          ("S_IWRITE" . ((symbol "S_IWUSR" 3167 . 3174)))
+          ("S_IFMT" . ((number "0170000" 1505 . 1512)))
+          ("S_IFCHR" . ((number "0020000" 1617 . 1624)))
+          ("S_IFWHT" . ((number "0160000" 1975 . 1982)))
+          ("S_IFLNK" . ((number "0120000" 1819 . 1826)))
+          ("S_IWGRP" . ((number "0000020" 2450 . 2457)))
+          ("S_IRWXO" . ((number "0000007" 2594 . 2601)))
+          ("S_IROTH" . ((number "0000004" 2651 . 2658)))
+          )
+)
+    (semanticdb-table "_filesec_t.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_FILESEC_T" variable (:constant-flag t) nil [1357 1367])
+            ("_filesec" type
+               (:prototype t
+                :type "struct")
+                nil [1368 1384])
+            ("filesec_t" type
+               (:typedef ("_filesec" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :pointer 1
+                :type "typedef")
+                nil [1385 1420]))          
+      :file "_filesec_t.h"
+      :pointmax 1445
+      :fsize 1444
+      :lastmodtime '(21531 55882 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_FILESEC_T")
+          )
 ))
   :file "!usr!include!sys!_types!semantic.cache"
   :semantic-tag-version "2.0"

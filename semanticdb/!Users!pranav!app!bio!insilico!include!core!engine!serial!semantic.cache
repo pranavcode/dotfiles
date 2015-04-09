@@ -1,0 +1,100 @@
+;; Object serial/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "serial/"
+  :tables
+  (list
+    (semanticdb-table "common.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_CORE_ENGINE_SERIAL_COMMON_HPP" variable (:constant-flag t) nil [883 930])
+            ("core/type.hpp" include nil nil [932 956])
+            ("core/engine/data.hpp" include nil nil [957 988])
+            ("iostream" include (:system-flag t) nil [990 1009])
+            ("string" include (:system-flag t) nil [1010 1027])
+            ("unordered_map" include (:system-flag t) nil [1028 1052])
+            ("vector" include (:system-flag t) nil [1053 1070])
+            ("insilico" type
+               (:members 
+                  ( ("engine" type (:type "namespace") (reparse-symbol namespacesubparts) [1093 1338]))                  
+                :type "namespace")
+                nil [1072 1340]))          
+      :file "common.hpp"
+      :pointmax 1379
+      :fsize 1378
+      :lastmodtime '(21758 27635 0 0)
+      :unmatched-syntax '((semantic-list 1292 . 1335) (INT 1288 . 1291) (punctuation 1286 . 1287) (punctuation 1285 . 1286) (semantic-list 1282 . 1284) (symbol 1269 . 1282) (symbol 1264 . 1268) (INLINE 1257 . 1263) (semantic-list 1213 . 1255) (INT 1209 . 1212) (punctuation 1207 . 1208) (punctuation 1206 . 1207) (semantic-list 1203 . 1205) (symbol 1191 . 1203) (symbol 1186 . 1190) (INLINE 1179 . 1185) (semantic-list 1155 . 1177) (symbol 1144 . 1154) (punctuation 1142 . 1143) (punctuation 1141 . 1142) (semantic-list 1138 . 1140) (symbol 1125 . 1138) (symbol 1120 . 1124) (INLINE 1113 . 1119))
+      :lexical-table 
+        '(("INCLUDED_INSILICO_CORE_ENGINE_SERIAL_COMMON_HPP")
+          )
+)
+    (semanticdb-table "index.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_CORE_ENGINE_SERIAL_INDEX_HPP" variable (:constant-flag t) nil [884 930])
+            ("core/type.hpp" include nil nil [932 956])
+            ("core/engine/data.hpp" include nil nil [957 988])
+            ("algorithm" include (:system-flag t) nil [990 1010])
+            ("cstdio" include (:system-flag t) nil [1011 1028])
+            ("fstream" include (:system-flag t) nil [1029 1047])
+            ("iostream" include (:system-flag t) nil [1048 1067])
+            ("string" include (:system-flag t) nil [1068 1085])
+            ("unordered_map" include (:system-flag t) nil [1086 1110])
+            ("vector" include (:system-flag t) nil [1111 1128])
+            ("insilico" type
+               (:members 
+                  ( ("engine" type (:type "namespace") (reparse-symbol namespacesubparts) [1151 4511]))                  
+                :type "namespace")
+                nil [1130 4513]))          
+      :file "index.hpp"
+      :pointmax 4552
+      :fsize 4551
+      :lastmodtime '(21793 28077 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_CORE_ENGINE_SERIAL_INDEX_HPP")
+          )
+)
+    (semanticdb-table "value.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_CORE_ENGINE_SERIAL_VALUE_HPP" variable (:constant-flag t) nil [876 922])
+            ("core/configuration/error.hpp" include nil nil [924 963])
+            ("core/type.hpp" include nil nil [964 988])
+            ("core/engine/data.hpp" include nil nil [989 1020])
+            ("algorithm" include (:system-flag t) nil [1022 1042])
+            ("cstdio" include (:system-flag t) nil [1043 1060])
+            ("fstream" include (:system-flag t) nil [1061 1079])
+            ("iostream" include (:system-flag t) nil [1080 1099])
+            ("string" include (:system-flag t) nil [1100 1117])
+            ("unordered_map" include (:system-flag t) nil [1118 1142])
+            ("vector" include (:system-flag t) nil [1143 1160])
+            ("insilico" type
+               (:members 
+                  ( ("engine" type
+                       (:members 
+                          ( ("decltype" function
+                               (:arguments 
+                                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4451 4464]))                                  
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [4442 4618])
+                            ("decltype" function
+                               (:arguments 
+                                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4692 4705]))                                  
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [4683 4859]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1183 6143]))                  
+                :type "namespace")
+                nil [1162 6145]))          
+      :file "value.hpp"
+      :pointmax 6184
+      :fsize 6183
+      :lastmodtime '(21793 27877 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_CORE_ENGINE_SERIAL_VALUE_HPP")
+          )
+))
+  :file "!Users!pranav!app!bio!insilico!include!core!engine!serial!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

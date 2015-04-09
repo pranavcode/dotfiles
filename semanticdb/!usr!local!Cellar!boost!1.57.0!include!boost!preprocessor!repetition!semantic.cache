@@ -3211,6 +3211,173 @@
               ((symbol "BOOST_PP_COMMA_IF" 1310 . 1327) (semantic-list "(n)" 1327 . 1330) (symbol "BOOST_PP_CAT" 1331 . 1343) (semantic-list "(param, BOOST_PP_INC(n))" 1343 . 1367)))
           ("BOOST_PP_ENUM_SHIFTED_PARAMS_Z" (spp-arg-list ("z" "count" "param") 1656 . 1673) . ((symbol "BOOST_PP_ENUM_SHIFTED_PARAMS_Z_I" 1674 . 1706) (semantic-list "(z, count, param)" 1706 . 1723)))
           )
+)
+    (semanticdb-table "deduce_r.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_REPETITION_DEDUCE_R_HPP" variable (:constant-flag t) nil [664 706])
+            ("boost/preprocessor/detail/auto_rec.hpp" include (:system-flag t) nil [709 759])
+            ("boost/preprocessor/repetition/for.hpp" include (:system-flag t) nil [760 809])
+            ("BOOST_PP_DEDUCE_R" variable (:constant-flag t) nil [849 866]))          
+      :file "deduce_r.hpp"
+      :pointmax 918
+      :fsize 917
+      :lastmodtime '(21727 6079 0 0)
+      :unmatched-syntax '((punctuation 908 . 909) (punctuation 838 . 839) (punctuation 812 . 813) (punctuation 810 . 811) (punctuation 707 . 708) (punctuation 601 . 602) (punctuation 543 . 544) (punctuation 541 . 542) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PREPROCESSOR_REPETITION_DEDUCE_R_HPP")
+          ("BOOST_PP_DEDUCE_R" (spp-arg-list nil 866 . 868) . ((symbol "BOOST_PP_AUTO_REC" 869 . 886) (semantic-list "(BOOST_PP_FOR_P, 256)" 886 . 907)))
+          )
+)
+    (semanticdb-table "deduce_z.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_REPETITION_DEDUCE_Z_HPP" variable (:constant-flag t) nil [664 706])
+            ("boost/preprocessor/detail/auto_rec.hpp" include (:system-flag t) nil [709 759])
+            ("boost/preprocessor/repetition/repeat.hpp" include (:system-flag t) nil [760 812])
+            ("BOOST_PP_DEDUCE_Z" variable (:constant-flag t) nil [852 869]))          
+      :file "deduce_z.hpp"
+      :pointmax 922
+      :fsize 921
+      :lastmodtime '(21727 6079 0 0)
+      :unmatched-syntax '((punctuation 912 . 913) (punctuation 841 . 842) (punctuation 815 . 816) (punctuation 813 . 814) (punctuation 707 . 708) (punctuation 601 . 602) (punctuation 543 . 544) (punctuation 541 . 542) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PREPROCESSOR_REPETITION_DEDUCE_Z_HPP")
+          ("BOOST_PP_DEDUCE_Z" (spp-arg-list nil 869 . 871) . ((symbol "BOOST_PP_AUTO_REC" 872 . 889) (semantic-list "(BOOST_PP_REPEAT_P, 4)" 889 . 911)))
+          )
+)
+    (semanticdb-table "enum_params_with_defaults.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_REPETITION_ENUM_PARAMS_WITH_DEFAULTS_HPP" variable (:constant-flag t) nil [434 493])
+            ("boost/preprocessor/config/config.hpp" include (:system-flag t) nil [496 544])
+            ("boost/preprocessor/repetition/enum_binary_params.hpp" include (:system-flag t) nil [545 609])
+            ("BOOST_PP_ENUM_PARAMS_WITH_DEFAULTS" variable (:constant-flag t) nil [666 700]))          
+      :file "enum_params_with_defaults.hpp"
+      :pointmax 779
+      :fsize 778
+      :lastmodtime '(21727 6079 0 0)
+      :unmatched-syntax '((punctuation 769 . 770) (punctuation 655 . 656) (punctuation 612 . 613) (punctuation 610 . 611) (punctuation 494 . 495) (punctuation 354 . 355) (punctuation 296 . 297) (punctuation 294 . 295) (punctuation 252 . 253) (punctuation 250 . 251) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PP_ENUM_PARAMS_WITH_DEFAULTS" (spp-arg-list ("count" "param" "def") 700 . 719) . ((symbol "BOOST_PP_ENUM_BINARY_PARAMS" 720 . 747) (semantic-list "(count, param, = def)" 747 . 768)))
+          ("BOOST_PREPROCESSOR_REPETITION_ENUM_PARAMS_WITH_DEFAULTS_HPP")
+          )
+)
+    (semanticdb-table "enum_shifted_binary_params.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_REPETITION_ENUM_SHIFTED_BINARY_PARAMS_HPP" variable (:constant-flag t) nil [783 843])
+            ("boost/preprocessor/arithmetic/dec.hpp" include (:system-flag t) nil [846 895])
+            ("boost/preprocessor/arithmetic/inc.hpp" include (:system-flag t) nil [896 945])
+            ("boost/preprocessor/cat.hpp" include (:system-flag t) nil [946 984])
+            ("boost/preprocessor/config/config.hpp" include (:system-flag t) nil [985 1033])
+            ("boost/preprocessor/punctuation/comma_if.hpp" include (:system-flag t) nil [1034 1089])
+            ("boost/preprocessor/repetition/repeat.hpp" include (:system-flag t) nil [1090 1142])
+            ("boost/preprocessor/tuple/elem.hpp" include (:system-flag t) nil [1143 1188])
+            ("boost/preprocessor/tuple/rem.hpp" include (:system-flag t) nil [1189 1233])
+            ("BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS" variable (:constant-flag t) nil [1504 1539])
+            ("BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_I" variable (:constant-flag t) nil [1620 1657])
+            ("BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_M" variable (:constant-flag t) nil [2089 2126])
+            ("BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_M_I" variable (:constant-flag t) nil [2264 2303])
+            ("BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_Z" variable (:constant-flag t) nil [2690 2727])
+            ("BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_Z_I" variable (:constant-flag t) nil [2816 2855]))          
+      :file "enum_shifted_binary_params.hpp"
+      :pointmax 2984
+      :fsize 2983
+      :lastmodtime '(21727 6079 0 0)
+      :unmatched-syntax '((punctuation 2974 . 2975) (punctuation 2455 . 2456) (punctuation 2409 . 2410) (punctuation 2407 . 2408) (punctuation 2253 . 2254) (punctuation 1767 . 1768) (punctuation 1280 . 1281) (punctuation 1236 . 1237) (punctuation 1234 . 1235) (punctuation 844 . 845) (punctuation 702 . 703) (punctuation 644 . 645) (punctuation 642 . 643) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_I" (spp-arg-list ("count" "p1" "p2") 1657 . 1672) . ((symbol "BOOST_PP_REPEAT" 1673 . 1688) (semantic-list "(BOOST_PP_DEC(count), BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_M, (p1, p2))" 1688 . 1758)))
+          ("BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS" (spp-arg-list ("count" "p1" "p2") 1539 . 1554) . ((symbol "BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_I" 1555 . 1592) (semantic-list "(count, p1, p2)" 1592 . 1607)))
+          ("BOOST_PREPROCESSOR_REPETITION_ENUM_SHIFTED_BINARY_PARAMS_HPP")
+          ("BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_M" (spp-arg-list ("z" "n" "pp") 2126 . 2136) . ((symbol "BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_M_I" 2137 . 2176) (semantic-list "(z, n, BOOST_PP_TUPLE_ELEM(2, 0, pp), BOOST_PP_TUPLE_ELEM(2, 1, pp))" 2176 . 2244)))
+          ("BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_Z" (spp-arg-list ("z" "count" "p1" "p2") 2727 . 2745) . ((symbol "BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_Z_I" 2746 . 2785) (semantic-list "(z, count, p1, p2)" 2785 . 2803)))
+          ("BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_M_I" (spp-arg-list ("z" "n" "p1" "p2") 2303 . 2317) . 
+              ((symbol "BOOST_PP_COMMA_IF" 2318 . 2335) (semantic-list "(n)" 2335 . 2338) (symbol "BOOST_PP_CAT" 2339 . 2351) (semantic-list "(p1, BOOST_PP_INC(n))" 2351 . 2372) (symbol "BOOST_PP_CAT" 2373 . 2385) (semantic-list "(p2, BOOST_PP_INC(n))" 2385 . 2406)))
+          ("BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_Z_I" (spp-arg-list ("z" "count" "p1" "p2") 2855 . 2873) . ((spp-symbol-merge ((symbol "BOOST_PP_REPEAT_" 2874 . 2890) (symbol "z" 2894 . 2895)) 2874 . 2895) (semantic-list "(BOOST_PP_DEC(count), BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS_M, (p1, p2))" 2895 . 2965)))
+          )
+)
+    (semanticdb-table "enum_trailing.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_REPETITION_ENUM_TRAILING_HPP" variable (:constant-flag t) nil [669 716])
+            ("boost/preprocessor/cat.hpp" include (:system-flag t) nil [719 757])
+            ("boost/preprocessor/config/config.hpp" include (:system-flag t) nil [758 806])
+            ("boost/preprocessor/debug/error.hpp" include (:system-flag t) nil [807 853])
+            ("boost/preprocessor/detail/auto_rec.hpp" include (:system-flag t) nil [854 904])
+            ("boost/preprocessor/repetition/repeat.hpp" include (:system-flag t) nil [905 957])
+            ("boost/preprocessor/tuple/elem.hpp" include (:system-flag t) nil [958 1003])
+            ("boost/preprocessor/tuple/rem.hpp" include (:system-flag t) nil [1004 1048])
+            ("BOOST_PP_ENUM_TRAILING" variable (:constant-flag t) nil [1165 1187])
+            ("BOOST_PP_ENUM_TRAILING_1" variable (:constant-flag t) nil [1651 1675])
+            ("BOOST_PP_ENUM_TRAILING_2" variable (:constant-flag t) nil [1733 1757])
+            ("BOOST_PP_ENUM_TRAILING_3" variable (:constant-flag t) nil [1815 1839])
+            ("BOOST_PP_ENUM_TRAILING_1_I" variable (:constant-flag t) nil [1897 1923])
+            ("BOOST_PP_ENUM_TRAILING_2_I" variable (:constant-flag t) nil [2002 2028])
+            ("BOOST_PP_ENUM_TRAILING_3_I" variable (:constant-flag t) nil [2107 2133])
+            ("BOOST_PP_ENUM_TRAILING_4" variable (:constant-flag t) nil [2219 2243])
+            ("BOOST_PP_ENUM_TRAILING_M_1" variable (:constant-flag t) nil [2956 2982])
+            ("BOOST_PP_ENUM_TRAILING_M_2" variable (:constant-flag t) nil [3102 3128])
+            ("BOOST_PP_ENUM_TRAILING_M_3" variable (:constant-flag t) nil [3248 3274])
+            ("BOOST_PP_ENUM_TRAILING_M_1_I" variable (:constant-flag t) nil [3401 3429])
+            ("BOOST_PP_ENUM_TRAILING_M_2_I" variable (:constant-flag t) nil [3464 3492])
+            ("BOOST_PP_ENUM_TRAILING_M_3_I" variable (:constant-flag t) nil [3527 3555]))          
+      :file "enum_trailing.hpp"
+      :pointmax 3591
+      :fsize 3590
+      :lastmodtime '(21727 6079 0 0)
+      :unmatched-syntax '((punctuation 3581 . 3582) (punctuation 3390 . 3391) (punctuation 2276 . 2277) (punctuation 2208 . 2209) (punctuation 1267 . 1268) (punctuation 1154 . 1155) (punctuation 1082 . 1083) (punctuation 1051 . 1052) (punctuation 1049 . 1050) (punctuation 717 . 718) (punctuation 601 . 602) (punctuation 543 . 544) (punctuation 541 . 542) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PP_ENUM_TRAILING_2_I" (spp-arg-list ("c" "m" "d") 2028 . 2037) . ((symbol "BOOST_PP_REPEAT_2" 2038 . 2055) (semantic-list "(c, BOOST_PP_ENUM_TRAILING_M_2, (m, d))" 2055 . 2094)))
+          ("BOOST_PP_ENUM_TRAILING_M_3" (spp-arg-list ("z" "n" "md") 3274 . 3284) . ((symbol "BOOST_PP_ENUM_TRAILING_M_3_I" 3285 . 3313) (semantic-list "(z, n, BOOST_PP_TUPLE_ELEM(2, 0, md), BOOST_PP_TUPLE_ELEM(2, 1, md))" 3313 . 3381)))
+          ("BOOST_PP_ENUM_TRAILING_1" (spp-arg-list ("c" "m" "d") 1675 . 1684) . ((symbol "BOOST_PP_ENUM_TRAILING_1_I" 1685 . 1711) (semantic-list "(c, m, d)" 1711 . 1720)))
+          ("BOOST_PP_ENUM_TRAILING_2" (spp-arg-list ("c" "m" "d") 1757 . 1766) . ((symbol "BOOST_PP_ENUM_TRAILING_2_I" 1767 . 1793) (semantic-list "(c, m, d)" 1793 . 1802)))
+          ("BOOST_PREPROCESSOR_REPETITION_ENUM_TRAILING_HPP")
+          ("BOOST_PP_ENUM_TRAILING_3" (spp-arg-list ("c" "m" "d") 1839 . 1848) . ((symbol "BOOST_PP_ENUM_TRAILING_3_I" 1849 . 1875) (semantic-list "(c, m, d)" 1875 . 1884)))
+          ("BOOST_PP_ENUM_TRAILING_M_1_I" (spp-arg-list ("z" "n" "m" "d") 3429 . 3441) . 
+              ((punctuation "," 3442 . 3443) (symbol "m" 3444 . 3445) (semantic-list "(z, n, d)" 3445 . 3454)))
+          ("BOOST_PP_ENUM_TRAILING_1_I" (spp-arg-list ("c" "m" "d") 1923 . 1932) . ((symbol "BOOST_PP_REPEAT_1" 1933 . 1950) (semantic-list "(c, BOOST_PP_ENUM_TRAILING_M_1, (m, d))" 1950 . 1989)))
+          ("BOOST_PP_ENUM_TRAILING_4" (spp-arg-list ("c" "m" "d") 2243 . 2252) . ((symbol "BOOST_PP_ERROR" 2253 . 2267) (semantic-list "(0x0003)" 2267 . 2275)))
+          ("BOOST_PP_ENUM_TRAILING_M_3_I" (spp-arg-list ("z" "n" "m" "d") 3555 . 3567) . 
+              ((punctuation "," 3568 . 3569) (symbol "m" 3570 . 3571) (semantic-list "(z, n, d)" 3571 . 3580)))
+          ("BOOST_PP_ENUM_TRAILING_3_I" (spp-arg-list ("c" "m" "d") 2133 . 2142) . ((symbol "BOOST_PP_REPEAT_3" 2143 . 2160) (semantic-list "(c, BOOST_PP_ENUM_TRAILING_M_3, (m, d))" 2160 . 2199)))
+          ("BOOST_PP_ENUM_TRAILING" . ((symbol "BOOST_PP_CAT" 1188 . 1200) (semantic-list "(BOOST_PP_ENUM_TRAILING_, BOOST_PP_AUTO_REC(BOOST_PP_REPEAT_P, 4))" 1200 . 1266)))
+          ("BOOST_PP_ENUM_TRAILING_M_1" (spp-arg-list ("z" "n" "md") 2982 . 2992) . ((symbol "BOOST_PP_ENUM_TRAILING_M_1_I" 2993 . 3021) (semantic-list "(z, n, BOOST_PP_TUPLE_ELEM(2, 0, md), BOOST_PP_TUPLE_ELEM(2, 1, md))" 3021 . 3089)))
+          ("BOOST_PP_ENUM_TRAILING_M_2" (spp-arg-list ("z" "n" "md") 3128 . 3138) . ((symbol "BOOST_PP_ENUM_TRAILING_M_2_I" 3139 . 3167) (semantic-list "(z, n, BOOST_PP_TUPLE_ELEM(2, 0, md), BOOST_PP_TUPLE_ELEM(2, 1, md))" 3167 . 3235)))
+          ("BOOST_PP_ENUM_TRAILING_M_2_I" (spp-arg-list ("z" "n" "m" "d") 3492 . 3504) . 
+              ((punctuation "," 3505 . 3506) (symbol "m" 3507 . 3508) (semantic-list "(z, n, d)" 3508 . 3517)))
+          )
+)
+    (semanticdb-table "enum_trailing_binary_params.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PREPROCESSOR_REPETITION_ENUM_TRAILING_BINARY_PARAMS_HPP" variable (:constant-flag t) nil [683 744])
+            ("boost/preprocessor/cat.hpp" include (:system-flag t) nil [747 785])
+            ("boost/preprocessor/config/config.hpp" include (:system-flag t) nil [786 834])
+            ("boost/preprocessor/repetition/repeat.hpp" include (:system-flag t) nil [835 887])
+            ("boost/preprocessor/tuple/elem.hpp" include (:system-flag t) nil [888 933])
+            ("boost/preprocessor/tuple/rem.hpp" include (:system-flag t) nil [934 978])
+            ("BOOST_PP_ENUM_TRAILING_BINARY_PARAMS" variable (:constant-flag t) nil [1238 1274])
+            ("BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_I" variable (:constant-flag t) nil [1356 1394])
+            ("BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_M" variable (:constant-flag t) nil [1817 1855])
+            ("BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_M_I" variable (:constant-flag t) nil [2268 2308])
+            ("BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_Z" variable (:constant-flag t) nil [2645 2683])
+            ("BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_Z_I" variable (:constant-flag t) nil [2773 2813]))          
+      :file "enum_trailing_binary_params.hpp"
+      :pointmax 2929
+      :fsize 2928
+      :lastmodtime '(21727 6079 0 0)
+      :unmatched-syntax '((punctuation 2919 . 2920) (punctuation 2422 . 2423) (punctuation 2375 . 2376) (punctuation 2373 . 2374) (punctuation 1983 . 1984) (punctuation 1491 . 1492) (punctuation 1026 . 1027) (punctuation 981 . 982) (punctuation 979 . 980) (punctuation 745 . 746) (punctuation 601 . 602) (punctuation 543 . 544) (punctuation 541 . 542) (punctuation 1 . 2))
+      :lexical-table 
+        '(("BOOST_PREPROCESSOR_REPETITION_ENUM_TRAILING_BINARY_PARAMS_HPP")
+          ("BOOST_PP_ENUM_TRAILING_BINARY_PARAMS" (spp-arg-list ("count" "p1" "p2") 1274 . 1289) . ((symbol "BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_I" 1290 . 1328) (semantic-list "(count, p1, p2)" 1328 . 1343)))
+          ("BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_I" (spp-arg-list ("count" "p1" "p2") 1394 . 1409) . ((symbol "BOOST_PP_REPEAT" 1410 . 1425) (semantic-list "(count, BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_M, (p1, p2))" 1425 . 1482)))
+          ("BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_M" (spp-arg-list ("z" "n" "pp") 1855 . 1865) . ((symbol "BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_M_I" 1866 . 1906) (semantic-list "(z, n, BOOST_PP_TUPLE_ELEM(2, 0, pp), BOOST_PP_TUPLE_ELEM(2, 1, pp))" 1906 . 1974)))
+          ("BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_M_I" (spp-arg-list ("z" "n" "p1" "p2") 2308 . 2322) . 
+              ((punctuation "," 2323 . 2324) (symbol "BOOST_PP_CAT" 2325 . 2337) (semantic-list "(p1, n)" 2337 . 2344) (symbol "BOOST_PP_CAT" 2345 . 2357) (semantic-list "(p2, n)" 2357 . 2364)))
+          ("BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_Z" (spp-arg-list ("z" "count" "p1" "p2") 2683 . 2701) . ((symbol "BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_Z_I" 2702 . 2742) (semantic-list "(z, count, p1, p2)" 2742 . 2760)))
+          ("BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_Z_I" (spp-arg-list ("z" "count" "p1" "p2") 2813 . 2831) . ((spp-symbol-merge ((symbol "BOOST_PP_REPEAT_" 2832 . 2848) (symbol "z" 2852 . 2853)) 2832 . 2853) (semantic-list "(count, BOOST_PP_ENUM_TRAILING_BINARY_PARAMS_M, (p1, p2))" 2853 . 2910)))
+          )
 ))
   :file "!usr!local!Cellar!boost!1.57.0!include!boost!preprocessor!repetition!semantic.cache"
   :semantic-tag-version "2.0"

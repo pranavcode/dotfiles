@@ -6,71 +6,51 @@
     (semanticdb-table "main.cpp"
       :major-mode 'c++-mode
       :tags 
-        '( ("core/configuration.hpp" include nil nil [951 984])
-            ("core/engine.hpp" include nil nil [985 1011])
-            ("core/injector.hpp" include nil nil [1012 1040])
-            ("neuron/N_SquidAxon_HH1952.hpp" include nil nil [1042 1082])
-            ("synapse/S_DefaultSynapse.hpp" include nil nil [1083 1122])
-            ("boost/numeric/odeint.hpp" include (:system-flag t) nil [1124 1159])
-            ("fstream" include (:system-flag t) nil [1161 1179])
-            ("iostream" include (:system-flag t) nil [1180 1199])
-            ("iomanip" include (:system-flag t) nil [1200 1218])
-            ("string" include (:system-flag t) nil [1219 1236])
-            ("vector" include (:system-flag t) nil [1237 1254])
+        '( ("core.hpp" include nil nil [970 989])
+            ("neuron/N_SquidAxon_HH1952.hpp" include nil nil [991 1031])
+            ("synapse/S_DefaultSynapse.hpp" include nil nil [1032 1071])
+            ("boost/numeric/odeint.hpp" include (:system-flag t) nil [1073 1108])
+            ("fstream" include (:system-flag t) nil [1110 1128])
+            ("iostream" include (:system-flag t) nil [1129 1148])
+            ("iomanip" include (:system-flag t) nil [1149 1167])
+            ("string" include (:system-flag t) nil [1168 1185])
+            ("vector" include (:system-flag t) nil [1186 1203])
             ("insilico" using (:type ("insilico" type
                  (:prototype t
                   :type "namespace")
-                  nil nil)) nil [1256 1281])
+                  nil nil)) nil [1205 1230])
             ("std" using (:type ("std" type
                  (:prototype t
                   :type "namespace")
-                  nil nil)) nil [1282 1302])
-            ("()" function
-               (:operator-flag t
-                :parent "engine"
-                :arguments 
-                  ( ("variables" variable
-                       (:reference 1
-                        :type ("state_type" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1328 1350])
-                    ("dxdt" variable
-                       (:reference 1
-                        :type ("state_type" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1351 1368])
-                    ("time" variable
-                       (:constant-flag t
-                        :type "double")
-                        (reparse-symbol arg-sub-list) [1369 1387]))                  
-                :type "void")
-                nil [1304 1785])
-            ("()" function
-               (:operator-flag t
-                :parent "configuration::observer"
-                :arguments 
-                  ( ("variables" variable
-                       (:reference 1
-                        :type ("state_type" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1828 1850])
-                    ("t" variable
-                       (:constant-flag t
-                        :type "double")
-                        (reparse-symbol arg-sub-list) [1851 1866]))                  
-                :type "void")
-                nil [1787 2124])
+                  nil nil)) nil [1231 1251])
             ("main" function
                (:arguments 
-                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2135 2144])
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1262 1271])
                     ("argv" variable
                        (:pointer 2
                         :type "char")
-                        (reparse-symbol arg-sub-list) [2145 2157]))                  
+                        (reparse-symbol arg-sub-list) [1272 1284]))                  
                 :type "int")
-                nil [2126 2492]))          
+                nil [1253 1722]))          
       :file "main.cpp"
-      :pointmax 2493
-      :fsize 2492
-      :lastmodtime '(21750 29000 0 0)
-      :unmatched-syntax nil))
+      :pointmax 1723
+      :fsize 1722
+      :lastmodtime '(21769 18725 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "Makefile"
+      :major-mode 'makefile-bsdmake-mode
+      :tags 
+        '( ("SOURCE" variable (:default-value ("main.cpp")) nil [809 827])
+            ("TARGET" variable (:default-value ("insilico.out")) nil [848 870])
+            ("CC" variable (:default-value ("g++")) nil [889 898])
+            ("CFLAGS" variable (:default-value ("-O3" "-std=c++11" "-Wall" "-I../../include" "-o")) nil [943 992])
+            ("all" function (:arguments ("$(TARGET)")) nil [993 1008])
+            ("$(TARGET)" function nil nil [1009 1057]))          
+      :file "Makefile"
+      :pointmax 1057
+      :fsize 1162
+      :lastmodtime '(21757 27149 0 0)
+      :unmatched-syntax '((shell-command 1021 . 1056) (bol 1020 . 1020))))
   :file "!Users!pranav!app!bio!insilico!examples!Network_HodgkinHuxleyNeurons!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

@@ -1,0 +1,16 @@
+;; Object insilico-web/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "insilico-web/"
+  :tables
+  (list
+    (semanticdb-table "script.js"
+      :major-mode 'js-mode
+      :tags nil
+      :file "script.js"
+      :pointmax 193
+      :fsize 192
+      :lastmodtime '(21769 30582 0 0)
+      :unmatched-syntax '((PAREN_BLOCK 181 . 191) (PAREN_BLOCK 1 . 181) (PAREN_BLOCK 137 . 147) (PAREN_BLOCK 1 . 137) (PAREN_BLOCK 181 . 191) (PAREN_BLOCK 1 . 181))))
+  :file "!Users!pranav!app!bio!insilico-web!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

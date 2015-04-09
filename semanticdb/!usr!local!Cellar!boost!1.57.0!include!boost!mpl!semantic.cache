@@ -4970,6 +4970,54 @@
           ("AUX778076_OP_PREFIX" . ((symbol "bitand" 888 . 894)))
           ("AUX778076_OP_TOKEN" . ((punctuation "&" 923 . 924)))
           )
+)
+    (semanticdb-table "print.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPL_PRINT_HPP_INCLUDED" variable (:constant-flag t) nil [47 75])
+            ("boost/mpl/aux_/config/msvc.hpp" include (:system-flag t) nil [399 440])
+            ("boost/mpl/identity.hpp" include (:system-flag t) nil [441 474])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("aux" type (:type "namespace") (reparse-symbol namespacesubparts) [513 919])
+                            ("print" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("m_x" variable
+                                       (:constant-flag t
+                                        :default-value "1 / (sizeof(T) - sizeof(T))"
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [1076 1120])
+                                    ("" type
+                                       (:members 
+                                          ( ("n" variable
+                                               (:constant-flag t
+                                                :type "int")
+                                                (reparse-symbol enumsubparts) [1249 1252]))                                          
+                                        :type "enum")
+                                        (reparse-symbol classsubparts) [1234 1386]))                                  
+                                :superclasses 
+                                  ( ("mpl::identity" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [938 1397]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [494 1512]))                  
+                :type "namespace")
+                nil [476 1513]))          
+      :file "print.hpp"
+      :pointmax 1554
+      :fsize 1553
+      :lastmodtime '(21727 6067 0 0)
+      :unmatched-syntax '((number 1365 . 1366) (punctuation 1364 . 1365) (punctuation 1362 . 1363) (semantic-list 1358 . 1361) (SIZEOF 1352 . 1358) (punctuation 1251 . 1252) (number 1365 . 1366) (punctuation 1364 . 1365) (punctuation 1362 . 1363) (semantic-list 1358 . 1361) (SIZEOF 1352 . 1358) (punctuation 1251 . 1252))
+      :lexical-table 
+        '(("BOOST_MPL_PRINT_HPP_INCLUDED")
+          )
 ))
   :file "!usr!local!Cellar!boost!1.57.0!include!boost!mpl!semantic.cache"
   :semantic-tag-version "2.0"

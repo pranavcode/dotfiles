@@ -1822,6 +1822,277 @@
       :lexical-table 
         '(("BOOST_NUMERIC_ODEINT_UTIL_IS_PAIR_HPP_INCLUDED")
           )
+)
+    (semanticdb-table "split_adaptor.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_UTIL_SPLIT_ADAPTOR_INCLUDED" variable (:constant-flag t) nil [475 523])
+            ("boost/range/adaptor/argument_fwd.hpp" include (:system-flag t) nil [525 572])
+            ("boost/range/size_type.hpp" include (:system-flag t) nil [573 609])
+            ("boost/range/iterator_range.hpp" include (:system-flag t) nil [610 651])
+            ("algorithm" include (:system-flag t) nil [652 672])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("detail" type
+                                       (:members 
+                                          ( ("split_offsets" function
+                                               (:typemodifiers ("inline")
+                                                :arguments 
+                                                  ( ("total_length" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [872 897])
+                                                    ("index" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [898 916])
+                                                    ("parts" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [917 936]))                                                  
+                                                :type ("std::pair" type
+                                                     (:template-specifier 
+                                                        ( ("std::size_t" type nil nil nil)
+                                                          ("std::size_t" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol namespacesubparts) [814 1413])
+                                            ("make_split_range" function
+                                               (:arguments 
+                                                  ( ("rng" variable
+                                                       (:reference 1
+                                                        :type ("RandomAccessRange" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1825 1848])
+                                                    ("index" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1849 1867])
+                                                    ("parts" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1868 1887]))                                                  
+                                                :type "int")
+                                                (reparse-symbol namespacesubparts) [1807 2087])
+                                            ("make_split_range" function
+                                               (:arguments 
+                                                  ( ("rng" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("RandomAccessRange" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2223 2252])
+                                                    ("index" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2253 2271])
+                                                    ("parts" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2272 2291]))                                                  
+                                                :type "int")
+                                                (reparse-symbol namespacesubparts) [2205 2491])
+                                            ("split" type
+                                               (:members 
+                                                  ( ("split" function
+                                                       (:constructor-flag t
+                                                        :arguments 
+                                                          ( ("index" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2519 2537])
+                                                            ("parts" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2538 2556]))                                                          
+                                                        :type ("split" type (:type "struct") nil nil))
+                                                        (reparse-symbol classsubparts) [2513 2596])
+                                                    ("index" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2601 2626])
+                                                    ("parts" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2601 2626]))                                                  
+                                                :type "struct")
+                                                (reparse-symbol namespacesubparts) [2494 2629])
+                                            ("|" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("rng" variable
+                                                       (:reference 1
+                                                        :type ("RandomAccessRange" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2752 2775])
+                                                    ("f" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("split" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2776 2792]))                                                  
+                                                :type "int")
+                                                (reparse-symbol namespacesubparts) [2741 2850])
+                                            ("|" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("rng" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("RandomAccessRange" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2979 3008])
+                                                    ("f" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("split" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3009 3025]))                                                  
+                                                :type "int")
+                                                (reparse-symbol namespacesubparts) [2968 3083]))                                          
+                                        :type "namespace")
+                                        (reparse-symbol namespacesubparts) [731 3087]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [712 3089]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [692 3091]))                  
+                :type "namespace")
+                nil [674 3093]))          
+      :file "split_adaptor.hpp"
+      :pointmax 3102
+      :fsize 3101
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((punctuation 2966 . 2967) (symbol 2961 . 2965) (punctuation 2960 . 2961) (punctuation 2959 . 2960) (punctuation 2958 . 2959) (symbol 2941 . 2958) (CONST 2935 . 2940) (punctuation 2934 . 2935) (symbol 2920 . 2934) (TYPENAME 2911 . 2919) (punctuation 2909 . 2910) (symbol 2895 . 2909) (INLINE 2888 . 2894) (punctuation 2886 . 2887) (symbol 2868 . 2885) (CLASS 2862 . 2867) (punctuation 2860 . 2861) (TEMPLATE 2852 . 2860) (punctuation 2739 . 2740) (symbol 2734 . 2738) (punctuation 2733 . 2734) (punctuation 2732 . 2733) (punctuation 2731 . 2732) (symbol 2714 . 2731) (punctuation 2713 . 2714) (symbol 2699 . 2713) (TYPENAME 2690 . 2698) (punctuation 2688 . 2689) (symbol 2674 . 2688) (INLINE 2667 . 2673) (punctuation 2665 . 2666) (symbol 2647 . 2664) (CLASS 2641 . 2646) (punctuation 2639 . 2640) (TEMPLATE 2631 . 2639) (punctuation 2203 . 2204) (symbol 2198 . 2202) (punctuation 2197 . 2198) (punctuation 2196 . 2197) (punctuation 2195 . 2196) (symbol 2178 . 2195) (CONST 2172 . 2177) (punctuation 2171 . 2172) (symbol 2157 . 2171) (TYPENAME 2148 . 2156) (punctuation 2146 . 2147) (symbol 2132 . 2146) (INLINE 2125 . 2131) (punctuation 2123 . 2124) (symbol 2105 . 2122) (CLASS 2099 . 2104) (punctuation 2097 . 2098) (TEMPLATE 2089 . 2097) (punctuation 1805 . 1806) (symbol 1800 . 1804) (punctuation 1799 . 1800) (punctuation 1798 . 1799) (punctuation 1797 . 1798) (symbol 1780 . 1797) (punctuation 1779 . 1780) (symbol 1765 . 1779) (TYPENAME 1756 . 1764) (punctuation 1754 . 1755) (symbol 1740 . 1754) (INLINE 1733 . 1739) (punctuation 1731 . 1732) (symbol 1713 . 1730) (CLASS 1707 . 1712) (punctuation 1705 . 1706) (TEMPLATE 1697 . 1705))
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_UTIL_SPLIT_ADAPTOR_INCLUDED")
+          )
+)
+    (semanticdb-table "n_ary_helper.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_UTIL_N_ARY_HELPER_HPP_INCLUDED" variable (:constant-flag t) nil [441 492])
+            ("boost/preprocessor/repetition.hpp" include (:system-flag t) nil [494 538])
+            ("BOOST_ODEINT_ENUM_TRAILING_SHIFTED_PARAMS" variable (:constant-flag t) nil [619 660])
+            ("BOOST_ODEINT_ENUM_TRAILING_SHIFTED_BINARY_PARAMS" variable (:constant-flag t) nil [778 826])
+            ("BOOST_ODEINT_ENUM_LSHIFTED_BINARY_PARAMS" variable (:constant-flag t) nil [1097 1137])
+            ("BOOST_ODEINT_ENUM_LSHIFTED_BINARY_PARAMS_" variable (:constant-flag t) nil [1249 1290])
+            ("BOOST_ODEINT_ENUM_BINARY_STATEMENTS" variable (:constant-flag t) nil [1618 1653])
+            ("BOOST_ODEINT_ENUM_BINARY_STATEMENTS_" variable (:constant-flag t) nil [1754 1790])
+            ("BOOST_ODEINT_ENUM_UNARY_CALLS" variable (:constant-flag t) nil [2041 2070])
+            ("BOOST_ODEINT_ENUM_SHIFTED_UNARY_CALLS" variable (:constant-flag t) nil [2163 2200])
+            ("BOOST_ODEINT_ENUM_TRAILING_SHIFTED_UNARY_CALLS" variable (:constant-flag t) nil [2301 2347])
+            ("BOOST_ODEINT_ENUM_UNARY_CALLS_" variable (:constant-flag t) nil [2493 2523])
+            ("BOOST_ODEINT_N_ARY_MAX" variable (:constant-flag t) nil [2710 2732])
+            ("BOOST_ODEINT_GEN_SCALE_SUM" variable (:constant-flag t) nil [2820 2846])
+            ("BOOST_ODEINT_GEN_SCALE_SUM_" variable (:constant-flag t) nil [2955 2982])
+            ("BOOST_ODEINT_GEN_FOR_EACH" variable (:constant-flag t) nil [3735 3760])
+            ("BOOST_ODEINT_GEN_FOR_EACH_" variable (:constant-flag t) nil [3868 3894]))          
+      :file "n_ary_helper.hpp"
+      :pointmax 4078
+      :fsize 4077
+      :lastmodtime '(21727 6086 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_ODEINT_ENUM_BINARY_STATEMENTS" (spp-arg-list ("count" "p1" "p2") 1653 . 1668) . ((symbol "BOOST_PP_REPEAT" 1675 . 1690) (semantic-list "(count, BOOST_ODEINT_ENUM_BINARY_STATEMENTS_, (p1, p2))" 1690 . 1745)))
+          ("BOOST_ODEINT_ENUM_UNARY_CALLS" (spp-arg-list ("count" "p1" "p2") 2070 . 2085) . ((symbol "BOOST_PP_ENUM" 2092 . 2105) (semantic-list "(count, BOOST_ODEINT_ENUM_UNARY_CALLS_, (p1, p2))" 2105 . 2154)))
+          ("BOOST_ODEINT_ENUM_SHIFTED_UNARY_CALLS" (spp-arg-list ("count" "p1" "p2") 2200 . 2215) . ((symbol "BOOST_PP_ENUM_SHIFTED" 2222 . 2243) (semantic-list "(count, BOOST_ODEINT_ENUM_UNARY_CALLS_, (p1, p2))" 2243 . 2292)))
+          ("BOOST_ODEINT_GEN_FOR_EACH_" (spp-arg-list ("z" "n" "macro") 3894 . 3907) . 
+              ((TEMPLATE "template" 3914 . 3922) (punctuation "<" 3922 . 3923) (symbol "BOOST_PP_ENUM_PARAMS" 3924 . 3944) (semantic-list "(n, class S)" 3944 . 3956) (punctuation "," 3957 . 3958) (CLASS "class" 3959 . 3964) (symbol "Op" 3965 . 3967) (punctuation ">" 3968 . 3969) (STATIC "static" 3976 . 3982) (VOID "void" 3983 . 3987) (spp-symbol-merge ((symbol "for_each" 3988 . 3996) (symbol "n" 3998 . 3999)) 3988 . 3999) (semantic-list "( BOOST_PP_ENUM_BINARY_PARAMS(n, S, &s) , Op op )" 4000 . 4049) (semantic-list "{ macro(n) }" 4056 . 4068)))
+          ("BOOST_ODEINT_ENUM_TRAILING_SHIFTED_BINARY_PARAMS" (spp-arg-list ("count" "p1" "p2") 826 . 841) . 
+              ((symbol "BOOST_PP_COMMA_IF" 848 . 865) (semantic-list "(BOOST_PP_DEC(count))" 865 . 886) (symbol "BOOST_PP_ENUM_SHIFTED_BINARY_PARAMS" 893 . 928) (semantic-list "(count, p1, p2)" 928 . 943)))
+          ("BOOST_ODEINT_ENUM_TRAILING_SHIFTED_UNARY_CALLS" (spp-arg-list ("count" "p1" "p2") 2347 . 2362) . 
+              ((symbol "BOOST_PP_COMMA_IF" 2369 . 2386) (semantic-list "(BOOST_PP_DEC(count))" 2386 . 2407) (symbol "BOOST_PP_ENUM_SHIFTED" 2414 . 2435) (semantic-list "(count, BOOST_ODEINT_ENUM_UNARY_CALLS_, (p1, p2))" 2435 . 2484)))
+          ("BOOST_ODEINT_GEN_SCALE_SUM_" (spp-arg-list ("z" "n" "macro") 2982 . 2995) . 
+              ((TEMPLATE "template" 3002 . 3010) (punctuation "<" 3010 . 3011) (symbol "BOOST_ODEINT_ENUM_LSHIFTED_BINARY_PARAMS" 3012 . 3052) (semantic-list "(n, class Fac, = double, = Fac)" 3052 . 3083) (punctuation ">" 3084 . 3085) (STRUCT "struct" 3092 . 3098) (symbol "BOOST_PP_CAT" 3099 . 3111) (semantic-list "(scale_sum, n)" 3111 . 3125) (semantic-list "{ \\
+        BOOST_ODEINT_ENUM_BINARY_STATEMENTS(n, const Fac, m_alpha) \\
+        \\
+        BOOST_PP_CAT(scale_sum, n) \\
+        ( BOOST_PP_ENUM_BINARY_PARAMS(n, Fac, alpha) ) \\
+        : BOOST_ODEINT_ENUM_UNARY_CALLS(n, m_alpha, alpha) {} \\
+        \\
+        template< BOOST_PP_ENUM_PARAMS(BOOST_PP_INC(n), class T) > \\
+        void operator()( T0 &t0 \\
+            BOOST_ODEINT_ENUM_TRAILING_SHIFTED_BINARY_PARAMS(BOOST_PP_INC(n), const T, &t) \\
+        ) const \\
+        { macro(n) } \\
+        typedef void result_type; \\
+    }" 3132 . 3661) (punctuation ";" 3661 . 3662)))
+          ("BOOST_ODEINT_ENUM_LSHIFTED_BINARY_PARAMS" (spp-arg-list ("count" "p1" "p2" "p3") 1137 . 1156) . ((symbol "BOOST_PP_ENUM" 1163 . 1176) (semantic-list "(count, BOOST_ODEINT_ENUM_LSHIFTED_BINARY_PARAMS_, (p1, p2, p3))" 1176 . 1240)))
+          ("BOOST_NUMERIC_ODEINT_UTIL_N_ARY_HELPER_HPP_INCLUDED")
+          ("BOOST_ODEINT_ENUM_TRAILING_SHIFTED_PARAMS" (spp-arg-list ("count" "param") 660 . 674) . 
+              ((symbol "BOOST_PP_COMMA_IF" 681 . 698) (semantic-list "(BOOST_PP_DEC(count))" 698 . 719) (symbol "BOOST_PP_ENUM_SHIFTED_PARAMS" 726 . 754) (semantic-list "(count, param)" 754 . 768)))
+          ("BOOST_ODEINT_ENUM_BINARY_STATEMENTS_" (spp-arg-list ("z" "n" "data") 1790 . 1802) . 
+              ((symbol "BOOST_PP_CAT" 1809 . 1821) (semantic-list "(BOOST_PP_TUPLE_ELEM(2, 0, data), n)" 1821 . 1857) (symbol "BOOST_PP_CAT" 1864 . 1876) (semantic-list "(BOOST_PP_TUPLE_ELEM(2, 1, data), n)" 1876 . 1912) (punctuation ";" 1913 . 1914)))
+          ("BOOST_ODEINT_N_ARY_MAX" . ((number "16" 2733 . 2735)))
+          ("BOOST_ODEINT_ENUM_LSHIFTED_BINARY_PARAMS_" (spp-arg-list ("z" "n" "data") 1290 . 1302) . 
+              ((symbol "BOOST_PP_CAT" 1309 . 1321) (semantic-list "(BOOST_PP_TUPLE_ELEM(3, 0, data), n)" 1321 . 1357) (symbol "BOOST_PP_IF" 1364 . 1375) (semantic-list "(n, \\
+        BOOST_PP_CAT(BOOST_PP_TUPLE_ELEM(3, 2, data), BOOST_PP_DEC(n)), \\
+        BOOST_PP_TUPLE_ELEM(3, 1, data))" 1375 . 1495)))
+          ("BOOST_ODEINT_GEN_FOR_EACH" (spp-arg-list ("macro") 3760 . 3767) . ((symbol "BOOST_PP_REPEAT_FROM_TO" 3774 . 3797) (semantic-list "(1, BOOST_ODEINT_N_ARY_MAX, BOOST_ODEINT_GEN_FOR_EACH_, macro)" 3797 . 3859)))
+          ("BOOST_ODEINT_ENUM_UNARY_CALLS_" (spp-arg-list ("z" "n" "data") 2523 . 2535) . 
+              ((symbol "BOOST_PP_CAT" 2544 . 2556) (semantic-list "(BOOST_PP_TUPLE_ELEM(2, 0, data), n)" 2556 . 2592) (semantic-list "( BOOST_PP_CAT(BOOST_PP_TUPLE_ELEM(2, 1, data), n) )" 2599 . 2651)))
+          ("BOOST_ODEINT_GEN_SCALE_SUM" (spp-arg-list ("macro") 2846 . 2853) . ((symbol "BOOST_PP_REPEAT_FROM_TO" 2860 . 2883) (semantic-list "(1, BOOST_ODEINT_N_ARY_MAX, BOOST_ODEINT_GEN_SCALE_SUM_, macro)" 2883 . 2946)))
+          )
+)
+    (semanticdb-table "split.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_ODEINT_UTIL_SPLIT_HPP_INCLUDED" variable (:constant-flag t) nil [455 499])
+            ("boost" type
+               (:members 
+                  ( ("numeric" type
+                       (:members 
+                          ( ("odeint" type
+                               (:members 
+                                  ( ("split_impl" type
+                                       (:members 
+                                          ( ("split" function
+                                               (:prototype-flag t
+                                                :typemodifiers ("static")
+                                                :arguments 
+                                                  ( ("from" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("Container1" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [731 755])
+                                                    ("to" variable
+                                                       (:reference 1
+                                                        :type ("Container2" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [756 772]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [712 773]))                                          
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [688 776])
+                                    ("split" function
+                                       (:template 
+                                          ( ("Container1" type (:type "class") nil nil)
+                                            ("Container2" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("from" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Container1" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [838 862])
+                                            ("to" variable
+                                               (:reference 1
+                                                :type ("Container2" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [863 879]))                                          )
+                                        (reparse-symbol namespacesubparts) [778 946])
+                                    ("unsplit_impl" type
+                                       (:members 
+                                          ( ("unsplit" function
+                                               (:prototype-flag t
+                                                :typemodifiers ("static")
+                                                :arguments 
+                                                  ( ("from" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("Container1" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1127 1151])
+                                                    ("to" variable
+                                                       (:reference 1
+                                                        :type ("Container2" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1152 1168]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [1106 1169]))                                          
+                                        :type "struct")
+                                        (reparse-symbol namespacesubparts) [1080 1172])
+                                    ("unsplit" function
+                                       (:template 
+                                          ( ("Container1" type (:type "class") nil nil)
+                                            ("Container2" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("from" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Container1" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1236 1260])
+                                            ("to" variable
+                                               (:reference 1
+                                                :type ("Container2" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1261 1277]))                                          )
+                                        (reparse-symbol namespacesubparts) [1174 1348]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [539 1352]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [519 1374]))                  
+                :type "namespace")
+                nil [501 1397]))          
+      :file "split.hpp"
+      :pointmax 1474
+      :fsize 1473
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((punctuation 1078 . 1079) (VOID 1073 . 1077) (punctuation 1071 . 1072) (symbol 1063 . 1070) (CLASS 1057 . 1062) (punctuation 1055 . 1056) (symbol 1044 . 1054) (CLASS 1038 . 1043) (punctuation 1036 . 1037) (symbol 1026 . 1036) (CLASS 1020 . 1025) (punctuation 1018 . 1019) (TEMPLATE 1010 . 1018) (punctuation 686 . 687) (VOID 681 . 685) (punctuation 679 . 680) (symbol 671 . 678) (CLASS 665 . 670) (punctuation 663 . 664) (symbol 652 . 662) (CLASS 646 . 651) (punctuation 644 . 645) (symbol 634 . 644) (CLASS 628 . 633) (punctuation 626 . 627) (TEMPLATE 618 . 626))
+      :lexical-table 
+        '(("BOOST_NUMERIC_ODEINT_UTIL_SPLIT_HPP_INCLUDED")
+          )
 ))
   :file "!usr!local!Cellar!boost!1.57.0!include!boost!numeric!odeint!util!semantic.cache"
   :semantic-tag-version "2.0"

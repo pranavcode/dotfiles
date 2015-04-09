@@ -1,0 +1,273 @@
+;; Object property_maps/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "property_maps/"
+  :tables
+  (list
+    (semanticdb-table "constant_property_map.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_GRAPH_CONSTANT_PROPERTY_HPP" variable (:constant-flag t) nil [275 308])
+            ("boost/property_map/property_map.hpp" include (:system-flag t) nil [310 356])
+            ("boost" type
+               (:members 
+                  ( ("constant_property_map" type
+                       (:template 
+                          ( ("Key" type (:type "class") nil nil)
+                            ("Value" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("key_type" type
+                               (:typedef ("Key" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [797 818])
+                            ("value_type" type
+                               (:typedef ("Value" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [823 848])
+                            ("reference" variable
+                               (:constant-flag t
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [861 884])
+                            ("category" type
+                               (:typedef ("boost::readable_property_map_tag" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [889 939])
+                            ("constant_property_map" function
+                               (:constructor-flag t
+                                :type ("constant_property_map" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [945 996])
+                            ("constant_property_map" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("value_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1024 1048]))                                  
+                                :type ("constant_property_map" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [1002 1081])
+                            ("constant_property_map" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("copy" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("constant_property_map" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1109 1143]))                                  
+                                :type ("constant_property_map" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [1087 1183])
+                            ("[]" function
+                               (:operator-flag t
+                                :typemodifiers ("inline")
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("key_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1218 1234]))                                  
+                                :type ("reference" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1189 1264])
+                            ("m_value" variable (:type ("value_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1270 1289]))                          
+                        :superclasses 
+                          ( ("boost::put_get_helper" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          )
+                        (reparse-symbol namespacesubparts) [608 1292])
+                    ("make_constant_property" function
+                       (:template 
+                          ( ("Key" type (:type "class") nil nil)
+                            ("Value" type (:type "class") nil nil))                          
+                        :type ("constant_property_map" type
+                             (:template-specifier 
+                                ( ("Key" type nil nil nil)
+                                  ("Value" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("value" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1398 1417]))                          
+                        :typemodifiers ("inline"))
+                        (reparse-symbol namespacesubparts) [1294 1470])
+                    ("constant_writable_property_map" type
+                       (:template 
+                          ( ("Key" type (:type "class") nil nil)
+                            ("Value" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("key_type" type
+                               (:typedef ("Key" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [1619 1640])
+                            ("value_type" type
+                               (:typedef ("Value" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [1645 1670])
+                            ("reference" variable (:type ("Value" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1683 1700])
+                            ("category" type
+                               (:typedef ("boost::read_write_property_map_tag" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [1705 1757])
+                            ("constant_writable_property_map" function
+                               (:constructor-flag t
+                                :type ("constant_writable_property_map" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [1763 1823])
+                            ("constant_writable_property_map" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("value_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1860 1884]))                                  
+                                :type ("constant_writable_property_map" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [1829 1917])
+                            ("constant_writable_property_map" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("copy" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("constant_writable_property_map" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1954 1997]))                                  
+                                :type ("constant_writable_property_map" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [1923 2037])
+                            ("get" function
+                               (:typemodifiers ("friend")
+                                :arguments 
+                                  ( ("me" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("constant_writable_property_map" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2060 2101])
+                                    ("" variable (:type ("Key" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2102 2106]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2043 2127])
+                            ("put" function
+                               (:typemodifiers ("friend")
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("constant_writable_property_map" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2148 2186])
+                                    ("" variable (:type ("Key" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2187 2191])
+                                    ("" variable (:type ("Value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2192 2198]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2132 2201])
+                            ("m_value" variable (:type ("value_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2207 2226]))                          )
+                        (reparse-symbol namespacesubparts) [1535 2229])
+                    ("make_constant_writable_property" function
+                       (:template 
+                          ( ("Key" type (:type "class") nil nil)
+                            ("Value" type (:type "class") nil nil))                          
+                        :type ("constant_writable_property_map" type
+                             (:template-specifier 
+                                ( ("Key" type nil nil nil)
+                                  ("Value" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("value" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2353 2372]))                          
+                        :typemodifiers ("inline"))
+                        (reparse-symbol namespacesubparts) [2231 2434]))                  
+                :type "namespace")
+                nil [465 2437]))          
+      :file "constant_property_map.hpp"
+      :pointmax 2468
+      :fsize 2467
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax '((TYPEDEF 1675 . 1682) (TYPEDEF 853 . 860))
+      :lexical-table 
+        '(("BOOST_GRAPH_CONSTANT_PROPERTY_HPP")
+          )
+)
+    (semanticdb-table "null_property_map.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_GRAPH_NULL_PROPERTY_HPP" variable (:constant-flag t) nil [266 295])
+            ("boost/property_map/property_map.hpp" include (:system-flag t) nil [297 343])
+            ("boost" type
+               (:members 
+                  ( ("null_property_map" type
+                       (:template 
+                          ( ("Key" type (:type "class") nil nil)
+                            ("Value" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("key_type" type
+                               (:typedef ("Key" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [747 768])
+                            ("value_type" type
+                               (:typedef ("Value" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [777 802])
+                            ("reference" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [811 834])
+                            ("category" type
+                               (:typedef ("boost::writable_property_map_tag" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [843 893]))                          )
+                        (reparse-symbol namespacesubparts) [664 900])
+                    ("put" function
+                       (:template 
+                          ( ("K" type (:type "class") nil nil)
+                            ("V" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("null_property_map" type
+                                     (:template-specifier 
+                                        ( ("K" type nil nil nil)
+                                          ("V" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [1014 1045])
+                            ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("K" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1046 1063])
+                            ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("V" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1064 1083]))                          )
+                        (reparse-symbol namespacesubparts) [967 1091])
+                    ("make_null_property" function
+                       (:template 
+                          ( ("Key" type (:type "class") nil nil)
+                            ("Value" type (:type "class") nil nil))                          
+                        :type ("null_property_map" type
+                             (:template-specifier 
+                                ( ("Key" type nil nil nil)
+                                  ("Value" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :typemodifiers ("inline"))
+                        (reparse-symbol namespacesubparts) [1159 1308]))                  
+                :type "namespace")
+                nil [451 1310]))          
+      :file "null_property_map.hpp"
+      :pointmax 1319
+      :fsize 1318
+      :lastmodtime '(21727 6074 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_GRAPH_NULL_PROPERTY_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!graph!property_maps!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

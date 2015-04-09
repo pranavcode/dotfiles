@@ -828,6 +828,29 @@
         return !this->operator! ();\\
     }" 1132 . 1177)))
           )
+)
+    (semanticdb-table "no_exceptions_support.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_CORE_NO_EXCEPTIONS_SUPPORT_HPP" variable (:constant-flag t) nil [54 90])
+            ("boost/config.hpp" include (:system-flag t) nil [832 859])
+            ("boost/detail/workaround.hpp" include (:system-flag t) nil [860 898])
+            ("BOOST_TRY" variable (:constant-flag t) nil [947 956])
+            ("BOOST_CATCH" variable (:constant-flag t) nil [975 986])
+            ("BOOST_RETHROW" variable (:constant-flag t) nil [1011 1024])
+            ("BOOST_CATCH_END" variable (:constant-flag t) nil [1044 1059]))          
+      :file "no_exceptions_support.hpp"
+      :pointmax 1391
+      :fsize 1390
+      :lastmodtime '(21727 6064 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_CATCH" (spp-arg-list ("x") 986 . 989) . ((CATCH "catch" 990 . 995) (semantic-list "(x)" 995 . 998)))
+          ("BOOST_CORE_NO_EXCEPTIONS_SUPPORT_HPP")
+          ("BOOST_TRY" . ((open-paren "{" 957 . 958) (TRY "try" 959 . 962)))
+          ("BOOST_RETHROW" . ((THROW "throw" 1025 . 1030) (punctuation ";" 1030 . 1031)))
+          ("BOOST_CATCH_END" . ((close-paren "}" 1060 . 1061)))
+          )
 ))
   :file "!usr!local!Cellar!boost!1.57.0!include!boost!core!semantic.cache"
   :semantic-tag-version "2.0"

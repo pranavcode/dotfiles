@@ -1,0 +1,1772 @@
+;; Object chrono/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "chrono/"
+  :tables
+  (list
+    (semanticdb-table "chrono.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_CHRONO_CHRONO_HPP" variable (:constant-flag t) nil [282 305])
+            ("boost/chrono/duration.hpp" include (:system-flag t) nil [307 343])
+            ("boost/chrono/time_point.hpp" include (:system-flag t) nil [344 382])
+            ("boost/chrono/system_clocks.hpp" include (:system-flag t) nil [383 424]))          
+      :file "chrono.hpp"
+      :pointmax 460
+      :fsize 459
+      :lastmodtime '(21727 6064 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_CHRONO_CHRONO_HPP")
+          )
+)
+    (semanticdb-table "duration.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_CHRONO_DURATION_HPP" variable (:constant-flag t) nil [1023 1048])
+            ("boost/chrono/config.hpp" include (:system-flag t) nil [1050 1084])
+            ("boost/chrono/detail/static_assert.hpp" include (:system-flag t) nil [1085 1133])
+            ("climits" include (:system-flag t) nil [1135 1153])
+            ("limits" include (:system-flag t) nil [1154 1171])
+            ("boost/mpl/logical.hpp" include (:system-flag t) nil [1174 1206])
+            ("boost/ratio/ratio.hpp" include (:system-flag t) nil [1207 1239])
+            ("boost/type_traits/common_type.hpp" include (:system-flag t) nil [1240 1284])
+            ("boost/type_traits/is_arithmetic.hpp" include (:system-flag t) nil [1285 1331])
+            ("boost/type_traits/is_convertible.hpp" include (:system-flag t) nil [1332 1379])
+            ("boost/type_traits/is_floating_point.hpp" include (:system-flag t) nil [1380 1430])
+            ("boost/type_traits/is_unsigned.hpp" include (:system-flag t) nil [1431 1475])
+            ("boost/chrono/detail/is_evenly_divisible_by.hpp" include (:system-flag t) nil [1476 1533])
+            ("boost/cstdint.hpp" include (:system-flag t) nil [1535 1563])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [1564 1602])
+            ("boost/detail/workaround.hpp" include (:system-flag t) nil [1603 1641])
+            ("boost/integer_traits.hpp" include (:system-flag t) nil [1642 1677])
+            ("BOOST_CHRONO_A_DURATION_REPRESENTATION_CAN_NOT_BE_A_DURATION" variable (:constant-flag t) nil [1772 1832])
+            ("BOOST_CHRONO_SECOND_TEMPLATE_PARAMETER_OF_DURATION_MUST_BE_A_STD_RATIO" variable (:constant-flag t) nil [1898 1968])
+            ("BOOST_CHRONO_DURATION_PERIOD_MUST_BE_POSITIVE" variable (:constant-flag t) nil [2040 2085])
+            ("BOOST_CHRONO_SECOND_TEMPLATE_PARAMETER_OF_TIME_POINT_MUST_BE_A_BOOST_CHRONO_DURATION" variable (:constant-flag t) nil [2129 2213])
+            ("boost/config/abi_prefix.hpp" include (:system-flag t) nil [2405 2443])
+            ("boost" type
+               (:members 
+                  ( ("chrono" type
+                       (:members 
+                          ( ("duration" type
+                               (:template 
+                                  ( ("Rep" type (:type "class") nil nil)
+                                    ("Period" type (:type "class") nil nil))                                  
+                                :type "class"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [3010 3076])
+                            ("detail" type
+                               (:members 
+                                  ( ("is_duration" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("boost::false_type" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [3109 3184])
+                                    ("is_duration" type
+                                       (:template 
+                                          ( ("Rep" type (:type "class") nil nil)
+                                            ("Period" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("boost::true_type" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("duration" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [3190 3305])
+                                    ("duration_divide_result" type (:type "struct") (reparse-symbol namespacesubparts) [3384 3426])
+                                    ("duration_divide_imp" type (:type "struct") (reparse-symbol namespacesubparts) [3819 3858])
+                                    ("duration_divide_imp" type
+                                       (:template 
+                                          ( ("Rep1" type (:type "class") nil nil)
+                                            ("Period" type (:type "class") nil nil)
+                                            ("Rep2" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type "int") (reparse-symbol classsubparts) [4058 4063]))                                          
+                                        :template-specifier 
+                                          ( ("duration" type nil nil nil)
+                                            ("Rep2" type nil nil nil)
+                                            ("true" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [3864 4070])
+                                    ("duration_divide_result" type
+                                       (:template 
+                                          ( ("Rep1" type (:type "class") nil nil)
+                                            ("Period" type (:type "class") nil nil)
+                                            ("Rep2" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("duration_divide_imp" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("duration" type nil nil nil)
+                                            ("Rep2" type nil nil nil)
+                                            ("false" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [4076 4267])
+                                    ("duration_divide_result2" type (:type "struct") (reparse-symbol namespacesubparts) [4350 4393])
+                                    ("duration_divide_imp2" type (:type "struct") (reparse-symbol namespacesubparts) [4782 4822])
+                                    ("duration_divide_imp2" type
+                                       (:template 
+                                          ( ("Rep1" type (:type "class") nil nil)
+                                            ("Rep2" type (:type "class") nil nil)
+                                            ("Period" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("double")
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [5022 5042]))                                          
+                                        :template-specifier 
+                                          ( ("Rep1" type nil nil nil)
+                                            ("duration" type nil nil nil)
+                                            ("true" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [4828 5049])
+                                    ("duration_divide_result2" type
+                                       (:template 
+                                          ( ("Rep1" type (:type "class") nil nil)
+                                            ("Rep2" type (:type "class") nil nil)
+                                            ("Period" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("duration_divide_imp2" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("Rep1" type nil nil nil)
+                                            ("duration" type nil nil nil)
+                                            ("false" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [5055 5250])
+                                    ("duration_modulo_result" type (:type "struct") (reparse-symbol namespacesubparts) [5333 5375])
+                                    ("duration_modulo_imp" type (:type "struct") (reparse-symbol namespacesubparts) [5769 5808])
+                                    ("duration_modulo_imp" type
+                                       (:template 
+                                          ( ("Rep1" type (:type "class") nil nil)
+                                            ("Period" type (:type "class") nil nil)
+                                            ("Rep2" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" variable (:type "int") (reparse-symbol classsubparts) [6008 6013]))                                          
+                                        :template-specifier 
+                                          ( ("duration" type nil nil nil)
+                                            ("Rep2" type nil nil nil)
+                                            ("true" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [5814 6020])
+                                    ("duration_modulo_result" type
+                                       (:template 
+                                          ( ("Rep1" type (:type "class") nil nil)
+                                            ("Period" type (:type "class") nil nil)
+                                            ("Rep2" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("duration_modulo_imp" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("duration" type nil nil nil)
+                                            ("Rep2" type nil nil nil)
+                                            ("false" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [6026 6217]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [3082 6220]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2986 6242])
+                    ("common_type" type
+                       (:template 
+                          ( ("Rep1" type (:type "class") nil nil)
+                            ("Period1" type (:type "class") nil nil)
+                            ("Rep2" type (:type "class") nil nil)
+                            ("Period2" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :template-specifier 
+                          ( ("chrono::duration" type nil nil nil)
+                            ("chrono::duration" type nil nil nil))                          
+                        :prototype t)
+                        (reparse-symbol namespacesubparts) [6303 6474])
+                    ("chrono" type
+                       (:members 
+                          ( ("treat_as_floating_point" type
+                               (:template 
+                                  ( ("Rep" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [6529 6581])
+                            ("duration_values" type
+                               (:template 
+                                  ( ("Rep" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [6586 6630])
+                            ("nanoseconds" type
+                               (:typedef ("duration" type
+                                     (:template-specifier 
+                                        ( ("boost::int_least64_t" type nil nil nil)
+                                          ("nano" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [6664 6721])
+                            ("microseconds" type
+                               (:typedef ("duration" type
+                                     (:template-specifier 
+                                        ( ("boost::int_least64_t" type nil nil nil)
+                                          ("micro" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [6756 6815])
+                            ("milliseconds" type
+                               (:typedef ("duration" type
+                                     (:template-specifier 
+                                        ( ("boost::int_least64_t" type nil nil nil)
+                                          ("milli" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [6848 6907])
+                            ("seconds" type
+                               (:typedef ("duration" type
+                                     (:template-specifier 
+                                        ( ("boost::int_least64_t" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [6940 6987])
+                            ("minutes" type
+                               (:typedef ("duration" type
+                                     (:template-specifier 
+                                        ( ("boost::int_least32_t" type nil nil nil)
+                                          ("ratio" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [7032 7092])
+                            ("hours" type
+                               (:typedef ("duration" type
+                                     (:template-specifier 
+                                        ( ("boost::int_least32_t" type nil nil nil)
+                                          ("ratio" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [7124 7183])
+                            ("detail" type
+                               (:members 
+                                  ( ("duration_cast_aux" type
+                                       (:template 
+                                          ( ("FromDuration" type (:type "class") nil nil)
+                                            ("ToDuration" type (:type "class") nil nil)
+                                            ("Period" type (:type "class") nil nil)
+                                            ("bool" type nil nil nil)
+                                            ("bool" type nil nil nil))                                          
+                                        :type "struct"
+                                        :prototype t)
+                                        (reparse-symbol namespacesubparts) [8162 8333])
+                                    ("duration_cast_aux" type
+                                       (:template 
+                                          ( ("FromDuration" type (:type "class") nil nil)
+                                            ("ToDuration" type (:type "class") nil nil)
+                                            ("Period" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("fd" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("FromDuration" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8853 8876]))                                                  
+                                                :type ("ToDuration" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [8831 8984]))                                          
+                                        :template-specifier 
+                                          ( ("FromDuration" type nil nil nil)
+                                            ("ToDuration" type nil nil nil)
+                                            ("Period" type nil nil nil)
+                                            ("true" type nil nil nil)
+                                            ("true" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [8664 8991])
+                                    ("duration_cast_aux" type
+                                       (:template 
+                                          ( ("FromDuration" type (:type "class") nil nil)
+                                            ("ToDuration" type (:type "class") nil nil)
+                                            ("Period" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("fd" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("FromDuration" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [9627 9650]))                                                  
+                                                :type ("ToDuration" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [9605 10005]))                                          
+                                        :template-specifier 
+                                          ( ("FromDuration" type nil nil nil)
+                                            ("ToDuration" type nil nil nil)
+                                            ("Period" type nil nil nil)
+                                            ("true" type nil nil nil)
+                                            ("false" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [9437 10012])
+                                    ("duration_cast_aux" type
+                                       (:template 
+                                          ( ("FromDuration" type (:type "class") nil nil)
+                                            ("ToDuration" type (:type "class") nil nil)
+                                            ("Period" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("fd" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("FromDuration" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [10590 10613]))                                                  
+                                                :type ("ToDuration" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [10568 10962]))                                          
+                                        :template-specifier 
+                                          ( ("FromDuration" type nil nil nil)
+                                            ("ToDuration" type nil nil nil)
+                                            ("Period" type nil nil nil)
+                                            ("false" type nil nil nil)
+                                            ("true" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [10400 10969])
+                                    ("duration_cast_aux" type
+                                       (:template 
+                                          ( ("FromDuration" type (:type "class") nil nil)
+                                            ("ToDuration" type (:type "class") nil nil)
+                                            ("Period" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("fd" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("FromDuration" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [11649 11672]))                                                  
+                                                :type ("ToDuration" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [11627 12053]))                                          
+                                        :template-specifier 
+                                          ( ("FromDuration" type nil nil nil)
+                                            ("ToDuration" type nil nil nil)
+                                            ("Period" type nil nil nil)
+                                            ("false" type nil nil nil)
+                                            ("false" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [11458 12060])
+                                    ("duration_cast" type
+                                       (:template 
+                                          ( ("FromDuration" type (:type "class") nil nil)
+                                            ("ToDuration" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("Period" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [12254 12266])
+                                            ("Aux" variable (:type "int") (reparse-symbol classsubparts) [12441 12445])
+                                            ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("fd" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("FromDuration" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [12492 12515]))                                                  
+                                                :type ("ToDuration" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [12470 12571]))                                          )
+                                        (reparse-symbol namespacesubparts) [12066 12578]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [7457 12581])
+                            ("treat_as_floating_point" type
+                               (:template 
+                                  ( ("Rep" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("boost::is_floating_point" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [13504 13595])
+                            ("detail" type
+                               (:members 
+                                  ( ("chrono_numeric_limits" type (:type "struct") (reparse-symbol namespacesubparts) [13919 14088])
+                                    ("chrono_numeric_limits" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :template-specifier 
+                                          ( ("T" type nil nil nil)
+                                            ("true" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [14094 14294])
+                                    ("chrono_numeric_limits" type
+                                       (:type "struct"
+                                        :template-specifier 
+                                          ( ("float" type nil nil nil)
+                                            ("true" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [14300 14535])
+                                    ("chrono_numeric_limits" type
+                                       (:type "struct"
+                                        :template-specifier 
+                                          ( ("double" type nil nil nil)
+                                            ("true" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [14541 14779])
+                                    ("chrono_numeric_limits" type
+                                       (:type "struct"
+                                        :template-specifier 
+                                          ( ("long double" type nil nil nil)
+                                            ("true" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [14785 15037]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [13841 15151])
+                            ("duration_values" type
+                               (:template 
+                                  ( ("Rep" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("zero" function (:type ("Rep" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15225 15252])
+                                    ("BOOST_PREVENT_MACRO_SUBSTITUTION" function (:type ("max" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15295 15396])
+                                    ("BOOST_PREVENT_MACRO_SUBSTITUTION" function (:type ("min" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15440 15545]))                                  )
+                                (reparse-symbol namespacesubparts) [15152 15548]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [6477 15551])
+                    ("common_type" type
+                       (:template 
+                          ( ("Rep1" type (:type "class") nil nil)
+                            ("Period1" type (:type "class") nil nil)
+                            ("Rep2" type (:type "class") nil nil)
+                            ("Period2" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("type" variable (:type "int") (reparse-symbol classsubparts) [16129 16134]))                          
+                        :template-specifier 
+                          ( ("chrono::duration" type nil nil nil)
+                            ("chrono::duration" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [15818 16137])
+                    ("chrono" type
+                       (:members 
+                          ( ("duration" variable
+                               (:dereference 1
+                                :type ("BOOST_SYMBOL_VISIBLE" type
+                                     (:prototype t
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol namespacesubparts) [16571 20717])
+                            ("+" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [21173 21208])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [21219 21254]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [21154 21420])
+                            ("-" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [21632 21667])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [21678 21713]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [21613 21883])
+                            ("" function
+                               (:operator-flag t
+                                :function-pointer t
+                                :arguments 
+                                  ( ("d" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [22290 22322])
+                                    ("s" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Rep2" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [22323 22337]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [22271 22496])
+                            ("" function
+                               (:operator-flag t
+                                :function-pointer t
+                                :arguments 
+                                  ( ("s" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Rep1" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [22884 22898])
+                                    ("d" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [22899 22931]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [22865 22965])
+                            ("/" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("d" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [23271 23303])
+                                    ("s" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Rep2" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [23304 23318]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [23252 23482])
+                            ("/" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [23636 23671])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [23672 23707]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [23617 23902])
+                            ("%" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("d" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [24751 24783])
+                                    ("s" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Rep2" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [24784 24798]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [24732 24962])
+                            ("%" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [25155 25190])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [25201 25236]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [25136 25426])
+                            ("detail" type
+                               (:members 
+                                  ( ("duration_eq" type
+                                       (:template 
+                                          ( ("LhsDuration" type (:type "class") nil nil)
+                                            ("RhsDuration" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("lhs" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("LhsDuration" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [25811 25834])
+                                                    ("rhs" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("RhsDuration" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [25835 25858]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [25795 26016]))                                          )
+                                        (reparse-symbol namespacesubparts) [25696 26023])
+                                    ("duration_eq" type
+                                       (:template 
+                                          ( ("LhsDuration" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("lhs" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("LhsDuration" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [26151 26174])
+                                                    ("rhs" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("LhsDuration" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [26175 26198]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [26135 26271]))                                          
+                                        :template-specifier 
+                                          ( ("LhsDuration" type nil nil nil)
+                                            ("LhsDuration" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [26029 26278])
+                                    ("duration_lt" type
+                                       (:template 
+                                          ( ("LhsDuration" type (:type "class") nil nil)
+                                            ("RhsDuration" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("lhs" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("LhsDuration" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [26399 26422])
+                                                    ("rhs" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("RhsDuration" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [26423 26446]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [26383 26603]))                                          )
+                                        (reparse-symbol namespacesubparts) [26284 26610])
+                                    ("duration_lt" type
+                                       (:template 
+                                          ( ("LhsDuration" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("lhs" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("LhsDuration" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [26738 26761])
+                                                    ("rhs" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("LhsDuration" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [26762 26785]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [26722 26857]))                                          
+                                        :template-specifier 
+                                          ( ("LhsDuration" type nil nil nil)
+                                            ("LhsDuration" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [26616 26864]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [25673 26867])
+                            ("==" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [27028 27063])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [27074 27109]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [27008 27248])
+                            ("!=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [27389 27424])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [27435 27470]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [27369 27512])
+                            ("<" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [27652 27687])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [27698 27733]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [27632 27870])
+                            (">" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [28010 28045])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [28056 28091]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [27990 28129])
+                            ("<=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [28270 28305])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [28316 28351]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [28250 28392])
+                            (">=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [28533 28568])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [28579 28614]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [28513 28655])
+                            ("duration_cast" function
+                               (:typemodifiers ("typename")
+                                :arguments 
+                                  ( ("fd" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep" type nil nil nil)
+                                                  ("Period" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [29185 29217]))                                  
+                                :type ("boost::enable_if::type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [29067 29334]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [16547 29337]))                  
+                :type "namespace")
+                nil [2968 29359])
+            ("boost/config/abi_suffix.hpp" include (:system-flag t) nil [29464 29502]))          
+      :file "duration.hpp"
+      :pointmax 29578
+      :fsize 29577
+      :lastmodtime '(21727 6064 0 0)
+      :unmatched-syntax '((symbol 29047 . 29062) (INLINE 29040 . 29046) (punctuation 29034 . 29035) (symbol 29028 . 29034) (CLASS 29022 . 29027) (punctuation 29020 . 29021) (symbol 29017 . 29020) (CLASS 29011 . 29016) (punctuation 29009 . 29010) (symbol 28999 . 29009) (CLASS 28993 . 28998) (punctuation 28992 . 28993) (TEMPLATE 28983 . 28991) (symbol 28493 . 28508) (INLINE 28486 . 28492) (punctuation 28480 . 28481) (symbol 28473 . 28480) (CLASS 28467 . 28472) (punctuation 28465 . 28466) (symbol 28461 . 28465) (CLASS 28455 . 28460) (punctuation 28453 . 28454) (symbol 28446 . 28453) (CLASS 28440 . 28445) (punctuation 28438 . 28439) (symbol 28434 . 28438) (CLASS 28428 . 28433) (punctuation 28427 . 28428) (TEMPLATE 28418 . 28426) (symbol 28230 . 28245) (INLINE 28223 . 28229) (punctuation 28217 . 28218) (symbol 28210 . 28217) (CLASS 28204 . 28209) (punctuation 28202 . 28203) (symbol 28198 . 28202) (CLASS 28192 . 28197) (punctuation 28190 . 28191) (symbol 28183 . 28190) (CLASS 28177 . 28182) (punctuation 28175 . 28176) (symbol 28171 . 28175) (CLASS 28165 . 28170) (punctuation 28164 . 28165) (TEMPLATE 28155 . 28163) (symbol 27970 . 27985) (INLINE 27963 . 27969) (punctuation 27957 . 27958) (symbol 27950 . 27957) (CLASS 27944 . 27949) (punctuation 27942 . 27943) (symbol 27938 . 27942) (CLASS 27932 . 27937) (punctuation 27930 . 27931) (symbol 27923 . 27930) (CLASS 27917 . 27922) (punctuation 27915 . 27916) (symbol 27911 . 27915) (CLASS 27905 . 27910) (punctuation 27904 . 27905) (TEMPLATE 27895 . 27903) (symbol 27612 . 27627) (INLINE 27605 . 27611) (punctuation 27599 . 27600) (symbol 27592 . 27599) (CLASS 27586 . 27591) (punctuation 27584 . 27585) (symbol 27580 . 27584) (CLASS 27574 . 27579) (punctuation 27572 . 27573) (symbol 27565 . 27572) (CLASS 27559 . 27564) (punctuation 27557 . 27558) (symbol 27553 . 27557) (CLASS 27547 . 27552) (punctuation 27546 . 27547) (TEMPLATE 27537 . 27545) (symbol 27349 . 27364) (INLINE 27342 . 27348) (punctuation 27336 . 27337) (symbol 27329 . 27336) (CLASS 27323 . 27328) (punctuation 27321 . 27322) (symbol 27317 . 27321) (CLASS 27311 . 27316) (punctuation 27309 . 27310) (symbol 27302 . 27309) (CLASS 27296 . 27301) (punctuation 27294 . 27295) (symbol 27290 . 27294) (CLASS 27284 . 27289) (punctuation 27283 . 27284) (TEMPLATE 27274 . 27282) (symbol 26988 . 27003) (INLINE 26981 . 26987) (punctuation 26975 . 26976) (symbol 26968 . 26975) (CLASS 26962 . 26967) (punctuation 26960 . 26961) (symbol 26956 . 26960) (CLASS 26950 . 26955) (punctuation 26948 . 26949) (symbol 26941 . 26948) (CLASS 26935 . 26940) (punctuation 26933 . 26934) (symbol 26929 . 26933) (CLASS 26923 . 26928) (punctuation 26922 . 26923) (TEMPLATE 26913 . 26921) (symbol 26706 . 26721) (symbol 26367 . 26382) (symbol 26119 . 26134) (symbol 25779 . 25794) (punctuation 25135 . 25136) (punctuation 25134 . 25135) (punctuation 25133 . 25134) (punctuation 25131 . 25132) (symbol 25124 . 25131) (punctuation 25122 . 25123) (symbol 25118 . 25122) (punctuation 25117 . 25118) (symbol 25109 . 25117) (punctuation 25107 . 25108) (punctuation 25106 . 25107) (symbol 25099 . 25106) (punctuation 25097 . 25098) (symbol 25093 . 25097) (punctuation 25092 . 25093) (symbol 25084 . 25092) (punctuation 25083 . 25084) (symbol 25072 . 25083) (TYPENAME 25063 . 25071) (symbol 25043 . 25058) (INLINE 25036 . 25042) (punctuation 25030 . 25031) (symbol 25023 . 25030) (CLASS 25017 . 25022) (punctuation 25015 . 25016) (symbol 25011 . 25015) (CLASS 25005 . 25010) (punctuation 25003 . 25004) (symbol 24996 . 25003) (CLASS 24990 . 24995) (punctuation 24988 . 24989) (symbol 24984 . 24988) (CLASS 24978 . 24983) (punctuation 24977 . 24978) (TEMPLATE 24968 . 24976) (punctuation 24731 . 24732) (punctuation 24730 . 24731) (punctuation 24729 . 24730) (symbol 24720 . 24724) (punctuation 24719 . 24720) (punctuation 24718 . 24719) (punctuation 24717 . 24718) (symbol 24713 . 24717) (punctuation 24711 . 24712) (punctuation 24710 . 24711) (symbol 24704 . 24710) (punctuation 24702 . 24703) (symbol 24698 . 24702) (punctuation 24697 . 24698) (symbol 24689 . 24697) (punctuation 24679 . 24680) (symbol 24657 . 24679) (punctuation 24656 . 24657) (punctuation 24655 . 24656) (symbol 24649 . 24655) (punctuation 24648 . 24649) (punctuation 24647 . 24648) (symbol 24641 . 24647) (punctuation 24640 . 24641) (punctuation 24639 . 24640) (symbol 24634 . 24639) (TYPENAME 24625 . 24633) (punctuation 24617 . 24618) (punctuation 24616 . 24617) (symbol 24612 . 24616) (punctuation 24611 . 24612) (symbol 24600 . 24611) (punctuation 24599 . 24600) (punctuation 24598 . 24599) (symbol 24592 . 24598) (punctuation 24591 . 24592) (punctuation 24590 . 24591) (symbol 24584 . 24590) (punctuation 24583 . 24584) (punctuation 24582 . 24583) (symbol 24577 . 24582) (punctuation 24576 . 24577) (symbol 24565 . 24575) (punctuation 24564 . 24565) (punctuation 24563 . 24564) (symbol 24558 . 24563) (TYPENAME 24549 . 24557) (symbol 24529 . 24544) (INLINE 24522 . 24528) (punctuation 24516 . 24517) (symbol 24512 . 24516) (CLASS 24506 . 24511) (punctuation 24504 . 24505) (symbol 24498 . 24504) (CLASS 24492 . 24497) (punctuation 24490 . 24491) (symbol 24486 . 24490) (CLASS 24480 . 24485) (punctuation 24479 . 24480) (TEMPLATE 24470 . 24478) (punctuation 23616 . 23617) (punctuation 23615 . 23616) (punctuation 23614 . 23615) (symbol 23610 . 23614) (punctuation 23608 . 23609) (symbol 23604 . 23608) (punctuation 23603 . 23604) (symbol 23592 . 23603) (TYPENAME 23583 . 23591) (symbol 23563 . 23578) (INLINE 23556 . 23562) (punctuation 23550 . 23551) (symbol 23543 . 23550) (CLASS 23537 . 23542) (punctuation 23535 . 23536) (symbol 23531 . 23535) (CLASS 23525 . 23530) (punctuation 23523 . 23524) (symbol 23516 . 23523) (CLASS 23510 . 23515) (punctuation 23508 . 23509) (symbol 23504 . 23508) (CLASS 23498 . 23503) (punctuation 23497 . 23498) (TEMPLATE 23488 . 23496) (punctuation 23251 . 23252) (punctuation 23250 . 23251) (punctuation 23249 . 23250) (symbol 23240 . 23244) (punctuation 23239 . 23240) (punctuation 23238 . 23239) (punctuation 23237 . 23238) (symbol 23233 . 23237) (punctuation 23231 . 23232) (punctuation 23230 . 23231) (symbol 23224 . 23230) (punctuation 23222 . 23223) (symbol 23218 . 23222) (punctuation 23217 . 23218) (symbol 23209 . 23217) (punctuation 23199 . 23200) (symbol 23177 . 23199) (punctuation 23176 . 23177) (punctuation 23175 . 23176) (symbol 23169 . 23175) (punctuation 23168 . 23169) (punctuation 23167 . 23168) (symbol 23161 . 23167) (punctuation 23160 . 23161) (punctuation 23159 . 23160) (symbol 23154 . 23159) (TYPENAME 23145 . 23153) (punctuation 23137 . 23138) (punctuation 23136 . 23137) (symbol 23132 . 23136) (punctuation 23131 . 23132) (symbol 23120 . 23131) (punctuation 23119 . 23120) (punctuation 23118 . 23119) (symbol 23112 . 23118) (punctuation 23111 . 23112) (punctuation 23110 . 23111) (symbol 23104 . 23110) (punctuation 23103 . 23104) (punctuation 23102 . 23103) (symbol 23097 . 23102) (punctuation 23096 . 23097) (symbol 23085 . 23095) (punctuation 23084 . 23085) (punctuation 23083 . 23084) (symbol 23078 . 23083) (TYPENAME 23069 . 23077) (symbol 23049 . 23064) (INLINE 23042 . 23048) (punctuation 23036 . 23037) (symbol 23032 . 23036) (CLASS 23026 . 23031) (punctuation 23024 . 23025) (symbol 23018 . 23024) (CLASS 23012 . 23017) (punctuation 23010 . 23011) (symbol 23006 . 23010) (CLASS 23000 . 23005) (punctuation 22999 . 23000) (TEMPLATE 22990 . 22998) (punctuation 22864 . 22865) (punctuation 22863 . 22864) (punctuation 22862 . 22863) (punctuation 22856 . 22857) (symbol 22850 . 22856) (punctuation 22848 . 22849) (symbol 22844 . 22848) (punctuation 22843 . 22844) (punctuation 22842 . 22843) (punctuation 22841 . 22842) (symbol 22837 . 22841) (punctuation 22835 . 22836) (symbol 22831 . 22835) (punctuation 22830 . 22831) (symbol 22819 . 22830) (TYPENAME 22810 . 22818) (punctuation 22809 . 22810) (symbol 22801 . 22809) (punctuation 22791 . 22792) (punctuation 22790 . 22791) (punctuation 22780 . 22781) (symbol 22776 . 22780) (punctuation 22775 . 22776) (punctuation 22774 . 22775) (punctuation 22773 . 22774) (symbol 22769 . 22773) (punctuation 22767 . 22768) (symbol 22763 . 22767) (punctuation 22762 . 22763) (symbol 22751 . 22762) (TYPENAME 22742 . 22750) (punctuation 22740 . 22741) (symbol 22736 . 22740) (punctuation 22735 . 22736) (symbol 22721 . 22735) (punctuation 22720 . 22721) (punctuation 22719 . 22720) (symbol 22714 . 22719) (punctuation 22704 . 22705) (punctuation 22703 . 22704) (symbol 22699 . 22703) (punctuation 22698 . 22699) (punctuation 22697 . 22698) (punctuation 22696 . 22697) (symbol 22692 . 22696) (punctuation 22690 . 22691) (symbol 22686 . 22690) (punctuation 22685 . 22686) (symbol 22674 . 22685) (TYPENAME 22665 . 22673) (punctuation 22663 . 22664) (symbol 22659 . 22663) (punctuation 22658 . 22659) (symbol 22644 . 22658) (punctuation 22643 . 22644) (punctuation 22642 . 22643) (symbol 22637 . 22642) (punctuation 22627 . 22628) (symbol 22622 . 22626) (punctuation 22621 . 22622) (punctuation 22620 . 22621) (symbol 22617 . 22620) (punctuation 22607 . 22608) (symbol 22597 . 22606) (punctuation 22596 . 22597) (punctuation 22595 . 22596) (symbol 22590 . 22595) (TYPENAME 22581 . 22589) (symbol 22561 . 22576) (INLINE 22554 . 22560) (punctuation 22548 . 22549) (symbol 22544 . 22548) (CLASS 22538 . 22543) (punctuation 22536 . 22537) (symbol 22530 . 22536) (CLASS 22524 . 22529) (punctuation 22522 . 22523) (symbol 22518 . 22522) (CLASS 22512 . 22517) (punctuation 22511 . 22512) (TEMPLATE 22502 . 22510) (punctuation 22270 . 22271) (punctuation 22269 . 22270) (punctuation 22268 . 22269) (punctuation 22262 . 22263) (symbol 22256 . 22262) (punctuation 22254 . 22255) (symbol 22250 . 22254) (punctuation 22249 . 22250) (punctuation 22248 . 22249) (punctuation 22247 . 22248) (symbol 22243 . 22247) (punctuation 22241 . 22242) (symbol 22237 . 22241) (punctuation 22236 . 22237) (symbol 22225 . 22236) (TYPENAME 22216 . 22224) (punctuation 22215 . 22216) (symbol 22207 . 22215) (punctuation 22197 . 22198) (punctuation 22196 . 22197) (punctuation 22186 . 22187) (symbol 22182 . 22186) (punctuation 22181 . 22182) (punctuation 22180 . 22181) (punctuation 22179 . 22180) (symbol 22175 . 22179) (punctuation 22173 . 22174) (symbol 22169 . 22173) (punctuation 22168 . 22169) (symbol 22157 . 22168) (TYPENAME 22148 . 22156) (punctuation 22146 . 22147) (symbol 22142 . 22146) (punctuation 22141 . 22142) (symbol 22127 . 22141) (punctuation 22126 . 22127) (punctuation 22125 . 22126) (symbol 22120 . 22125) (punctuation 22110 . 22111) (punctuation 22109 . 22110) (symbol 22105 . 22109) (punctuation 22104 . 22105) (punctuation 22103 . 22104) (punctuation 22102 . 22103) (symbol 22098 . 22102) (punctuation 22096 . 22097) (symbol 22092 . 22096) (punctuation 22091 . 22092) (symbol 22080 . 22091) (TYPENAME 22071 . 22079) (punctuation 22069 . 22070) (symbol 22065 . 22069) (punctuation 22064 . 22065) (symbol 22050 . 22064) (punctuation 22049 . 22050) (punctuation 22048 . 22049) (symbol 22043 . 22048) (punctuation 22033 . 22034) (symbol 22028 . 22032) (punctuation 22027 . 22028) (punctuation 22026 . 22027) (symbol 22023 . 22026) (punctuation 22013 . 22014) (symbol 22003 . 22012) (punctuation 22002 . 22003) (punctuation 22001 . 22002) (symbol 21996 . 22001) (TYPENAME 21987 . 21995) (symbol 21967 . 21982) (INLINE 21960 . 21966) (punctuation 21954 . 21955) (symbol 21950 . 21954) (CLASS 21944 . 21949) (punctuation 21942 . 21943) (symbol 21936 . 21942) (CLASS 21930 . 21935) (punctuation 21928 . 21929) (symbol 21924 . 21928) (CLASS 21918 . 21923) (punctuation 21917 . 21918) (TEMPLATE 21908 . 21916) (punctuation 21612 . 21613) (punctuation 21611 . 21612) (punctuation 21610 . 21611) (punctuation 21608 . 21609) (symbol 21601 . 21608) (punctuation 21599 . 21600) (symbol 21595 . 21599) (punctuation 21594 . 21595) (symbol 21586 . 21594) (punctuation 21584 . 21585) (punctuation 21583 . 21584) (symbol 21576 . 21583) (punctuation 21574 . 21575) (symbol 21570 . 21574) (punctuation 21569 . 21570) (symbol 21561 . 21569) (punctuation 21560 . 21561) (symbol 21549 . 21560) (TYPENAME 21540 . 21548) (symbol 21520 . 21535) (INLINE 21513 . 21519) (punctuation 21507 . 21508) (symbol 21500 . 21507) (CLASS 21494 . 21499) (punctuation 21492 . 21493) (symbol 21488 . 21492) (CLASS 21482 . 21487) (punctuation 21480 . 21481) (symbol 21473 . 21480) (CLASS 21467 . 21472) (punctuation 21465 . 21466) (symbol 21461 . 21465) (CLASS 21455 . 21460) (punctuation 21454 . 21455) (TEMPLATE 21445 . 21453) (punctuation 21153 . 21154) (punctuation 21152 . 21153) (punctuation 21151 . 21152) (punctuation 21149 . 21150) (symbol 21142 . 21149) (punctuation 21140 . 21141) (symbol 21136 . 21140) (punctuation 21135 . 21136) (symbol 21127 . 21135) (punctuation 21125 . 21126) (punctuation 21124 . 21125) (symbol 21117 . 21124) (punctuation 21115 . 21116) (symbol 21111 . 21115) (punctuation 21110 . 21111) (symbol 21102 . 21110) (punctuation 21101 . 21102) (symbol 21090 . 21101) (TYPENAME 21081 . 21089) (symbol 21061 . 21076) (INLINE 21054 . 21060) (punctuation 21048 . 21049) (symbol 21041 . 21048) (CLASS 21035 . 21040) (punctuation 21033 . 21034) (symbol 21029 . 21033) (CLASS 21023 . 21028) (punctuation 21021 . 21022) (symbol 21014 . 21021) (CLASS 21008 . 21013) (punctuation 21006 . 21007) (symbol 21002 . 21006) (CLASS 20996 . 21001) (punctuation 20995 . 20996) (TEMPLATE 20986 . 20994) (punctuation 16127 . 16128) (symbol 16123 . 16127) (punctuation 16122 . 16123) (punctuation 16121 . 16122) (punctuation 16120 . 16121) (symbol 16113 . 16120) (punctuation 16111 . 16112) (symbol 16104 . 16111) (punctuation 16103 . 16104) (symbol 16094 . 16103) (punctuation 16093 . 16094) (punctuation 16092 . 16093) (symbol 16087 . 16092) (TYPENAME 16078 . 16086) (punctuation 16054 . 16055) (symbol 16050 . 16054) (punctuation 16049 . 16050) (punctuation 16048 . 16049) (punctuation 16047 . 16048) (symbol 16043 . 16047) (punctuation 16041 . 16042) (symbol 16037 . 16041) (punctuation 16036 . 16037) (symbol 16025 . 16036) (TYPENAME 16016 . 16024) (punctuation 16015 . 16016) (symbol 16007 . 16015) (punctuation 16006 . 16007) (punctuation 16005 . 16006) (symbol 15999 . 16005) (TYPEDEF 15991 . 15998) (symbol 15436 . 15439) (symbol 15409 . 15435) (STATIC 15402 . 15408) (symbol 15291 . 15294) (symbol 15264 . 15290) (STATIC 15257 . 15263) (symbol 15209 . 15224) (STATIC 15202 . 15208) (punctuation 15147 . 15148) (semantic-list 15145 . 15147) (punctuation 15139 . 15140) (symbol 15135 . 15139) (punctuation 15134 . 15135) (punctuation 15133 . 15134) (punctuation 15132 . 15133) (symbol 15131 . 15132) (punctuation 15130 . 15131) (symbol 15121 . 15130) (TYPENAME 15112 . 15120) (punctuation 15111 . 15112) (symbol 15090 . 15111) (punctuation 15088 . 15089) (symbol 15073 . 15087) (STRUCT 15066 . 15072) (punctuation 15060 . 15061) (symbol 15059 . 15060) (CLASS 15053 . 15058) (punctuation 15052 . 15053) (TEMPLATE 15043 . 15051) (semantic-list 14956 . 15030) (symbol 14913 . 14947) (semantic-list 14910 . 14912) (symbol 14904 . 14910) (DOUBLE 14897 . 14903) (LONG 14892 . 14896) (symbol 14865 . 14891) (STATIC 14858 . 14864) (semantic-list 14702 . 14772) (symbol 14659 . 14693) (semantic-list 14656 . 14658) (symbol 14650 . 14656) (DOUBLE 14643 . 14649) (symbol 14616 . 14642) (STATIC 14609 . 14615) (semantic-list 14459 . 14528) (symbol 14416 . 14450) (semantic-list 14413 . 14415) (symbol 14407 . 14413) (FLOAT 14401 . 14406) (symbol 14374 . 14400) (STATIC 14367 . 14373) (semantic-list 14244 . 14287) (symbol 14209 . 14243) (semantic-list 14206 . 14208) (symbol 14200 . 14206) (symbol 14198 . 14199) (symbol 14171 . 14197) (STATIC 14164 . 14170) (semantic-list 14038 . 14081) (symbol 14003 . 14037) (semantic-list 14000 . 14002) (symbol 13994 . 14000) (symbol 13992 . 13993) (symbol 13965 . 13991) (STATIC 13958 . 13964) (punctuation 13913 . 13914) (symbol 13908 . 13913) (punctuation 13907 . 13908) (punctuation 13906 . 13907) (punctuation 13905 . 13906) (symbol 13904 . 13905) (punctuation 13903 . 13904) (symbol 13890 . 13903) (punctuation 13888 . 13889) (BOOL 13883 . 13887) (punctuation 13881 . 13882) (symbol 13880 . 13881) (CLASS 13874 . 13879) (punctuation 13873 . 13874) (TEMPLATE 13864 . 13872) (symbol 12454 . 12469) (punctuation 12439 . 12440) (number 12429 . 12430) (punctuation 12427 . 12428) (punctuation 12426 . 12427) (symbol 12422 . 12425) (punctuation 12421 . 12422) (punctuation 12420 . 12421) (symbol 12414 . 12420) (punctuation 12400 . 12401) (number 12399 . 12400) (punctuation 12397 . 12398) (punctuation 12396 . 12397) (symbol 12392 . 12395) (punctuation 12391 . 12392) (punctuation 12390 . 12391) (symbol 12384 . 12390) (punctuation 12370 . 12371) (symbol 12364 . 12370) (punctuation 12350 . 12351) (symbol 12340 . 12350) (punctuation 12326 . 12327) (symbol 12314 . 12326) (punctuation 12300 . 12301) (symbol 12283 . 12300) (TYPEDEF 12275 . 12282) (punctuation 12253 . 12254) (punctuation 12252 . 12253) (punctuation 12251 . 12252) (symbol 12245 . 12251) (punctuation 12244 . 12245) (punctuation 12243 . 12244) (symbol 12233 . 12243) (TYPENAME 12224 . 12232) (punctuation 12208 . 12209) (symbol 12202 . 12208) (punctuation 12201 . 12202) (punctuation 12200 . 12201) (symbol 12188 . 12200) (TYPENAME 12179 . 12187) (punctuation 12178 . 12179) (symbol 12166 . 12178) (TYPENAME 12157 . 12165) (TYPEDEF 12149 . 12156) (symbol 11611 . 11626) (symbol 10552 . 10567) (symbol 9589 . 9604) (symbol 8815 . 8830) (punctuation 6006 . 6007) (symbol 6000 . 6006) (punctuation 5998 . 5999) (symbol 5994 . 5998) (punctuation 5993 . 5994) (punctuation 5992 . 5993) (punctuation 5991 . 5992) (symbol 5987 . 5991) (punctuation 5985 . 5986) (symbol 5981 . 5985) (punctuation 5980 . 5981) (symbol 5969 . 5980) (TYPENAME 5960 . 5968) (punctuation 5959 . 5960) (symbol 5951 . 5959) (TYPEDEF 5943 . 5950) (punctuation 5763 . 5764) (semantic-list 5434 . 5754) (punctuation 5432 . 5433) (BOOL 5427 . 5431) (punctuation 5417 . 5418) (symbol 5413 . 5417) (CLASS 5407 . 5412) (punctuation 5405 . 5406) (symbol 5397 . 5405) (CLASS 5391 . 5396) (punctuation 5390 . 5391) (TEMPLATE 5381 . 5389) (punctuation 5327 . 5328) (symbol 5322 . 5327) (punctuation 5321 . 5322) (punctuation 5320 . 5321) (punctuation 5319 . 5320) (symbol 5316 . 5319) (punctuation 5315 . 5316) (symbol 5304 . 5315) (punctuation 5302 . 5303) (BOOL 5297 . 5301) (punctuation 5295 . 5296) (symbol 5292 . 5295) (CLASS 5286 . 5291) (punctuation 5284 . 5285) (symbol 5276 . 5284) (CLASS 5270 . 5275) (punctuation 5269 . 5270) (TEMPLATE 5260 . 5268) (punctuation 4776 . 4777) (semantic-list 4451 . 4767) (punctuation 4449 . 4450) (BOOL 4444 . 4448) (punctuation 4434 . 4435) (symbol 4426 . 4434) (CLASS 4420 . 4425) (punctuation 4418 . 4419) (symbol 4415 . 4418) (CLASS 4409 . 4414) (punctuation 4408 . 4409) (TEMPLATE 4399 . 4407) (punctuation 4344 . 4345) (symbol 4339 . 4344) (punctuation 4338 . 4339) (punctuation 4337 . 4338) (punctuation 4336 . 4337) (symbol 4333 . 4336) (punctuation 4332 . 4333) (symbol 4321 . 4332) (punctuation 4319 . 4320) (BOOL 4314 . 4318) (punctuation 4312 . 4313) (symbol 4304 . 4312) (CLASS 4298 . 4303) (punctuation 4296 . 4297) (symbol 4293 . 4296) (CLASS 4287 . 4292) (punctuation 4286 . 4287) (TEMPLATE 4277 . 4285) (punctuation 4056 . 4057) (symbol 4050 . 4056) (punctuation 4048 . 4049) (symbol 4044 . 4048) (punctuation 4043 . 4044) (punctuation 4042 . 4043) (punctuation 4041 . 4042) (symbol 4037 . 4041) (punctuation 4035 . 4036) (symbol 4031 . 4035) (punctuation 4030 . 4031) (symbol 4019 . 4030) (TYPENAME 4010 . 4018) (punctuation 4009 . 4010) (symbol 4001 . 4009) (TYPEDEF 3993 . 4000) (punctuation 3813 . 3814) (semantic-list 3485 . 3804) (punctuation 3483 . 3484) (BOOL 3478 . 3482) (punctuation 3468 . 3469) (symbol 3464 . 3468) (CLASS 3458 . 3463) (punctuation 3456 . 3457) (symbol 3448 . 3456) (CLASS 3442 . 3447) (punctuation 3441 . 3442) (TEMPLATE 3432 . 3440) (punctuation 3378 . 3379) (symbol 3373 . 3378) (punctuation 3372 . 3373) (punctuation 3371 . 3372) (punctuation 3370 . 3371) (symbol 3367 . 3370) (punctuation 3366 . 3367) (symbol 3355 . 3366) (punctuation 3353 . 3354) (BOOL 3348 . 3352) (punctuation 3346 . 3347) (symbol 3343 . 3346) (CLASS 3337 . 3342) (punctuation 3335 . 3336) (symbol 3327 . 3335) (CLASS 3321 . 3326) (punctuation 3320 . 3321) (TEMPLATE 3311 . 3319))
+      :lexical-table 
+        '(("BOOST_CHRONO_A_DURATION_REPRESENTATION_CAN_NOT_BE_A_DURATION" . ((string "\"A duration representation can not be a duration\"" 1840 . 1889)))
+          ("BOOST_CHRONO_SECOND_TEMPLATE_PARAMETER_OF_DURATION_MUST_BE_A_STD_RATIO" . ((string "\"Second template parameter of duration must be a boost::ratio\"" 1969 . 2031)))
+          ("BOOST_CHRONO_DURATION_PERIOD_MUST_BE_POSITIVE" . ((string "\"duration period must be positive\"" 2086 . 2120)))
+          ("BOOST_CHRONO_SECOND_TEMPLATE_PARAMETER_OF_TIME_POINT_MUST_BE_A_BOOST_CHRONO_DURATION" . ((string "\"Second template parameter of time_point must be a boost::chrono::duration\"" 2214 . 2289)))
+          ("BOOST_CHRONO_DURATION_HPP")
+          )
+)
+    (semanticdb-table "time_point.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_CHRONO_TIME_POINT_HPP" variable (:constant-flag t) nil [1025 1052])
+            ("boost/chrono/duration.hpp" include (:system-flag t) nil [1054 1090])
+            ("iostream" include (:system-flag t) nil [1091 1110])
+            ("boost/config/abi_prefix.hpp" include (:system-flag t) nil [1219 1257])
+            ("boost" type
+               (:members 
+                  ( ("chrono" type
+                       (:members 
+                          ( ("time_point" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [1892 1909]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1800 1913])
+                    ("common_type" type
+                       (:template 
+                          ( ("Clock" type (:type "class") nil nil)
+                            ("Duration1" type (:type "class") nil nil)
+                            ("Duration2" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :template-specifier 
+                          ( ("chrono::time_point" type nil nil nil)
+                            ("chrono::time_point" type nil nil nil))                          
+                        :prototype t)
+                        (reparse-symbol namespacesubparts) [1974 2150])
+                    ("common_type" type
+                       (:template 
+                          ( ("Clock" type (:type "class") nil nil)
+                            ("Duration1" type (:type "class") nil nil)
+                            ("Duration2" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("type" variable (:type "int") (reparse-symbol classsubparts) [2662 2667]))                          
+                        :template-specifier 
+                          ( ("chrono::time_point" type nil nil nil)
+                            ("chrono::time_point" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [2398 2670])
+                    ("chrono" type
+                       (:members 
+                          ( ("+" function
+                               (:prototype-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [2943 2983])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [2996 3031]))                                  
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [2920 3032])
+                            ("+" function
+                               (:prototype-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3252 3287])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3300 3340]))                                  
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [3229 3341])
+                            ("-" function
+                               (:prototype-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3562 3602])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3615 3650]))                                  
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [3539 3651])
+                            ("-" function
+                               (:prototype-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3820 3860])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3873 3925]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [3788 3926])
+                            ("==" function
+                               (:prototype-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4077 4117])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4128 4168]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [4050 4169])
+                            ("!=" function
+                               (:prototype-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4289 4329])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4340 4380]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [4262 4381])
+                            ("<" function
+                               (:prototype-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4501 4541])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4552 4592]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [4474 4593])
+                            ("<=" function
+                               (:prototype-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4713 4753])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4764 4804]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [4686 4805])
+                            (">" function
+                               (:prototype-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4925 4965])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4976 5016]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [4898 5017])
+                            (">=" function
+                               (:prototype-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [5137 5177])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [5188 5228]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [5110 5229])
+                            ("time_point_cast" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("t" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [5392 5429]))                                  
+                                :type ("time_point" type
+                                     (:template-specifier 
+                                        ( ("Clock" type nil nil nil)
+                                          ("ToDuration" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol namespacesubparts) [5346 5430])
+                            ("time_point" type
+                               (:template 
+                                  ( ("Clock" type (:type "class") nil nil)
+                                    ("Duration" type (:type "class") nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("BOOST_CHRONO_STATIC_ASSERT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type ("boost::chrono::detail::is_duration::value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5943 5995])
+                                            ("" variable (:type ("BOOST_CHRONO_SECOND_TEMPLATE_PARAMETER_OF_TIME_POINT_MUST_BE_A_BOOST_CHRONO_DURATION" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6012 6097]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [5916 6110])
+                                    ("public" label nil (reparse-symbol classsubparts) [6115 6122])
+                                    ("clock" type
+                                       (:typedef ("Clock" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [6131 6171])
+                                    ("duration" type
+                                       (:typedef ("Duration" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [6180 6223])
+                                    ("rep" type
+                                       (:typedef ("duration::rep" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [6232 6270])
+                                    ("period" type
+                                       (:typedef ("duration::period" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [6279 6320])
+                                    ("difference_type" type
+                                       (:typedef ("Duration" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [6329 6379])
+                                    ("private" label nil (reparse-symbol classsubparts) [6385 6393])
+                                    ("d_" variable (:type ("duration" type (:type "class") nil nil)) (reparse-symbol classsubparts) [6402 6414])
+                                    ("public" label nil (reparse-symbol classsubparts) [6420 6427])
+                                    ("time_point" function
+                                       (:constructor-flag t
+                                        :type ("BOOST_CONSTEXPR" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [6454 6524])
+                                    ("time_point" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("d" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("duration" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [6595 6613]))                                          
+                                        :type ("time_point" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [6584 6644])
+                                    ("time_point" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("t" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("time_point" type
+                                                     (:template-specifier 
+                                                        ( ("clock" type nil nil nil)
+                                                          ("Duration2" type nil nil nil))                                                        
+                                                      :type "class")
+                                                      nil nil))
+                                                (reparse-symbol arg-sub-list) [6765 6820])
+                                            ("" variable
+                                               (:pointer 1
+                                                :typemodifiers ("typename")
+                                                :type ("boost::enable_if::type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [6821 6956]))                                          
+                                        :type ("BOOST_CONSTEXPR" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [6730 7025])
+                                    ("time_since_epoch" function (:type ("duration" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7079 7155])
+                                    ("+=" function
+                                       (:operator-flag t
+                                        :arguments 
+                                          ( ("d" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("duration" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [7828 7846]))                                          
+                                        :type ("time_point" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [7805 7871])
+                                    ("-=" function
+                                       (:operator-flag t
+                                        :arguments 
+                                          ( ("d" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("duration" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [7903 7921]))                                          
+                                        :type ("time_point" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [7880 7946])
+                                    ("BOOST_PREVENT_MACRO_SUBSTITUTION" function (:type ("min" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8036 8145])
+                                    ("BOOST_PREVENT_MACRO_SUBSTITUTION" function (:type ("max" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8207 8316]))                                  )
+                                (reparse-symbol namespacesubparts) [5842 8323])
+                            ("+" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [8832 8872])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [8885 8920]))                                  
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [8822 9172])
+                            ("+" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep1" type nil nil nil)
+                                                  ("Period1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [9436 9471])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [9484 9524]))                                  
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [9426 9562])
+                            ("-" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [9827 9867])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("duration" type
+                                             (:template-specifier 
+                                                ( ("Rep2" type nil nil nil)
+                                                  ("Period2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [9880 9915]))                                  
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [9817 9956])
+                            ("-" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [10169 10209])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [10222 10262]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [10150 10338])
+                            ("==" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [10718 10758])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [10772 10812]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [10698 10889])
+                            ("!=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11025 11065])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11079 11119]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [11005 11161])
+                            ("<" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11295 11335])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11348 11388]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [11276 11464])
+                            (">" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11598 11638])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11651 11691]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [11579 11729])
+                            ("<=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11865 11905])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11919 11959]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [11845 12000])
+                            (">=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("lhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration1" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [12136 12176])
+                                    ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration2" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [12190 12230]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [12116 12271])
+                            ("time_point_cast" function
+                               (:arguments 
+                                  ( ("t" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("time_point" type
+                                             (:template-specifier 
+                                                ( ("Clock" type nil nil nil)
+                                                  ("Duration" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [12659 12696]))                                  
+                                :type ("time_point" type
+                                     (:template-specifier 
+                                        ( ("Clock" type nil nil nil)
+                                          ("ToDuration" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol namespacesubparts) [12609 12820]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2674 12823]))                  
+                :type "namespace")
+                nil [1782 12845])
+            ("boost/config/abi_suffix.hpp" include (:system-flag t) nil [12950 12988]))          
+      :file "time_point.hpp"
+      :pointmax 13066
+      :fsize 13065
+      :lastmodtime '(21727 6064 0 0)
+      :unmatched-syntax '((symbol 12589 . 12604) (INLINE 12582 . 12588) (punctuation 12576 . 12577) (symbol 12568 . 12576) (CLASS 12562 . 12567) (punctuation 12560 . 12561) (symbol 12555 . 12560) (CLASS 12549 . 12554) (punctuation 12547 . 12548) (symbol 12537 . 12547) (CLASS 12531 . 12536) (punctuation 12530 . 12531) (TEMPLATE 12521 . 12529) (symbol 12096 . 12111) (INLINE 12089 . 12095) (punctuation 12083 . 12084) (symbol 12074 . 12083) (CLASS 12068 . 12073) (punctuation 12066 . 12067) (symbol 12057 . 12066) (CLASS 12051 . 12056) (punctuation 12049 . 12050) (symbol 12044 . 12049) (CLASS 12038 . 12043) (punctuation 12037 . 12038) (TEMPLATE 12028 . 12036) (symbol 11825 . 11840) (INLINE 11818 . 11824) (punctuation 11812 . 11813) (symbol 11803 . 11812) (CLASS 11797 . 11802) (punctuation 11795 . 11796) (symbol 11786 . 11795) (CLASS 11780 . 11785) (punctuation 11778 . 11779) (symbol 11773 . 11778) (CLASS 11767 . 11772) (punctuation 11766 . 11767) (TEMPLATE 11757 . 11765) (symbol 11559 . 11574) (INLINE 11552 . 11558) (punctuation 11546 . 11547) (symbol 11537 . 11546) (CLASS 11531 . 11536) (punctuation 11529 . 11530) (symbol 11520 . 11529) (CLASS 11514 . 11519) (punctuation 11512 . 11513) (symbol 11507 . 11512) (CLASS 11501 . 11506) (punctuation 11500 . 11501) (TEMPLATE 11491 . 11499) (symbol 11256 . 11271) (INLINE 11249 . 11255) (punctuation 11243 . 11244) (symbol 11234 . 11243) (CLASS 11228 . 11233) (punctuation 11226 . 11227) (symbol 11217 . 11226) (CLASS 11211 . 11216) (punctuation 11209 . 11210) (symbol 11204 . 11209) (CLASS 11198 . 11203) (punctuation 11197 . 11198) (TEMPLATE 11188 . 11196) (symbol 10985 . 11000) (INLINE 10978 . 10984) (punctuation 10972 . 10973) (symbol 10963 . 10972) (CLASS 10957 . 10962) (punctuation 10955 . 10956) (symbol 10946 . 10955) (CLASS 10940 . 10945) (punctuation 10938 . 10939) (symbol 10933 . 10938) (CLASS 10927 . 10932) (punctuation 10926 . 10927) (TEMPLATE 10917 . 10925) (symbol 10678 . 10693) (INLINE 10671 . 10677) (punctuation 10665 . 10666) (symbol 10656 . 10665) (CLASS 10650 . 10655) (punctuation 10648 . 10649) (symbol 10639 . 10648) (CLASS 10633 . 10638) (punctuation 10631 . 10632) (symbol 10626 . 10631) (CLASS 10620 . 10625) (punctuation 10619 . 10620) (TEMPLATE 10610 . 10618) (punctuation 10149 . 10150) (punctuation 10148 . 10149) (punctuation 10147 . 10148) (symbol 10138 . 10147) (punctuation 10136 . 10137) (symbol 10127 . 10136) (punctuation 10126 . 10127) (symbol 10115 . 10126) (TYPENAME 10106 . 10114) (symbol 10086 . 10101) (INLINE 10079 . 10085) (punctuation 10073 . 10074) (symbol 10064 . 10073) (CLASS 10058 . 10063) (punctuation 10056 . 10057) (symbol 10047 . 10056) (CLASS 10041 . 10046) (punctuation 10039 . 10040) (symbol 10034 . 10039) (CLASS 10028 . 10033) (punctuation 10027 . 10028) (TEMPLATE 10018 . 10026) (punctuation 9811 . 9812) (symbol 9807 . 9811) (punctuation 9806 . 9807) (punctuation 9805 . 9806) (punctuation 9804 . 9805) (punctuation 9802 . 9803) (symbol 9795 . 9802) (punctuation 9793 . 9794) (symbol 9789 . 9793) (punctuation 9788 . 9789) (symbol 9780 . 9788) (punctuation 9778 . 9779) (symbol 9769 . 9778) (punctuation 9768 . 9769) (symbol 9757 . 9768) (TYPENAME 9748 . 9756) (punctuation 9738 . 9739) (symbol 9733 . 9738) (punctuation 9732 . 9733) (symbol 9722 . 9732) (symbol 9702 . 9717) (INLINE 9695 . 9701) (punctuation 9689 . 9690) (symbol 9682 . 9689) (CLASS 9676 . 9681) (punctuation 9674 . 9675) (symbol 9670 . 9674) (CLASS 9664 . 9669) (punctuation 9662 . 9663) (symbol 9653 . 9662) (CLASS 9647 . 9652) (punctuation 9645 . 9646) (symbol 9640 . 9645) (CLASS 9634 . 9639) (punctuation 9633 . 9634) (TEMPLATE 9624 . 9632) (punctuation 9420 . 9421) (symbol 9416 . 9420) (punctuation 9415 . 9416) (punctuation 9414 . 9415) (punctuation 9413 . 9414) (symbol 9404 . 9413) (punctuation 9402 . 9403) (punctuation 9401 . 9402) (symbol 9394 . 9401) (punctuation 9392 . 9393) (symbol 9388 . 9392) (punctuation 9387 . 9388) (symbol 9379 . 9387) (punctuation 9378 . 9379) (symbol 9367 . 9378) (TYPENAME 9358 . 9366) (punctuation 9348 . 9349) (symbol 9343 . 9348) (punctuation 9342 . 9343) (symbol 9332 . 9342) (symbol 9312 . 9327) (INLINE 9305 . 9311) (punctuation 9299 . 9300) (symbol 9290 . 9299) (CLASS 9284 . 9289) (punctuation 9282 . 9283) (symbol 9277 . 9282) (CLASS 9271 . 9276) (punctuation 9269 . 9270) (symbol 9262 . 9269) (CLASS 9256 . 9261) (punctuation 9254 . 9255) (symbol 9250 . 9254) (CLASS 9244 . 9249) (punctuation 9243 . 9244) (TEMPLATE 9234 . 9242) (punctuation 8816 . 8817) (symbol 8812 . 8816) (punctuation 8811 . 8812) (punctuation 8810 . 8811) (punctuation 8809 . 8810) (punctuation 8807 . 8808) (symbol 8800 . 8807) (punctuation 8798 . 8799) (symbol 8794 . 8798) (punctuation 8793 . 8794) (symbol 8785 . 8793) (punctuation 8783 . 8784) (symbol 8774 . 8783) (punctuation 8773 . 8774) (symbol 8762 . 8773) (TYPENAME 8753 . 8761) (punctuation 8743 . 8744) (symbol 8738 . 8743) (punctuation 8737 . 8738) (symbol 8727 . 8737) (symbol 8707 . 8722) (INLINE 8700 . 8706) (punctuation 8694 . 8695) (symbol 8687 . 8694) (CLASS 8681 . 8686) (punctuation 8679 . 8680) (symbol 8675 . 8679) (CLASS 8669 . 8674) (punctuation 8667 . 8668) (symbol 8658 . 8667) (CLASS 8652 . 8657) (punctuation 8650 . 8651) (symbol 8645 . 8650) (CLASS 8639 . 8644) (punctuation 8638 . 8639) (TEMPLATE 8629 . 8637) (symbol 8188 . 8198) (symbol 8161 . 8187) (STATIC 8154 . 8160) (symbol 8017 . 8027) (symbol 7990 . 8016) (STATIC 7983 . 7989) (symbol 7055 . 7070) (symbol 6712 . 6729) (punctuation 6702 . 6703) (symbol 6693 . 6702) (CLASS 6687 . 6692) (punctuation 6686 . 6687) (TEMPLATE 6677 . 6685) (EXPLICIT 6575 . 6583) (symbol 6551 . 6566) (symbol 6533 . 6550) (symbol 6436 . 6453) (semantic-list 6098 . 6108) (symbol 5326 . 5341) (INLINE 5319 . 5325) (punctuation 5313 . 5314) (symbol 5305 . 5313) (CLASS 5299 . 5304) (punctuation 5297 . 5298) (symbol 5292 . 5297) (CLASS 5286 . 5291) (punctuation 5284 . 5285) (symbol 5274 . 5284) (CLASS 5268 . 5273) (punctuation 5267 . 5268) (TEMPLATE 5258 . 5266) (symbol 5090 . 5105) (INLINE 5083 . 5089) (punctuation 5077 . 5078) (symbol 5068 . 5077) (CLASS 5062 . 5067) (punctuation 5060 . 5061) (symbol 5051 . 5060) (CLASS 5045 . 5050) (punctuation 5043 . 5044) (symbol 5038 . 5043) (CLASS 5032 . 5037) (punctuation 5031 . 5032) (TEMPLATE 5022 . 5030) (symbol 4878 . 4893) (INLINE 4871 . 4877) (punctuation 4865 . 4866) (symbol 4856 . 4865) (CLASS 4850 . 4855) (punctuation 4848 . 4849) (symbol 4839 . 4848) (CLASS 4833 . 4838) (punctuation 4831 . 4832) (symbol 4826 . 4831) (CLASS 4820 . 4825) (punctuation 4819 . 4820) (TEMPLATE 4810 . 4818) (symbol 4666 . 4681) (INLINE 4659 . 4665) (punctuation 4653 . 4654) (symbol 4644 . 4653) (CLASS 4638 . 4643) (punctuation 4636 . 4637) (symbol 4627 . 4636) (CLASS 4621 . 4626) (punctuation 4619 . 4620) (symbol 4614 . 4619) (CLASS 4608 . 4613) (punctuation 4607 . 4608) (TEMPLATE 4598 . 4606) (symbol 4454 . 4469) (INLINE 4447 . 4453) (punctuation 4441 . 4442) (symbol 4432 . 4441) (CLASS 4426 . 4431) (punctuation 4424 . 4425) (symbol 4415 . 4424) (CLASS 4409 . 4414) (punctuation 4407 . 4408) (symbol 4402 . 4407) (CLASS 4396 . 4401) (punctuation 4395 . 4396) (TEMPLATE 4386 . 4394) (symbol 4242 . 4257) (INLINE 4235 . 4241) (punctuation 4229 . 4230) (symbol 4220 . 4229) (CLASS 4214 . 4219) (punctuation 4212 . 4213) (symbol 4203 . 4212) (CLASS 4197 . 4202) (punctuation 4195 . 4196) (symbol 4190 . 4195) (CLASS 4184 . 4189) (punctuation 4183 . 4184) (TEMPLATE 4174 . 4182) (symbol 4030 . 4045) (INLINE 4023 . 4029) (punctuation 4017 . 4018) (symbol 4008 . 4017) (CLASS 4002 . 4007) (punctuation 4000 . 4001) (symbol 3991 . 4000) (CLASS 3985 . 3990) (punctuation 3983 . 3984) (symbol 3978 . 3983) (CLASS 3972 . 3977) (punctuation 3971 . 3972) (TEMPLATE 3962 . 3970) (punctuation 3787 . 3788) (punctuation 3786 . 3787) (punctuation 3785 . 3786) (symbol 3776 . 3785) (punctuation 3774 . 3775) (symbol 3765 . 3774) (punctuation 3764 . 3765) (symbol 3753 . 3764) (TYPENAME 3744 . 3752) (symbol 3724 . 3739) (INLINE 3717 . 3723) (punctuation 3711 . 3712) (symbol 3702 . 3711) (CLASS 3696 . 3701) (punctuation 3694 . 3695) (symbol 3685 . 3694) (CLASS 3679 . 3684) (punctuation 3677 . 3678) (symbol 3672 . 3677) (CLASS 3666 . 3671) (punctuation 3665 . 3666) (TEMPLATE 3656 . 3664) (punctuation 3533 . 3534) (symbol 3529 . 3533) (punctuation 3528 . 3529) (punctuation 3527 . 3528) (punctuation 3526 . 3527) (punctuation 3524 . 3525) (symbol 3517 . 3524) (punctuation 3515 . 3516) (symbol 3511 . 3515) (punctuation 3510 . 3511) (symbol 3502 . 3510) (punctuation 3500 . 3501) (symbol 3491 . 3500) (punctuation 3490 . 3491) (symbol 3479 . 3490) (TYPENAME 3470 . 3478) (punctuation 3460 . 3461) (symbol 3455 . 3460) (punctuation 3454 . 3455) (symbol 3444 . 3454) (symbol 3424 . 3439) (INLINE 3417 . 3423) (punctuation 3411 . 3412) (symbol 3404 . 3411) (CLASS 3398 . 3403) (punctuation 3396 . 3397) (symbol 3392 . 3396) (CLASS 3386 . 3391) (punctuation 3384 . 3385) (symbol 3375 . 3384) (CLASS 3369 . 3374) (punctuation 3367 . 3368) (symbol 3362 . 3367) (CLASS 3356 . 3361) (punctuation 3355 . 3356) (TEMPLATE 3346 . 3354) (punctuation 3223 . 3224) (symbol 3219 . 3223) (punctuation 3218 . 3219) (punctuation 3217 . 3218) (punctuation 3216 . 3217) (symbol 3207 . 3216) (punctuation 3205 . 3206) (punctuation 3204 . 3205) (symbol 3197 . 3204) (punctuation 3195 . 3196) (symbol 3191 . 3195) (punctuation 3190 . 3191) (symbol 3182 . 3190) (punctuation 3181 . 3182) (symbol 3170 . 3181) (TYPENAME 3161 . 3169) (punctuation 3151 . 3152) (symbol 3146 . 3151) (punctuation 3145 . 3146) (symbol 3135 . 3145) (symbol 3115 . 3130) (INLINE 3108 . 3114) (punctuation 3102 . 3103) (symbol 3093 . 3102) (CLASS 3087 . 3092) (punctuation 3085 . 3086) (symbol 3080 . 3085) (CLASS 3074 . 3079) (punctuation 3072 . 3073) (symbol 3065 . 3072) (CLASS 3059 . 3064) (punctuation 3057 . 3058) (symbol 3053 . 3057) (CLASS 3047 . 3052) (punctuation 3046 . 3047) (TEMPLATE 3037 . 3045) (punctuation 2914 . 2915) (symbol 2910 . 2914) (punctuation 2909 . 2910) (punctuation 2908 . 2909) (punctuation 2907 . 2908) (punctuation 2905 . 2906) (symbol 2898 . 2905) (punctuation 2896 . 2897) (symbol 2892 . 2896) (punctuation 2891 . 2892) (symbol 2883 . 2891) (punctuation 2881 . 2882) (symbol 2872 . 2881) (punctuation 2871 . 2872) (symbol 2860 . 2871) (TYPENAME 2851 . 2859) (punctuation 2841 . 2842) (symbol 2836 . 2841) (punctuation 2835 . 2836) (symbol 2825 . 2835) (symbol 2805 . 2820) (INLINE 2798 . 2804) (punctuation 2792 . 2793) (symbol 2785 . 2792) (CLASS 2779 . 2784) (punctuation 2777 . 2778) (symbol 2773 . 2777) (CLASS 2767 . 2772) (punctuation 2765 . 2766) (symbol 2756 . 2765) (CLASS 2750 . 2755) (punctuation 2748 . 2749) (symbol 2743 . 2748) (CLASS 2737 . 2742) (punctuation 2736 . 2737) (TEMPLATE 2727 . 2735) (punctuation 2660 . 2661) (symbol 2656 . 2660) (punctuation 2655 . 2656) (punctuation 2654 . 2655) (punctuation 2653 . 2654) (symbol 2644 . 2653) (punctuation 2642 . 2643) (symbol 2633 . 2642) (punctuation 2632 . 2633) (symbol 2621 . 2632) (TYPENAME 2612 . 2620) (punctuation 2606 . 2607) (symbol 2601 . 2606) (punctuation 2600 . 2601) (symbol 2590 . 2600) (punctuation 2589 . 2590) (punctuation 2588 . 2589) (symbol 2582 . 2588) (TYPEDEF 2574 . 2581) (punctuation 1886 . 1887) (symbol 1878 . 1886) (punctuation 1877 . 1878) (punctuation 1876 . 1877) (symbol 1871 . 1876) (TYPENAME 1862 . 1870) (punctuation 1860 . 1861) (symbol 1851 . 1859) (CLASS 1845 . 1850) (punctuation 1843 . 1844) (symbol 1838 . 1843) (CLASS 1832 . 1837) (punctuation 1831 . 1832) (TEMPLATE 1822 . 1830))
+      :lexical-table 
+        '(("BOOST_CHRONO_TIME_POINT_HPP")
+          )
+)
+    (semanticdb-table "system_clocks.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_CHRONO_SYSTEM_CLOCKS_HPP" variable (:constant-flag t) nil [2179 2209])
+            ("boost/chrono/config.hpp" include (:system-flag t) nil [2211 2245])
+            ("boost/chrono/duration.hpp" include (:system-flag t) nil [2246 2282])
+            ("boost/chrono/time_point.hpp" include (:system-flag t) nil [2283 2321])
+            ("boost/chrono/detail/system.hpp" include (:system-flag t) nil [2322 2363])
+            ("boost/chrono/clock_string.hpp" include (:system-flag t) nil [2364 2404])
+            ("ctime" include (:system-flag t) nil [2406 2422])
+            ("BOOST_SYSTEM_CLOCK_DURATION" variable (:constant-flag t) nil [2830 2857])
+            ("boost/config/abi_prefix.hpp" include (:system-flag t) nil [3000 3038])
+            ("boost" type
+               (:members 
+                  ( ("chrono" type
+                       (:members 
+                          ( ("system_clock" variable (:type ("BOOST_CHRONO_DECL" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [3616 3653])
+                            ("high_resolution_clock" type
+                               (:typedef ("system_clock" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [3869 3912])
+                            ("system_clock" variable (:type ("BOOST_CHRONO_DECL" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [5082 5833])
+                            ("clock_string" type
+                               (:template 
+                                  ( ("CharT" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("name" function
+                                       (:typemodifiers ("static")
+                                        :type ("std::basic_string" type
+                                             (:template-specifier 
+                                                ( ("CharT" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol classsubparts) [7207 7468])
+                                    ("since" function
+                                       (:typemodifiers ("static")
+                                        :type ("std::basic_string" type
+                                             (:template-specifier 
+                                                ( ("CharT" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol classsubparts) [7473 7783]))                                  
+                                :template-specifier 
+                                  ( ("system_clock" type nil nil nil)
+                                    ("CharT" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [7134 7788]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [3582 8436]))                  
+                :type "namespace")
+                nil [3564 8458])
+            ("boost/config/abi_suffix.hpp" include (:system-flag t) nil [8563 8601]))          
+      :file "system_clocks.hpp"
+      :pointmax 8738
+      :fsize 8737
+      :lastmodtime '(21727 6064 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_SYSTEM_CLOCK_DURATION" . 
+              ((symbol "boost" 2858 . 2863) (punctuation ":" 2863 . 2864) (punctuation ":" 2864 . 2865) (symbol "chrono" 2865 . 2871) (punctuation ":" 2871 . 2872) (punctuation ":" 2872 . 2873) (symbol "nanoseconds" 2873 . 2884)))
+          ("BOOST_CHRONO_SYSTEM_CLOCKS_HPP")
+          )
+)
+    (semanticdb-table "config.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_CHRONO_CONFIG_HPP" variable (:constant-flag t) nil [478 501])
+            ("boost/config.hpp" include (:system-flag t) nil [503 530])
+            ("boost/predef.h" include (:system-flag t) nil [531 556])
+            ("BOOST_CHRONO_VERSION" variable (:constant-flag t) nil [600 620])
+            ("BOOST_CHRONO_PROVIDES_DATE_IO_FOR_SYSTEM_CLOCK_TIME_POINT" variable (:constant-flag t) nil [1010 1067])
+            ("BOOST_CHRONO_MAC_API" variable (:constant-flag t) nil [2253 2273])
+            ("BOOST_CHRONO_HAS_PROCESS_CLOCKS" variable (:constant-flag t) nil [2691 2722])
+            ("BOOST_CHRONO_HAS_CLOCK_STEADY" variable (:constant-flag t) nil [2734 2763])
+            ("BOOST_CHRONO_HAS_THREAD_CLOCK" variable (:constant-flag t) nil [2775 2804])
+            ("BOOST_CHRONO_THREAD_CLOCK_IS_STEADY" variable (:constant-flag t) nil [2816 2851])
+            ("BOOST_CHRONO_HAS_UNICODE_SUPPORT" variable (:constant-flag t) nil [4292 4324])
+            ("BOOST_CHRONO_LIB_CONSTEXPR" variable (:constant-flag t) nil [4566 4592])
+            ("BOOST_CHRONO_LIB_NOEXCEPT_OR_THROW" variable (:constant-flag t) nil [4828 4862])
+            ("BOOST_CHRONO_PROVIDE_HYBRID_ERROR_HANDLING" variable (:constant-flag t) nil [5507 5549])
+            ("BOOST_CHRONO_INLINE" variable (:constant-flag t) nil [5943 5962])
+            ("BOOST_CHRONO_STATIC" variable (:constant-flag t) nil [5971 5990])
+            ("BOOST_CHRONO_DECL" variable (:constant-flag t) nil [6741 6758])
+            ("BOOST_LIB_NAME" variable (:constant-flag t) nil [7061 7075])
+            ("boost/config/auto_link.hpp" include (:system-flag t) nil [7318 7355]))          
+      :file "config.hpp"
+      :pointmax 7459
+      :fsize 7458
+      :lastmodtime '(21727 6064 0 0)
+      :unmatched-syntax '((symbol 5451 . 5498) (symbol 5443 . 5450) (punctuation 5441 . 5442) (punctuation 5439 . 5440) (punctuation 5438 . 5439) (symbol 938 . 999) (symbol 930 . 937) (punctuation 928 . 929) (punctuation 926 . 927) (punctuation 925 . 926))
+      :lexical-table 
+        '(("BOOST_CHRONO_CONFIG_HPP")
+          ("BOOST_CHRONO_HAS_CLOCK_STEADY")
+          ("BOOST_CHRONO_PROVIDES_DATE_IO_FOR_SYSTEM_CLOCK_TIME_POINT")
+          ("BOOST_CHRONO_MAC_API")
+          ("BOOST_CHRONO_HAS_PROCESS_CLOCKS")
+          ("BOOST_CHRONO_STATIC" . ((STATIC "static" 5991 . 5997)))
+          ("BOOST_LIB_NAME" . ((symbol "boost_chrono" 7076 . 7088)))
+          ("BOOST_CHRONO_LIB_NOEXCEPT_OR_THROW" . ((symbol "noexcept" 4863 . 4871)))
+          ("BOOST_CHRONO_THREAD_CLOCK_IS_STEADY" . ((symbol "true" 2852 . 2856)))
+          ("BOOST_CHRONO_DECL")
+          ("BOOST_CHRONO_HAS_THREAD_CLOCK")
+          ("BOOST_CHRONO_INLINE")
+          ("BOOST_CHRONO_LIB_CONSTEXPR" . ((symbol "BOOST_CONSTEXPR" 4593 . 4608)))
+          ("BOOST_CHRONO_VERSION" . ((number "1" 621 . 622)))
+          ("BOOST_CHRONO_HAS_UNICODE_SUPPORT" . ((number "1" 4325 . 4326)))
+          ("BOOST_CHRONO_PROVIDE_HYBRID_ERROR_HANDLING")
+          )
+)
+    (semanticdb-table "clock_string.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_CHRONO_CLOCK_STRING_HPP" variable (:constant-flag t) nil [299 328])
+            ("string" include (:system-flag t) nil [330 347])
+            ("boost" type
+               (:members 
+                  ( ("chrono" type
+                       (:members 
+                          ( ("clock_string" type
+                               (:template 
+                                  ( ("Clock" type (:type "class") nil nil)
+                                    ("CharT" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [395 454]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [369 459]))                  
+                :type "namespace")
+                nil [349 472]))          
+      :file "clock_string.hpp"
+      :pointmax 524
+      :fsize 523
+      :lastmodtime '(21727 6064 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_CHRONO_CLOCK_STRING_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!chrono!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

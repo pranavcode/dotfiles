@@ -1,0 +1,118 @@
+;; Object timer/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "timer/"
+  :tables
+  (list
+    (semanticdb-table "timer.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_TIMER_TIMER_HPP" variable (:constant-flag t) nil [301 322])
+            ("boost/config/warning_disable.hpp" include (:system-flag t) nil [324 367])
+            ("boost/timer/config.hpp" include (:system-flag t) nil [369 402])
+            ("boost/chrono/chrono.hpp" include (:system-flag t) nil [403 437])
+            ("boost/cstdint.hpp" include (:system-flag t) nil [438 466])
+            ("string" include (:system-flag t) nil [467 484])
+            ("cstring" include (:system-flag t) nil [485 503])
+            ("ostream" include (:system-flag t) nil [504 522])
+            ("boost/config/abi_prefix.hpp" include (:system-flag t) nil [524 562])
+            ("boost" type
+               (:members 
+                  ( ("timer" type
+                       (:members 
+                          ( ("cpu_timer" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [984 1000])
+                            ("auto_cpu_timer" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [1003 1024])
+                            ("nanosecond_type" type
+                               (:typedef ("boost::int_least64_t" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [1028 1073])
+                            ("cpu_times" type
+                               (:members 
+                                  ( ("wall" variable (:type ("nanosecond_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1102 1123])
+                                    ("user" variable (:type ("nanosecond_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1128 1149])
+                                    ("system" variable (:type ("nanosecond_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1154 1177])
+                                    ("clear" function (:type "void") (reparse-symbol classsubparts) [1183 1227]))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [1077 1232])
+                            ("default_places" variable
+                               (:constant-flag t
+                                :default-value "6"
+                                :type "short")
+                                (reparse-symbol namespacesubparts) [1242 1281])
+                            ("format" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("times" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("cpu_times" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1323 1346])
+                                    ("places" variable (:type "short") (reparse-symbol arg-sub-list) [1347 1360])
+                                    ("format" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1361 1387]))                                  
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1304 1388])
+                            ("format" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("times" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("cpu_times" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1431 1454])
+                                    ("places" variable
+                                       (:default-value "default_places"
+                                        :type "short")
+                                        (reparse-symbol arg-sub-list) [1455 1484]))                                  
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1412 1486])
+                            ("cpu_timer" variable (:type ("BOOST_TIMER_DECL" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [1583 2424])
+                            ("cpu_timer" variable (:type "int") (reparse-symbol namespacesubparts) [2567 4415]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [964 4421]))                  
+                :type "namespace")
+                nil [946 4442])
+            ("boost/config/abi_suffix.hpp" include (:system-flag t) nil [4555 4593]))          
+      :file "timer.hpp"
+      :pointmax 4659
+      :fsize 4658
+      :lastmodtime '(21727 6069 0 0)
+      :unmatched-syntax '((PUBLIC 2560 . 2566) (punctuation 2558 . 2559) (symbol 2543 . 2557) (symbol 2526 . 2542) (CLASS 2520 . 2525) (symbol 1393 . 1409) (symbol 1285 . 1301))
+      :lexical-table 
+        '(("BOOST_TIMER_TIMER_HPP")
+          )
+)
+    (semanticdb-table "config.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_TIMER_CONFIG_HPP" variable (:constant-flag t) nil [344 366])
+            ("boost/config.hpp" include (:system-flag t) nil [368 395])
+            ("boost/system/api_config.hpp" include (:system-flag t) nil [397 435])
+            ("BOOST_TIMER_DECL" variable (:constant-flag t) nil [882 898])
+            ("BOOST_LIB_NAME" variable (:constant-flag t) nil [1207 1221])
+            ("boost/config/auto_link.hpp" include (:system-flag t) nil [1462 1499]))          
+      :file "config.hpp"
+      :pointmax 1568
+      :fsize 1567
+      :lastmodtime '(21727 6069 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_TIMER_CONFIG_HPP")
+          ("BOOST_LIB_NAME" . ((symbol "boost_timer" 1222 . 1233)))
+          ("BOOST_TIMER_DECL")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!timer!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

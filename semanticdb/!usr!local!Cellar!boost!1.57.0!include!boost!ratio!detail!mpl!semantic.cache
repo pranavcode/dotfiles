@@ -1,0 +1,348 @@
+;; Object mpl/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "mpl/"
+  :tables
+  (list
+    (semanticdb-table "abs.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPL_ABS_HPP_INCLUDED" variable (:constant-flag t) nil [449 475])
+            ("boost/mpl/integral_c.hpp" include (:system-flag t) nil [477 512])
+            ("boost/mpl/aux_/na_spec.hpp" include (:system-flag t) nil [513 550])
+            ("boost/mpl/aux_/lambda_support.hpp" include (:system-flag t) nil [551 595])
+            ("boost/mpl/aux_/config/integral.hpp" include (:system-flag t) nil [596 641])
+            ("boost/mpl/aux_/config/static_constant.hpp" include (:system-flag t) nil [642 694])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("abs_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [1031 1072])
+                            ("abs_tag" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("T::tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1118 1147]))                                  )
+                                (reparse-symbol namespacesubparts) [1074 1150])
+                            ("apply::type" variable (:type "int") (reparse-symbol namespacesubparts) [1292 1357])
+                            ("abs_c" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("T" type nil nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("abs" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1390 1480])
+                            ("abs_impl" type
+                               (:type "struct"
+                                :template-specifier 
+                                  ( ("integral_c_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1707 2067]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1014 2070]))                  
+                :type "namespace")
+                nil [996 2071]))          
+      :file "abs.hpp"
+      :pointmax 2110
+      :fsize 2109
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((punctuation 2063 . 2064) (semantic-list 2056 . 2063) (punctuation 2043 . 2044) (semantic-list 2000 . 2042) (punctuation 1998 . 1999) (symbol 1988 . 1998) (punctuation 1987 . 1988) (punctuation 1986 . 1987) (symbol 1985 . 1986) (TYPENAME 1976 . 1984) (punctuation 1974 . 1975) (symbol 1964 . 1974) (punctuation 1962 . 1963) (symbol 1948 . 1953) (STRUCT 1941 . 1947) (punctuation 1939 . 1940) (symbol 1937 . 1938) (TYPENAME 1928 . 1936) (punctuation 1926 . 1927) (TEMPLATE 1918 . 1926) (semantic-list 1380 . 1388) (symbol 1359 . 1380) (number 1381 . 1382) (TEMPLATE 1283 . 1291) (punctuation 1282 . 1283) (punctuation 1281 . 1282) (punctuation 1280 . 1281) (symbol 1267 . 1271) (punctuation 1266 . 1267) (punctuation 1265 . 1266) (punctuation 1264 . 1265) (symbol 1263 . 1264) (punctuation 1262 . 1263) (symbol 1255 . 1262) (TYPENAME 1246 . 1254) (punctuation 1234 . 1235) (symbol 1226 . 1234) (punctuation 1224 . 1225) (symbol 1216 . 1219) (STRUCT 1209 . 1215) (punctuation 1207 . 1208) (semantic-list 1199 . 1202) (symbol 1177 . 1199) (TYPENAME 1168 . 1176) (punctuation 1160 . 1161) (TEMPLATE 1152 . 1160))
+      :lexical-table 
+        '(("BOOST_MPL_ABS_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "sign.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPL_SIGN_HPP_INCLUDED" variable (:constant-flag t) nil [450 477])
+            ("boost/mpl/integral_c.hpp" include (:system-flag t) nil [479 514])
+            ("boost/mpl/aux_/na_spec.hpp" include (:system-flag t) nil [515 552])
+            ("boost/mpl/aux_/lambda_support.hpp" include (:system-flag t) nil [553 597])
+            ("boost/mpl/aux_/config/integral.hpp" include (:system-flag t) nil [598 643])
+            ("boost/mpl/aux_/config/static_constant.hpp" include (:system-flag t) nil [644 696])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("sign_impl" type
+                               (:template 
+                                  ( ("Tag" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [1033 1075])
+                            ("sign_tag" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("T::tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1122 1151]))                                  )
+                                (reparse-symbol namespacesubparts) [1077 1154])
+                            ("apply::type" variable (:type "int") (reparse-symbol namespacesubparts) [1299 1365])
+                            ("sign_c" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("T" type nil nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("sign" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1399 1491])
+                            ("sign_impl" type
+                               (:type "struct"
+                                :template-specifier 
+                                  ( ("integral_c_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1734 2099]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1016 2102]))                  
+                :type "namespace")
+                nil [998 2103]))          
+      :file "sign.hpp"
+      :pointmax 2143
+      :fsize 2142
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((punctuation 2095 . 2096) (semantic-list 2088 . 2095) (punctuation 2075 . 2076) (semantic-list 2029 . 2074) (punctuation 2027 . 2028) (symbol 2017 . 2027) (punctuation 2016 . 2017) (punctuation 2015 . 2016) (symbol 2014 . 2015) (TYPENAME 2005 . 2013) (punctuation 2003 . 2004) (symbol 1993 . 2003) (punctuation 1991 . 1992) (symbol 1977 . 1982) (STRUCT 1970 . 1976) (punctuation 1968 . 1969) (symbol 1966 . 1967) (TYPENAME 1957 . 1965) (punctuation 1955 . 1956) (TEMPLATE 1947 . 1955) (semantic-list 1388 . 1397) (symbol 1367 . 1388) (number 1389 . 1390) (TEMPLATE 1290 . 1298) (punctuation 1289 . 1290) (punctuation 1288 . 1289) (punctuation 1287 . 1288) (symbol 1274 . 1278) (punctuation 1273 . 1274) (punctuation 1272 . 1273) (punctuation 1271 . 1272) (symbol 1270 . 1271) (punctuation 1269 . 1270) (symbol 1261 . 1269) (TYPENAME 1252 . 1260) (punctuation 1240 . 1241) (symbol 1231 . 1240) (punctuation 1229 . 1230) (symbol 1220 . 1224) (STRUCT 1213 . 1219) (punctuation 1211 . 1212) (semantic-list 1203 . 1206) (symbol 1181 . 1203) (TYPENAME 1172 . 1180) (punctuation 1164 . 1165) (TEMPLATE 1156 . 1164))
+      :lexical-table 
+        '(("BOOST_MPL_SIGN_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "gcd.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPL_GCD_HPP_INCLUDED" variable (:constant-flag t) nil [449 475])
+            ("boost/mpl/integral_c.hpp" include (:system-flag t) nil [477 512])
+            ("boost/ratio/detail/mpl/abs.hpp" include (:system-flag t) nil [513 554])
+            ("boost/mpl/aux_/largest_int.hpp" include (:system-flag t) nil [555 596])
+            ("boost/mpl/aux_/na_spec.hpp" include (:system-flag t) nil [597 634])
+            ("boost/mpl/aux_/lambda_support.hpp" include (:system-flag t) nil [635 679])
+            ("boost/mpl/aux_/config/integral.hpp" include (:system-flag t) nil [680 725])
+            ("boost/mpl/aux_/config/static_constant.hpp" include (:system-flag t) nil [726 778])
+            ("boost/mpl/aux_/config/dependent_nttp.hpp" include (:system-flag t) nil [779 830])
+            ("boost/cstdint.hpp" include (:system-flag t) nil [831 859])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("gcd_impl" type
+                               (:template 
+                                  ( ("Tag1" type (:type "class") nil nil)
+                                    ("Tag2" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [1196 1253])
+                            ("gcd_tag" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("T::tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1299 1328]))                                  )
+                                (reparse-symbol namespacesubparts) [1255 1331])
+                            ("apply::type" variable (:type "int") (reparse-symbol namespacesubparts) [1554 1629])
+                            ("gcd_c" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("T" type nil nil nil)
+                                    ("T" type nil nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("gcd" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1662 1780])
+                            ("aux" type
+                               (:members 
+                                  ( ("gcd_aux" type
+                                       (:template 
+                                          ( ("T1" type (:type "class") nil nil)
+                                            ("T1" type nil nil nil)
+                                            ("T2" type (:type "class") nil nil)
+                                            ("T2" type nil nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("integral_c" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("T1" type nil nil nil)
+                                            ("n1" type nil nil nil)
+                                            ("false" type nil nil nil)
+                                            ("T2" type nil nil nil)
+                                            ("n2" type nil nil nil)
+                                            ("true" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [3007 3133])
+                                    ("gcd_aux" type
+                                       (:template 
+                                          ( ("T1" type (:type "class") nil nil)
+                                            ("T1" type nil nil nil)
+                                            ("T2" type (:type "class") nil nil)
+                                            ("T2" type nil nil nil)
+                                            ("bool" type nil nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("integral_c" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("T1" type nil nil nil)
+                                            ("n1" type nil nil nil)
+                                            ("true" type nil nil nil)
+                                            ("T2" type nil nil nil)
+                                            ("n2" type nil nil nil)
+                                            ("C" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [3139 3269]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1782 3351])
+                            ("gcd_impl" type
+                               (:type "struct"
+                                :template-specifier 
+                                  ( ("integral_c_tag" type nil nil nil)
+                                    ("integral_c_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [3353 3639]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1179 3642]))                  
+                :type "namespace")
+                nil [1161 3643]))          
+      :file "gcd.hpp"
+      :pointmax 3682
+      :fsize 3681
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((punctuation 3635 . 3636) (semantic-list 3628 . 3635) (punctuation 3622 . 3623) (punctuation 3620 . 3621) (number 3617 . 3618) (punctuation 3616 . 3617) (punctuation 3615 . 3616) (symbol 3610 . 3615) (punctuation 3609 . 3610) (punctuation 3608 . 3609) (symbol 3606 . 3608) (punctuation 3604 . 3605) (symbol 3599 . 3604) (punctuation 3598 . 3599) (punctuation 3597 . 3598) (symbol 3595 . 3597) (punctuation 3593 . 3594) (symbol 3583 . 3593) (punctuation 3582 . 3583) (punctuation 3581 . 3582) (symbol 3579 . 3581) (TYPENAME 3570 . 3578) (punctuation 3544 . 3545) (number 3543 . 3544) (punctuation 3542 . 3543) (punctuation 3541 . 3542) (symbol 3536 . 3541) (punctuation 3535 . 3536) (punctuation 3534 . 3535) (symbol 3532 . 3534) (punctuation 3530 . 3531) (symbol 3525 . 3530) (punctuation 3524 . 3525) (punctuation 3523 . 3524) (symbol 3521 . 3523) (punctuation 3519 . 3520) (symbol 3509 . 3519) (punctuation 3508 . 3509) (punctuation 3507 . 3508) (symbol 3505 . 3507) (TYPENAME 3496 . 3504) (punctuation 3494 . 3495) (symbol 3487 . 3494) (punctuation 3486 . 3487) (punctuation 3485 . 3486) (symbol 3482 . 3485) (punctuation 3481 . 3482) (symbol 3478 . 3481) (punctuation 3476 . 3477) (symbol 3462 . 3467) (STRUCT 3455 . 3461) (punctuation 3453 . 3454) (symbol 3450 . 3452) (TYPENAME 3441 . 3449) (punctuation 3439 . 3440) (symbol 3437 . 3439) (TYPENAME 3428 . 3436) (punctuation 3426 . 3427) (TEMPLATE 3418 . 3426) (punctuation 3000 . 3001) (semantic-list 2998 . 3000) (punctuation 2992 . 2993) (number 2991 . 2992) (punctuation 2990 . 2991) (punctuation 2989 . 2990) (semantic-list 2980 . 2989) (punctuation 2978 . 2979) (semantic-list 2969 . 2978) (punctuation 2919 . 2920) (symbol 2915 . 2919) (punctuation 2914 . 2915) (punctuation 2913 . 2914) (punctuation 2912 . 2913) (symbol 2910 . 2912) (punctuation 2908 . 2909) (symbol 2906 . 2908) (punctuation 2905 . 2906) (symbol 2894 . 2905) (punctuation 2893 . 2894) (punctuation 2892 . 2893) (symbol 2889 . 2892) (TYPENAME 2880 . 2888) (punctuation 2858 . 2859) (number 2857 . 2858) (punctuation 2856 . 2857) (punctuation 2855 . 2856) (symbol 2853 . 2855) (punctuation 2851 . 2852) (symbol 2849 . 2851) (punctuation 2847 . 2848) (symbol 2845 . 2847) (punctuation 2844 . 2845) (symbol 2837 . 2844) (punctuation 2835 . 2836) (symbol 2818 . 2825) (STRUCT 2811 . 2817) (punctuation 2805 . 2806) (symbol 2797 . 2804) (BOOL 2792 . 2796) (punctuation 2790 . 2791) (symbol 2788 . 2790) (symbol 2785 . 2787) (punctuation 2783 . 2784) (symbol 2781 . 2783) (TYPENAME 2772 . 2780) (punctuation 2770 . 2771) (symbol 2763 . 2770) (BOOL 2758 . 2762) (punctuation 2756 . 2757) (symbol 2754 . 2756) (symbol 2751 . 2753) (punctuation 2749 . 2750) (symbol 2747 . 2749) (TYPENAME 2738 . 2746) (punctuation 2736 . 2737) (TEMPLATE 2728 . 2736) (semantic-list 1652 . 1660) (symbol 1631 . 1652) (number 1653 . 1654) (TEMPLATE 1545 . 1553) (punctuation 1544 . 1545) (punctuation 1543 . 1544) (punctuation 1542 . 1543) (symbol 1529 . 1533) (punctuation 1528 . 1529) (punctuation 1527 . 1528) (punctuation 1526 . 1527) (symbol 1524 . 1526) (punctuation 1523 . 1524) (symbol 1516 . 1523) (TYPENAME 1507 . 1515) (punctuation 1505 . 1506) (symbol 1492 . 1496) (punctuation 1491 . 1492) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (symbol 1487 . 1489) (punctuation 1486 . 1487) (symbol 1479 . 1486) (TYPENAME 1470 . 1478) (punctuation 1458 . 1459) (symbol 1450 . 1458) (punctuation 1448 . 1449) (symbol 1440 . 1443) (STRUCT 1433 . 1439) (punctuation 1431 . 1432) (semantic-list 1422 . 1426) (symbol 1400 . 1422) (TYPENAME 1391 . 1399) (punctuation 1389 . 1390) (semantic-list 1380 . 1384) (symbol 1358 . 1380) (TYPENAME 1349 . 1357) (punctuation 1341 . 1342) (TEMPLATE 1333 . 1341))
+      :lexical-table 
+        '(("BOOST_MPL_GCD_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "lcm.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_MPL_LCM_HPP_INCLUDED" variable (:constant-flag t) nil [449 475])
+            ("boost/mpl/integral_c.hpp" include (:system-flag t) nil [477 512])
+            ("boost/ratio/detail/mpl/abs.hpp" include (:system-flag t) nil [513 554])
+            ("boost/mpl/aux_/largest_int.hpp" include (:system-flag t) nil [555 596])
+            ("boost/mpl/aux_/na_spec.hpp" include (:system-flag t) nil [597 634])
+            ("boost/mpl/aux_/lambda_support.hpp" include (:system-flag t) nil [635 679])
+            ("boost/mpl/aux_/config/integral.hpp" include (:system-flag t) nil [680 725])
+            ("boost/mpl/aux_/config/static_constant.hpp" include (:system-flag t) nil [726 778])
+            ("boost/mpl/aux_/config/dependent_nttp.hpp" include (:system-flag t) nil [779 830])
+            ("boost/cstdint.hpp" include (:system-flag t) nil [831 859])
+            ("boost" type
+               (:members 
+                  ( ("mpl" type
+                       (:members 
+                          ( ("lcm_impl" type
+                               (:template 
+                                  ( ("Tag1" type (:type "class") nil nil)
+                                    ("Tag2" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [1196 1253])
+                            ("lcm_tag" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("T::tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1299 1328]))                                  )
+                                (reparse-symbol namespacesubparts) [1255 1331])
+                            ("apply::type" variable (:type "int") (reparse-symbol namespacesubparts) [1554 1629])
+                            ("lcm_c" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("T" type nil nil nil)
+                                    ("T" type nil nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("lcm" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1662 1780])
+                            ("aux" type
+                               (:members 
+                                  ( ("lcm_aux" type
+                                       (:template 
+                                          ( ("T1" type (:type "class") nil nil)
+                                            ("T1" type nil nil nil)
+                                            ("T2" type (:type "class") nil nil)
+                                            ("T2" type nil nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("integral_c" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("T1" type nil nil nil)
+                                            ("n1" type nil nil nil)
+                                            ("false" type nil nil nil)
+                                            ("T2" type nil nil nil)
+                                            ("n2" type nil nil nil)
+                                            ("true" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [3097 3222])
+                                    ("lcm_aux" type
+                                       (:template 
+                                          ( ("T1" type (:type "class") nil nil)
+                                            ("T1" type nil nil nil)
+                                            ("T2" type (:type "class") nil nil)
+                                            ("T2" type nil nil nil)
+                                            ("bool" type nil nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("integral_c" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("T1" type nil nil nil)
+                                            ("n1" type nil nil nil)
+                                            ("true" type nil nil nil)
+                                            ("T2" type nil nil nil)
+                                            ("n2" type nil nil nil)
+                                            ("C" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [3228 3357]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1783 3439])
+                            ("lcm_impl" type
+                               (:type "struct"
+                                :template-specifier 
+                                  ( ("integral_c_tag" type nil nil nil)
+                                    ("integral_c_tag" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [3441 3727]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1179 3730]))                  
+                :type "namespace")
+                nil [1161 3731]))          
+      :file "lcm.hpp"
+      :pointmax 3770
+      :fsize 3769
+      :lastmodtime '(21727 6087 0 0)
+      :unmatched-syntax '((punctuation 3723 . 3724) (semantic-list 3716 . 3723) (punctuation 3710 . 3711) (punctuation 3708 . 3709) (number 3705 . 3706) (punctuation 3704 . 3705) (punctuation 3703 . 3704) (symbol 3698 . 3703) (punctuation 3697 . 3698) (punctuation 3696 . 3697) (symbol 3694 . 3696) (punctuation 3692 . 3693) (symbol 3687 . 3692) (punctuation 3686 . 3687) (punctuation 3685 . 3686) (symbol 3683 . 3685) (punctuation 3681 . 3682) (symbol 3671 . 3681) (punctuation 3670 . 3671) (punctuation 3669 . 3670) (symbol 3667 . 3669) (TYPENAME 3658 . 3666) (punctuation 3632 . 3633) (number 3631 . 3632) (punctuation 3630 . 3631) (punctuation 3629 . 3630) (symbol 3624 . 3629) (punctuation 3623 . 3624) (punctuation 3622 . 3623) (symbol 3620 . 3622) (punctuation 3618 . 3619) (symbol 3613 . 3618) (punctuation 3612 . 3613) (punctuation 3611 . 3612) (symbol 3609 . 3611) (punctuation 3607 . 3608) (symbol 3597 . 3607) (punctuation 3596 . 3597) (punctuation 3595 . 3596) (symbol 3593 . 3595) (TYPENAME 3584 . 3592) (punctuation 3582 . 3583) (symbol 3575 . 3582) (punctuation 3574 . 3575) (punctuation 3573 . 3574) (symbol 3570 . 3573) (punctuation 3569 . 3570) (symbol 3566 . 3569) (punctuation 3564 . 3565) (symbol 3550 . 3555) (STRUCT 3543 . 3549) (punctuation 3541 . 3542) (symbol 3538 . 3540) (TYPENAME 3529 . 3537) (punctuation 3527 . 3528) (symbol 3525 . 3527) (TYPENAME 3516 . 3524) (punctuation 3514 . 3515) (TEMPLATE 3506 . 3514) (punctuation 3090 . 3091) (semantic-list 3088 . 3090) (punctuation 3082 . 3083) (punctuation 3080 . 3081) (semantic-list 3008 . 3071) (punctuation 2994 . 2995) (symbol 2990 . 2994) (punctuation 2989 . 2990) (punctuation 2988 . 2989) (punctuation 2987 . 2988) (symbol 2985 . 2987) (punctuation 2983 . 2984) (symbol 2981 . 2983) (punctuation 2980 . 2981) (symbol 2969 . 2980) (punctuation 2968 . 2969) (punctuation 2967 . 2968) (symbol 2964 . 2967) (TYPENAME 2955 . 2963) (punctuation 2953 . 2954) (symbol 2943 . 2953) (punctuation 2942 . 2943) (symbol 2939 . 2942) (punctuation 2937 . 2938) (symbol 2920 . 2927) (STRUCT 2913 . 2919) (punctuation 2907 . 2908) (symbol 2899 . 2906) (BOOL 2894 . 2898) (punctuation 2892 . 2893) (symbol 2890 . 2892) (symbol 2887 . 2889) (punctuation 2885 . 2886) (symbol 2883 . 2885) (TYPENAME 2874 . 2882) (punctuation 2872 . 2873) (symbol 2865 . 2872) (BOOL 2860 . 2864) (punctuation 2858 . 2859) (symbol 2856 . 2858) (symbol 2853 . 2855) (punctuation 2851 . 2852) (symbol 2849 . 2851) (TYPENAME 2840 . 2848) (punctuation 2838 . 2839) (TEMPLATE 2830 . 2838) (semantic-list 1652 . 1660) (symbol 1631 . 1652) (number 1653 . 1654) (TEMPLATE 1545 . 1553) (punctuation 1544 . 1545) (punctuation 1543 . 1544) (punctuation 1542 . 1543) (symbol 1529 . 1533) (punctuation 1528 . 1529) (punctuation 1527 . 1528) (punctuation 1526 . 1527) (symbol 1524 . 1526) (punctuation 1523 . 1524) (symbol 1516 . 1523) (TYPENAME 1507 . 1515) (punctuation 1505 . 1506) (symbol 1492 . 1496) (punctuation 1491 . 1492) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (symbol 1487 . 1489) (punctuation 1486 . 1487) (symbol 1479 . 1486) (TYPENAME 1470 . 1478) (punctuation 1458 . 1459) (symbol 1450 . 1458) (punctuation 1448 . 1449) (symbol 1440 . 1443) (STRUCT 1433 . 1439) (punctuation 1431 . 1432) (semantic-list 1422 . 1426) (symbol 1400 . 1422) (TYPENAME 1391 . 1399) (punctuation 1389 . 1390) (semantic-list 1380 . 1384) (symbol 1358 . 1380) (TYPENAME 1349 . 1357) (punctuation 1341 . 1342) (TEMPLATE 1333 . 1341))
+      :lexical-table 
+        '(("BOOST_MPL_LCM_HPP_INCLUDED")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!ratio!detail!mpl!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

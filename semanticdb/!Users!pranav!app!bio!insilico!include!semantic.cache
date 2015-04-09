@@ -1,0 +1,24 @@
+;; Object include/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "include/"
+  :tables
+  (list
+    (semanticdb-table "core.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_CORE_HPP" variable (:constant-flag t) nil [822 848])
+            ("core/configuration.hpp" include nil nil [850 883])
+            ("core/engine.hpp" include nil nil [884 910])
+            ("core/injector.hpp" include nil nil [911 939]))          
+      :file "core.hpp"
+      :pointmax 948
+      :fsize 947
+      :lastmodtime '(21758 29629 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_CORE_HPP")
+          )
+))
+  :file "!Users!pranav!app!bio!insilico!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -821,6 +821,225 @@
       :lexical-table 
         '(("BOOST_DETAIL_BASIC_POINTERBUF_HPP")
           )
+)
+    (semanticdb-table "numeric_traits.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_NUMERIC_TRAITS_HPP_DWA20001901" variable (:constant-flag t) nil [2273 2309])
+            ("boost/config.hpp" include (:system-flag t) nil [2311 2339])
+            ("boost/cstdint.hpp" include (:system-flag t) nil [2340 2369])
+            ("boost/static_assert.hpp" include (:system-flag t) nil [2370 2405])
+            ("boost/type_traits.hpp" include (:system-flag t) nil [2406 2439])
+            ("boost/detail/select_type.hpp" include (:system-flag t) nil [2440 2480])
+            ("boost/limits.hpp" include (:system-flag t) nil [2481 2509])
+            ("boost" type
+               (:members 
+                  ( ("detail" type
+                       (:members 
+                          ( ("is_signed" type
+                               (:template 
+                                  ( ("Number" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("BOOST_STATIC_CONSTANT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type "bool") (reparse-symbol arg-sub-list) [3027 3032])
+                                            ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3033 3044])
+                                            ("" variable (:type ("numeric_limits" type
+                                                 (:template-specifier 
+                                                    ( ("Number" type nil nil nil))                                                    
+                                                  :type "class")
+                                                  nil nil)) (reparse-symbol arg-sub-list) [3046 3069])
+                                            ("" variable (:type ("is_signed" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3070 3080]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [3005 3081]))                                  )
+                                (reparse-symbol namespacesubparts) [2829 3093])
+                            ("digit_traits_select" type
+                               (:template 
+                                  ( ("bool" type nil nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [3327 3385])
+                            ("digit_traits_select" type
+                               (:type "struct"
+                                :members 
+                                  ( ("traits" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("BOOST_STATIC_CONSTANT" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [3588 3592])
+                                                    ("" variable (:type ("digits" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3593 3605])
+                                                    ("" variable (:type ("numeric_limits" type
+                                                         (:template-specifier 
+                                                            ( ("T" type nil nil nil))                                                            
+                                                          :type "class")
+                                                          nil nil)) (reparse-symbol arg-sub-list) [3607 3625])
+                                                    ("" variable (:type ("digits" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3626 3633]))                                                  
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [3566 3634]))                                          )
+                                        (reparse-symbol classsubparts) [3515 3643]))                                  
+                                :template-specifier 
+                                  ( ("true" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [3460 3648])
+                            ("digit_traits_select" type
+                               (:type "struct"
+                                :members 
+                                  ( ("traits" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("BOOST_STATIC_CONSTANT" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [3851 3855])
+                                                    ("" variable (:type ("digits" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3856 3982]))                                                  
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [3829 3999]))                                          )
+                                        (reparse-symbol classsubparts) [3778 4008]))                                  
+                                :template-specifier 
+                                  ( ("false" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [3722 4013])
+                            ("digit_traits" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("selector" variable (:type "int") (reparse-symbol classsubparts) [4187 4196])
+                                    ("traits" variable (:type ("traits" type
+                                         (:template-specifier 
+                                            ( ("T" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol classsubparts) [4239 4256])
+                                    ("BOOST_STATIC_CONSTANT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [4285 4289])
+                                            ("" variable (:type ("digits" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4290 4305])
+                                            ("" variable (:type ("digits" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4307 4314]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [4263 4315]))                                  )
+                                (reparse-symbol namespacesubparts) [4051 4320])
+                            ("integer_traits" type
+                               (:template 
+                                  ( ("Integer" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("private" label nil (reparse-symbol classsubparts) [4630 4638])
+                                    ("integer_type" type
+                                       (:typedef ("Integer" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [4645 4674])
+                                    ("x" type
+                                       (:typedef ("std::numeric_limits" type
+                                             (:template-specifier 
+                                                ( ("integer_type" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [4681 4725])
+                                    ("public" label nil (reparse-symbol classsubparts) [4729 4736])
+                                    ("difference_type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5305 5326]))                                  )
+                                (reparse-symbol namespacesubparts) [4526 5820])
+                            ("numeric_traits" type
+                               (:template 
+                                  ( ("Number" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("difference_type" variable (:type ("difference_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5987 6019]))                                  )
+                                (reparse-symbol namespacesubparts) [5888 6024])
+                            ("numeric_distance" function
+                               (:arguments 
+                                  ( ("x" variable (:type ("Number" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6120 6129])
+                                    ("y" variable (:type ("Number" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6130 6139]))                                  
+                                :type ("difference_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [6087 6281]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2529 6283]))                  
+                :type "namespace")
+                nil [2511 6284]))          
+      :file "numeric_traits.hpp"
+      :pointmax 6333
+      :fsize 6332
+      :lastmodtime '(21727 6065 0 0)
+      :unmatched-syntax '((punctuation 6086 . 6087) (punctuation 6085 . 6086) (punctuation 6084 . 6085) (symbol 6078 . 6084) (punctuation 6077 . 6078) (symbol 6063 . 6077) (TYPENAME 6054 . 6062) (punctuation 6050 . 6051) (symbol 6044 . 6050) (CLASS 6038 . 6043) (punctuation 6037 . 6038) (TEMPLATE 6028 . 6036) (punctuation 5986 . 5987) (punctuation 5985 . 5986) (punctuation 5984 . 5985) (symbol 5978 . 5984) (punctuation 5977 . 5978) (symbol 5963 . 5977) (TYPENAME 5954 . 5962) (TYPEDEF 5946 . 5953) (punctuation 5304 . 5305) (punctuation 5303 . 5304) (punctuation 5302 . 5303) (symbol 5298 . 5302) (punctuation 5297 . 5298) (punctuation 5296 . 5297) (punctuation 5295 . 5296) (symbol 5291 . 5295) (punctuation 5290 . 5291) (punctuation 5289 . 5290) (punctuation 5288 . 5289) (symbol 5273 . 5281) (punctuation 5251 . 5252) (LONG 5247 . 5251) (SIGNED 5240 . 5246) (punctuation 5230 . 5231) (symbol 5226 . 5230) (TEMPLATE 5217 . 5225) (punctuation 5216 . 5217) (punctuation 5215 . 5216) (punctuation 5214 . 5215) (semantic-list 5158 . 5214) (punctuation 5157 . 5158) (symbol 5150 . 5157) (TYPENAME 5141 . 5149) (punctuation 5132 . 5133) (INT 5129 . 5132) (SIGNED 5122 . 5128) (punctuation 5112 . 5113) (symbol 5108 . 5112) (TEMPLATE 5099 . 5107) (punctuation 5098 . 5099) (punctuation 5097 . 5098) (punctuation 5096 . 5097) (semantic-list 5041 . 5096) (punctuation 5040 . 5041) (symbol 5033 . 5040) (TYPENAME 5024 . 5032) (punctuation 5005 . 5006) (symbol 4998 . 5005) (punctuation 4988 . 4989) (symbol 4984 . 4988) (TEMPLATE 4975 . 4983) (punctuation 4974 . 4975) (punctuation 4973 . 4974) (punctuation 4972 . 4973) (semantic-list 4774 . 4972) (punctuation 4773 . 4774) (symbol 4766 . 4773) (TYPENAME 4751 . 4759) (TYPEDEF 4743 . 4750) (punctuation 4306 . 4307) (punctuation 4305 . 4306) (TEMPLATE 4230 . 4238) (punctuation 4229 . 4230) (punctuation 4228 . 4229) (symbol 4220 . 4228) (TYPENAME 4211 . 4219) (TYPEDEF 4203 . 4210) (punctuation 4185 . 4186) (symbol 4171 . 4185) (punctuation 4170 . 4171) (punctuation 4169 . 4170) (punctuation 4168 . 4169) (symbol 4167 . 4168) (punctuation 4166 . 4167) (symbol 4152 . 4166) (punctuation 4151 . 4152) (punctuation 4150 . 4151) (symbol 4147 . 4150) (punctuation 4146 . 4147) (punctuation 4145 . 4146) (punctuation 4127 . 4128) (symbol 4108 . 4127) (TYPEDEF 4100 . 4107) (punctuation 3625 . 3626) (punctuation 3624 . 3625) (punctuation 3606 . 3607) (punctuation 3605 . 3606) (punctuation 3069 . 3070) (punctuation 3068 . 3069) (punctuation 3045 . 3046) (punctuation 3044 . 3045))
+      :lexical-table 
+        '(("BOOST_NUMERIC_TRAITS_HPP_DWA20001901")
+          )
+)
+    (semanticdb-table "select_type.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SELECT_TYPE_DWA20010206_HPP" variable (:constant-flag t) nil [518 545])
+            ("boost" type
+               (:members 
+                  ( ("detail" type
+                       (:members 
+                          ( ("if_true" type
+                               (:template 
+                                  ( ("bool" type nil nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("then" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("F" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("T" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [945 960]))                                          )
+                                        (reparse-symbol classsubparts) [897 963]))                                  )
+                                (reparse-symbol namespacesubparts) [854 968])
+                            ("if_true" type
+                               (:type "struct"
+                                :members 
+                                  ( ("then" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil)
+                                            ("F" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("F" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1066 1081]))                                          )
+                                        (reparse-symbol classsubparts) [1018 1084]))                                  
+                                :template-specifier 
+                                  ( ("false" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [972 1089]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [565 1091]))                  
+                :type "namespace")
+                nil [547 1092]))          
+      :file "select_type.hpp"
+      :pointmax 1131
+      :fsize 1130
+      :lastmodtime '(21727 6065 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SELECT_TYPE_DWA20010206_HPP")
+          )
+)
+    (semanticdb-table "no_exceptions_support.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_DETAIL_NO_EXCEPTIONS_SUPPORT_HPP" variable (:constant-flag t) nil [260 298])
+            ("boost/core/no_exceptions_support.hpp" include (:system-flag t) nil [401 448]))          
+      :file "no_exceptions_support.hpp"
+      :pointmax 457
+      :fsize 456
+      :lastmodtime '(21727 6065 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_DETAIL_NO_EXCEPTIONS_SUPPORT_HPP")
+          )
 ))
   :file "!usr!local!Cellar!boost!1.57.0!include!boost!detail!semantic.cache"
   :semantic-tag-version "2.0"

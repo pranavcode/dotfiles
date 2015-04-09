@@ -1,0 +1,32 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables
+  (list
+    (semanticdb-table "property.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_DETAIL_PROPERTY_HPP" variable (:constant-flag t) nil [239 264])
+            ("utility" include (:system-flag t) nil [266 284])
+            ("boost/type_traits/same_traits.hpp" include (:system-flag t) nil [302 346])
+            ("boost" type
+               (:members 
+                  ( ("detail" type
+                       (:members 
+                          ( ("error_property_not_found" type (:type "struct") (reparse-symbol namespacesubparts) [408 444]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [384 449]))                  
+                :type "namespace")
+                nil [363 472]))          
+      :file "property.hpp"
+      :pointmax 529
+      :fsize 528
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_DETAIL_PROPERTY_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!pending!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -45,6 +45,32 @@
       :lexical-table 
         '(("BOOST_PREDEF_DETAIL__CASSERT_H")
           )
+)
+    (semanticdb-table "comp_detected.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_DETAIL_COMP_DETECTED" variable (:constant-flag t) nil [232 265]))          
+      :file "comp_detected.h"
+      :pointmax 275
+      :fsize 274
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_PREDEF_DETAIL_COMP_DETECTED" . ((number "1" 266 . 267)))
+          )
+)
+    (semanticdb-table "_exception.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_DETAIL__EXCEPTION_H" variable (:constant-flag t) nil [236 268]))          
+      :file "_exception.h"
+      :pointmax 330
+      :fsize 329
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_PREDEF_DETAIL__EXCEPTION_H")
+          )
 ))
   :file "!usr!local!Cellar!boost!1.57.0!include!boost!predef!detail!semantic.cache"
   :semantic-tag-version "2.0"

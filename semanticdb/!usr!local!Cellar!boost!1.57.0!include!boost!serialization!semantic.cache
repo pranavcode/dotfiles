@@ -2074,6 +2074,1859 @@ struct type_info_implementation< const T > {       \\
           ("BOOST_PFTO_WRAPPER" (spp-arg-list ("T") 2545 . 2548) . ((symbol "T" 2549 . 2550)))
           ("BOOST_MAKE_PFTO_WRAPPER" (spp-arg-list ("t") 2586 . 2589) . ((symbol "t" 2590 . 2591)))
           )
+)
+    (semanticdb-table "item_version_type.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_ITEM_VERSION_TYPE_HPP" variable (:constant-flag t) nil [59 100])
+            ("boost/cstdint.hpp" include (:system-flag t) nil [325 353])
+            ("boost/integer_traits.hpp" include (:system-flag t) nil [371 406])
+            ("boost/serialization/level.hpp" include (:system-flag t) nil [407 447])
+            ("boost/serialization/is_bitwise_serializable.hpp" include (:system-flag t) nil [448 506])
+            ("boost/assert.hpp" include (:system-flag t) nil [568 595])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("item_version_type" type
+                               (:members 
+                                  ( ("private" label nil (reparse-symbol classsubparts) [762 770])
+                                    ("base_type" type
+                                       (:typedef ("unsigned int")
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [775 806])
+                                    ("t" variable (:type ("base_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [811 823])
+                                    ("public" label nil (reparse-symbol classsubparts) [824 831])
+                                    ("item_version_type" function
+                                       (:constructor-flag t
+                                        :type ("item_version_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [892 920])
+                                    ("item_version_type" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("t_" variable
+                                               (:constant-flag t
+                                                :type "unsigned int")
+                                                (reparse-symbol arg-sub-list) [953 975]))                                          
+                                        :type ("item_version_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [935 1063])
+                                    ("item_version_type" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("t_" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("item_version_type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1086 1115]))                                          
+                                        :type ("item_version_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [1068 1141])
+                                    ("=" function
+                                       (:operator-flag t
+                                        :arguments 
+                                          ( ("rhs" variable (:type ("item_version_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1176 1198]))                                          
+                                        :type ("item_version_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [1146 1247])
+                                    ("base_type" function (:type "int") (reparse-symbol classsubparts) [1289 1333])
+                                    ("==" function
+                                       (:operator-flag t
+                                        :arguments 
+                                          ( ("rhs" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("item_version_type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1451 1481]))                                          
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [1435 1522])
+                                    ("<" function
+                                       (:operator-flag t
+                                        :arguments 
+                                          ( ("rhs" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("item_version_type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1543 1573]))                                          
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [1528 1613]))                                  
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [736 1616]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [616 1672]))                  
+                :type "namespace")
+                nil [597 1674]))          
+      :file "item_version_type.hpp"
+      :pointmax 1878
+      :fsize 1877
+      :lastmodtime '(21727 6069 0 0)
+      :unmatched-syntax '((semantic-list 1790 . 1825) (symbol 1764 . 1790) (semantic-list 1743 . 1762) (symbol 1714 . 1743) (semantic-list 1405 . 1430) (semantic-list 1402 . 1404) (punctuation 1400 . 1401) (symbol 1390 . 1399) (OPERATOR 1381 . 1389) (OPERATOR 1280 . 1288) (EXPLICIT 926 . 934) (punctuation 920 . 921))
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_ITEM_VERSION_TYPE_HPP")
+          )
+)
+    (semanticdb-table "vector.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_VECTOR_HPP" variable (:constant-flag t) nil [49 79])
+            ("vector" include (:system-flag t) nil [701 718])
+            ("boost/config.hpp" include (:system-flag t) nil [720 747])
+            ("boost/detail/workaround.hpp" include (:system-flag t) nil [748 786])
+            ("boost/type_traits/is_arithmetic.hpp" include (:system-flag t) nil [787 833])
+            ("boost/serialization/collections_save_imp.hpp" include (:system-flag t) nil [836 891])
+            ("boost/serialization/collections_load_imp.hpp" include (:system-flag t) nil [892 947])
+            ("boost/serialization/split_free.hpp" include (:system-flag t) nil [948 993])
+            ("boost/serialization/array.hpp" include (:system-flag t) nil [994 1034])
+            ("boost/serialization/detail/get_data.hpp" include (:system-flag t) nil [1035 1085])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [1086 1115])
+            ("BOOST_SERIALIZATION_VECTOR_VERSIONED" variable (:constant-flag t) nil [1243 1279])
+            ("STD" variable (:constant-flag t) nil [1498 1501])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("save" function
+                               (:template 
+                                  ( ("Archive" type (:type "class") nil nil)
+                                    ("U" type (:type "class") nil nil)
+                                    ("Allocator" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ar" variable
+                                       (:reference 1
+                                        :type ("Archive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1754 1767])
+                                    ("t" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("U" type nil nil nil)
+                                                  ("Allocator" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [1772 1807])
+                                    ("" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [1812 1850])
+                                    ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1855 1868]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [1682 1977])
+                            ("load" function
+                               (:template 
+                                  ( ("Archive" type (:type "class") nil nil)
+                                    ("U" type (:type "class") nil nil)
+                                    ("Allocator" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ar" variable
+                                       (:reference 1
+                                        :type ("Archive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2051 2064])
+                                    ("t" variable
+                                       (:reference 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("U" type nil nil nil)
+                                                  ("Allocator" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [2069 2098])
+                                    ("" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [2103 2141])
+                                    ("" variable (:type ("mpl::false_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2146 2159]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [1979 2464])
+                            ("save" function
+                               (:template 
+                                  ( ("Archive" type (:type "class") nil nil)
+                                    ("U" type (:type "class") nil nil)
+                                    ("Allocator" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ar" variable
+                                       (:reference 1
+                                        :type ("Archive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2565 2578])
+                                    ("t" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("U" type nil nil nil)
+                                                  ("Allocator" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [2583 2618])
+                                    ("" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [2623 2661])
+                                    ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2666 2678]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [2493 2847])
+                            ("load" function
+                               (:template 
+                                  ( ("Archive" type (:type "class") nil nil)
+                                    ("U" type (:type "class") nil nil)
+                                    ("Allocator" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ar" variable
+                                       (:reference 1
+                                        :type ("Archive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2921 2934])
+                                    ("t" variable
+                                       (:reference 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("U" type nil nil nil)
+                                                  ("Allocator" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [2939 2968])
+                                    ("" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [2973 3011])
+                                    ("" variable (:type ("mpl::true_" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3016 3028]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [2849 3379])
+                            ("save" function
+                               (:template 
+                                  ( ("Archive" type (:type "class") nil nil)
+                                    ("U" type (:type "class") nil nil)
+                                    ("Allocator" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ar" variable
+                                       (:reference 1
+                                        :type ("Archive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3506 3519])
+                                    ("t" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("U" type nil nil nil)
+                                                  ("Allocator" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3524 3559])
+                                    ("file_version" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [3564 3597]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [3434 3810])
+                            ("load" function
+                               (:template 
+                                  ( ("Archive" type (:type "class") nil nil)
+                                    ("U" type (:type "class") nil nil)
+                                    ("Allocator" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ar" variable
+                                       (:reference 1
+                                        :type ("Archive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3884 3897])
+                                    ("t" variable
+                                       (:reference 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("U" type nil nil nil)
+                                                  ("Allocator" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3902 3931])
+                                    ("file_version" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [3936 3969]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [3812 4390])
+                            ("serialize" function
+                               (:template 
+                                  ( ("Archive" type (:type "class") nil nil)
+                                    ("U" type (:type "class") nil nil)
+                                    ("Allocator" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ar" variable
+                                       (:reference 1
+                                        :type ("Archive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4580 4593])
+                                    ("t" variable
+                                       (:reference 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("U" type nil nil nil)
+                                                  ("Allocator" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4598 4628])
+                                    ("file_version" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [4633 4666]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [4503 4728])
+                            ("save" function
+                               (:template 
+                                  ( ("Archive" type (:type "class") nil nil)
+                                    ("Allocator" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ar" variable
+                                       (:reference 1
+                                        :type ("Archive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4890 4903])
+                                    ("t" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("bool" type nil nil nil)
+                                                  ("Allocator" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4908 4946])
+                                    ("" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [4951 4990]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [4827 5278])
+                            ("load" function
+                               (:template 
+                                  ( ("Archive" type (:type "class") nil nil)
+                                    ("Allocator" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ar" variable
+                                       (:reference 1
+                                        :type ("Archive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5343 5356])
+                                    ("t" variable
+                                       (:reference 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("bool" type nil nil nil)
+                                                  ("Allocator" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [5361 5393])
+                                    ("" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [5398 5437]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [5280 5691])
+                            ("serialize" function
+                               (:template 
+                                  ( ("Archive" type (:type "class") nil nil)
+                                    ("Allocator" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("ar" variable
+                                       (:reference 1
+                                        :type ("Archive" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5872 5885])
+                                    ("t" variable
+                                       (:reference 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("bool" type nil nil nil)
+                                                  ("Allocator" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [5890 5923])
+                                    ("file_version" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [5928 5961]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [5804 6023]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1533 6026]))                  
+                :type "namespace")
+                nil [1514 6045])
+            ("boost/serialization/collection_traits.hpp" include (:system-flag t) nil [6066 6118]))          
+      :file "vector.hpp"
+      :pointmax 6224
+      :fsize 6223
+      :lastmodtime '(21727 6069 0 0)
+      :unmatched-syntax '((semantic-list 6157 . 6170) (symbol 6120 . 6157))
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_VECTOR_HPP")
+          ("BOOST_SERIALIZATION_VECTOR_VERSIONED" (spp-arg-list ("V") 1279 . 1282) . ((semantic-list "(V==4 || V==5)" 1283 . 1297)))
+          )
+)
+    (semanticdb-table "string.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_STRING_HPP" variable (:constant-flag t) nil [49 79])
+            ("string" include (:system-flag t) nil [654 671])
+            ("boost/config.hpp" include (:system-flag t) nil [673 700])
+            ("boost/serialization/level.hpp" include (:system-flag t) nil [701 741]))          
+      :file "string.hpp"
+      :pointmax 2629
+      :fsize 2628
+      :lastmodtime '(21727 6069 0 0)
+      :unmatched-syntax '((semantic-list 876 . 928) (symbol 850 . 876) (semantic-list 769 . 820) (symbol 743 . 769))
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_STRING_HPP")
+          )
+)
+    (semanticdb-table "collections_save_imp.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_COLLECTIONS_SAVE_IMP_HPP" variable (:constant-flag t) nil [62 106])
+            ("boost/config.hpp" include (:system-flag t) nil [736 763])
+            ("boost/serialization/nvp.hpp" include (:system-flag t) nil [764 802])
+            ("boost/serialization/serialization.hpp" include (:system-flag t) nil [803 851])
+            ("boost/serialization/version.hpp" include (:system-flag t) nil [852 894])
+            ("boost/serialization/collection_size_type.hpp" include (:system-flag t) nil [895 950])
+            ("boost/serialization/item_version_type.hpp" include (:system-flag t) nil [951 1003])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("stl" type
+                               (:members 
+                                  ( ("save_collection" function
+                                       (:template 
+                                          ( ("Archive" type (:type "class") nil nil)
+                                            ("Container" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("ar" variable
+                                               (:reference 1
+                                                :type ("Archive" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1268 1281])
+                                            ("s" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Container" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1286 1305])
+                                            ("count" variable (:type ("collection_size_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1310 1337]))                                          
+                                        :typemodifiers ("inline"))
+                                        (reparse-symbol namespacesubparts) [1194 2197])
+                                    ("save_collection" function
+                                       (:template 
+                                          ( ("Archive" type (:type "class") nil nil)
+                                            ("Container" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("ar" variable
+                                               (:reference 1
+                                                :type ("Archive" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2268 2281])
+                                            ("s" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Container" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2282 2301]))                                          
+                                        :typemodifiers ("inline"))
+                                        (reparse-symbol namespacesubparts) [2199 2415]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1048 2418]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1022 2438]))                  
+                :type "namespace")
+                nil [1005 2467]))          
+      :file "collections_save_imp.hpp"
+      :pointmax 2542
+      :fsize 2541
+      :lastmodtime '(21727 6068 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_COLLECTIONS_SAVE_IMP_HPP")
+          )
+)
+    (semanticdb-table "collections_load_imp.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_COLLECTIONS_LOAD_IMP_HPP" variable (:constant-flag t) nil [63 107])
+            ("boost/assert.hpp" include (:system-flag t) nil [867 894])
+            ("cstddef" include (:system-flag t) nil [895 913])
+            ("boost/config.hpp" include (:system-flag t) nil [924 951])
+            ("boost/detail/workaround.hpp" include (:system-flag t) nil [1099 1137])
+            ("boost/archive/detail/basic_iarchive.hpp" include (:system-flag t) nil [1139 1189])
+            ("boost/serialization/access.hpp" include (:system-flag t) nil [1190 1231])
+            ("boost/serialization/nvp.hpp" include (:system-flag t) nil [1232 1270])
+            ("boost/serialization/detail/stack_constructor.hpp" include (:system-flag t) nil [1271 1330])
+            ("boost/serialization/collection_size_type.hpp" include (:system-flag t) nil [1331 1386])
+            ("boost/serialization/item_version_type.hpp" include (:system-flag t) nil [1387 1439])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("stl" type
+                               (:members 
+                                  ( ("archive_input_seq" type
+                                       (:template 
+                                          ( ("Archive" type (:type "class") nil nil)
+                                            ("Container" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :typemodifiers ("inline" "typename")
+                                                :arguments 
+                                                  ( ("ar" variable
+                                                       (:reference 1
+                                                        :type ("Archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1792 1804])
+                                                    ("s" variable
+                                                       (:reference 1
+                                                        :type ("Container" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1814 1827])
+                                                    ("v" variable
+                                                       (:constant-flag t
+                                                        :type "unsigned int")
+                                                        (reparse-symbol arg-sub-list) [1837 1858])
+                                                    ("hint" variable
+                                                       (:typemodifiers ("typename")
+                                                        :type ("Container::iterator" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [1867 1906]))                                                  
+                                                :type ("Container::iterator" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [1732 2265]))                                          )
+                                        (reparse-symbol namespacesubparts) [1660 2268])
+                                    ("archive_input_map" type
+                                       (:template 
+                                          ( ("Archive" type (:type "class") nil nil)
+                                            ("Container" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :typemodifiers ("inline" "typename")
+                                                :arguments 
+                                                  ( ("ar" variable
+                                                       (:reference 1
+                                                        :type ("Archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2415 2427])
+                                                    ("s" variable
+                                                       (:reference 1
+                                                        :type ("Container" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2437 2450])
+                                                    ("v" variable
+                                                       (:constant-flag t
+                                                        :type "unsigned int")
+                                                        (reparse-symbol arg-sub-list) [2460 2481])
+                                                    ("hint" variable
+                                                       (:typemodifiers ("typename")
+                                                        :type ("Container::iterator" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2490 2529]))                                                  
+                                                :type ("Container::iterator" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2355 3182]))                                          )
+                                        (reparse-symbol namespacesubparts) [2283 3185])
+                                    ("archive_input_set" type
+                                       (:template 
+                                          ( ("Archive" type (:type "class") nil nil)
+                                            ("Container" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("()" function
+                                               (:operator-flag t
+                                                :typemodifiers ("inline" "typename")
+                                                :arguments 
+                                                  ( ("ar" variable
+                                                       (:reference 1
+                                                        :type ("Archive" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3332 3344])
+                                                    ("s" variable
+                                                       (:reference 1
+                                                        :type ("Container" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3354 3367])
+                                                    ("v" variable
+                                                       (:constant-flag t
+                                                        :type "unsigned int")
+                                                        (reparse-symbol arg-sub-list) [3377 3398])
+                                                    ("hint" variable
+                                                       (:typemodifiers ("typename")
+                                                        :type ("Container::iterator" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3407 3446]))                                                  
+                                                :type ("Container::iterator" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3272 3862]))                                          )
+                                        (reparse-symbol namespacesubparts) [3200 3865])
+                                    ("reserve_imp" type
+                                       (:template 
+                                          ( ("Container" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [3913 3920])
+                                            ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("s" variable
+                                                       (:reference 1
+                                                        :type ("Container" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3941 3954])
+                                                    ("count" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3955 3973]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [3925 4013]))                                          )
+                                        (reparse-symbol namespacesubparts) [3867 4016])
+                                    ("no_reserve_imp" type
+                                       (:template 
+                                          ( ("Container" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [4067 4074])
+                                            ("()" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("" variable
+                                                       (:reference 1
+                                                        :type ("Container" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4095 4115])
+                                                    ("" variable (:type ("std::size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4116 4140]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [4079 4148]))                                          )
+                                        (reparse-symbol namespacesubparts) [4018 4151])
+                                    ("load_collection" function
+                                       (:template 
+                                          ( ("Archive" type (:type "class") nil nil)
+                                            ("Container" type (:type "class") nil nil)
+                                            ("InputFunction" type (:type "class") nil nil)
+                                            ("R" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :arguments 
+                                          ( ("ar" variable
+                                               (:reference 1
+                                                :type ("Archive" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4252 4265])
+                                            ("s" variable
+                                               (:reference 1
+                                                :type ("Container" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [4266 4279]))                                          
+                                        :typemodifiers ("inline"))
+                                        (reparse-symbol namespacesubparts) [4153 4870]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1484 4873]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1458 4893]))                  
+                :type "namespace")
+                nil [1441 4922]))          
+      :file "collections_load_imp.hpp"
+      :pointmax 4997
+      :fsize 4996
+      :lastmodtime '(21727 6068 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_COLLECTIONS_LOAD_IMP_HPP")
+          )
+)
+    (semanticdb-table "collection_traits.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_COLLECTION_TRAITS_HPP" variable (:constant-flag t) nil [59 100])
+            ("boost/config.hpp" include (:system-flag t) nil [1066 1093])
+            ("boost/mpl/integral_c.hpp" include (:system-flag t) nil [1094 1129])
+            ("boost/mpl/integral_c_tag.hpp" include (:system-flag t) nil [1130 1169])
+            ("boost/cstdint.hpp" include (:system-flag t) nil [1171 1199])
+            ("boost/integer_traits.hpp" include (:system-flag t) nil [1200 1235])
+            ("climits" include (:system-flag t) nil [1236 1254])
+            ("boost/serialization/level.hpp" include (:system-flag t) nil [1268 1308])
+            ("BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER" variable (:constant-flag t) nil [1318 1362])
+            ("BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER_WCHAR" variable (:constant-flag t) nil [1958 2008])
+            ("BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER_INT64" variable (:constant-flag t) nil [2390 2440])
+            ("BOOST_SERIALIZATION_COLLECTION_TRAITS" variable (:constant-flag t) nil [2460 2497]))          
+      :file "collection_traits.hpp"
+      :pointmax 3717
+      :fsize 3716
+      :lastmodtime '(21727 6068 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_COLLECTION_TRAITS" (spp-arg-list ("C") 2497 . 2500) . 
+              ((NAMESPACE "namespace" 2527 . 2536) (symbol "boost" 2537 . 2542) (semantic-list "{ namespace serialization {                      \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER(bool, C)            \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER(char, C)            \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER(signed char, C)     \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER(unsigned char, C)   \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER(signed int, C)      \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER(unsigned int, C)    \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER(signed long, C)     \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER(unsigned long, C)   \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER(float, C)           \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER(double, C)          \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER(unsigned short, C)  \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER(signed short, C)    \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER_INT64(C)            \\
+    BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER_WCHAR(C)            \\
+    } }" 2543 . 3595)))
+          ("BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER_WCHAR" (spp-arg-list ("C") 2008 . 2011) . ((symbol "BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER" 2020 . 2064) (semantic-list "(wchar_t, C)" 2064 . 2076)))
+          ("BOOST_SERIALIZATION_COLLECTION_TRAITS_HPP")
+          ("BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER_INT64" (spp-arg-list ("C") 2440 . 2443))
+          ("BOOST_SERIALIZATION_COLLECTION_TRAITS_HELPER" (spp-arg-list ("T" "C") 1362 . 1368) . 
+              ((TEMPLATE "template" 1380 . 1388) (punctuation "<" 1388 . 1389) (punctuation ">" 1389 . 1390) (STRUCT "struct" 1450 . 1456) (symbol "implementation_level" 1457 . 1477) (punctuation "<" 1477 . 1478) (symbol "C" 1479 . 1480) (punctuation "<" 1481 . 1482) (symbol "T" 1483 . 1484) (punctuation ">" 1485 . 1486) (punctuation ">" 1487 . 1488) (semantic-list "{                            \\
+    typedef mpl::integral_c_tag tag;                                \\
+    typedef mpl::int_<object_serializable> type;                    \\
+    BOOST_STATIC_CONSTANT(int, value = object_serializable);        \\
+}" 1489 . 1731) (punctuation ";" 1731 . 1732)))
+          )
+)
+    (semanticdb-table "extended_type_info_typeid.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_EXTENDED_TYPE_INFO_TYPEID_HPP" variable (:constant-flag t) nil [67 116])
+            ("typeinfo" include (:system-flag t) nil [801 820])
+            ("cstdarg" include (:system-flag t) nil [821 839])
+            ("boost/assert.hpp" include (:system-flag t) nil [840 867])
+            ("boost/config.hpp" include (:system-flag t) nil [868 895])
+            ("boost/static_assert.hpp" include (:system-flag t) nil [897 931])
+            ("boost/serialization/static_warning.hpp" include (:system-flag t) nil [932 981])
+            ("boost/type_traits/is_polymorphic.hpp" include (:system-flag t) nil [982 1029])
+            ("boost/type_traits/remove_const.hpp" include (:system-flag t) nil [1030 1075])
+            ("boost/serialization/config.hpp" include (:system-flag t) nil [1077 1118])
+            ("boost/serialization/singleton.hpp" include (:system-flag t) nil [1119 1163])
+            ("boost/serialization/extended_type_info.hpp" include (:system-flag t) nil [1164 1217])
+            ("boost/serialization/factory.hpp" include (:system-flag t) nil [1218 1260])
+            ("boost/serialization/access.hpp" include (:system-flag t) nil [1293 1334])
+            ("boost/mpl/if.hpp" include (:system-flag t) nil [1336 1363])
+            ("boost/config/abi_prefix.hpp" include (:system-flag t) nil [1365 1403])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("typeid_system" type
+                               (:members 
+                                  ( ("extended_type_info" variable (:type "int") (reparse-symbol namespacesubparts) [1703 2445]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1585 2448])
+                            ("extended_type_info_typeid" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [2631 2638])
+                                    ("extended_type_info_typeid" function
+                                       (:constructor-flag t
+                                        :type ("extended_type_info_typeid" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2643 2804])
+                                    ("extended_type_info_typeid" function
+                                       (:destructor-flag t
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [2809 2897])
+                                    ("get_derived_extended_type_info" function
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :arguments 
+                                          ( ("t" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3083 3095]))                                          
+                                        :type ("extended_type_info" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3021 3461])
+                                    ("get_key" function
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type "char")
+                                        (reparse-symbol classsubparts) [3466 3552])
+                                    ("construct" function
+                                       (:pointer 1
+                                        :typemodifiers ("virtual")
+                                        :arguments 
+                                          ( ("count" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [3582 3601])
+                                            ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [3602 3606]))                                          
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [3557 4334])
+                                    ("destroy" function
+                                       (:typemodifiers ("virtual")
+                                        :arguments 
+                                          ( ("p" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type "void")
+                                                (reparse-symbol arg-sub-list) [4360 4381]))                                          
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [4339 4541]))                                  
+                                :superclasses 
+                                  ( ("typeid_system::extended_type_info_typeid_0" type
+                                       (:protection "public"
+                                        :type "class")
+                                        nil nil)
+                                    ("singleton" type
+                                       (:protection "public"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2467 4544]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1559 4547]))                  
+                :type "namespace")
+                nil [1541 4576])
+            ("BOOST_SERIALIZATION_DEFAULT_TYPE_INFO" variable (:constant-flag t) nil [4906 4943])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("extended_type_info_impl" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("boost::serialization::extended_type_info_typeid" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [5063 5151]))                                  )
+                                (reparse-symbol namespacesubparts) [5000 5158]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [4970 5164]))                  
+                :type "namespace")
+                nil [4948 5197])
+            ("boost/config/abi_suffix.hpp" include (:system-flag t) nil [5271 5309]))          
+      :file "extended_type_info_typeid.hpp"
+      :pointmax 5402
+      :fsize 5401
+      :lastmodtime '(21727 6068 0 0)
+      :unmatched-syntax '((PUBLIC 1696 . 1702) (punctuation 1689 . 1690) (symbol 1661 . 1688) (semantic-list 1642 . 1660) (symbol 1618 . 1642) (semantic-list 1657 . 1659) (CLASS 1612 . 1617) (close-paren 1659 . 1660) (semantic-list 1657 . 1659) (symbol 1643 . 1657) (open-paren 1642 . 1643) (close-paren 1659 . 1660) (semantic-list 1657 . 1659) (symbol 1643 . 1657) (open-paren 1642 . 1643))
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_DEFAULT_TYPE_INFO")
+          ("BOOST_SERIALIZATION_EXTENDED_TYPE_INFO_TYPEID_HPP")
+          )
+)
+    (semanticdb-table "throw_exception.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_THROW_EXCEPTION_HPP_INCLUDED" variable (:constant-flag t) nil [66 114])
+            ("boost/config.hpp" include (:system-flag t) nil [458 485])
+            ("exception" include (:system-flag t) nil [515 535])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("throw_exception" function
+                               (:template 
+                                  ( ("E" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("e" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("E" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [762 774]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [716 790]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [562 801]))                  
+                :type "namespace")
+                nil [544 830]))          
+      :file "throw_exception.hpp"
+      :pointmax 918
+      :fsize 917
+      :lastmodtime '(21727 6069 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_THROW_EXCEPTION_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "smart_cast.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_SMART_CAST_HPP" variable (:constant-flag t) nil [52 86])
+            ("exception" include (:system-flag t) nil [1410 1430])
+            ("typeinfo" include (:system-flag t) nil [1431 1450])
+            ("cstddef" include (:system-flag t) nil [1451 1469])
+            ("boost/config.hpp" include (:system-flag t) nil [1479 1506])
+            ("boost/static_assert.hpp" include (:system-flag t) nil [1507 1541])
+            ("boost/type_traits/is_base_and_derived.hpp" include (:system-flag t) nil [1543 1595])
+            ("boost/type_traits/is_polymorphic.hpp" include (:system-flag t) nil [1596 1643])
+            ("boost/type_traits/is_pointer.hpp" include (:system-flag t) nil [1644 1687])
+            ("boost/type_traits/is_reference.hpp" include (:system-flag t) nil [1688 1733])
+            ("boost/type_traits/is_same.hpp" include (:system-flag t) nil [1734 1774])
+            ("boost/type_traits/remove_pointer.hpp" include (:system-flag t) nil [1775 1822])
+            ("boost/type_traits/remove_reference.hpp" include (:system-flag t) nil [1823 1872])
+            ("boost/mpl/eval_if.hpp" include (:system-flag t) nil [1874 1906])
+            ("boost/mpl/if.hpp" include (:system-flag t) nil [1907 1934])
+            ("boost/mpl/or.hpp" include (:system-flag t) nil [1935 1962])
+            ("boost/mpl/and.hpp" include (:system-flag t) nil [1963 1991])
+            ("boost/mpl/not.hpp" include (:system-flag t) nil [1992 2020])
+            ("boost/mpl/identity.hpp" include (:system-flag t) nil [2021 2054])
+            ("boost/serialization/throw_exception.hpp" include (:system-flag t) nil [2056 2106])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("smart_cast_impl" type
+                               (:members 
+                                  ( ("reference" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("polymorphic" type
+                                               (:members 
+                                                  ( ("linear" type
+                                                       (:members 
+                                                          ( ("cast" function
+                                                               (:template 
+                                                                  ( ("U" type (:type "class") nil nil))                                                                  
+                                                                :type ("T" type (:type "class") nil nil)
+                                                                :arguments 
+                                                                  ( ("u" variable
+                                                                       (:reference 1
+                                                                        :type ("U" type (:type "class") nil nil))
+                                                                        (reparse-symbol arg-sub-list) [2350 2356]))                                                                  
+                                                                :typemodifiers ("static"))
+                                                                (reparse-symbol classsubparts) [2301 2423]))                                                          
+                                                        :type "struct")
+                                                        (reparse-symbol classsubparts) [2269 2438])
+                                                    ("cross" type
+                                                       (:members 
+                                                          ( ("cast" function
+                                                               (:template 
+                                                                  ( ("U" type (:type "class") nil nil))                                                                  
+                                                                :type ("T" type (:type "class") nil nil)
+                                                                :arguments 
+                                                                  ( ("u" variable
+                                                                       (:reference 1
+                                                                        :type ("U" type (:type "class") nil nil))
+                                                                        (reparse-symbol arg-sub-list) [2532 2538]))                                                                  
+                                                                :typemodifiers ("static"))
+                                                                (reparse-symbol classsubparts) [2484 2606]))                                                          
+                                                        :type "struct")
+                                                        (reparse-symbol classsubparts) [2452 2621])
+                                                    ("cast" function
+                                                       (:template 
+                                                          ( ("U" type (:type "class") nil nil))                                                          
+                                                        :type ("T" type (:type "class") nil nil)
+                                                        :arguments 
+                                                          ( ("u" variable
+                                                               (:reference 1
+                                                                :type ("U" type (:type "class") nil nil))
+                                                                (reparse-symbol arg-sub-list) [2679 2685]))                                                          
+                                                        :typemodifiers ("static"))
+                                                        (reparse-symbol classsubparts) [2635 4285]))                                                  
+                                                :type "struct")
+                                                (reparse-symbol classsubparts) [2235 4296])
+                                            ("non_polymorphic" type
+                                               (:members 
+                                                  ( ("cast" function
+                                                       (:template 
+                                                          ( ("U" type (:type "class") nil nil))                                                          
+                                                        :type ("T" type (:type "class") nil nil)
+                                                        :arguments 
+                                                          ( ("u" variable
+                                                               (:reference 1
+                                                                :type ("U" type (:type "class") nil nil))
+                                                                (reparse-symbol arg-sub-list) [4388 4394]))                                                          
+                                                        :typemodifiers ("static"))
+                                                        (reparse-symbol classsubparts) [4343 4453]))                                                  
+                                                :type "struct")
+                                                (reparse-symbol classsubparts) [4306 4464])
+                                            ("cast" function
+                                               (:template 
+                                                  ( ("U" type (:type "class") nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("u" variable
+                                                       (:reference 1
+                                                        :type ("U" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4513 4519]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [4473 5083]))                                          )
+                                        (reparse-symbol namespacesubparts) [2185 5090])
+                                    ("pointer" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("polymorphic" type
+                                               (:members 
+                                                  ( ("cast" function
+                                                       (:template 
+                                                          ( ("U" type (:type "class") nil nil))                                                          
+                                                        :type ("T" type (:type "class") nil nil)
+                                                        :arguments 
+                                                          ( ("u" variable
+                                                               (:pointer 1
+                                                                :type ("U" type (:type "class") nil nil))
+                                                                (reparse-symbol arg-sub-list) [7507 7513]))                                                          
+                                                        :typemodifiers ("static"))
+                                                        (reparse-symbol classsubparts) [7463 7726]))                                                  
+                                                :type "struct")
+                                                (reparse-symbol classsubparts) [5144 7756])
+                                            ("non_polymorphic" type
+                                               (:members 
+                                                  ( ("cast" function
+                                                       (:template 
+                                                          ( ("U" type (:type "class") nil nil))                                                          
+                                                        :type ("T" type (:type "class") nil nil)
+                                                        :arguments 
+                                                          ( ("u" variable
+                                                               (:pointer 1
+                                                                :type ("U" type (:type "class") nil nil))
+                                                                (reparse-symbol arg-sub-list) [7848 7854]))                                                          
+                                                        :typemodifiers ("static"))
+                                                        (reparse-symbol classsubparts) [7803 7913]))                                                  
+                                                :type "struct")
+                                                (reparse-symbol classsubparts) [7766 7924])
+                                            ("cast" function
+                                               (:template 
+                                                  ( ("U" type (:type "class") nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("u" variable
+                                                       (:pointer 1
+                                                        :type ("U" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7974 7980]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [7934 8544]))                                          )
+                                        (reparse-symbol namespacesubparts) [5096 8552])
+                                    ("void_pointer" type
+                                       (:template 
+                                          ( ("TPtr" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("cast" function
+                                               (:template 
+                                                  ( ("UPtr" type (:type "class") nil nil))                                                  
+                                                :type ("TPtr" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("uptr" variable (:type ("UPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8659 8669]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [8613 8724]))                                          )
+                                        (reparse-symbol namespacesubparts) [8558 8731])
+                                    ("error" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("cast" function
+                                               (:template 
+                                                  ( ("U" type (:type "class") nil nil))                                                  
+                                                :type ("T" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("u" variable (:type ("U" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8988 8992]))                                                  
+                                                :typemodifiers ("static"))
+                                                (reparse-symbol classsubparts) [8948 9095]))                                          )
+                                        (reparse-symbol namespacesubparts) [8737 9102]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [2152 9105])
+                            ("smart_cast" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("U" type (:type "class") nil nil))                                  
+                                :type ("T" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("u" variable (:type ("U" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9327 9331]))                                  )
+                                (reparse-symbol namespacesubparts) [9287 10079])
+                            ("smart_cast_reference" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("U" type (:type "class") nil nil))                                  
+                                :type ("T" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("u" variable
+                                       (:reference 1
+                                        :type ("U" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [10197 10203]))                                  )
+                                (reparse-symbol namespacesubparts) [10147 10260]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2126 10263]))                  
+                :type "namespace")
+                nil [2108 10292]))          
+      :file "smart_cast.hpp"
+      :pointmax 10358
+      :fsize 10357
+      :lastmodtime '(21727 6069 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_SMART_CAST_HPP")
+          )
+)
+    (semanticdb-table "static_warning.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_STATIC_WARNING_HPP" variable (:constant-flag t) nil [56 94])
+            ("boost/config.hpp" include (:system-flag t) nil [1169 1196])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [3121 3150])
+            ("boost/mpl/print.hpp" include (:system-flag t) nil [3151 3181])
+            ("boost/mpl/eval_if.hpp" include (:system-flag t) nil [3182 3214])
+            ("boost/static_assert.hpp" include (:system-flag t) nil [3215 3249])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("BOOST_SERIALIZATION_STATIC_WARNING_LINE" type
+                               (:template 
+                                  ( ("int" type nil nil nil))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [3296 3362])
+                            ("static_warning_test" type
+                               (:template 
+                                  ( ("bool" type nil nil nil)
+                                    ("int" type nil nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3650 3660]))                                  )
+                                (reparse-symbol namespacesubparts) [3364 3663])
+                            ("BOOST_SERIALIZATION_SS" type
+                               (:template 
+                                  ( ("int" type nil nil nil))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [3665 3714]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [3269 3717]))                  
+                :type "namespace")
+                nil [3251 3736])
+            ("BOOST_SERIALIZATION_BSW" variable (:constant-flag t) nil [3755 3778])
+            ("BOOST_STATIC_WARNING" variable (:constant-flag t) nil [4005 4025]))          
+      :file "static_warning.hpp"
+      :pointmax 4116
+      :fsize 4115
+      :lastmodtime '(21727 6069 0 0)
+      :unmatched-syntax '((punctuation 3649 . 3650) (punctuation 3648 . 3649) (punctuation 3647 . 3648) (punctuation 3641 . 3642) (punctuation 3631 . 3632) (punctuation 3617 . 3618) (symbol 3616 . 3617) (punctuation 3615 . 3616) (symbol 3576 . 3615) (punctuation 3558 . 3559) (symbol 3553 . 3558) (punctuation 3552 . 3553) (punctuation 3551 . 3552) (symbol 3548 . 3551) (punctuation 3547 . 3548) (punctuation 3546 . 3547) (symbol 3541 . 3546) (punctuation 3527 . 3528) (symbol 3519 . 3527) (punctuation 3518 . 3519) (punctuation 3517 . 3518) (symbol 3514 . 3517) (punctuation 3513 . 3514) (punctuation 3512 . 3513) (symbol 3507 . 3512) (TYPENAME 3498 . 3506) (punctuation 3488 . 3489) (symbol 3483 . 3488) (punctuation 3482 . 3483) (punctuation 3481 . 3482) (symbol 3478 . 3481) (punctuation 3477 . 3478) (punctuation 3476 . 3477) (symbol 3471 . 3476) (punctuation 3461 . 3462) (symbol 3460 . 3461) (punctuation 3450 . 3451) (symbol 3441 . 3450) (punctuation 3440 . 3441) (punctuation 3439 . 3440) (symbol 3436 . 3439) (punctuation 3435 . 3436) (punctuation 3434 . 3435) (symbol 3429 . 3434) (TYPENAME 3420 . 3428))
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_STATIC_WARNING_HPP")
+          ("BOOST_SERIALIZATION_BSW" (spp-arg-list ("B" "L") 3778 . 3784) . 
+              ((TYPEDEF "typedef" 3791 . 3798) (symbol "boost" 3799 . 3804) (punctuation ":" 3804 . 3805) (punctuation ":" 3805 . 3806) (symbol "serialization" 3806 . 3819) (punctuation ":" 3819 . 3820) (punctuation ":" 3820 . 3821) (symbol "BOOST_SERIALIZATION_SS" 3821 . 3843) (punctuation "<" 3843 . 3844) (SIZEOF "sizeof" 3855 . 3861) (semantic-list "( boost::serialization::static_warning_test< B, L > )" 3861 . 3914) (punctuation ">" 3921 . 3922) (symbol "BOOST_JOIN" 3923 . 3933) (semantic-list "(STATIC_WARNING_LINE, L)" 3933 . 3957) (symbol "BOOST_STATIC_ASSERT_UNUSED_ATTRIBUTE" 3958 . 3994) (punctuation ";" 3994 . 3995)))
+          ("BOOST_STATIC_WARNING" (spp-arg-list ("B") 4025 . 4028) . ((symbol "BOOST_SERIALIZATION_BSW" 4029 . 4052) (semantic-list "(B, __LINE__)" 4052 . 4065)))
+          )
+)
+    (semanticdb-table "assume_abstract.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_ASSUME_ABSTRACT_HPP" variable (:constant-flag t) nil [57 96])
+            ("boost/type_traits/is_abstract.hpp" include (:system-flag t) nil [681 725])
+            ("BOOST_SERIALIZATION_ASSUME_ABSTRACT" variable (:constant-flag t) nil [843 878])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("is_abstract" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("boost::is_abstract" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [976 1047]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [946 1049]))                  
+                :type "namespace")
+                nil [928 1078]))          
+      :file "assume_abstract.hpp"
+      :pointmax 1902
+      :fsize 1901
+      :lastmodtime '(21727 6068 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_ASSUME_ABSTRACT_HPP")
+          ("BOOST_SERIALIZATION_ASSUME_ABSTRACT" (spp-arg-list ("T") 878 . 881))
+          )
+)
+    (semanticdb-table "version.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_VERSION_HPP" variable (:constant-flag t) nil [49 80])
+            ("boost/config.hpp" include (:system-flag t) nil [600 627])
+            ("boost/mpl/assert.hpp" include (:system-flag t) nil [628 659])
+            ("boost/mpl/int.hpp" include (:system-flag t) nil [660 688])
+            ("boost/mpl/eval_if.hpp" include (:system-flag t) nil [689 721])
+            ("boost/mpl/identity.hpp" include (:system-flag t) nil [722 755])
+            ("boost/mpl/integral_c_tag.hpp" include (:system-flag t) nil [756 795])
+            ("boost/type_traits/is_base_and_derived.hpp" include (:system-flag t) nil [797 849])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("basic_traits" type
+                               (:prototype t
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [897 917])
+                            ("version" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("traits_class_version" type
+                                       (:template 
+                                          ( ("U" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("U::version" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1113 1146]))                                          )
+                                        (reparse-symbol classsubparts) [1053 1153])
+                                    ("tag" type
+                                       (:typedef ("mpl::integral_c_tag" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1159 1191])
+                                    ("type" type
+                                       (:typedef ("mpl::eval_if::type" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1298 1493])
+                                    ("BOOST_STATIC_CONSTANT" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1520 1524])
+                                            ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1525 1540])
+                                            ("" variable (:type ("type::value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1542 1554]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [1498 1555]))                                  )
+                                (reparse-symbol namespacesubparts) [1014 1558])
+                            ("version::value" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [1607 1653]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [870 1663]))                  
+                :type "namespace")
+                nil [851 1692])
+            ("boost/mpl/less.hpp" include (:system-flag t) nil [2343 2372])
+            ("boost/mpl/comparison.hpp" include (:system-flag t) nil [2373 2408])
+            ("BOOST_CLASS_VERSION" variable (:constant-flag t) nil [2511 2530]))          
+      :file "version.hpp"
+      :pointmax 4373
+      :fsize 4372
+      :lastmodtime '(21727 6069 0 0)
+      :unmatched-syntax '((punctuation 1541 . 1542) (punctuation 1540 . 1541))
+      :lexical-table 
+        '(("BOOST_CLASS_VERSION" (spp-arg-list ("T" "N") 2530 . 2536) . 
+              ((NAMESPACE "namespace" 2576 . 2585) (symbol "boost" 2586 . 2591) (semantic-list "{                                                      \\
+namespace serialization {                                              \\
+template<>                                                             \\
+struct version<T >                                                     \\
+{                                                                      \\
+    typedef mpl::int_<N> type;                                         \\
+    typedef mpl::integral_c_tag tag;                                   \\
+    BOOST_STATIC_CONSTANT(int, value = version::type::value);          \\
+    BOOST_MPL_ASSERT((                                                 \\
+        boost::mpl::less<                                              \\
+            boost::mpl::int_<N>,                                       \\
+            boost::mpl::int_<256>                                      \\
+        >                                                              \\
+    ));                                                                \\
+    /*                                                                 \\
+    BOOST_MPL_ASSERT((                                                 \\
+        mpl::equal_to<                                                 \\
+            :implementation_level<T >,                                 \\
+            mpl::int_<object_class_info>                               \\
+        >::value                                                       \\
+    ));                                                                \\
+    */                                                                 \\
+};                                                                     \\
+}                                                                      \\
+}" 2592 . 4329)))
+          ("BOOST_SERIALIZATION_VERSION_HPP")
+          )
+)
+    (semanticdb-table "void_cast.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_VOID_CAST_HPP" variable (:constant-flag t) nil [52 85])
+            ("cstddef" include (:system-flag t) nil [692 710])
+            ("boost/config.hpp" include (:system-flag t) nil [728 755])
+            ("boost/noncopyable.hpp" include (:system-flag t) nil [756 788])
+            ("boost/serialization/smart_cast.hpp" include (:system-flag t) nil [790 835])
+            ("boost/serialization/singleton.hpp" include (:system-flag t) nil [836 880])
+            ("boost/serialization/force_include.hpp" include (:system-flag t) nil [881 929])
+            ("boost/serialization/type_info_implementation.hpp" include (:system-flag t) nil [930 989])
+            ("boost/serialization/extended_type_info.hpp" include (:system-flag t) nil [990 1043])
+            ("boost/type_traits/is_virtual_base_of.hpp" include (:system-flag t) nil [1044 1095])
+            ("boost/serialization/void_cast_fwd.hpp" include (:system-flag t) nil [1096 1144])
+            ("boost/serialization/config.hpp" include (:system-flag t) nil [1146 1187])
+            ("boost/config/abi_prefix.hpp" include (:system-flag t) nil [1188 1226])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("extended_type_info" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [1401 1426])
+                            ("void_upcast" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("derived" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("extended_type_info" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1762 1797])
+                                    ("base" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("extended_type_info" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1804 1836])
+                                    ("t" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type "void")
+                                        (reparse-symbol arg-sub-list) [1842 1864]))                                  
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [1745 1865])
+                            ("void_upcast" function
+                               (:pointer 1
+                                :typemodifiers ("inline")
+                                :arguments 
+                                  ( ("derived" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("extended_type_info" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1898 1933])
+                                    ("base" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("extended_type_info" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1938 1970])
+                                    ("t" variable
+                                       (:pointer 1
+                                        :type "void")
+                                        (reparse-symbol arg-sub-list) [1975 1992]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1867 2114])
+                            ("void_downcast" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("derived" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("extended_type_info" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2174 2209])
+                                    ("base" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("extended_type_info" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2216 2248])
+                                    ("t" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type "void")
+                                        (reparse-symbol arg-sub-list) [2254 2276]))                                  
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [2155 2277])
+                            ("void_downcast" function
+                               (:pointer 1
+                                :typemodifiers ("inline")
+                                :arguments 
+                                  ( ("derived" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("extended_type_info" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2312 2347])
+                                    ("base" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("extended_type_info" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2352 2384])
+                                    ("t" variable
+                                       (:pointer 1
+                                        :type "void")
+                                        (reparse-symbol arg-sub-list) [2389 2406]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [2279 2530])
+                            ("void_cast_detail" type
+                               (:members 
+                                  ( ("boost::noncopyable" variable (:type "int") (reparse-symbol namespacesubparts) [2637 4348])
+                                    ("void_caster_primitive" type
+                                       (:template 
+                                          ( ("Derived" type (:type "class") nil nil)
+                                            ("Base" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("downcast" function
+                                               (:pointer 1
+                                                :typemodifiers ("virtual")
+                                                :arguments 
+                                                  ( ("t" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "void")
+                                                        (reparse-symbol arg-sub-list) [4586 4607]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [4556 4805])
+                                            ("upcast" function
+                                               (:pointer 1
+                                                :typemodifiers ("virtual")
+                                                :arguments 
+                                                  ( ("t" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "void")
+                                                        (reparse-symbol arg-sub-list) [4838 4859]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [4810 5057])
+                                            ("has_virtual_base" function
+                                               (:typemodifiers ("virtual")
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [5062 5129])
+                                            ("public" label nil (reparse-symbol classsubparts) [5130 5137])
+                                            ("void_caster_primitive" function
+                                               (:prototype-flag t
+                                                :constructor-flag t
+                                                :type ("void_caster_primitive" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [5142 5166])
+                                            ("void_caster_primitive" function
+                                               (:prototype-flag t
+                                                :destructor-flag t
+                                                :typemodifiers ("virtual")
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [5171 5204]))                                          
+                                        :superclasses 
+                                          ( ("void_caster" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [4459 5207])
+                                    ("void_caster_primitive" function
+                                       (:template 
+                                          ( ("Derived" type (:type "class") nil nil)
+                                            ("Base" type (:type "class") nil nil))                                          
+                                        :type ("void_caster_primitive" type (:type "class") nil nil)
+                                        :parent "void_caster_primitive"
+                                        :constructor-flag t)
+                                        (reparse-symbol namespacesubparts) [5209 5781])
+                                    ("void_caster_primitive" function
+                                       (:template 
+                                          ( ("Derived" type (:type "class") nil nil)
+                                            ("Base" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :parent "void_caster_primitive"
+                                        :destructor-flag t)
+                                        (reparse-symbol namespacesubparts) [5783 5913])
+                                    ("void_caster_virtual_base" type
+                                       (:template 
+                                          ( ("Derived" type (:type "class") nil nil)
+                                            ("Base" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("has_virtual_base" function
+                                               (:typemodifiers ("virtual")
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [6015 6081])
+                                            ("public" label nil (reparse-symbol classsubparts) [6082 6089])
+                                            ("downcast" function
+                                               (:pointer 1
+                                                :typemodifiers ("virtual")
+                                                :arguments 
+                                                  ( ("t" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "void")
+                                                        (reparse-symbol arg-sub-list) [6124 6145]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [6094 6309])
+                                            ("upcast" function
+                                               (:pointer 1
+                                                :typemodifiers ("virtual")
+                                                :arguments 
+                                                  ( ("t" variable
+                                                       (:pointer 1
+                                                        :constant-flag t
+                                                        :type "void")
+                                                        (reparse-symbol arg-sub-list) [6342 6363]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [6314 6524])
+                                            ("void_caster_virtual_base" function
+                                               (:prototype-flag t
+                                                :constructor-flag t
+                                                :type ("void_caster_virtual_base" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [6529 6556])
+                                            ("void_caster_virtual_base" function
+                                               (:prototype-flag t
+                                                :destructor-flag t
+                                                :typemodifiers ("virtual")
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [6561 6597]))                                          
+                                        :superclasses 
+                                          ( ("void_caster" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [5915 6600])
+                                    ("void_caster_virtual_base" function
+                                       (:template 
+                                          ( ("Derived" type (:type "class") nil nil)
+                                            ("Base" type (:type "class") nil nil))                                          
+                                        :type ("void_caster_virtual_base" type (:type "class") nil nil)
+                                        :parent "void_caster_virtual_base"
+                                        :constructor-flag t)
+                                        (reparse-symbol namespacesubparts) [6649 6959])
+                                    ("void_caster_virtual_base" function
+                                       (:template 
+                                          ( ("Derived" type (:type "class") nil nil)
+                                            ("Base" type (:type "class") nil nil))                                          
+                                        :type "void"
+                                        :parent "void_caster_virtual_base"
+                                        :destructor-flag t)
+                                        (reparse-symbol namespacesubparts) [6961 7096])
+                                    ("void_caster_base" type
+                                       (:template 
+                                          ( ("Derived" type (:type "class") nil nil)
+                                            ("Base" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("type" type
+                                               (:typedef ("mpl::eval_if::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [7190 7534]))                                          
+                                        :superclasses 
+                                          ( ("void_caster" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [7098 7537]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [2532 7540])
+                            ("void_cast_register" function
+                               (:typemodifiers ("inline")
+                                :constant-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("Derived" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7685 7720])
+                                    ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("Base" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7726 7759]))                                  
+                                :type ("void_cast_detail::void_caster" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [7616 8163])
+                            ("void_caster" type
+                               (:template 
+                                  ( ("Derived" type (:type "class") nil nil)
+                                    ("Base" type (:type "class") nil nil))                                  
+                                :type "class"
+                                :superclasses 
+                                  ( ("void_cast_detail::void_caster_base::type" type
+                                       (:protection "public"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [8165 8292]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1373 8295]))                  
+                :type "namespace")
+                nil [1354 8324])
+            ("boost/config/abi_suffix.hpp" include (:system-flag t) nil [8398 8436]))          
+      :file "void_cast.hpp"
+      :pointmax 8513
+      :fsize 8512
+      :lastmodtime '(21727 6069 0 0)
+      :unmatched-syntax '((symbol 7599 . 7614) (punctuation 7597 . 7598) (symbol 7593 . 7597) (CLASS 7587 . 7592) (punctuation 7585 . 7586) (symbol 7578 . 7585) (CLASS 7572 . 7577) (punctuation 7571 . 7572) (TEMPLATE 7563 . 7571) (PRIVATE 2629 . 2636) (punctuation 2623 . 2624) (symbol 2611 . 2622) (semantic-list 2592 . 2610) (symbol 2568 . 2592) (semantic-list 2607 . 2609) (CLASS 2562 . 2567) (close-paren 2609 . 2610) (semantic-list 2607 . 2609) (symbol 2593 . 2607) (open-paren 2592 . 2593) (close-paren 2609 . 2610) (semantic-list 2607 . 2609) (symbol 2593 . 2607) (open-paren 2592 . 2593) (semantic-list 2140 . 2154) (symbol 2116 . 2140) (semantic-list 1730 . 1744) (symbol 1706 . 1730))
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_VOID_CAST_HPP")
+          )
+)
+    (semanticdb-table "singleton.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_SINGLETON_HPP" variable (:constant-flag t) nil [51 84])
+            ("boost/assert.hpp" include (:system-flag t) nil [1186 1213])
+            ("boost/config.hpp" include (:system-flag t) nil [1214 1241])
+            ("boost/noncopyable.hpp" include (:system-flag t) nil [1242 1274])
+            ("boost/serialization/force_include.hpp" include (:system-flag t) nil [1275 1323])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("singleton_module" type
+                               (:superclasses 
+                                  ( ("boost::noncopyable" type
+                                       (:protection "public"
+                                        :type "class")
+                                        nil nil))                                  
+                                :members 
+                                  ( ("private" label nil (reparse-symbol classsubparts) [2851 2859])
+                                    ("get_lock" function
+                                       (:typemodifiers ("static")
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [2864 2950])
+                                    ("public" label nil (reparse-symbol classsubparts) [2951 2958])
+                                    ("lock" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [3081 3133])
+                                    ("unlock" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [3138 3193])
+                                    ("is_locked" function
+                                       (:typemodifiers ("static")
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [3198 3256]))                                  
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [2793 3259])
+                            ("detail" type
+                               (:members 
+                                  ( ("singleton_wrapper" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "class"
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [3336 3343])
+                                            ("m_is_destroyed" variable
+                                               (:typemodifiers ("static")
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [3348 3375])
+                                            ("singleton_wrapper" function
+                                               (:destructor-flag t
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [3380 3438]))                                          
+                                        :superclasses 
+                                          ( ("T" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [3281 3441])
+                                    ("detail::singleton_wrapper::m_is_destroyed" variable
+                                       (:default-value "false"
+                                        :type "bool")
+                                        (reparse-symbol namespacesubparts) [3443 3521]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [3261 3524])
+                            ("singleton" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("private" label nil (reparse-symbol classsubparts) [3599 3607])
+                                    ("instance" variable
+                                       (:typemodifiers ("static")
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3628 3648])
+                                    ("use" function
+                                       (:typemodifiers ("static")
+                                        :arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("T" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3736 3746]))                                          
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [3720 3749])
+                                    ("get_instance" function
+                                       (:typemodifiers ("static")
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3770 4104])
+                                    ("public" label nil (reparse-symbol classsubparts) [4105 4112])
+                                    ("get_mutable_instance" function
+                                       (:typemodifiers ("static")
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4133 4241])
+                                    ("get_const_instance" function
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4262 4337])
+                                    ("is_destroyed" function
+                                       (:typemodifiers ("static")
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [4358 4454]))                                  
+                                :superclasses 
+                                  ( ("singleton_module" type
+                                       (:protection "public"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [3536 4457])
+                            ("singleton::instance" variable
+                               (:default-value "singleton< T >::get_instance()"
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4493 4555]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1433 4558]))                  
+                :type "namespace")
+                nil [1414 4587]))          
+      :file "singleton.hpp"
+      :pointmax 4699
+      :fsize 4698
+      :lastmodtime '(21727 6069 0 0)
+      :unmatched-syntax '((symbol 4477 . 4492) (punctuation 4475 . 4476) (symbol 4474 . 4475) (CLASS 4468 . 4473) (punctuation 4467 . 4468) (TEMPLATE 4459 . 4467) (symbol 4342 . 4357) (symbol 4246 . 4261) (symbol 4117 . 4132) (symbol 3754 . 3769) (symbol 3612 . 3627))
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_SINGLETON_HPP")
+          )
+)
+    (semanticdb-table "config.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_CONFIG_HPP" variable (:constant-flag t) nil [48 78])
+            ("boost/config.hpp" include (:system-flag t) nil [654 681])
+            ("boost/detail/workaround.hpp" include (:system-flag t) nil [682 720])
+            ("boost/preprocessor/facilities/empty.hpp" include (:system-flag t) nil [721 771])
+            ("BOOST_SERIALIZATION_DECL" variable (:constant-flag t) nil [2303 2327])
+            ("BOOST_LIB_NAME" variable (:constant-flag t) nil [2744 2758])
+            ("boost/config/auto_link.hpp" include (:system-flag t) nil [3051 3092]))          
+      :file "config.hpp"
+      :pointmax 3145
+      :fsize 3144
+      :lastmodtime '(21727 6068 0 0)
+      :unmatched-syntax '((semantic-list 2582 . 2610) (symbol 2575 . 2582) (punctuation 2574 . 2575) (punctuation 2571 . 2572) (punctuation 2570 . 2571) (semantic-list 2543 . 2566) (symbol 2536 . 2543) (punctuation 2535 . 2536) (punctuation 2533 . 2534) (punctuation 2532 . 2533) (semantic-list 2509 . 2531) (symbol 2502 . 2509) (punctuation 2501 . 2502) (punctuation 2498 . 2499) (punctuation 2497 . 2498))
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_CONFIG_HPP")
+          ("BOOST_LIB_NAME" . ((symbol "boost_serialization" 2759 . 2778)))
+          ("BOOST_SERIALIZATION_DECL" (spp-arg-list ("T") 2327 . 2330) . ((symbol "T" 2331 . 2332)))
+          )
+)
+    (semanticdb-table "extended_type_info.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_EXTENDED_TYPE_INFO_HPP" variable (:constant-flag t) nil [60 102])
+            ("cstdarg" include (:system-flag t) nil [783 801])
+            ("boost/assert.hpp" include (:system-flag t) nil [802 829])
+            ("cstddef" include (:system-flag t) nil [830 848])
+            ("boost/config.hpp" include (:system-flag t) nil [857 884])
+            ("boost/noncopyable.hpp" include (:system-flag t) nil [885 917])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [918 947])
+            ("boost/serialization/config.hpp" include (:system-flag t) nil [949 990])
+            ("boost/config/abi_prefix.hpp" include (:system-flag t) nil [991 1029])
+            ("BOOST_SERIALIZATION_MAX_KEY_SIZE" variable (:constant-flag t) nil [1164 1196])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("void_cast_detail" type
+                               (:members 
+                                  ( ("void_caster" type
+                                       (:prototype t
+                                        :type "class")
+                                        (reparse-symbol namespacesubparts) [1280 1298]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1248 1300])
+                            ("boost::noncopyable" variable (:type "int") (reparse-symbol namespacesubparts) [1384 2992])
+                            ("guid_defined" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :superclasses 
+                                  ( ("boost::mpl::false_" type
+                                       (:protection "unspecified"
+                                        :type "class")
+                                        nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [2994 3056])
+                            ("ext" type
+                               (:members 
+                                  ( ("guid_impl" type
+                                       (:template 
+                                          ( ("T" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("call" function
+                                               (:pointer 1
+                                                :typemodifiers ("static" "inline")
+                                                :constant-flag t
+                                                :type "char")
+                                                (reparse-symbol classsubparts) [3135 3213]))                                          )
+                                        (reparse-symbol namespacesubparts) [3078 3220]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [3058 3222])
+                            ("guid" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "char"
+                                :constant-flag t
+                                :typemodifiers ("inline")
+                                :pointer 1)
+                                (reparse-symbol namespacesubparts) [3224 3309]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1221 3312]))                  
+                :type "namespace")
+                nil [1202 3342])
+            ("boost/config/abi_suffix.hpp" include (:system-flag t) nil [3410 3448]))          
+      :file "extended_type_info.hpp"
+      :pointmax 3534
+      :fsize 3533
+      :lastmodtime '(21727 6068 0 0)
+      :unmatched-syntax '((PRIVATE 1376 . 1383) (punctuation 1370 . 1371) (symbol 1351 . 1369) (semantic-list 1332 . 1350) (symbol 1308 . 1332) (semantic-list 1347 . 1349) (CLASS 1302 . 1307) (close-paren 1349 . 1350) (semantic-list 1347 . 1349) (symbol 1333 . 1347) (open-paren 1332 . 1333) (close-paren 1349 . 1350) (semantic-list 1347 . 1349) (symbol 1333 . 1347) (open-paren 1332 . 1333))
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_EXTENDED_TYPE_INFO_HPP")
+          ("BOOST_SERIALIZATION_MAX_KEY_SIZE" . ((number "128" 1197 . 1200)))
+          )
+)
+    (semanticdb-table "factory.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_SERIALIZATION_FACTORY_HPP" variable (:constant-flag t) nil [49 80])
+            ("cstdarg" include (:system-flag t) nil [656 674])
+            ("cstddef" include (:system-flag t) nil [685 703])
+            ("boost/preprocessor/control/if.hpp" include (:system-flag t) nil [713 757])
+            ("boost/preprocessor/comparison/greater.hpp" include (:system-flag t) nil [759 811])
+            ("boost/preprocessor/facilities/empty.hpp" include (:system-flag t) nil [812 862])
+            ("std" type (:type "namespace") nil [864 945])
+            ("boost" type
+               (:members 
+                  ( ("serialization" type
+                       (:members 
+                          ( ("factory" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("int" type nil nil nil))                                  
+                                :type ("T" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("" variable (:type ("std::va_list" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1086 1099]))                                  
+                                :pointer 1)
+                                (reparse-symbol namespacesubparts) [1049 1173]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [982 1176]))                  
+                :type "namespace")
+                nil [964 1205])
+            ("BOOST_SERIALIZATION_FACTORY" variable (:constant-flag t) nil [1234 1261])
+            ("BOOST_SERIALIZATION_FACTORY_4" variable (:constant-flag t) nil [3040 3069])
+            ("BOOST_SERIALIZATION_FACTORY_3" variable (:constant-flag t) nil [3154 3183])
+            ("BOOST_SERIALIZATION_FACTORY_2" variable (:constant-flag t) nil [3267 3296])
+            ("BOOST_SERIALIZATION_FACTORY_1" variable (:constant-flag t) nil [3379 3408])
+            ("BOOST_SERIALIZATION_FACTORY_0" variable (:constant-flag t) nil [3490 3519]))          
+      :file "factory.hpp"
+      :pointmax 4061
+      :fsize 4060
+      :lastmodtime '(21727 6068 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_SERIALIZATION_FACTORY_0" (spp-arg-list ("T") 3519 . 3522) . 
+              ((NAMESPACE "namespace" 3541 . 3550) (symbol "boost" 3551 . 3556) (semantic-list "{                                        \\
+namespace serialization {                                \\
+    template<>                                           \\
+    T * factory<T, 0>(std::va_list){                     \\
+        return new T();                                  \\
+    }                                                    \\
+}                                                        \\
+}" 3557 . 3955)))
+          ("BOOST_SERIALIZATION_FACTORY_1" (spp-arg-list ("T" "A0") 3408 . 3415) . ((symbol "BOOST_SERIALIZATION_FACTORY" 3434 . 3461) (semantic-list "(1, T, A0, 0, 0, 0)" 3461 . 3480)))
+          ("BOOST_SERIALIZATION_FACTORY_2" (spp-arg-list ("T" "A0" "A1") 3296 . 3307) . ((symbol "BOOST_SERIALIZATION_FACTORY" 3322 . 3349) (semantic-list "(2, T, A0, A1, 0, 0)" 3349 . 3369)))
+          ("BOOST_SERIALIZATION_FACTORY_3" (spp-arg-list ("T" "A0" "A1" "A2") 3183 . 3198) . ((symbol "BOOST_SERIALIZATION_FACTORY" 3209 . 3236) (semantic-list "(3, T, A0, A1, A2, 0)" 3236 . 3257)))
+          ("BOOST_SERIALIZATION_FACTORY_4" (spp-arg-list ("T" "A0" "A1" "A2" "A3") 3069 . 3088) . ((symbol "BOOST_SERIALIZATION_FACTORY" 3095 . 3122) (semantic-list "(4, T, A0, A1, A2, A3)" 3122 . 3144)))
+          ("BOOST_SERIALIZATION_FACTORY" (spp-arg-list ("N" "T" "A0" "A1" "A2" "A3") 1261 . 1283) . 
+              ((NAMESPACE "namespace" 1286 . 1295) (symbol "boost" 1296 . 1301) (semantic-list "{                                         \\
+namespace serialization {                                 \\
+    template<>                                            \\
+    T * factory<T, N>(std::va_list ap){                   \\
+        BOOST_PP_IF(BOOST_PP_GREATER(N,0)                 \\
+            ,A0 a0 = va_arg(ap, A0);                      \\
+        ,BOOST_PP_IF(BOOST_PP_GREATER(N,1)                \\
+            ,A1 a1 = va_arg(ap, A1);                      \\
+        ,BOOST_PP_IF(BOOST_PP_GREATER(N,2)                \\
+            ,A2 a2 = va_arg(ap, A2);                      \\
+        ,BOOST_PP_IF(BOOST_PP_GREATER(N,3)                \\
+            ,A3 a3 = va_arg(ap, A3);                      \\
+            ,BOOST_PP_EMPTY()                             \\
+        ))))                                              \\
+        return new T(                                     \\
+            BOOST_PP_IF(BOOST_PP_GREATER(N,0)             \\
+                ,a0                                       \\
+            ,BOOST_PP_IF(BOOST_PP_GREATER(N,1)            \\
+                ,a1                                       \\
+            ,BOOST_PP_IF(BOOST_PP_GREATER(N,2)            \\
+                ,a2                                       \\
+            ,BOOST_PP_IF(BOOST_PP_GREATER(N,3)            \\
+                ,a3                                       \\
+                ,BOOST_PP_EMPTY()                         \\
+            ))))                                          \\
+        );                                                \\
+    }                                                     \\
+}                                                         \\
+}" 1302 . 2967)))
+          ("BOOST_SERIALIZATION_FACTORY_HPP")
+          )
 ))
   :file "!usr!local!Cellar!boost!1.57.0!include!boost!serialization!semantic.cache"
   :semantic-tag-version "2.0"

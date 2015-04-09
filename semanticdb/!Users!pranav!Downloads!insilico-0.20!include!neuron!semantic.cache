@@ -1,0 +1,98 @@
+;; Object neuron/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "neuron/"
+  :tables
+  (list
+    (semanticdb-table "mitral.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_LN_HPP" variable (:constant-flag t) nil [33 48])
+            ("core/engine.hpp" include nil nil [50 76])
+            ("current/IKdr_LN.hpp" include nil nil [78 108])
+            ("current/IKA_LN.hpp" include nil nil [109 138])
+            ("current/INA_LN.hpp" include nil nil [139 168])
+            ("current/ILeak_LN.hpp" include nil nil [169 200])
+            ("insilico" type
+               (:members 
+                  ( ("mitral" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [240 247])
+                            ("ode_set" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [270 292])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [293 310])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [311 326])
+                                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [327 342]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [250 3892]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [224 3915]))                  
+                :type "namespace")
+                nil [202 3946]))          
+      :file "mitral.hpp"
+      :pointmax 3967
+      :fsize 3966
+      :lastmodtime '(21767 12193 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_LN_HPP")
+          )
+)
+    (semanticdb-table "gc.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_GC_HPP" variable (:constant-flag t) nil [33 48])
+            ("core/engine.hpp" include nil nil [50 76])
+            ("current/IKdr_GC.hpp" include nil nil [78 108])
+            ("current/IKA_GC.hpp" include nil nil [109 138])
+            ("current/INA_GC.hpp" include nil nil [139 168])
+            ("current/ILeak_GC.hpp" include nil nil [169 200])
+            ("insilico" type
+               (:members 
+                  ( ("gc" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [237 244])
+                            ("ode_set" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [267 289])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [290 307])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [308 323])
+                                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [324 339]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [247 7279]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [224 7302]))                  
+                :type "namespace")
+                nil [202 7305]))          
+      :file "gc.hpp"
+      :pointmax 7326
+      :fsize 7325
+      :lastmodtime '(21767 12205 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_GC_HPP")
+          )
+))
+  :file "!Users!pranav!Downloads!insilico-0.20!include!neuron!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

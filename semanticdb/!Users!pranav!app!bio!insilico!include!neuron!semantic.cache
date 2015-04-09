@@ -14,26 +14,30 @@
             ("insilico" type
                (:members 
                   ( ("N_SquidAxon_HH1952" type
-                       (:members 
-                          ( ("public" label nil (reparse-symbol classsubparts) [1231 1238])
+                       (:superclasses 
+                          ( ("Neuron" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1247 1254])
                             ("ode_set" function
-                               (:typemodifiers ("static")
-                                :arguments 
+                               (:arguments 
                                   ( ("variables" variable
                                        (:reference 1
                                         :type ("state_type" type (:type "class") nil nil))
-                                        (reparse-symbol arg-sub-list) [1261 1283])
+                                        (reparse-symbol arg-sub-list) [1270 1292])
                                     ("dxdt" variable
                                        (:reference 1
                                         :type ("state_type" type (:type "class") nil nil))
-                                        (reparse-symbol arg-sub-list) [1284 1301])
+                                        (reparse-symbol arg-sub-list) [1293 1310])
                                     ("t" variable
                                        (:constant-flag t
                                         :type "double")
-                                        (reparse-symbol arg-sub-list) [1302 1317])
-                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1318 1328]))                                  
+                                        (reparse-symbol arg-sub-list) [1311 1326])
+                                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1327 1342]))                                  
                                 :type "void")
-                                (reparse-symbol classsubparts) [1241 2775]))                          
+                                (reparse-symbol classsubparts) [1257 2775]))                          
                         :type "class")
                         (reparse-symbol namespacesubparts) [1203 2798]))                  
                 :type "namespace")
@@ -41,10 +45,55 @@
       :file "N_SquidAxon_HH1952.hpp"
       :pointmax 2850
       :fsize 2849
-      :lastmodtime '(21750 29283 0 0)
+      :lastmodtime '(21776 34245 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("INCLUDED_N_SQUIDAXON_HH1952_HPP")
+          )
+)
+    (semanticdb-table "N_LIF_S1967.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_N_LIF_S1967_HPP" variable (:constant-flag t) nil [930 954])
+            ("core/engine.hpp" include nil nil [956 982])
+            ("insilico" type
+               (:members 
+                  ( ("N_LIF_S1967" type
+                       (:superclasses 
+                          ( ("Neuron" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1043 1050])
+                            ("ode_set" function
+                               (:arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1066 1088])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1089 1106])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1107 1122])
+                                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1123 1138]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1053 1808]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1006 1831]))                  
+                :type "namespace")
+                nil [984 1855]))          
+      :file "N_LIF_S1967.hpp"
+      :pointmax 1886
+      :fsize 1885
+      :lastmodtime '(21760 15990 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_N_LIF_S1967_HPP")
           )
 ))
   :file "!Users!pranav!app!bio!insilico!include!neuron!semantic.cache"

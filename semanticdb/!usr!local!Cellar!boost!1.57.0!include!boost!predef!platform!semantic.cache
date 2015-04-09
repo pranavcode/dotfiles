@@ -1,0 +1,112 @@
+;; Object platform/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "platform/"
+  :tables
+  (list
+    (semanticdb-table "mingw.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_COMPILER_MINGW_H" variable (:constant-flag t) nil [233 262])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [264 304])
+            ("boost/predef/make.h" include (:system-flag t) nil [305 335])
+            ("BOOST_PLAT_MINGW" variable (:constant-flag t) nil [782 798])
+            ("BOOST_PLAT_MINGW_NAME" variable (:constant-flag t) nil [1923 1944])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1954 1991]))          
+      :file "mingw.h"
+      :pointmax 2221
+      :fsize 2220
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 2017 . 2057) (symbol 1992 . 2017) (string "\"MinGW\"" 2035 . 2056))
+      :lexical-table 
+        '(("BOOST_PLAT_MINGW_NAME" . ((string "\"MinGW\"" 1945 . 1952)))
+          ("BOOST_PLAT_MINGW" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 799 . 833)))
+          ("BOOST_PREDEF_COMPILER_MINGW_H")
+          )
+)
+    (semanticdb-table "windows_desktop.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_PLAT_WINDOWS_DESKTOP_H" variable (:constant-flag t) nil [248 283])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [285 325])
+            ("boost/predef/make.h" include (:system-flag t) nil [326 356])
+            ("boost/predef/os/windows.h" include (:system-flag t) nil [357 393])
+            ("BOOST_PLAT_WINDOWS_DESKTOP" variable (:constant-flag t) nil [637 663])
+            ("BOOST_PLAT_WINDOWS_DESKTOP_NAME" variable (:constant-flag t) nil [1070 1101])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1121 1158]))          
+      :file "windows_desktop.h"
+      :pointmax 1253
+      :fsize 1252
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1184 . 1244) (symbol 1159 . 1184) (string "\"Windows Desktop\"" 1212 . 1243))
+      :lexical-table 
+        '(("BOOST_PLAT_WINDOWS_DESKTOP" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 664 . 698)))
+          ("BOOST_PREDEF_PLAT_WINDOWS_DESKTOP_H")
+          ("BOOST_PLAT_WINDOWS_DESKTOP_NAME" . ((string "\"Windows Desktop\"" 1102 . 1119)))
+          )
+)
+    (semanticdb-table "windows_store.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_PLAT_WINDOWS_STORE_H" variable (:constant-flag t) nil [246 279])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [281 321])
+            ("boost/predef/make.h" include (:system-flag t) nil [322 352])
+            ("boost/predef/os/windows.h" include (:system-flag t) nil [353 389])
+            ("BOOST_PLAT_WINDOWS_STORE" variable (:constant-flag t) nil [575 599])
+            ("BOOST_PLAT_WINDOWS_STORE_NAME" variable (:constant-flag t) nil [977 1006])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1024 1061]))          
+      :file "windows_store.h"
+      :pointmax 1152
+      :fsize 1151
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1087 . 1143) (symbol 1062 . 1087) (string "\"Windows Store\"" 1113 . 1142))
+      :lexical-table 
+        '(("BOOST_PLAT_WINDOWS_STORE" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 600 . 634)))
+          ("BOOST_PLAT_WINDOWS_STORE_NAME" . ((string "\"Windows Store\"" 1007 . 1022)))
+          ("BOOST_PREDEF_PLAT_WINDOWS_STORE_H")
+          )
+)
+    (semanticdb-table "windows_phone.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_PLAT_WINDOWS_PHONE_H" variable (:constant-flag t) nil [246 279])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [281 321])
+            ("boost/predef/make.h" include (:system-flag t) nil [322 352])
+            ("boost/predef/os/windows.h" include (:system-flag t) nil [353 389])
+            ("BOOST_PLAT_WINDOWS_PHONE" variable (:constant-flag t) nil [581 605])
+            ("BOOST_PLAT_WINDOWS_PHONE_NAME" variable (:constant-flag t) nil [989 1018])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1036 1073]))          
+      :file "windows_phone.h"
+      :pointmax 1164
+      :fsize 1163
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1099 . 1155) (symbol 1074 . 1099) (string "\"Windows Phone\"" 1125 . 1154))
+      :lexical-table 
+        '(("BOOST_PLAT_WINDOWS_PHONE" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 606 . 640)))
+          ("BOOST_PLAT_WINDOWS_PHONE_NAME" . ((string "\"Windows Phone\"" 1019 . 1034)))
+          ("BOOST_PREDEF_PLAT_WINDOWS_PHONE_H")
+          )
+)
+    (semanticdb-table "windows_runtime.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("BOOST_PREDEF_PLAT_WINDOWS_RUNTIME_H" variable (:constant-flag t) nil [248 283])
+            ("boost/predef/version_number.h" include (:system-flag t) nil [285 325])
+            ("boost/predef/make.h" include (:system-flag t) nil [326 356])
+            ("boost/predef/os/windows.h" include (:system-flag t) nil [357 393])
+            ("BOOST_PLAT_WINDOWS_RUNTIME" variable (:constant-flag t) nil [655 681])
+            ("BOOST_PLAT_WINDOWS_RUNTIME_NAME" variable (:constant-flag t) nil [1121 1152])
+            ("boost/predef/detail/test.h" include (:system-flag t) nil [1172 1209]))          
+      :file "windows_runtime.h"
+      :pointmax 1304
+      :fsize 1303
+      :lastmodtime '(21727 6078 0 0)
+      :unmatched-syntax '((semantic-list 1235 . 1295) (symbol 1210 . 1235) (string "\"Windows Runtime\"" 1263 . 1294))
+      :lexical-table 
+        '(("BOOST_PREDEF_PLAT_WINDOWS_RUNTIME_H")
+          ("BOOST_PLAT_WINDOWS_RUNTIME_NAME" . ((string "\"Windows Runtime\"" 1153 . 1170)))
+          ("BOOST_PLAT_WINDOWS_RUNTIME" . ((symbol "BOOST_VERSION_NUMBER_NOT_AVAILABLE" 682 . 716)))
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!predef!platform!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

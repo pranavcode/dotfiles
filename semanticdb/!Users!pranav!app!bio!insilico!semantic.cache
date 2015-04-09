@@ -1,0 +1,29 @@
+;; Object insilico/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "insilico/"
+  :tables
+  (list
+    (semanticdb-table "neuron_helper.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INSILICO_NEURON_HELPER_HPP" variable (:constant-flag t) nil [84 119])
+            ("core/engine.hpp" include nil nil [121 147])
+            ("string" include (:system-flag t) nil [149 166])
+            ("vector" include (:system-flag t) nil [167 184])
+            ("insilico" type
+               (:members 
+                  ( ("neuron_helper" type (:type "namespace") (reparse-symbol namespacesubparts) [207 1106]))                  
+                :type "namespace")
+                nil [186 1108]))          
+      :file "neuron_helper.hpp"
+      :pointmax 1117
+      :fsize 1116
+      :lastmodtime '(21777 42616 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INSILICO_NEURON_HELPER_HPP")
+          )
+))
+  :file "!Users!pranav!app!bio!insilico!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,1789 @@
+;; Object shivik/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "shivik/"
+  :tables
+  (list
+    (semanticdb-table "gc.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_GC_HPP" variable (:constant-flag t) nil [33 48])
+            ("core/engine.hpp" include nil nil [50 76])
+            ("IKdr_GC.hpp" include nil nil [78 100])
+            ("IKA_GC.hpp" include nil nil [101 122])
+            ("INA_GC.hpp" include nil nil [123 144])
+            ("ILeak_GC.hpp" include nil nil [145 168])
+            ("insilico" type
+               (:members 
+                  ( ("gc" type
+                       (:superclasses 
+                          ( ("Neuron" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [220 227])
+                            ("ode_set" function
+                               (:arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [243 265])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [266 283])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [284 299])
+                                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [300 315]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [230 7255]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [192 7278]))                  
+                :type "namespace")
+                nil [170 7281]))          
+      :file "gc.hpp"
+      :pointmax 7302
+      :fsize 7301
+      :lastmodtime '(21767 8939 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_GC_HPP")
+          )
+)
+
+    (semanticdb-table "main.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("core/configuration.hpp" include nil nil [1 34])
+            ("core/engine.hpp" include nil nil [35 61])
+            ("mitral.hpp" include nil nil [63 84])
+            ("gc.hpp" include nil nil [85 102])
+            ("boost/numeric/odeint.hpp" include (:system-flag t) nil [104 139])
+            ("cassert" include (:system-flag t) nil [140 158])
+            ("fstream" include (:system-flag t) nil [159 177])
+            ("iostream" include (:system-flag t) nil [178 197])
+            ("iomanip" include (:system-flag t) nil [198 216])
+            ("string" include (:system-flag t) nil [217 234])
+            ("vector" include (:system-flag t) nil [235 252])
+            ("boost" using (:type ("boost" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [254 276])
+            ("insilico" using (:type ("insilico" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [277 302])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [303 323])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [334 343])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [344 356]))                  
+                :type "int")
+                nil [325 828]))          
+      :file "main.cpp"
+      :pointmax 829
+      :fsize 828
+      :lastmodtime '(21767 8036 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "mitral.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_LN_HPP" variable (:constant-flag t) nil [33 48])
+            ("core/engine.hpp" include nil nil [50 76])
+            ("IKdr_LN.hpp" include nil nil [78 100])
+            ("IKA_LN.hpp" include nil nil [101 122])
+            ("INA_LN.hpp" include nil nil [123 144])
+            ("ILeak_LN.hpp" include nil nil [145 168])
+            ("insilico" type
+               (:members 
+                  ( ("mitral" type
+                       (:superclasses 
+                          ( ("Neuron" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [224 231])
+                            ("ode_set" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [247 269])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [270 287])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [288 303])
+                                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [304 319]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [234 3869]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [192 3892]))                  
+                :type "namespace")
+                nil [170 3923]))          
+      :file "mitral.hpp"
+      :pointmax 3944
+      :fsize 3943
+      :lastmodtime '(21767 7448 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_LN_HPP")
+          )
+)
+    (semanticdb-table "IKdr_LN.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_IKdr_LN_HPP" variable (:constant-flag t) nil [39 59])
+            ("core/engine.hpp" include nil nil [61 87])
+            ("cmath" include (:system-flag t) nil [88 103])
+            ("insilico" type
+               (:members 
+                  ( ("IKdr_current_global" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("variables" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [160 188])
+                            ("dxdt" variable
+                               (:reference 1
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [189 206])
+                            ("t" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [207 222])
+                            ("index" variable (:type "int") (reparse-symbol arg-sub-list) [223 233])
+                            ("vs" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [234 249])
+                            ("ms" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [250 265])
+                            ("cnames" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [266 285]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [128 779])
+                    ("IKdr_LN_soma" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [803 810])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [833 861])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [862 879])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [880 895])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [896 906]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [813 1003]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [781 1026])
+                    ("IKdr_LN_dend" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1067 1074])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1097 1125])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1126 1143])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1144 1159])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1160 1170]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1077 1267]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1045 1290])
+                    ("IKdr_LN_t" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1328 1335])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1358 1386])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1387 1404])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1405 1420])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1421 1431]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1338 1519]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1309 1542])
+                    ("IKdr_LN_sd1" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1582 1589])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1612 1640])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1641 1658])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1659 1674])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1675 1685]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1592 1779]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1561 1802])
+                    ("IKdr_LN_sd2" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1842 1849])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1872 1900])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1901 1918])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1919 1934])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1935 1945]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1852 2039]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1821 2062]))                  
+                :type "namespace")
+                nil [105 2082]))          
+      :file "IKdr_LN.hpp"
+      :pointmax 2103
+      :fsize 2102
+      :lastmodtime '(21767 7097 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_IKdr_LN_HPP")
+          )
+)
+    (semanticdb-table "IKA_LN.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_IKA_LN_HPP" variable (:constant-flag t) nil [38 57])
+            ("core/engine.hpp" include nil nil [59 85])
+            ("string" include (:system-flag t) nil [87 104])
+            ("cmath" include (:system-flag t) nil [105 120])
+            ("insilico" type
+               (:members 
+                  ( ("IKA_current_global" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("variables" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [175 203])
+                            ("dxdt" variable
+                               (:reference 1
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [204 221])
+                            ("t" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [222 237])
+                            ("index" variable (:type "int") (reparse-symbol arg-sub-list) [238 248])
+                            ("vs" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [249 264])
+                            ("ms" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [265 280])
+                            ("hs" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [281 296])
+                            ("cnames" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [297 316]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [144 1038])
+                    ("IKA_LN_soma" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1081 1088])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1111 1139])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1140 1157])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1158 1173])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1174 1184]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1091 1292]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1060 1295])
+                    ("IKA_LN_dend" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1334 1341])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1364 1392])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1393 1410])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1411 1426])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1427 1437]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1344 1545]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1313 1568])
+                    ("IKA_LN_t" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1604 1611])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1634 1662])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1663 1680])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1681 1696])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1697 1707]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1614 1803]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1586 1826])
+                    ("IKA_LN_sd1" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1864 1871])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1894 1922])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1923 1940])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1941 1956])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1957 1967]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1874 2071]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1844 2094])
+                    ("IKA_LN_sd2" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2132 2139])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2162 2190])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2191 2208])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2209 2224])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2225 2235]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2142 2339]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2112 2362]))                  
+                :type "namespace")
+                nil [122 2381]))          
+      :file "IKA_LN.hpp"
+      :pointmax 2402
+      :fsize 2401
+      :lastmodtime '(21755 18427 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_IKA_LN_HPP")
+          )
+)
+    (semanticdb-table "INA_LN.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INA_LN_HPP" variable (:constant-flag t) nil [38 57])
+            ("core/engine.hpp" include nil nil [59 85])
+            ("cmath" include (:system-flag t) nil [86 101])
+            ("insilico" type
+               (:members 
+                  ( ("INA_current_global" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("variables" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [159 187])
+                            ("dxdt" variable
+                               (:reference 1
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [188 205])
+                            ("t" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [206 221])
+                            ("index" variable (:type "int") (reparse-symbol arg-sub-list) [222 232])
+                            ("vs" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [233 248])
+                            ("ms" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [249 264])
+                            ("hs" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [265 280])
+                            ("cnames" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [281 300]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [128 1272])
+                    ("INA_LN_soma" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1295 1302])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1325 1353])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1354 1371])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1372 1387])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1388 1398]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1305 1506]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1274 1529])
+                    ("INA_LN_dend" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1568 1575])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1598 1626])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1627 1644])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1645 1660])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1661 1671]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1578 1780]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1547 1803])
+                    ("INA_LN_t" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1839 1846])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1869 1897])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1898 1915])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1916 1931])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1932 1942]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1849 2039]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1821 2062])
+                    ("INA_LN_sd1" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2100 2107])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2130 2158])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2159 2176])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2177 2192])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2193 2203]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2110 2308]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2080 2331])
+                    ("INA_LN_sd2" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2369 2376])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2399 2427])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2428 2445])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2446 2461])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2462 2472]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2379 2577]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2349 2600]))                  
+                :type "namespace")
+                nil [103 2619]))          
+      :file "INA_LN.hpp"
+      :pointmax 2640
+      :fsize 2639
+      :lastmodtime '(21756 4703 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INA_LN_HPP")
+          )
+)
+    (semanticdb-table "ILeak_LN.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_I_LEAK_LN_HPP" variable (:constant-flag t) nil [40 62])
+            ("core/engine.hpp" include nil nil [64 90])
+            ("insilico" type
+               (:members 
+                  ( ("ILeak_current_global" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("variables" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [150 178])
+                            ("dxdt" variable
+                               (:reference 1
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [179 196])
+                            ("t" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [197 212])
+                            ("index" variable (:type "int") (reparse-symbol arg-sub-list) [213 223])
+                            ("vs" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [223 238])
+                            ("cnames" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [238 257]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [117 457])
+                    ("ILeak_LN_soma" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [482 489])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [512 540])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [541 558])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [559 574])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [575 585]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [492 670]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [459 693])
+                    ("ILeak_LN_dend" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [754 761])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [784 812])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [813 830])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [831 846])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [847 857]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [764 942]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [731 965])
+                    ("ILeak_LN_t" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1023 1030])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1053 1081])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1082 1099])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1100 1115])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1116 1126]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1033 1205]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1003 1228])
+                    ("ILeak_LN_sd1" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1289 1296])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1319 1347])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1348 1365])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1366 1381])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1382 1392]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1299 1475]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1267 1498])
+                    ("ILeak_LN_sd2" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1559 1566])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1589 1617])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1618 1635])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1636 1651])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1652 1662]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1569 1745]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1537 1768]))                  
+                :type "namespace")
+                nil [92 1809]))          
+      :file "ILeak_LN.hpp"
+      :pointmax 1830
+      :fsize 1829
+      :lastmodtime '(21756 4799 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_I_LEAK_LN_HPP")
+          )
+)
+    (semanticdb-table "IKdr_GC.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_IKdr_GC_HPP" variable (:constant-flag t) nil [39 59])
+            ("core/engine.hpp" include nil nil [61 87])
+            ("cmath" include (:system-flag t) nil [88 103])
+            ("insilico" type
+               (:members 
+                  ( ("IKdr_current_global1" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("variables" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [162 190])
+                            ("dxdt" variable
+                               (:reference 1
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [191 208])
+                            ("t" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [209 224])
+                            ("index" variable (:type "int") (reparse-symbol arg-sub-list) [225 235])
+                            ("vs" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [236 251])
+                            ("ms" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [252 267])
+                            ("cnames" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [268 287]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [129 780])
+                    ("IKdr_GC_soma" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [804 811])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [834 862])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [863 880])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [881 896])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [897 907]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [814 1005]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [782 1028]))                  
+                :type "namespace")
+                nil [105 1067]))          
+      :file "IKdr_GC.hpp"
+      :pointmax 1088
+      :fsize 1087
+      :lastmodtime '(21762 37474 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_IKdr_GC_HPP")
+          )
+)
+    (semanticdb-table "IKA_GC.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_IKA_GC_HPP" variable (:constant-flag t) nil [38 57])
+            ("core/engine.hpp" include nil nil [59 85])
+            ("string" include (:system-flag t) nil [87 104])
+            ("cmath" include (:system-flag t) nil [105 120])
+            ("insilico" type
+               (:members 
+                  ( ("IKA_current_global1" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("variables" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [176 204])
+                            ("dxdt" variable
+                               (:reference 1
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [205 222])
+                            ("t" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [223 238])
+                            ("index" variable (:type "int") (reparse-symbol arg-sub-list) [239 249])
+                            ("vs" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [250 265])
+                            ("ms" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [266 281])
+                            ("hs" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [282 297])
+                            ("cnames" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [298 317]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [144 1046])
+                    ("IKA_GC_soma" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1089 1096])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1119 1147])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1148 1165])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1166 1181])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1182 1192]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1099 1301]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1068 1324])
+                    ("IKA_GC_dend0" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1364 1371])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1394 1422])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1423 1440])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1441 1456])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1457 1467]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1374 1581]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1342 1604])
+                    ("IKA_GC_dend1" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1644 1651])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1674 1702])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1703 1720])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1721 1736])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1737 1747]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1654 1861]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1622 1884])
+                    ("IKA_GC_dend2" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1924 1931])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1954 1982])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1983 2000])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2001 2016])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2017 2027]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1934 2141]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1902 2164])
+                    ("IKA_GC_dend3" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2204 2211])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2234 2262])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2263 2280])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2281 2296])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2297 2307]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2214 2421]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2182 2444])
+                    ("IKA_GC_dend4" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2485 2492])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2515 2543])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2544 2561])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2562 2577])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2578 2588]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2495 2702]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2463 2725])
+                    ("IKA_GC_dend5" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2766 2773])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2796 2824])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2825 2842])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2843 2858])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2859 2869]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2776 2983]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2744 3006])
+                    ("IKA_GC_pridend1" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [3050 3057])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3080 3108])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3109 3126])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [3127 3142])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [3143 3153]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [3060 3279]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [3025 3302])
+                    ("IKA_GC_pridend2" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [3346 3353])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3376 3404])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3405 3422])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [3423 3438])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [3439 3449]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [3356 3575]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [3321 3598])
+                    ("IKA_GC_pridend3" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [3642 3649])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3672 3700])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3701 3718])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [3719 3734])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [3735 3745]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [3652 3871]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [3617 3894])
+                    ("IKA_GC_priden" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [3936 3943])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3966 3994])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3995 4012])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [4013 4028])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [4029 4039]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [3946 4157]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [3913 4180]))                  
+                :type "namespace")
+                nil [122 4199]))          
+      :file "IKA_GC.hpp"
+      :pointmax 4220
+      :fsize 4219
+      :lastmodtime '(21762 37501 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_IKA_GC_HPP")
+          )
+)
+    (semanticdb-table "INA_GC.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_INA_GC_HPP" variable (:constant-flag t) nil [38 57])
+            ("core/engine.hpp" include nil nil [59 85])
+            ("cmath" include (:system-flag t) nil [86 101])
+            ("insilico" type
+               (:members 
+                  ( ("INA_current_global1" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("variables" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [160 188])
+                            ("dxdt" variable
+                               (:reference 1
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [189 206])
+                            ("t" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [207 222])
+                            ("index" variable (:type "int") (reparse-symbol arg-sub-list) [223 233])
+                            ("vs" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [234 249])
+                            ("ms" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [250 265])
+                            ("hs" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [266 281])
+                            ("cnames" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [282 301]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [128 1273])
+                    ("INA_GC_soma" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1296 1303])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1326 1354])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1355 1372])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1373 1388])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1389 1399]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1306 1508]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1275 1531])
+                    ("INA_GC_dend0" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1571 1578])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1601 1629])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1630 1647])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1648 1663])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1664 1674]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1581 1788]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1549 1811])
+                    ("INA_GC_dend1" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1851 1858])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1881 1909])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1910 1927])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1928 1943])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1944 1954]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1861 2068]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1829 2091])
+                    ("INA_GC_dend2" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2131 2138])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2161 2189])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2190 2207])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2208 2223])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2224 2234]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2141 2348]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2109 2371])
+                    ("INA_GC_dend3" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2411 2418])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2441 2469])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2470 2487])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2488 2503])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2504 2514]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2421 2628]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2389 2651])
+                    ("INA_GC_dend4" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2692 2699])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2722 2750])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2751 2768])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2769 2784])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2785 2795]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2702 2909]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2670 2932])
+                    ("INA_GC_dend5" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2973 2980])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3003 3031])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3032 3049])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [3050 3065])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [3066 3076]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2983 3190]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2951 3213])
+                    ("INA_GC_pridend1" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [3257 3264])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3287 3315])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3316 3333])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [3334 3349])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [3350 3360]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [3267 3486]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [3232 3509])
+                    ("INA_GC_pridend2" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [3553 3560])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3583 3611])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3612 3629])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [3630 3645])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [3646 3656]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [3563 3782]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [3528 3805])
+                    ("INA_GC_pridend3" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [3849 3856])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3879 3907])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3908 3925])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [3926 3941])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [3942 3952]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [3859 4078]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [3824 4101])
+                    ("INA_GC_priden" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [4143 4150])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4173 4201])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4202 4219])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [4220 4235])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [4236 4246]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [4153 4364]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [4120 4387]))                  
+                :type "namespace")
+                nil [103 4407]))          
+      :file "INA_GC.hpp"
+      :pointmax 4428
+      :fsize 4427
+      :lastmodtime '(21762 37465 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_INA_GC_HPP")
+          )
+)
+    (semanticdb-table "ILeak_GC.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_I_LEAK_GC_HPP" variable (:constant-flag t) nil [40 62])
+            ("core/engine.hpp" include nil nil [64 90])
+            ("insilico" type
+               (:members 
+                  ( ("ILeak_current_global1" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("variables" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [151 179])
+                            ("dxdt" variable
+                               (:reference 1
+                                :type ("state_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [180 197])
+                            ("t" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [198 213])
+                            ("index" variable (:type "int") (reparse-symbol arg-sub-list) [214 224])
+                            ("vs" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [224 239])
+                            ("cnames" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [239 258]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [117 458])
+                    ("ILeak_GC_soma" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [483 490])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [513 541])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [542 559])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [560 575])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [576 586]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [493 672]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [460 695])
+                    ("ILeak_GC_dend0" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [739 746])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [769 797])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [798 815])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [816 831])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [832 842]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [749 931]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [715 954])
+                    ("ILeak_GC_dend1" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [998 1005])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1028 1056])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1057 1074])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1075 1090])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1091 1101]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1008 1190]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [974 1213])
+                    ("ILeak_GC_dend2" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1257 1264])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1287 1315])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1316 1333])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1334 1349])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1350 1360]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1267 1448]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1233 1471])
+                    ("ILeak_GC_dend3" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1515 1522])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1545 1573])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1574 1591])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1592 1607])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1608 1618]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1525 1706]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1491 1729])
+                    ("ILeak_GC_dend4" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1774 1781])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1804 1832])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1833 1850])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1851 1866])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1867 1877]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1784 1966]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1750 1989])
+                    ("ILeak_GC_dend5" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2034 2041])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2064 2092])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2093 2110])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2111 2126])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2127 2137]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2044 2226]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2010 2249])
+                    ("ILeak_GC_pridend1" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2297 2304])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2327 2355])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2356 2373])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2374 2389])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2390 2400]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2307 2494]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2270 2517])
+                    ("ILeak_GC_pridend2" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2565 2572])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2595 2623])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2624 2641])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2642 2657])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2658 2668]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2575 2763]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2538 2786])
+                    ("ILeak_GC_pridend3" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2834 2841])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2864 2892])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2893 2910])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2911 2926])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [2927 2937]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2844 3032]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2807 3055])
+                    ("ILeak_GC_priden" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [3101 3108])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3131 3159])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3160 3177])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [3178 3193])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [3194 3204]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [3111 3295]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [3076 3318]))                  
+                :type "namespace")
+                nil [92 3378]))          
+      :file "ILeak_GC.hpp"
+      :pointmax 3399
+      :fsize 3398
+      :lastmodtime '(21762 37528 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_I_LEAK_GC_HPP")
+          )
+)
+    (semanticdb-table "Makefile"
+      :major-mode 'makefile-bsdmake-mode
+      :tags 
+        '( ("SOURCE" variable (:default-value ("main.cpp")) nil [879 897])
+            ("TARGET" variable (:default-value ("insilico.out")) nil [918 940])
+            ("CC" variable (:default-value ("g++")) nil [959 968])
+            ("CFLAGS" variable (:default-value ("-O3" "-std=c++11" "-Wall" "-I../include" "-o")) nil [1119 1165])
+            ("all" function (:arguments ("$(TARGET)")) nil [1166 1181])
+            ("$(TARGET)" function nil nil [1182 1230]))          
+      :file "Makefile"
+      :pointmax 1230
+      :fsize 1229
+      :lastmodtime '(21767 7082 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!pranav!app!bio!insilico!shivik!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

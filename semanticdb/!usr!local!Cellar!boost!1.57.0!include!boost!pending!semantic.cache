@@ -1,0 +1,845 @@
+;; Object pending/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "pending/"
+  :tables
+  (list
+    (semanticdb-table "integer_log2.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PENDING_INTEGER_LOG2_HPP" variable (:constant-flag t) nil [48 78])
+            ("boost/integer/integer_log2.hpp" include (:system-flag t) nil [175 216]))          
+      :file "integer_log2.hpp"
+      :pointmax 225
+      :fsize 224
+      :lastmodtime '(21727 6067 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_PENDING_INTEGER_LOG2_HPP")
+          )
+)
+    (semanticdb-table "property.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("BOOST_PROPERTY_HPP" variable (:constant-flag t) nil [231 249])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [251 280])
+            ("boost/mpl/if.hpp" include (:system-flag t) nil [281 308])
+            ("boost/mpl/has_xxx.hpp" include (:system-flag t) nil [309 341])
+            ("boost/utility/enable_if.hpp" include (:system-flag t) nil [342 380])
+            ("boost/type_traits.hpp" include (:system-flag t) nil [381 413])
+            ("boost/static_assert.hpp" include (:system-flag t) nil [414 448])
+            ("boost" type
+               (:members 
+                  ( ("no_property" type (:type "struct") (reparse-symbol namespacesubparts) [471 493])
+                    ("property" type
+                       (:template 
+                          ( ("Tag" type (:type "class") nil nil)
+                            ("T" type (:type "class") nil nil)
+                            ("Base" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("next_type" type
+                               (:typedef ("Base" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [577 600])
+                            ("tag_type" type
+                               (:typedef ("Tag" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [605 626])
+                            ("value_type" type
+                               (:typedef ("T" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [631 652])
+                            ("property" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("v" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "T()"
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [666 682]))                                  
+                                :type ("property" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [657 700])
+                            ("property" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("v" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [714 725])
+                                    ("b" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Base" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [726 740]))                                  
+                                :type ("property" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [705 768])
+                            ("m_value" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [852 862])
+                            ("m_base" variable (:type ("Base" type (:type "class") nil nil)) (reparse-symbol classsubparts) [867 879]))                          )
+                        (reparse-symbol namespacesubparts) [497 884])
+                    ("graph_introspect_detail" type
+                       (:members 
+                          ( ("get_kind" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("bool" type nil nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("void")
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1041 1059]))                                  )
+                                (reparse-symbol namespacesubparts) [991 1061])
+                            ("get_kind" type
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("type" type
+                                       (:typedef ("T::kind" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [1114 1144]))                                  
+                                :template-specifier 
+                                  ( ("T" type nil nil nil)
+                                    ("true" type nil nil nil))                                  )
+                                (reparse-symbol namespacesubparts) [1066 1146]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [913 1150])
+                    ("property_kind" type
+                       (:template 
+                          ( ("PropertyTag" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :superclasses 
+                          ( ("graph_introspect_detail::get_kind" type
+                               (:protection "unspecified"
+                                :type "class")
+                                nil nil))                          )
+                        (reparse-symbol namespacesubparts) [1362 1526])
+                    ("vertex_all_t" type
+                       (:members 
+                          ( ("vertex_all" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [1617 1628]))                          
+                        :type "enum")
+                        (reparse-symbol namespacesubparts) [1598 1629])
+                    ("edge_all_t" type
+                       (:members 
+                          ( ("edge_all" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [1649 1658]))                          
+                        :type "enum")
+                        (reparse-symbol namespacesubparts) [1632 1659])
+                    ("graph_all_t" type
+                       (:members 
+                          ( ("graph_all" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [1680 1690]))                          
+                        :type "enum")
+                        (reparse-symbol namespacesubparts) [1662 1691])
+                    ("vertex_bundle_t" type
+                       (:members 
+                          ( ("vertex_bundle" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [1716 1730]))                          
+                        :type "enum")
+                        (reparse-symbol namespacesubparts) [1694 1731])
+                    ("edge_bundle_t" type
+                       (:members 
+                          ( ("edge_bundle" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [1754 1766]))                          
+                        :type "enum")
+                        (reparse-symbol namespacesubparts) [1734 1767])
+                    ("graph_bundle_t" type
+                       (:members 
+                          ( ("graph_bundle" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [1791 1804]))                          
+                        :type "enum")
+                        (reparse-symbol namespacesubparts) [1770 1805])
+                    ("lookup_one_property_internal" type
+                       (:members 
+                          ( ("BOOST_STATIC_CONSTANT" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type "bool") (reparse-symbol arg-sub-list) [1993 1998])
+                                    ("" variable (:type ("found" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1999 2012]))                                  
+                                :type "int")
+                                (reparse-symbol classsubparts) [1971 2014])
+                            ("type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [2015 2033]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [1934 2035])
+                    ("BGL_ALL_PROP" variable (:constant-flag t) (reparse-symbol namespacesubparts) [2108 2120])
+                    ("lookup_one_property_internal" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("BOOST_STATIC_CONSTANT" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type "bool") (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("found" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type "int")
+                                (reparse-symbol classsubparts) nil)
+                            ("type" type
+                               (:typedef ("T" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) nil)
+                            ("lookup" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("vertex_all_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) nil)
+                            ("lookup" function
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("vertex_all_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) nil))                          
+                        :template-specifier 
+                          ( ("T" type nil nil nil)
+                            ("vertex_all_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [2750 2776])
+                    ("lookup_one_property_internal" type
+                       (:template 
+                          ( ("Tag" type (:type "class") nil nil)
+                            ("T" type (:type "class") nil nil)
+                            ("Base" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("BOOST_STATIC_CONSTANT" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type "bool") (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("found" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type "int")
+                                (reparse-symbol classsubparts) nil)
+                            ("type" type
+                               (:typedef ("property" type
+                                     (:template-specifier 
+                                        ( ("Tag" type nil nil nil)
+                                          ("T" type nil nil nil)
+                                          ("Base" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) nil)
+                            ("lookup" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :type ("type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("vertex_all_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) nil)
+                            ("lookup" function
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("vertex_all_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) nil))                          
+                        :template-specifier 
+                          ( ("property" type nil nil nil)
+                            ("vertex_all_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [2750 2776])
+                    ("lookup_one_property_internal" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("BOOST_STATIC_CONSTANT" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type "bool") (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("found" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type "int")
+                                (reparse-symbol classsubparts) nil)
+                            ("type" type
+                               (:typedef ("T" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) nil)
+                            ("lookup" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("edge_all_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) nil)
+                            ("lookup" function
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("edge_all_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) nil))                          
+                        :template-specifier 
+                          ( ("T" type nil nil nil)
+                            ("edge_all_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [2779 2803])
+                    ("lookup_one_property_internal" type
+                       (:template 
+                          ( ("Tag" type (:type "class") nil nil)
+                            ("T" type (:type "class") nil nil)
+                            ("Base" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("BOOST_STATIC_CONSTANT" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type "bool") (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("found" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type "int")
+                                (reparse-symbol classsubparts) nil)
+                            ("type" type
+                               (:typedef ("property" type
+                                     (:template-specifier 
+                                        ( ("Tag" type nil nil nil)
+                                          ("T" type nil nil nil)
+                                          ("Base" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) nil)
+                            ("lookup" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :type ("type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("edge_all_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) nil)
+                            ("lookup" function
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("edge_all_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) nil))                          
+                        :template-specifier 
+                          ( ("property" type nil nil nil)
+                            ("edge_all_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [2779 2803])
+                    ("lookup_one_property_internal" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("BOOST_STATIC_CONSTANT" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type "bool") (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("found" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type "int")
+                                (reparse-symbol classsubparts) nil)
+                            ("type" type
+                               (:typedef ("T" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) nil)
+                            ("lookup" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("graph_all_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) nil)
+                            ("lookup" function
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("graph_all_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) nil))                          
+                        :template-specifier 
+                          ( ("T" type nil nil nil)
+                            ("graph_all_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [2806 2831])
+                    ("lookup_one_property_internal" type
+                       (:template 
+                          ( ("Tag" type (:type "class") nil nil)
+                            ("T" type (:type "class") nil nil)
+                            ("Base" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("BOOST_STATIC_CONSTANT" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type "bool") (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("found" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type "int")
+                                (reparse-symbol classsubparts) nil)
+                            ("type" type
+                               (:typedef ("property" type
+                                     (:template-specifier 
+                                        ( ("Tag" type nil nil nil)
+                                          ("T" type nil nil nil)
+                                          ("Base" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) nil)
+                            ("lookup" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :type ("type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("graph_all_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) nil)
+                            ("lookup" function
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) nil)
+                                    ("" variable (:type ("graph_all_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) nil))                          
+                        :template-specifier 
+                          ( ("property" type nil nil nil)
+                            ("graph_all_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [2806 2831])
+                    ("BGL_DO_ONE_BUNDLE_TYPE" variable (:constant-flag t) (reparse-symbol namespacesubparts) [2950 2972])
+                    ("lookup_one_property_internal" type
+                       (:template 
+                          ( ("Tag" type (:type "class") nil nil)
+                            ("T" type (:type "class") nil nil)
+                            ("Base" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("BOOST_STATIC_CONSTANT" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type "bool") (reparse-symbol arg-sub-list) [4770 4775])
+                                    ("" variable (:type ("found" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4776 4788]))                                  
+                                :type "int")
+                                (reparse-symbol classsubparts) [4748 4790])
+                            ("prop" type
+                               (:typedef ("property" type
+                                     (:template-specifier 
+                                        ( ("Tag" type nil nil nil)
+                                          ("T" type nil nil nil)
+                                          ("Base" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [4795 4831])
+                            ("type" type
+                               (:typedef ("T" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [4836 4851])
+                            ("lookup" function
+                               (:arguments 
+                                  ( ("prop" variable
+                                       (:reference 1
+                                        :type ("U" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4947 4955])
+                                    ("" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Tag" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4956 4967]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4931 4990])
+                            ("lookup" function
+                               (:arguments 
+                                  ( ("prop" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("U" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5092 5106])
+                                    ("" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Tag" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5107 5118]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5076 5141]))                          
+                        :template-specifier 
+                          ( ("boost::property" type nil nil nil)
+                            ("Tag" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [4617 5146])
+                    ("lookup_one_property_internal" type
+                       (:template 
+                          ( ("Tag" type (:type "class") nil nil)
+                            ("T" type (:type "class") nil nil)
+                            ("Base" type (:type "class") nil nil)
+                            ("PropName" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("private" label nil (reparse-symbol classsubparts) [5351 5359])
+                            ("base_type" type
+                               (:typedef ("lookup_one_property_internal" type
+                                     (:template-specifier 
+                                        ( ("Base" type nil nil nil)
+                                          ("PropName" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [5364 5427])
+                            ("public" label nil (reparse-symbol classsubparts) [5432 5439])
+                            ("lookup" function
+                               (:arguments 
+                                  ( ("prop" variable
+                                       (:reference 1
+                                        :type ("PL" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5641 5650])
+                                    ("tag" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("PropName" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5651 5671]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5625 5729])
+                            ("lookup" function
+                               (:arguments 
+                                  ( ("prop" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("PL" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5937 5952])
+                                    ("tag" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("PropName" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5953 5973]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5921 6031]))                          
+                        :superclasses 
+                          ( ("lookup_one_property_internal" type
+                               (:protection "unspecified"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("boost::property" type nil nil nil)
+                            ("PropName" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [5150 6036])
+                    ("lookup_one_property" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("Tag" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :superclasses 
+                          ( ("lookup_one_property_internal" type
+                               (:protection "unspecified"
+                                :type "class")
+                                nil nil))                          )
+                        (reparse-symbol namespacesubparts) [6586 6692])
+                    ("lookup_one_property" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("Tag" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("BOOST_STATIC_CONSTANT" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type "bool") (reparse-symbol arg-sub-list) [6803 6808])
+                                    ("" variable (:type ("found" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6809 6862]))                                  
+                                :type "int")
+                                (reparse-symbol classsubparts) [6781 6864])
+                            ("type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [6930 6940])
+                            ("lookup" function
+                               (:arguments 
+                                  ( ("p" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("U" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7144 7155])
+                                    ("tag" variable (:type ("Tag" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7156 7164]))                                  
+                                :type ("type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7128 7239]))                          
+                        :template-specifier 
+                          ( ("T" type (:constant-flag t) nil nil)
+                            ("Tag" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [6696 7244])
+                    ("has_property" type
+                       (:template 
+                          ( ("P" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :superclasses 
+                          ( ("boost::mpl::true_" type
+                               (:protection "unspecified"
+                                :type "class")
+                                nil nil))                          )
+                        (reparse-symbol namespacesubparts) [7568 7632])
+                    ("has_property" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("boost::mpl::false_" type
+                               (:protection "unspecified"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("no_property" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [7635 7706]))                  
+                :type "namespace")
+                nil [450 7709])
+            ("boost/pending/detail/property.hpp" include (:system-flag t) nil [7730 7774])
+            ("boost" type
+               (:members 
+                  ( ("property_value" type
+                       (:template 
+                          ( ("PropertyList" type (:type "class") nil nil)
+                            ("Tag" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :superclasses 
+                          ( ("lookup_one_property" type
+                               (:protection "unspecified"
+                                :type "class")
+                                nil nil))                          )
+                        (reparse-symbol namespacesubparts) [7797 7905])
+                    ("get_property_value" function
+                       (:arguments 
+                          ( ("p" variable
+                               (:reference 1
+                                :type ("PropertyList" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8035 8051])
+                            ("tag" variable (:type ("Tag" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8052 8060]))                          
+                        :type ("type" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [8008 8133])
+                    ("get_property_value" function
+                       (:arguments 
+                          ( ("p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("PropertyList" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8269 8291])
+                            ("tag" variable (:type ("Tag" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8292 8300]))                          
+                        :type ("type" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [8242 8373])
+                    ("detail" type
+                       (:members 
+                          ( ("lookup_one_property_f" type
+                               (:template 
+                                  ( ("PList" type (:type "class") nil nil)
+                                    ("Tag" type (:type "class") nil nil))                                  
+                                :type "class"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [8572 8644])
+                            ("lookup_one_property_f_result" type
+                               (:template 
+                                  ( ("PList" type (:type "class") nil nil)
+                                    ("Tag" type (:type "class") nil nil)
+                                    ("F" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [8650 8738])
+                            ("lookup_one_property_f" type
+                               (:template 
+                                  ( ("PList" type (:type "class") nil nil)
+                                    ("Tag" type (:type "class") nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("tag" variable (:type ("Tag" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9503 9511])
+                                    ("public" label nil (reparse-symbol classsubparts) [9518 9525])
+                                    ("lookup_one_property_f" function
+                                       (:constructor-flag t
+                                        :arguments 
+                                          ( ("tag" variable (:type ("Tag" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9554 9562]))                                          
+                                        :type ("lookup_one_property_f" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [9532 9575])
+                                    ("result" type
+                                       (:template 
+                                          ( ("F" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("lookup_one_property_f_result" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol classsubparts) [9582 9666])
+                                    ("()" function
+                                       (:operator-flag t
+                                        :arguments 
+                                          ( ("pl" variable
+                                               (:reference 1
+                                                :type ("PList" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [9784 9794]))                                          
+                                        :type ("type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [9762 9875]))                                  )
+                                (reparse-symbol namespacesubparts) [9423 9882]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [8376 9885])
+                    ("detail" type
+                       (:members 
+                          ( ("remove_first_property" type
+                               (:members 
+                                  ( ("result" type
+                                       (:template 
+                                          ( ("F" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :members 
+                                          ( ("a1" type
+                                               (:typedef ("boost::function_traits::arg1_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [10257 10314])
+                                            ("non_ref" type
+                                               (:typedef ("boost::remove_reference::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [10321 10380])
+                                            ("nx" type
+                                               (:typedef ("non_ref::next_type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [10387 10426])
+                                            ("with_const" type
+                                               (:typedef ("boost::mpl::if_::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [10433 10535])
+                                            ("type" type
+                                               (:typedef ("boost::add_reference::type" type (:type "class") nil nil)
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [10542 10603]))                                          )
+                                        (reparse-symbol classsubparts) [10209 10610])
+                                    ("()" function
+                                       (:template 
+                                          ( ("Prop" type (:type "class") nil nil))                                          
+                                        :type ("Prop::next_type" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("p" variable
+                                               (:reference 1
+                                                :type ("Prop" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [10681 10689]))                                          
+                                        :typemodifiers ("typename")
+                                        :operator-flag t)
+                                        (reparse-symbol classsubparts) [10615 10714])
+                                    ("()" function
+                                       (:template 
+                                          ( ("Prop" type (:type "class") nil nil))                                          
+                                        :type ("Prop::next_type" type (:type "class") nil nil)
+                                        :arguments 
+                                          ( ("p" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("Prop" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [10791 10805]))                                          
+                                        :constant-flag t
+                                        :typemodifiers ("typename")
+                                        :operator-flag t)
+                                        (reparse-symbol classsubparts) [10719 10830]))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [10174 10835]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [9907 10837]))                  
+                :type "namespace")
+                nil [7776 10840]))          
+      :file "property.hpp"
+      :pointmax 10893
+      :fsize 10892
+      :lastmodtime '(21727 6067 0 0)
+      :unmatched-syntax '((punctuation 9761 . 9762) (punctuation 9760 . 9761) (punctuation 9759 . 9760) (semantic-list 9751 . 9759) (symbol 9730 . 9751) (CONST 9724 . 9729) (punctuation 9722 . 9723) (symbol 9719 . 9722) (punctuation 9717 . 9718) (symbol 9712 . 9717) (punctuation 9711 . 9712) (symbol 9683 . 9711) (TYPENAME 9674 . 9682) (punctuation 9416 . 9417) (semantic-list 9335 . 9416) (punctuation 9333 . 9334) (semantic-list 9319 . 9333) (punctuation 9318 . 9319) (symbol 9315 . 9318) (punctuation 9313 . 9314) (symbol 9308 . 9313) (punctuation 9307 . 9308) (symbol 9286 . 9307) (CONST 9280 . 9285) (punctuation 9278 . 9279) (symbol 9275 . 9278) (punctuation 9273 . 9274) (symbol 9268 . 9273) (punctuation 9267 . 9268) (symbol 9239 . 9267) (STRUCT 9232 . 9238) (punctuation 9226 . 9227) (symbol 9223 . 9226) (TYPENAME 9214 . 9222) (punctuation 9212 . 9213) (symbol 9207 . 9212) (TYPENAME 9198 . 9206) (punctuation 9197 . 9198) (TEMPLATE 9188 . 9196) (punctuation 9181 . 9182) (semantic-list 9106 . 9181) (punctuation 9104 . 9105) (semantic-list 9096 . 9104) (punctuation 9095 . 9096) (symbol 9092 . 9095) (punctuation 9090 . 9091) (symbol 9085 . 9090) (punctuation 9084 . 9085) (symbol 9063 . 9084) (CONST 9057 . 9062) (punctuation 9055 . 9056) (symbol 9052 . 9055) (punctuation 9050 . 9051) (symbol 9045 . 9050) (punctuation 9044 . 9045) (symbol 9016 . 9044) (STRUCT 9009 . 9015) (punctuation 9003 . 9004) (symbol 9000 . 9003) (TYPENAME 8991 . 8999) (punctuation 8989 . 8990) (symbol 8984 . 8989) (TYPENAME 8975 . 8983) (punctuation 8974 . 8975) (TEMPLATE 8965 . 8973) (punctuation 8958 . 8959) (semantic-list 8884 . 8958) (punctuation 8882 . 8883) (semantic-list 8875 . 8882) (punctuation 8874 . 8875) (symbol 8871 . 8874) (punctuation 8869 . 8870) (symbol 8864 . 8869) (punctuation 8863 . 8864) (symbol 8842 . 8863) (CONST 8836 . 8841) (punctuation 8834 . 8835) (symbol 8831 . 8834) (punctuation 8829 . 8830) (symbol 8824 . 8829) (punctuation 8823 . 8824) (symbol 8795 . 8823) (STRUCT 8788 . 8794) (punctuation 8782 . 8783) (symbol 8779 . 8782) (TYPENAME 8770 . 8778) (punctuation 8768 . 8769) (symbol 8763 . 8768) (TYPENAME 8754 . 8762) (punctuation 8753 . 8754) (TEMPLATE 8744 . 8752) (punctuation 8565 . 8566) (semantic-list 8562 . 8565) (punctuation 8556 . 8557) (symbol 8551 . 8556) (punctuation 8550 . 8551) (punctuation 8549 . 8550) (punctuation 8548 . 8549) (symbol 8537 . 8548) (punctuation 8535 . 8536) (symbol 8534 . 8535) (punctuation 8533 . 8534) (symbol 8526 . 8533) (punctuation 8525 . 8526) (symbol 8520 . 8525) (punctuation 8519 . 8520) (punctuation 8518 . 8519) (symbol 8515 . 8518) (punctuation 8513 . 8514) (symbol 8490 . 8504) (STRUCT 8483 . 8489) (punctuation 8477 . 8478) (symbol 8476 . 8477) (TYPENAME 8467 . 8475) (punctuation 8466 . 8467) (TEMPLATE 8457 . 8465) (punctuation 8241 . 8242) (punctuation 8240 . 8241) (punctuation 8239 . 8240) (symbol 8236 . 8239) (punctuation 8234 . 8235) (symbol 8222 . 8234) (punctuation 8221 . 8222) (symbol 8202 . 8221) (TYPENAME 8193 . 8201) (CONST 8187 . 8192) (INLINE 8180 . 8186) (punctuation 8176 . 8177) (symbol 8173 . 8176) (CLASS 8167 . 8172) (punctuation 8165 . 8166) (symbol 8153 . 8165) (CLASS 8147 . 8152) (punctuation 8146 . 8147) (TEMPLATE 8137 . 8145) (punctuation 8007 . 8008) (punctuation 8006 . 8007) (punctuation 8005 . 8006) (symbol 8002 . 8005) (punctuation 8000 . 8001) (symbol 7988 . 8000) (punctuation 7987 . 7988) (symbol 7968 . 7987) (TYPENAME 7959 . 7967) (INLINE 7952 . 7958) (punctuation 7948 . 7949) (symbol 7945 . 7948) (CLASS 7939 . 7944) (punctuation 7937 . 7938) (symbol 7925 . 7937) (CLASS 7919 . 7924) (punctuation 7918 . 7919) (TEMPLATE 7909 . 7917) (punctuation 7127 . 7128) (punctuation 7126 . 7127) (punctuation 7125 . 7126) (punctuation 7123 . 7124) (symbol 7119 . 7123) (punctuation 7118 . 7119) (punctuation 7117 . 7118) (punctuation 7116 . 7117) (symbol 7113 . 7116) (punctuation 7111 . 7112) (symbol 7110 . 7111) (punctuation 7109 . 7110) (symbol 7081 . 7109) (TYPENAME 7072 . 7080) (CONST 7066 . 7071) (punctuation 7065 . 7066) (symbol 7052 . 7065) (punctuation 7015 . 7016) (punctuation 7014 . 7015) (symbol 7013 . 7014) (punctuation 7011 . 7012) (symbol 7010 . 7011) (punctuation 7009 . 7010) (symbol 7002 . 7009) (punctuation 7001 . 7002) (symbol 6987 . 7001) (TYPENAME 6978 . 6986) (STATIC 6971 . 6977) (punctuation 6965 . 6966) (symbol 6964 . 6965) (TYPENAME 6955 . 6963) (punctuation 6954 . 6955) (TEMPLATE 6945 . 6953) (punctuation 6929 . 6930) (punctuation 6928 . 6929) (punctuation 6927 . 6928) (symbol 6924 . 6927) (punctuation 6922 . 6923) (symbol 6921 . 6922) (punctuation 6920 . 6921) (symbol 6892 . 6920) (TYPENAME 6883 . 6891) (CONST 6877 . 6882) (TYPEDEF 6869 . 6876) (punctuation 6513 . 6514) (semantic-list 6301 . 6513) (punctuation 6299 . 6300) (symbol 6295 . 6299) (punctuation 6294 . 6295) (punctuation 6293 . 6294) (punctuation 6292 . 6293) (punctuation 6290 . 6291) (symbol 6289 . 6290) (punctuation 6287 . 6288) (symbol 6277 . 6287) (punctuation 6276 . 6277) (symbol 6266 . 6276) (punctuation 6265 . 6266) (symbol 6256 . 6265) (TYPENAME 6247 . 6255) (punctuation 6245 . 6246) (punctuation 6244 . 6245) (punctuation 6243 . 6244) (punctuation 6242 . 6243) (symbol 6232 . 6242) (symbol 6230 . 6231) (punctuation 6228 . 6229) (symbol 6227 . 6228) (punctuation 6226 . 6227) (symbol 6198 . 6226) (STRUCT 6191 . 6197) (punctuation 6187 . 6188) (symbol 6186 . 6187) (TYPENAME 6177 . 6185) (punctuation 6175 . 6176) (symbol 6165 . 6175) (TYPENAME 6156 . 6164) (punctuation 6154 . 6155) (symbol 6153 . 6154) (TYPENAME 6144 . 6152) (punctuation 6143 . 6144) (TEMPLATE 6134 . 6142) (punctuation 5920 . 5921) (punctuation 5919 . 5920) (punctuation 5918 . 5919) (punctuation 5916 . 5917) (symbol 5912 . 5916) (punctuation 5911 . 5912) (punctuation 5910 . 5911) (symbol 5901 . 5910) (TYPENAME 5892 . 5900) (CONST 5886 . 5891) (punctuation 5885 . 5886) (symbol 5872 . 5885) (punctuation 5835 . 5836) (punctuation 5834 . 5835) (punctuation 5832 . 5833) (symbol 5828 . 5832) (punctuation 5826 . 5827) (symbol 5825 . 5826) (punctuation 5823 . 5824) (symbol 5820 . 5823) (punctuation 5819 . 5820) (symbol 5811 . 5819) (punctuation 5810 . 5811) (punctuation 5809 . 5810) (symbol 5804 . 5809) (punctuation 5802 . 5803) (symbol 5800 . 5802) (punctuation 5799 . 5800) (symbol 5792 . 5799) (punctuation 5791 . 5792) (symbol 5777 . 5791) (TYPENAME 5768 . 5776) (STATIC 5761 . 5767) (punctuation 5755 . 5756) (symbol 5753 . 5755) (TYPENAME 5744 . 5752) (punctuation 5743 . 5744) (TEMPLATE 5734 . 5742) (punctuation 5624 . 5625) (punctuation 5623 . 5624) (punctuation 5622 . 5623) (punctuation 5620 . 5621) (symbol 5616 . 5620) (punctuation 5615 . 5616) (punctuation 5614 . 5615) (symbol 5605 . 5614) (TYPENAME 5596 . 5604) (punctuation 5595 . 5596) (symbol 5582 . 5595) (punctuation 5545 . 5546) (punctuation 5544 . 5545) (punctuation 5542 . 5543) (symbol 5538 . 5542) (punctuation 5536 . 5537) (symbol 5535 . 5536) (punctuation 5533 . 5534) (symbol 5530 . 5533) (punctuation 5529 . 5530) (symbol 5521 . 5529) (punctuation 5520 . 5521) (punctuation 5519 . 5520) (symbol 5514 . 5519) (punctuation 5512 . 5513) (symbol 5510 . 5512) (punctuation 5509 . 5510) (symbol 5502 . 5509) (punctuation 5501 . 5502) (symbol 5487 . 5501) (TYPENAME 5478 . 5486) (STATIC 5471 . 5477) (punctuation 5465 . 5466) (symbol 5463 . 5465) (TYPENAME 5454 . 5462) (punctuation 5453 . 5454) (TEMPLATE 5444 . 5452) (punctuation 5075 . 5076) (punctuation 5074 . 5075) (punctuation 5073 . 5074) (punctuation 5072 . 5073) (symbol 5071 . 5072) (CONST 5065 . 5070) (punctuation 5063 . 5064) (punctuation 5062 . 5063) (symbol 5061 . 5062) (punctuation 5059 . 5060) (symbol 5055 . 5059) (punctuation 5054 . 5055) (symbol 5047 . 5054) (punctuation 5046 . 5047) (symbol 5037 . 5046) (TYPENAME 5028 . 5036) (STATIC 5021 . 5027) (punctuation 5015 . 5016) (symbol 5014 . 5015) (TYPENAME 5005 . 5013) (punctuation 5004 . 5005) (TEMPLATE 4995 . 5003) (punctuation 4930 . 4931) (punctuation 4929 . 4930) (punctuation 4928 . 4929) (punctuation 4927 . 4928) (symbol 4926 . 4927) (punctuation 4924 . 4925) (punctuation 4923 . 4924) (symbol 4922 . 4923) (punctuation 4920 . 4921) (symbol 4916 . 4920) (punctuation 4915 . 4916) (symbol 4908 . 4915) (punctuation 4907 . 4908) (symbol 4898 . 4907) (TYPENAME 4889 . 4897) (STATIC 4882 . 4888) (punctuation 4876 . 4877) (symbol 4875 . 4876) (TYPENAME 4866 . 4874) (punctuation 4865 . 4866) (TEMPLATE 4856 . 4864) (punctuation ";" 4457 . 4486) (semantic-list #("{ \\
+    private: \\
+    typedef lookup_one_property_internal<Base, BOOST_JOIN(kind, _bundle_t)> base_type; \\
+    public: \\
+    template <typename BundleTag> \\
+    static typename lazy_enable_if_c<(base_type::found && (is_same<BundleTag, BOOST_JOIN(kind, _bundle_t)>::value)), \\
+                                     add_reference<typename base_type::type> >::type \\
+    lookup(property<Tag, T, Base>& p, BundleTag) {return base_type::lookup(p.m_base, BOOST_JOIN(kind, _bundle_t)());} \\
+    template <typename BundleTag> \\
+    static typename lazy_enable_if_c<(base_type::found && (is_same<BundleTag, BOOST_JOIN(kind, _bundle_t)>::value)), \\
+                                     add_reference<const typename base_type::type> >::type \\
+    lookup(const property<Tag, T, Base>& p, BundleTag) {return base_type::lookup(p.m_base, BOOST_JOIN(kind, _bundle_t)());} \\
+  }" 0 1 (macros (("kind" symbol "graph" 4480 . 4485)))) 4457 . 4486) (punctuation ">" 4457 . 4486) (semantic-list #("(kind, _bundle_t)" 0 1 (macros (("kind" symbol "graph" 4480 . 4485)))) 4457 . 4486) (symbol "BOOST_JOIN" 4457 . 4486) (punctuation "," 4457 . 4486) (symbol "Base" 4457 . 4486) (punctuation "<" 4457 . 4486) (symbol "lookup_one_property_internal" 4457 . 4486) (punctuation ":" 4457 . 4486) (punctuation ">" 4457 . 4486) (semantic-list #("(kind, _bundle_t)" 0 1 (macros (("kind" symbol "graph" 4480 . 4485)))) 4457 . 4486) (symbol "BOOST_JOIN" 4457 . 4486) (punctuation "," 4457 . 4486) (punctuation ">" 4457 . 4486) (symbol "Base" 4457 . 4486) (punctuation "," 4457 . 4486) (symbol "T" 4457 . 4486) (punctuation "," 4457 . 4486) (symbol "Tag" 4457 . 4486) (punctuation "<" 4457 . 4486) (symbol "property" 4457 . 4486) (punctuation "<" 4457 . 4486) (symbol "lookup_one_property_internal" 4457 . 4486) (STRUCT "struct" 4457 . 4486) (punctuation ">" 4457 . 4486) (symbol "Base" 4457 . 4486) (TYPENAME "typename" 4457 . 4486) (punctuation "," 4457 . 4486) (symbol "T" 4457 . 4486) (TYPENAME "typename" 4457 . 4486) (punctuation "," 4457 . 4486) (symbol "Tag" 4457 . 4486) (TYPENAME "typename" 4457 . 4486) (punctuation "<" 4457 . 4486) (TEMPLATE "template" 4457 . 4486) (punctuation ";" 4457 . 4486) (semantic-list #("{ \\
+    BOOST_STATIC_CONSTANT(bool, found = true); \\
+    typedef T type; \\
+    static T& lookup(T& x, BOOST_JOIN(kind, _bundle_t)) {return x;} \\
+    static const T& lookup(const T& x, BOOST_JOIN(kind, _bundle_t)) {return x;} \\
+  }" 0 1 (macros (("kind" symbol "graph" 4480 . 4485)))) 4457 . 4486) (punctuation ">" 4457 . 4486) (semantic-list #("(kind, _bundle_t)" 0 1 (macros (("kind" symbol "graph" 4480 . 4485)))) 4457 . 4486) (symbol "BOOST_JOIN" 4457 . 4486) (punctuation "," 4457 . 4486) (symbol "T" 4457 . 4486) (punctuation "<" 4457 . 4486) (symbol "lookup_one_property_internal" 4457 . 4486) (STRUCT "struct" 4457 . 4486) (punctuation ">" 4457 . 4486) (symbol "T" 4457 . 4486) (TYPENAME "typename" 4457 . 4486) (punctuation "<" 4457 . 4486) (TEMPLATE "template" 4457 . 4486) (punctuation ";" 4426 . 4454) (semantic-list #("{ \\
+    private: \\
+    typedef lookup_one_property_internal<Base, BOOST_JOIN(kind, _bundle_t)> base_type; \\
+    public: \\
+    template <typename BundleTag> \\
+    static typename lazy_enable_if_c<(base_type::found && (is_same<BundleTag, BOOST_JOIN(kind, _bundle_t)>::value)), \\
+                                     add_reference<typename base_type::type> >::type \\
+    lookup(property<Tag, T, Base>& p, BundleTag) {return base_type::lookup(p.m_base, BOOST_JOIN(kind, _bundle_t)());} \\
+    template <typename BundleTag> \\
+    static typename lazy_enable_if_c<(base_type::found && (is_same<BundleTag, BOOST_JOIN(kind, _bundle_t)>::value)), \\
+                                     add_reference<const typename base_type::type> >::type \\
+    lookup(const property<Tag, T, Base>& p, BundleTag) {return base_type::lookup(p.m_base, BOOST_JOIN(kind, _bundle_t)());} \\
+  }" 0 1 (macros (("kind" symbol "edge" 4449 . 4453)))) 4426 . 4454) (punctuation ">" 4426 . 4454) (semantic-list #("(kind, _bundle_t)" 0 1 (macros (("kind" symbol "edge" 4449 . 4453)))) 4426 . 4454) (symbol "BOOST_JOIN" 4426 . 4454) (punctuation "," 4426 . 4454) (symbol "Base" 4426 . 4454) (punctuation "<" 4426 . 4454) (symbol "lookup_one_property_internal" 4426 . 4454) (punctuation ":" 4426 . 4454) (punctuation ">" 4426 . 4454) (semantic-list #("(kind, _bundle_t)" 0 1 (macros (("kind" symbol "edge" 4449 . 4453)))) 4426 . 4454) (symbol "BOOST_JOIN" 4426 . 4454) (punctuation "," 4426 . 4454) (punctuation ">" 4426 . 4454) (symbol "Base" 4426 . 4454) (punctuation "," 4426 . 4454) (symbol "T" 4426 . 4454) (punctuation "," 4426 . 4454) (symbol "Tag" 4426 . 4454) (punctuation "<" 4426 . 4454) (symbol "property" 4426 . 4454) (punctuation "<" 4426 . 4454) (symbol "lookup_one_property_internal" 4426 . 4454) (STRUCT "struct" 4426 . 4454) (punctuation ">" 4426 . 4454) (symbol "Base" 4426 . 4454) (TYPENAME "typename" 4426 . 4454) (punctuation "," 4426 . 4454) (symbol "T" 4426 . 4454) (TYPENAME "typename" 4426 . 4454) (punctuation "," 4426 . 4454) (symbol "Tag" 4426 . 4454) (TYPENAME "typename" 4426 . 4454) (punctuation "<" 4426 . 4454) (TEMPLATE "template" 4426 . 4454) (punctuation ";" 4426 . 4454) (semantic-list #("{ \\
+    BOOST_STATIC_CONSTANT(bool, found = true); \\
+    typedef T type; \\
+    static T& lookup(T& x, BOOST_JOIN(kind, _bundle_t)) {return x;} \\
+    static const T& lookup(const T& x, BOOST_JOIN(kind, _bundle_t)) {return x;} \\
+  }" 0 1 (macros (("kind" symbol "edge" 4449 . 4453)))) 4426 . 4454) (punctuation ">" 4426 . 4454) (semantic-list #("(kind, _bundle_t)" 0 1 (macros (("kind" symbol "edge" 4449 . 4453)))) 4426 . 4454) (symbol "BOOST_JOIN" 4426 . 4454) (punctuation "," 4426 . 4454) (symbol "T" 4426 . 4454) (punctuation "<" 4426 . 4454) (symbol "lookup_one_property_internal" 4426 . 4454) (STRUCT "struct" 4426 . 4454) (punctuation ">" 4426 . 4454) (symbol "T" 4426 . 4454) (TYPENAME "typename" 4426 . 4454) (punctuation "<" 4426 . 4454) (TEMPLATE "template" 4426 . 4454) (punctuation ";" 4393 . 4423) (semantic-list #("{ \\
+    private: \\
+    typedef lookup_one_property_internal<Base, BOOST_JOIN(kind, _bundle_t)> base_type; \\
+    public: \\
+    template <typename BundleTag> \\
+    static typename lazy_enable_if_c<(base_type::found && (is_same<BundleTag, BOOST_JOIN(kind, _bundle_t)>::value)), \\
+                                     add_reference<typename base_type::type> >::type \\
+    lookup(property<Tag, T, Base>& p, BundleTag) {return base_type::lookup(p.m_base, BOOST_JOIN(kind, _bundle_t)());} \\
+    template <typename BundleTag> \\
+    static typename lazy_enable_if_c<(base_type::found && (is_same<BundleTag, BOOST_JOIN(kind, _bundle_t)>::value)), \\
+                                     add_reference<const typename base_type::type> >::type \\
+    lookup(const property<Tag, T, Base>& p, BundleTag) {return base_type::lookup(p.m_base, BOOST_JOIN(kind, _bundle_t)());} \\
+  }" 0 1 (macros (("kind" symbol "vertex" 4416 . 4422)))) 4393 . 4423) (punctuation ">" 4393 . 4423) (semantic-list #("(kind, _bundle_t)" 0 1 (macros (("kind" symbol "vertex" 4416 . 4422)))) 4393 . 4423) (symbol "BOOST_JOIN" 4393 . 4423) (punctuation "," 4393 . 4423) (symbol "Base" 4393 . 4423) (punctuation "<" 4393 . 4423) (symbol "lookup_one_property_internal" 4393 . 4423) (punctuation ":" 4393 . 4423) (punctuation ">" 4393 . 4423) (semantic-list #("(kind, _bundle_t)" 0 1 (macros (("kind" symbol "vertex" 4416 . 4422)))) 4393 . 4423) (symbol "BOOST_JOIN" 4393 . 4423) (punctuation "," 4393 . 4423) (punctuation ">" 4393 . 4423) (symbol "Base" 4393 . 4423) (punctuation "," 4393 . 4423) (symbol "T" 4393 . 4423) (punctuation "," 4393 . 4423) (symbol "Tag" 4393 . 4423) (punctuation "<" 4393 . 4423) (symbol "property" 4393 . 4423) (punctuation "<" 4393 . 4423) (symbol "lookup_one_property_internal" 4393 . 4423) (STRUCT "struct" 4393 . 4423) (punctuation ">" 4393 . 4423) (symbol "Base" 4393 . 4423) (TYPENAME "typename" 4393 . 4423) (punctuation "," 4393 . 4423) (symbol "T" 4393 . 4423) (TYPENAME "typename" 4393 . 4423) (punctuation "," 4393 . 4423) (symbol "Tag" 4393 . 4423) (TYPENAME "typename" 4393 . 4423) (punctuation "<" 4393 . 4423) (TEMPLATE "template" 4393 . 4423) (punctuation ";" 4393 . 4423) (semantic-list #("{ \\
+    BOOST_STATIC_CONSTANT(bool, found = true); \\
+    typedef T type; \\
+    static T& lookup(T& x, BOOST_JOIN(kind, _bundle_t)) {return x;} \\
+    static const T& lookup(const T& x, BOOST_JOIN(kind, _bundle_t)) {return x;} \\
+  }" 0 1 (macros (("kind" symbol "vertex" 4416 . 4422)))) 4393 . 4423) (punctuation ">" 4393 . 4423) (semantic-list #("(kind, _bundle_t)" 0 1 (macros (("kind" symbol "vertex" 4416 . 4422)))) 4393 . 4423) (symbol "BOOST_JOIN" 4393 . 4423) (punctuation "," 4393 . 4423) (symbol "T" 4393 . 4423) (punctuation "<" 4393 . 4423) (symbol "lookup_one_property_internal" 4393 . 4423) (STRUCT "struct" 4393 . 4423) (punctuation ">" 4393 . 4423) (symbol "T" 4393 . 4423) (TYPENAME "typename" 4393 . 4423) (punctuation "<" 4393 . 4423) (TEMPLATE "template" 4393 . 4423) (punctuation 1930 . 1931) (VOID 1926 . 1930) (punctuation 1924 . 1925) (symbol 1917 . 1923) (TYPENAME 1908 . 1916) (punctuation 1906 . 1907) (symbol 1898 . 1906) (TYPENAME 1889 . 1897) (punctuation 1887 . 1888) (symbol 1882 . 1887) (TYPENAME 1873 . 1881) (punctuation 1872 . 1873) (TEMPLATE 1863 . 1871) (semantic-list 980 . 986) (symbol 953 . 980))
+      :lexical-table 
+        '(("BOOST_PROPERTY_HPP")
+          )
+))
+  :file "!usr!local!Cellar!boost!1.57.0!include!boost!pending!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
