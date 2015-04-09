@@ -67,6 +67,7 @@
   )
 (add-hook 'c++-mode-hook 'my:ac-c-header-init)
 (add-hook 'c-mode-hook 'my:ac-c-header-init)
+(setq ac-show-menu-immediately-on-auto-complete t)
 
 ;; Yasnippet setup
 (require 'yasnippet)
@@ -110,23 +111,8 @@
 (global-semantic-idle-scheduler-mode 1)
 
 ;; Setting up selection region key binds
-(global-set-key (kbd "C-c r =") 'er/expand-region)
+(global-set-key (kbd "C-c =") 'er/expand-region)
 (autoload 'er/contract-region "expand-region")
-(global-set-key (kbd "C-c r -") 'er/contract-region)
-(autoload 'er/mark-inside-quotes "expand-region")
-(global-set-key (kbd "C-c r i \"") 'er/mark-inside-quotes)
-(global-set-key (kbd "C-c r i \'") 'er/mark-inside-quotes)
-(autoload 'er/mark-inside-pairs "expand-region")
-(global-set-key (kbd "C-c r i p") 'er/mark-inside-pairs)
-(autoload 'er/mark-outside-quotes "expand-region")
-(global-set-key (kbd "C-c r a \"") 'er/mark-outside-quotes)
-(global-set-key (kbd "C-c r a \'") 'er/mark-outside-quotes)
-(autoload 'er/mark-outside-pairs "expand-region")
-(global-set-key (kbd "C-c r a p") 'er/mark-outside-pairs)
-(autoload 'er/mark-inner-tag "expand-region")
-(global-set-key (kbd "C-c r i t") 'er/mark-inner-tag)
-(autoload 'er/mark-outer-tag "expand-region")
-(global-set-key (kbd "C-c r a t") 'er/mark-outer-tag)
 
 ;; Git status
 (global-set-key (kbd "C-c g s") 'magit-status)
@@ -146,3 +132,10 @@
   (define-key ido-completion-map (kbd "C-n") 'ido-next-match)
   (define-key ido-completion-map (kbd "C-p") 'ido-prev-match))
   (add-hook 'ido-setup-hook 'ido-define-keys)
+(put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
+
+;; I like 78-Column-view
+(require 'column-marker)
+(add-hook 'c++-mode-hook (lambda () (interactive) (column-marker-1 80)))
+(add-hook 'c-mode-hook (lambda () (interactive) (column-marker-1 80)))
