@@ -6,39 +6,41 @@
     (semanticdb-table "main.cpp"
       :major-mode 'c++-mode
       :tags 
-        '( ("core.hpp" include nil nil [892 911])
-            ("neuron/N_LIF_S1967.hpp" include nil nil [913 946])
-            ("boost/numeric/odeint.hpp" include (:system-flag t) nil [948 983])
-            ("fstream" include (:system-flag t) nil [984 1002])
-            ("iostream" include (:system-flag t) nil [1003 1022])
-            ("iomanip" include (:system-flag t) nil [1023 1041])
-            ("string" include (:system-flag t) nil [1042 1059])
-            ("vector" include (:system-flag t) nil [1060 1077])
+        '( ("insilico/core.hpp" include nil nil [934 962])
+            ("insilico/neuron/helper/spike_list.hpp" include nil nil [964 1012])
+            ("insilico/neuron/N_LIF_S1967.hpp" include nil nil [1013 1055])
+            ("insilico/synapse/S_LIF_Synapse.hpp" include nil nil [1056 1101])
+            ("boost/numeric/odeint.hpp" include (:system-flag t) nil [1103 1138])
+            ("fstream" include (:system-flag t) nil [1139 1157])
+            ("iostream" include (:system-flag t) nil [1158 1177])
+            ("iomanip" include (:system-flag t) nil [1178 1196])
+            ("string" include (:system-flag t) nil [1197 1214])
+            ("vector" include (:system-flag t) nil [1215 1232])
             ("boost" using (:type ("boost" type
                  (:prototype t
                   :type "namespace")
-                  nil nil)) nil [1079 1101])
+                  nil nil)) nil [1234 1256])
             ("insilico" using (:type ("insilico" type
                  (:prototype t
                   :type "namespace")
-                  nil nil)) nil [1102 1127])
+                  nil nil)) nil [1257 1282])
             ("std" using (:type ("std" type
                  (:prototype t
                   :type "namespace")
-                  nil nil)) nil [1128 1148])
+                  nil nil)) nil [1283 1303])
             ("main" function
                (:arguments 
-                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1159 1168])
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1314 1323])
                     ("argv" variable
                        (:pointer 2
                         :type "char")
-                        (reparse-symbol arg-sub-list) [1169 1181]))                  
+                        (reparse-symbol arg-sub-list) [1324 1336]))                  
                 :type "int")
-                nil [1150 1562]))          
+                nil [1305 1981]))          
       :file "main.cpp"
-      :pointmax 1563
-      :fsize 1562
-      :lastmodtime '(21760 13714 0 0)
+      :pointmax 1982
+      :fsize 1981
+      :lastmodtime '(21821 13946 0 0)
       :unmatched-syntax nil))
   :file "!Users!pranav!app!bio!insilico!examples!IntegrateAndFire_S1967!semantic.cache"
   :semantic-tag-version "2.0"

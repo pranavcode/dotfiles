@@ -86,7 +86,7 @@
       :file "cdefs.h"
       :pointmax 26063
       :fsize 26062
-      :lastmodtime '(21531 55909 0 0)
+      :lastmodtime '(21776 25187 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("__dead2" . ((symbol "__attribute__" 5578 . 5591) (semantic-list "((noreturn))" 5591 . 5603)))
@@ -199,18 +199,22 @@
             ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_7" variable (:constant-flag t) nil [7346 7384])
             ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_8" variable (:constant-flag t) nil [7578 7616])
             ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_9" variable (:constant-flag t) nil [7810 7848])
-            ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_10" variable (:constant-flag t) nil [8043 8082]))          
+            ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_10" variable (:constant-flag t) nil [8044 8083])
+            ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_10_2" variable (:constant-flag t) nil [8341 8382])
+            ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_10_3" variable (:constant-flag t) nil [8581 8622]))          
       :file "_symbol_aliasing.h"
-      :pointmax 8153
-      :fsize 8152
-      :lastmodtime '(21531 55922 0 0)
+      :pointmax 8634
+      :fsize 8633
+      :lastmodtime '(21776 25197 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("__DARWIN_ALIAS_STARTING_IPHONE___IPHONE_2_2" (spp-arg-list ("x") 2156 . 2159))
           ("__DARWIN_ALIAS_STARTING_IPHONE___IPHONE_5_1" (spp-arg-list ("x") 4361 . 4364))
           ("__DARWIN_ALIAS_STARTING_IPHONE___IPHONE_8_0" (spp-arg-list ("x") 5586 . 5589))
           ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_7" (spp-arg-list ("x") 7384 . 7387) . ((symbol "x" 7388 . 7389)))
+          ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_10_2" (spp-arg-list ("x") 8382 . 8385))
           ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_8" (spp-arg-list ("x") 7616 . 7619) . ((symbol "x" 7620 . 7621)))
+          ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_10_3" (spp-arg-list ("x") 8622 . 8625))
           ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_9" (spp-arg-list ("x") 7848 . 7851) . ((symbol "x" 7852 . 7853)))
           ("__DARWIN_ALIAS_STARTING_IPHONE___IPHONE_4_0" (spp-arg-list ("x") 3136 . 3139))
           ("__DARWIN_ALIAS_STARTING_IPHONE___IPHONE_4_1" (spp-arg-list ("x") 3381 . 3384))
@@ -224,7 +228,7 @@
           ("__DARWIN_ALIAS_STARTING_IPHONE___IPHONE_3_1" (spp-arg-list ("x") 2646 . 2649))
           ("__DARWIN_ALIAS_STARTING_IPHONE___IPHONE_6_0" (spp-arg-list ("x") 4606 . 4609))
           ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_2" (spp-arg-list ("x") 6224 . 6227) . ((symbol "x" 6228 . 6229)))
-          ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_10" (spp-arg-list ("x") 8082 . 8085) . ((symbol "x" 8086 . 8087)))
+          ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_10" (spp-arg-list ("x") 8083 . 8086) . ((symbol "x" 8087 . 8088)))
           ("__DARWIN_ALIAS_STARTING_IPHONE___IPHONE_3_2" (spp-arg-list ("x") 2891 . 2894))
           ("__DARWIN_ALIAS_STARTING_IPHONE___IPHONE_6_1" (spp-arg-list ("x") 4851 . 4854))
           ("__DARWIN_ALIAS_STARTING_MAC___MAC_10_3" (spp-arg-list ("x") 6456 . 6459) . ((symbol "x" 6460 . 6461)))
@@ -249,7 +253,7 @@
       :file "_posix_availability.h"
       :pointmax 2906
       :fsize 2905
-      :lastmodtime '(21531 55922 0 0)
+      :lastmodtime '(21776 25197 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("___POSIX_C_DEPRECATED_STARTING_199506L")
@@ -269,7 +273,7 @@
       :file "stdio.h"
       :pointmax 1656
       :fsize 1655
-      :lastmodtime '(21531 55917 0 0)
+      :lastmodtime '(21776 25192 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("_SYS_STDIO_H_")
@@ -367,7 +371,7 @@
       :file "_types.h"
       :pointmax 3717
       :fsize 3716
-      :lastmodtime '(21531 55921 0 0)
+      :lastmodtime '(21776 25196 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("__offsetof" (spp-arg-list ("type" "field") 3525 . 3538) . ((symbol "__builtin_offsetof" 3539 . 3557) (semantic-list "(type, field)" 3557 . 3570)))
@@ -406,7 +410,7 @@
       :file "syslimits.h"
       :pointmax 5533
       :fsize 5532
-      :lastmodtime '(21531 55917 0 0)
+      :lastmodtime '(21776 25192 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("GID_MAX" . ((symbol "2147483647U" 3732 . 3743)))
@@ -574,7 +578,7 @@
       :file "types.h"
       :pointmax 8058
       :fsize 8057
-      :lastmodtime '(21531 55918 0 0)
+      :lastmodtime '(21776 25194 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("_SYS_TYPES_H_")
@@ -785,7 +789,7 @@
       :file "wait.h"
       :pointmax 9975
       :fsize 9974
-      :lastmodtime '(21531 55921 0 0)
+      :lastmodtime '(21776 25196 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("w_coredump" . 
@@ -836,7 +840,7 @@
       :file "appleapiopts.h"
       :pointmax 2071
       :fsize 2070
-      :lastmodtime '(21531 55909 0 0)
+      :lastmodtime '(21776 25186 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("__APPLE_API_STANDARD")
@@ -975,7 +979,7 @@
       :file "errno.h"
       :pointmax 10965
       :fsize 10964
-      :lastmodtime '(21531 55910 0 0)
+      :lastmodtime '(21776 25188 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("ENOMEM" . ((number "12" 4417 . 4419)))
@@ -1365,7 +1369,7 @@
       :file "signal.h"
       :pointmax 15381
       :fsize 15380
-      :lastmodtime '(21531 55916 0 0)
+      :lastmodtime '(21776 25192 0 0)
       :unmatched-syntax '((punctuation 15338 . 15339) (semantic-list 15333 . 15338) (semantic-list 15304 . 15333) (VOID 15299 . 15303) (TYPEDEF 13746 . 13753))
       :lexical-table 
         '(("SIGIOT" . ((symbol "SIGABRT" 4418 . 4425)))
@@ -1788,7 +1792,7 @@
       :file "resource.h"
       :pointmax 13108
       :fsize 13107
-      :lastmodtime '(21531 55915 0 0)
+      :lastmodtime '(21776 25191 0 0)
       :unmatched-syntax '((semantic-list 12878 . 12893) (symbol 12864 . 12878) (INT 12860 . 12863) (semantic-list 12575 . 12585) (symbol 12561 . 12575) (INT 12557 . 12560))
       :lexical-table 
         '(("PRIO_MIN" . ((punctuation "-" 4460 . 4461) (number "20" 4461 . 4463)))
@@ -1886,7 +1890,7 @@
       :file "qos.h"
       :pointmax 7683
       :fsize 7682
-      :lastmodtime '(21519 26811 0 0)
+      :lastmodtime '(21550 12826 0 0)
       :unmatched-syntax '((semantic-list 7568 . 7595) (symbol 7544 . 7568) (semantic-list 6931 . 6958) (symbol 6907 . 6931))
       :lexical-table 
         '(("_SYS_QOS_H")
@@ -1914,7 +1918,7 @@
       :file "_endian.h"
       :pointmax 6399
       :fsize 6398
-      :lastmodtime '(21531 55921 0 0)
+      :lastmodtime '(21776 25196 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("ntohs" (spp-arg-list ("x") 4999 . 5002) . ((semantic-list "((__uint16_t)(x))" 5010 . 5027)))
@@ -1942,7 +1946,7 @@
       :file "dir.h"
       :pointmax 3986
       :fsize 3985
-      :lastmodtime '(21531 55910 0 0)
+      :lastmodtime '(21776 25187 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("_SYS_DIR_H_")
@@ -1989,7 +1993,7 @@
       :file "dirent.h"
       :pointmax 5436
       :fsize 5435
-      :lastmodtime '(21531 55910 0 0)
+      :lastmodtime '(21776 25187 0 0)
       :unmatched-syntax '((semantic-list 4333 . 4335) (symbol 4329 . 4333) (symbol 4322 . 4328) (punctuation 4321 . 4322) (semantic-list 3957 . 3960) (symbol 3953 . 3957) (number 3958 . 3959) (symbol 3946 . 3952) (number 3958 . 3959) (punctuation 3945 . 3946))
       :lexical-table 
         '(("DT_DIR" . ((number "4" 5143 . 5144)))
@@ -2499,7 +2503,7 @@
       :file "stat.h"
       :pointmax 17373
       :fsize 17372
-      :lastmodtime '(21531 55916 0 0)
+      :lastmodtime '(21776 25192 0 0)
       :unmatched-syntax '((semantic-list 17129 . 17160) (symbol 17123 . 17129) (INT 17119 . 17122) (semantic-list 17008 . 17039) (symbol 17001 . 17008) (INT 16997 . 17000) (semantic-list 16895 . 16917) (symbol 16888 . 16895) (INT 16884 . 16887) (semantic-list 16762 . 16804) (symbol 16752 . 16762) (INT 16748 . 16751) (semantic-list 16626 . 16668) (symbol 16615 . 16626) (INT 16611 . 16614) (semantic-list 16498 . 16531) (symbol 16487 . 16498) (INT 16483 . 16486) (semantic-list 16233 . 16244) (symbol 16224 . 16233) (INT 16220 . 16223) (semantic-list 15900 . 15922) (symbol 15894 . 15900) (INT 15890 . 15893) (semantic-list 15811 . 15837) (symbol 15803 . 15811) (INT 15799 . 15802))
       :lexical-table 
         '(("__DARWIN_STRUCT_STAT64" . ((semantic-list "{ \\
@@ -2559,6 +2563,302 @@
           ("UF_APPEND" . ((number "0x00000004" 13361 . 13371)))
           ("SF_ARCHIVED" . ((number "0x00010000" 14181 . 14191)))
           ("SF_IMMUTABLE" . ((number "0x00020000" 14236 . 14246)))
+          )
+)
+    (semanticdb-table "time.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_SYS_TIME_H_" variable (:constant-flag t) nil [3312 3324])
+            ("sys/cdefs.h" include (:system-flag t) nil [3326 3348])
+            ("sys/_types.h" include (:system-flag t) nil [3349 3372])
+            ("Availability.h" include (:system-flag t) nil [3373 3398])
+            ("sys/_types/_fd_def.h" include (:system-flag t) nil [3549 3580])
+            ("sys/_types/_timespec.h" include (:system-flag t) nil [3581 3614])
+            ("sys/_types/_timeval.h" include (:system-flag t) nil [3615 3647])
+            ("sys/_types/_time_t.h" include (:system-flag t) nil [3649 3680])
+            ("sys/_types/_suseconds_t.h" include (:system-flag t) nil [3681 3717])
+            ("itimerval" type
+               (:members 
+                  ( ("it_interval" variable (:type ("timeval" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [3829 3856])
+                    ("it_value" variable (:type ("timeval" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [3879 3903]))                  
+                :type "struct")
+                nil [3809 3926])
+            ("ITIMER_REAL" variable (:constant-flag t) nil [4019 4030])
+            ("ITIMER_VIRTUAL" variable (:constant-flag t) nil [4041 4055])
+            ("ITIMER_PROF" variable (:constant-flag t) nil [4066 4077])
+            ("sys/_types/_fd_setsize.h" include (:system-flag t) nil [4317 4352])
+            ("sys/_types/_fd_set.h" include (:system-flag t) nil [4353 4384])
+            ("sys/_types/_fd_clr.h" include (:system-flag t) nil [4385 4416])
+            ("sys/_types/_fd_isset.h" include (:system-flag t) nil [4417 4450])
+            ("sys/_types/_fd_zero.h" include (:system-flag t) nil [4451 4483])
+            ("sys/_types/_fd_copy.h" include (:system-flag t) nil [4545 4577])
+            ("TIMEVAL_TO_TIMESPEC" variable (:constant-flag t) nil [4587 4606])
+            ("TIMESPEC_TO_TIMEVAL" variable (:constant-flag t) nil [4713 4732])
+            ("timezone" type
+               (:members 
+                  ( ("tz_minuteswest" variable (:type "int") (reparse-symbol classsubparts) [4851 4870])
+                    ("tz_dsttime" variable (:type "int") (reparse-symbol classsubparts) [4904 4919]))                  
+                :type "struct")
+                nil [4832 4951])
+            ("DST_NONE" variable (:constant-flag t) nil [4960 4968])
+            ("DST_USA" variable (:constant-flag t) nil [4996 5003])
+            ("DST_AUST" variable (:constant-flag t) nil [5035 5043])
+            ("DST_WET" variable (:constant-flag t) nil [5081 5088])
+            ("DST_MET" variable (:constant-flag t) nil [5127 5134])
+            ("DST_EET" variable (:constant-flag t) nil [5172 5179])
+            ("DST_CAN" variable (:constant-flag t) nil [5218 5225])
+            ("timerclear" variable (:constant-flag t) nil [5281 5291])
+            ("timerisset" variable (:constant-flag t) nil [5341 5351])
+            ("timercmp" variable (:constant-flag t) nil [5400 5408])
+            ("timeradd" variable (:constant-flag t) nil [5568 5576])
+            ("timersub" variable (:constant-flag t) nil [5851 5859])
+            ("timevalcmp" variable (:constant-flag t) nil [6129 6139])
+            ("clockinfo" type
+               (:members 
+                  ( ("hz" variable (:type "int") (reparse-symbol classsubparts) [6258 6265])
+                    ("tick" variable (:type "int") (reparse-symbol classsubparts) [6290 6299])
+                    ("tickadj" variable (:type "int") (reparse-symbol classsubparts) [6334 6346])
+                    ("stathz" variable (:type "int") (reparse-symbol classsubparts) [6384 6395])
+                    ("profhz" variable (:type "int") (reparse-symbol classsubparts) [6431 6442]))                  
+                :type "struct")
+                nil [6238 6478])
+            ("time.h" include (:system-flag t) nil [6592 6609])
+            ("utimes" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7315 7328])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("timeval" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [7329 7352]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7304 7353])
+            ("setitimer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [7228 7232])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("itimerval" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [7233 7269])
+                    ("" variable
+                       (:pointer 1
+                        :type ("itimerval" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [7272 7302]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7214 7303])
+            ("sys/_select.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [7163 7187])
+            ("gettimeofday" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("timeval" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [7113 7141])
+                    ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [7142 7160]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7096 7161])
+            ("getitimer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [7070 7074])
+                    ("" variable
+                       (:pointer 1
+                        :type ("itimerval" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [7075 7094]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7056 7095])
+            ("settimeofday" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("timeval" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6953 6976])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("timezone" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6977 7001]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6936 7002])
+            ("__OSX_AVAILABLE_STARTING" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("__MAC_10_5" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6909 6920])
+                    ("" variable (:type ("__IPHONE_2_0" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6921 6934]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6884 6935])
+            ("futimes" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [6804 6808])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("timeval" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6809 6832]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6792 6833])
+            ("adjtime" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("timeval" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6749 6772])
+                    ("" variable
+                       (:pointer 1
+                        :type ("timeval" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6773 6790]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6737 6791]))          
+      :file "time.h"
+      :pointmax 7396
+      :fsize 7395
+      :lastmodtime '(21776 25193 0 0)
+      :unmatched-syntax '((semantic-list 6845 . 6883) (symbol 6838 . 6845) (INT 6834 . 6837))
+      :lexical-table 
+        '(("DST_WET" . ((number "3" 5090 . 5091)))
+          ("TIMEVAL_TO_TIMESPEC" (spp-arg-list ("tv" "ts") 4606 . 4614) . ((semantic-list "{					\\
+	(ts)->tv_sec = (tv)->tv_sec;					\\
+	(ts)->tv_nsec = (tv)->tv_usec * 1000;				\\
+}" 4615 . 4704)))
+          ("DST_MET" . ((number "4" 5136 . 5137)))
+          ("ITIMER_PROF" . ((number "2" 4078 . 4079)))
+          ("DST_NONE" . ((number "0" 4969 . 4970)))
+          ("timevalcmp" (spp-arg-list ("l" "r" "cmp") 6139 . 6150) . ((symbol "timercmp" 6153 . 6161) (semantic-list "(l, r, cmp)" 6161 . 6172)))
+          ("timeradd" (spp-arg-list ("tvp" "uvp" "vvp") 5576 . 5591) . 
+              ((DO "do" 5600 . 5602) (semantic-list "{								\\
+		(vvp)->tv_sec = (tvp)->tv_sec + (uvp)->tv_sec;		\\
+		(vvp)->tv_usec = (tvp)->tv_usec + (uvp)->tv_usec;	\\
+		if ((vvp)->tv_usec >= 1000000) {			\\
+			(vvp)->tv_sec++;				\\
+			(vvp)->tv_usec -= 1000000;			\\
+		}							\\
+	}" 5603 . 5832) (WHILE "while" 5833 . 5838) (semantic-list "(0)" 5839 . 5842)))
+          ("DST_USA" . ((number "1" 5005 . 5006)))
+          ("timerisset" (spp-arg-list ("tvp") 5351 . 5356) . ((semantic-list "((tvp)->tv_sec || (tvp)->tv_usec)" 5358 . 5391)))
+          ("ITIMER_REAL" . ((number "0" 4031 . 4032)))
+          ("DST_EET" . ((number "5" 5181 . 5182)))
+          ("timersub" (spp-arg-list ("tvp" "uvp" "vvp") 5859 . 5874) . 
+              ((DO "do" 5883 . 5885) (semantic-list "{								\\
+		(vvp)->tv_sec = (tvp)->tv_sec - (uvp)->tv_sec;		\\
+		(vvp)->tv_usec = (tvp)->tv_usec - (uvp)->tv_usec;	\\
+		if ((vvp)->tv_usec < 0) {				\\
+			(vvp)->tv_sec--;				\\
+			(vvp)->tv_usec += 1000000;			\\
+		}							\\
+	}" 5886 . 6109) (WHILE "while" 6110 . 6115) (semantic-list "(0)" 6116 . 6119)))
+          ("DST_AUST" . ((number "2" 5044 . 5045)))
+          ("TIMESPEC_TO_TIMEVAL" (spp-arg-list ("tv" "ts") 4732 . 4740) . ((semantic-list "{					\\
+	(tv)->tv_sec = (ts)->tv_sec;					\\
+	(tv)->tv_usec = (ts)->tv_nsec / 1000;				\\
+}" 4741 . 4830)))
+          ("timerclear" (spp-arg-list ("tvp") 5291 . 5296) . 
+              ((semantic-list "(tvp)" 5298 . 5303) (punctuation "-" 5303 . 5304) (punctuation ">" 5304 . 5305) (symbol "tv_sec" 5305 . 5311) (punctuation "=" 5312 . 5313) (semantic-list "(tvp)" 5314 . 5319) (punctuation "-" 5319 . 5320) (punctuation ">" 5320 . 5321) (symbol "tv_usec" 5321 . 5328) (punctuation "=" 5329 . 5330) (number "0" 5331 . 5332)))
+          ("timercmp" (spp-arg-list ("tvp" "uvp" "cmp") 5408 . 5423) . ((semantic-list "(((tvp)->tv_sec == (uvp)->tv_sec) ?				\\
+	    ((tvp)->tv_usec cmp (uvp)->tv_usec) :			\\
+	    ((tvp)->tv_sec cmp (uvp)->tv_sec))" 5432 . 5559)))
+          ("DST_CAN" . ((number "6" 5227 . 5228)))
+          ("ITIMER_VIRTUAL" . ((number "1" 4056 . 4057)))
+          ("_SYS_TIME_H_")
+          )
+)
+    (semanticdb-table "_select.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_SYS__SELECT_H_" variable (:constant-flag t) nil [1715 1730])
+            ("select" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1744 1748])
+                    ("" variable
+                       (:pointer 1
+                        :type ("fd_set" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1749 1769])
+                    ("" variable
+                       (:pointer 1
+                        :type ("fd_set" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1770 1790])
+                    ("" variable
+                       (:pointer 1
+                        :type ("fd_set" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1793 1813])
+                    ("" variable
+                       (:pointer 1
+                        :type ("timeval" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1814 1842]))                  
+                :type "int")
+                nil [1732 2263]))          
+      :file "_select.h"
+      :pointmax 2295
+      :fsize 2294
+      :lastmodtime '(21776 25196 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_SYS__SELECT_H_")
           )
 ))
   :file "!usr!include!sys!semantic.cache"

@@ -41,11 +41,58 @@
                 nil [922 1968]))          
       :file "S_DefaultSynapse.hpp"
       :pointmax 1989
-      :fsize 1650
-      :lastmodtime '(21780 4923 0 0)
+      :fsize 1981
+      :lastmodtime '(21780 4946 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("INCLUDED_S_DEFAULTSYNAPSE_HPP")
+          )
+)
+    (semanticdb-table "S_LIF_Synapse.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_S_LIF_SYNAPSE_HPP" variable (:constant-flag t) nil [908 934])
+            ("core/engine.hpp" include nil nil [936 962])
+            ("neuron/helper/spike_list.hpp" include nil nil [963 1002])
+            ("cmath" include (:system-flag t) nil [1004 1020])
+            ("insilico" type
+               (:members 
+                  ( ("S_LIF_Synapse" type
+                       (:superclasses 
+                          ( ("Synapse" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1084 1091])
+                            ("ode_set" function
+                               (:arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1107 1129])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1130 1147])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1163 1178])
+                                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1179 1194]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1094 2337]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1044 2360]))                  
+                :type "namespace")
+                nil [1022 2386]))          
+      :file "S_LIF_Synapse.hpp"
+      :pointmax 2407
+      :fsize 2406
+      :lastmodtime '(21805 17938 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_S_LIF_SYNAPSE_HPP")
           )
 ))
   :file "!Users!pranav!app!bio!insilico!include!synapse!semantic.cache"

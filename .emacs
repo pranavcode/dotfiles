@@ -135,7 +135,17 @@
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
 
-;; I like 78-Column-view
-(require 'column-marker)
-(add-hook 'c++-mode-hook (lambda () (interactive) (column-marker-1 80)))
-(add-hook 'c-mode-hook (lambda () (interactive) (column-marker-1 80)))
+;; I like 80-Column-view
+;; (require 'column-marker)
+;; (add-hook 'c++-mode-hook (lambda () (interactive) (column-marker-1 80)))
+;; (add-hook 'c-mode-hook (lambda () (interactive) (column-marker-1 80)))
+
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))

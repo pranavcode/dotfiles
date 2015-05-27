@@ -6,11 +6,12 @@
     (semanticdb-table "N_SquidAxon_HH1952.hpp"
       :major-mode 'c++-mode
       :tags 
-        '( ("INCLUDED_N_SQUIDAXON_HH1952_HPP" variable (:constant-flag t) nil [974 1005])
-            ("core/engine.hpp" include nil nil [1007 1033])
-            ("current/I_K_SquidAxon_HH_HH1952.hpp" include nil nil [1035 1081])
-            ("current/I_Leak_SquidAxon_HH_HH1952.hpp" include nil nil [1082 1131])
-            ("current/I_Na_SquidAxon_HH_HH1952.hpp" include nil nil [1132 1179])
+        '( ("INCLUDED_N_SQUIDAXON_HH1952_HPP" variable (:constant-flag t) nil [1047 1078])
+            ("core/engine.hpp" include nil nil [1080 1106])
+            ("neuron/helper/spike_list.hpp" include nil nil [1107 1146])
+            ("current/I_K_SquidAxon_HH_HH1952.hpp" include nil nil [1148 1194])
+            ("current/I_Leak_SquidAxon_HH_HH1952.hpp" include nil nil [1195 1244])
+            ("current/I_Na_SquidAxon_HH_HH1952.hpp" include nil nil [1245 1292])
             ("insilico" type
                (:members 
                   ( ("N_SquidAxon_HH1952" type
@@ -20,32 +21,32 @@
                                 :type "class")
                                 nil nil))                          
                         :members 
-                          ( ("public" label nil (reparse-symbol classsubparts) [1247 1254])
+                          ( ("public" label nil (reparse-symbol classsubparts) [1360 1367])
                             ("ode_set" function
                                (:arguments 
                                   ( ("variables" variable
                                        (:reference 1
                                         :type ("state_type" type (:type "class") nil nil))
-                                        (reparse-symbol arg-sub-list) [1270 1292])
+                                        (reparse-symbol arg-sub-list) [1383 1405])
                                     ("dxdt" variable
                                        (:reference 1
                                         :type ("state_type" type (:type "class") nil nil))
-                                        (reparse-symbol arg-sub-list) [1293 1310])
+                                        (reparse-symbol arg-sub-list) [1406 1423])
                                     ("t" variable
                                        (:constant-flag t
                                         :type "double")
-                                        (reparse-symbol arg-sub-list) [1311 1326])
-                                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1327 1342]))                                  
+                                        (reparse-symbol arg-sub-list) [1439 1454])
+                                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1455 1470]))                                  
                                 :type "void")
-                                (reparse-symbol classsubparts) [1257 2775]))                          
+                                (reparse-symbol classsubparts) [1370 2928]))                          
                         :type "class")
-                        (reparse-symbol namespacesubparts) [1203 2798]))                  
+                        (reparse-symbol namespacesubparts) [1316 2951]))                  
                 :type "namespace")
-                nil [1181 2829]))          
+                nil [1294 2982]))          
       :file "N_SquidAxon_HH1952.hpp"
-      :pointmax 2850
-      :fsize 2849
-      :lastmodtime '(21776 34245 0 0)
+      :pointmax 3003
+      :fsize 3002
+      :lastmodtime '(21805 19080 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("INCLUDED_N_SQUIDAXON_HH1952_HPP")
@@ -54,8 +55,9 @@
     (semanticdb-table "N_LIF_S1967.hpp"
       :major-mode 'c++-mode
       :tags 
-        '( ("INCLUDED_N_LIF_S1967_HPP" variable (:constant-flag t) nil [930 954])
-            ("core/engine.hpp" include nil nil [956 982])
+        '( ("INCLUDED_N_LIF_S1967_HPP" variable (:constant-flag t) nil [970 994])
+            ("core/engine.hpp" include nil nil [996 1022])
+            ("neuron/helper/spike_list.hpp" include nil nil [1023 1062])
             ("insilico" type
                (:members 
                   ( ("N_LIF_S1967" type
@@ -65,32 +67,32 @@
                                 :type "class")
                                 nil nil))                          
                         :members 
-                          ( ("public" label nil (reparse-symbol classsubparts) [1043 1050])
+                          ( ("public" label nil (reparse-symbol classsubparts) [1123 1130])
                             ("ode_set" function
                                (:arguments 
                                   ( ("variables" variable
                                        (:reference 1
                                         :type ("state_type" type (:type "class") nil nil))
-                                        (reparse-symbol arg-sub-list) [1066 1088])
+                                        (reparse-symbol arg-sub-list) [1146 1168])
                                     ("dxdt" variable
                                        (:reference 1
                                         :type ("state_type" type (:type "class") nil nil))
-                                        (reparse-symbol arg-sub-list) [1089 1106])
+                                        (reparse-symbol arg-sub-list) [1169 1186])
                                     ("t" variable
                                        (:constant-flag t
                                         :type "double")
-                                        (reparse-symbol arg-sub-list) [1107 1122])
-                                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1123 1138]))                                  
+                                        (reparse-symbol arg-sub-list) [1202 1217])
+                                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1218 1233]))                                  
                                 :type "void")
-                                (reparse-symbol classsubparts) [1053 1808]))                          
+                                (reparse-symbol classsubparts) [1133 2485]))                          
                         :type "class")
-                        (reparse-symbol namespacesubparts) [1006 1831]))                  
+                        (reparse-symbol namespacesubparts) [1086 2508]))                  
                 :type "namespace")
-                nil [984 1855]))          
+                nil [1064 2532]))          
       :file "N_LIF_S1967.hpp"
-      :pointmax 1886
-      :fsize 1885
-      :lastmodtime '(21760 15990 0 0)
+      :pointmax 2563
+      :fsize 2562
+      :lastmodtime '(21805 18185 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("INCLUDED_N_LIF_S1967_HPP")

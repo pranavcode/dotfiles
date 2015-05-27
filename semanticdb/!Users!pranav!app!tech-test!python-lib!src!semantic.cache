@@ -1,0 +1,28 @@
+;; Object src/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "src/"
+  :tables
+  (list
+    (semanticdb-table "urlbase.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("redis" include nil nil [1 13])
+            ("global" code nil nil [25 41])
+            ("global" code nil nil [42 56])
+            ("Init" function (:arguments 
+              ( ("host" variable nil (reparse-symbol function_parameters) [172 176])
+                ("port" variable nil (reparse-symbol function_parameters) [178 182]))              ) nil [163 431])
+            ("Store" function (:arguments 
+              ( ("count" variable nil (reparse-symbol function_parameters) [560 565])
+                ("url" variable nil (reparse-symbol function_parameters) [567 570]))              ) nil [550 705])
+            ("Fetch" function (:arguments 
+              ( ("count" variable nil (reparse-symbol function_parameters) [827 832]))              ) nil [817 948])
+            ("RedisAvailable" function nil nil [1035 1181]))          
+      :file "urlbase.py"
+      :pointmax 1181
+      :fsize 1180
+      :lastmodtime '(21840 52886 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!pranav!app!tech-test!python-lib!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

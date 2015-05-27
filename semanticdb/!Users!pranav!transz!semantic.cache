@@ -1,0 +1,20 @@
+;; Object transz/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "transz/"
+  :tables
+  (list
+
+    (semanticdb-table "index.cgi"
+      :major-mode 'python-mode
+      :tags 
+        '( ("cgitb" include nil nil [67 79])
+            ("cgitb" code nil nil [80 94])
+            ("print" code nil nil [96 142])
+            ("print" code nil nil [143 148])
+            ("print" code nil nil [150 170]))          
+      :file "index.cgi"
+      :pointmax 171
+      :unmatched-syntax '((PRINT 150 . 155) ($EOI 170 . 170) (PRINT 150 . 155) ($EOI 170 . 170))))
+  :file "!Users!pranav!transz!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -7,24 +7,36 @@
       :major-mode 'c++-mode
       :tags 
         '( ("INCLUDED_INSILICO_INCLUDE_CORE_ENGINE_MPI_HPP" variable (:constant-flag t) nil [858 903])
-            ("INCLUDED_INSILICO_INCLUDE_CORE_ENGINE_MPI_HPP" variable (:constant-flag t) nil [858 903])
-            ("INCLUDED_INSILICO_INCLUDE_CORE_ENGINE_MPI_HPP" variable (:constant-flag t) nil [858 903])
             ("core/mpi.hpp" include nil nil [905 928])
             ("core/engine/data.hpp" include nil nil [929 960])
             ("core/engine/driver.hpp" include nil nil [961 994])
             ("core/engine/generate.hpp" include nil nil [995 1030])
             ("core/engine/serial/common.hpp" include nil nil [1031 1071])
-            ("core/engine/serial/index.hpp" include nil nil [1072 1111])
+            ("core/engine/mpi/index.hpp" include nil nil [1072 1108])
             ("core/engine/mpi/value.hpp" include nil nil [1152 1188])
             ("algorithm" include (:system-flag t) nil [1233 1253])
             ("stdio.h" include (:system-flag t) nil [1254 1272])
             ("vector" include (:system-flag t) nil [1273 1290])
             ("insilico_mpi_independent_variable_block" variable (:constant-flag t) nil [1353 1392])
-            ("insilico_mpi_dependent_variable_block" variable (:constant-flag t) nil [1463 1500])
-            ("insilico_mpi_independent_unit" variable (:constant-flag t) nil [1638 1667])
-            ("insilico_mpi_independent_variable" variable (:constant-flag t) nil [1796 1829])
-            ("insilico_mpi_dependent_variable" variable (:constant-flag t) nil [1886 1917])
-            ("insilico_mpi_synchronize" variable (:constant-flag t) nil [2024 2048])
+            ("insilico_mpi_dependent_variable_block" variable (:constant-flag t) nil [1471 1508])
+            ("insilico_mpi_dependent_variable_block" variable (:constant-flag t) nil [1471 1508])
+            ("insilico_mpi_independent_unit" variable (:constant-flag t) nil [1654 1683])
+            ("insilico_mpi_independent_unit" variable (:constant-flag t) nil [1654 1683])
+            ("insilico_mpi_independent_variable" variable (:constant-flag t) nil [1818 1851])
+            ("insilico_mpi_independent_variable" variable (:constant-flag t) nil [1818 1851])
+            ("insilico_mpi_independent_variable" variable (:constant-flag t) nil [1818 1851])
+            ("insilico_mpi_dependent_variable" variable (:constant-flag t) nil [1908 1939])
+            ("insilico_mpi_dependent_variable" variable (:constant-flag t) nil [1908 1939])
+            ("insilico_mpi_synchronize" variable (:constant-flag t) nil [2046 2070])
+            ("insilico_mpi_synchronize" variable (:constant-flag t) nil [2046 2070])
+            ("synchronize_innerstate" function
+               (:prototype-flag t
+                :parent "insilico::engine::mpi"
+                :arguments 
+                  ( ("" variable (:type ("x" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2126 2128])
+                    ("" variable (:type ("t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2128 2130]))                  
+                :type "int")
+                nil [2080 2131])
             ("insilico" type
                (:members 
                   ( ("engine" type
@@ -34,43 +46,62 @@
                                   ( ("exec_div" variable
                                        (:default-value "true"
                                         :type "bool")
-                                        (reparse-symbol namespacesubparts) [2203 2224])
-                                    ("assigner" variable (:type ("std::vector" type
+                                        (reparse-symbol namespacesubparts) [2225 2246])
+                                    ("assigner_line_master" variable (:type ("std::vector" type
                                          (:template-specifier 
                                             ( ("std::vector" type nil nil nil))                                            
                                           :type "class")
-                                          nil nil)) (reparse-symbol namespacesubparts) [2258 2307])
+                                          nil nil)) (reparse-symbol namespacesubparts) [2280 2336])
+                                    ("assigner_index_master" variable (:type ("std::vector" type
+                                         (:template-specifier 
+                                            ( ("std::vector" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol namespacesubparts) [2337 2394])
                                     ("assigner_line" variable (:type ("std::vector" type
                                          (:template-specifier 
                                             ( ("unsigned int" type nil nil nil))                                            
                                           :type "class")
-                                          nil nil)) (reparse-symbol namespacesubparts) [2308 2346])
+                                          nil nil)) (reparse-symbol namespacesubparts) [2395 2433])
+                                    ("assigner_index" variable (:type ("std::vector" type
+                                         (:template-specifier 
+                                            ( ("unsigned int" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol namespacesubparts) [2434 2473])
                                     ("global_rank" variable
                                        (:default-value "0"
-                                        :type "unsigned int")
-                                        (reparse-symbol namespacesubparts) [2347 2372])
+                                        :type "int")
+                                        (reparse-symbol namespacesubparts) [2474 2494])
                                     ("rank_resizing" variable
                                        (:default-value "false"
                                         :type "bool")
-                                        (reparse-symbol namespacesubparts) [2373 2400])
+                                        (reparse-symbol namespacesubparts) [2495 2522])
                                     ("update_indices" variable (:type ("std::vector" type
                                          (:template-specifier 
                                             ( ("unsigned int" type nil nil nil))                                            
                                           :type "class")
-                                          nil nil)) (reparse-symbol namespacesubparts) [2439 2478]))                                  
+                                          nil nil)) (reparse-symbol namespacesubparts) [2561 2600]))                                  
                                 :type "namespace")
-                                (reparse-symbol namespacesubparts) [2151 5997]))                          
+                                (reparse-symbol namespacesubparts) [2173 5822]))                          
                         :type "namespace")
-                        (reparse-symbol namespacesubparts) [2132 5999]))                  
+                        (reparse-symbol namespacesubparts) [2154 5824]))                  
                 :type "namespace")
-                nil [2111 6001]))          
+                nil [2133 5826]))          
       :file "mpi.hpp"
-      :pointmax 6046
-      :fsize 6045
-      :lastmodtime '(21797 52059 0 0)
+      :pointmax 5871
+      :fsize 5870
+      :lastmodtime '(21821 11891 0 0)
       :unmatched-syntax nil
       :lexical-table 
-        '(("INCLUDED_INSILICO_INCLUDE_CORE_ENGINE_MPI_HPP")
+        '(("insilico_mpi_independent_variable" (spp-arg-list ("x") 1851 . 1854) . 
+              ((symbol "insilico" 1859 . 1867) (punctuation ":" 1867 . 1868) (punctuation ":" 1868 . 1869) (symbol "engine" 1869 . 1875) (punctuation ":" 1875 . 1876) (punctuation ":" 1876 . 1877) (symbol "mpi" 1877 . 1880) (punctuation ":" 1880 . 1881) (punctuation ":" 1881 . 1882) (symbol "register_block" 1882 . 1896) (semantic-list "(x)" 1896 . 1899)))
+          ("insilico_mpi_dependent_variable" (spp-arg-list ("x") 1939 . 1942) . 
+              ((symbol "insilico" 1947 . 1955) (punctuation ":" 1955 . 1956) (punctuation ":" 1956 . 1957) (symbol "engine" 1957 . 1963) (punctuation ":" 1963 . 1964) (punctuation ":" 1964 . 1965) (symbol "mpi" 1965 . 1968) (punctuation ":" 1968 . 1969) (punctuation ":" 1969 . 1970) (symbol "dependent_register_block" 1970 . 1994) (semantic-list "(x)" 1994 . 1997)))
+          ("insilico_mpi_independent_variable_block" (spp-arg-list ("id" "x") 1392 . 1399) . ((IF "if" 1413 . 1415) (semantic-list "(insilico::engine::mpi::block_assigned(id, x, __LINE__))" 1415 . 1471)))
+          ("insilico_mpi_independent_unit" (spp-arg-list ("x") 1683 . 1686) . ((IF "if" 1691 . 1693) (semantic-list "(insilico::engine::mpi::block_assigned(x, __LINE__))" 1693 . 1745)))
+          ("INCLUDED_INSILICO_INCLUDE_CORE_ENGINE_MPI_HPP")
+          ("insilico_mpi_dependent_variable_block" (spp-arg-list ("id" "x") 1508 . 1515) . ((IF "if" 1520 . 1522) (semantic-list "(insilico::engine::mpi::dependent_block_assigned(id, x, __LINE__))" 1522 . 1588)))
+          ("insilico_mpi_synchronize" (spp-arg-list ("x" "t") 2070 . 2075) . 
+              ((symbol "insilico" 2080 . 2088) (punctuation ":" 2088 . 2089) (punctuation ":" 2089 . 2090) (symbol "engine" 2090 . 2096) (punctuation ":" 2096 . 2097) (punctuation ":" 2097 . 2098) (symbol "mpi" 2098 . 2101) (punctuation ":" 2101 . 2102) (punctuation ":" 2102 . 2103) (symbol "synchronize_innerstate" 2103 . 2125) (semantic-list "(x,t)" 2125 . 2130) (punctuation ";" 2130 . 2131)))
           )
 )
     (semanticdb-table "serial.hpp"

@@ -33,34 +33,34 @@
                 nil [143 174])
             ("STEPSIZE" variable
                (:constant-flag t
-                :default-value "0.05"
+                :default-value "0.0001"
                 :type "double")
-                nil [175 205])
+                nil [175 207])
             ("rand" function
                (:arguments 
-                  ( ("min" variable (:type "double") (reparse-symbol arg-sub-list) [219 230])
-                    ("max" variable (:type "double") (reparse-symbol arg-sub-list) [231 242]))                  
+                  ( ("min" variable (:type "double") (reparse-symbol arg-sub-list) [221 232])
+                    ("max" variable (:type "double") (reparse-symbol arg-sub-list) [233 244]))                  
                 :type "double")
-                nil [207 358])
+                nil [209 360])
             ("rand" function
                (:arguments 
-                  ( ("max" variable (:type "double") (reparse-symbol arg-sub-list) [372 383]))                  
+                  ( ("max" variable (:type "double") (reparse-symbol arg-sub-list) [374 385]))                  
                 :type "double")
-                nil [360 410])
+                nil [362 412])
             ("main" function
                (:arguments 
-                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [421 430])
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [423 432])
                     ("argv" variable
                        (:pointer 1
                         :dereference 1
                         :type "char")
-                        (reparse-symbol arg-sub-list) [431 444]))                  
+                        (reparse-symbol arg-sub-list) [433 446]))                  
                 :type "int")
-                nil [412 787]))          
+                nil [414 789]))          
       :file "gentest.cpp"
-      :pointmax 788
-      :fsize 787
-      :lastmodtime '(21758 56809 0 0)
+      :pointmax 790
+      :fsize 789
+      :lastmodtime '(21827 49685 0 0)
       :unmatched-syntax nil))
   :file "!Users!pranav!app!bio!insilico!scripts!build!semantic.cache"
   :semantic-tag-version "2.0"

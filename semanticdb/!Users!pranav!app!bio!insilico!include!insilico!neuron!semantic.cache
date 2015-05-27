@@ -1,0 +1,57 @@
+;; Object neuron/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "neuron/"
+  :tables
+  (list
+    (semanticdb-table "N_LIF_S1967.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_N_LIF_S1967_HPP" variable (:constant-flag t) nil [970 994])
+            ("insilico/core/engine.hpp" include nil nil [996 1031])
+            ("insilico/neuron/helper/spike_list.hpp" include nil nil [1032 1080])
+            ("insilico" type
+               (:members 
+                  ( ("N_LIF_S1967" type
+                       (:superclasses 
+                          ( ("Neuron" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1141 1148])
+                            ("ode_set" function
+                               (:arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1164 1186])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1187 1204])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1220 1235])
+                                    ("index" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [1236 1257]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1151 2545]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1104 2568]))                  
+                :type "namespace")
+                nil [1082 2592]))          
+      :file "N_LIF_S1967.hpp"
+      :pointmax 2623
+      :fsize 2622
+      :lastmodtime '(21853 50726 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_N_LIF_S1967_HPP")
+          )
+))
+  :file "!Users!pranav!app!bio!insilico!include!insilico!neuron!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -30,25 +30,26 @@
     (semanticdb-table "index.hpp"
       :major-mode 'c++-mode
       :tags 
-        '( ("INCLUDED_INSILICO_CORE_ENGINE_SERIAL_INDEX_HPP" variable (:constant-flag t) nil [884 930])
-            ("core/type.hpp" include nil nil [932 956])
-            ("core/engine/data.hpp" include nil nil [957 988])
-            ("algorithm" include (:system-flag t) nil [990 1010])
-            ("cstdio" include (:system-flag t) nil [1011 1028])
-            ("fstream" include (:system-flag t) nil [1029 1047])
-            ("iostream" include (:system-flag t) nil [1048 1067])
-            ("string" include (:system-flag t) nil [1068 1085])
-            ("unordered_map" include (:system-flag t) nil [1086 1110])
-            ("vector" include (:system-flag t) nil [1111 1128])
+        '( ("INCLUDED_INSILICO_CORE_ENGINE_SERIAL_INDEX_HPP" variable (:constant-flag t) nil [894 940])
+            ("core/type.hpp" include nil nil [942 966])
+            ("core/engine/data.hpp" include nil nil [967 998])
+            ("core/engine/serial/common.hpp" include nil nil [999 1039])
+            ("algorithm" include (:system-flag t) nil [1041 1061])
+            ("cstdio" include (:system-flag t) nil [1062 1079])
+            ("fstream" include (:system-flag t) nil [1080 1098])
+            ("iostream" include (:system-flag t) nil [1099 1118])
+            ("string" include (:system-flag t) nil [1119 1136])
+            ("unordered_map" include (:system-flag t) nil [1137 1161])
+            ("vector" include (:system-flag t) nil [1162 1179])
             ("insilico" type
                (:members 
-                  ( ("engine" type (:type "namespace") (reparse-symbol namespacesubparts) [1151 4511]))                  
+                  ( ("engine" type (:type "namespace") (reparse-symbol namespacesubparts) [1202 4622]))                  
                 :type "namespace")
-                nil [1130 4513]))          
+                nil [1181 4624]))          
       :file "index.hpp"
-      :pointmax 4552
-      :fsize 4551
-      :lastmodtime '(21793 28077 0 0)
+      :pointmax 4663
+      :fsize 4662
+      :lastmodtime '(21803 43210 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("INCLUDED_INSILICO_CORE_ENGINE_SERIAL_INDEX_HPP")
@@ -57,39 +58,50 @@
     (semanticdb-table "value.hpp"
       :major-mode 'c++-mode
       :tags 
-        '( ("INCLUDED_INSILICO_CORE_ENGINE_SERIAL_VALUE_HPP" variable (:constant-flag t) nil [876 922])
-            ("core/configuration/error.hpp" include nil nil [924 963])
-            ("core/type.hpp" include nil nil [964 988])
-            ("core/engine/data.hpp" include nil nil [989 1020])
-            ("algorithm" include (:system-flag t) nil [1022 1042])
-            ("cstdio" include (:system-flag t) nil [1043 1060])
-            ("fstream" include (:system-flag t) nil [1061 1079])
-            ("iostream" include (:system-flag t) nil [1080 1099])
-            ("string" include (:system-flag t) nil [1100 1117])
-            ("unordered_map" include (:system-flag t) nil [1118 1142])
-            ("vector" include (:system-flag t) nil [1143 1160])
+        '( ("INCLUDED_INSILICO_CORE_ENGINE_SERIAL_VALUE_HPP" variable (:constant-flag t) nil [879 925])
+            ("core/configuration/error.hpp" include nil nil [927 966])
+            ("core/type.hpp" include nil nil [967 991])
+            ("core/engine/data.hpp" include nil nil [992 1023])
+            ("core/engine/serial/common.hpp" include nil nil [1024 1064])
+            ("algorithm" include (:system-flag t) nil [1066 1086])
+            ("cstdio" include (:system-flag t) nil [1087 1104])
+            ("fstream" include (:system-flag t) nil [1105 1123])
+            ("iostream" include (:system-flag t) nil [1124 1143])
+            ("string" include (:system-flag t) nil [1144 1161])
+            ("unordered_map" include (:system-flag t) nil [1162 1186])
+            ("vector" include (:system-flag t) nil [1187 1204])
             ("insilico" type
                (:members 
                   ( ("engine" type
                        (:members 
                           ( ("decltype" function
                                (:arguments 
-                                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4451 4464]))                                  
+                                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4606 4619]))                                  
                                 :type "int")
-                                (reparse-symbol namespacesubparts) [4442 4618])
+                                (reparse-symbol namespacesubparts) [4597 4773])
                             ("decltype" function
                                (:arguments 
-                                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4692 4705]))                                  
+                                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4851 4864]))                                  
                                 :type "int")
-                                (reparse-symbol namespacesubparts) [4683 4859]))                          
+                                (reparse-symbol namespacesubparts) [4842 5018]))                          
                         :type "namespace")
-                        (reparse-symbol namespacesubparts) [1183 6143]))                  
+                        (reparse-symbol namespacesubparts) [1227 6330])
+                    ("decltype" function
+                       (:arguments 
+                          ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4606 4619]))                          
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [4597 4773])
+                    ("decltype" function
+                       (:arguments 
+                          ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4851 4864]))                          
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [4842 5018]))                  
                 :type "namespace")
-                nil [1162 6145]))          
+                nil [1206 6330]))          
       :file "value.hpp"
-      :pointmax 6184
-      :fsize 6183
-      :lastmodtime '(21793 27877 0 0)
+      :pointmax 6371
+      :fsize 6370
+      :lastmodtime '(21812 57400 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("INCLUDED_INSILICO_CORE_ENGINE_SERIAL_VALUE_HPP")

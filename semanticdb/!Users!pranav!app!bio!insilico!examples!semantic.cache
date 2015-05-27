@@ -6,12 +6,12 @@
     (semanticdb-table "Makefile"
       :major-mode 'makefile-bsdmake-mode
       :tags 
-        '( ("all" function nil nil [802 1037]))          
+        '( ("all" function nil nil [802 1004]))          
       :file "Makefile"
-      :pointmax 1037
-      :fsize 1036
-      :lastmodtime '(21797 7422 0 0)
-      :unmatched-syntax '((shell-command 961 . 1036) (bol 960 . 960))))
+      :pointmax 1082
+      :fsize 1081
+      :lastmodtime '(21830 27826 0 0)
+      :unmatched-syntax nil))
   :file "!Users!pranav!app!bio!insilico!examples!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

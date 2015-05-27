@@ -1,0 +1,122 @@
+;; Object olsapp/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "olsapp/"
+  :tables
+  (list
+    (semanticdb-table "bowling_alley.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("player.hpp" include nil nil [15 36])
+            ("iostream" include (:system-flag t) nil [38 57])
+            ("vector" include (:system-flag t) nil [58 75])
+            ("olaapp" type
+               (:members 
+                  ( ("bowling_alley" type
+                       (:members 
+                          ( ("ScoreBoard" type
+                               (:members 
+                                  ( ("private" label nil (reparse-symbol classsubparts) [145 153])
+                                    ("scores" variable (:type ("std::vector" type
+                                         (:template-specifier 
+                                            ( ("unsigned int" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol classsubparts) [156 191])
+                                    ("round_scores" variable (:type ("std::vector" type
+                                         (:template-specifier 
+                                            ( ("unsigned int" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol classsubparts) [194 235])
+                                    ("total_rounds" variable (:type "unsigned int") (reparse-symbol classsubparts) [238 264])
+                                    ("turns_per_round" variable (:type "unsigned int") (reparse-symbol classsubparts) [267 296])
+                                    ("total_bonus_turn" variable (:type "unsigned int") (reparse-symbol classsubparts) [299 329])
+                                    ("bonus_round_score" variable
+                                       (:default-value "0"
+                                        :type "unsigned int")
+                                        (reparse-symbol classsubparts) [332 367])
+                                    ("bonus" variable (:type "unsigned int") (reparse-symbol classsubparts) [370 389])
+                                    ("round" variable (:type "unsigned int") (reparse-symbol classsubparts) [392 411])
+                                    ("turn" variable (:type "unsigned int") (reparse-symbol classsubparts) [414 432])
+                                    ("bonus_turn" variable
+                                       (:default-value "false"
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [435 459])
+                                    ("public" label nil (reparse-symbol classsubparts) [462 469])
+                                    ("ScoreBoard" function
+                                       (:constructor-flag t
+                                        :type ("ScoreBoard" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [472 751]))                                  
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [125 2604])
+                            ("BowlingAlley" type
+                               (:members 
+                                  ( ("private" label nil (reparse-symbol classsubparts) [2628 2636])
+                                    ("score_board" variable (:type ("ScoreBoard" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2639 2662])
+                                    ("player" variable (:type ("Player" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2665 2679])
+                                    ("public" label nil (reparse-symbol classsubparts) [2684 2691])
+                                    ("BowlingAlley" function
+                                       (:constructor-flag t
+                                        :type ("BowlingAlley" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2694 2746]))                                  
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [2606 3193]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [98 3218]))                  
+                :type "namespace")
+                nil [77 3220]))          
+      :file "bowling_alley.hpp"
+      :pointmax 3255
+      :fsize 3254
+      :lastmodtime '(21856 16881 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "player.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("random" include (:system-flag t) nil [15 32])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [34 54])
+            ("rand" function
+               (:arguments 
+                  ( ("min" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [70 83])
+                    ("max" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [84 97]))                  
+                :type "unsigned int")
+                nil [56 212])
+            ("rand" function
+               (:arguments 
+                  ( ("max" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [245 258]))                  
+                :type "unsigned int")
+                nil [231 285])
+            ("Player" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [320 327]))                  
+                :type "class")
+                nil [304 395]))          
+      :file "player.hpp"
+      :pointmax 420
+      :fsize 419
+      :lastmodtime '(21856 17043 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "main.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("bowling_alley.hpp" include nil nil [1 29])
+            ("player.hpp" include nil nil [30 51])
+            ("iostream" include (:system-flag t) nil [53 72])
+            ("olaapp" using (:type ("olaapp" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [74 97])
+            ("olaapp::bowling_alley" using (:type ("olaapp::bowling_alley" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [98 136])
+            ("main" function (:type "int") nil [138 240]))          
+      :file "main.cpp"
+      :pointmax 241
+      :fsize 240
+      :lastmodtime '(21856 16940 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!pranav!olsapp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

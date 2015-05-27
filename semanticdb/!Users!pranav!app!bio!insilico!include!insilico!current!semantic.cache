@@ -1,0 +1,49 @@
+;; Object current/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "current/"
+  :tables
+  (list
+    (semanticdb-table "I_Na_SquidAxon_HH_HH1952.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("INCLUDED_I_NA_SQUIDAXON_HH_HH1952_HPP" variable (:constant-flag t) nil [1134 1171])
+            ("insilico/core/engine.hpp" include nil nil [1173 1208])
+            ("insilico" type
+               (:members 
+                  ( ("I_Na_SquidAxon_HH_HH1952" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1266 1273])
+                            ("current" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("variables" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1296 1318])
+                                    ("dxdt" variable
+                                       (:reference 1
+                                        :type ("state_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1319 1336])
+                                    ("t" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [1337 1352])
+                                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1353 1363]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1276 2077]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1232 2100]))                  
+                :type "namespace")
+                nil [1210 2137]))          
+      :file "I_Na_SquidAxon_HH_HH1952.hpp"
+      :pointmax 2158
+      :fsize 2157
+      :lastmodtime '(21821 16373 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INCLUDED_I_NA_SQUIDAXON_HH_HH1952_HPP")
+          )
+))
+  :file "!Users!pranav!app!bio!insilico!include!insilico!current!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

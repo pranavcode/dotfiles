@@ -6,36 +6,37 @@
     (semanticdb-table "main.cpp"
       :major-mode 'c++-mode
       :tags 
-        '( ("core.hpp" include nil nil [970 989])
-            ("neuron/N_SquidAxon_HH1952.hpp" include nil nil [991 1031])
-            ("synapse/S_DefaultSynapse.hpp" include nil nil [1032 1071])
-            ("boost/numeric/odeint.hpp" include (:system-flag t) nil [1073 1108])
-            ("fstream" include (:system-flag t) nil [1110 1128])
-            ("iostream" include (:system-flag t) nil [1129 1148])
-            ("iomanip" include (:system-flag t) nil [1149 1167])
-            ("string" include (:system-flag t) nil [1168 1185])
-            ("vector" include (:system-flag t) nil [1186 1203])
+        '( ("insilico/core.hpp" include nil nil [1017 1045])
+            ("insilico/neuron/helper/spike_list.hpp" include nil nil [1047 1095])
+            ("insilico/neuron/N_SquidAxon_HH1952.hpp" include nil nil [1117 1166])
+            ("insilico/synapse/S_DefaultSynapse.hpp" include nil nil [1167 1215])
+            ("boost/numeric/odeint.hpp" include (:system-flag t) nil [1217 1252])
+            ("fstream" include (:system-flag t) nil [1254 1272])
+            ("iostream" include (:system-flag t) nil [1273 1292])
+            ("iomanip" include (:system-flag t) nil [1293 1311])
+            ("string" include (:system-flag t) nil [1312 1329])
+            ("vector" include (:system-flag t) nil [1330 1347])
             ("insilico" using (:type ("insilico" type
                  (:prototype t
                   :type "namespace")
-                  nil nil)) nil [1205 1230])
+                  nil nil)) nil [1349 1374])
             ("std" using (:type ("std" type
                  (:prototype t
                   :type "namespace")
-                  nil nil)) nil [1231 1251])
+                  nil nil)) nil [1375 1395])
             ("main" function
                (:arguments 
-                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1262 1271])
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1406 1415])
                     ("argv" variable
                        (:pointer 2
                         :type "char")
-                        (reparse-symbol arg-sub-list) [1272 1284]))                  
+                        (reparse-symbol arg-sub-list) [1416 1428]))                  
                 :type "int")
-                nil [1253 1722]))          
+                nil [1397 1900]))          
       :file "main.cpp"
-      :pointmax 1723
-      :fsize 1722
-      :lastmodtime '(21769 18725 0 0)
+      :pointmax 1901
+      :fsize 1900
+      :lastmodtime '(21850 18743 0 0)
       :unmatched-syntax nil)
     (semanticdb-table "Makefile"
       :major-mode 'makefile-bsdmake-mode

@@ -430,47 +430,56 @@
                     ("m_gamma" variable (:type "double") (reparse-symbol classsubparts) [2179 2194]))                  
                 :type "struct")
                 nil [786 2197])
-            ("outstream" variable (:type ("ofstream" type (:type "class") nil nil)) nil [2215 2234])
-            ("observer" type
-               (:members 
-                  ( ("outfile" variable (:type ("ofstream" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2255 2273])
-                    ("observer" function
-                       (:constructor-flag t
-                        :arguments 
-                          ( ("stream_" variable
-                               (:reference 1
-                                :type ("ofstream" type (:type "class") nil nil))
-                                (reparse-symbol arg-sub-list) [2285 2303]))                          
-                        :type ("observer" type (:type "struct") nil nil))
-                        (reparse-symbol classsubparts) [2276 2324])
-                    ("()" function
-                       (:operator-flag t
-                        :arguments 
-                          ( ("variables" variable
-                               (:reference 1
-                                :type ("state_type" type (:type "class") nil nil))
-                                (reparse-symbol arg-sub-list) [2343 2365])
-                            ("t" variable
-                               (:constant-flag t
-                                :type "double")
-                                (reparse-symbol arg-sub-list) [2366 2381]))                          
-                        :type "void")
-                        (reparse-symbol classsubparts) [2327 2552]))                  
-                :type "struct")
-                nil [2235 2555])
             ("main" function
                (:arguments 
-                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2567 2577])
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2213 2223])
                     ("argv" variable
                        (:pointer 2
                         :type "char")
-                        (reparse-symbol arg-sub-list) [2578 2591]))                  
+                        (reparse-symbol arg-sub-list) [2224 2237]))                  
                 :type "int")
-                nil [2557 3539]))          
+                nil [2203 3157]))          
       :file "phase_chain.cpp"
-      :pointmax 3540
-      :fsize 3539
-      :lastmodtime '(21789 60141 0 0)
+      :pointmax 3158
+      :fsize 3157
+      :lastmodtime '(21812 54063 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "counter_check.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("MP" variable (:constant-flag t) nil [30 32])
+            ("EX" variable (:constant-flag t) nil [43 45])
+            ("main" function (:type "int") nil [66 304]))          
+      :file "counter_check.cpp"
+      :pointmax 305
+      :fsize 304
+      :lastmodtime '(21834 21811 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("EX" . ((semantic-list "(__COUNTER__ % MP)" 46 . 64)))
+          ("MP" . ((number "4" 33 . 34)))
+          )
+)
+    (semanticdb-table "openmp_exp.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cmath" include (:system-flag t) nil [21 37])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [48 57])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [58 71]))                  
+                :type "int")
+                nil [39 167]))          
+      :file "openmp_exp.cpp"
+      :pointmax 173
+      :fsize 172
+      :lastmodtime '(21859 20679 0 0)
       :unmatched-syntax nil))
   :file "!Users!pranav!app!experiments!semantic.cache"
   :semantic-tag-version "2.0"

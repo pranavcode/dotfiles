@@ -10,7 +10,20 @@
       :pointmax 193
       :fsize 192
       :lastmodtime '(21769 30582 0 0)
-      :unmatched-syntax '((PAREN_BLOCK 181 . 191) (PAREN_BLOCK 1 . 181) (PAREN_BLOCK 137 . 147) (PAREN_BLOCK 1 . 137) (PAREN_BLOCK 181 . 191) (PAREN_BLOCK 1 . 181))))
+      :unmatched-syntax '((PAREN_BLOCK 181 . 191) (PAREN_BLOCK 1 . 181) (PAREN_BLOCK 137 . 147) (PAREN_BLOCK 1 . 137) (PAREN_BLOCK 181 . 191) (PAREN_BLOCK 1 . 181)))
+    (semanticdb-table "index.html"
+      :major-mode 'html-mode
+      :tags 
+        '( ("insilico - Neuronal Simulation Library for Computational Neuroscience" section nil nil [37 195])
+            ("INSILICO" section (:members 
+              ( ("DOCS" anchor nil nil [339 342])
+                ("INSILICO 0.24" anchor nil nil [1364 1367])
+                ("the archives" anchor nil nil [1417 1420]))              ) nil [195 1502]))          
+      :file "index.html"
+      :pointmax 1502
+      :fsize 1501
+      :lastmodtime '(21822 7495 0 0)
+      :unmatched-syntax nil))
   :file "!Users!pranav!app!bio!insilico-web!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

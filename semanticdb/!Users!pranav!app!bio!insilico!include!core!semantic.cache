@@ -118,7 +118,7 @@
       :file "injector.hpp"
       :pointmax 1664
       :fsize 1663
-      :lastmodtime '(21790 55928 0 0)
+      :lastmodtime '(21793 25239 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("INCLUDED_INSILICO_CORE_INJECTOR_HPP")
@@ -127,65 +127,72 @@
     (semanticdb-table "type.hpp"
       :major-mode 'c++-mode
       :tags 
-        '( ("INCLUDED_INSILICO_CORE_TYPE_HPP" variable (:constant-flag t) nil [859 890])
-            ("iostream" include (:system-flag t) nil [892 911])
-            ("vector" include (:system-flag t) nil [912 929])
+        '( ("INCLUDED_INSILICO_CORE_TYPE_HPP" variable (:constant-flag t) nil [875 906])
+            ("iostream" include (:system-flag t) nil [908 927])
+            ("vector" include (:system-flag t) nil [928 945])
+            ("boost/numeric/odeint/external/mpi/mpi.hpp" include (:system-flag t) nil [946 998])
             ("insilico" type
                (:members 
-                  ( ("std::vector" variable (:type "int") (reparse-symbol namespacesubparts) [972 992])
+                  ( ("std::vector" variable (:type "int") (reparse-symbol namespacesubparts) [1041 1061])
                     ("Neuron" type
                        (:members 
-                          ( ("public" label nil (reparse-symbol classsubparts) [1010 1017])
+                          ( ("public" label nil (reparse-symbol classsubparts) [1079 1086])
                             ("ode_set" function
                                (:typemodifiers ("virtual")
                                 :arguments 
                                   ( ("" variable
                                        (:reference 1
                                         :type ("state_type" type (:type "class") nil nil))
-                                        (reparse-symbol arg-sub-list) [1041 1054])
+                                        (reparse-symbol arg-sub-list) [1110 1123])
                                     ("" variable
                                        (:reference 1
                                         :type ("state_type" type (:type "class") nil nil))
-                                        (reparse-symbol arg-sub-list) [1055 1068])
+                                        (reparse-symbol arg-sub-list) [1147 1160])
                                     ("" variable
                                        (:constant-flag t
                                         :type "double")
-                                        (reparse-symbol arg-sub-list) [1069 1082])
-                                    ("" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1083 1092]))                                  
+                                        (reparse-symbol arg-sub-list) [1184 1197])
+                                    ("" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [1221 1236]))                                  
                                 :type "void")
-                                (reparse-symbol classsubparts) [1020 1142]))                          
+                                (reparse-symbol classsubparts) [1089 1286]))                          
                         :type "class")
-                        (reparse-symbol namespacesubparts) [994 1145])
+                        (reparse-symbol namespacesubparts) [1063 1289])
                     ("Synapse" type
                        (:members 
-                          ( ("public" label nil (reparse-symbol classsubparts) [1164 1171])
+                          ( ("public" label nil (reparse-symbol classsubparts) [1308 1315])
                             ("ode_set" function
                                (:typemodifiers ("virtual")
                                 :arguments 
                                   ( ("" variable
                                        (:reference 1
                                         :type ("state_type" type (:type "class") nil nil))
-                                        (reparse-symbol arg-sub-list) [1195 1208])
+                                        (reparse-symbol arg-sub-list) [1339 1352])
                                     ("" variable
                                        (:reference 1
                                         :type ("state_type" type (:type "class") nil nil))
-                                        (reparse-symbol arg-sub-list) [1209 1222])
+                                        (reparse-symbol arg-sub-list) [1376 1389])
                                     ("" variable
                                        (:constant-flag t
                                         :type "double")
-                                        (reparse-symbol arg-sub-list) [1223 1236])
-                                    ("" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1237 1246]))                                  
+                                        (reparse-symbol arg-sub-list) [1413 1426])
+                                    ("" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [1450 1465]))                                  
                                 :type "void")
-                                (reparse-symbol classsubparts) [1174 1296]))                          
+                                (reparse-symbol classsubparts) [1318 1515]))                          
                         :type "class")
-                        (reparse-symbol namespacesubparts) [1147 1299]))                  
+                        (reparse-symbol namespacesubparts) [1291 1518]))                  
                 :type "namespace")
-                nil [931 1302]))          
+                nil [1000 1521]))          
       :file "type.hpp"
-      :pointmax 1333
-      :fsize 1332
-      :lastmodtime '(21760 15990 0 0)
-      :unmatched-syntax '((punctuation 970 . 971) (symbol 959 . 969) (USING 953 . 958) (punctuation 970 . 971) (symbol 959 . 969) (USING 953 . 958) (punctuation 970 . 971) (symbol 959 . 969) (USING 953 . 958))
+      :pointmax 1552
+      :fsize 1551
+      :lastmodtime '(21817 60030 0 0)
+      :unmatched-syntax '((punctuation 1039 . 1040) (symbol 1028 . 1038) (USING 1022 . 1027) (punctuation 1387 . 1388) (symbol 1376 . 1386))
       :lexical-table 
         '(("INCLUDED_INSILICO_CORE_TYPE_HPP")
           )

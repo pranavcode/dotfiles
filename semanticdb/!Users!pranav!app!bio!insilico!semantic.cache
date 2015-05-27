@@ -3,27 +3,21 @@
 (semanticdb-project-database-file "insilico/"
   :tables
   (list
-    (semanticdb-table "neuron_helper.hpp"
-      :major-mode 'c++-mode
+
+    (semanticdb-table "Makefile"
+      :major-mode 'makefile-bsdmake-mode
       :tags 
-        '( ("INCLUDED_INSILICO_NEURON_HELPER_HPP" variable (:constant-flag t) nil [84 119])
-            ("core/engine.hpp" include nil nil [121 147])
-            ("string" include (:system-flag t) nil [149 166])
-            ("vector" include (:system-flag t) nil [167 184])
-            ("insilico" type
-               (:members 
-                  ( ("neuron_helper" type (:type "namespace") (reparse-symbol namespacesubparts) [207 1106]))                  
-                :type "namespace")
-                nil [186 1108]))          
-      :file "neuron_helper.hpp"
-      :pointmax 1117
-      :fsize 1116
-      :lastmodtime '(21777 42616 0 0)
-      :unmatched-syntax nil
-      :lexical-table 
-        '(("INCLUDED_INSILICO_NEURON_HELPER_HPP")
-          )
-))
+        '( ("SOURCE" variable (:default-value ("main.cpp")) nil [879 897])
+            ("TARGET" variable (:default-value ("insilico.out")) nil [918 940])
+            ("CC" variable (:default-value ("g++")) nil [959 968])
+            ("CFLAGS" variable (:default-value ("-O3" "-std=c++11" "-Wall" "-Iinclude" "-o")) nil [1119 1162])
+            ("all" function (:arguments ("$(TARGET)")) nil [1163 1178])
+            ("$(TARGET)" function nil nil [1179 1227]))          
+      :file "Makefile"
+      :pointmax 1227
+      :fsize 1226
+      :lastmodtime '(21757 27149 0 0)
+      :unmatched-syntax '((shell-command 1191 . 1226) (bol 1190 . 1190) (symbol 1052 . 1067) (symbol 1048 . 1051) (punctuation 1047 . 1048) (symbol 1040 . 1047) (punctuation 1039 . 1040) (symbol 1034 . 1039) (punctuation 1033 . 1034) (punctuation 1032 . 1033) (symbol 1029 . 1032) (punctuation 1027 . 1028) (punctuation 1026 . 1027) (symbol 1023 . 1025) (bol 1020 . 1020))))
   :file "!Users!pranav!app!bio!insilico!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

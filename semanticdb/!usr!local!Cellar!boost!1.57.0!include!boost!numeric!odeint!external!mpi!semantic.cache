@@ -140,8 +140,14 @@
                                                 :typemodifiers ("inline")
                                                 :constant-flag t
                                                 :type ("InnerState" type (:type "class") nil nil))
-                                                (reparse-symbol classsubparts) [1395 1457]))                                          )
-                                        (reparse-symbol namespacesubparts) [1079 1460])
+                                                (reparse-symbol classsubparts) [1395 1457])
+                                            ("[]" function
+                                               (:operator-flag t
+                                                :arguments 
+                                                  ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [1477 1483]))                                                  
+                                                :type "int")
+                                                (reparse-symbol classsubparts) [1461 1577]))                                          )
+                                        (reparse-symbol namespacesubparts) [1079 1580])
                                     ("is_resizeable" type
                                        (:template 
                                           ( ("InnerState" type (:type "class") nil nil))                                          
@@ -153,7 +159,7 @@
                                                 nil nil))                                          
                                         :template-specifier 
                                           ( ("mpi_state" type nil nil nil))                                          )
-                                        (reparse-symbol namespacesubparts) [1465 1581])
+                                        (reparse-symbol namespacesubparts) [1585 1701])
                                     ("same_size_impl" type
                                        (:template 
                                           ( ("InnerState1" type (:type "class") nil nil)
@@ -171,7 +177,7 @@
                                                                 ( ("InnerState1" type nil nil nil))                                                                
                                                               :type "class")
                                                               nil nil))
-                                                        (reparse-symbol arg-sub-list) [1740 1775])
+                                                        (reparse-symbol arg-sub-list) [1860 1895])
                                                     ("y" variable
                                                        (:reference 1
                                                         :constant-flag t
@@ -180,13 +186,13 @@
                                                                 ( ("InnerState2" type nil nil nil))                                                                
                                                               :type "class")
                                                               nil nil))
-                                                        (reparse-symbol arg-sub-list) [1776 1811]))                                                  
+                                                        (reparse-symbol arg-sub-list) [1896 1931]))                                                  
                                                 :type "bool")
-                                                (reparse-symbol classsubparts) [1717 1976]))                                          
+                                                (reparse-symbol classsubparts) [1837 2096]))                                          
                                         :template-specifier 
                                           ( ("mpi_state" type nil nil nil)
                                             ("mpi_state" type nil nil nil))                                          )
-                                        (reparse-symbol namespacesubparts) [1584 1979])
+                                        (reparse-symbol namespacesubparts) [1704 2099])
                                     ("resize_impl" type
                                        (:template 
                                           ( ("InnerState1" type (:type "class") nil nil)
@@ -203,7 +209,7 @@
                                                                 ( ("InnerState1" type nil nil nil))                                                                
                                                               :type "class")
                                                               nil nil))
-                                                        (reparse-symbol arg-sub-list) [2132 2161])
+                                                        (reparse-symbol arg-sub-list) [2252 2281])
                                                     ("y" variable
                                                        (:reference 1
                                                         :constant-flag t
@@ -212,13 +218,13 @@
                                                                 ( ("InnerState2" type nil nil nil))                                                                
                                                               :type "class")
                                                               nil nil))
-                                                        (reparse-symbol arg-sub-list) [2162 2197]))                                                  
+                                                        (reparse-symbol arg-sub-list) [2282 2317]))                                                  
                                                 :type "void")
-                                                (reparse-symbol classsubparts) [2112 2303]))                                          
+                                                (reparse-symbol classsubparts) [2232 2423]))                                          
                                         :template-specifier 
                                           ( ("mpi_state" type nil nil nil)
                                             ("mpi_state" type nil nil nil))                                          )
-                                        (reparse-symbol namespacesubparts) [1982 2306])
+                                        (reparse-symbol namespacesubparts) [2102 2426])
                                     ("copy_impl" type
                                        (:template 
                                           ( ("InnerState1" type (:type "class") nil nil)
@@ -236,7 +242,7 @@
                                                                 ( ("InnerState1" type nil nil nil))                                                                
                                                               :type "class")
                                                               nil nil))
-                                                        (reparse-symbol arg-sub-list) [2512 2550])
+                                                        (reparse-symbol arg-sub-list) [2632 2670])
                                                     ("to" variable
                                                        (:reference 1
                                                         :type ("mpi_state" type
@@ -244,33 +250,33 @@
                                                                 ( ("InnerState2" type nil nil nil))                                                                
                                                               :type "class")
                                                               nil nil))
-                                                        (reparse-symbol arg-sub-list) [2551 2581]))                                                  
+                                                        (reparse-symbol arg-sub-list) [2671 2701]))                                                  
                                                 :type "void")
-                                                (reparse-symbol classsubparts) [2494 2687]))                                          
+                                                (reparse-symbol classsubparts) [2614 2807]))                                          
                                         :template-specifier 
                                           ( ("mpi_state" type nil nil nil)
                                             ("mpi_state" type nil nil nil))                                          )
-                                        (reparse-symbol namespacesubparts) [2366 2690])
+                                        (reparse-symbol namespacesubparts) [2486 2810])
                                     ("algebra_dispatcher" type
                                        (:template 
                                           ( ("InnerState" type (:type "class") nil nil))                                          
                                         :type "struct"
                                         :members 
-                                          ( ("algebra_type" variable (:type "int") (reparse-symbol classsubparts) [2929 2942]))                                          
+                                          ( ("algebra_type" variable (:type "int") (reparse-symbol classsubparts) [3049 3062]))                                          
                                         :template-specifier 
                                           ( ("mpi_state" type nil nil nil))                                          )
-                                        (reparse-symbol namespacesubparts) [2743 2945]))                                  
+                                        (reparse-symbol namespacesubparts) [2863 3065]))                                  
                                 :type "namespace")
-                                (reparse-symbol namespacesubparts) [980 2949]))                          
+                                (reparse-symbol namespacesubparts) [980 3069]))                          
                         :type "namespace")
-                        (reparse-symbol namespacesubparts) [960 2951]))                  
+                        (reparse-symbol namespacesubparts) [960 3071]))                  
                 :type "namespace")
-                nil [942 2953]))          
+                nil [942 3073]))          
       :file "mpi_state.hpp"
-      :pointmax 2963
-      :fsize 2962
-      :lastmodtime '(21727 6092 0 0)
-      :unmatched-syntax '((punctuation 2927 . 2928) (symbol 2910 . 2922) (punctuation 2909 . 2910) (punctuation 2908 . 2909) (punctuation 2907 . 2908) (symbol 2896 . 2906) (punctuation 2894 . 2895) (symbol 2876 . 2894) (TYPENAME 2867 . 2875) (punctuation 2857 . 2858) (symbol 2839 . 2857) (TYPEDEF 2831 . 2838))
+      :pointmax 3083
+      :fsize 3082
+      :lastmodtime '(21813 2152 0 0)
+      :unmatched-syntax nil
       :lexical-table 
         '(("BOOST_NUMERIC_ODEINT_EXTERNAL_MPI_MPI_STATE_HPP_INCLUDED")
           )
