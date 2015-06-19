@@ -103,12 +103,12 @@
 (global-set-key (kbd "C-c <") 'mc/mark-all-like-this)
 
 ;; Turn on semantic mode
-(semantic-mode 1)
-(defun my:add-semantics-to-autocomplete()
-  (add-to-list 'ac-sources 'ac-source-semantic))
-(add-hook 'c-mode-common-hook 'my:add-semantics-to-autocomplete)
-(add-hook 'c++-mode-common-hook 'my:add-semantics-to-autocomplete)
-(global-semantic-idle-scheduler-mode 1)
+;; (semantic-mode 1)
+;; (defun my:add-semantics-to-autocomplete()
+;;  (add-to-list 'ac-sources 'ac-source-semantic))
+;; (add-hook 'c-mode-common-hook 'my:add-semantics-to-autocomplete)
+;; (add-hook 'c++-mode-common-hook 'my:add-semantics-to-autocomplete)
+;; (global-semantic-idle-scheduler-mode 1)
 
 ;; Setting up selection region key binds
 (global-set-key (kbd "C-c =") 'er/expand-region)
