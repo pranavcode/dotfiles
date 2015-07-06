@@ -1,4 +1,0 @@
-# name : $this->Html->url(...)
-# condition: cake2
-# --
-\$this->Html->url(${1:'url_path'});

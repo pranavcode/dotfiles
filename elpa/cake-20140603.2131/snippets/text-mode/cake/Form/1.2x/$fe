@@ -1,4 +1,0 @@
-# name : $form->end();
-# condition: cake
-# --
-\$form->end();

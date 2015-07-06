@@ -1,4 +1,0 @@
-# name : pr(...)
-# condition: cake
-# --
-pr($0);

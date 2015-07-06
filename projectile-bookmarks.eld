@@ -1,1 +1,0 @@
-("~/app/bio/insilico/" "~/app/experiments/" "~/transz/" "~/.emacs.d/" "~/app/tech-test/demo-gonpy/" "~/app/tech-test/go-lib/" "~/insilico-0.25/" "~/app/tech-test/python-lib/" "~/app/bio/insilico-reweb/" "/usr/local/" "~/app/bio/insilico-web/" "~/Downloads/insilico-0.21/" "~/Downloads/insilico-0.20/")

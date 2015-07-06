@@ -1,4 +1,0 @@
-# name : $this->Form->end();
-# condition: cake
-# --
-\$this->Form->end();

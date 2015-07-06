@@ -1,4 +1,0 @@
-# name : $this->Form->create(...)
-# condition: cake2
-# --
-\$this->Form->create('${1:Model}', array('action' => '${2:add}'));

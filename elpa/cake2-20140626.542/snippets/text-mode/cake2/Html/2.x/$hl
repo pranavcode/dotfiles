@@ -1,4 +1,0 @@
-# name : $this->Html->link(...)
-# condition: cake2
-# --
-\$this->Html->link(${1:'link_title'}, array('controller' => '${2:controller}', 'action' => '${3:action}'${4:}));
