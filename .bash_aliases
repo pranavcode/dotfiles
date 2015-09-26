@@ -1,7 +1,8 @@
-# Aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l="ls -ltrahFG"
+# Bash Aliases
+
+alias ll='ls -alF --color'
+alias la='ls -A --color'
+alias l="ls -ltrahFG --color"
 
 # Git specific aliases
 alias gpr="git pull --rebase"
@@ -23,8 +24,12 @@ alias emx="emacs -nw"
 alias screenoff="xset dpms force off"
 alias poweroff="sudo shutdown -h now"
 
+# Rails specific
+alias be="bundle exec"
+
 # Docker specific
 alias dps="docker ps"
 alias dimgs="docker images"
 alias drun="docker run -t"
 alias druni="docker run -t -i"
+alias mine="./RubyMine7/bin/rubymine.sh"

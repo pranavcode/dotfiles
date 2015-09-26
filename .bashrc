@@ -56,7 +56,8 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-PS1='${debian_chroot:+($debian_chroot)}\w $ '
+# PS1='${debian_chroot:+($debian_chroot)}\w $ '
+export PS1="\${debian_chroot:+(\$debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\\n$ "
 unset color_prompt force_color_prompt
 
 # enable color support of ls and also add handy aliases
@@ -107,3 +108,12 @@ esac
 # Git completion
 # Needs https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 . ~/git-completion.bash
+. ~/hub.bash_completion.sh
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.cask/bin" # Add cask to PATH
+
+eval "$(hub alias -s)"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

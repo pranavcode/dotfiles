@@ -4,13 +4,13 @@
 	name = Pranav Kulkarni
 	email = pranavcode@gmail.com
 [core]
-	editor = emacs -nw
+	editor = emacs
 	autocrlf = false
 	fileMode = false
 	repositoryFormatVersion = 0
 	symlinks = true
 	logAllRefUpdates = true
-	excludesfile = /Users/pranav/.gitignore_global
+	excludesfile = /home/pranav/.gitignore_global
 [color]
 	ui = true
 [rebase]
