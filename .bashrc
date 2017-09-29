@@ -113,7 +113,25 @@ esac
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/.cask/bin" # Add cask to PATH
 
+
+### Add hub binary
+export PATH="$HOME/bin:$PATH"
 eval "$(hub alias -s)"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+export NVM_DIR="/home/pranav/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/home/pranav/Downloads/google-cloud-sdk/path.bash.inc'
+
+# The next line enables shell command completion for gcloud.
+source '/home/pranav/Downloads/google-cloud-sdk/completion.bash.inc'
+source /home/pranav/bash_completions/kubectl
+
+export PATH="/usr/local/go/bin:$PATH"
+export PATH="/usr/local/cuda-8.0/bin:$PATH"
+# export LD_LIBRARY_PATH="/usr/lib/jvm/java-9-openjdk-amd64/lib/amd64/jli/libjli.so:$LD_LIBRARY_PATH"
+
