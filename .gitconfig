@@ -4,7 +4,7 @@
 	name = Pranav Kulkarni
 	email = pranavcode@gmail.com
 [core]
-	editor = emacs
+	editor = nano
 	autocrlf = false
 	fileMode = false
 	repositoryFormatVersion = 0
