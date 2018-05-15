@@ -107,6 +107,10 @@ case $_myos in
 	  fi
 esac
 
+# Github Hub
+export HUB_HOME=/usr/share/hub
+export PATH=$HUB_HOME/bin:$PATH
+
 # Git completion
 # Needs https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 . ~/git-completion.bash
@@ -114,7 +118,6 @@ esac
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/.cask/bin" # Add cask to PATH
-
 
 ### Add hub binary
 export PATH="$HOME/bin:$PATH"
@@ -127,13 +130,23 @@ export NVM_DIR="/home/pranav/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # The next line updates PATH for the Google Cloud SDK.
-source '/home/pranav/Downloads/google-cloud-sdk/path.bash.inc'
+# source '/home/pranav/Downloads/google-cloud-sdk/path.bash.inc'
+
+source <(kubectl completion bash)
 
 # The next line enables shell command completion for gcloud.
-source '/home/pranav/Downloads/google-cloud-sdk/completion.bash.inc'
-source /home/pranav/bash_completions/kubectl
+# source '/home/pranav/Downloads/google-cloud-sdk/completion.bash.inc'
+# source /home/pranav/bash_completions/kubectl
 
-export PATH="/usr/local/go/bin:$PATH"
-export PATH="/usr/local/cuda-8.0/bin:$PATH"
+# export PATH="/usr/local/go/bin:$PATH"
+# export PATH="/usr/local/cuda-8.0/bin:$PATH"
 # export LD_LIBRARY_PATH="/usr/lib/jvm/java-9-openjdk-amd64/lib/amd64/jli/libjli.so:$LD_LIBRARY_PATH"
 
+# Exporting Node/NPM
+export PATH="/home/pranav/node-v8.11.1-linux-x64/bin:$PATH"
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
