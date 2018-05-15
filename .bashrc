@@ -100,9 +100,11 @@ esac
 # sources /etc/bash.bashrc).
 case $_myos in
     Darwin)
-	if [ -f $(brew --prefix)/etc/bash_completion ]; then
-	    . $(brew --prefix)/etc/bash_completion
-	fi ;;
+	  if [ -f /usr/share/bash-completion/bash_completion ]; then
+	    . /usr/share/bash-completion/bash_completion
+	  elif [ -f /etc/bash_completion ]; then
+	    . /etc/bash_completion
+	  fi
 esac
 
 # Git completion
