@@ -116,7 +116,6 @@ export PATH=$HUB_HOME/bin:$PATH
 . ~/git-completion.bash
 . ~/hub.bash_completion.sh
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/.cask/bin" # Add cask to PATH
 
 ### Add hub binary
@@ -125,9 +124,6 @@ eval "$(hub alias -s)"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-
-export NVM_DIR="/home/pranav/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # The next line updates PATH for the Google Cloud SDK.
 # source '/home/pranav/Downloads/google-cloud-sdk/path.bash.inc'
@@ -143,10 +139,17 @@ source <(kubectl completion bash)
 # export LD_LIBRARY_PATH="/usr/lib/jvm/java-9-openjdk-amd64/lib/amd64/jli/libjli.so:$LD_LIBRARY_PATH"
 
 # Exporting Node/NPM
-export PATH="/home/pranav/node-v8.11.1-linux-x64/bin:$PATH"
+# export PATH="/home/pranav/node-v8.11.1-linux-x64/bin:$PATH"
+
+export NVM_DIR="/home/pranav/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$HOME/flutter/bin
+
+source /etc/profile.d/rvm.sh
