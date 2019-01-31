@@ -153,3 +153,14 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$HOME/flutter/bin
 
 source /etc/profile.d/rvm.sh
+
+# User specific aliases and functions
+export MAPD_USER=mapd
+export MAPD_GROUP=mapd
+export MAPD_STORAGE=/var/lib/mapd
+export MAPD_PATH=/opt/mapd
+export MAPD_LOG=/var/lib/mapd/data/mapd_log
+
+#export JAVA_HOME=/
+#export PATH=$PATH:$JAVA_HOME/bin
+
