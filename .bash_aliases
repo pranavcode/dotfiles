@@ -3,9 +3,9 @@
 #-----------------------------
 # General
 #-----------------------------
-alias ll='ls -alF --color'
-alias la='ls -A --color'
-alias l="ls -ltrahFG --color"
+alias ll='ls -alF -color'
+alias la='ls -A -color'
+alias l="ls -ltrahFG -color"
 alias grep="grep --color"
 alias mv="mv -i"
 alias cp="cp -i"
