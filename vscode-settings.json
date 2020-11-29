@@ -1,0 +1,65 @@
+{
+  "editor.accessibilitySupport": "off",
+  "emmet.includeLanguages": {
+    "jinja2": "html",
+    "jinja-html": "html",
+  },
+  "[jinja]": {
+    "editor.defaultFormatter": "monosans.djlint",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+  },
+  "[jinja-html]": {
+    "editor.defaultFormatter": "monosans.djlint",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+  },
+  "workbench.sideBar.location": "right",
+  "files.autoSave": "afterDelay",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.linkedEditing": true,
+  "yaml.schemas": {
+    "file:///root/.vscode-server/extensions/atlassian.atlascode-2.10.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": false,
+  "editor.fontFamily": "Menlo, Monaco, 'Fira Code', 'Courier New', monospace",
+  "workbench.startupEditor": "none",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.mac": "/Users/pranavkulkarni/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "gitlens.codeLens.symbolScopes": [
+      "!Module"
+    ],
+    "editor.wordBasedSuggestions": false,
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": [
+    "--exclude='*.js,*.html'"
+  ],
+  "files.trimTrailingWhitespace": true,
+  "html.format.indentInnerHtml": true,
+  "files.associations": {
+    "*.html": "jinja-html"
+  },
+}

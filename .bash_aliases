@@ -69,8 +69,11 @@ kurp() {
     kubectl config use-context gke_replay-gaming_us-central1-c_production
 }
 
-alias kgp='kubectl get pod'
+alias kgp='kubectl get pods'
 alias kgps='kubectl get pods -o wide --show-all'
 alias kgs='kubectl get svc'
 alias kgd='kubectl get deployment'
 alias kl='kubectl logs'
+alias kgc='kubectl config get-contexts'
+alias kuc='kubectl config use-context'
+alias kgn='kubectl get namespaces'

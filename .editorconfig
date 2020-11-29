@@ -1,0 +1,24 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Note: Brace expansion notation matches multiple files
+
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8  # Default charset
+end_of_line = lf  # Unix-style newlines with a newline ending every file
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Tab indentation (no size specified)
+[Makefile]
+indent_style = tab
+
+[*.{html,jinja,js,yml}]
+indent_style = space
+indent_size = 2

@@ -163,4 +163,3 @@ export MAPD_LOG=/var/lib/mapd/data/mapd_log
 
 #export JAVA_HOME=/
 #export PATH=$PATH:$JAVA_HOME/bin
-
